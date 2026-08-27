@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+workspace/*/evidence.sqlite3
+workspace/*/output/*.docx
+workspace/*/output/*.html
