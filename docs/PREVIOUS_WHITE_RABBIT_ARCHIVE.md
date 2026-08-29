@@ -33,6 +33,7 @@ research_library/
       sources/
 knowledge/
   white_rabbit.db
+  archive_search_index_v3.joblib   # local, rebuild with `archive reindex`
 ```
 
 ## Commands
@@ -41,10 +42,18 @@ knowledge/
 python -m white_rabbit archive sync
 python -m white_rabbit archive sync --refresh   # re-fetch older posts to detect edits
 python -m white_rabbit archive status
+python -m white_rabbit archive reindex          # rebuild the local search index
+python -m white_rabbit archive search "query"
 python -m white_rabbit run "TOPIC" --project project_id
 ```
 
 The `run` command performs an incremental archive sync automatically unless `--no-archive-sync` is supplied. Incremental sync discovers the publication but downloads only article URLs not already stored locally. Use `archive sync --refresh` when you want to re-fetch older posts and detect edits.
+
+Search indexes are generated on the machine and should not be committed. After a fresh clone:
+
+```powershell
+python -m white_rabbit archive reindex
+```
 
 ## Paid/subscriber-only posts
 
