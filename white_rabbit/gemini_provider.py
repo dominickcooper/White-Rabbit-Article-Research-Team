@@ -5,6 +5,7 @@ from typing import TypeVar, Type
 
 from pydantic import BaseModel
 
+from .json_repair import parse_structured
 from .schemas import (
     AnchorMap,
     ArticleMetadata,
@@ -98,7 +99,7 @@ class GeminiProvider:
         text = getattr(interaction, "output_text", None)
         if not text:
             raise RuntimeError("Gemini returned an empty structured response")
-        return schema.model_validate_json(text)
+        return parse_structured(text, schema)
 
     @staticmethod
     def _citations_from_interaction(interaction) -> list[CitationRef]:
@@ -207,10 +208,11 @@ SOURCE LOCATOR:
 
 SOURCE TEXT:
 ---
-{text[:60000]}
+{text[:20000]}
 ---
 
-Extract only material genuinely relevant to the topic/question. For each item:
+Extract only material genuinely relevant to the topic/question. Return at most 8 items.
+For each item:
 - state a narrow claim the source supports
 - if possible provide a SHORT exact excerpt copied from SOURCE TEXT (do not manufacture quotations)
 - identify date/author only if visible
@@ -219,6 +221,7 @@ Extract only material genuinely relevant to the topic/question. For each item:
 - list important entities
 - explain briefly why it matters
 
+Keep excerpts under 240 characters. Do not dump the source text back into JSON.
 A source can be relevant while supporting only a limited claim. Do not upgrade inference into fact. If nothing useful is present, return relevant=false with no items.
 """
         return self._structured(prompt, EvidenceExtraction)
@@ -238,7 +241,9 @@ ARTICLE TOPIC: {topic}
 RESEARCH QUESTION: {research_question}
 SOURCE TITLE: {source_title}
 
-Extract narrow, auditable evidence relevant to the question. If quoting, copy only a short exact excerpt. Preserve exact dates, identifiers, amounts and names. Distinguish documented fact, inference, plausible connection and speculation. Return relevant=false if the source does not materially help.
+Extract at most 6 narrow, auditable evidence items. If quoting, copy only a short exact excerpt under 240 characters.
+Preserve exact dates, identifiers, amounts and names. Distinguish documented fact, inference, plausible connection and speculation.
+Do not paste the page into the JSON. Return relevant=false if the source does not materially help.
 """
         return self._structured(prompt, EvidenceExtraction, tools=[{"type": "url_context"}])
 
