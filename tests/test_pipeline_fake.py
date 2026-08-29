@@ -1,15 +1,20 @@
 from pathlib import Path
 
+import pytest
+
 from white_rabbit.config import Settings
 from white_rabbit.pipeline import SingleArticlePipeline
 from white_rabbit.schemas import (
     AnchorChoice, AnchorMap, ArticleMetadata, ArticleOutline, AuditReport,
-    CitationRef, EvidenceExtraction, ExtractedEvidence, OutlineSection,
+    EvidenceExtraction, ExtractedEvidence, OutlineSection,
     ResearchPlan, ResearchQuestion, WebResearchResult,
 )
 
 
 class FakeProvider:
+    def __init__(self, invented_marker: bool = False):
+        self.invented_marker = invented_marker
+
     def plan_research(self, topic, angle, style, max_questions):
         return ResearchPlan(questions=[ResearchQuestion(
             id="RQ-1", category="records", question="What does the local record establish?",
@@ -20,7 +25,6 @@ class FakeProvider:
         return WebResearchResult(question_id=qid, question=question, search_query=search_query, notes="No citations for offline test.", citations=[])
 
     def extract_evidence_from_text(self, **kwargs):
-        text = kwargs["text"]
         return EvidenceExtraction(items=[ExtractedEvidence(
             claim="Project Night Window began in 2001.", excerpt="Project Night Window began in 2001.",
             reliability="primary", entities=["Project Night Window"], significance="Establishes the date."
@@ -34,6 +38,8 @@ class FakeProvider:
         )
 
     def write_article(self, topic, angle, outline, evidence_packet, style):
+        if self.invented_marker:
+            return "# Night Window Test\n\n**Project Night Window** began in 2001. [[EV-0001]] Invented claim. [[EV-7777]]\n"
         return "# Night Window Test\n\n## THE RECORD\n\n**Project Night Window** began in 2001. [[EV-0001]]\n\n## FAQ\n\n### Is it documented?\n\nYes, in the supplied test source."
 
     def audit_article(self, article, evidence_packet):
@@ -52,7 +58,16 @@ class FakeProvider:
         )
 
 
-def test_pipeline_with_local_source_and_no_live_api(tmp_path: Path, monkeypatch):
+def _settings(root: Path) -> Settings:
+    return Settings(
+        root=root, workspace=root / "workspace", style_path=root / "config" / "white_rabbit_style.md",
+        gemini_api_key="fake", model="fake", research_questions=1, web_sources_per_query=1,
+        local_chunks=2, max_evidence_items=10, http_timeout=5, sitemap_url="",
+        archive_sync_before_run=False,
+    )
+
+
+def test_pipeline_with_local_source_and_no_live_api(tmp_path: Path):
     root = tmp_path / "app"
     (root / "config").mkdir(parents=True)
     (root / "config" / "white_rabbit_style.md").write_text("Test style", encoding="utf-8")
@@ -60,16 +75,25 @@ def test_pipeline_with_local_source_and_no_live_api(tmp_path: Path, monkeypatch)
     source_dir.mkdir()
     (source_dir / "record.txt").write_text("Project Night Window began in 2001.", encoding="utf-8")
 
-    settings = Settings(
-        root=root, workspace=root / "workspace", style_path=root / "config" / "white_rabbit_style.md",
-        gemini_api_key="fake", model="fake", research_questions=1, web_sources_per_query=1,
-        local_chunks=2, max_evidence_items=10, http_timeout=5, sitemap_url=""
-    )
-    out = SingleArticlePipeline(settings, FakeProvider()).run(
-        topic="Night Window", project="test", sources_folder=source_dir
+    out = SingleArticlePipeline(_settings(root), FakeProvider()).run(
+        topic="Night Window", project="test", sources_folder=source_dir, skip_archive_sync=True
     )
     assert (out / "article_substack.docx").exists()
     assert (out / "article_linked.md").exists()
-    # Private-only evidence is preserved, but there is no public hyperlink row.
     csv_text = (out / "sources.csv").read_text(encoding="utf-8-sig")
     assert "source_number,phrase,link" in csv_text
+    assert "http" not in csv_text
+
+
+def test_pipeline_rejects_invented_evidence_markers(tmp_path: Path):
+    root = tmp_path / "app"
+    (root / "config").mkdir(parents=True)
+    (root / "config" / "white_rabbit_style.md").write_text("Test style", encoding="utf-8")
+    source_dir = root / "sources"
+    source_dir.mkdir()
+    (source_dir / "record.txt").write_text("Project Night Window began in 2001.", encoding="utf-8")
+
+    with pytest.raises(RuntimeError, match="invented/unknown evidence markers"):
+        SingleArticlePipeline(_settings(root), FakeProvider(invented_marker=True)).run(
+            topic="Night Window", project="test", sources_folder=source_dir, skip_archive_sync=True
+        )

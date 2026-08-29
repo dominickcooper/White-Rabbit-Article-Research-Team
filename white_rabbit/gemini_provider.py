@@ -1,8 +1,6 @@
 from __future__ import annotations
 
-import json
 import time
-from pathlib import Path
 from typing import TypeVar, Type
 
 from pydantic import BaseModel
@@ -19,6 +17,28 @@ from .schemas import (
 )
 
 T = TypeVar("T", bound=BaseModel)
+
+_RETRYABLE_MARKERS = (
+    "429",
+    "resource_exhausted",
+    "rate limit",
+    "ratelimit",
+    "unavailable",
+    "503",
+    "500",
+    "timeout",
+    "temporarily",
+    "try again",
+)
+
+_FATAL_MARKERS = (
+    "invalid argument",
+    "invalid_argument",
+    "permission denied",
+    "unauthenticated",
+    "api key",
+    "not found",
+)
 
 
 class GeminiProvider:
@@ -38,7 +58,17 @@ class GeminiProvider:
         self.client = genai.Client(api_key=api_key)
         self.model = model
 
-    def _retry(self, fn, attempts: int = 4):
+    @staticmethod
+    def _is_retryable(exc: Exception) -> bool:
+        text = str(exc).lower()
+        code = getattr(exc, "status_code", None) or getattr(exc, "code", None)
+        if code in {429, 500, 502, 503, 504}:
+            return True
+        if any(marker in text for marker in _FATAL_MARKERS):
+            return False
+        return any(marker in text for marker in _RETRYABLE_MARKERS)
+
+    def _retry(self, fn, attempts: int = 5):
         delay = 2.0
         last = None
         for i in range(attempts):
@@ -46,10 +76,10 @@ class GeminiProvider:
                 return fn()
             except Exception as exc:
                 last = exc
-                if i == attempts - 1:
+                if i == attempts - 1 or not self._is_retryable(exc):
                     raise
                 time.sleep(delay)
-                delay *= 2
+                delay = min(delay * 2, 32.0)
         raise last  # pragma: no cover
 
     def _structured(self, prompt: str, schema: Type[T], *, tools: list[dict] | None = None) -> T:
@@ -65,7 +95,10 @@ class GeminiProvider:
         if tools:
             kwargs["tools"] = tools
         interaction = self._retry(lambda: self.client.interactions.create(**kwargs))
-        return schema.model_validate_json(interaction.output_text)
+        text = getattr(interaction, "output_text", None)
+        if not text:
+            raise RuntimeError("Gemini returned an empty structured response")
+        return schema.model_validate_json(text)
 
     @staticmethod
     def _citations_from_interaction(interaction) -> list[CitationRef]:
@@ -92,7 +125,7 @@ class GeminiProvider:
                 input="Reply with exactly: WHITE RABBIT GEMINI OK",
             )
         )
-        return interaction.output_text.strip()
+        return (interaction.output_text or "").strip()
 
     def plan_research(self, topic: str, angle: str, style: str, max_questions: int, publication_memory: str = "") -> ResearchPlan:
         prompt = f"""
@@ -144,7 +177,7 @@ Write concise research notes that preserve exact names, dates, identifiers, doll
             question_id=qid,
             question=question,
             search_query=search_query,
-            notes=interaction.output_text,
+            notes=interaction.output_text or "",
             citations=self._citations_from_interaction(interaction),
         )
 
@@ -263,7 +296,7 @@ CRITICAL EVIDENCE RULES:
 The article body should normally be roughly 2,000–3,500 words. Include useful [IMAGE: ...] notes and five FAQs. If no internal White Rabbit links were supplied, omit rather than invent the "You May Be Interested" links.
 """
         interaction = self._retry(lambda: self.client.interactions.create(model=self.model, input=prompt))
-        return interaction.output_text.strip()
+        return (interaction.output_text or "").strip()
 
     def audit_article(self, article: str, evidence_packet: str) -> AuditReport:
         prompt = f"""
@@ -298,7 +331,7 @@ DRAFT:
 Preserve valid evidence markers. Remove or soften unsupported material. Return only the complete revised Markdown article.
 """
         interaction = self._retry(lambda: self.client.interactions.create(model=self.model, input=prompt))
-        return interaction.output_text.strip()
+        return (interaction.output_text or "").strip()
 
     def choose_anchors(self, marker_contexts: str) -> AnchorMap:
         prompt = f"""
