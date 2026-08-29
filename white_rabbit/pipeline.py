@@ -12,7 +12,7 @@ from .config import Settings
 from .evidence_db import EvidenceDB
 from .local_sources import chunk_document, discover_local_documents, rank_chunks
 from .source_mapper import build_source_rows, format_contexts, marker_contexts, write_source_csv
-from .web_fetch import fetch_page
+from .web_fetch import fetch_page, is_blocked_source, is_grounding_redirect, resolve_public_url
 from .publishing.substack_source_linker import (
     Source,
     create_report,
@@ -98,7 +98,6 @@ class SingleArticlePipeline:
         for d in (research_dir, drafts_dir, output_dir):
             d.mkdir(parents=True, exist_ok=True)
 
-        # Each project receives a stable private-source directory in the root research library.
         default_sources = self.settings.project_sources_root / project / "sources"
         default_sources.mkdir(parents=True, exist_ok=True)
         sources_folder = Path(sources_folder) if sources_folder else default_sources
@@ -161,11 +160,24 @@ class SingleArticlePipeline:
                 db.add_research_run(q.id, q.search_query, result.notes, [c.model_dump() for c in result.citations])
                 web_log.append(result.model_dump())
                 for citation in result.citations[: self.settings.web_sources_per_query]:
-                    url = normalize_public_url(citation.url)
+                    raw_url = normalize_public_url(citation.url)
+                    if not raw_url:
+                        continue
+                    url = raw_url
+                    if is_grounding_redirect(raw_url):
+                        print(f"        resolving Google grounding redirect...")
+                        url = normalize_public_url(resolve_public_url(raw_url, timeout=self.settings.http_timeout))
                     if not url or url in processed_urls:
                         continue
                     processed_urls.add(url)
+                    if is_blocked_source(url):
+                        print(f"        skip paywalled/blocked host: {url}")
+                        continue
+                    if is_grounding_redirect(url):
+                        print(f"        skip unresolved grounding wrapper: {url[:80]}...")
+                        continue
                     title = citation.title or url
+                    print(f"        source: {url}")
                     source_id = db.add_source(title=title, source_kind="public_web", url=url)
                     source_text = ""
                     try:
@@ -173,6 +185,7 @@ class SingleArticlePipeline:
                         source_text = page.text
                         if len(source_text.strip()) < 400:
                             raise ValueError("retrieved page had too little extractable text")
+                        print(f"        extracting from page text ({len(source_text)} chars)...")
                         extraction = self.provider.extract_evidence_from_text(
                             topic=topic,
                             research_question=q.question,
@@ -189,9 +202,11 @@ class SingleArticlePipeline:
                                 source_title=title,
                                 url=url,
                             )
+                            print("        URL Context returned structured evidence")
                         except Exception as url_exc:
                             print(f"        WARNING: source could not be analyzed: {url_exc}")
                             continue
+                    print(f"        kept {len(extraction.items)} evidence items")
                     for item in extraction.items:
                         verified = verify_excerpt(item.excerpt, source_text) if source_text else False
                         db.add_evidence(source_id, item, excerpt_verified=verified)
