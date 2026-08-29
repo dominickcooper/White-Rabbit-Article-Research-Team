@@ -42,6 +42,12 @@ python -m white_rabbit doctor
 python -m white_rabbit run "YOUR TOPIC HERE" --project test_article
 ```
 
+Skip the automatic Substack sync when you only want to test writing:
+
+```powershell
+python -m white_rabbit run "YOUR TOPIC HERE" --project test_article --no-archive-sync
+```
+
 With private/local research material:
 
 ```powershell
@@ -57,6 +63,18 @@ Supported local inputs in this MVP:
 - CSV
 - JSON
 - HTML
+
+## Previous White Rabbit archive
+
+Published articles live under `research_library/previous_white_rabbit_articles/` with a SQLite registry at `knowledge/white_rabbit.db`.
+
+The hybrid search index (`knowledge/archive_search_index_v3.joblib`) is **local and rebuildable**. Do not commit it.
+
+```powershell
+python -m white_rabbit archive status
+python -m white_rabbit archive reindex
+python -m white_rabbit archive search "MKULTRA" --limit 8
+```
 
 ## Project outputs
 
