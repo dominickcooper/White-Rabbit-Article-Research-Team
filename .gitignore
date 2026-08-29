@@ -3,6 +3,22 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+.idea/
+*.iml
+
+# generated run artifacts
+workspace/
 workspace/*/evidence.sqlite3
 workspace/*/output/*.docx
 workspace/*/output/*.html
+
+# rebuildable / bulky local indexes
+knowledge/*.joblib
+knowledge/*.sqlite3
+knowledge/*.db-journal
+
+# one-off patch kits and backups should not live in git
+upgrade_backups/
+white_rabbit_*_patch/
+white_rabbit_*_upgrade/
+*.zip
