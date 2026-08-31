@@ -1,10 +1,10 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit
 
-import fitz
 import httpx
+import pymupdf
 from bs4 import BeautifulSoup
 
 
@@ -70,6 +70,40 @@ def resolve_public_url(url: str, timeout: int = 20) -> str:
         return url
 
 
+def resolve_grounding_redirect(url: str, timeout: int = 15) -> str:
+    current = (url or "").strip()
+    if not current or not is_grounding_redirect(current):
+        return current
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8",
+    }
+
+    try:
+        with httpx.Client(
+            timeout=timeout,
+            follow_redirects=False,
+            headers=headers,
+        ) as client:
+            for _ in range(5):
+                if not is_grounding_redirect(current):
+                    return current
+
+                with client.stream("GET", current) as response:
+                    location = response.headers.get("location")
+                    if location and 300 <= response.status_code < 400:
+                        current = urljoin(current, location.strip())
+                        continue
+                    return current
+    except Exception:
+        return current
+
+    return current
+
 def fetch_page(url: str, timeout: int = 30) -> FetchedPage:
     headers = {
         "User-Agent": (
@@ -86,8 +120,11 @@ def fetch_page(url: str, timeout: int = 30) -> FetchedPage:
         if is_grounding_redirect(final_url):
             raise ValueError("citation is a Google grounding redirect with no public page text")
         if "application/pdf" in ctype or final_url.lower().endswith(".pdf"):
-            doc = fitz.open(stream=r.content, filetype="pdf")
-            text = "\n".join(page.get_text("text") for page in doc)
+            doc = pymupdf.open(stream=r.content, filetype="pdf")
+            try:
+                text = "\n".join(page.get_text("text") for page in doc)
+            finally:
+                doc.close()
             return FetchedPage(final_url, final_url.rsplit("/", 1)[-1], text, "application/pdf")
         soup = BeautifulSoup(r.text, "html.parser")
         for tag in soup(["script", "style", "noscript", "svg", "nav", "footer"]):

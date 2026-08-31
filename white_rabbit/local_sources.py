@@ -6,7 +6,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-import fitz
+import pymupdf
 from bs4 import BeautifulSoup
 from docx import Document
 
@@ -34,7 +34,7 @@ def read_local_document(path: Path) -> LocalDocument:
     if suffix not in SUPPORTED:
         raise ValueError(f"Unsupported local source: {path}")
     if suffix == ".pdf":
-        doc = fitz.open(path)
+        doc = pymupdf.open(path)
         text = "\n".join(page.get_text("text") for page in doc)
     elif suffix == ".docx":
         doc = Document(path)

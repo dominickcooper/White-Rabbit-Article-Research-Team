@@ -44,20 +44,23 @@ Reliability = Literal["primary", "high_quality_secondary", "secondary", "unknown
 
 
 class ExtractedEvidence(BaseModel):
-    claim: str
-    excerpt: Optional[str] = None
-    published_date: Optional[str] = None
-    author: Optional[str] = None
+    # Hard bounds are intentional: these fields are emitted through Gemini structured
+    # output. Without JSON-schema limits, very large sources can cause the model to
+    # copy huge passages and eventually return truncated/invalid JSON.
+    claim: str = Field(max_length=1200)
+    excerpt: Optional[str] = Field(default=None, max_length=1200)
+    published_date: Optional[str] = Field(default=None, max_length=120)
+    author: Optional[str] = Field(default=None, max_length=300)
     support_type: SupportType = "documented_fact"
     reliability: Reliability = "unknown"
-    entities: list[str] = Field(default_factory=list)
-    significance: str = ""
+    entities: list[str] = Field(default_factory=list, max_length=25)
+    significance: str = Field(default="", max_length=900)
 
 
 class EvidenceExtraction(BaseModel):
     relevant: bool = True
-    source_summary: str = ""
-    items: list[ExtractedEvidence] = Field(default_factory=list)
+    source_summary: str = Field(default="", max_length=1200)
+    items: list[ExtractedEvidence] = Field(default_factory=list, max_length=12)
 
 
 class OutlineSection(BaseModel):
@@ -114,3 +117,16 @@ class ArticleMetadata(BaseModel):
     secondary_keywords: list[str] = Field(default_factory=list)
     sizzle: str
     banner_image_prompt: str
+
+
+class ArchiveRelevanceJudgment(BaseModel):
+    wr_id: str
+    score: int = Field(ge=1, le=5)
+    reason: str
+    relationship: str = ""
+    research_leads: list[str] = Field(default_factory=list)
+    source_urls_to_reopen: list[str] = Field(default_factory=list)
+
+
+class ArchiveRelevanceBatch(BaseModel):
+    judgments: list[ArchiveRelevanceJudgment] = Field(default_factory=list)

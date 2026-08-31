@@ -7,6 +7,7 @@ from pathlib import Path
 from .archive_db import ArchiveDB
 from .archive_sync import SubstackArchiveSync
 from .archive_retrieval import rebuild_archive_search_index, retrieve_archive_memory
+from .archive_reranker import apply_archive_rerank, format_candidates_for_rerank, rerank_audit_payload
 from .config import load_settings
 from .gemini_provider import GeminiProvider
 from .pipeline import SingleArticlePipeline
@@ -40,6 +41,13 @@ def build_parser() -> argparse.ArgumentParser:
     search_cmd.add_argument("--links", type=int, default=8, help="Maximum external research links to display per article (default: 8)")
     search_cmd.add_argument("--min-score", type=float, default=0.12, help="Minimum article relevance score, 0-1 (default: 0.12)")
     search_cmd.add_argument("--json", action="store_true", help="Emit machine-readable JSON")
+
+    rerank_cmd = archive_sub.add_parser("rerank", help="Use Gemini to judge which local archive matches are materially relevant")
+    rerank_cmd.add_argument("query", help="Topic/entity/research question to judge prior articles against")
+    rerank_cmd.add_argument("--angle", default="", help="Optional investigation angle")
+    rerank_cmd.add_argument("--candidates", type=int, default=None, help="Number of local candidates to send to Gemini (default from .env)")
+    rerank_cmd.add_argument("--keep", type=int, default=None, help="Minimum Gemini relevance score 1-5 (default from .env)")
+    rerank_cmd.add_argument("--json", action="store_true", help="Emit machine-readable JSON")
     return p
 
 
@@ -103,6 +111,64 @@ def main(argv: list[str] | None = None) -> int:
             print(json.dumps(result, indent=2))
             return 0
 
+        if args.archive_command == "rerank":
+            if not settings.gemini_api_key:
+                print("ERROR: GEMINI_API_KEY is missing. The archive reranker requires Gemini.")
+                return 2
+            candidate_limit = args.candidates if args.candidates is not None else settings.archive_rerank_candidates
+            candidate_limit = max(1, min(int(candidate_limit), 20))
+            keep = args.keep if args.keep is not None else settings.archive_rerank_min_score
+            keep = max(1, min(int(keep), 5))
+            memories = retrieve_archive_memory(
+                settings.archive_db_path,
+                query=f"{args.query} {args.angle}",
+                chunk_limit=max(10, candidate_limit * 2),
+                article_limit=candidate_limit,
+                min_score=0.0,
+            )
+            if not memories:
+                print("No local archive candidates found.")
+                return 0
+            provider = GeminiProvider(settings.gemini_api_key, settings.model)
+            packet = format_candidates_for_rerank(memories)
+            try:
+                batch = provider.rerank_archive_memory(args.query, args.angle, packet)
+            except Exception as exc:
+                print(f"ERROR: Gemini archive reranker failed: {exc}")
+                return 2
+            results = apply_archive_rerank(
+                memories, batch, min_score=keep, direct_matches_always_include=True
+            )
+            payload = rerank_audit_payload(results)
+            if args.json:
+                print(json.dumps(payload, indent=2, ensure_ascii=False))
+                return 0
+            print(f"GEMINI ARCHIVE RERANK: {args.query}")
+            print("=" * 78)
+            print(f"Keep threshold: {keep}/5 | Candidates judged: {len(results)}")
+            for idx, result in enumerate(results, start=1):
+                a = result.memory.article
+                j = result.judgment
+                status = "KEEP" if result.included else "DROP"
+                print()
+                print(f"{idx}. [{status}] {a.title}")
+                print(f"   {a.wr_id} | Gemini {j.score}/5 | local {result.memory.score:.0%} | {result.memory.connection_tier}")
+                print(f"   Relationship: {j.relationship or '(not specified)'}")
+                print(f"   Why: {j.reason}")
+                print(f"   Decision: {result.inclusion_reason}")
+                if j.research_leads:
+                    print("   Research leads:")
+                    for lead in j.research_leads[:5]:
+                        print(f"     - {lead}")
+                if j.source_urls_to_reopen:
+                    print("   Sources Gemini wants reopened:")
+                    for url in j.source_urls_to_reopen[:6]:
+                        print(f"     - {url}")
+                print(f"   {a.canonical_url}")
+            print()
+            print("NOTE: Direct exact-entity/phrase matches are retained even if Gemini scores them below the threshold.")
+            return 0
+
         if args.archive_command == "search":
             limit = max(1, min(int(args.limit), 25))
             link_limit = max(0, min(int(args.links), 30))
@@ -132,6 +198,11 @@ def main(argv: list[str] | None = None) -> int:
                         "phrase_score": round(memory.phrase_score, 4),
                         "concept_score": round(memory.concept_score, 4),
                         "connection_type": memory.connection_type,
+                        "connection_tier": memory.connection_tier,
+                        "concept_hits": list(memory.concept_hits),
+                        "cooccurrence_score": round(memory.cooccurrence_score, 4),
+                        "preview_penalty": round(memory.preview_penalty, 4),
+                        "shared_infrastructure": list(memory.shared_infrastructure),
                         "query_entities": list(memory.query_entities),
                         "expanded_concepts": list(memory.expanded_concepts),
                         "best_section": memory.best_section,
@@ -155,6 +226,7 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"{index}. {a.title}")
                 print(f"   {a.wr_id} | relevance {memory.score:.0%} | {a.content_status}")
                 print("   WHY MATCHED:")
+                print(f"     Connection tier: {memory.connection_tier}")
                 print(f"     Connection: {memory.connection_type}")
                 if memory.query_entities:
                     print(f"     Primary entity: {', '.join(memory.query_entities)}")
@@ -166,18 +238,25 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"     Local semantic: {memory.semantic_score:.0%}")
                 print(f"     Phrase/entity: {memory.phrase_score:.0%}")
                 print(f"     Related-concept score: {memory.concept_score:.0%}")
+                print(f"     Concept co-occurrence: {memory.cooccurrence_score:.0%}")
+                if memory.concept_hits:
+                    print(f"     Concepts in best match: {', '.join(memory.concept_hits[:8])}")
+                if memory.shared_infrastructure:
+                    print(f"     Shared infrastructure: {', '.join(memory.shared_infrastructure[:10])}")
                 if memory.expanded_concepts:
                     print(f"     Archive-derived concepts: {', '.join(memory.expanded_concepts[:10])}")
                 if memory.best_section:
                     print(f"     Best section: {memory.best_section}")
-                print(f"     External research sources: {memory.research_source_count}")
+                if memory.preview_penalty < 1.0:
+                    print(f"     Preview-only multiplier: {memory.preview_penalty:.0%}")
+                print(f"     Section-local external sources: {memory.research_source_count}")
                 print(f"   {a.canonical_url}")
                 if memory.excerpt:
                     excerpt = memory.excerpt.replace("\n", " ").strip()
                     print(f"   Excerpt: {excerpt}")
                 links = [l for l in memory.links if l.get("type") == "external_research"][:link_limit]
                 if links:
-                    print("   Prior external sources to reopen/verify:")
+                    print("   Section-local external sources to reopen/verify:")
                     for link in links:
                         anchor = str(link.get("anchor", "")).strip() or "(no anchor)"
                         print(f"     - {anchor}: {link.get('url', '')}")

@@ -163,6 +163,25 @@ class SubstackArchiveSync:
         last_response.raise_for_status()
         return last_response
 
+    @staticmethod
+    def _salvage_sitemap_locs(text: str) -> list[str]:
+        """Recover <loc> entries even when a publisher emits malformed XML.
+
+        Substack occasionally serves a sitemap containing an invalid XML token in one
+        entry. A strict ElementTree parse then discards the entire sitemap. The URLs
+        themselves are still recoverable, so use a deliberately narrow fallback that
+        extracts only <loc> bodies.
+        """
+        from html import unescape
+
+        locs: list[str] = []
+        for raw in re.findall(r"<loc(?:\s[^>]*)?>(.*?)</loc>", text, flags=re.I | re.S):
+            value = re.sub(r"<[^>]+>", "", raw)
+            value = unescape(value).strip()
+            if value.startswith(("http://", "https://")):
+                locs.append(value)
+        return locs
+
     def _discover_from_sitemap(self, url: str, seen_maps: set[str] | None = None) -> set[str]:
         seen_maps = seen_maps or set()
         url = self.normalize_url(url)
@@ -171,15 +190,31 @@ class SubstackArchiveSync:
         seen_maps.add(url)
         try:
             response = self._get(url)
-            root = ET.fromstring(response.text)
         except Exception as exc:
             print(f"      sitemap unavailable: {url} ({exc})")
             return set()
 
+        text = response.text
+        is_index = "<sitemapindex" in text.lower()
+        try:
+            root = ET.fromstring(text)
+            tag = root.tag.rsplit("}", 1)[-1].lower()
+            is_index = tag == "sitemapindex"
+            locs = [
+                el.text.strip()
+                for el in root.iter()
+                if el.tag.rsplit("}", 1)[-1].lower() == "loc" and el.text
+            ]
+        except Exception as exc:
+            locs = self._salvage_sitemap_locs(text)
+            if locs:
+                print(f"      sitemap XML malformed; recovered {len(locs)} URL entries from {url}")
+            else:
+                print(f"      sitemap unavailable: {url} ({exc})")
+                return set()
+
         found: set[str] = set()
-        tag = root.tag.rsplit("}", 1)[-1].lower()
-        locs = [el.text.strip() for el in root.iter() if el.tag.rsplit("}", 1)[-1].lower() == "loc" and el.text]
-        if tag == "sitemapindex":
+        if is_index:
             for child in locs:
                 found |= self._discover_from_sitemap(child, seen_maps)
         else:
@@ -217,7 +252,18 @@ class SubstackArchiveSync:
         return found
 
     def discover_post_urls(self) -> list[str]:
-        urls = self._discover_from_sitemap(self.sitemap_url)
+        # Older project configs may still point at /sitemap. Substack's canonical
+        # machine-readable endpoint is /sitemap.xml; try both so a malformed legacy
+        # endpoint cannot silently collapse archive discovery to the feed's ~20 posts.
+        sitemap_candidates: list[str] = []
+        for candidate in (self.sitemap_url, f"{self.publication_url}/sitemap.xml"):
+            normalized = self.normalize_url(candidate)
+            if normalized not in sitemap_candidates:
+                sitemap_candidates.append(normalized)
+
+        urls: set[str] = set()
+        for candidate in sitemap_candidates:
+            urls |= self._discover_from_sitemap(candidate)
         urls |= self._discover_from_feed()
         urls |= self._discover_from_archive_page()
         return sorted(urls)

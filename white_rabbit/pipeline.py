@@ -7,6 +7,12 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 from .archive_retrieval import format_archive_memory, retrieve_archive_memory
+from .archive_reranker import (
+    apply_archive_rerank,
+    format_candidates_for_rerank,
+    format_curated_archive_memory,
+    rerank_audit_payload,
+)
 from .archive_sync import SubstackArchiveSync
 from .config import Settings
 from .evidence_db import EvidenceDB
@@ -107,16 +113,56 @@ class SingleArticlePipeline:
         else:
             print("[0/10] Automatic White Rabbit archive sync disabled/skipped for this run.")
 
-        print("[1/10] Retrieving relevant previous White Rabbit articles...")
-        memories = retrieve_archive_memory(
+        print("[1/10] Retrieving and judging previous White Rabbit articles...")
+        candidate_limit = max(self.settings.archive_writer_articles, self.settings.archive_rerank_candidates)
+        candidates = retrieve_archive_memory(
             self.settings.archive_db_path,
             query=f"{topic} {angle}",
-            chunk_limit=self.settings.archive_plan_chunks,
-            article_limit=self.settings.archive_writer_articles,
+            chunk_limit=max(self.settings.archive_plan_chunks, candidate_limit * 2),
+            article_limit=candidate_limit,
         )
-        publication_memory = format_archive_memory(memories)
+        candidate_memory = format_archive_memory(candidates)
+        (research_dir / "previous_white_rabbit_candidates.md").write_text(candidate_memory, encoding="utf-8")
+
+        rerank_rows: list[dict] = []
+        if (
+            self.settings.archive_rerank_enabled
+            and candidates
+            and hasattr(self.provider, "rerank_archive_memory")
+        ):
+            print(f"      sending top {len(candidates)} archive candidates to Gemini relevance judge...")
+            try:
+                candidate_packet = format_candidates_for_rerank(candidates)
+                batch = self.provider.rerank_archive_memory(topic, angle, candidate_packet)
+                reranked = apply_archive_rerank(
+                    candidates,
+                    batch,
+                    min_score=self.settings.archive_rerank_min_score,
+                    direct_matches_always_include=True,
+                )
+                rerank_rows = rerank_audit_payload(reranked)
+                selected = [r for r in reranked if r.included][: self.settings.archive_writer_articles]
+                memories = [r.memory for r in selected]
+                publication_memory = format_curated_archive_memory(selected)
+                print(
+                    f"      Gemini retained {len(memories)}/{len(candidates)} prior articles "
+                    f"(threshold {self.settings.archive_rerank_min_score}/5; direct matches auto-retained)"
+                )
+            except Exception as exc:
+                print(f"      WARNING: Gemini archive reranker failed: {exc}")
+                direct = [m for m in candidates if m.connection_tier == "DIRECT" or m.exact_phrases]
+                memories = direct[: self.settings.archive_writer_articles]
+                publication_memory = format_archive_memory(memories)
+                print(f"      fallback retained {len(memories)} deterministic direct matches only")
+        else:
+            memories = candidates[: self.settings.archive_writer_articles]
+            publication_memory = format_archive_memory(memories)
+            print(f"      Gemini reranker disabled/unavailable; using top {len(memories)} local archive matches")
+
+        (research_dir / "previous_white_rabbit_rerank.json").write_text(
+            json.dumps(rerank_rows, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
         (research_dir / "previous_white_rabbit_memory.md").write_text(publication_memory, encoding="utf-8")
-        print(f"      retrieved {len(memories)} prior articles as institutional memory")
 
         style = self.settings.style_path.read_text(encoding="utf-8")
         db = EvidenceDB(root / "evidence.sqlite3")
@@ -190,10 +236,16 @@ class SingleArticlePipeline:
                             topic=topic,
                             research_question=q.question,
                             source_title=page.title or title,
-                            source_locator=url,
+                            source_locator=page.url or url,
                             text=source_text,
                         )
                     except Exception as exc:
+                        if is_grounding_redirect(url):
+                            print(
+                                f"        WARNING: grounding citation could not be resolved to a direct public URL; "
+                                f"skipping URL Context: {url} ({exc})"
+                            )
+                            continue
                         print(f"        fetch fallback via Gemini URL Context: {url} ({exc})")
                         try:
                             extraction = self.provider.extract_evidence_from_url(
@@ -279,6 +331,9 @@ class SingleArticlePipeline:
                 "project": project,
                 "project_sources": str(sources_folder.resolve()),
                 "previous_articles_used_for_memory": [m.article.canonical_url for m in memories],
+                "archive_reranker_enabled": self.settings.archive_rerank_enabled,
+                "archive_rerank_candidates": len(candidates),
+                "archive_rerank_results": rerank_rows,
                 "evidence_items": len(db.list_evidence()),
                 "public_links_inserted": len(successful),
                 "unmatched_anchors": len(missing),

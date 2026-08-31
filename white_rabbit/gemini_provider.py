@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import json
+import re
 import time
 from typing import TypeVar, Type
 
@@ -8,6 +10,7 @@ from pydantic import BaseModel
 from .json_repair import parse_structured
 from .schemas import (
     AnchorMap,
+    ArchiveRelevanceBatch,
     ArticleMetadata,
     ArticleOutline,
     AuditReport,
@@ -83,23 +86,140 @@ class GeminiProvider:
                 delay = min(delay * 2, 32.0)
         raise last  # pragma: no cover
 
-    def _structured(self, prompt: str, schema: Type[T], *, tools: list[dict] | None = None) -> T:
-        kwargs = {
-            "model": self.model,
-            "input": prompt,
-            "response_format": {
-                "type": "text",
-                "mime_type": "application/json",
-                "schema": schema.model_json_schema(),
-            },
+    @staticmethod
+    def _interaction_json_schema(schema: Type[T]) -> dict:
+        """Return a Gemini-compatible JSON Schema for structured outputs.
+
+        Pydantic emits a broader JSON Schema dialect than Gemini Interactions accepts.
+        In particular, string bounds such as ``maxLength``/``minLength`` and defaults
+        can make the API reject an otherwise simple extraction schema with HTTP 400.
+        Keep the local Pydantic constraints for post-response validation, but strip
+        unsupported keywords from the schema sent to Gemini.
+        """
+        unsupported = {
+            "maxLength", "minLength", "pattern", "default", "examples",
+            "exclusiveMinimum", "exclusiveMaximum", "multipleOf",
+            "minProperties", "maxProperties", "const",
         }
-        if tools:
-            kwargs["tools"] = tools
+
+        def clean(value):
+            if isinstance(value, dict):
+                return {k: clean(v) for k, v in value.items() if k not in unsupported}
+            if isinstance(value, list):
+                return [clean(v) for v in value]
+            return value
+
+        return clean(schema.model_json_schema())
+
+    def _structured(
+        self,
+        prompt: str,
+        schema: Type[T],
+        *,
+        tools: list[dict] | None = None,
+        max_output_tokens: int | None = None,
+        thinking_level: str | None = None,
+        compact_retry: bool = False,
+    ) -> T:
+        response_schema = self._interaction_json_schema(schema)
+
+        def build_kwargs(current_prompt: str, token_cap: int | None, level: str | None) -> dict:
+            kwargs = {
+                "model": self.model,
+                "input": current_prompt,
+                "response_format": {
+                    "type": "text",
+                    "mime_type": "application/json",
+                    "schema": response_schema,
+                },
+            }
+            if tools:
+                kwargs["tools"] = tools
+            generation_config: dict = {}
+            if token_cap is not None:
+                generation_config["max_output_tokens"] = int(token_cap)
+            if level:
+                generation_config["thinking_level"] = level
+            if generation_config:
+                kwargs["generation_config"] = generation_config
+            return kwargs
+
+        kwargs = build_kwargs(prompt, max_output_tokens, thinking_level)
         interaction = self._retry(lambda: self.client.interactions.create(**kwargs))
-        text = getattr(interaction, "output_text", None)
-        if not text:
-            raise RuntimeError("Gemini returned an empty structured response")
-        return parse_structured(text, schema)
+        try:
+            return parse_structured(interaction.output_text, schema)
+        except Exception:
+            if not compact_retry:
+                raise
+
+        # A long source can occasionally provoke an overlong JSON object even with
+        # structured output enabled. Retry once with an explicit compact instruction
+        # and a smaller token budget instead of letting one source kill the run.
+        repair_prompt = prompt + """
+
+CRITICAL RETRY INSTRUCTION:
+Your previous structured response was too large or malformed. Return a COMPACT valid JSON response only.
+Do not summarize the whole source. Include only the strongest evidence that directly answers the research question.
+Use at most 5 evidence items. Keep source_summary under 500 characters, each claim under 500 characters,
+each excerpt under 500 characters, and each significance field under 400 characters.
+"""
+        retry_cap = min(max_output_tokens or 4096, 4096)
+        retry_kwargs = build_kwargs(repair_prompt, retry_cap, "low")
+        repaired = self._retry(lambda: self.client.interactions.create(**retry_kwargs), attempts=2)
+        return parse_structured(repaired.output_text, schema)
+
+    @staticmethod
+    def _source_terms(text: str) -> set[str]:
+        stop = {
+            "about", "after", "again", "against", "article", "could", "from", "have",
+            "into", "more", "question", "research", "source", "that", "their", "there",
+            "these", "they", "this", "those", "through", "using", "what", "when", "where",
+            "which", "with", "would", "your",
+        }
+        return {
+            tok for tok in re.findall(r"[a-z0-9][a-z0-9_.-]{2,}", text.lower())
+            if tok not in stop and not tok.isdigit()
+        }
+
+    @classmethod
+    def _select_source_chunks(
+        cls,
+        text: str,
+        query: str,
+        *,
+        chunk_chars: int = 18000,
+        overlap: int = 1200,
+        max_chunks: int = 3,
+    ) -> list[str]:
+        cleaned = text.replace("\x00", " ").strip()
+        if len(cleaned) <= 22000:
+            return [cleaned]
+
+        step = max(2000, chunk_chars - overlap)
+        windows: list[tuple[int, str]] = []
+        for start in range(0, len(cleaned), step):
+            chunk = cleaned[start:start + chunk_chars]
+            if not chunk.strip():
+                continue
+            windows.append((start, chunk))
+            if start + chunk_chars >= len(cleaned):
+                break
+
+        qterms = cls._source_terms(query)
+        query_l = query.lower().strip()
+        scored: list[tuple[float, int, str]] = []
+        for start, chunk in windows:
+            lower = chunk.lower()
+            overlap_score = sum(min(4, lower.count(term)) for term in qterms)
+            phrase_bonus = 8 if query_l and query_l in lower else 0
+            # Give headings/opening metadata a small tie-breaker without forcing the
+            # first chunk to win over genuinely relevant later PDF sections.
+            opening_bonus = 0.5 if start == 0 else 0.0
+            scored.append((overlap_score + phrase_bonus + opening_bonus, start, chunk))
+
+        chosen = sorted(scored, key=lambda row: (-row[0], row[1]))[:max_chunks]
+        # Process in source order so extracted evidence remains easy to audit.
+        return [chunk for _, _, chunk in sorted(chosen, key=lambda row: row[1])]
 
     @staticmethod
     def _citations_from_interaction(interaction) -> list[CitationRef]:
@@ -154,6 +274,44 @@ Search queries should be practical Google queries, with precise names/identifier
 """
         return self._structured(prompt, ResearchPlan)
 
+    def rerank_archive_memory(self, topic: str, angle: str, candidates: str) -> ArchiveRelevanceBatch:
+        prompt = f"""
+You are the archive relevance editor for The White Rabbit Report.
+
+CURRENT INVESTIGATION:
+{topic}
+
+OPTIONAL ANGLE:
+{angle or '(none supplied)'}
+
+Below are candidate PREVIOUS White Rabbit articles returned by a broad local retrieval system.
+The local system is intentionally high-recall and may include false positives. Your job is to judge
+whether each prior article is materially useful to THIS investigation.
+
+CANDIDATES:
+{candidates}
+
+Score EVERY candidate exactly once on this 1-5 scale:
+5 = DIRECTLY RELEVANT. Same investigation/entity, or contains important evidence/connections/sources that clearly belong in the new research.
+4 = STRONGLY RELEVANT. Not the same article topic, but provides a meaningful technology, infrastructure, people/company/agency, funding, historical-precedent, or source trail that is genuinely worth examining.
+3 = POSSIBLY USEFUL CONTEXT. Some real contextual value, but not strong enough to automatically feed into the research plan.
+2 = WEAK. Mostly superficial overlap or a generic shared theme.
+1 = IRRELEVANT. Accidental keyword/semantic similarity.
+
+STRICT RULES:
+- Do NOT score highly merely because both articles mention generic words like surveillance, intelligence, safety, cameras, patents, government, roads, security, data, or technology.
+- Ask: would a careful investigative reporter reasonably reopen this prior article or its source trail before researching the new topic?
+- A non-obvious connection may score 4-5 when it is specific and materially useful.
+- A sensational or conspiratorial similarity alone is not relevance.
+- Previous White Rabbit assertions are NOT proof; they are leads only.
+- source_urls_to_reopen MUST contain only URLs that were explicitly supplied in that candidate's section-local source list. Do not invent URLs.
+- research_leads should be concise, concrete follow-up questions or source checks, not conclusions.
+- relationship should be a short label such as "direct entity overlap", "surveillance infrastructure precedent", "shared investor/company network", "historical civil-liberties precedent", or "superficial overlap".
+
+Return structured judgments for every candidate.
+"""
+        return self._structured(prompt, ArchiveRelevanceBatch)
+
     def web_research(self, qid: str, question: str, search_query: str) -> WebResearchResult:
         prompt = f"""
 Investigate this question using Google Search grounding.
@@ -191,7 +349,16 @@ Write concise research notes that preserve exact names, dates, identifiers, doll
         source_locator: str,
         text: str,
     ) -> EvidenceExtraction:
-        prompt = f"""
+        query = f"{topic} {research_question} {source_title}"
+        chunks = self._select_source_chunks(text, query)
+        merged_items = []
+        summaries: list[str] = []
+        seen_claims: set[str] = set()
+        last_error: Exception | None = None
+        any_success = False
+
+        for idx, chunk in enumerate(chunks, start=1):
+            prompt = f"""
 You are extracting auditable evidence for an investigative article.
 
 ARTICLE TOPIC:
@@ -206,25 +373,66 @@ SOURCE TITLE:
 SOURCE LOCATOR:
 {source_locator}
 
-SOURCE TEXT:
+SOURCE TEXT CHUNK {idx}/{len(chunks)}:
 ---
-{text[:20000]}
+{chunk}
 ---
 
-Extract only material genuinely relevant to the topic/question. Return at most 8 items.
-For each item:
-- state a narrow claim the source supports
+Extract only material genuinely relevant to the topic/question. Do NOT summarize the entire source.
+Return at most 6 of the strongest evidence items from this chunk. For each item:
+- state one narrow claim the source supports
 - if possible provide a SHORT exact excerpt copied from SOURCE TEXT (do not manufacture quotations)
 - identify date/author only if visible
-- classify the evidentiary level: documented_fact, strong_inference, plausible_connection, or speculation
+- classify evidentiary level: documented_fact, strong_inference, plausible_connection, or speculation
 - classify reliability: primary, high_quality_secondary, secondary, or unknown
-- list important entities
+- list only important entities
 - explain briefly why it matters
 
-Keep excerpts under 240 characters. Do not dump the source text back into JSON.
-A source can be relevant while supporting only a limited claim. Do not upgrade inference into fact. If nothing useful is present, return relevant=false with no items.
+OUTPUT BOUNDS:
+- source_summary: <= 600 characters
+- claim: <= 700 characters
+- excerpt: <= 240 characters
+- significance: <= 500 characters
+- entities: <= 15
+
+A source can be relevant while supporting only a limited claim. Do not upgrade inference into fact.
+If nothing useful is present in this chunk, return relevant=false with no items.
 """
-        return self._structured(prompt, EvidenceExtraction)
+            try:
+                extraction = self._structured(
+                    prompt,
+                    EvidenceExtraction,
+                    max_output_tokens=4500,
+                    thinking_level="low",
+                    compact_retry=True,
+                )
+                any_success = True
+            except Exception as exc:
+                last_error = exc
+                continue
+
+            if extraction.source_summary and len(" ".join(summaries)) < 1100:
+                summaries.append(extraction.source_summary.strip())
+            for item in extraction.items:
+                key = re.sub(r"\W+", " ", item.claim.lower()).strip()
+                if not key or key in seen_claims:
+                    continue
+                seen_claims.add(key)
+                merged_items.append(item)
+                if len(merged_items) >= 12:
+                    break
+            if len(merged_items) >= 12:
+                break
+
+        if not any_success and last_error is not None:
+            raise last_error
+
+        summary = " ".join(summaries).strip()[:1200]
+        return EvidenceExtraction(
+            relevant=bool(merged_items),
+            source_summary=summary,
+            items=merged_items[:12],
+        )
 
     def extract_evidence_from_url(
         self,
@@ -241,11 +449,27 @@ ARTICLE TOPIC: {topic}
 RESEARCH QUESTION: {research_question}
 SOURCE TITLE: {source_title}
 
-Extract at most 6 narrow, auditable evidence items. If quoting, copy only a short exact excerpt under 240 characters.
-Preserve exact dates, identifiers, amounts and names. Distinguish documented fact, inference, plausible connection and speculation.
-Do not paste the page into the JSON. Return relevant=false if the source does not materially help.
+Extract only the strongest narrow, auditable evidence relevant to the question. Do NOT summarize the whole page/document.
+Return at most 8 evidence items. If quoting, copy only a short exact excerpt. Preserve exact dates, identifiers,
+amounts and names. Distinguish documented fact, inference, plausible connection and speculation.
+
+OUTPUT BOUNDS:
+- source_summary: <= 600 characters
+- claim: <= 700 characters
+- excerpt: <= 240 characters
+- significance: <= 500 characters
+- entities: <= 15
+
+Return relevant=false if the source does not materially help.
 """
-        return self._structured(prompt, EvidenceExtraction, tools=[{"type": "url_context"}])
+        return self._structured(
+            prompt,
+            EvidenceExtraction,
+            tools=[{"type": "url_context"}],
+            max_output_tokens=5000,
+            thinking_level="low",
+            compact_retry=True,
+        )
 
     def build_outline(self, topic: str, angle: str, evidence_packet: str, style: str, publication_memory: str = "") -> ArticleOutline:
         prompt = f"""

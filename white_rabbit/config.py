@@ -31,6 +31,9 @@ class Settings:
     archive_plan_chunks: int = 10
     archive_writer_articles: int = 6
     archive_request_delay_ms: int = 120
+    archive_rerank_enabled: bool = True
+    archive_rerank_candidates: int = 5
+    archive_rerank_min_score: int = 4
 
     @property
     def research_library(self) -> Path:
@@ -74,4 +77,7 @@ def load_settings(root: Path | None = None) -> Settings:
         archive_plan_chunks=max(1, int(os.getenv("WR_ARCHIVE_PLAN_CHUNKS", "10"))),
         archive_writer_articles=max(1, int(os.getenv("WR_ARCHIVE_WRITER_ARTICLES", "6"))),
         archive_request_delay_ms=max(0, int(os.getenv("WR_ARCHIVE_REQUEST_DELAY_MS", "120"))),
+        archive_rerank_enabled=_bool_env("WR_ARCHIVE_RERANK_ENABLED", True),
+        archive_rerank_candidates=max(1, min(20, int(os.getenv("WR_ARCHIVE_RERANK_CANDIDATES", "5")))),
+        archive_rerank_min_score=max(1, min(5, int(os.getenv("WR_ARCHIVE_RERANK_MIN_SCORE", "4")))),
     )
