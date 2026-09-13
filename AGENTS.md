@@ -14,6 +14,9 @@ For Codex article work, read these permanent authorities before the project brie
 - [SEO and publishing](docs/SEO_AND_PUBLISHING.md)
 - [Archive](docs/PREVIOUS_WHITE_RABBIT_ARCHIVE.md)
 
+For series work also read [Series workflow](docs/SERIES_WORKFLOW.md). Series live in
+`series_projects/<slug>/` and reuse the standalone validator/publisher.
+
 User instructions take precedence. These documents govern the Codex workflow;
 `config/white_rabbit_style.md` remains the legacy provider prompt. Project briefs
 set scope but must not silently override permanent evidence/publishing standards.

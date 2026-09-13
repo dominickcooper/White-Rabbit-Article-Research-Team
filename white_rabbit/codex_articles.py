@@ -66,10 +66,12 @@ def files_under(folder: Path) -> list[str]:
             if p.is_file() and p.resolve().is_relative_to(folder.resolve())]
 
 
-def generate_prompt(root: Path, project: Path) -> str:
+def generate_prompt(root: Path, project: Path, *, command_target: str | None = None) -> str:
     cfg = config(root)
     relative = project.relative_to(root).as_posix()
     sources = files_under(project / "sources")
+    validate_command = f"python codex_article.py {command_target or 'validate ' + project.name}"
+    export_command = validate_command.replace(" validate ", " export ", 1)
     return f"""# Codex article-production assignment: {project.name}
 
 Work from the repository containing this prompt; all paths below are repository-relative.
@@ -107,7 +109,7 @@ Complete these stages in order:
 10. Adversarial evidence audit: dossier-to-article comparison, section-by-section source
     coverage, primary-source escalation, competing explanations and responsibility.
 11. Revision: repair omissions, unsupported claims and mechanical failures.
-12. Validation: run `python codex_article.py validate {project.name}` and fix failures.
+12. Validation: run `{validate_command}` and fix failures.
 
 Write these final deliverables under `{relative}/output/`:
 {chr(10).join('- ' + p for p in DELIVERABLES)}
@@ -118,13 +120,19 @@ Include [IMAGE: description | ALT: alt text], [[SUBSCRIBE]] and [[SHARE]].
 audit.md must distinguish MECHANICAL CITATION VALIDITY from EDITORIAL SOURCE ADEQUACY,
 and record the dossier comparison, source coverage and primary-source escalation.
 Passing validation does not establish factual truth or editorial source adequacy.
-Export only after revision and validation with `python codex_article.py export {project.name}`.
+Export only after revision and validation with `{export_command}`.
 The Python workflow calls no LLM provider; Codex performs research and writing externally.
 """
 
 
 def new_project(root: Path, topic: str) -> Path:
     project = project_path(root, slugify(topic))
+    create_project(root, project, topic)
+    return project
+
+
+def create_project(root: Path, project: Path, topic: str, *, prompt: str | None = None) -> None:
+    """Shared blank project scaffold; never overwrite an existing destination."""
     brief = (root / "templates/ARTICLE_BRIEF_TEMPLATE.md").read_text(encoding="utf-8")
     for authority in AUTHORITY:
         if not (root / authority).is_file():
@@ -133,14 +141,17 @@ def new_project(root: Path, topic: str) -> Path:
     for name in ("sources", "research", "output"):
         (project / name).mkdir()
     (project / "ARTICLE_BRIEF.md").write_text(brief.replace("{{TOPIC}}", topic), encoding="utf-8")
-    (project / "CODEX_PROMPT.md").write_text(generate_prompt(root, project), encoding="utf-8")
-    return project
+    (project / "CODEX_PROMPT.md").write_text(prompt if prompt is not None else generate_prompt(root, project), encoding="utf-8")
 
 
 def require_project(root: Path, slug: str) -> Path:
     project = project_path(root, slug)
+    return check_project(project)
+
+
+def check_project(project: Path) -> Path:
     if not project.is_dir():
-        raise ValueError(f"Project does not exist: {slug}")
+        raise ValueError(f"Project does not exist: {project.name}")
     # Refuse writes or reads through redirected project subdirectories/files.
     for name in ("sources", "research", "output", "ARTICLE_BRIEF.md", "CODEX_PROMPT.md"):
         contained(project, name)
@@ -200,7 +211,7 @@ class Links(HTMLParser):
             self.current = None
 
 
-def validate(root: Path, project: Path) -> dict:
+def validate(root: Path, project: Path, *, series_urls: set[str] | None = None) -> dict:
     import markdown
     from .publishing.substack_source_linker import normalize_url
 
@@ -208,6 +219,8 @@ def validate(root: Path, project: Path) -> dict:
     output = project / "output"
     errors: list[str] = []
     known, warnings = archive_urls(root, cfg)
+    series_ids = {article_identity(u) for u in (series_urls or set())}
+    known |= series_ids
     for name in DELIVERABLES:
         path = output / name
         if not path.is_file() or not path.read_text(encoding="utf-8-sig").strip():
@@ -235,6 +248,11 @@ def validate(root: Path, project: Path) -> dict:
         "external_links": len(links) - len(internal), "faq_questions": len(questions),
         "source_csv_rows": 0,
     }
+    if series_urls is not None:
+        series_links = [u for u in internal if article_identity(u) in series_ids]
+        metrics.update(series_internal_links=len(series_links),
+                       unique_series_articles=len({article_identity(u) for u in series_links}),
+                       white_rabbit_archive_links=len(internal) - len(series_links))
     if len(faq_sections) != 1 or len(questions) != cfg["faq_count"]:
         errors.append(f"Expected one ## FAQ section with exactly {cfg['faq_count']} ### questions.")
     for metric in ("image_markers", "subscribe_markers", "share_markers"):
@@ -325,6 +343,11 @@ def export(root: Path, project: Path) -> list[Path]:
     report = validate(root, project)
     if report["errors"]:
         raise ValueError("Export blocked by validation:\n" + "\n".join(report["errors"]))
+    return export_validated(project)
+
+
+def export_validated(project: Path) -> list[Path]:
+    """Shared renderer; callers must perform their workflow's validation first."""
     from .publishing.substack_source_linker import markdown_to_docx, markdown_to_html, wrap_html
     output = project / "output"
     text = (output / "article.md").read_text(encoding="utf-8-sig")
@@ -335,11 +358,18 @@ def export(root: Path, project: Path) -> list[Path]:
 
 
 def main(argv: list[str] | None = None, *, root: Path = ROOT) -> int:
+    import sys
+    argv = list(sys.argv[1:] if argv is None else argv)
+    # Route series to its own parser without changing standalone command syntax.
+    if argv[:1] == ["series"]:
+        from .codex_series import main as series_main
+        return series_main(argv[1:], root=root.resolve())
     parser = argparse.ArgumentParser(description="Local Codex-first article workspace (no LLM API)")
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("new", help="Create a project without overwriting").add_argument("topic")
     for name in ("status", "prompt", "validate", "export"):
         commands.add_parser(name).add_argument("slug")
+    commands.add_parser("series", help="Manage multi-part investigations (series --help)")
     args = parser.parse_args(argv)
     root = root.resolve()
     try:

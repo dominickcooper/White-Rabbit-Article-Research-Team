@@ -22,4 +22,7 @@ reads for validation are read-only. The existing publishing converter exports
 already-linked Markdown directly; it does not insert a second set of source links.
 
 Legacy `python -m white_rabbit run` still uses Gemini and its existing configuration.
-Legacy archive commands remain unchanged. No multi-part series workflow is implemented.
+Legacy archive commands remain unchanged. `white_rabbit/codex_series.py` adds parallel
+series metadata, shared memory and context through `codex_article.py series ...`.
+It reuses create_project, check_project, generate_prompt, validate, status and the
+shared export_validated renderer. See [Series workflow](SERIES_WORKFLOW.md).

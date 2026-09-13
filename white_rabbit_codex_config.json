@@ -1,5 +1,6 @@
 {
   "projects_dir": "article_projects",
+  "series_dir": "series_projects",
   "archive_dir": "research_library/previous_white_rabbit_articles",
   "archive_db": "knowledge/white_rabbit.db",
   "internal_hosts": [],

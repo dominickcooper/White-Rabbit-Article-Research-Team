@@ -35,3 +35,10 @@ state, so an empty index made before recovery is rebuilt automatically.
 Run `python -m white_rabbit archive reindex --force` for an explicit local rebuild.
 Search/reindex need installed local dependencies but no provider key; sync uses network.
 The legacy run command remains a separate, optional Gemini pipeline.
+
+## Series investigations
+
+For a master investigation split into installments, use the parallel `series` commands.
+Read [SERIES_WORKFLOW.md](SERIES_WORKFLOW.md) for shared sources, cumulative memory,
+published callbacks, incremental part management and finale rules. The standalone
+commands above retain their syntax and behavior.
