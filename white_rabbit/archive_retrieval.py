@@ -637,6 +637,15 @@ def rebuild_archive_search_index(db_path: Path, *, force: bool = False) -> dict:
         db.close()
 
     signature = _archive_signature(articles)
+    # Registry hashes alone cannot invalidate an empty cache built while a moved
+    # archive was missing. Include current file availability and location.
+    local_state = []
+    for article in articles:
+        path = Path(article.local_dir) / "article.md"
+        stat = path.stat() if path.is_file() else None
+        local_state.append((str(path.resolve()), stat.st_size if stat else None,
+                            stat.st_mtime_ns if stat else None))
+    signature = hashlib.sha256((signature + repr(local_state)).encode("utf-8")).hexdigest()
     index_path = _index_path_for(db_path)
     if index_path.exists() and not force:
         try:
