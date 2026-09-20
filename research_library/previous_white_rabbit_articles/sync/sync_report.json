@@ -1,7 +1,266 @@
 {
   "publication_url": "https://thewhiterabbitreport.substack.com",
-  "discovered": 145,
+  "discovered": 148,
   "new": [
+    {
+      "id": "WR-000146",
+      "title": "Cast Thy Bread: Israel’s Secret 1948 Biological Warfare Program",
+      "url": "https://thewhiterabbitreport.substack.com/p/cast-thy-bread-israel-biological-warfare-1948"
+    },
+    {
+      "id": "WR-000147",
+      "title": "Flock Safety: America Outsourced the Surveillance State",
+      "url": "https://thewhiterabbitreport.substack.com/p/flock-safety-conspiracy-surveillance-network-police-ai"
+    },
+    {
+      "id": "WR-000148",
+      "title": "OPERATION SUSANNAH: THE ISRAELI FALSE FLAG THAT REALLY HAPPENED",
+      "url": "https://thewhiterabbitreport.substack.com/p/operation-susannah-israel-false-flag-lavon-affair"
+    }
+  ],
+  "updated": [],
+  "unchanged": [],
+  "skipped_existing": [
+    {
+      "id": "WR-000001",
+      "title": "2020 ELECTION FRAUD: The Evidence They Don't Want You to See",
+      "url": "https://thewhiterabbitreport.substack.com/p/2020-election-fraud-the-evidence"
+    },
+    {
+      "id": "WR-000002",
+      "title": "2024 ILA Shipping Union Strike: What To Expect",
+      "url": "https://thewhiterabbitreport.substack.com/p/2024-ila-shipping-union-strike-what"
+    },
+    {
+      "id": "WR-000003",
+      "title": "23andMe Board Walkout: What’s Behind the Sudden Departure?",
+      "url": "https://thewhiterabbitreport.substack.com/p/23andme-board-walkout-whats-behind"
+    },
+    {
+      "id": "WR-000004",
+      "title": "Behind Sednaya's walls: Tragedy & Propaganda",
+      "url": "https://thewhiterabbitreport.substack.com/p/behind-sednayas-walls-tragedy-and"
+    },
+    {
+      "id": "WR-000005",
+      "title": "Big Pharma’s Role in America’s Opioid Crisis: A Public Health Catastrophe",
+      "url": "https://thewhiterabbitreport.substack.com/p/big-pharmas-role-in-americas-opioid"
+    },
+    {
+      "id": "WR-000006",
+      "title": "BlackRock's Aladdin: The AI Quietly Running the World?",
+      "url": "https://thewhiterabbitreport.substack.com/p/blackrocks-aladdin-the-ai-quietly"
+    },
+    {
+      "id": "WR-000007",
+      "title": "The Blueprint Pt 2/3: The CIA’s Global Coup Machine (1980s–2020)",
+      "url": "https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-2-history-1980s-2020"
+    },
+    {
+      "id": "WR-000008",
+      "title": "The Blueprint Pt 1/3: The CIA’s Global Coup Machine (1950s–70s)",
+      "url": "https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s"
+    },
+    {
+      "id": "WR-000009",
+      "title": "BRICS Expansion: How It’s Shifting the Global Balance of Power",
+      "url": "https://thewhiterabbitreport.substack.com/p/brics-expansion-how-its-shifting"
+    },
+    {
+      "id": "WR-000010",
+      "title": "CHARLES MANSON & THE CIA: How Dr. Jolly West Programmed a Killer",
+      "url": "https://thewhiterabbitreport.substack.com/p/charles-manson-murders-cia-jolly-west-mkultra"
+    },
+    {
+      "id": "WR-000011",
+      "title": "CIA Files: Operation Mockingbird",
+      "url": "https://thewhiterabbitreport.substack.com/p/cia-files-operation-mockingbird"
+    },
+    {
+      "id": "WR-000012",
+      "title": "CIA’s Project Artichoke File Reveals Hypnosis Training Video Leak",
+      "url": "https://thewhiterabbitreport.substack.com/p/cia-project-artichoke-hypnosis-training-video"
+    },
+    {
+      "id": "WR-000013",
+      "title": "Coming soon",
+      "url": "https://thewhiterabbitreport.substack.com/p/coming-soon"
+    },
+    {
+      "id": "WR-000014",
+      "title": "The Rebirth of MK-ULTRA: DARPA’s Wireless Brain-Computer Interface",
+      "url": "https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra"
+    },
+    {
+      "id": "WR-000015",
+      "title": "Deep State Vocabulary (False Flags, Psy Ops, and More) | Part 1",
+      "url": "https://thewhiterabbitreport.substack.com/p/deep-state-vocabulary-false-flags"
+    },
+    {
+      "id": "WR-000016",
+      "title": "Deep State Vocabulary (False Flags, Psy Ops, and More) | Part 2",
+      "url": "https://thewhiterabbitreport.substack.com/p/deep-state-vocabulary-false-flags-64e"
+    },
+    {
+      "id": "WR-000017",
+      "title": "The Epstein Files: Unraveling the Blackmail Empire – (Part 1/7)",
+      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-1-epstein-scandal-teaser-blackmail-empire-exposed"
+    },
+    {
+      "id": "WR-000018",
+      "title": "The Epstein Files: From Dropout to Spy – The Improbable Rise (Part 2/7)",
+      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-2-dropout-to-israeli-spy-improbable-rise"
+    },
+    {
+      "id": "WR-000019",
+      "title": "The Epstein Files: The Maxwell Dynasty – Mossad Roots & Grooming Machine (Part 3/7)",
+      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-3-maxwell-dynasty-mossad-grooming"
+    },
+    {
+      "id": "WR-000020",
+      "title": "The Epstein Files: Les Wexner – Billionaire Enabler & Mega Group Secrets (Part 4/7)",
+      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-4-les-wexner-billionaire-enabler-mega-group"
+    },
+    {
+      "id": "WR-000021",
+      "title": "The Epstein Files: Follow The Money (Part 5/7)",
+      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-5-follow-the-money"
+    },
+    {
+      "id": "WR-000022",
+      "title": "The Epstein Files: Suicide, Hit or Houdini Escape? – The Death Conspiracy (Part 7/7)",
+      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-7-jeffrey-epstein-death-conspiracy-suicide-murder-escape"
+    },
+    {
+      "id": "WR-000023",
+      "title": "The Epstein Files: The Most Disturbing Emails Uncovered (Part 6/7)",
+      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-part-6-most-disturbing-evidence-emails"
+    },
+    {
+      "id": "WR-000024",
+      "title": "False Profits: The Chemonics- USAID Scandal",
+      "url": "https://thewhiterabbitreport.substack.com/p/false-profits-the-chemonics-usaid"
+    },
+    {
+      "id": "WR-000025",
+      "title": "The FBI Knew January 6 Was Coming — And Did Nothing",
+      "url": "https://thewhiterabbitreport.substack.com/p/fbi-january-6-foreknowledge-memos-stood-down-planning"
+    },
+    {
+      "id": "WR-000026",
+      "title": "The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)",
+      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget"
+    },
+    {
+      "id": "WR-000027",
+      "title": "The Five Star Trust: Loose Ends (Part 2/5)",
+      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-2-phoenix-program-japan-connection"
+    },
+    {
+      "id": "WR-000028",
+      "title": "The Five Star Trust: Black Money (Part 3/5)",
+      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-3-cia-black-budget-bank-structure"
+    },
+    {
+      "id": "WR-000029",
+      "title": "The Five Star Trust: The Trillion Dollar War (Part 4/5)",
+      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-4-betrayal-courts-deep-state"
+    },
+    {
+      "id": "WR-000030",
+      "title": "The Five Star Trust: The Phantom General – Robert Ferrera (Part 5/5)",
+      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-5-robert-ferrera-cia-black-eagle"
+    },
+    {
+      "id": "WR-000031",
+      "title": "Freemasons and Their Influence in Global Affairs: Myths and Realities",
+      "url": "https://thewhiterabbitreport.substack.com/p/freemasons-and-their-influence-in"
+    },
+    {
+      "id": "WR-000032",
+      "title": "From Gladio to Guyana: Jonestown and the CIA (Part 1/3)",
+      "url": "https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and"
+    },
+    {
+      "id": "WR-000033",
+      "title": "From Gladio to Guyana: Jonestown and the CIA (Part 2/3)",
+      "url": "https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and-2a5"
+    },
+    {
+      "id": "WR-000034",
+      "title": "From Gladio to Guyana: Jonestown and the CIA (Part 3/3)",
+      "url": "https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and-f71"
+    },
+    {
+      "id": "WR-000035",
+      "title": "GATEkeepers Pt 1: The CIA, GATE, and the Gifted Student Pipeline",
+      "url": "https://thewhiterabbitreport.substack.com/p/gate-program-cia-mkultra-gifted-education"
+    },
+    {
+      "id": "WR-000036",
+      "title": "GATEKeepers Pt 3 | The 60s, 70s, and the CIA",
+      "url": "https://thewhiterabbitreport.substack.com/p/gatekeepers-cia-gifted-education-conspiracy-1960s-1970s"
+    },
+    {
+      "id": "WR-000037",
+      "title": "GATEKeepers Pt 4 | The Profile of a GATE Student",
+      "url": "https://thewhiterabbitreport.substack.com/p/gatekeepers-pt-4-the-profile-of-a-gifted-talented-student-selection-cia-mkultra-conspiracy"
+    },
+    {
+      "id": "WR-000038",
+      "title": "GATEKeepers Pt 5 | The GATE Curriculum",
+      "url": "https://thewhiterabbitreport.substack.com/p/gatekeepers-pt-5-the-gate-curriculum-cia-psychic-worksheets-conspiracy"
+    },
+    {
+      "id": "WR-000039",
+      "title": "GATEKeepers Pt. 2 | The Origins of the GATE Conspiracy",
+      "url": "https://thewhiterabbitreport.substack.com/p/gatekeepers-pt2-origins-of-the-gate-conspiracy"
+    },
+    {
+      "id": "WR-000040",
+      "title": "THE GLITTER CONSPIRACY: THE SECRET INDUSTRY HIDING IN PLAIN SIGHT",
+      "url": "https://thewhiterabbitreport.substack.com/p/glitter-conspiracy-secret-buyer-military-surveillance"
+    },
+    {
+      "id": "WR-000041",
+      "title": "The Governor's School: The Clinton Indoctrination Camp",
+      "url": "https://thewhiterabbitreport.substack.com/p/governors-school-clinton-indoctrination-camp-gate-conspiracy"
+    },
+    {
+      "id": "WR-000042",
+      "title": "The Gulf of Tonkin Incident: The Lie That Sparked the Vietnam War",
+      "url": "https://thewhiterabbitreport.substack.com/p/gulf-of-tonkin-incident-lie-vietnam-war"
+    },
+    {
+      "id": "WR-000043",
+      "title": "HAARP Weather Control: Weather Warfare and the War for the Sky",
+      "url": "https://thewhiterabbitreport.substack.com/p/haarp-weather-control-weather-modification-warfare-sky"
+    },
+    {
+      "id": "WR-000044",
+      "title": "Has the Deep State Ever Been Exposed?",
+      "url": "https://thewhiterabbitreport.substack.com/p/has-the-deep-state-ever-been-exposed"
+    },
+    {
+      "id": "WR-000045",
+      "title": "Help Spread the Truth – Invite Friends & Unlock Exclusive Perks",
+      "url": "https://thewhiterabbitreport.substack.com/p/help-spread-the-truth-invite-friends"
+    },
+    {
+      "id": "WR-000046",
+      "title": "Hollywood’s Darkest Secret: The Hidden Web of Pedophilia in Tinseltown",
+      "url": "https://thewhiterabbitreport.substack.com/p/hollywoods-darkest-secret-the-hidden"
+    },
+    {
+      "id": "WR-000047",
+      "title": "How Big Pharma Controls the FDA: Lobbying and Fast-Tracked Approvals",
+      "url": "https://thewhiterabbitreport.substack.com/p/how-big-pharma-controls-the-fda-lobbying"
+    },
+    {
+      "id": "WR-000048",
+      "title": "How Big Pharma Shapes Healthcare: The Invisible Hand Behind Medicine",
+      "url": "https://thewhiterabbitreport.substack.com/p/how-big-pharma-shapes-healthcare"
+    },
     {
       "id": "WR-000054",
       "title": "How the Deep State Shapes U.S. Foreign Policy: Unelected Power in Global Affairs",
@@ -353,6 +612,11 @@
       "url": "https://thewhiterabbitreport.substack.com/p/the-vaccine-mandate-debate-balancing"
     },
     {
+      "id": "WR-000049",
+      "title": "The Weaponization of Government: Is Political Influence Corrupting Federal Agencies?",
+      "url": "https://thewhiterabbitreport.substack.com/p/the-weaponization-of-government-is"
+    },
+    {
       "id": "WR-000124",
       "title": "Thomas Jefferson's Original Declaration of Independence: The Anti-Slavery Passages They Took Out",
       "url": "https://thewhiterabbitreport.substack.com/p/thomas-jefferson-original-declaration-slavery"
@@ -366,6 +630,11 @@
       "id": "WR-000126",
       "title": "Trump Assassination Attempt: Examining Political Rhetoric and Violence",
       "url": "https://thewhiterabbitreport.substack.com/p/trump-assassination-attempt-examining"
+    },
+    {
+      "id": "WR-000050",
+      "title": "Trump’s Big Bet: Can a Sovereign Wealth Fund & Tariffs Rebuild America",
+      "url": "https://thewhiterabbitreport.substack.com/p/trumps-big-bet-can-a-sovereign-wealth"
     },
     {
       "id": "WR-000127",
@@ -388,9 +657,19 @@
       "url": "https://thewhiterabbitreport.substack.com/p/tulsi-gabbard-obama-russia-hoax-expose"
     },
     {
+      "id": "WR-000051",
+      "title": "UKRAINE: The Psy-Op That Fooled The World",
+      "url": "https://thewhiterabbitreport.substack.com/p/ukraine-the-psy-op-that-fooled-the"
+    },
+    {
       "id": "WR-000131",
       "title": "Universe 25: What a Mouse Apocalypse Says About Human Society",
       "url": "https://thewhiterabbitreport.substack.com/p/universe-25-experiment-mouse-utopia-collapse-human-society-warning"
+    },
+    {
+      "id": "WR-000052",
+      "title": "Unlocking the Mind: The CIA's Secret Gateway Process for Consciousness Expansion",
+      "url": "https://thewhiterabbitreport.substack.com/p/unlocking-the-mind-the-cias-secret"
     },
     {
       "id": "WR-000132",
@@ -416,6 +695,11 @@
       "id": "WR-000136",
       "title": "Vaccines and Rising Allergies in Children: Uncovering the Hidden Data",
       "url": "https://thewhiterabbitreport.substack.com/p/vaccines-and-rising-allergies-in"
+    },
+    {
+      "id": "WR-000053",
+      "title": "Venezuela Election Psy-Op Exposed | CIA & Smartmatic Truth",
+      "url": "https://thewhiterabbitreport.substack.com/p/venezuela-election-psy-op-cia-smartmatic-maduro"
     },
     {
       "id": "WR-000137",
@@ -463,294 +747,30 @@
       "url": "https://thewhiterabbitreport.substack.com/p/your-digital-twin-is-here"
     }
   ],
-  "updated": [],
-  "unchanged": [],
-  "skipped_existing": [
-    {
-      "id": "WR-000001",
-      "title": "2020 ELECTION FRAUD: The Evidence They Don't Want You to See",
-      "url": "https://thewhiterabbitreport.substack.com/p/2020-election-fraud-the-evidence"
-    },
-    {
-      "id": "WR-000002",
-      "title": "2024 ILA Shipping Union Strike: What To Expect",
-      "url": "https://thewhiterabbitreport.substack.com/p/2024-ila-shipping-union-strike-what"
-    },
-    {
-      "id": "WR-000003",
-      "title": "23andMe Board Walkout: What’s Behind the Sudden Departure?",
-      "url": "https://thewhiterabbitreport.substack.com/p/23andme-board-walkout-whats-behind"
-    },
-    {
-      "id": "WR-000004",
-      "title": "Behind Sednaya's walls: Tragedy & Propaganda",
-      "url": "https://thewhiterabbitreport.substack.com/p/behind-sednayas-walls-tragedy-and"
-    },
-    {
-      "id": "WR-000005",
-      "title": "Big Pharma’s Role in America’s Opioid Crisis: A Public Health Catastrophe",
-      "url": "https://thewhiterabbitreport.substack.com/p/big-pharmas-role-in-americas-opioid"
-    },
-    {
-      "id": "WR-000006",
-      "title": "BlackRock's Aladdin: The AI Quietly Running the World?",
-      "url": "https://thewhiterabbitreport.substack.com/p/blackrocks-aladdin-the-ai-quietly"
-    },
-    {
-      "id": "WR-000007",
-      "title": "The Blueprint Pt 2/3: The CIA’s Global Coup Machine (1980s–2020)",
-      "url": "https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-2-history-1980s-2020"
-    },
-    {
-      "id": "WR-000008",
-      "title": "The Blueprint Pt 1/3: The CIA’s Global Coup Machine (1950s–70s)",
-      "url": "https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s"
-    },
-    {
-      "id": "WR-000009",
-      "title": "BRICS Expansion: How It’s Shifting the Global Balance of Power",
-      "url": "https://thewhiterabbitreport.substack.com/p/brics-expansion-how-its-shifting"
-    },
-    {
-      "id": "WR-000010",
-      "title": "CHARLES MANSON & THE CIA: How Dr. Jolly West Programmed a Killer",
-      "url": "https://thewhiterabbitreport.substack.com/p/charles-manson-murders-cia-jolly-west-mkultra"
-    },
-    {
-      "id": "WR-000011",
-      "title": "CIA Files: Operation Mockingbird",
-      "url": "https://thewhiterabbitreport.substack.com/p/cia-files-operation-mockingbird"
-    },
-    {
-      "id": "WR-000012",
-      "title": "CIA’s Project Artichoke File Reveals Hypnosis Training Video Leak",
-      "url": "https://thewhiterabbitreport.substack.com/p/cia-project-artichoke-hypnosis-training-video"
-    },
-    {
-      "id": "WR-000013",
-      "title": "Coming soon",
-      "url": "https://thewhiterabbitreport.substack.com/p/coming-soon"
-    },
-    {
-      "id": "WR-000014",
-      "title": "The Rebirth of MK-ULTRA: DARPA’s Wireless Brain-Computer Interface",
-      "url": "https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra"
-    },
-    {
-      "id": "WR-000015",
-      "title": "Deep State Vocabulary (False Flags, Psy Ops, and More) | Part 1",
-      "url": "https://thewhiterabbitreport.substack.com/p/deep-state-vocabulary-false-flags"
-    },
-    {
-      "id": "WR-000016",
-      "title": "Deep State Vocabulary (False Flags, Psy Ops, and More) | Part 2",
-      "url": "https://thewhiterabbitreport.substack.com/p/deep-state-vocabulary-false-flags-64e"
-    },
-    {
-      "id": "WR-000017",
-      "title": "The Epstein Files: Unraveling the Blackmail Empire – (Part 1/7)",
-      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-1-epstein-scandal-teaser-blackmail-empire-exposed"
-    },
-    {
-      "id": "WR-000018",
-      "title": "The Epstein Files: From Dropout to Spy – The Improbable Rise (Part 2/7)",
-      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-2-dropout-to-israeli-spy-improbable-rise"
-    },
-    {
-      "id": "WR-000019",
-      "title": "The Epstein Files: The Maxwell Dynasty – Mossad Roots & Grooming Machine (Part 3/7)",
-      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-3-maxwell-dynasty-mossad-grooming"
-    },
-    {
-      "id": "WR-000020",
-      "title": "The Epstein Files: Les Wexner – Billionaire Enabler & Mega Group Secrets (Part 4/7)",
-      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-4-les-wexner-billionaire-enabler-mega-group"
-    },
-    {
-      "id": "WR-000021",
-      "title": "The Epstein Files: Follow The Money (Part 5/7)",
-      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-5-follow-the-money"
-    },
-    {
-      "id": "WR-000022",
-      "title": "The Epstein Files: Suicide, Hit or Houdini Escape? – The Death Conspiracy (Part 7/7)",
-      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-7-jeffrey-epstein-death-conspiracy-suicide-murder-escape"
-    },
-    {
-      "id": "WR-000023",
-      "title": "The Epstein Files: The Most Disturbing Emails Uncovered (Part 6/7)",
-      "url": "https://thewhiterabbitreport.substack.com/p/epstein-files-part-6-most-disturbing-evidence-emails"
-    },
-    {
-      "id": "WR-000024",
-      "title": "False Profits: The Chemonics- USAID Scandal",
-      "url": "https://thewhiterabbitreport.substack.com/p/false-profits-the-chemonics-usaid"
-    },
-    {
-      "id": "WR-000025",
-      "title": "The FBI Knew January 6 Was Coming — And Did Nothing",
-      "url": "https://thewhiterabbitreport.substack.com/p/fbi-january-6-foreknowledge-memos-stood-down-planning"
-    },
-    {
-      "id": "WR-000026",
-      "title": "The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)",
-      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget"
-    },
-    {
-      "id": "WR-000027",
-      "title": "The Five Star Trust: Loose Ends (Part 2/5)",
-      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-2-phoenix-program-japan-connection"
-    },
-    {
-      "id": "WR-000028",
-      "title": "The Five Star Trust: Black Money (Part 3/5)",
-      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-3-cia-black-budget-bank-structure"
-    },
-    {
-      "id": "WR-000029",
-      "title": "The Five Star Trust: The Trillion Dollar War (Part 4/5)",
-      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-4-betrayal-courts-deep-state"
-    },
-    {
-      "id": "WR-000030",
-      "title": "The Five Star Trust: The Phantom General – Robert Ferrera (Part 5/5)",
-      "url": "https://thewhiterabbitreport.substack.com/p/five-star-trust-part-5-robert-ferrera-cia-black-eagle"
-    },
-    {
-      "id": "WR-000031",
-      "title": "Freemasons and Their Influence in Global Affairs: Myths and Realities",
-      "url": "https://thewhiterabbitreport.substack.com/p/freemasons-and-their-influence-in"
-    },
-    {
-      "id": "WR-000032",
-      "title": "From Gladio to Guyana: Jonestown and the CIA (Part 1/3)",
-      "url": "https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and"
-    },
-    {
-      "id": "WR-000033",
-      "title": "From Gladio to Guyana: Jonestown and the CIA (Part 2/3)",
-      "url": "https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and-2a5"
-    },
-    {
-      "id": "WR-000034",
-      "title": "From Gladio to Guyana: Jonestown and the CIA (Part 3/3)",
-      "url": "https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and-f71"
-    },
-    {
-      "id": "WR-000035",
-      "title": "GATEkeepers Pt 1: The CIA, GATE, and the Gifted Student Pipeline",
-      "url": "https://thewhiterabbitreport.substack.com/p/gate-program-cia-mkultra-gifted-education"
-    },
-    {
-      "id": "WR-000036",
-      "title": "GATEKeepers Pt 3 | The 60s, 70s, and the CIA",
-      "url": "https://thewhiterabbitreport.substack.com/p/gatekeepers-cia-gifted-education-conspiracy-1960s-1970s"
-    },
-    {
-      "id": "WR-000037",
-      "title": "GATEKeepers Pt 4 | The Profile of a GATE Student",
-      "url": "https://thewhiterabbitreport.substack.com/p/gatekeepers-pt-4-the-profile-of-a-gifted-talented-student-selection-cia-mkultra-conspiracy"
-    },
-    {
-      "id": "WR-000038",
-      "title": "GATEKeepers Pt 5 | The GATE Curriculum",
-      "url": "https://thewhiterabbitreport.substack.com/p/gatekeepers-pt-5-the-gate-curriculum-cia-psychic-worksheets-conspiracy"
-    },
-    {
-      "id": "WR-000039",
-      "title": "GATEKeepers Pt. 2 | The Origins of the GATE Conspiracy",
-      "url": "https://thewhiterabbitreport.substack.com/p/gatekeepers-pt2-origins-of-the-gate-conspiracy"
-    },
-    {
-      "id": "WR-000040",
-      "title": "THE GLITTER CONSPIRACY: THE SECRET INDUSTRY HIDING IN PLAIN SIGHT",
-      "url": "https://thewhiterabbitreport.substack.com/p/glitter-conspiracy-secret-buyer-military-surveillance"
-    },
-    {
-      "id": "WR-000041",
-      "title": "The Governor's School: The Clinton Indoctrination Camp",
-      "url": "https://thewhiterabbitreport.substack.com/p/governors-school-clinton-indoctrination-camp-gate-conspiracy"
-    },
-    {
-      "id": "WR-000042",
-      "title": "The Gulf of Tonkin Incident: The Lie That Sparked the Vietnam War",
-      "url": "https://thewhiterabbitreport.substack.com/p/gulf-of-tonkin-incident-lie-vietnam-war"
-    },
-    {
-      "id": "WR-000043",
-      "title": "HAARP Weather Control: Weather Warfare and the War for the Sky",
-      "url": "https://thewhiterabbitreport.substack.com/p/haarp-weather-control-weather-modification-warfare-sky"
-    },
-    {
-      "id": "WR-000044",
-      "title": "Has the Deep State Ever Been Exposed?",
-      "url": "https://thewhiterabbitreport.substack.com/p/has-the-deep-state-ever-been-exposed"
-    },
-    {
-      "id": "WR-000045",
-      "title": "Help Spread the Truth – Invite Friends & Unlock Exclusive Perks",
-      "url": "https://thewhiterabbitreport.substack.com/p/help-spread-the-truth-invite-friends"
-    },
-    {
-      "id": "WR-000046",
-      "title": "Hollywood’s Darkest Secret: The Hidden Web of Pedophilia in Tinseltown",
-      "url": "https://thewhiterabbitreport.substack.com/p/hollywoods-darkest-secret-the-hidden"
-    },
-    {
-      "id": "WR-000047",
-      "title": "How Big Pharma Controls the FDA: Lobbying and Fast-Tracked Approvals",
-      "url": "https://thewhiterabbitreport.substack.com/p/how-big-pharma-controls-the-fda-lobbying"
-    },
-    {
-      "id": "WR-000048",
-      "title": "How Big Pharma Shapes Healthcare: The Invisible Hand Behind Medicine",
-      "url": "https://thewhiterabbitreport.substack.com/p/how-big-pharma-shapes-healthcare"
-    },
-    {
-      "id": "WR-000049",
-      "title": "The Weaponization of Government: Is Political Influence Corrupting Federal Agencies?",
-      "url": "https://thewhiterabbitreport.substack.com/p/the-weaponization-of-government-is"
-    },
-    {
-      "id": "WR-000050",
-      "title": "Trump’s Big Bet: Can a Sovereign Wealth Fund & Tariffs Rebuild America",
-      "url": "https://thewhiterabbitreport.substack.com/p/trumps-big-bet-can-a-sovereign-wealth"
-    },
-    {
-      "id": "WR-000051",
-      "title": "UKRAINE: The Psy-Op That Fooled The World",
-      "url": "https://thewhiterabbitreport.substack.com/p/ukraine-the-psy-op-that-fooled-the"
-    },
-    {
-      "id": "WR-000052",
-      "title": "Unlocking the Mind: The CIA's Secret Gateway Process for Consciousness Expansion",
-      "url": "https://thewhiterabbitreport.substack.com/p/unlocking-the-mind-the-cias-secret"
-    },
-    {
-      "id": "WR-000053",
-      "title": "Venezuela Election Psy-Op Exposed | CIA & Smartmatic Truth",
-      "url": "https://thewhiterabbitreport.substack.com/p/venezuela-election-psy-op-cia-smartmatic-maduro"
-    }
-  ],
   "preview_only": [
     {
-      "id": "WR-000067",
-      "title": "The Curious Case of Larry Silverstein: A 9/11 Mystery",
-      "url": "https://thewhiterabbitreport.substack.com/p/larry-silverstein-9-11-israel"
+      "id": "WR-000146",
+      "title": "Cast Thy Bread: Israel’s Secret 1948 Biological Warfare Program",
+      "url": "https://thewhiterabbitreport.substack.com/p/cast-thy-bread-israel-biological-warfare-1948"
     },
     {
-      "id": "WR-000108",
-      "title": "The Good Shepherd: Part 1/3 – Unmasking the CIA and MI6’s Hidden History",
-      "url": "https://thewhiterabbitreport.substack.com/p/the-good-shepherd-unmasking-cia-mi6-hidden-history"
+      "id": "WR-000147",
+      "title": "Flock Safety: America Outsourced the Surveillance State",
+      "url": "https://thewhiterabbitreport.substack.com/p/flock-safety-conspiracy-surveillance-network-police-ai"
+    },
+    {
+      "id": "WR-000148",
+      "title": "OPERATION SUSANNAH: THE ISRAELI FALSE FLAG THAT REALLY HAPPENED",
+      "url": "https://thewhiterabbitreport.substack.com/p/operation-susannah-israel-false-flag-lavon-affair"
     }
   ],
   "errors": [],
-  "started_at": "2026-08-27T17:18:42.827403+00:00",
-  "finished_at": "2026-08-27T17:22:19.088685+00:00",
+  "started_at": "2026-09-13T05:58:40.654961+00:00",
+  "finished_at": "2026-09-13T05:58:47.721511+00:00",
   "database": {
-    "articles": 145,
-    "full": 142,
-    "preview_only": 3,
-    "links": 3270
+    "articles": 148,
+    "full": 101,
+    "preview_only": 47,
+    "links": 3297
   }
 }
