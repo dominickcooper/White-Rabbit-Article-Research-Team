@@ -18,6 +18,11 @@ workspace/*/output/*.html
 knowledge/*.joblib
 knowledge/*.sqlite3
 knowledge/*.db-journal
+knowledge/*.db-wal
+knowledge/*.db-shm
+
+# local research extraction and rendering scratch space
+/tmp/
 
 # one-off patch kits and backups should not live in git
 upgrade_backups/
