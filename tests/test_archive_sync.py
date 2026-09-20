@@ -1,6 +1,14 @@
+import json
 from pathlib import Path
 
-from white_rabbit.archive_sync import SubstackArchiveSync
+import pytest
+
+from white_rabbit.archive_sync import (
+    ArticleSnapshot,
+    SubstackArchiveSync,
+    detect_preview_boundary,
+    reconcile_local_preview_statuses,
+)
 
 
 def test_extract_and_store_article(tmp_path: Path):
@@ -58,3 +66,76 @@ def test_paywall_preview_is_flagged(tmp_path: Path):
         assert snap.content_status == "preview_only"
     finally:
         syncer.close()
+
+
+@pytest.mark.parametrize("boundary", [
+    "Subscribe to continue reading",
+    "Continue reading this post for free in the Substack app",
+    "This post is for paid subscribers. Upgrade to paid to read the rest.",
+    "Continue reading this post. Or purchase a paid subscription.",
+])
+def test_substack_continuation_boundaries(boundary: str):
+    article = f"# Report\n\nA substantial captured preview with documentary material.\n\n{boundary}"
+    assert detect_preview_boundary(article)
+
+
+def test_ordinary_subscription_cta_is_not_a_preview():
+    article = """# Full report
+
+This is the complete article, including its conclusion and final evidentiary judgment.
+
+Thanks for reading. Subscribe for free to receive new posts and support my work.
+You may also purchase a paid subscription if you want to support this publication.
+"""
+    assert detect_preview_boundary(article) is None
+
+
+def test_continuation_language_must_be_near_the_capture_boundary():
+    article = (
+        "A historical quotation said subscribe to continue reading. "
+        + "Complete analysis follows here. " * 300
+        + "Final conclusion."
+    )
+    assert detect_preview_boundary(article) is None
+
+
+def test_local_reconciliation_updates_status_without_changing_capture(tmp_path: Path):
+    archive_root = tmp_path / "archive"
+    db_path = tmp_path / "knowledge" / "white_rabbit.db"
+    markdown = (
+        "# Limited report\n\nA retained source-backed preview that is long enough for storage.\n\n"
+        "Continue reading this post for free in the Substack app"
+    )
+    snapshot = ArticleSnapshot(
+        title="Limited report",
+        slug="limited-report",
+        canonical_url="https://example.substack.com/p/limited-report",
+        published_date="2026-09-20T00:00:00Z",
+        author="White Rabbit",
+        markdown=markdown,
+        links=[],
+        content_status="full",
+    )
+    syncer = SubstackArchiveSync(
+        publication_url="https://example.substack.com",
+        archive_root=archive_root,
+        db_path=db_path,
+        request_delay_ms=0,
+    )
+    try:
+        syncer.store_snapshot(snapshot)
+    finally:
+        syncer.close()
+
+    article_path = archive_root / "articles/2026/limited-report/article.md"
+    captured = article_path.read_bytes()
+    report = reconcile_local_preview_statuses(
+        archive_root,
+        db_path,
+        report_path=archive_root / "sync/preview_reconciliation_report.json",
+    )
+    metadata = json.loads(article_path.with_name("metadata.json").read_text(encoding="utf-8"))
+    assert report["reclassified_records"] == 1
+    assert metadata["content_status"] == "preview_only"
+    assert report["database"]["preview_only"] == 1
+    assert article_path.read_bytes() == captured

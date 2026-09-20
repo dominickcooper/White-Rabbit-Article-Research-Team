@@ -183,6 +183,23 @@ class ArchiveDB:
         )
         self.conn.commit()
 
+    def update_content_status(self, canonical_url: str, content_status: str) -> None:
+        """Reconcile a locally audited archive status without timestamp churn elsewhere."""
+        if content_status not in {"full", "preview_only"}:
+            raise ValueError(f"Unsupported archive content status: {content_status}")
+        result = self.conn.execute(
+            """
+            UPDATE wr_articles
+               SET content_status = ?, last_synced = ?
+             WHERE canonical_url = ?
+            """,
+            (content_status, self._now(), canonical_url),
+        )
+        if result.rowcount != 1:
+            self.conn.rollback()
+            raise KeyError(f"Unknown archive article: {canonical_url}")
+        self.conn.commit()
+
     def replace_links(self, canonical_url: str, links: list[dict]) -> None:
         row = self.conn.execute(
             "SELECT id FROM wr_articles WHERE canonical_url = ?", (canonical_url,)

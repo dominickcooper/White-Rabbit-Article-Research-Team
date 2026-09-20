@@ -19,12 +19,11 @@ from markdownify import markdownify as to_markdown
 from .archive_db import ArchiveDB
 
 
-PAYWALL_MARKERS = (
+PREVIEW_BOUNDARY_PHRASES = (
     "subscribe to continue reading",
     "this post is for paid subscribers",
     "this post is for subscribers",
-    "upgrade to paid",
-    "become a paid subscriber",
+    "continue reading this post for free in the substack app",
 )
 
 CONTENT_SELECTORS = (
@@ -35,6 +34,113 @@ CONTENT_SELECTORS = (
     "div[class*='body markup']",
     "article",
 )
+
+
+def detect_preview_boundary(markdown: str) -> str | None:
+    """Return the Substack continuation boundary found near the captured text's end.
+
+    Ordinary subscription invitations are not preview boundaries. The detector uses
+    explicit continuation language and limits matching to the tail of the captured
+    article, where Substack inserts its paywall/continuation block.
+    """
+    normalized = re.sub(r"\s+", " ", markdown).strip().lower()
+    tail = normalized[-2500:]
+    for phrase in PREVIEW_BOUNDARY_PHRASES:
+        if phrase in tail:
+            return phrase
+    if (
+        "purchase a paid subscription" in tail
+        and re.search(r"continue reading(?: this post)?", tail)
+    ):
+        return "purchase a paid subscription after continue-reading boundary"
+    if (
+        "upgrade to paid" in tail
+        and re.search(r"(?:continue|unlock|read the rest)", tail)
+    ):
+        return "upgrade to paid continuation boundary"
+    return None
+
+
+def reconcile_local_preview_statuses(
+    archive_root: Path,
+    db_path: Path,
+    *,
+    report_path: Path | None = None,
+    sync_report_path: Path | None = None,
+) -> dict:
+    """Reclassify captured archive previews without changing captured article text."""
+    archive_root = Path(archive_root)
+    db = ArchiveDB(db_path)
+    records: list[dict] = []
+    changed = 0
+    try:
+        for metadata_path in sorted(archive_root.glob("articles/*/*/metadata.json")):
+            metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+            article_path = metadata_path.with_name("article.md")
+            if not article_path.is_file():
+                continue
+            markdown = article_path.read_text(encoding="utf-8")
+            boundary = detect_preview_boundary(markdown)
+            if not boundary:
+                continue
+            old_status = str(metadata.get("content_status", "full"))
+            new_status = "preview_only"
+            if old_status != new_status:
+                metadata["content_status"] = new_status
+                metadata_path.write_text(
+                    json.dumps(metadata, indent=2, ensure_ascii=False) + "\n",
+                    encoding="utf-8",
+                )
+                changed += 1
+            article = db.get_by_url(str(metadata["canonical_url"]))
+            if article is None:
+                raise KeyError(f"Archive metadata missing from database: {metadata_path}")
+            if article.content_status != new_status:
+                db.update_content_status(str(metadata["canonical_url"]), new_status)
+            records.append({
+                "article_id": metadata.get("article_id"),
+                "slug": metadata.get("slug"),
+                "old_status": old_status,
+                "new_status": new_status,
+                "reason": "Captured article terminates at an explicit Substack continuation boundary.",
+                "detected_boundary_phrase": boundary,
+                "word_count": metadata.get("word_count"),
+            })
+
+        report = {
+            "scanned_metadata_files": len(list(archive_root.glob("articles/*/*/metadata.json"))),
+            "boundary_records": len(records),
+            "reclassified_records": changed,
+            "records": records,
+            "database": db.status(),
+        }
+        if report_path is not None:
+            report_path.parent.mkdir(parents=True, exist_ok=True)
+            report_path.write_text(
+                json.dumps(report, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
+        if sync_report_path is not None and sync_report_path.is_file():
+            sync_report = json.loads(sync_report_path.read_text(encoding="utf-8"))
+            new_by_id = {
+                str(row.get("id")): row for row in sync_report.get("new", [])
+            }
+            sync_report["preview_only"] = [
+                {
+                    "id": row["article_id"],
+                    "title": new_by_id[str(row["article_id"])]["title"],
+                    "url": new_by_id[str(row["article_id"])]["url"],
+                }
+                for row in records if str(row["article_id"]) in new_by_id
+            ]
+            sync_report["database"] = db.status()
+            sync_report_path.write_text(
+                json.dumps(sync_report, indent=2, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
+        return report
+    finally:
+        db.close()
 
 
 @dataclass(frozen=True)
@@ -340,8 +446,7 @@ class SubstackArchiveSync:
         if len(markdown) < 100:
             raise ValueError("Extracted article text is unexpectedly short")
 
-        page_text = soup.get_text(" ", strip=True).lower()
-        content_status = "preview_only" if any(marker in page_text for marker in PAYWALL_MARKERS) else "full"
+        content_status = "preview_only" if detect_preview_boundary(markdown) else "full"
         slug_match = re.search(r"/p/([^/?#]+)", canonical_url)
         slug = slug_match.group(1) if slug_match else re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")[:90]
 
