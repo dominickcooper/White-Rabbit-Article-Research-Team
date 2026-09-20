@@ -395,6 +395,8 @@ INLINE_PATTERN = re.compile(
     r"""
     \[([^\]]+)\]\((https?://[^)]+)\)     # markdown link
     |
+    \*\*\*(.+?)\*\*\*                    # bold italic
+    |
     \*\*(.+?)\*\*                        # bold
     |
     (?<!\*)\*([^*\n]+?)\*(?!\*)          # italic
@@ -416,6 +418,7 @@ def parse_inline(
     Handles combinations such as:
         **bold**
         *italic*
+        ***bold italic***
         [link](https://...)
         **[bold link](https://...)**
         [**bold link**](https://...)
@@ -436,8 +439,9 @@ def parse_inline(
 
         link_label = match.group(1)
         link_url = match.group(2)
-        bold_inner = match.group(3)
-        italic_inner = match.group(4)
+        bold_italic_inner = match.group(3)
+        bold_inner = match.group(4)
+        italic_inner = match.group(5)
 
         if link_label is not None:
             segments.extend(
@@ -446,6 +450,16 @@ def parse_inline(
                     bold=bold,
                     italic=italic,
                     url=link_url,
+                )
+            )
+
+        elif bold_italic_inner is not None:
+            segments.extend(
+                parse_inline(
+                    bold_italic_inner,
+                    bold=True,
+                    italic=True,
+                    url=url,
                 )
             )
 

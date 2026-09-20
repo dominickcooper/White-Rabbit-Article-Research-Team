@@ -13,6 +13,11 @@ the first useful occurrence. Do not duplicate CSV mappings; repeated contextual 
 in article prose are allowed. Strip UTM and other tracking parameters with the existing
 publisher's normalize_url rules. Preserve meaningful document identifiers in URLs.
 
+Finalize publication prose before extracting `sources.csv`. After the last voice,
+emphasis and visual reconciliation, rerun exact anchor/destination validation. If a prose
+edit changes a linked phrase, update the map in the same pass; never silently preserve a
+stale anchor. The validator remains the final mechanical reconciliation gate.
+
 ## Mechanical citation validity
 
 Validate exact anchors, correct Markdown destinations, malformed links, invalid or

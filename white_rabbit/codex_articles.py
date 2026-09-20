@@ -14,7 +14,9 @@ from urllib.parse import urlsplit, urlunsplit
 ROOT = Path(__file__).resolve().parents[1]
 AUTHORITY = (
     "AGENTS.md", "docs/APP_ARCHITECTURE.md", "docs/CODEX_WORKFLOW.md",
-    "docs/WHITE_RABBIT_STYLE.md", "docs/RESEARCH_AND_EVIDENCE.md",
+    "docs/WHITE_RABBIT_STYLE.md", "docs/WHITE_RABBIT_AUTHOR_VOICE.md",
+    "docs/WHITE_RABBIT_ANTI_AI_STYLE.md", "docs/WHITE_RABBIT_FORMAT_AND_VISUAL_STYLE.md",
+    "docs/RESEARCH_AND_EVIDENCE.md",
     "docs/SOURCING_AND_LINKING.md", "docs/SEO_AND_PUBLISHING.md",
     "docs/PREVIOUS_WHITE_RABBIT_ARCHIVE.md",
 )
@@ -94,22 +96,44 @@ metadata.json and links.json files. Archive articles are leads, not independent 
 Reopen underlying sources. If the index is unavailable, inspect local files directly;
 record absent/preview-only material and never invent archive URLs.
 
-Complete these stages in order:
+Complete these stages in order. Treat the named editors as distinct review passes,
+not necessarily separate agents:
 1. Source inspection: inventory private sources and archive research leads.
 2. Additional research: seek primary documents, test competing explanations.
-3. Research dossier: retain provenance, evidence levels, confidence, responsibility,
-   contrary evidence, causal chains and unresolved questions.
-4. Outline: organize an investigation around its central mystery and evidence.
-5. SEO package: complete every field required by SEO_AND_PUBLISHING.md.
-6. Article writing: apply White Rabbit style and evidence-weighted judgments.
-7. Sourcing/linking: produce already-linked Markdown and an exact source CSV map.
-8. FAQ: exactly {cfg['faq_count']} useful questions, each as ### under ## FAQ.
-9. Related White Rabbit articles: the required related-articles section with relevant
+3. Claims/evidence ledger and Rabbit-Hole Investigator: classify each consequential
+   connection and pursue only connections that could change the story.
+4. Research dossier: retain provenance, evidence levels, confidence, responsibility,
+   contrary evidence, causal chains, unresolved questions and a visual-evidence plan.
+5. Article architecture and first draft: organize an escalating investigation.
+6. Narrative Structure Editor: remove repeated revelations and ensure every section
+   changes the reader's understanding before line-level polishing.
+7. Author Voice Editor: make actors and actions concrete, vary rhythm, and use first
+   person only where it locates an actual investigation or interpretation. Do not write
+   about being careful; be careful in the wording. Compress caution to FACT -> minimum
+   necessary LIMIT -> strongest supportable INFERENCE -> MOVE.
+8. Emphasis and Formatting Editor, then Visual Story Editor: use typography as argument;
+   distinguish documentary, archival, explanatory, relationship, atmospheric, analogy
+   and promotional visuals; place evidence next to the claim it supports.
+9. Evidence Integrity Editor: independently compare the rewritten draft with the ledger,
+   quotations and chronology; restore lost qualifiers without flattening documented facts.
+   Internal caution can be verbose; published corrections should use the smallest change
+   that restores accuracy. Distinguish minor identification uncertainty, real evidentiary
+   gaps and speculation instead of giving all three the same disclaimer treatment.
+10. Anti-AI Style Red Team: review the near-final article without the drafting prompt.
+    Detect both polished essay scaffolding and performed human/evidence prose: repeated
+    self-policing, lawyer voice, caution inflation, long source pedigree and manufactured
+    quips. Have the Author Voice Editor resolve only the flagged passages, then rerun the
+    Evidence Integrity Editor so compression does not change claim status.
+11. Final emphasis/visual reconciliation, followed by source/link reconciliation. Create
+    sources.csv only after prose is stable; verify every exact phrase and destination.
+12. SEO package: complete every field required by SEO_AND_PUBLISHING.md.
+13. FAQ: exactly {cfg['faq_count']} useful questions, each as ### under ## FAQ.
+14. Related White Rabbit articles: the required related-articles section with relevant
    verified archive links. Never pad with irrelevant recommendations.
-10. Adversarial evidence audit: dossier-to-article comparison, section-by-section source
+15. Adversarial evidence audit: dossier-to-article comparison, section-by-section source
     coverage, primary-source escalation, competing explanations and responsibility.
-11. Revision: repair omissions, unsupported claims and mechanical failures.
-12. Validation: run `{validate_command}` and fix failures.
+16. Publication QA: run `{validate_command}`; resolve errors and review warnings by
+    revising or recording an evidence-based editorial decision in audit.md.
 
 Write these final deliverables under `{relative}/output/`:
 {chr(10).join('- ' + p for p in DELIVERABLES)}
@@ -117,6 +141,8 @@ Keep working notes in `{relative}/research/`. Do not fabricate missing private r
 sources.csv header: source_number,phrase,link. Every exact phrase must occur in article.md
 and have the correct publication-facing Markdown destination. Use first useful occurrences.
 Include [IMAGE: description | ALT: alt text], [[SUBSCRIBE]] and [[SHARE]].
+Place CTAs at earned narrative pauses, not fixed word counts. Keep full PURPOSE, SOURCE,
+PLACEMENT, CAPTION, ALT TEXT and EVIDENCE STATUS metadata in the dossier visual plan.
 audit.md must distinguish MECHANICAL CITATION VALIDITY from EDITORIAL SOURCE ADEQUACY,
 and record the dossier comparison, source coverage and primary-source escalation.
 Passing validation does not establish factual truth or editorial source adequacy.
@@ -214,6 +240,7 @@ class Links(HTMLParser):
 def validate(root: Path, project: Path, *, series_urls: set[str] | None = None) -> dict:
     import markdown
     from .publishing.substack_source_linker import normalize_url
+    from .editorial_diagnostics import analyze_editorial_style
 
     cfg = config(root)
     output = project / "output"
@@ -323,8 +350,11 @@ def validate(root: Path, project: Path, *, series_urls: set[str] | None = None) 
                 errors.append(f"SEO package missing field/content: {field}")
     if not 2000 <= metrics["word_count"] <= 3500:
         warnings.append("Length is outside the usual 2,000–3,500 words; judge against the evidence.")
+    editorial = analyze_editorial_style(prose)
+    warnings.extend(editorial.pop("warnings"))
     warnings.append("Mechanical validation does not establish factual truth or editorial source adequacy.")
-    return {"slug": project.name, **metrics, "errors": errors, "warnings": warnings,
+    return {"slug": project.name, **metrics, "editorial_diagnostics": editorial,
+            "errors": errors, "warnings": warnings,
             "result": "FAIL" if errors else "PASS"}
 
 

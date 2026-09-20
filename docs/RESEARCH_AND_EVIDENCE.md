@@ -17,6 +17,12 @@ Useful language includes “From what we can verify, the evidence points toward�
 Explain the evidentiary bridge. The absence of a signed order is relevant but is not
 automatically exculpatory; it also does not license inventing an order.
 
+Before outlining, run a Rabbit-Hole Investigator pass: ask which documented connection
+could materially change the reader's understanding, then check relevant biographies,
+employment, intelligence or military service, funding, program ancestry, successor and
+predecessor programs, testimony, oral histories, memoirs and declassified records. Do not
+include a connection merely because it is colorful. Classify it before drafting.
+
 Distinguish DIRECT RESPONSIBILITY (participation), COMMAND RESPONSIBILITY (supported
 authority, knowledge and control), INSTITUTIONAL RESPONSIBILITY (organizational role),
 PROBABLE RESPONSIBILITY (strongest supported attribution), and POSSIBLE RESPONSIBILITY
@@ -54,3 +60,9 @@ contrary evidence, over-compressed rabbit holes and causal chains collapsed from
 A → B → C → D into unsupported A → D. Restore supported chains and revise judgments
 when contrary evidence warrants it. Record resolved issues and remaining limitations
 in audit.md. Mechanical PASS cannot substitute for this review.
+
+After the main voice rewrite, independently compare prose and planned visuals against the
+claims ledger, sources, quotations and chronology. Flag claim inflation, lost qualifiers,
+altered quotations, institutional conflation, invented motive, chronology errors,
+inaccurate captions and documentary crops whose visible language does not support their
+placement. Do not flatten a documented fact while correcting an unsupported inference.

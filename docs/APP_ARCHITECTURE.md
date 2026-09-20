@@ -1,9 +1,16 @@
 # Application architecture
 
 The Python Codex layer is a workspace manager, archive/research memory interface,
-mechanical validator and publisher. Codex performs research, reasoning and writing
-outside the Python process. No Codex command loads .env, instantiates a provider,
+mechanical validator, advisory editorial diagnostic layer and publisher. Codex performs
+research, reasoning and writing outside the Python process. No Codex command loads .env, instantiates a provider,
 uploads a source or calls an LLM API. Research performed by Codex may use its own tools.
+
+The named Rabbit-Hole Investigator, Narrative Structure Editor, Author Voice Editor,
+Emphasis and Formatting Editor, Visual Story Editor, Evidence Integrity Editor and
+Anti-AI Style Red Team are distinct prompt-governed passes, not provider-backed Python
+agents. Keeping them as passes preserves the local Codex-first architecture and avoids
+redundant orchestration. `white_rabbit/editorial_diagnostics.py` supplies non-blocking
+signals for final review; it does not assign a style score or factual verdict.
 
 `codex_article.py` delegates to `white_rabbit/codex_articles.py`. Repository paths
 resolve from the installed script, not the shell's current directory. Relative paths

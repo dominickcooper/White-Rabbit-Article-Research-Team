@@ -9,8 +9,10 @@
 4. Run `python codex_article.py prompt <slug>` and give the resulting assignment to
    Codex. Refreshing the prompt inventories current sources without editing the brief.
 5. Codex reads permanent authority, brief, private sources and relevant archive records;
-   performs additional research; writes dossier, outline, SEO, article and source map;
-   adds FAQ and related links; audits evidence, revises and validates.
+   performs additional and rabbit-hole research; builds a claims ledger and visual plan;
+   drafts; runs separate structure, voice, emphasis, visual, evidence-integrity and
+   anti-AI review passes; reconciles source anchors after prose is stable; writes SEO,
+   FAQ and related links; then audits, revises and validates.
 6. Final output contains research_dossier.md, outline.md, seo.md, article.md,
    sources.csv and audit.md. Working notes belong in research/.
 7. Run `python codex_article.py validate <slug>`. A nonzero exit code and useful errors
@@ -22,7 +24,8 @@
 audit.md must separately address MECHANICAL CITATION VALIDITY, EDITORIAL SOURCE ADEQUACY,
 DOSSIER-TO-ARTICLE AUDIT, SECTION-BY-SECTION SOURCE COVERAGE, PRIMARY-SOURCE ESCALATION,
 competing explanations, evidence-weighted conclusions and unresolved limitations.
-The tool cannot judge factual truth, citation sufficiency or rhetorical quality.
+The tool cannot judge factual truth, citation sufficiency or rhetorical quality. Its
+editorial diagnostics are advisory warnings and must not be optimized as numeric targets.
 
 ## Local archive after moving the repository
 

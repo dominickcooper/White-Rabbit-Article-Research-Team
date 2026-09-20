@@ -35,6 +35,8 @@ def ready(root):
 
 [Record](https://example.org/document) and **bold** with *emphasis*.
 
+***Combined emphasis.***
+
 > Synthetic quotation for rendering tests.
 
 - First item
@@ -122,6 +124,12 @@ def test_status_and_prompt_refresh(root, capsys):
     assert all(path in prompt for path in app.AUTHORITY)
     assert all(name in prompt for name in app.DELIVERABLES)
     assert "Adversarial evidence audit" in prompt and "local White Rabbit archive" in prompt
+    assert "Narrative Structure Editor" in prompt
+    assert "source/link reconciliation" in prompt
+    assert "Visual Story Editor" in prompt and "Anti-AI Style Red Team" in prompt
+    assert "Do not write\n   about being careful" in prompt
+    assert "Internal caution can be verbose" in prompt
+    assert "performed human/evidence prose" in prompt
     assert str(root) not in prompt
 
 
@@ -133,6 +141,7 @@ def test_validation_pass_and_counts(root, ready, capsys):
     assert report["unique_internal_white_rabbit_articles"] == 2
     assert report["external_links"] == 1
     assert report["source_csv_rows"] == 1
+    assert "editorial_diagnostics" in report
     assert app.main(["validate", ready.name], root=root) == 0
     assert "RESULT: PASS" in capsys.readouterr().out
 
@@ -175,6 +184,17 @@ def test_csv_failures(root, ready, row, error):
     with (ready / "output/sources.csv").open("w", newline="", encoding="utf-8") as f:
         csv.writer(f).writerows([["source_number", "phrase", "link"], row])
     assert any(error in e for e in app.validate(root, ready)["errors"])
+
+
+def test_source_reconciliation_catches_post_voice_edit(root, ready):
+    article = ready / "output/article.md"
+    article.write_text(article.read_text(encoding="utf-8").replace("[Record]", "[Primary record]"), encoding="utf-8")
+    errors = app.validate(root, ready)["errors"]
+    assert any("exact destination" in error for error in errors)
+
+    source_map = ready / "output/sources.csv"
+    source_map.write_text("source_number,phrase,link\n1,Primary record,https://example.org/document\n", encoding="utf-8")
+    assert not [error for error in app.validate(root, ready)["errors"] if "CSV row" in error]
 
 
 def test_duplicate_csv_and_empty_seo(root, ready):
@@ -244,6 +264,8 @@ def test_export_preserves_linked_input(root, ready):
         rels = doc.read("word/_rels/document.xml.rels").decode()
     assert "w:tbl" in xml and "w:hyperlink" in xml and "[[SHARE]]" in xml
     assert "https://example.org/document" in rels
+    assert "Combined emphasis." in xml and "***" not in xml
+    assert "<w:b" in xml and "<w:i" in xml
 
 
 def test_failed_validation_does_not_export(root, ready):

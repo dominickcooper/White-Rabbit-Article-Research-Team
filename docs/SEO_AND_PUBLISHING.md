@@ -42,6 +42,9 @@ output/article.md needs a # title, useful headings, at least one
 ### questions under ## FAQ, and ## YOU MAY BE INTERESTED IN THESE ARTICLES.
 Do not mistake SEO fields for verified factual claims. Do not place research notes or
 unresolved evidence markers in publication prose.
+Place CTAs at a natural investigative pause, payoff, cliffhanger or series transition,
+not a fixed word count. Visual markers must sit next to the claim, person or concept they
+serve; the dossier retains their complete metadata and evidence classification.
 
 ## Export
 
