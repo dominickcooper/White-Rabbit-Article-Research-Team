@@ -1,35 +1,31 @@
-# ARTICLE BRIEF
+# Article brief
 
 ## Topic
 {{TOPIC}}
 
-## Project Slug
-{{PROJECT_SLUG}}
+## Central mystery
 
-## Central Question / Mystery
-What is the central question this investigation should answer?
+## Preferred title, if any
 
-## Desired Angle
-Optional. Leave blank if Codex should develop the angle from the evidence.
+## Scope
+Historical/geographic boundaries and exclusions:
 
-## Claims or Leads I Specifically Want Investigated
-- 
+## Key questions
 
-## People / Companies / Agencies / Programs to Examine
-- 
+## Important people
 
-## Must-Use Source Files
-All relevant files in `sources/` unless noted otherwise.
+## Agencies / companies
 
-## Things to Avoid or Treat Carefully
-- Do not force a predetermined conclusion.
-- Do not convert allegations into facts.
+## Source priorities
+Place private files in sources/. Preserve original filenames and provenance.
 
-## Series Context
-Standalone unless otherwise noted.
+## Rabbit holes
 
-## Paid / Free
-Not specified.
+## Conventional explanation
 
-## Additional Author Notes
+## Unresolved questions
 
+## Modern implications
+
+## Notes
+Read AGENTS.md and the permanent docs before research. Do not assume a thesis is proven.

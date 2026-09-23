@@ -8,6 +8,37 @@ from pathlib import Path
 from typing import Optional
 
 
+def resolve_archive_dir(local_dir: str, db_path: Path) -> Path:
+    """Recover a moved standard archive path without changing persisted provenance."""
+    original = Path(local_dir)
+    root = Path(db_path).resolve().parent.parent
+    # Handle historical Windows separators on every platform, and only recognize
+    # the full archive suffix, never guess by basename/slug.
+    parts = local_dir.replace("\\", "/").split("/")
+    marker = ["research_library", "previous_white_rabbit_articles"]
+    for index in range(len(parts) - 1):
+        if [p.lower() for p in parts[index:index + 2]] == marker:
+            suffix = parts[index + 2:]
+            if any(p in {"", ".", ".."} or ":" in p for p in suffix):
+                return original
+            archive = root.joinpath(*marker).resolve()
+            candidate = archive.joinpath(*suffix).resolve()
+            if candidate.is_relative_to(archive) and (candidate / "article.md").is_file():
+                return candidate
+    if original.is_absolute() and (original / "article.md").is_file():
+        return original
+    # A repository-relative stored path must not depend on the caller's cwd.
+    if not original.is_absolute() and not re_windows_absolute(local_dir):
+        candidate = (root / original).resolve()
+        if candidate.is_relative_to(root) and (candidate / "article.md").is_file():
+            return candidate
+    return original
+
+
+def re_windows_absolute(value: str) -> bool:
+    return len(value) >= 2 and value[1] == ":" or value.startswith("\\\\")
+
+
 @dataclass(frozen=True)
 class ArchiveArticle:
     wr_id: str
@@ -201,13 +232,12 @@ class ArchiveDB:
         links = int(self.conn.execute("SELECT COUNT(*) c FROM wr_article_links").fetchone()["c"])
         return {"articles": total, "full": full, "preview_only": preview, "links": links}
 
-    @staticmethod
-    def _to_article(row: sqlite3.Row) -> ArchiveArticle:
+    def _to_article(self, row: sqlite3.Row) -> ArchiveArticle:
         return ArchiveArticle(
             wr_id=row["wr_id"], title=row["title"], slug=row["slug"],
             canonical_url=row["canonical_url"], published_date=row["published_date"],
             author=row["author"], content_hash=row["content_hash"],
-            content_status=row["content_status"], local_dir=row["local_dir"],
+            content_status=row["content_status"], local_dir=str(resolve_archive_dir(row["local_dir"], self.path)),
             word_count=int(row["word_count"]), last_seen=row["last_seen"],
             last_synced=row["last_synced"],
         )

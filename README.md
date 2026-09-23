@@ -1,5 +1,11 @@
 # White Rabbit Researcher — MVP
 
+**Codex-first standalone articles are now available:** see [README_CODEX.md](README_CODEX.md).
+That local workflow requires no LLM API key. The original Gemini workflow below remains available.
+
+Multi-part investigations are also available through `python codex_article.py series ...`;
+see [Series workflow](docs/SERIES_WORKFLOW.md) for shared research and continuity.
+
 A research-first article pipeline for **The White Rabbit Report**.
 
 This MVP proves one complete workflow:

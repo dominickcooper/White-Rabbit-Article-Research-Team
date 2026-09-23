@@ -7,6 +7,8 @@ __pycache__/
 *.iml
 
 # generated run artifacts
+article_projects/
+series_projects/
 workspace/
 workspace/*/evidence.sqlite3
 workspace/*/output/*.docx
