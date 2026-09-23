@@ -1,0 +1,13 @@
+{
+  "article_projects_dir": "article_projects",
+  "archive_dir": "research_library/previous_white_rabbit_articles",
+  "shared_sources_dir": "research_library/shared",
+  "publication_base_url": "https://thewhiterabbitreport.substack.com",
+  "default_word_min": 2000,
+  "default_word_max": 3500,
+  "internal_link_min": 3,
+  "internal_link_max": 6,
+  "image_marker_min": 5,
+  "image_marker_max": 10,
+  "subscribe_marker_target": 3
+}
