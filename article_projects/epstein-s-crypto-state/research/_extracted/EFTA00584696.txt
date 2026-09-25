@@ -1,0 +1,728 @@
+KYARA INVESTMENTS III LLC 
+OPERATING AGREEMENT 
+THIS OPERATING AGREEMENT is made as of the f 1 day of September, 2014 
+by and among Kyara Investments III LLC, a Delaware limited liability company (the 
+"Company"), those persons who execute this Agreement as of the date hereof, and 
+those other persons, if any, who from time to time become parties to or are otherwise 
+bound by this Agreement as provided herein. 
+RECITALS 
+A. On September 4, 2014, the Company was formed by the Members by the 
+filing of the Certificate of Formation with the Secretary of State of the State of Delaware. 
+B. The Members now desire to enter into this Agreement in order to set forth 
+the respective rights and obligations of the Members in regard to the ownership, 
+management and governance of the Company. 
+NOW, THEREFORE, in consideration of the premises and other valuable 
+consideration, the receipt of which is hereby acknowledged, the Members and the 
+Company agree as follows: 
+ARTICLE 1 
+DEFINED TERMS 
+1.1 "Act" means the Delaware Limited Liability Company Act, as amended 
+from time to time. 
+1.2 "Adiusted Capital Account Balance" means, with respect to each Member, 
+such Member's Capital Account balance maintained in accordance with this Agreement, 
+as of the end of the relevant fiscal year of the Company, after giving effect to the 
+following adjustments: 
+(a) Credit to such Capital Account of such Members share of minimum 
+gain determined in accordance with Regulations Sections 1.704-2(g)(1) and 
+1.704-2(i)(5); and 
+(b) Debit to such Capital Account of the items described in Regulations 
+Section 1.704-1(b)(2)(ii)(d)(4), (5) and (6). 
+The foregoing definition of "Adjusted Capital Account Balance" is intended to comply 
+with the provisions of Regulations Sections 1.704-1(b)(2)(ii)(d) and 1.704-2, and shall 
+be interpreted consistently therewith. 
+1.3 "Affiliate" means, with respect to any Person, any other Person that, 
+directly or indirectly, controls, is under common control with, or is controlled by the 
+former Person. For purposes of this definition, "control" (including, with correlative 
+EFTA00584696
+
+meaning, the terms "controlled by" and "under common control with"), as used with 
+respect to any Person, shall mean the possession, directly or indirectly, of the power to 
+direct and cause the direction of the management and policies of such Person, whether 
+through the ownership of voting securities, by contract or otherwise. 
+1.4 "Agreement" means this Operating Agreement of the Company, and all 
+amendments hereto. 
+1.5 "Approved Sale" has the meaning set forth in Section 9.2(a). 
+1.6 "Capital Account" means, with respect to each Member, the Capital 
+Account maintained for such Member in accordance with the following provisions: 
+(a) To each Member's Capital Account there shall be credited such 
+Member's Capital Contributions, such Member's distributive share of Profits and 
+the amount of any Company liabilities assumed by such Member or which are 
+secured by any property distributed to such Member by the Company. 
+(b) To each Member's Capital Account there shall be debited the 
+amount of cash and the Gross Asset Value of any property distributed to such 
+Member pursuant to any provision of this Agreement, and such Member's 
+distributive share of Losses. 
+(c) In the event all or a portion of a Member's Membership Interests 
+are transferred in accordance with the terms of this Agreement, the transferee 
+shall succeed to the Capital Account of the transferor to the extent it relates to 
+the transferred Membership Interests. 
+(d) In determining the amount of any liability for purposes of the 
+foregoing subparagraph (a), there shall be taken into account Code 
+Section 752(c) and any other applicable provisions of the Code and Regulations. 
+The foregoing provisions and the other provisions of this Agreement relating to 
+the maintenance of Capital Accounts are intended to comply with Regulations 
+Sections 1.704-1(b) and 1.704-2, and shall be interpreted and applied in a manner 
+consistent with such Regulations. In the event the Manager shall reasonably determine 
+that it is prudent to modify the manner in which the Capital Accounts, or any debits or 
+credits thereto, are computed in order to comply with such Regulations, the Manager, 
+with the Consent of the Members, may make such modification; provided that such 
+modification is not likely to have a material effect on the amount distributed to any 
+Member pursuant to Article 10 hereof upon the liquidation of the Company. 
+1.7 "Capital Contributions" means the aggregate amount of cash and Gross 
+Asset Value of property (less the amount of indebtedness, if any, of such Member which 
+is assumed by the Company and/or the amount of indebtedness, if any, to which such 
+property is subject, as of the date of contribution, without regard to the provisions of 
+Code Section 7701(g)) contributed by a Member to the capital of the Company. 
+2 
+EFTA00584697
+
+1.8 "Cash Flow" means, for any period, the amount by which (a) the gross 
+cash receipts of the Company from any source for such period (including, but not limited 
+to, Capital Contributions, loans, distributions received by the Company in respect of any 
+stock, partnership interest or other equity interest owned by the Company, and 
+proceeds from the sale, financing, refinancing or other disposition of all or any portion of 
+the Company property), exceed (b) the sum of (i) the aggregate cash disbursements for 
+such period (including, but not limited to, Company administrative costs, 
+reimbursements paid to the Manager in respect of his or her day-to-day management 
+activities hereunder, principal and interest payable on Company debt and capital 
+expenditures), and (ii) amounts previously set aside as reserves as determined by the 
+Manager in his or her discretion. 
+1.9 "Certificate" means the Certificate of Formation of the Company, as 
+amended from time to time, as filed in accordance with the Act. 
+1.10 "Code" means the Internal Revenue Code of 1986, as amended (or any 
+corresponding provision of succeeding law). 
+1.11 "Company" means the limited liability company herein formed and known 
+as Kyara Investments III LLC, as said Company may from time to time be constituted. 
+1.12 "Consent" means the prior written consent or approval of a Person or 
+Persons to do the act or thing for which the consent or approval is solicited, or the act of 
+granting such consent or approval as the context may require. 
+1.13 "Depreciation" means, for each fiscal year or other period, an amount 
+equal to the depreciation, amortization or other cost recovery deduction allowable with 
+respect to an asset for such year or other period, except that if the Gross Asset Value of 
+an asset differs from its adjusted basis for federal income tax purposes at the beginning 
+of such year or other period, Depreciation shall be an amount which bears the same 
+ratio to such beginning Gross Asset Value as the federal income tax depreciation, 
+amortization or other cost recovery deduction for such year or other period bears to 
+such beginning adjusted tax basis; provided, however, that if the federal income tax 
+depreciation, amortization or other cost recovery deduction from such year or other 
+period is zero, Depreciation shall be determined with reference to such beginning Gross 
+Asset Value using any reasonable method selected by the Manager with the Consent of 
+the Members. 
+1.14 "Gross Asset Value" means, with respect to any asset, the asset's 
+adjusted basis for federal income tax purposes, except as follows: 
+(a) The initial Gross Asset Value of any asset contributed by a Member 
+to the Company shall be the gross fair market value of such asset, as determined 
+by the contributing Member and the Manager; 
+(b) The Gross Asset Values of all Company assets shall be adjusted to 
+equal their respective gross fair market values, as reasonably determined by the 
+Members, as of the following times: (i) the acquisition of additional Membership 
+3 
+EFTA00584698
+
+Interests in the Company by any new or existing Member in exchange for more 
+than a de minimis capital contribution; (ii) the distribution by the Company to a 
+Member of more than a de minimis amount of Company assets, including money, 
+as consideration for an interest in the Company; and (iii) the liquidation of the 
+Company within the meaning of Regulations Section 1.704-1(b)(2)(ii)(g); 
+provided, however, that adjustments pursuant to the preceding clauses (i) and (ii) 
+shall be made only if the Members reasonably determine that such adjustments 
+are necessary or appropriate to reflect the relative economic interests of the 
+Members in the Company; 
+(c) The Gross Asset Value of any Company asset distributed to any 
+Member shall be the gross fair market value of such asset on the date of 
+distribution; and 
+(d) The Gross Asset Values of Company assets shall be increased (or 
+decreased) to reflect any adjustments to the adjusted basis of such assets 
+pursuant to Code Section 734(b) or Code Section 743(b), but only to the extent 
+that such adjustments are taken into account in determining Capital Accounts 
+pursuant to Regulations Section 1.704-1(b)(2)(iv)(m) and the definition of "Capital 
+Account" herein. 
+If the Gross Asset Value of an asset has been determined or adjusted pursuant to any 
+of the foregoing subparagraphs (a), (b) or (d) of this Section, such Gross Asset Value 
+shall thereafter be adjusted by the Depreciation taken into account with respect to such 
+asset for purposes of computing Profits and Losses. 
+1.15 "Investment" has the meaning set forth in Section 2.2. 
+1.16 "Manager" means the Person designated or appointed as Manager 
+pursuant to this Agreement, and any other Person who becomes a successor or 
+additional Manager of the Company pursuant to this Agreement. 
+1.17 "Member" means any Person who is designated as a Member on Exhibit A 
+to this Agreement at the time of reference thereto and who is acting in such Person's 
+capacity as a Member of the Company, and any other Persons who from time to time 
+become parties to or are otherwise bound by this Agreement as Members. 
+1.18 "Membership Interest" means an ownership interest of a Member in the 
+Company at any particular time, including the right of such Member to any and all 
+benefits to which a Member may be entitled pursuant to this Agreement and under the 
+Act, together with all obligations of such Member to comply with the terms and 
+provisions of this Agreement and the Act. Membership Interests are owned by 
+Members as set forth in Exhibit A to this Agreement, as amended from time to time. 
+1.19 "Notice" means a writing, containing the information required by this 
+Agreement to be communicated to any Person, and given or delivered in accordance 
+with the requirements of this Agreement. 
+4 
+EFTA00584699
+
+1.20 "Person" means any individual, partnership, limited liability company, 
+corporation, trust, estate or other entity. 
+1.21 "Profits" and "Losses" means, for each fiscal year or other period, an 
+amount equal to the Company's taxable income or loss for such year or period, 
+determined in accordance with Code Section 703(a) (for this purpose, all items of 
+income, gain, loss or deduction required to be stated separately pursuant to Code 
+Section 703(a)(1) shall be included in taxable income or loss), with the following 
+adjustments: 
+(a) Any income of the Company that is exempt from federal income tax 
+and not otherwise taken into account in computing Profits or Losses pursuant to 
+this definition shall be added to such taxable income or loss; 
+(b) Any expenditures of the Company described in Code 
+Section 705(a)(2)(B), or treated as Code Section 705(a)(2)(B) expenditures 
+pursuant to Regulations Section 1.704-1(b)(2)(iv)(i), and not otherwise taken into 
+account in computing Profits or Losses pursuant to this definition shall be 
+subtracted from such taxable income or loss; 
+(c) In the event the Gross Asset Value of any Company asset is 
+adjusted pursuant to subparagraph (b) or (d) of Section 1.14 hereof, the amount 
+of such adjustment shall be taken into account as gain or loss from the 
+disposition of such asset for purposes of computing Profits or Losses; 
+(d) Gain or loss resulting from any disposition of property with respect 
+to which gain or loss is recognized for federal income tax purposes shall be 
+computed by reference to the Gross Asset Value of the property disposed of 
+notwithstanding that the adjusted tax basis of such property differs from its Gross 
+Asset Value; and 
+(e) Depreciation shall be taken into account for such fiscal year or 
+other period in computing such taxable income or loss, in lieu of the depreciation, 
+amortization and other cost recovery deductions that otherwise may be taken into 
+account in the absence of Section 1.13. 
+1.22 "Regulations" means the United States Treasury Regulations, as 
+amended from time to time. 
+1.23 "Sale of the Company" means the sale of the Company to any Person or 
+Persons on an arms-length basis, pursuant to which such Person or Persons acquire (i) 
+a majority of the Membership Interests in the Company (whether by sale of Membership 
+Interests or merger or otherwise), or (ii) all or substantially all of the Company's assets, 
+determined on a consolidated basis. 
+1.24 "Transfer" has the meaning set forth in Section 9.1. 
+1.25 "Unreturned Capital Contributions" means, with respect to any Member, 
+5 
+EFTA00584700
+
+the difference between (a) the Capital Contributions made by such Member, less (b) the 
+aggregate amount of distributions made to such Member pursuant to Section 4.6(a). 
+ARTICLE 2 
+THE COMPANY 
+2.1 Formation and Name. The Company has been formed as a limited liability 
+company pursuant to the provisions of the Act. The Company was formed with the 
+name "Kyara Investments III LLC"; provided that the Company may hereafter adopt 
+such other name or names as the Manager may from time to time select. 
+2.2 Purpose. The Company has been organized to engage in the ownership 
+and management of an equity investment in Blockstream Corporation, a corporation 
+incorporated under the laws of Canada (the "Investment") and, with the Consent of the 
+Members, in any and all other lawful businesses or activities which a limited liability 
+company may carry on under the Act and the laws of any other jurisdiction in which the 
+Company is so engaged. 
+2.3 Registered Agent. The Company's registered agent shall be the Person 
+designated by the Manager from time to time to serve in that capacity in accordance 
+with the terms of the Act. 
+2.4 Qualification in Additional Jurisdictions. The Manager is authorized, with 
+the Consent of the Members, to qualify the Company to do business in any jurisdiction 
+in which such qualification is deemed by the Manager as necessary or desirable in 
+carrying out the Company's business, and pursuant thereto, to appoint a registered 
+agent and to establish a registered office in such jurisdiction, and to cause the Company 
+to operate in such jurisdiction under another name selected by the Manager, in 
+compliance with the assumed name statute of such jurisdiction, if the Company is not 
+allowed under the laws of such jurisdiction to operate under its legal name. 
+ARTICLE 3 
+MEMBERSHIP INTERESTS; CONTRIBUTIONS BY THE MEMBERS 
+3.1 Membership Interests. The Company shall issue one type of ownership 
+interest, with such rights, preferences and obligations as set forth in this Agreement. 
+Holders of Membership Interests shall be entitled to one vote per Membership Interest 
+held; provided that such holder is also a Member. Notwithstanding anything to the 
+contrary contained in this Agreement, no Person shall be entitled to vote with respect to 
+any Membership Interests unless such person is a Member. 
+3.2 Initial Capital of the Company. On or prior to the date hereof, each of the 
+Members (or the Person from whom such Member acquired, directly or indirectly, its, his 
+or her Membership Interests) has made an initial Capital Contribution to the Company 
+as provided on Exhibit A attached hereto. In exchange therefor, each Member (or the 
+Person from whom such Member acquired, directly or indirectly, its, his or her 
+6 
+EFTA00584701
+
+Membership Interests) has received that number of Membership Interests set forth on 
+such Exhibit A. 
+3.3 No Additional Capital Contributions. No Member shall be required to 
+make any additional Capital Contribution to the Company. 
+3.4 Withdrawal. Except as otherwise provided in Article 9 of this Agreement, 
+no Member shall be entitled to withdraw or resign from the Company, prior to its 
+dissolution and winding up, without first obtaining the Consent of the Members. 
+3.5 Additional Membership Interests. No additional Membership Interests 
+shall be issued by the Company without the Consent of the Members. 
+ARTICLE 4 
+CAPITAL ACCOUNTS; PROFITS AND LOSSES; DISTRIBUTIONS 
+4.1 Capital Accounts. The Company shall establish and maintain a Capital 
+Account for each Member. 
+4.2 Allocation of Profits and Losses. 
+(a) Profits of the Company shall be allocated among the Members as 
+follows: 
+(i) First, to each Member pro rata and in proportion to the 
+cumulative Losses, if any, allocated to such Member pursuant to 
+Section 4.2(b)(ii) hereof until the cumulative Profits allocated to such 
+Member under this Section 4.2(a)(i) equals the cumulative Losses 
+allocated to such Member under Section 4.2(b)(i) hereof; and 
+(ii) Then, the balance, if any, to the Members in accordance 
+with their respective Membership Interests. 
+(b) Losses of the Company shall be allocated to the Members as 
+follows: 
+(i) First, to the Members in accordance with their respective 
+Membership Interests; provided, however, that no Member shall be 
+allocated Losses in excess of its, his or her Adjusted Capital Account 
+Balance, determined immediately prior to the allocation provided for in this 
+Section 4.2(b)(i); and 
+(ii) Then, to the extent any Losses allocated to a Member 
+pursuant to Section 4.2(b)(i) would, but for the proviso contained therein, 
+exceed a Member's Adjusted Capital Account Balance, such Losses shall 
+be allocated first to the other Members in proportion to, and to the extent 
+of, their respective Adjusted Capital Account Balances, and then to any 
+7 
+EFTA00584702
+
+Member guaranteeing debt of the Company, making loans to the 
+Company or otherwise having liability for Company debt, in proportion to 
+the debt guaranteed, the loans made or the amount of such liability. 
+4.3 Reallocation by Manager. The allocation of Profits and Losses in 
+Section 4.2 is intended to have substantial economic effect within the meaning of 
+Regulations Section 1.704-1(b)(2) or be in accordance with the Members' interests in 
+the Company within the meaning of Regulations Section 1.704-1(b)(4). If subsequent 
+events (including, but not limited to, nonrecourse borrowing by the Company or a loan 
+by a Member to the Company) cause, in the reasonable opinion of the Manager, the 
+Section 4.2 allocations to have neither substantial economic effect nor be in accordance 
+with the Members' interests in the Company, the Manager may (a) allocate the income, 
+gain, loss, deduction and credit of the Company so that such allocations are in 
+accordance with the Members' Membership Interests; or (b) make such other 
+modifications to this Agreement (including, but not limited to, the addition of minimum 
+gain chargeback, qualified income offset and other special allocation provisions 
+specified in Regulations Sections 1.704-2 or 1.704-1(b)) that are necessary in the 
+reasonable opinion of the Manager to cause such allocations to have substantial 
+economic effect within the meaning of Regulations Section 1.704-1(b)(2). 
+4.4 Tax Allocations. Except as otherwise provided in this Agreement, all items 
+of income, gain, loss and deduction shall be allocated, for federal and state income tax 
+purposes, among the Members in the same manner as the corresponding items of 
+income, gain, loss and deduction are allocated for purposes of maintaining the Capital 
+Account of each of the Members. 
+4.5 Section 704(c) Allocations. In accordance with Code Section 704(c) and 
+the Regulations thereunder, income, gain, loss and deduction with respect to any 
+property contributed to the capital of the Company shall, solely for tax purposes, be 
+allocated among the Members so as to take account of any variation between the 
+adjusted basis of such property to the Company for federal income tax purposes and its 
+initial Gross Asset Value, including, but not limited to, special allocations to a 
+contributing Member that are required under Code Section 704(c) to be made upon 
+distribution of such property to any of the noncontributing Members. In the event the 
+Gross Asset Value of any property of the Company is adjusted pursuant to 
+subparagraph (b) of Section 1.14, subsequent allocations of income, gain, loss and 
+deduction with respect to such property shall take account of any variation between the 
+adjusted basis of such property for federal income tax purposes and its Gross Asset 
+Value in the same manner as under Code Section 704(c) and the Regulations 
+thereunder. Any elections or other decisions relating to such allocations shall be made 
+by the Manager in any manner that reasonably reflects the purpose and intention of this 
+Agreement. Allocations pursuant to this Section 4.5 are solely for purposes of federal, 
+state and local taxes and shall not affect, or in any way be taken into account in 
+computing, a Members Capital Account or share of Profits or Losses, other items or 
+distributions pursuant to any provision of this Agreement. 
+8 
+EFTA00584703
+
+4.6 Distribution of Cash Flow. To the extent there is Cash Flow available for 
+distribution, as reasonably determined by the Manager, and in any event not later than 
+45 days after the receipt by the Company of the proceeds from the sale of, or other 
+realization upon, all or any portion of the Investment, the Manager shall cause the 
+Company to distribute such available Cash Flow: 
+(a) first, to those Members with Unreturned Capital Contributions, pro 
+rata in proportion to the amount of such Unreturned Capital Contributions, until 
+the amount of each Member's Unreturned Capital Contributions has been 
+reduced to zero; and 
+(b) thereafter, to the Members, pro rata in accordance with their 
+respective Membership Interests. 
+ARTICLE 5 
+MANAGEMENT 
+5.1 Initial Manager. The management of the Company's business shall be 
+vested in one Manager unless a greater number of Managers shall be fixed from time to 
+time by action of the Members. The initial Manager of the Company shall be Joichi Ito. 
+A Manager shall hold office until his, her or its death, removal, or resignation. 
+5.2 Management Authority. 
+(a) Except as otherwise authorized in this Agreement, all management 
+decisions of the Company (including, without limitation, any actions or votes 
+taken by or on behalf of the Company in respect of any equity interest held by the 
+Company in another entity) shall be made by the Manager, who shall be 
+responsible for the conduct of the business of the Company, subject to the 
+provisions of this Agreement and the Act. The Manager shall have all of the 
+rights, powers, duties and obligations of managers as provided in the Act, and as 
+otherwise provided by law, and any action taken by the Manager, not otherwise 
+in violation of the Act or this Agreement, shall constitute the act of and serve to 
+bind the Company. 
+(b) Only the Manager and agents of the Company authorized by the 
+Manager shall have the authority to bind the Company. The Manager is an agent 
+of the Company for the purpose of its business, and the act of the Manager, 
+including the execution in the Company's name of any instrument for apparently 
+carrying on in the usual way the business of the Company, binds the Company, 
+unless such act is in contravention of the Act or this Agreement or any 
+agreement between the Manager and the Company or unless the Manager so 
+acting otherwise lacks the authority to act for the Company and the Person with 
+whom the Manager is dealing has knowledge of the fact that he, she or it has no 
+such authority. If the Manager acts without the requisite authority, the Manager 
+shall be liable for any damages or liabilities arising with respect to such action 
+9 
+EFTA00584704
+
+unless the Manager can show that he, she or it reasonably believed after due 
+inquiry that such action was authorized. 
+5.3 Limitation on Liability. The Manager shall perform his, her or its duties as 
+the Manager in good faith, in a manner he, she or it reasonably believes to be in the 
+best interest of the Company and the Members, and with such care as an ordinarily 
+prudent person in a like position would use under similar circumstances. A Person who 
+so performs his, her or its duties shall not have any liability by reason of being or having 
+been a Manager of the Company, except where the claim at issue is based on the 
+fraud, gross negligence or bad faith of the Manager. 
+5.4 Removal of the Manager. The Manager may be removed with or without 
+cause upon the Consent of the Members, but such removal shall be without prejudice to 
+any contract rights the Manager may have under this Agreement. Any removal of the 
+Manager shall become effective on such date as may be specified by the Members 
+voting in favor thereof. Should the Manager be removed who is also a Member, such 
+Member will continue to participate in the Company as a Member and enjoy the burdens 
+and benefits of his or her Membership Interests. 
+5.5 Resignation of the Manager. The Manager may resign at any time by 
+giving Notice to the Members. The resignation of the Manager shall take effect upon 
+receipt of such Notice or at such later date as specified in such Notice. The acceptance 
+of the resignation of the Manager shall not be necessary to make such resignation 
+effective. The resignation of the Manager who is also a Member shall not affect the 
+Manager's rights as a Member and shall not constitute a withdrawal of the Member. 
+5.6 Appointment of New Manager. If a vacancy in the office of Manager 
+occurs, a new Manager shall be designated with the Consent of the Members to fill such 
+vacancy, provided that in the event of the death, removal, or resignation of Joichi Ito as 
+the Manager, Darren K. Indyke shall become the succeeding Manager, unless another 
+Manager is appointed with the Consent of the Members. In the event that any vacancy 
+in the office of Manager is not filled as provided in the preceding sentence, 
+management of the Company shall be vested in the Members. 
+5.7 Indemnification by the Company. The Company shall indemnify the 
+Manager for all costs, losses, liabilities and damages paid or incurred by the Manager in 
+connection with the business of the Company to the fullest extent provided or permitted 
+by the Act and the other laws of the State of Delaware, except where the claim at issue 
+is based on the fraud, gross negligence or bad faith of the Manager. In connection 
+therewith, the Company shall advance to the Manager as they are paid or incurred all 
+expenses arising with respect to the defense of any matter as to which the Company 
+will be obligated to provide indemnification pursuant to this Section 5.7. 
+10 
+EFTA00584705
+
+ARTICLE 6 
+MEMBERS 
+6.1 Powers of Members. Notwithstanding the provisions of Section 5.2, the 
+Members shall have the right to Consent to the following matters: 
+(a) removal of the Manager as provided in Section 5.4; 
+(b) designation of a new Manager upon the resignation, removal, death 
+or permanent disability of the then-current Manager as provided in Section 5.6 
+(c) approval either of any Transfer of any Membership Interests or of 
+any party becoming a Member as provided in Article 9; and 
+(d) dissolution of the Company as provided in Article 10. 
+6.2 Partition. While the Company remains in effect or is continued, each 
+Member waives its rights to have any Company property partitioned, or to file a 
+complaint or to institute any suit, action or proceeding at law or in equity to have any 
+Company property partitioned, and each Member, on behalf of itself, its successors and 
+its assigns hereby waives any such right. 
+6.3 Authority. Except as expressly authorized in this Agreement, no Member 
+shall take any action as a Member to bind the Company, and each Member shall 
+indemnify the Company for any costs or damages incurred by the Company as the 
+result of the unauthorized action of such Member. 
+6.4 Vote of the Members. An affirmative vote or consent by or on behalf of all 
+of the Members shall be required to approve or disapprove any matter on which the 
+Members are entitled or required to decide or Consent, except as otherwise provided in 
+this Agreement, the Certificate or the Act. 
+ARTICLE 7 
+TRANSACTIONS; AFFILIATED PARTY TRANSACTIONS 
+7.1 Transactions Between a Member or Manager and the Company. Except 
+as otherwise limited by applicable law, with the Consent of the Members any Member or 
+Manager may, but shall not be obligated to, lend money to the Company, act as surety 
+for the Company and transact other business with the Company, and shall have the 
+same rights and obligations when transacting business with the Company as a person 
+or entity who is not a Member or Manager. 
+7.2 Affiliated Party Transactions. The Members acknowledge that the 
+Company is being formed initially to purchase and then hold an investment in 
+Blockstream Corporation, a corporation incorporated under the laws of Canada, for 
+which the Manager may provide certain advisory or consulting services or on whose 
+11 
+EFTA00584706
+
+board of directors the Manager may serve. In connection therewith, the Members 
+acknowledge such potential conflict of interest and waive and consent to any such 
+transaction that may be approved on behalf of the Company as provided in this 
+Agreement. 
+ARTICLE 8 
+FISCAL YEAR; BOOKS AND RECORDS; BANK ACCOUNTS 
+8.1 Bank Accounts. The funds of the Company shall be deposited in such 
+federally insured bank account or accounts or other financial intermediary as the 
+Manager in his or her discretion determine are required, and the Manager shall arrange 
+for the appropriate conduct of such accounts. 
+8.2 Books and Records. 
+(a) There shall be kept and maintained full and accurate books 
+respecting the business of the Company showing all receipts and expenditures, 
+assets and liabilities, profits, losses and distributions, and all other records 
+reasonably necessary or appropriate for recording the Company's business 
+affairs at the Company's principal place of business or such other location as the 
+Manager may determine provided that all of the Members are informed of such 
+other location. Such books and records shall be open to inspection by any 
+Member (or such Members authorized representative) upon reasonable notice 
+and during ordinary business hours 
+(b) The books of the Company shall be kept on the method of 
+accounting determined by the Members, and shall show at all times each and 
+every item of income, gain, loss and expense. 
+8.3 Fiscal Year. The fiscal year of the Company shall be the calendar year. 
+8.4 Tax Matters Partner. Pursuant to Code Section 6231, the Person 
+designated by the Manager from time to time shall act as the Tax Matters Partner of the 
+Company. The Tax Matters Partner shall prepare and provide to each Member all 
+necessary tax forms and information to enable the Members to meet their tax filing 
+obligations on a timely basis and shall, within 30 days after receipt thereof, forward to 
+each Member a photocopy of any notices relating to the Company received from the 
+Internal Revenue Service or other revenue authority. 
+8.5 Tax Returns. In addition to the requirements of Section 8.2, tax returns of 
+the Company shall be prepared by the Person selected by the Manager. 
+12 
+EFTA00584707
+
+ARTICLE 9 
+TRANSFERS 
+9.1 General Provision. No Member shall, directly or indirectly, voluntarily or 
+involuntarily, sell, assign, transfer, pledge, hypothecate, encumber or otherwise dispose 
+of ("Transfer") the whole or any part of its, his or her Membership Interests in the 
+Company, except to Affiliates of such Member or with the Consent of the Members. 
+Notwithstanding the foregoing, if any such Member is an individual, such Person's 
+Membership Interests may pass to his or her estate upon his or her death subject to the 
+other provisions of this Agreement. Except in connection with transfers during an 
+individual Member's lifetime to Affiliates as permitted pursuant to this Section 9.1, which 
+Affiliates shall become Members when the transfers become effective as hereinafter 
+provided, no transferee shall become a Member without the Consent of the Members. 
+Transfers to Affiliates shall be effective upon the Affiliates entering into this Agreement 
+and notice thereof being provided to the other Members. 
+9.2 Sale of the Company. 
+(a) If the Manager approves a Sale of the Company (an "Approved 
+Sale"), then each Member and any other holder of Membership Interests will 
+consent to and raise no objection to the Approved Sale, and if the Approved Sale 
+is structured as a sale of Membership Interests, then each Member and any 
+other holder of Membership Interests will agree to sell all of their Membership 
+Interests on the same terms and conditions as approved by the Manager. Each 
+Member and any other holder of Membership Interests will take all actions which 
+the Manager deems reasonably necessary in connection with the consummation 
+of the Approved Sale. 
+(b) The obligations of the Members and any other holders of 
+Membership Interests with respect to the Approved Sale are subject to the 
+condition that upon the consummation of the Approved Sale, all of the holders of 
+Membership Interests will, subject to Section 4.6, receive substantially the same 
+form and amount of consideration for their Membership Interests sold, or if any 
+such Membership Interests are given an option as to the form and amount of 
+consideration to be received, all such holders will be given the same option. 
+Notwithstanding the foregoing, nothing contained in this Section 9.2(b) shall 
+prevent any individual from receiving an offer of employment upon reasonable 
+terms in connection with services to be provided after the consummation of the 
+Approved Sale. 
+(c) Each Member and any other holder of Membership Interests will 
+bear their pro rata share (based upon the total amount of Membership Interests 
+sold) of the cost of any sale of Membership Interests pursuant to an Approved 
+Sale to the extent such costs are incurred for the benefit of all holders of 
+Membership Interests and are not otherwise paid by the Company. Costs 
+incurred by Members and the other holders of Membership Interests on their own 
+13 
+EFTA00584708
+
+behalf, will not be considered costs of the Approved Sale contemplated 
+hereunder. 
+ARTICLE 10 
+DISSOLUTION AND TERMINATION 
+10.1 Dissolution. The Company shall be dissolved upon the Consent of the 
+Members or as otherwise provided by the Articles or the Act. 
+10.2 Procedures Upon Dissolution. 
+(a) Upon dissolution of the Company, the Company shall be terminated 
+and the Manager, or if there is no Manager, the Members, shall liquidate the 
+assets of the Company. The proceeds of liquidation shall be applied and 
+distributed in the following order of priority: 
+(i) First, to the payment of the debts and liabilities of the 
+Company (other than any loans or advances made by any of the Members 
+to the Company) and the expenses of liquidation; 
+(ii) Second, to the creation of any reserves which the Manager 
+or liquidating Members deem reasonably necessary for the payment of 
+any contingent or unforeseen liabilities or obligations of the Company or 
+Members (to the extent the Company is liable therefor) arising out of or in 
+connection with the business and operation of the Company; 
+(iii) Third, to the payment of any loans or advances made by any 
+of the Members to the Company; and 
+(iv) Thereafter, to the Members in the manner, and in the 
+priorities set forth in Section 4.6. 
+(b) A reasonable time shall be allowed for the orderly liquidation of the 
+assets of the Company and the discharge of liabilities. During the period 
+beginning with the dissolution of the Company and ending with its liquidation and 
+termination of this Agreement pursuant to this Section 10.2, the business affairs 
+of the Company shall be conducted by the Manager or, if there is no Manager, by 
+the Members. During such period, the business and affairs of the Company shall 
+be conducted so as to preserve the assets of the Company and maintain the 
+status which existed immediately prior to such termination. 
+14 
+EFTA00584709
+
+ARTICLE 11 
+MISCELLANEOUS 
+11.1 Binding Agreement. Subject to the restrictions on transfers and 
+encumbrances set forth herein, this Agreement shall inure to the benefit of and be 
+binding upon the parties hereto and their respective heirs, executors, legal 
+representatives, successors and permitted assigns. Whenever in this instrument a 
+reference to any party or Member is made, such reference shall be deemed to include a 
+reference to the heirs, executors, legal representatives, successors and permitted 
+assigns of each Member. 
+11.2 Counterparts. This Agreement may be executed in several counterparts, 
+each of which shall be deemed an original, but all of which shall constitute one and the 
+same instrument. In addition, this Agreement may contain more than one counterpart of 
+the signature pages and this Agreement may be executed by the affixing of the 
+signatures of each of the Members to one of such counterpart signature pages; all of 
+such signature pages shall be read as though, and this Agreement shall have the same 
+force and effect as though, all of the signers had signed a single signature page. 
+11.3 Effect of Consent or Waiver. No consent or waiver by any party hereto to 
+or of any breach or default by any other party hereto in the performance by such other 
+party hereto of its, his or her obligations hereunder shall be effective unless in writing, 
+and signed by the party hereto against whom such waiver is sought to be enforced, and 
+no such consent or waiver shall be deemed or construed to be a consent or waiver to or 
+of any other breach or default by such other party hereto in the performance by such 
+other party hereto of the same or any other obligations of such party hereto hereunder. 
+Failure on the part of any party hereto to object to or complain of any act or failure to act 
+of any of the other parties hereto or to declare any of the other parties hereto in default, 
+regardless of how long such failure continues, shall not constitute a waiver by any such 
+party hereto of its, his or her rights hereunder. 
+11.4 Enforceability. If any provision of this Agreement or the application thereof 
+to any Person or circumstances shall be invalid or unenforceable to any extent, the 
+remainder of this Agreement and the application of such provisions to other Persons or 
+circumstances shall not be affected thereby and shall be enforced to the greatest extent 
+permitted by law. 
+11.5 Entire Agreement. This Agreement contains all of the terms agreed upon 
+by the parties hereto with respect to the subject matter hereof, and supersedes all prior 
+agreements, arrangements and communications between the parties dealing with the 
+Membership Interests, whether oral or written. 
+11.6 Governing Law; Jurisdiction. In all respects, including all matters of 
+construction, validity and performance, the Agreement and the obligations arising 
+hereunder shall be governed by, and construed and enforced in accordance with, the 
+laws of the State of Delaware, applicable to contracts made and performed in such 
+15 
+EFTA00584710
+
+state, without regard to the principles thereof regarding conflict of laws. The Company 
+and each of the parties hereto agree to submit to personal jurisdiction and to waive any 
+objection as to venue in the courts located in either the county in which the Company's 
+principal office is located within the State of Delaware or the county in which the 
+Company's registered office is located within the State of Delaware. Service of process 
+on the Company and any of the parties hereto in any action arising out of or relating to 
+this Agreement shall be effective if mailed by certified mail, return receipt requested or 
+delivered by reputable overnight courier to such party at the address set forth on 
+Exhibit A attached hereto. 
+11.7 Liability Among Members. No Member shall be liable to any other 
+Member or to the Manager by reason of its, his or her actions or omissions in 
+connection with the Company, unless otherwise provided in this Agreement, and except 
+for acts or omissions or alleged acts or omissions that were performed or omitted 
+fraudulently or in bad faith or as a result of gross negligence or willful misconduct. 
+11.8 No Partnership Intended for Nontax Purposes. The Members have 
+formed the Company under the Act and expressly do not intend hereby to form a 
+partnership under the laws of any jurisdiction. The Members do not intend to be 
+partners one to another, or partners as to any third party. To the extent any Member, by 
+word or action, represents to another Person that any other Member is a partner or that 
+the Company is a partnership, the Member making such wrongful representation shall 
+be liable to any other Member who incurs personal liability by reason of such wrongful 
+representation. 
+11.9 Amendment. This Agreement may be amended or modified only with the 
+Consent of the Members. 
+11.10 Notices. Any Notice to the Manager or Members required under the terms 
+of this Agreement shall be sent to their respective addresses, as set forth on Exhibit A 
+attached hereto. All Notices and copies thereof provided for herein shall be hand 
+delivered with receipt therefor, sent by overnight courier service with receipt therefor, or 
+sent by certified or registered mail, return receipt requested, and first-class postage 
+prepaid. Changes of address may be given to the Company, the Manager, and the 
+Members by Notice given in accordance with the terms of this Section. Time periods 
+shall commence on the date that such Notice is shown as delivered upon any such 
+receipt or attempted to be delivered if receipt thereof is refused by the recipient. Any 
+Notice that is required to be given within a stated period of time shall be considered 
+timely made or given if delivered or postmarked before 11:59 p.m., local time, on the 
+last day of such period. 
+11.11 Business Pursuits of Members and Manager. Except as otherwise 
+provided in any other written agreement by which any Member or the Manager may be 
+bound, the Manager and each Member may engage in other business activities. Except 
+as otherwise provided in this Agreement or in any other written agreement by which any 
+Member or Manager may be bound, this Agreement shall not preclude or limit in any 
+respect the right of any Member or the Manager to engage in or invest in any business 
+16 
+EFTA00584711
+
+activity of any nature or description. Any such permitted activity may be engaged in 
+independently or with other Members or the Manager. No Member or Manager shall 
+have the right, by virtue of this the Certificate, this Agreement or the relationship created 
+hereby, to any interest in such other permitted ventures or activities or to the income or 
+proceeds derived therefrom. Except as otherwise provided in this Agreement or in any 
+other written agreement by which any Member or Manager may be bound, the pursuit of 
+such permitted ventures shall not be deemed wrongful or improper and any Member or 
+Manager shall have the right to participate in or to recommend to others any investment 
+opportunity. 
+11.12 Expenses. The Company shall recognize $2,000 of the out-of-pocket 
+expenses actually incurred by Joichi Ito in connection with the organization of the 
+Company as an initial capital contribution by such Member, and up to $2,000 of the 
+annual out-of-pocket expenses actually incurred by any Member of the Company in 
+connection with the operation of the Company each year as an additional capital 
+contribution by such Member when paid by such Member. 
+11.13 References. References herein to the singular shall include the plural and 
+to the plural shall include the singular, and references to one gender shall include the 
+others, except where the same shall not be appropriate. 
+11.14 Titles and Captions. Section titles or captions contained in this Agreement 
+are for convenience only and shall not be deemed a part of the content of this 
+Agreement. 
+11.15 Delivery by Facsimile or Electronic Mail. This Agreement, the agreements 
+referred to herein, and each other agreement or instrument entered into in connection 
+herewith or therewith or contemplated hereby or thereby, and any amendments hereto 
+or thereto, to the extent signed and delivered by means of a facsimile machine, pdf 
+attachment to an email or other electronic means, shall be treated in all manner and 
+respects as an original agreement or instrument and shall be considered to have the 
+same binding legal effect as if it were the original signed version thereof delivered in 
+person. At the request of any party hereto or to any such agreement or instrument, 
+each other party hereto or thereto shall re-execute original forms thereof and deliver 
+them to all other parties. No party hereto or to any such agreement or instrument shall 
+raise the use of such means to deliver a signature or the fact that any signature or 
+agreement or instrument was transmitted or communicated through the use of such 
+means as a defense to the formation or enforceability of a contract and each party 
+hereto forever waives any such defense. 
+[Signature page follows] 
+17 
+EFTA00584712
+
+IN WITNESS WHEREOF, the undersigned parties here executed this Agreement 
+as of the date first set forth above. 
+Kyara Investments III LLC 
+By: 
+Joichi Ito, Manager 
+Joichi Ito 
+Southern Financial, LLC 
+By: 
+Jeffrey Epstein, Manager 
+Joichi Ito, Manager 
+S-1 
+EFTA00584713
+
+EXHIBIT A 
+The names, addresses and Membership Interests of the Members are set forth 
+below. 
+Name and Address 
+Number of 
+Membership 
+Interests 
+Percentage 
+Ownershi. 
+Initial 
+Capital 
+Contribution 
+Joichi Ito 
+63 Francis Ave. 
+Cambridge, MA 02138 
+500 50% $ 2,000 
+Southern Financial, LLC 
+6100 Red Hook Quarter, B3 
+St. Thomas, USVI 00802 
+500 50% 500,001 
+TOTAL 1,000 100.00% $ 502,001 
+Address of Manager and the Company: 
+Go Joichi Ito 
+63 Francis Ave. 
+Cambridge, MA 02138 
+EFTA00584714

@@ -1,0 +1,2679 @@
+{
+  "threshold": 0.82,
+  "high_similarity_pairs": [
+    {
+      "content_id_a": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "content_id_b": "WRR-USAIDCIA-P01-YT-SHORT-001",
+      "similarity": 0.929
+    },
+    {
+      "content_id_a": "WRR-USAIDCIA-P01-TT-SHORT-002",
+      "content_id_b": "WRR-USAIDCIA-P01-YT-SHORT-002",
+      "similarity": 0.9
+    },
+    {
+      "content_id_a": "WRR-USAIDCIA-P01-TT-SHORT-003",
+      "content_id_b": "WRR-USAIDCIA-P01-YT-SHORT-003",
+      "similarity": 0.888
+    }
+  ],
+  "duplicate_asset_rate": 0.14,
+  "boilerplate": {
+    "repeated_sentences": [
+      {
+        "text": "open the july 1962 police assistance memorandum and one bureaucratic sentence changes the story the committee recommended a dedicated aid police office",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the proposed police office would research techniques for controlling subversion and mass violence",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "read part 1 and examine the records yourself",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-YT-SHORT-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "part 1 has the documents",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "yet the committee recommended that aid coordinate and lead all police assistance programs under state policy guidance",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the committee assigned aid operating and funding responsibility except for covert aspects and selected defense programs",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "john f kennedy did not describe police assistance as an ordinary development program",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "nsam 132 was dated february 19 1962",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-IMAGE-001",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "kennedy described police assistance as crucial to countering communist indirect aggression",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-IMAGE-002",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "follow four decisions across 1962 and a police system takes shape in plain sight",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "nsam 162 was dated june 19 1962",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the july 20 1962 committee called police programs a neglected part of countering subversion and insurgency",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "why was a civilian aid agency being assigned a central role in overseas police assistance",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-X-IMAGE-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "kennedy asked aid to review support for local police forces used for internal security and counterinsurgency",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "nsam 162 called for country plans combining military police intelligence and psychological measures",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the committee reported that fy1958 aid police programs in 21 countries cost about 14 million",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-003"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the committee reported that fy1958 defense police programs cost 5 8 million in five countries",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-003"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the important connection was administrative explicit and interagency",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "nsam 162 directed cia and aid to maintain personnel with paramilitary skills for crisis areas",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "nsam 162 directed cia to expand training and support for indigenous intelligence organizations",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "taken together those assignments describe a division of labor civilian administration in aid policy guidance in state and selected responsibilities outside aid",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the covert carve out limits what the overt assignment proves but it also makes the boundary part of the official design",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "that distinction is the payoff",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the records establish an interagency internal defense structure without establishing that every participating agency was the same institution",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "share this with a reader who values primary records",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the ordinary explanation is reasonable stable civilian policing could support development",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-X-POST-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the record adds another purpose",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-X-POST-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "kennedy said police programs could appear marginal under economic development criteria",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-X-POST-001",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "kennedy warned that police programs could be neglected because they were a small part of aid",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the founding directive acknowledged covert aspects without mapping them",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "that is a question not a verdict",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the committee recommended a dedicated aid police office",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "before the office of public safety had a name a committee had already designed its job",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "save this for the document trail",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-IG-REEL-003"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "send this document trail to a careful reader",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the documents are linked in part 1",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-X-IMAGE-001",
+          "WRR-USAIDCIA-P01-X-POST-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "follow the series not the slogan",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-X-IMAGE-002",
+          "WRR-USAIDCIA-P01-X-POST-002",
+          "WRR-USAIDCIA-P01-X-POST-005"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "the interesting question is not whether the memo exists",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_SENTENCE"
+      },
+      {
+        "text": "it is why this mission was placed inside the aid system and where policymakers drew the covert boundary",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_SENTENCE"
+      }
+    ],
+    "repeated_closings": [
+      {
+        "text": "part 1 has the documents",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-001"
+        ],
+        "code": "REPEATED_CLOSING"
+      },
+      {
+        "text": "which boundary would you investigate next",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-002"
+        ],
+        "code": "REPEATED_CLOSING"
+      },
+      {
+        "text": "share this with a reader who values primary records",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001"
+        ],
+        "code": "REPEATED_CLOSING"
+      },
+      {
+        "text": "part 1 reconstructs the complete paper trail",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_CLOSING"
+      },
+      {
+        "text": "send this document trail to a careful reader",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-001"
+        ],
+        "code": "REPEATED_CLOSING"
+      },
+      {
+        "text": "the documents are linked in part 1",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-X-IMAGE-001",
+          "WRR-USAIDCIA-P01-X-POST-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_CLOSING"
+      },
+      {
+        "text": "follow the series not the slogan",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-X-IMAGE-002",
+          "WRR-USAIDCIA-P01-X-POST-002",
+          "WRR-USAIDCIA-P01-X-POST-005"
+        ],
+        "code": "REPEATED_CLOSING"
+      },
+      {
+        "text": "read the memo before drawing the conclusion",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-X-IMAGE-003",
+          "WRR-USAIDCIA-P01-X-POST-003"
+        ],
+        "code": "REPEATED_CLOSING"
+      }
+    ],
+    "repeated_phrases": [
+      {
+        "text": "open the july 1962 police assistance memorandum and",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the july 1962 police assistance memorandum and one",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "july 1962 police assistance memorandum and one bureaucratic",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "1962 police assistance memorandum and one bureaucratic sentence",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "police assistance memorandum and one bureaucratic sentence changes",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "assistance memorandum and one bureaucratic sentence changes the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "memorandum and one bureaucratic sentence changes the story",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "and one bureaucratic sentence changes the story the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "one bureaucratic sentence changes the story the committee",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "bureaucratic sentence changes the story the committee recommended",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "sentence changes the story the committee recommended a",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "changes the story the committee recommended a dedicated",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the story the committee recommended a dedicated aid",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "story the committee recommended a dedicated aid police",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the committee recommended a dedicated aid police office",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "committee recommended a dedicated aid police office the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-X-POST-004",
+          "WRR-USAIDCIA-P01-YT-SHORT-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "read part 1 and examine the records yourself",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-YT-SHORT-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "aid administered development assistance yet the committee recommended",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "administered development assistance yet the committee recommended that",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "development assistance yet the committee recommended that aid",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "assistance yet the committee recommended that aid coordinate",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "yet the committee recommended that aid coordinate and",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the committee recommended that aid coordinate and lead",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "committee recommended that aid coordinate and lead all",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "recommended that aid coordinate and lead all police",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "that aid coordinate and lead all police assistance",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "aid coordinate and lead all police assistance programs",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "coordinate and lead all police assistance programs under",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "and lead all police assistance programs under state",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "lead all police assistance programs under state policy",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "all police assistance programs under state policy guidance",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-X-POST-005",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "police assistance programs under state policy guidance the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "assistance programs under state policy guidance the committee",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the committee assigned aid operating and funding responsibility",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "committee assigned aid operating and funding responsibility except",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "assigned aid operating and funding responsibility except for",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "aid operating and funding responsibility except for covert",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "operating and funding responsibility except for covert aspects",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "and funding responsibility except for covert aspects and",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "funding responsibility except for covert aspects and selected",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "responsibility except for covert aspects and selected defense",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "except for covert aspects and selected defense programs",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-002",
+          "WRR-USAIDCIA-P01-YT-SHORT-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "john f kennedy did not describe police assistance",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "f kennedy did not describe police assistance as",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "kennedy did not describe police assistance as an",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "did not describe police assistance as an ordinary",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "not describe police assistance as an ordinary development",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "describe police assistance as an ordinary development program",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "kennedy described police assistance as crucial to countering",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-IMAGE-002",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "described police assistance as crucial to countering communist",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-IMAGE-002",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "police assistance as crucial to countering communist indirect",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-IMAGE-002",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "assistance as crucial to countering communist indirect aggression",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "WRR-USAIDCIA-P01-TT-SHORT-003",
+          "WRR-USAIDCIA-P01-X-IMAGE-002",
+          "WRR-USAIDCIA-P01-X-THREAD-001",
+          "WRR-USAIDCIA-P01-YT-SHORT-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "follow four decisions across 1962 and a police",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "four decisions across 1962 and a police system",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "decisions across 1962 and a police system takes",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "across 1962 and a police system takes shape",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "1962 and a police system takes shape in",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "and a police system takes shape in plain",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "a police system takes shape in plain sight",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "police system takes shape in plain sight nsam",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "system takes shape in plain sight nsam 132",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "takes shape in plain sight nsam 132 was",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "shape in plain sight nsam 132 was dated",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "in plain sight nsam 132 was dated february",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "plain sight nsam 132 was dated february 19",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "sight nsam 132 was dated february 19 1962",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "nsam 132 was dated february 19 1962 nsam",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "132 was dated february 19 1962 nsam 162",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "was dated february 19 1962 nsam 162 was",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "dated february 19 1962 nsam 162 was dated",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "february 19 1962 nsam 162 was dated june",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "19 1962 nsam 162 was dated june 19",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "1962 nsam 162 was dated june 19 1962",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "nsam 162 was dated june 19 1962 the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-X-IMAGE-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the july 20 1962 committee called police programs",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "july 20 1962 committee called police programs a",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "20 1962 committee called police programs a neglected",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "1962 committee called police programs a neglected part",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "committee called police programs a neglected part of",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "called police programs a neglected part of countering",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "police programs a neglected part of countering subversion",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "programs a neglected part of countering subversion and",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "a neglected part of countering subversion and insurgency",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-002",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "nsam 162 called for country plans combining military",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "162 called for country plans combining military police",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "called for country plans combining military police intelligence",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "for country plans combining military police intelligence and",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "country plans combining military police intelligence and psychological",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "plans combining military police intelligence and psychological measures",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-IG-REEL-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "nsam 162 directed cia and aid to maintain",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "162 directed cia and aid to maintain personnel",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "directed cia and aid to maintain personnel with",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "cia and aid to maintain personnel with paramilitary",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "and aid to maintain personnel with paramilitary skills",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "aid to maintain personnel with paramilitary skills for",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "to maintain personnel with paramilitary skills for crisis",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "maintain personnel with paramilitary skills for crisis areas",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-IG-IMAGE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-X-POST-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "taken together those assignments describe a division of",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "together those assignments describe a division of labor",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "those assignments describe a division of labor civilian",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "assignments describe a division of labor civilian administration",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "describe a division of labor civilian administration in",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "a division of labor civilian administration in aid",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "division of labor civilian administration in aid policy",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "of labor civilian administration in aid policy guidance",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "labor civilian administration in aid policy guidance in",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "civilian administration in aid policy guidance in state",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "administration in aid policy guidance in state and",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "in aid policy guidance in state and selected",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "aid policy guidance in state and selected responsibilities",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "policy guidance in state and selected responsibilities outside",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "guidance in state and selected responsibilities outside aid",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "in state and selected responsibilities outside aid the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "state and selected responsibilities outside aid the covert",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "and selected responsibilities outside aid the covert carve",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "selected responsibilities outside aid the covert carve out",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "responsibilities outside aid the covert carve out limits",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "outside aid the covert carve out limits what",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "aid the covert carve out limits what the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the covert carve out limits what the overt",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "covert carve out limits what the overt assignment",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "carve out limits what the overt assignment proves",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "out limits what the overt assignment proves but",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "limits what the overt assignment proves but it",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "what the overt assignment proves but it also",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the overt assignment proves but it also makes",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "overt assignment proves but it also makes the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "assignment proves but it also makes the boundary",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "proves but it also makes the boundary part",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "but it also makes the boundary part of",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "it also makes the boundary part of the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "also makes the boundary part of the official",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "makes the boundary part of the official design",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the boundary part of the official design that",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "boundary part of the official design that distinction",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "part of the official design that distinction is",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "of the official design that distinction is the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the official design that distinction is the payoff",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "official design that distinction is the payoff the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "design that distinction is the payoff the records",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "that distinction is the payoff the records establish",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "distinction is the payoff the records establish an",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "is the payoff the records establish an interagency",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the payoff the records establish an interagency internal",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "payoff the records establish an interagency internal defense",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the records establish an interagency internal defense structure",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "records establish an interagency internal defense structure without",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "establish an interagency internal defense structure without establishing",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "an interagency internal defense structure without establishing that",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "interagency internal defense structure without establishing that every",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "internal defense structure without establishing that every participating",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "defense structure without establishing that every participating agency",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "structure without establishing that every participating agency was",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "without establishing that every participating agency was the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "establishing that every participating agency was the same",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "that every participating agency was the same institution",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-FB-REEL-002"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "kennedy said police programs could appear marginal under",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-X-POST-001",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "said police programs could appear marginal under economic",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-X-POST-001",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "police programs could appear marginal under economic development",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-X-POST-001",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "programs could appear marginal under economic development criteria",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-IG-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-X-POST-001",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "kennedy warned that police programs could be neglected",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "warned that police programs could be neglected because",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "that police programs could be neglected because they",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "police programs could be neglected because they were",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "programs could be neglected because they were a",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "could be neglected because they were a small",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "be neglected because they were a small part",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "neglected because they were a small part of",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "because they were a small part of aid",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004",
+          "WRR-USAIDCIA-P01-X-POST-003",
+          "WRR-USAIDCIA-P01-X-THREAD-001"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "they were a small part of aid the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-PHOTO-002",
+          "WRR-USAIDCIA-P01-FB-REEL-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "for covert aspects and selected defense programs the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "covert aspects and selected defense programs the committee",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-FB-LONG-001",
+          "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "WRR-USAIDCIA-P01-RD-POST-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the interesting question is not whether the memo",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "interesting question is not whether the memo exists",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "question is not whether the memo exists it",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "is not whether the memo exists it is",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "not whether the memo exists it is why",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "whether the memo exists it is why this",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the memo exists it is why this mission",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "memo exists it is why this mission was",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "exists it is why this mission was placed",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "it is why this mission was placed inside",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "is why this mission was placed inside the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "why this mission was placed inside the aid",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "this mission was placed inside the aid system",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "mission was placed inside the aid system and",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "was placed inside the aid system and where",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "placed inside the aid system and where policymakers",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "inside the aid system and where policymakers drew",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "the aid system and where policymakers drew the",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "aid system and where policymakers drew the covert",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      },
+      {
+        "text": "system and where policymakers drew the covert boundary",
+        "content_ids": [
+          "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "WRR-USAIDCIA-P01-SUB-NOTE-002",
+          "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "WRR-USAIDCIA-P01-SUB-NOTE-004"
+        ],
+        "code": "REPEATED_PHRASE"
+      }
+    ],
+    "warning_count": 239
+  },
+  "validation": "PASS"
+}

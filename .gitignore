@@ -6,9 +6,13 @@ __pycache__/
 .idea/
 *.iml
 
+# Keep article_projects and series_projects in Git.
+# Exclude ONLY source files belonging to individual articles inside a series.
+# Series-level shared_sources remain tracked.
+# Standalone article sources remain tracked.
+series_projects/**/articles/**/sources/
+
 # generated run artifacts
-article_projects/
-series_projects/
 workspace/
 workspace/*/evidence.sqlite3
 workspace/*/output/*.docx
@@ -29,3 +33,19 @@ upgrade_backups/
 white_rabbit_*_patch/
 white_rabbit_*_upgrade/
 *.zip
+
+# Keep article_projects and series_projects in Git,
+# but exclude bulky source-material folders and generated derivatives.
+
+# series-level shared source files
+series_projects/**/shared_sources/
+
+# per-article source files inside series
+series_projects/**/articles/**/sources/
+
+# standalone article source files
+article_projects/**/sources/
+
+# generated / extracted derivatives of source files
+series_projects/**/articles/**/research/source_derivatives/
+article_projects/**/research/source_derivatives/

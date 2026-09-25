@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "title": "USAID Office of Public Safety",
+  "slug": "usaid-office-of-public-safety",
+  "status": "complete",
+  "planned_parts": 7,
+  "created_at": "2026-09-13T06:00:43.612499+00:00",
+  "updated_at": "2026-09-24T05:12:56.248914+00:00",
+  "parts": [
+    {
+      "number": 1,
+      "title": "The Aid Memo That Built a Global Police System",
+      "slug": "part-01-usaid-article",
+      "status": "complete",
+      "finale": false,
+      "previous": null,
+      "next": "part-02-the-academy-and-the-agency",
+      "published_url": null,
+      "created_at": "2026-09-13T06:02:16.988152+00:00",
+      "updated_at": "2026-09-13T13:49:02.008855+00:00"
+    },
+    {
+      "number": 2,
+      "title": "The Academy and the Agency",
+      "slug": "part-02-the-academy-and-the-agency",
+      "status": "complete",
+      "finale": false,
+      "previous": "part-01-usaid-article",
+      "next": "part-03-the-laboratory-countries",
+      "published_url": null,
+      "created_at": "2026-09-13T13:36:53.647351+00:00",
+      "updated_at": "2026-09-13T14:17:40.635683+00:00"
+    },
+    {
+      "number": 3,
+      "title": "The Laboratory Countries",
+      "slug": "part-03-the-laboratory-countries",
+      "status": "complete",
+      "finale": false,
+      "previous": "part-02-the-academy-and-the-agency",
+      "next": "part-04-the-mitrione-problem",
+      "published_url": null,
+      "created_at": "2026-09-13T13:36:55.489649+00:00",
+      "updated_at": "2026-09-13T15:18:03.312551+00:00"
+    },
+    {
+      "number": 4,
+      "title": "The Handoff",
+      "slug": "part-04-the-mitrione-problem",
+      "status": "complete",
+      "finale": false,
+      "previous": "part-03-the-laboratory-countries",
+      "next": "part-05-the-ban-that-did-not-end-police-aid",
+      "published_url": null,
+      "created_at": "2026-09-13T13:36:58.822322+00:00",
+      "updated_at": "2026-09-24T05:12:56.248899+00:00"
+    },
+    {
+      "number": 5,
+      "title": "The Exception",
+      "slug": "part-05-the-ban-that-did-not-end-police-aid",
+      "status": "complete",
+      "finale": false,
+      "previous": "part-04-the-mitrione-problem",
+      "next": "part-06-after-the-office-of-public-safety",
+      "published_url": null,
+      "created_at": "2026-09-13T13:37:01.794973+00:00",
+      "updated_at": "2026-09-13T15:44:43.651541+00:00"
+    },
+    {
+      "number": 6,
+      "title": "After the Office of Public Safety",
+      "slug": "part-06-after-the-office-of-public-safety",
+      "status": "complete",
+      "finale": false,
+      "previous": "part-05-the-ban-that-did-not-end-police-aid",
+      "next": "part-07-what-survived-inside-foreign-aid",
+      "published_url": null,
+      "created_at": "2026-09-13T13:37:05.468089+00:00",
+      "updated_at": "2026-09-13T16:01:52.943345+00:00"
+    },
+    {
+      "number": 7,
+      "title": "What Survived Inside Foreign Aid",
+      "slug": "part-07-what-survived-inside-foreign-aid",
+      "status": "complete",
+      "finale": true,
+      "previous": "part-06-after-the-office-of-public-safety",
+      "next": null,
+      "published_url": null,
+      "created_at": "2026-09-13T13:37:09.056473+00:00",
+      "updated_at": "2026-09-13T16:13:18.261704+00:00"
+    }
+  ]
+}

@@ -1,0 +1,760 @@
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 1 of 12 
+U Close Window 
+W Print This Page 
+g Expand All I Collapse All 
+Southern Financial LLC 
+Customer Record 
+Type 
+Client 
+Customer Name Southern Financial LLC 
+Relationship SOUTHERN FINANCIAL 
+RELATIONSHIP 
+* Type 
+SSN 
+Organization 
+Federal Tax ID # 66-0799192 
+Referral Source 
+Name of Referral 
+Source 
+Third Party Referral 
+Source 
+Customer Owner Paul Morris 
+German PO 
+Created By Komal Shahani, 5/28/2013 10:27 AM 
+Last Modified By Relational Junction, 9/28/2015 2:13 PM 
+00000483882 
+GCIS Customer 
+Number 
+Bank 1 
+* Moderate Risk 
+* High Risk 
+Risk Reason KYC1195100 
+Risk Rating: .521 
+C 02 
+KYC 1082293 
+Status 
+Client Since Date 
+Former Client? 
+Portfolio 
+Management Team 
+Covenant Contact 
+Preference 
+* Booking Location 
+Switzerland 
+Form K 
+Custom Links 
+View DB Accounts and Revenue Client/Assets At Risk 
+Request Customer Deletion 
+Request Primary Officer Change Import Documents 
+Request New Relationship 
+Launch NAO Wizard 
+EFTA01402630
+
+Launch Due Diligence 
+Classification 
+Potential New 
+Revenue 
+Client 
+Satisfaction 
+Industry 
+Unconfirmed 
+Investor Status 
+Investor Status 
+Definitions 
+* DB is 
+Trustee/CoTrustee 
+http://pwm.intranet.db.com/new/filehandler.php? 
+getFile=us/docs/InvestorStatusAddendum 10_24_07.pd 
+Export 
+Documents 
+View Documents From 
+Repository 
+Log Client Complaint 
+Create Annual Client Update 
+Request ACU Contact Exemption 
+View Exemption Guidelines 
+Generate Key Relationship 
+Report 
+Launch ALAT Process 
+View Loan Covenant Details 
+Active 
+8/26/2013 
+Risk Type 
+Volcker Covered 
+Fund? 
+Will Appointment 
+Gross Estate 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402631
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 2 of 12 
+Revenue Tier D (< $25K) 
+Forbes 
+Ranking 
+* DB 
+Employee? 
+* DB managed 
+PIC 
+* Bearer 
+Shares? 
+Segment 
+Financial Profile (KYC Information) 
+* Net Worth 
+(Individual) 
+* Investable Assets <$1 MM 
+*Estimated Annual 
+Income (Individual) 
+*Estimated Annual 
+Gross Income 
+(Entity) 
+*Estimated Annual 
+Net Profit (Entity) 
+$2,000,000.00 
+$1,500,000.00 
+Investment Objective 
+Risk Tolerance 
+Sophistication 
+Source Of Income 
+* Source of Wealth 
+(Individual) 
+* Description of 
+Wealth/Entity Assets 
+The initial funding in February 2013 
+was $1,000 from the sole shareholder 
+of the sole managing member (Jeffrey 
+Epstein). 
+Assets Held Elsewhere (KYC Information) 
+* Institution 1 JPMorgan 
+* Institution 2 
+* Institution 3 
+Additional Information (Entities Only) 
+* Nature of business 
+* Est. AUM 1 
+* Est. AUM 2 
+* Est. AUM 3 
+$1,000,000 
+This business is funded by Jeffrey 
+Epstein's wealth. This company was 
+formed to hold Mr. Epstein's personal 
+wealth and invest in different 
+EFTA01402632
+
+ventures. This company invests in 
+real estate, equities, commodities, etc 
+and gets its revenue from the gains it 
+makes in these investments. It is a 
+company formed to invest the assets 
+of Mr. Epstein 
+* Country of Incorporation 
+Registration 
+* Date of 
+Incorporation/Registration 
+* Countries where 
+business is transacted 
+* Number of Employees 3 
+US Virgin Islands 
+2/25/2013 
+US Virgin Islands 
+* Type of Entity Company 
+* Type of Entity 
+Other (specify) 
+* Purpose of Entity: Private Investment 
+* Purpose of Entity 
+Other (specify) 
+*Description of 
+Organizational 
+Ownership 
+Southern Trust Company Inc is the 
+sole member of Southern Financial 
+LLC. Jeffrey Epstein is the sole 
+shareholder of Southern Trust 
+Company Inc 
+Biography 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402633
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 3 of 12 
+Description 
+Investment Guidelines 
+Initial Financial 
+Review 
+High Risk Updates/ACU Exemptions 
+Exemption Status 
+Auto Exempt Reason 
+Exemption Reason 
+Other (describe 
+reason) 
+Birthdate 
+ACU held in 
+Customer 
+ACU on this 
+Customer also Cover 
+Contacts 
+Southern Financial LLC 
+Salutation 
+Primary 
+Main Contact 
+Phone 
+Primary Phone Type 
+Email 
+Fax 
+Mobile 
+Description 
+DB Accounts 
+N4G023804 - SOUTHERN FINANCIAL LLC 
+Account Id N4G023804 
+Contact Name Southern Financial LLC 
+Product Name Brokerage Advisory 
+Market Value $108,959,911.00 
+Date Opened 8/26/2013 
+Active 
+Balance As Of 9/25/2015 
+Description 
+N4G025080 - SOUTHERN FINANCIAL LLC 
+Account Id N4G025080 
+Contact Name Southern Financial LLC 
+Product Name Brokerage Advisory 
+Market Value $0.00 
+Date Opened 10/8/2013 
+Active 
+Balance As Of 9/25/2015 
+42952771 - SOUTHERN FINANCIAL LLC 
+Account Id 42952771 
+Contact Name Southern Financial LLC 
+Product Name Deposit Transactions 
+Market Value $2,212,470.13 
+EFTA01402634
+
+Date Opened 9/5/2013 
+Active 
+Balance As Of 9/25/2015 
+Description 
+N4G026161 - SOUTHERN FINANCIAL LLC 
+Account Id N4G026161 
+Contact Name Southern Financial LLC 
+Product Name Brokerage Advisory 
+Market Value $8,554,181.00 
+Date Opened 11/4/2013 
+Active 
+Balance As Of 9/25/2015 
+Annual Client Update 
+Due Date 
+Past-Due Explanation 
+High Risk InPerson 
+Meeting Due Year 
+Lending Review Due 
+Date 
+2016 
+8/25/2016 
+Overdue (1=Yes) 0 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402635
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 4 of 12 
+Description 
+PIC483882 - Southern Financial LLC 
+Account Id PIC483882 
+Contact Name Southern Financial LLC 
+Product Name PIC DESK 
+Market Value 
+Date Opened 2/9/2015 
+Active 
+Balance As Of 
+Description 
+N4G025403 - SOUTHERN FINANCIAL LLC 
+Account Id N4G025403 
+Contact Name Southern Financial LLC 
+Product Name Brokerage Advisory 
+Market Value $0.00 
+Date Opened 11/4/2013 
+Active 
+Balance As Of 9/25/2015 
+Description 
+Opportunities 
+Suntex 
+Product Family Brokerage 
+Stage Developed 
+Close Date 12/31/2015 
+Total Assets $5,000,000.00 
+Total Estimated Revenue $0.00 
+Probability (%) 25 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q1-2015 
+Next Step 
+Type New Product - Existing Client 
+Last Modified Date 9/1/2015 
+Description 
+Structured Credit 
+Product Family Global Lending 
+Stage Proposal 
+Close Date 9/30/2015 
+Total Assets $50,000,000.00 
+Total Estimated Revenue $1,500,000.00 
+Probability (%) 50 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q4-2014 
+Next Step 
+EFTA01402636
+
+44129252 - SOUTHERN FINANCIAL LLC 
+Description 
+Account Id 44129252 
+Contact Name Southern Financial LLC 
+Product Name Money Market Business Account 
+Market Value $0.00 
+Date Opened 9/5/2013 
+Active 
+Balance As Of 12/4/2013 
+Description 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402637
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 5 of 12 
+Type New Product - Existing Client 
+Last Modified Date 5/27/2015 
+Description 
+Additional Brokerage 
+Product Family Brokerage 
+Stage Business Committed-Not Funded 
+Close Date 3/31/2015 
+Total Assets $75,000,000.00 
+Total Estimated Revenue $2,000,000.00 
+Probability (%) 75 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q2-2014 
+Next Step 
+Type Additional Assets - Existing Product 
+Last Modified Date 1/7/2015 
+Description 
+More Brokerage 
+Product Family Brokerage 
+Stage Business Awarded 
+Close Date 12/13/2013 
+Total Assets $15,000,000.00 
+Total Estimated Revenue $0.00 
+Probability (%) 100 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q1-2013 
+Next Step 
+Type Additional Assets - Existing Product 
+Last Modified Date 12/13/2013 
+Description 
+Additional Funds 
+Product Family Brokerage 
+Stage Business Awarded 
+Close Date 12/12/2013 
+Total Assets $11,000,000.00 
+Total Estimated Revenue $0.00 
+Probability (%) 100 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q1-2013 
+Next Step 
+Type Additional Assets - Existing Product 
+EFTA01402638
+
+Last Modified Date 12/12/2013 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402639
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 6 of 12 
+Description 
+Additional Brokerage 
+Product Family Brokerage 
+Stage Business Awarded 
+Close Date 12/5/2013 
+Total Assets $10,000,000.00 
+Total Estimated Revenue $0.00 
+Probability (%) 100 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q1-2013 
+Next Step 
+Type Additional Assets - Existing Product 
+Last Modified Date 12/9/2013 
+Description 
+Brokerage Funds 
+Product Family Brokerage 
+Stage Business Awarded 
+Close Date 11/26/2013 
+Total Assets $5,992,414.75 
+Total Estimated Revenue $0.00 
+Probability (%) 100 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q4-2012 
+Next Step 
+Type Additional Assets - Existing Product 
+Last Modified Date 11/26/2013 
+Description 
+Brokerage #2 
+Product Family Brokerage 
+Stage Business Awarded 
+Close Date 10/18/2013 
+Total Assets $14,500,000.00 
+Total Estimated Revenue $0.00 
+Probability (%) 100 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q4-2012 
+Next Step 
+Type New Product - Existing Client 
+Last Modified Date 10/18/2013 
+Description 
+EFTA01402640
+
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402641
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 7 of 12 
+Brokerage 
+Product Family Brokerage 
+Stage Business Awarded 
+Close Date 10/14/2013 
+Total Assets $45,367,567.00 
+Total Estimated Revenue $0.00 
+Probability (%) 100 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q4-2012 
+Next Step 
+Type New Product - Existing Client 
+Last Modified Date 10/15/2013 
+Description 
+Southern Financial LLCProduct 
+Family Banking Products 
+Stage Business Awarded 
+Close Date 10/10/2013 
+Total Assets $330,000.00 
+Total Estimated Revenue $1,320.00 
+Probability (%) 100 
+Expected Revenue 
+Lead Source 
+Owner Full Name Paul Morris 
+Won 
+Fiscal Period Q4-2012 
+Next Step 
+Type New Product - New Client 
+Last Modified Date 10/10/2013 
+Description 
+Customer Team 
+Amanda Kirby 
+Team Role Banking Officer 
+Cases 
+01467139 
+Case Record Type Cash Disbursement - Wire USD Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 9/28/2015 
+Status New 
+Owner Jj Litchford 
+Description 
+01433583 
+Case Record Type Cash Disbursement - Wire - USD Banking 
+Type 
+Case Subject 
+EFTA01402642
+
+Cynthia Rodriguez 
+Team Role Private Banker Support 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402643
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 8 of 12 
+Contact Name Southern Financial LLC 
+Date Opened 7/28/2015 
+Status Verified 
+Owner Banking STP Processing 
+Description 
+01422381 
+Case Record Type Cash Disbursement - Wire USD - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 6/30/2015 
+Status Verified 
+Owner Banking STP Processing 
+Description 
+01400756 
+Case Record Type Cash Disbursement - Wire USD - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 5/29/2015 
+Status Verified 
+Owner Banking STP Processing 
+Description 
+01381279 
+Case Record Type Cash Disbursement - Wire USD - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 4/13/2015 
+Status Verified 
+Owner Banking STP Processing 
+Description 
+01363771 
+Case Record Type Cash Disbursement - Wire USD - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 3/12/2015 
+Status Verified 
+Owner Banking STP Processing 
+Description 
+01345309 
+Case Record Type Internal Cash Transfer - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 2/9/2015 
+Status Verified 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+EFTA01402644
+
+9/28/2015 
+EFTA01402645
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 9 of 12 
+Owner Banking STP Processing 
+Description 
+01278437 
+Case Record Type Cash Disbursement - Wire - USD - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 9/9/2014 
+Status Verified 
+Owner Banking STP Processing 
+Description subcr to Kyara Investment III, LLC to fund Blockstream Investment 
+01251916 
+Case Record Type Cash Disbursement - Wire - USD Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 7/2/2014 
+Status Verified 
+Owner Banking STP Processing 
+Description subcr to Kyara Investment II, LLC to fund Wearality Investment 
+01231158 
+Case Record Type Cash Disbursement - Wire - USD - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 5/14/2014 
+Status Verified 
+Owner Banking STP Processing 
+Description 
+01229686 
+Case Record Type Case 
+Type Customer Request 
+Case Subject Service Issue- Banking 
+Contact Name Southern Financial LLC 
+Date Opened 5/12/2014 
+Status Closed 
+Owner Kathryn Stanfield 
+Description 
+Margaux Mcgrath [12:21 PM]: 
+Hi Kathryn! Is there a way to rush wire transfer case 01229660? Client 
+requested Fed ref ASAP and I 
+want to ensure it goes through 
+Kathryn J Stanfield [12:22 PM]: 
+let me get them to approve it 
+Margaux Mcgrath [12:22 PM]: 
+Thanks so much! 
+01229660 
+Case Record Type Cash Disbursement - Wire - USD - Banking 
+Type 
+EFTA01402646
+
+Case Subject 
+Transfer from 42952771 - SOUTHERN FINANCIAL LLC 
+Transfer to 42959017 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402647
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 10 of 12 
+Contact Name Southern Financial LLC 
+Date Opened 5/12/2014 
+Status Verified 
+Owner Banking STP Processing 
+Description 
+01226546 
+Case Record Type Cash Disbursement - Wire - USD - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 5/2/2014 
+Status Verified 
+Owner Banking STP Processing 
+Description 
+01144345 
+Case Record Type Checkbook Order - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 10/29/2013 
+Status Verified 
+Owner GTO - Banking (Financial) 
+Description DLT103-1. Please Rush. Address on checks previously ordered 
+wasn't correct 
+01141603 
+Case Record Type Checkbook Order - Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 10/23/2013 
+Status Verified 
+Owner GTO - Banking (Financial) 
+Description DLT103-3. 3 to a page 
+01139738 
+Case Record Type Misc Client Instructions -Banking 
+Type 
+Case Subject 
+Contact Name Southern Financial LLC 
+Date Opened 10/18/2013 
+Status Verified 
+Owner GTO - Banking (Non-Financial) 
+Description Please link this account and account #42952771 to Online Banking 
+ID: 1030850 
+01115898 
+Case Record Type Case 
+Type Internal Request 
+Case Subject New Account Opening 
+Contact Name 
+Date Opened 8/20/2013 
+EFTA01402648
+
+Status Closed 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402649
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 11 of 12 
+Owner DBOI Account Opening Review 
+ABR- Please vett the signing authorities & review this account with W-9 for 
+approval (Attn: Pema 
+Sherpa). 
+Description 
+New Banking 
+KYC#: 01082293 
+NAO#: 648057 
+Open Activities 
+REMINDER: KYC Update required for this Customer. Click on "Related To" link. 
+Type Call 
+Task 
+Task/Event Record Type Task 
+Due Date 9/5/2014 
+Status In Progress 
+Priority Normal 
+Assigned To Paul Morris 
+Comments Please change the Staus of this task to 'Completed' when the KYC 
+Update is Submitted 
+Notes & Attachments 
+0858 001.pdf 
+Type Attachment 
+Owner Jj Litchford 
+Description 
+View file 
+Related To 01467139 
+W-9.pdf 
+Type Attachment 
+Owner Kusam Saini 
+Description 
+View file 
+Related To 01115898 
+SF Account Opening Docs Signed.pdf 
+Type Attachment 
+Owner Amanda Kirby 
+Description 
+View file 
+Related To 01115898 
+Annual Client Updates 
+0070002 
+Meeting/Call Date 8/25/2015 
+Meeting/Call Type Phone Call 
+Created By Amanda Kirby, 9/2/2015 3:32 PM 
+0063940 
+Meeting/Call Date 9/3/2014 
+Meeting/Call Type Phone Call 
+Created By Amanda Kirby, 9/5/2014 11:53 AM 
+AIS Requests 
+AIS-00003326 
+EFTA01402650
+
+revised first page of application.pdf 
+Type Attachment 
+Owner Kusam Saini 
+Description 
+View file 
+Related To 01115898 
+W-9 ST and SF.pdf 
+Type Attachment 
+Owner Amanda Kirby 
+Description 
+View file 
+Related To 01115898 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402651
+
+Southern Financial LLC salesforce.com - Unlimited Edition 
+Page 12 of 12 
+Requestor Paul Morris 
+Product: Secondary Opportunities Fund III LP MASTER FUND 
+Request Status Fulfilled 
+Request Date: 1/17/2014 
+AIS-00003346 
+Requestor Paul Morris 
+Product: Secondary Opportunities Fund III LP - U.S Taxable 
+Request Status Fulfilled 
+Request Date: 1/21/2014 
+Audit Trail 
+686396 
+686399 
+Copyright 0 2000-2015 salesforce.com, inc. All rights reserved. 
+https://dbforcepb.my.salesforce.com/0016000000qaNVw/p?retURL=/0016000000qaNVw 
+9/28/2015 
+EFTA01402652

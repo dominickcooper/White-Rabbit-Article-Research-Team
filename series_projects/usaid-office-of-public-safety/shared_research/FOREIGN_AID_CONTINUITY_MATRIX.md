@@ -1,0 +1,13 @@
+# Foreign-aid continuity matrix
+
+| Program | Dates / authority | Security, political or information function | Direct OPS ancestry? | Best evidence / contrary evidence | Final classification | Confidence |
+|---|---|---|---|---|---|---|
+| Modern USAID police programming | 2000s–2024; §660 exceptions and notwithstanding authorities | Community policing, democracy/rule-of-law, justice integration | None found | 2024 USAID guidance acknowledges OPS roots of restriction; requires legal authority and Leahy vetting | Legal reopening + functional continuity; major safeguards/differences | High |
+| OTI | 1994–; transition/disaster and appropriations authorities | Overtly political rapid grants, media, civil society, stabilization | None found | CRS R40600; no personnel/files/OPS citation | Functional/policy similarity in unstable environments | High |
+| Afghanistan stabilization | 2001–21; ESF/OCO and other authorities | Development explicitly integrated with counterinsurgency, PRTs, governance and strategic communications | No OPS lineage found | FY2012 budget requests “direct counterinsurgency effect”; different war, institutions and safeguards | Strong doctrinal/functional recurrence; lineage unproven | High |
+| ZunZuneo/Cuba civil society | 2008–12; Cuba democracy laws/appropriations | Unattributed communications platform intended to expand independent networks and enabling environments for change | None | USAID OIG documents design/concealed sponsorship; OIG did not decide covert-action status | Documented political/information programming; intelligence classification unresolved/not established | High |
+| Nicaragua democracy/media support | modern | Independent media/civil society and governance influence | None | Award/program records show political objectives; no intelligence lineage | Documented political programming; no institutional continuity | Medium |
+| Venezuela OTI | 2000s | Civil society, media, dialogue, conflict mitigation amid political crisis | None | CRS documents overt political posture and diplomatic risk | Functional similarity to intervention in political environment | Medium–high |
+| NED | 1983–; NED Act/appropriations | Open grants for democracy, parties, labor, business and civil society | No direct OPS relationship | Statutory independent nonprofit and public grants; rhetorical CIA comparisons lack transfer proof | Historical/functional analogy to political action, not OPS descent | High |
+| Freedom House grants | modern awards | Democracy/civil-society programming | None | Public grants show funding; funding alone proves no intelligence role | Contractor/grantee relationship; no continuity claim | High |
+

@@ -1,0 +1,14 @@
+hook_id,hook_family,hook_text,supported_claim_ids,curiosity_score,specificity_score,evidence_strength_score,spoiler_risk,notes
+HOOK-P01-001,DOCUMENT,NSAM 177 assigned AID operating and funding responsibility for foreign police programs while excluding covert aspects.,CLM-USAIDCIA-P01-001,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-002,DOCUMENT,Kennedy treated police assistance as part of the response to Communist indirect aggression in NSAM 132.,CLM-USAIDCIA-P01-002,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-003,DOCUMENT,"NSAM 162 discussed police, paramilitary and military resources in a wider internal-defense frame.",CLM-USAIDCIA-P01-003,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-004,OFFICIAL_RECORD,A July 1962 interagency committee recommended an AID-led structure with roles retained by State and Defense.,CLM-USAIDCIA-P01-004,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-005,OFFICIAL_RECORD,NSAM 177 assigned AID operating and funding responsibility for foreign police programs while excluding covert aspects.,CLM-USAIDCIA-P01-001,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-006,TIMELINE,Kennedy treated police assistance as part of the response to Communist indirect aggression in NSAM 132.,CLM-USAIDCIA-P01-002,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-007,DOCUMENT,"NSAM 162 discussed police, paramilitary and military resources in a wider internal-defense frame.",CLM-USAIDCIA-P01-003,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-008,DOCUMENT,A July 1962 interagency committee recommended an AID-led structure with roles retained by State and Defense.,CLM-USAIDCIA-P01-004,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-009,DOCUMENT,NSAM 177 assigned AID operating and funding responsibility for foreign police programs while excluding covert aspects.,CLM-USAIDCIA-P01-001,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-010,CONTRADICTION,Kennedy treated police assistance as part of the response to Communist indirect aggression in NSAM 132.,CLM-USAIDCIA-P01-002,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-011,CONTRADICTION,"NSAM 162 discussed police, paramilitary and military resources in a wider internal-defense frame.",CLM-USAIDCIA-P01-003,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-012,TIMELINE,A July 1962 interagency committee recommended an AID-led structure with roles retained by State and Defense.,CLM-USAIDCIA-P01-004,4,5,5,LOW,Scores are editorial heuristics only.
+HOOK-P01-013,QUESTION,NSAM 177 assigned AID operating and funding responsibility for foreign police programs while excluding covert aspects.,CLM-USAIDCIA-P01-001,4,5,5,LOW,Scores are editorial heuristics only.

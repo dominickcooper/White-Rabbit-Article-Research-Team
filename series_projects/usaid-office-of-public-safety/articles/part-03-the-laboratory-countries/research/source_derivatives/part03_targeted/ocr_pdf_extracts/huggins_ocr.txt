@@ -1,0 +1,2346 @@
+
+===== PDF PAGE 1 =====
+The United States and Latin America 
+Martha K. Huggins 
+Duke: University Press Durban and London 4998 , 
+
+
+===== PDF PAGE 2 =====
+© 1998 Duke University Press All rights reserved 
+Printed in the United States of America on acid-free paper 
+Typeset in Weiss by Keystone Typesetting, Inc. 
+Library of Congress Cataloging-in-Publication Data appear on the 
+last printed page of this book. 
+Portuguese edition by Cortez Editora, SdoPaulo, Brazil, 1998 
+Frontispiece: Leon Golub’s White Squad V, 1984, acrylic on canvas. 
+The Eli Broad Family Foundation. © Leon Golub 
+
+
+===== PDF PAGE 3 =====
+to Malcolm Willison 
+for bis lifelong struggle to democratize power 
+and secure justice and peace 
+
+
+===== PDF PAGE 4 =====
+
+
+===== PDF PAGE 5 =====
+Contents 
+Preface ix 
+Acknowledgments xix 
+1 Policing International Politics: Theory and Practice 1 
+2 "Gunboat" Policing: The First Twenty-five Years 25 
+3 "Good Neighbor’ Policing 41 
+4 From Policing Espionage to Supressing “Communism”: 
+World War Il and Its Aftermath 58 
+5 Policing Containment 79 
+6 Counterinsurgency Policing: Internationalization and 
+Professionalization 99 
+7 Policing Brazil's “Cleanup,” 1964-1968 119 
+8 Repression and the Brazilian Police, 1968-1969 141 
+9 Fortifying Security and Privatizing Repression: Torture and Death 
+Squads in Authoritarian Devolution, 1969-1970 161 
+10 Closing the Circle: Devolution Abroad and at Home 187 
+Conclusion Police Assistance as a “Protection Racket” 197 
+Appendixes 205 
+Notes 209 
+References 213 
+Index 237 
+
+
+===== PDF PAGE 6 =====
+
+
+===== PDF PAGE 7 =====
+Preface 
+This book is a study of how internationalizing US. security through 
+foreign police training affected countries within Latin America and in 
+particular Brazil. Examining USS. assistance to police elsewhere brings 
+together issues of international relations with those of internal security 
+and human rights, as well as of criminal justice and the sociology of 
+policing. Such intellectual intersections, however, were not the initial 
+intention of this study, begun almost ten years ago as a straightforward 
+examination of ULS. police training in Latin America. Yet the data made 
+clear that what appeared to be a simple U.S. criminal justice initiative in 
+foreign police assistance had in fact much wider significance. The once- 
+classified records of the U.S. Departments of State, War, and Defense, 
+of the Agency for International Development, and of the Federal Bu- 
+reau of Investigation and the Central Intelligence Agency demon- 
+strated that the apparent criminal justice function and purposes of for- 
+eign police training programs masked more fundamental domestic and. 
+foreign, internal and. external security objectives of U.S. assistance to 
+foreign police. These documents helped reveal the real relationship of 
+US. policy to foreign police violations of international human rights, 
+including the evolution of death squads in Brazil. 
+Thus, although this study was not launched to focus on internal 
+security issues or international relations, not to have done so would 
+have ignored clear patterns in the data. By carefully examining data 
+from more than six hundred sources—-most of them original primary 
+materials (almost a thousand pages of previously classified U.S. and 
+Brazilian government documents)—Political Policing begins to recon- 
+struct more than eighty years of LLS, involvement with Latin American 
+internal security, with particular emphasis on Brazil. This reconstructed 
+picture has suggested that this study focus on the links among—and 
+their consequences for—criminal justice in Latin America, relations 
+with the United States, and ULS. definitions of “national security” at 
+home and abroad. 
+Theoretical Background 
+When | began this research, there were no clear theoretical guidelines 
+for uncovering and explaining patterns in the data. Only now can 
+
+
+===== PDF PAGE 8 =====
+x Preface 
+Ethan Nadelmann’s Cops Across Borders (1993), a masterful study of cross- 
+border drug policing, provide important insights into the possible 
+international relations intentions and consequences of cross-national 
+policing, however, Nadelmann himself did not fully consider these 
+implications. Gary Marx's ongoing comparative analysis of police sys- 
+tems in Europe provides a model for analyzing cross-national policing, 
+but this too does not seem to link such policing theoretically to internal 
+security planning. More recently, two theoretically informed studies by 
+Elizabeth Cancelli (1993) and Laura Fleischman Kalmanowiecki (1994) 
+have examined more systematically the international politics of polic- 
+ing in Brazil and Argentina, respectively. However, these studies focus 
+only on the 1920s and 1930s. Peter Gill's Policing Politics: Security Intel- 
+ligence and the Liberal Democratic State (1994) examines, primarily for Great 
+Britain, the domestic and international politics of internal security, Yet 
+like almost all of the other scholarship, Gill’s insightful analysis was not 
+available ten years ago when I began this study, 
+Hypotheses 
+Thus, in the early stages of this research, it was simplest to posit that 
+ULS. assistance to foreign police was aimed at promoting more effective 
+criminal justice in host nations, taking conventional criminology’ 
+premise that improvements in criminal justice foster fairer, more ra- 
+tional, and more apolitical maintenance of public order, Yet the archival 
+data on LLS. programs to assist foreign police soon consistently dem- 
+onstrated that even though such assistance had indeed been outwardly 
+promoted as a nonpolitical and legal-rational instrument for democra- 
+tizing and putting the restraints of law on recipient countries’ justice 
+systems, the impact and sometimes even the internally expressed inten- 
+tion of such assistance had often been just the opposite. 
+On the one hand, this raised the possibility that a well-intentioned 
+program had simply gone awry for one or several reasons or, on the 
+other hand, suggested that the implicit but real goals of ULS. foreign 
+police training were indeed something other than its explicitly stated 
+objectives. In fact, according to the latter explanation, the actual intent 
+of LLS. training of foreign police has been above all U.S. political 
+control over recipient countries’ internal security. This proposition is 
+hardly surprising after everything that has come out about the United 
+States’ involvement in Vietnam, El Salvador and Guatemala, and a host 
+
+
+===== PDF PAGE 9 =====
+Preface xi 
+of other countries: But it is not suggested by the ordinary criminologi- 
+cal or internal security literatures. 
+A conventional mainstream hypothesis might go so far as to posit 
+that training foreign police in “modern” techniques had an international 
+relations objective. But this goal would be simply to depoliticize for- 
+eign police and make recipient countries’ internal security systems 
+more just and bound by law. Such a hypothesis has certainly been 
+supported by public US. foreign policy statements and official papers. ° 
+However, one alternative hypothesis can be derived from the world- 
+systems view of center-and-periphery relations, which would propose 
+that foreign police training offered by a powerful modern state would 
+be primarily politically motivated to foster the offering country’s own 
+international security agenda—whether or not recipient governments 
+became more just and legalistic in the process. This hypothesis seems 
+clearly substantiated by the secret and top secret classified US. govern- 
+ment documents examined for this book. 
+But this study will in fact demonstrate that rather than one of these 
+seerningly competing hypotheses being correct and the other false, 
+both motives appear to be true, depending on which evidence one 
+relies on, The public pronouncements of ULS. government officials 
+have indeed proposed foreign police assistance as an apolitical means 
+of fostering democracy and justice, whereas the covert plans and pro- 
+grams of LLS. internal security specialists have been expressly aimed at 
+making foreign police into a political extension and servant of US. 
+military and CIA internal security concerns. In any case, rather than 
+US. foreign police assistance making recipient country police more 
+humane and respectful of citizen rights, such assistance has most fre- 
+quently fostered the opposite development. This study thus shows that 
+“modernization” and "professionalization” have unintended (or some- 
+times intended) consequences that contradict the assumption that 
+these processes always lead to greater constraint on police toward le- 
+gality and justice. 
+Secrets in International Security 
+Thus a study that had begun as an examination of an international 
+criminal justice initiative and its consequences for host countries be- 
+came also an analysis of the US. domestic politics of international 
+internal security efforts. However, seeking guidance from the academic 
+
+
+===== PDF PAGE 10 =====
+xii Preface 
+international relations and internal security literatures, I found no sig- 
+nificant analyses of past U.S, foreign police assistance programs, despite 
+the evidence that was turning up on their unsavory outcomes, This 
+surprising gap deepened my suspicion that there were unexamined 
+objectives behind ULS. assistance to foreign police, which could help to explain acceptance of outcomes unacceptable for a democratic soci- 
+ety—as the covert-motives hypothesis suggested. In fact, one is led to 
+suspect that it is precisely because US. foreign police training programs 
+were so closely linked to U.S. international security planning and oper- 
+ations that scholarly research on their significance had been so little 
+encouraged or successfully pursued. This possibility naturally whetted 
+my desire to find out what seemed to be the hidden ULS, agenda. 
+Researching under Secrecy 
+Ie does not help our understanding of these programs that so much 
+archival data about US. foreign police assistance has been classified 
+“secret,” “top secret," or “for eyes only.” Fear of unsavory revelations 
+undoubtedly also explains why it was so difficult to secure interviews 
+with former US. internal security officials and foreign recipient police, 
+Yet although the greatest stumbling block to this research was~—and 
+still is—-U.S, government secrecy, | myself was uneasy about examining 
+a subject that so many present and former US. and Latin American 
+government officials considered off-limits. Indeed, the long association 
+of LLS, post-World War I! foreign police training with the cta could 
+not help but intimidate almost any researcher, 
+In any case, no matter how aften US. government agencies were 
+petitioned through the Freedom of Information Act (FOLA), much in- 
+formation was blacked out or could not be secured at all for a variety of countries, particularly covering the 1960s and 1970s. Thus, because of 
+these gaps in information about US. programs to assist foreign police, 
+the analysis here relies not on.a continuous historical narrative but on a series of episodes treated as test cases. 
+Among the Latin American countries receiving foreign police assis- 
+tance, the most complete records are on Brazil, the largest country in 
+Latin America, and in any event a very important case of ULS. assistance 
+to Latin American police. In the first place, Brazil holds great geopoliti- 
+cal significance for the United States—as Latin America's largest and 
+most populous country, with the biggest gross national product per 
+
+
+===== PDF PAGE 11 =====
+Preface xiii 
+capita in Latin America. Second, because of Brazil's geopolitical impor- 
+tance to the United States, it was a model for ULS. rural and urban anti- 
+insurgency planning in Latin America. Third, among Latin American 
+countries, Brazil received the largest amount of ULS. internal security 
+assistance (Abourezk 1974b). Fourth, as a result of investigations into 
+the ULS.-Brazilian police assistance program, along with mounting evi- 
+dence of other assisted countries’ abuses of human rights, the United 
+States Congress in 1974 banned most further ULS. assistance to foreign 
+police. Finally, the relative visibility in congressional hearings of the 
+US. police training program in Brazil made these data somewhat easier 
+to obtain. 
+Yet it is not possible to develop broad theoretical propositions about 
+US. internal security objectives abroad, nor about the social control 
+consequences of ULS. assistance to foreign police, by examining only 
+Brazil after 1959, when the U.S. police program began there. In order 
+to chart the changing ULS. rationales for, procedures in, and impacts 
+from ULS. foreign police assistance, and to illustrate both overt and 
+covert motives for changing impacts of internal security initiatives, it 
+was necessary to take a longer time frame for Brazil and use this also to 
+examine a variety of other Latin American countries. 
+Research Process and Data 
+The research for Political Policing took ten years, as already indicated, 
+Between bouts of writing, | went periodically to the field, whether to 
+conduct interviews or to consult archives in the United States or Brazil. 
+L traveled to eight ULS. states and Washington, D.C., and to four of the 
+largest state capitals in Brazil, as well as Brasilia, the federal capital. Well 
+over half the data have never been used by other social scientists. Much 
+of the data were obtained by persuading officials to be interviewed, by 
+the long, drawn-out application process through the FOIA and Manda- 
+tory Review legislation, and by negotiating with Brazilian authorities 
+and police. But although a great deal of “national security" secrecy 
+surrounded the data for this study, the research process follows the 
+standard mode for empirical studies in the social sciences. 
+The first step was to locate appropriate archival data and interviewees 
+through the secondary literature about the various aspects of my sub- 
+ject and by initial research at the National Archives. These sources then 
+pointed to appropriate archival records and suggested possible inter- 
+
+
+===== PDF PAGE 12 =====
+xiv Preface 
+viewees as | more carefully defined the scope of my research project. 
+After each research trip to a U.S. government archive, I submitted new sets of Mandatory Review or FOIA requests. Over the course of eight years, I became quite experienced and Persistent in submitting FOIA 
+requests to the various U.S. government agencies. Such petitioning 
+required time and Patience, as the waiting period on any FOIA or Mandatory Review request was between one and five years and in- volved many request denials and resubmissions. In the end, about 30 percent of my FOIA and Mandatory Review requests were denied be- 
+cause the ‘data were still defined as too closely linked to “national se- curity.” And in some cases when documents were actually received, 
+they were so heavily blacked out (“sanitized”) that they were only marginally useful. 
+A good portion of the written materials for this study was obtained from presidential libraries—in particular, those of Franklin Roosevelt, Dwight Eisenhower, John Kennedy, and Lyndon Johnson. Many of the presidential documents had not yet been seen by other scholars and had to be secured through Mandatory Review legislation, 
+Another source of data was the U.S. National Archives itself, in particular, its holdings in Old and New Military Affairs, Old and New State Department, and the Legislative Archives, Many of these docu- ments, too, were classified top secret or secret and could be obtained 
+only under Mandatory Review legislation. The majority of these re. quests were granted, although again not without some “sanitizing” of 
+the texts. A great many of these materials, too, had not been used by other researchers, 
+Among the most useful documents on US, assistance to foreign police were those of the US. Agency for International Development 
+Office of Public Safety (ops), which had administered foreign police training under John Kennedy and Lyndon Johnson. A particularly rich source of OPS information was its monthly police training reports 
+(TOAID) from Brazil, they were submitted to AID each month by US, police advisors in the field. These reports contain information about police advisors’ Brazilian police contacts, the advisors’ projects and accomplishments, and their observations. These richly informative and never-before-consulted reports were obtained from AID through the Freedom of Information Act. 
+But despite my using the FOIA to secure documents from the Central Intelligence Agency, the National Security Council, and the Federal 
+
+
+===== PDF PAGE 13 =====
+Preface xv 
+Bureau of Investigation, only about 20 percent of these were released 
+by the agencies. In fact, it was the CIA's reluctance to declassify infor- 
+mation about their 1950s and 1960s police programs that confirmed 
+the strategic importance of foreign police assistance to US. interna- 
+tional security planning and operations. 
+The records of two former FBI agents who had worked in Brazil 
+during the 1930s and 1940s were requested from the FBI, including 
+information about these FBI agents’ Brazilian contacts and informants. 
+The names of the FBI agents and their informants had been secured 
+from records at the Franklin D. Roosevelt Library and the National 
+Archives, to obtain their records, | had to supply proof that the former 
+FBI agents and their informants were deceased. A Brazilian senator 
+helped me get proof-of-death information on the £B1's former Brazilian 
+informants, the FBI verified that its former agents had died. Yet even 
+with such information, I was able to secure only about 20 percent of my 
+FOIA requests to the FBI, and some of the documents obtained were 
+thoroughly blacked out. 
+The senatorial papers of James Abourezk (D-S.Dak.), Frank Church 
+(D-Idaho), and J. William Fulbright (D-Ark.) also provided important 
+insights into ULS. internal security programs. OF these, Abourezk’s pa- 
+pers at the University of South Dakota provided the richest picture of 
+US. foreign police training, given the senator's vigorous efforts to 
+abolish the program in the 1960s and early 1970s. Archival research in 
+the Abourezk papers was conducted by Mary Helgevold at my request 
+and following my suggested leads. | traveled to Boise, Idaho, to consult 
+Senator Frank Church's papers, only to discover that the c1A had with- 
+drawn and classified as top secret much of the rich documentation from 
+the Church hearings. The papers of J. William Fulbright at Fayetteville, 
+Arkansas, cover the senator's long tenure in Congress, providing useful 
+background on the period of this study, But Senator Fulbright’s papers 
+in fact contained little material on police training, even though other 
+archival records show that Fulbright had reviewed funding for the po- 
+lice program and had heard testimony from CIA director Richard 
+Helms about Brazil's police training program. None of this material was 
+among Fulbright's papers. 
+A complementary source of information about ULS. foreign police 
+training was the archives of the International Association of Chiefs of 
+Police (ACP) at Gaithersburg, Maryland. This private association of 
+police chiefs was involved in some phases of U.S. foreign police train- 
+
+
+===== PDF PAGE 14 =====
+xvi Preface 
+ing under Eisenhower—usually in collaboration with the CIA. Yet the 
+TACP archives provided relatively little information about this organi- 
+zation’s involvement in foreign police training. This was probably be- 
+cause, according to an IACP official who supervised the C1A‘s re- 
+moval of ACP documents from this facility, most of these materials 
+were “warehoused" and thus beyond my reach. One suspects they con- 
+tained too much about the c1a’s involvement with ACP foreign police 
+training. 
+Unlike the tacp documents, the records of Michigan State Univer- 
+sity, providing U.S. police training in South Vietnam during Eisen- 
+hower's presidency, still contain evidence of the c1a‘s involvement with 
+foreign police training. But the MSU documents were not useful to this 
+study of Latin America because almost all apply to South Vietnam, 
+where msu had its principal program. 
+In Sao Paulo, | surveyed the newly opened state civil police (p OPs) 
+records at the Archives of the State of Séo Paulo (Arquivo do Estado de 
+Séo Paulo), I also went through the daily Estado de Sao Paulo newspaper 
+morgue. In Niterdi, near Rio de Janeiro, | obtained data from the newly 
+opened records of the Rio de Janeiro DOPS, consulted historical papers 
+at the Getilio Vargas Foundation, and examined © Globo's newspaper 
+archives. The Rio de Janeiro DoPS records had not been catalogued or 
+organized, they were stacked on shelves, without alphabetical, chrono- 
+logical, or subject order. It was necessary to sort through stacks of 
+record books and read almost every police voucher from the 1950s and 
+1960s just to locate relevant information. 
+Interviews with Participants 
+An even greater challenge, however, was to secure oral history inter- 
+views with LLS, and Brazilian government police and other officials 
+who had been associated with police assistance efforts, Many of these 
+people were reluctant to give away their own or their organization's 
+secrets. Their unwillingness to participate in my study was fueled by 
+the negative publicity about their Operations surrounding Congress's 
+abolishing ULS. foreign police training in 1974. The resentment and 
+anger of people who had been involved in foreign police training 
+meant that many of them did not trust anyone examining their pro- 
+grams. Indeed, the response of Loren “Jack” Goin, former head of AID's 
+police assistance Program, to my writing a Los Angeles Times op-ed 
+
+
+===== PDF PAGE 15 =====
+Preface xvii 
+article—"ULS. Assistance to Foreign Police Backfires” (1987)—was to 
+turn my name over to the Accuracy in the Media organization (AIM) 
+and recommend that his AID colleagues not grant me any interviews. 
+But even such tactics could be overcome through persistence and by 
+petter interviewing skills. 
+In the United States, a number of officials were interviewed who had 
+been involved with ULS. foreign police training programs. Among 
+them were former Under Secretary of State U. Alexis Johnson——over 
+the telephone; former CIA Deputy Director of Intelligence Robert 
+Amory—at his house and then in his old Ford Pinto in the parking jot of 
+the First American Bank in Roswell, Virginia; Byron Engle, first director 
+of the USAID Office of Public Safety—over buffalo hamburgers at his 
+Bethesda, Maryland, apartment; Goin, Engle's replacement as head of 
+ops—in the basement office of his house in Virginia; Robert Komer, 
+national security advisor to John Kennedy and former head of the 
+Phoenix Program in Vietnam--over the telephone; and former OPS 
+police advisors Nicholas Yantsen, Ralph Turner, and Stanley Sheldon 
+at their homes. Sheldon, besides having been a police advisor in Brazil, 
+had been a consultant for the police show Dragnet. 
+Some of the most important primary material for this study came 
+from oral histories taken from Brazilians who had been in police service 
+during the military period (1964-1985). Initially, when could not get 
+police who had been in the police torture and death squad apparatus to 
+grant me interviews, { sought out police who had been in unity associ- 
+ated with political repression in general (Huggins and} Jaritos-Fatouros 
+1996a, 4996b). [ronically, the prospective interviewees who had been 
+involved directly in torture and death squads were reluctant to grant an 
+interview, even though Brazil had granted amnesty from prosecution te 
+those who had tortured and murdered, But from the perspective of such 
+potential interviewees, they had nothing to gain and everything to jose 
+from letting me dig into their pasts: besides having to remember things 
+that they had worked hard to deny and forget, experience had taught 
+them that they might be pursued by human rights activists for their past 
+police activities (Huggins and Haritos-Fatouros 1996a, 1996b). 
+Nonetheless, after several months of interviewing policemen who 
+had been in service during Brazil's military period, | finally located a 
+police official who had commanded a police squad infamous for torture 
+and murder. This official then recommended me to one of his col- 
+leagues, and that official to one of his colleagues, and so on. The 
+
+
+===== PDF PAGE 16 =====
+xviii Preface 
+interviews Progressed thereafter by referral, from one police colleague 
+to another. 
+; 
+Analytical Framework 
+The Patchy record from U.S. assistance to foreign police led me to 
+devise an analytical strategy for developing and testing theoretical as. 
+Sertions with these only Partially available data, My technique was to 
+Pinpoint available episodes in the history: of ULS. assistance to Latin 
+American police and then place such data in their international and ; 
+archival 
+research, interviews, analysis, and writing up of patterns in these epi- 
+sodes-—each representing different Moments in the Politics of Latin 
+American police assistance—that | have derived the four Principal theo. 
+tetical theses on the relationship of foreign police assistance to the 
+internationalization, 
+bureaucratization, 
+and devolution of internal se. 
+
+
+===== PDF PAGE 17 =====
+Acknowledgments 
+| learned quickly that research involving people guarding personal and. 
+institutional secrets cannot be accomplished without assistance froma 
+variety of scholars, journalists, and writers. The most helpful were those 
+who had already conducted research on US. foreign police training 
+programs. Taylor Branch, author of Parting the Waters (1988), supplied 
+information from his earlier research about a CIA proprietary front that 
+had been part of the Eisenhower and Kennedy police training pro-- 
+grams. Joseph Spear, of the news-gathering Jack Anderson Organiza- 
+tion, gave me his old investigative reports and field notes on US. police 
+training programs. Senator Thomas Daschell (D-S.Dak.), a former aide 
+to Senator James Abourezk (D-S.Dak.) during Abourezk's campaign to 
+abolish ULS. training of foreign police, helped me obtain data on past 
+police training programs. James Abourezk himself granted me an inter- 
+view and gave generous and invaluable assistance with locating infor- 
+mation for this study. They all deserve my thanks. 
+Several others also provided direction for this study, Philip Agee read 
+a final version of the manuscript and made valuable criticisms, Also 
+most helpful was A. J. Langguth, whose Hidden Terrors (1978) is a classic 
+in the study of police training and terror in Brazil and Uruguay. Jan 
+Black’s scholarly account of US, assistance to Brazilian police, "Re- 
+defining Law and Order: The Public Safety Assistance Program,” a 
+chapter in her United States Penetration of Brazil (1977), is another early 
+model for scholarship on this highly sensitive subject, as is Michael 
+Kare and Cynthia Arnson’s Supplying Repression (1981). Roger Morris's 
+court records from a lawsuit brought against him by former police 
+trainer Adolph Saenz for Morris's Playboy article about Saenz’s role ag 
+warden at the time of the New Mexico Prison massacre also provided 
+data on the torture and violence committed by U.S.-affiliated foreign 
+police. 
+To all who assisted me in this way, | owe a tremendous debt. But in 
+particular I want to thank Jack Langguth for taking time to discuss his 
+research with me, he provided a great deal of intellectual and moral 
+support early in the research when I most needed it. Two other writers, 
+Taylor Branch and Roger Mortis, were also especially instrumental in 
+getting this project launched. The two anonymous referees selected by 
+Duke University Press provided feedback on the completed manuscript 
+to make it more polished. 
+
+
+===== PDF PAGE 18 =====
+xx Acknowledgments 
+Among Brazilianists, | owe thanks especially to Robert Levine, who 
+read and critiqued an early version of this manuscript. Frank McCann 
+provided numerous analytical comments on my presentations of this 
+project. Police sociologist David Bayley provided generous guidance at 
+Various points in my writing on policing in general, Charles Call care- 
+fully read a final version of the manuscript and provided useful feedback 
+and additional information about a new US. government police train- 
+ing initiative. Attending conferences and meeting in the field with 
+human rights activist and police specialist Paul Chevigny was inspiring, 
+his guidance on studying the police has been vital to my education. My 
+colleagues at the Columbia University Brazil Seminar asked hard ques- 
+tions and provided valuable insights about the politics of ULS. police 
+assistance to Brazil. 
+Elizabeth Cancelli of the University of Brasilia and Myriam Mes- 
+quita, formerly at the University of Sao Paulo's Nicleo de Estudos da 
+Violéncia and now with UNICEE in Séo Paulo, provided constant guid- 
+ance and encouragement. Ester Kosovski of the Federal University of 
+Rio de Janeiro, besides encouraging me to complete this project, also 
+provided moral support and a place to stay in Rio de Janeiro. Several 
+Brazilian police informants and my Brazilian colleague and police spe- 
+cialist, Guaracy Mingardi, were very helpful in clarifying the structure 
+of Brazilian policing. 
+Two old friends, Nancy Sharlet and Charley Tidmarch, both of 
+whom have died, were always enthusiastic and encouraging about my 
+work, Four friends, Elizabeth Griffen and Andrew Feffer, and Eshtagh 
+Motahar and Lana Cable, listened carefully to my ideas and helped 
+guide them, William Bristol, an old friend and colleague, was always 
+ready with historical facts, figures, and orientation. 
+My students, Tamara Albury, Amy Herf, Dena Mahar, Ahnya Men- 
+des, Erika Migliaccio, and Monét Warren, carried out valuable tasks, 
+from locating and checking references to verifying quotes, locating and 
+listing agency names, and helping assemble the final manuscript. Espe- 
+cially for the latter, Erika is due very special thanks. In Sao Paulo, Caryn 
+Howell Pellegrino worked with me on the Estado de Séo Paulo archives 
+and acted as a sounding board for ideas. lowe a debt of gratitude to all 
+of these and other scholars, friends, and students for assisting this 
+project. For typing drafts of various chapters, I thank Carolyn Micklas, 
+Janet McQuade, and Marianne Moore, without whose care and close 
+attention this manuscript could not have reached its final form, I will 
+
+
+===== PDF PAGE 19 =====
+Acknowledgments xxi 
+be forever indebted to Valerie Millholland of Duke University for ac- 
+cepting Political Policing into her Latin America series and, along with 
+her able assistant, Laura Barnebey, guiding the study skillfully to its 
+final form. 
+None of this research would have been possible without the capable 
+assistance of archivists at the Roosevelt, Eisenhower, Kennedy, and 
+Johnson Presidential Libraries, and at the National Archives, Federal 
+Bureau of Investigation, International Association of Chiefs of Police, 
+and Agency for International Development. Over the eight years of 
+researching and writing this book, Union College's reference librarians, 
+especially Donna Burton, Mary Cahill, Bruce Connolly, and David 
+Gerhan, helped me assiduously in locating obscure sources, always 
+with gracious and enthusiastic encouragement and expert assistance. 
+Special thanks are also due to Robert Parks of the Franklin D. Roosevelt 
+Library and. Willette Smith of usaID for their last-minute research on 
+missing facts. All these librarians and archivists deserve my heartfelt 
+thanks, 
+Of course, my research at widely scattered locations required fund- 
+ing. Yet although | wrote innumerable grant proposals to appropriate 
+foundations, they never seemed convinced that sufficient information 
+could be obtained on programs that had. been affiliated with US. mili- 
+tary intelligence and the CIA. Consequently, the majority of the sup- 
+port for this research came from my endowed Roger Thayer Stone 
+Chair in Sociology at Union College, for which | am most grateful to 
+the late Dr, Doris Zemurray Stone and her son, Dr, Samuel Z. Stone. 
+For the research on former Brazilian police who had been in Brazil's 
+national security apparatus, the Hamburger Stiftung zur Férderung von 
+Wissenschaft und Kultur gave funding, Mika Haritos-Fatouros, my col- 
+league in that research, suggested the police torture study in the first 
+place and encouraged me to use some of our data in this project. 
+Even more than with my other two books, this difficult study could 
+not have been accomplished without the support, encouragement, and 
+editorial guidance of my husband, Malcolm Willison—to whom Political 
+Policing is dedicated for his own lifelong struggle to democratize power 
+and secure justice and peace. 
+
+
+===== PDF PAGE 20 =====
+
+
+===== PDF PAGE 21 =====
+1 Policing International Politics: 
+Theory and Practice 
+In the early 1990s, more than fifteen years after Congress had abolished 
+programs to assist foreign police, the United States had 125 police 
+assistance programs abroad. Such initiatives were justified as legit- 
+imately exempted from the 1973 and 1974 laws abolishing ULS. assis- 
+tance to foreign police. The new police assistance programs aim at a 
+range of problems from combating common and organized crime and 
+“gangsterism" to “terrorism” and drugs. A broad array of U.S. govern- 
+ment agencies and civilian police specialists carry out such assistance 
+today (GAO 1992). 
+In Russia, Eastern Europe, and Asia, the Federal Bureau of Investiga- 
+tion oversees police programs on the “rule of law" to control petty 
+crime, “organized crime," and “gangsterism.” In the process, the FBI 
+hopes to develop “speaking partners” among its police trainees— 
+nationals who will become “trustworthy enough to help the Fal. . . 
+{obtain foreign offenders’} bank records, [and] other materials and 
+[who will become reliable] witnesses” in FBI investigations of crime in 
+the host country (Pincus 1994). 
+The United States is completely reorganizing indigenous police 
+forces in a number of foreign countries, mostly through the Depart- 
+ment of Defense Program to Assist National Police Forces, including 
+those of Bolivia, Peru, Ecuador, Colombia, Panama, and Mexico (GAO 
+1992). In Bosnia, the U.S. Justice Department has civilian police spe- 
+cialists working with local police forces, in the early 1990s, the U.S. 
+military was creating a new police system in Somalia. n Haiti, us. 
+military and civilian police specialists, assisted by United Nations 
+forces and the Central Intelligence Agency—all headed by former New 
+York City Police Commissioner Raymond W. Kelly—have been reor- 
+ganizing the national police constabulary there. 
+Throughout the Caribbean—particularly in the republics of the Lee- 
+ward and Windward Islands—U.S. military and civilian police spe- 
+cialists are carrying out “antiterrorist’ police training, funded in part 
+through the U.S. State Department's $12 million Anti-Terrorism Assis- 
+tance Program (ATA) (GAO 1992). The ATA’s goal is "to enhance the 
+skills of experienced police officials in the unique context of fighting 
+
+
+===== PDF PAGE 22 =====
+2 Political Policing 
+terrorism” (Andersen 1993, 99). The U.S. Drug Enforcement Admin- 
+istration (DEA) is also sponsoring police training programs, these in 
+South America, with a mix of purposes—anticrime, counterterrorism, 
+counterinsurgency, and drug interdiction. 
+Within this overlapping set of U.S. agencies and individuals assisting 
+foreign police, the Justice Department's International Criminal Inves- 
+tigative Training Assistance Program (ICITAP) has emerged in the 
+1990s as a primary coordinator of ULS. assistance to foreign police. 
+Established in 1986 under the administration of the Department of 
+Justice, ICITAP operates with policy guidance from the Department of 
+State. Icirap funding comes from the United States Agency for Inter- 
+national Development, channeled through the State Department.! 
+IciTaP’s objective is to train foreign police, prosecutors, judges, and 
+other criminal justice personnel to further the “rule of law" in their 
+countries (GAO 1992). Promoting an ideology different from its Cold 
+War predecessor, which was the Agency for International Develop- 
+ments Office of Public Safety (ops) (1962-1974), 1CITAP aims at 
+promoting peaceful respect for the “rule of law.” Alp had focused on 
+counterinsurgency as a means of blocking the spread of international 
+Communism, Yet, in fact, both of these foreign police assistance initia- 
+tives share a common foreign policy objective: developing, enhancing, 
+and protecting U.S. interests abroad and promoting abroad and at 
+home LLS. images of “national security.” 
+As powerfully as the “rule of law’ might now ideologically guide 
+and justify foreign police assistance, in fact, today, no single all- 
+powerful ideology explains ULS. assistance to foreign police and mili- 
+tary systems, as did the Cold War containment doctrine from the 1950s 
+through the 1980s, Thus—as the ideological underpinnings of foreign 
+police assistance have shifted with geopolitical changes in the world 
+system, and as the centralizing hegemonies of the Cold War are re- 
+placed by post-Cold War decentralization, and counterinsurgency 
+with the “rule of law’—the objective of assisting foreign police re- 
+mains to transform such police into “transmission belts” (see Arendt 
+1951) for ULS, foreign policy and ULS, economic and political interests 
+abroad. In the process, such programs provide a mechanism for the 
+United States to penetrate foreign states through their police systems, 
+turning foreign police into appendages of ULS. foreign policy—a pro- 
+cess whose political roots and foreign policy objectives reach deep into 
+the last century. 
+
+
+===== PDF PAGE 23 =====
+Policing International Politics 3 
+Purposes of Foreign Police Assistance 
+For example, looking just at Latin America, we notice that in the first 
+third of the twentieth century, the United States established police 
+constabularies in its dependencies in the Greater Antilles and Central 
+America. These constabularies helped secure the U.S. hold over Cuba, 
+Puerto Rico, and the Virgin Islands and guard ULS. construction and 
+operation of the Panama Canal. Just before and during World War I, 
+fear of threats to ULS. interests in Latin America turned ULS. involve- 
+ment with Latin American police into a means for gathering informa- 
+tion that would help protect the Western Hemisphere against Commu- 
+nist organizing and fascist espionage activities. 
+In the years after World War I, US. training of Latin American 
+police was explicitly designed to combat the perceived threat of left- 
+wing subversion and armed. guerrilla insurgency; the United States 
+feared that local police would not be organizationally or ideologically 
+prepared to confront these perceived threats to the United States—a 
+frame of mind promoted by a Cold War national security ideology. 
+Helping to create a climate of crisis and. fear justifying the need. for 
+ULS. internal security assistance, Cold War containment ideologies 
+remained strong into the 1990s, even as Cold War counterinsurgency 
+ideology was increasingly replaced by discourse about counterterror- 
+ism, narcotics control, and suppression of organized crime. 
+Policing International Relations 
+As we have already suggested, foreign police assistance has had an 
+important place in United States foreign policy, even though it is sel- 
+dom included in foreign policy analyses. Most important, as a foreign 
+policy instrument, police assistance has the advantage of appearing to 
+be a relatively benign and low-key form of US. intervention. Indeed, 
+when Washington ties foreign police assistance to the rationale that it 
+will make recipient police forces more democratic, less violent, less 
+corrupt, and more professional—as Washington has argued most re- 
+cently for Somalia and Haiti—the ULS. image abroad and at home can 
+be (at least initially) bolstered by such relatively invisible intervention. 
+In contrast, military incursions (with takeover by force of a foreign 
+government and reorganization of its military and police systems) are 
+highly visible forms of U.S. intervention, often very unpopular at home 
+
+
+===== PDF PAGE 24 =====
+4 Political Policing 
+and abroad, and have potentially serious consequences for ULS. politics 
+and its image in the world, Police assistance can accomplish many of 
+the same LLS. foreign policy objectives as military intervention while 
+appearing less political in the process. 
+As Arendt (1951, 421) has argued, having foreign police penetrate 
+another country acts as a “transmission belt... which... transform[s 
+one country's foreign policy] into the... domestic business of another 
+country].” In other words, as the United States trains foreign police, it 
+can establish intelligence and other social control infrastructure for 
+protecting and strengthening its position vis-a-vis the recipient country 
+and maximize its position within the international world system. This 
+makes foreign police assistance—whether publicly recognized or not— 
+fundamentally political, although of course this has not usually been a publicized motive behind US. assistance to foreign police. 
+Consequences of Foreign Police Assistance 
+Although Washington's public motive for offering assistance to foreign 
+police has been to increase “public security” and make police practices 
+more humane, there is no evidence that earlier foreign police training 
+has made recipient countries safer, less crime ridden, or more free of drugs (Huggins 1987), Nor is there any evidence that long-term assis- 
+tance to foreign police has made the practices of recipient police more 
+democratic or their countries! populations more secure from arbitrary 
+treatment by state agents, as evidenced by the impact of almost a 
+century of LLS, assistance to Latin American police. Indeed, two well- 
+publicized Senate hearings, one by Frank Church (D-Ind.) (1972) and 
+the other by James Abourezk (D-S,Dak.) (1973), uncovered persistent 
+and mounting evidence of torture, disappearances, and killings by po- 
+lice trained and equipped by the LInited States, 
+Take Guatemala, where in the 1960s the Spanish passive verb de- saparecido (to be disappeared) originated: the nation had had US. police 
+training programs since the 1954 LLS.-orchestrated overthrow of dem- 
+ocratically elected president Jacobo Arbenz Guzman. Since then, the 
+police have participated with the Guatemalan army in torturing and 
+killing or “disappearing" at least 130,000 civilians (Americas Watch 
+1988, 5-6). 
+As a warning of how foreign police assistance programs could violate 
+fundamental American values, the 1971 ULS. Senate Subcommittee 
+
+
+===== PDF PAGE 25 =====
+Policing International Politics 5 
+Hearings on Western Hemisphere Affairs (CFR 197 1a) particularly 
+focused on ULS. assistance to Brazil. The subcommittee questioned 
+whether—rather than increasing Brazil's internal security—police assis- 
+tance had simply bolstered Brazil's authoritarian military government 
+by fostering police militarization and death squads while damaging the 
+US. image abroad and undermining Brazil's social peace. 
+Thus, in spite of the long-standing political importance of foreign 
+police to US. internal security planning, in 1974 Congress in bipar- 
+tisan action banned most further ULS. assistance to foreign police. But, 
+as we have seen, this ban on ULS. training of foreign police did not put 
+an end to such assistance. Congress immediately exempted narcotics 
+control and then in the 1980s further expanded foreign police assis- 
+tance to cover antinarcotics training abroad (see GAQ 1992; Nadel- 
+mann 1993). In 1985 the Reagan administration officially reinstated 
+foreign police training to counter what the president labeled Nicara- 
+guan and Cuban “errorism,” In the Eastern Caribbean, a newly created 
+Regional Security System included police "counterterrorism" training, 
+particularly after the U.S, invasion of tiny Grenada against supposedly 
+Cuban-backed insurgents (Treaster 1985, A2). In 1986 the CIA an- 
+nounced its borrowing of ULS. police for temporary duty abroad in its 
+“war against terrorism” (Raab 1986). ULS. military and Cla advisors 
+began training police “counterterrorism” units in Costa Rica, El Sal- 
+vador, Honduras, arid Guatemala (Lagar 1985). 
+Yet in most countries, even the more recent decades of such ULS. 
+assistance have not brought recipients closer to respecting the “rule of 
+law.” Consider Fl Salvador, where the United States has trained police 
+since the 1940s. By the late 1980s--a period of renewed LLS. police aid 
+to El Salvador—that country had one of the worst human rights records 
+in the hemisphere. Between 1987 and 1988 alone, killings by Sal- 
+vadoran security forces were up 28 percent; death squad murders had 
+increased by 135 percent (NYT 1988b). The 1992 United Nations 
+”"Truth Commission” Report on El Salvador (ULN. 1993) confirmed that 
+the U.S.-trained police and military forces had acted with widespread 
+brutality throughout the 1980s. 
+In early 1988, reports surfaced in Honduras that a LS.-trained Hon- 
+duran Special Investigations Directorate—already notorious as “Bat- 
+talion 316"—had been operating as a death squad responsible for the 
+murder of at least 130 Hondurans by that time (New Yorker 1988, 23). 
+And in 1988 and 1989, while the United States was providing antiter- 
+
+
+===== PDF PAGE 26 =====
+6 Political Policing 
+rorism training to the Honduran police—following thirty years of al- 
+most continuous ULS. police assistance—the torture and beatings of 
+civilians by police and security forces tripled, with at least seventy- 
+eight killed in just the first seven months of 1989 (Gruson 1989, 14). 
+Today, as the United States attempts to reform the historically brutal 
+and corrupt ULS.-trained Haitian police, the police demonstrate few 
+positive benefits from past ULS. assistance. In fact, decades of US. 
+training of Haitians have been associated, especially over the last thirty 
+years, with well-documented human rights abuses. Just as the newest 
+round of police assistance was getting under way, it was disclosed that 
+the leader of one of Hait’s most infamous and violent paramilitary 
+groups, FRAPH —allegedly established with CIA support and encour- 
+agement—was still on the C1A‘s payroll (Engelberg 1994, 1, 4, Nairn 
+1994). While linked to the CIA, Emmanuel “Toto” Constant, a sup- 
+porter of the military dictatorship, organized a violent demonstration 
+to prevent the docking of a U.S. Navy ship that was bringing troops to 
+support the reinstatement by the United States and its allies of Jean 
+Bertrand Aristide, Haiti's democratically elected president, In other 
+words, decades of U.S, assistance had guaranteed neither nonviolence 
+nor loyalty to US, policy, 
+Police Assistance in International Relations: 
+Some Alternative Hypotheses 
+Clearly, this review of some past and present recipients of LLS. police 
+assistance calls into question ULS. public foreign policy documents, 
+official government memoranda, and other discourse that has proposed 
+that training foreign police would make these police more neutrally 
+professional, positively humanitarian, and democratically responsive to 
+civilian control. The data to be presented here suggest the contrary— 
+that the more foreign police aid given, the more brutal and less demo- 
+cratic the police institutions and their governments become. Several 
+alternative hypotheses will be needed to explain both these effects of 
+and the international relations motives revealed behind US. training of 
+foreign police. 
+Before presenting the evidence for these counterhypotheses in subse- 
+quent chapters, it would be useful to introduce briefly the explanations 
+to be proposed on how US, training might have allowed greater police 
+repression in recipient countries. One answer might be that the US. 
+
+
+===== PDF PAGE 27 =====
+Policing International Politics 7 
+government was unaware of these results or powerless to do anything 
+about them. But we shall see that the data will not support such an 
+explanation. An alternative hypothesis is that this outcome has been 
+the result of deliberate U.S. policy—the data at least indirectly substan- 
+tiate this. An associated hypothesis is that greater police repression in 
+countries that are recipients of ULS. assistance results from "profession- 
+alization’—in particular, the kind of “professional” police assistance the 
+United States has most often offered, namely, militarizing the police 
+and inculcating a war model of social control—suggesting a hypothesis 
+that the data will support. Where this model meant providing foreign 
+police with military arms and equipment and promoting militarized 
+modes of social control, then violence and violent repression could be 
+expected, leading to even more harm to citizens. This is certainly sug- 
+gested by Jerome Skolnick and James Fyfe's Above the Law (1993), a 
+parallel examination of the effects of police militarization on the Los 
+Angeles Police Department in California, and by Paul Chevigny’s Edge 
+of the Knife: Police Violence in the Americas (1995), a comparative study of 
+municipal police violence in Buenos Aires, Sao Paulo, Mexico City, 
+Jamaica, Los Angeles, and New York City, If such a hypothesis about 
+the effects of LS. militarizing of Latin American police is supported by 
+the evidence, it would suggest the naiveté of any assumption—and the 
+inauthenticity of any claim—that U.S, training of Latin American po- 
+lice was intended to make those police more neutral in enforcement, 
+humanitarian in goals and outlook, democratic in public behavior, and 
+responsive to civilian government. 
+Indeed, another of this study’s countertheses is that the real objective 
+of foreign police assistance has been quite uninterested in such goals, 
+but rather to gain political control over recipient countries’ internal 
+security by increasing the information available to the training coun- 
+try—the United States—and expanding its influence over host govern- 
+ments’ internal security systems. So this study of political policing 
+therefore also hypothesizes that rather than an apolitical means for 
+international technology and values transfer—as ULS. assistance to for- 
+eign police has often been described—foreign police training has been 
+used almost exclusively to promote specific U.S. national security polit- 
+ical interests and objectives. 
+In turn, if this hypothesis is supported by the study's finding a lack of 
+US. concern for democratizing police, then this in turn reinforces the 
+claim that foreign police training resulted in just the opposite of demo- 
+
+
+===== PDF PAGE 28 =====
+8 Political Policing 
+cratic control. By increasing the recipient state's efficiency in stifling 
+citizen participation and political dissent, such a consequence could 
+promote authoritarian government by militarizing internal control— 
+whether or not this was the explicit objective of U.S. police training. 
+In fact, in theory, and in official statements, ULS. assistance to foreign 
+police and constabulary forces has been guided by a legal-rational 
+model involving U.S. civil police professionals’ providing knowledge 
+and skills about police work to foreign host country police officials and 
+their rank and file. The expressed mission of civil police trainers has 
+been to “professionalize” recipient police and improve the administra- 
+tion and practice of routine police work. However, as we shall see, US. 
+training of Latin American police has seldom adhered to such an apolit- 
+ical model of police professionalization, nor has it been directed at 
+improving the policing skills of an officer walking the beat. 
+In fact, between 1898 and 1974, ULS. training of Latin American 
+police usually deviated profoundly from this theoretical model, Symp- 
+tomatically, U.S. personnel who were training Latin American police 
+most often and increasingly came from the U.S. military or national 
+security agencies, and not from civil police organizations. Accordingly, 
+the policing and social control techniques taught were oriented toward. 
+military, not civilian, models of control, 
+In any case, we shall show that the primary objective of such foreign 
+police training was to monitor the host country’s internal political 
+threats to ULS. interests or to the host country’s own regime or to 
+whatever faction was allied with the Linited States. And, of course, a 
+Cold War ideology was used to justify such international relations 
+thinking and practice as necessary for U.S. national security interests, 
+one 
+The Police and Politics 
+Paul Chevigny (1995, 119) has argued that “politics, in the most direct 
+sense, has been part of the police as the police have been part of politics” 
+(see also Bayley 1977, Tilly 1975). When police work is carried out ina 
+highly politicized social climate, as has often been the case in much of 
+Latin America, the politics of such policing are fairly obvious. Likewise, 
+in the United States, when police “red squads" and other police intelli- 
+gence units have spied on, raided, and arrested alleged political subver- 
+sives, the politics of this policing are extremely visible. But the politics 
+of policing are more opaque, and often denied, in “normal” policing in 
+
+
+===== PDF PAGE 29 =====
+Policing International Politics 9 
+the United States and Europe. In such cases, good police work is as- 
+sumed to be insulated from political motives and objectives. Yet this 
+study assumes that all policing is political, ranging ona continuum from 
+police being very visible handmaids of organized power, as historically 
+in much of Latin America, to their relationship to power being obscured 
+by ideologies of democracy and social control that claim to make police 
+merely extensions of a class-neutral state and “the people.” 
+In fact, however, even this latter version of policing is political, be- 
+cause it involves an official agency backed by state power using force, 
+or threats of force, to control individuals, groups, and classes consid- 
+ered inimical to the social, economic, and political order of the state, 
+and thus to the interests of its dominant classes. Therefore, the role 
+of the police—any police—is to prevent, arrest, or manage regime- 
+threatening conflicts in order to create and maintain a class-structured 
+state monopoly over the use of coercive force. To demonstrate the 
+universal politics of policing, we need to start not with Latin America 
+but with the history of policing in the United States and Europe, where 
+ideologies about democracy and professionalism now project an image 
+of class-neutral policing that often runs counter to the politics of “nor- 
+mal" police practice. 
+Political Policing in Democracies 
+Permanent police forces were established in major ULS. cities in the 
+1840s during a period of intense industrial, social, and political turmoil, 
+when immigration was increasing rapidly, when class, ethnic, and racial 
+riots were exploding in the bigger U.S, cities, and when labor strife was 
+constantly on the rise. According to Harring (1983, 34), urban turmoil 
+led “local commercial elites, concerned about the threat to property 
+and wary of the problem of controlling a growing working class, to 
+brace up local police forces.” 
+Born of political motives, ULS. urban police moved quickly and easily 
+into the politics of their cities. In fact, policemen's job tenure depended 
+on loyal service to local politicians. For example, in New York City in 
+the mid-1850s, “if a Democrat's term expired when the Whigs or later 
+the Republicans [came to] . .. power, a policeman] could be reasonably 
+sure of having to find a new job” (Richardson 1974, 28). It was a fact of 
+life that ULS. big-city policemen could not afford to be politically 
+neutral (Chevigny 1995, 120). 
+
+
+===== PDF PAGE 30 =====
+10 Political Policing 
+Indeed, according to Fogelson (1977, 17), “what set the American 
+police apart from . . . [the more centralized] French, German, and 
+British police [was the] relationship [of American police to] the [local] 
+political machine,” which benefited from dispensing police jobs as pa- 
+tronage and from using loyal police to maintain its power over the 
+opposition and the unruly. The policemen in turn received not only job 
+security but also the machine's protection and other political favors as 
+long as it was in power (Chevigny 1995, 1 19-20). 
+Thus we can see that, from their inception, U.S. urban police forces 
+were “a significant resource at the command of local political organiza- 
+tions" (Haller 1976, 304). In mid-nineteenth-century New York City, 
+Whoever governed the police had a major source of patronage, could control 
+entry into and operation of illegal businesses . . . [had control over] legitimate 
+businesses subject to public regulation, such as saloons, and had a major advan- 
+tage in elections. (Richardson 1974, 46) 
+Police, Professionalization, and Power 
+Rather than being atypical, New York City’s extreme politicizing of the 
+police, in fact, can be considered only one end of a continuum of 
+policing. One way of looking at these policing poles is to label the most 
+visibly political forms of policing as “high" policing, where the police 
+are explicitly used to control any opposition to government. In con- 
+trast, at the other pole is “low” policing—ordinary, daily policing that is 
+supposedly without political content (Chevigny 1995, 5), At the low 
+pole, the positioning of modern police within an apparently legal- 
+rational bureaucracy helps generate the general impression of “rule by 
+nobody" (Arendt 1951; see also Ferguson 1984, 16). This leads the 
+larger society—-and the police themselves—to consider policing as sim- 
+ply enforcing the impersonal rules of the polity. 
+But Bourdieu’s (1977) view can be used to argue that this analysis of 
+low policing “misrecognizes" the political relationship of police and 
+their work to a class-structured state, A police apparently neutral with 
+respect to politics and class helps disguise and mystify the actually 
+unequal power relations embedded in a social class hierarchy of which 
+police are a part and a support. Professionalization of policing perpetu- 
+ates the power and privileging of the few through an ideological re- 
+orientation of the police toward their work. Through technological 
+
+
+===== PDF PAGE 31 =====
+Policing International Politics 11 
+and organizational changes in the tools of policing, police carry out 
+their work in support of sociostructural inequality while seeming to do 
+no such thing. 
+Obscuring Political Policing through Professionalization 
+But how have modern police been transformed from visible servants of 
+personalistic economic and political interests—where the powerful di- 
+rectly control private gangs and security forces, militias, civil guards, 
+state troops, or urban police—to being seen as an apolitical institution 
+attached to a class-neutral state, while in fact remaining heavily politi- 
+cal2 The primary mechanism for accomplishing this shift in’ public and 
+police perception has been this police professionalization. This in- 
+volves developing and applying a specialized body of knowledge and 
+training, a self-imposed occupational standard of operation, and imper- 
+sonal and universalistic rules for police appointments, promotion, de- 
+motion, and remuneration (Reiss 1971; Chevigny 1995), Whether in- 
+tended or not, the significant by-product of these changes has been to 
+neutralize the connections between the police and organized power, 
+making these links less visible while diluting the self-identification of 
+rank-and-file police with those whom they control, 
+To understand this process, we need first to look at why, according to 
+historians of the police, modern police forces were established in the 
+first place, and why in Europe and the United States local and regional 
+power holders did not just continue using their own militias to settle 
+disputes or make greater use of the national military. Robinson's (1978) 
+research on early-twentieth-century Chicago police shows that the 
+elite preferred to use a seemingly apolitical police, over which they had 
+indirect control, rather than continue using more direct control over 
+their own armed groups and the states’ National Guard and the US. 
+military. At the very least, the less-visible nature of leaders’ relationship 
+to the police made possible their disclaiming responsibility for any 
+police repression and malpractice that raised public protest. 
+Military officers, too, have recognized that using their armed forces 
+to maintain internal security can undermine the public's belief in the 
+military as a patriotic nationalist symbol and even in the legitimacy of 
+the government it serves. Furthermore, the use of the military in main- 
+taining domestic order can create military factions, sometimes splitting 
+the officers’ ranks (Bayley 1990; Silver 1967). In any case, the deploy- 
+
+
+===== PDF PAGE 32 =====
+12 Political Policing 
+ment of armies and militias for domestic control tends “to exacerbate 
+[political] problems, making law enforcement transparently political” 
+(Bayley 1990, 43). 
+‘Thus, in the nineteenth century, many European governments “faced 
+with reluctant but too forceful armies and enthusiastic but unreliable 
+militias... withdrew armies from domestic tiot duty, abolished militias, 
+and developed a specialized, public police” (Bayley 1990, 43). In En- 
+gland, for example, during the trade union struggles of the 1830s, the 
+police were apparently more reliable than military recruits because “the 
+soldiers originally shared the economic and social circumstances of 
+many of the discontented persons who went into the riotous mobs, 
+[making] it possible [for the soldiers to] feel sympathetic or even share 
+political views that would impair their performance” (Hamburger 1963, 
+214). A paid professional police could insulate the power structure 
+“from popular violence . .. [and draw] attack and animosity upon itself” 
+(Silver 1967, 11), Where an “independent police... fights the mob, . .. 
+antagonism is directed toward the police, not the power structure” 
+(Cain 1979, 156). In other words, enmeshing police institutions within 
+a complicated civil bureaucracy—including positioning civil police be- 
+tween the state and the military, on the one side, and the people on the 
+other—makes state repression much less obvious in protecting social 
+class and. state prerogatives. 
+Shaping Police Allegiances 
+But although political leaders have recognized that the police can serve 
+their interests more dependably than military recruits, the predict- 
+ability of police response to such leaders has not been perfect. The 
+lesson from much research on European and US. policing is that the 
+allegiance of rank-and-file police to organized state power has been far 
+from automatic. Gutman’s research (196 1, 1962, 1968) on riots and 
+strikes in the United States during the late 1870s suggests that the 
+police were also sometimes unwilling to act against striking workers. 
+However, Harring (1983) found, in his research on 100 working-class 
+strikes between 1885 and 1915 in major ULS. cities of the Great Lakes 
+and Ohio Valley, that by then there were relatively few police defec- 
+tions to the side of strikers. In fact, Harring (1983, 102) argues that 
+there is no inconsistency between his and Gutman’s findings because by 
+the end of the nineteenth century, many U.S. municipal police had 
+undergone thirty to forty years of preparation for anti-working-class 
+
+
+===== PDF PAGE 33 =====
+Policing International Politics 13 
+activity, As a result, the "individual police . .. who may have had some 
+sympathy toward striking workers were [more] controlled in . . . anti- 
+working class activity’ (Harring 1983, 104). U.S. police were being 
+shaped and molded by police occupational professionalization, a pow- 
+erful mechanism for nurturing police loyalty to organized government 
+(Fogelson 1977; see also Hays 1964, 1965). 
+Police professionalization involved cutting the self-identifications of 
+rank-and-file police with the similar class and ethnicity of those they 
+must control. An important step in this process made policing into a 
+full-time public service occupation and turned the rank and file into 
+state-paid employees, providing the police uniforms to visually sepa- 
+rate them from common citizens, and encouraging occupational self- 
+identification rather than ethnic and class identities. Regular salaries 
+and relatively long-term appointments elevated police earnings some- 
+what above the working class as a whole, allowing lifestyle differences 
+to develop between sets of people within an essentially similar social 
+class (Fogelson 1977; 1sLe 1975, Johnson 1976; Richardson 1970, 
+1974), 
+Police professionalization has also meant bureaucratic restructuring 
+of the police as an institution, including reorganizing job hierarchies, 
+creating a more elaborate chain of command, and setting standards for 
+promotion and merit; in other words, bringing policing under bureau- 
+cratic regulation and control. Such professionalized nationwide bu- 
+reaucratizing has given higher state-linked officials greater control over 
+police by making police more accountable to the officials who control 
+the hierarchy, their performance assessments, and the awarding of oc- 
+cupational rewards (see Fogelson 1977; Hays 1965). 
+Societal Consequences of Professtonalization 
+Police professionalization has had several consequences for the larger 
+social system. First, molding police organizations into a complex legal- 
+rational bureaucratic institution has helped to create, as already indi- 
+cated, a general impression throughout the society of the "rule of law" 
+with its corollary, “rule by no one"—where those who actually wield 
+power in society come to be shielded by a police institution that does 
+not explicitly seem to promote and protect their interests. 
+Second, it is often assumed that bureaucratizing police makes them 
+more just and less prone to violence. Apparently, the presumption is 
+that legal-rational bureaucratic organization eliminates the source and 
+
+
+===== PDF PAGE 34 =====
+14 Political Policing 
+rationale for police violence, making social control more rational and 
+less violent. The larger system thus benefits from the reduction in 
+violence by bureaucratized social control. The assumption that bu- 
+reaucratizing social control—even under a war ideology—will reduce 
+violence is made questionable by the example of the Prussian Army. It 
+was the first European army to be bureaucratized fully and it served as a 
+model for Prussia’s civil bureaucracy, yet this military social control 
+bureaucracy was expected to carry out state violence, as it did under 
+the Nazis. 
+Finally, within an opaque hierarchy of power, the position of profes- 
+sional police—with their specialized knowledge and skills for fighting 
+crime—encourages dependence of citizen “clients” on the crime- 
+fighting professional. Those who must rely on the trained expert's spe- 
+cialized knowledge are simply expected to trust that person's profes- 
+sional judgment and guidance (Bledstein 1976, 90). In turn, according 
+to Bledstein, the culture of professionalism promotes itself by 
+cultivat{ing] an atmosphere of constant crisis-~emergency—in which [profes- 
+sional] practitioners both create ,., work for themselves and reinforce . . , their 
+authority [engendering the image of] an irrational world, an amoral one in the 
+sense of constant crisis, malking] the professional... who possessefs] .. .- 
+special knowledge indispensable to the victimized client . . . [the latter] re- 
+duced to a condition of desperate trust. (Bledstein 1976, 102) 
+This image of crisis helps to promote what Tilly (1985) identifies as a 
+government-organized “protection racket," in which threats-—whether 
+really intrinsic to social conditions, or merely the result of government 
+action itself—call up the need for protection by the government's own 
+*professionalized” police forces. The internationalization of foreign po- 
+lice assistance results in the United States—through its technical as- 
+sistance to foreign police—tunning a foreign assistance "protection 
+racket" that promotes the LS. security agenda in other countries and, 
+through this, U.S. economic and political interests there. 
+Ideologies and Technologies for Professional Policing 
+Not surprisingly, therefore, along with professionalization of policing 
+have come new ideologies about crime, criminals, and police work. 
+Such ideologies identify the trained police professional as practicing 
+the best means to eradicate these “evils.” The crime-control orientation 
+associated with professional policing transforms local rule violators 
+
+
+===== PDF PAGE 35 =====
+Policing International Politics 15 
+into “outsiders” to be managed through heavy and generalized police 
+repression. Violence against such “outsiders” is seen as necessary and 
+legitimate for protecting "good citizens.” This image of the world, in 
+turn, justifies creating an ever more hierarchical professional police, 
+including technical crime-fighting squads and the matériel to combat 
+an increasingly specialized, yet generalized, “enemy.” This was par- 
+ticularly the case in Latin America during the Cold War. 
+Such a crime-control ideology further alienates professionalized 
+crime-fighting police from local communities and neutralizes police 
+self-identification with others of similar class and ethnic backgrounds 
+(see Chevigny 1995, chap. 4; Richardson 1974, 149). As Chevigny 
+(1995, 124) has argued, 
+when the “war on crime” analogy is combined with the professionalized, anti- 
+crime approach to police work, the results distort and poison police rela- 
+tions with citizens. The police think of themselves as an occupying army, and 
+the public comes to think the same. The police lose the connection with 
+the public, 
+In contrast, when police have assumed a primarily public-service role— 
+more characteristic of earlier “preprofessional" police systems—rank- 
+and-file police are pulled closer to their ethnic and class communities 
+(Richardson 1974, 149) and kept more loyal to local, rather than state, 
+interests and more open to “corruption” by such interests, 
+The technologies associated with a professionalized crime-control 
+orientation have further separated police from their own class and eth- 
+nic origins. For example, the increasing use of motorized police over 
+foot patrols has placed greater spatial distance between police and pub- 
+lic. Where the public comes to be known by the police only through a 
+passing patrol car's windshield, citizens are easily transformed into ob- 
+jects to be managed. Likewise, where the division of labor in policing is 
+finely delineated, such that many police activities are strictly separated 
+from each other and defined by their instrumental relationships to 
+alleged deviants, the “clients” are likely to be treated in terms of their 
+narrow relationship to police agents’ demands and objectified and de- 
+humanized in the process. 
+Social Consequences of Police Professionalization 
+Increased specialization and division of labor within policing—charac- 
+terized by the early motorized "flying squads," modern specialized de- 
+
+
+===== PDF PAGE 36 =====
+16 Political Policing 
+tective units, police intelligence "Red Squads,” “criminalistics" units, 
+and riot control and swaT teams (Donner 1990, Fogelson 1977)—have 
+created greater social distance not only between the specialized police 
+units and the people they control but also among the units themselves 
+and between specialized colleagues and the larger unspecialized police 
+organization (see Chevigny 1995, chap. 4; Richardson 1974; Skolnick 
+and Fyfe 1993). This “scientific Taylorization” of policing {ie., in- 
+creased rationalization and segmentation of police work) subdivides 
+police action so narrowly that this division also contributes to obscur- 
+ing the relationship of the police to political power. In other words, 
+police professionalization and specialization has had consequences for 
+the police system itself, for police behavior toward the public, and for 
+the larger relationship of police to the communities they patrol—even 
+though such consequences have not usually been an explicitly articu- 
+lated part of the discourse on professionalization. 
+Therefore, within a single country, as we can see for the United 
+States, police professionalization carried out by a country’s own na- 
+tionals usually occurs within an unequal internal distribution of political 
+power, where one region or political party or faction or class or ethnic 
+group has used police professionalization to wrest or keep control of the 
+police from political rivals, And where police professionalization has 
+succeeded, the political power of the winning side over and through the 
+police has been augmented, and the political autonomy of the police 
+has been reduced, although this process has also insulated the police 
+from popular contacts and control, making them less accountable to 
+immediate local community pressures and regulation. But of course such 
+manipulation has often produced political tension among factions 
+struggling to control the police and has thus in fact exacerbated conflict 
+among and within police forces, as we shall demonstrate (see Gutman 
+on 1961, 1962, 1968, Robinson 1978, Harring 1983). 
+Intercountry Policing: Theory and Practice 
+As we have seen in a variety of sociocultural settings, police forces have 
+been studied in terms of their development and changes in response to 
+internal political and social crises. But what about situations where 
+changes in police systems have been influenced by the political motives 
+of extranationals? In such cases, whose internal security interests are 
+promoted, and with what consequences for the recipient police system 
+
+
+===== PDF PAGE 37 =====
+Policing International Politics 17 
+and its state and citizens? Since the United States has been training and 
+equipping Latin American police for almost one hundred years, these 
+are relevant questions. 
+In fact, whereas in every sense all policing is political, the quintessen- 
+tial example of politicized policing may very well be one country’s 
+training another country’s police. Although both intra- and intercoun- 
+try police training and professionalization have taken place within sys- 
+tems of unequal distribution of power, it is intercountry police training 
+that occurs in a world system of nation-states where the recipient coun- 
+try holds a subordinate position relative to the training nation: in effect, 
+such police training reduces the political autonomy of the country 
+receiving it and can be a tool for shaping the host nation’s politics and 
+its political processes and outcomes. Of course, foreign police training 
+can also be expected to have return effects on the training country and 
+its police practices as lessons learned abroad are brought home. 
+Where another country trains a nation’s police, the recipient police 
+institutions come to be linked to that other state beyond their own 
+nation’s borders. This connection can transform recipient country po- 
+lice into subordinate actors in global politics and, in the process, further 
+strengthen a foreign state’s control over the recipient state, 
+Ironically, perhaps, professionalization of host country policing has 
+been one mechanism for accomplishing such control, The ideology of 
+professionalism—that professionals know best how to help clients elim- 
+inate, stabilize, or improve a control problem or situation-—transforms 
+the foreign recipients of professional police assistance into dependent 
+clients who must “respect the moral authority of those whose claim to 
+power lay in [their specialized knowledge and skills)’ (Bledstein 1976, 
+90). This deference grants autonomy to the foreign professional within 
+the host country’s internal security system, because professionalism 
+“eancipate[s the] . . . sovereign person as he perform{s] organized 
+activities within comprehensive spaces” (Bledstein 1976, 87). This 
+ethos of professionalism therefore reduces the recipient government 
+and state to a position of relative vulnerability and less power with 
+respect to its foreign police advisors: "By pointing to and even describ- 
+ing a potential disaster, the professional often reduce[s] the client to a 
+state of desperation in which the victim would pay generously, cooper- 
+ate fully, and express undying loyalty to the knowledgeable patron who 
+might save him from a threatening universe" (Bledstein 1976, 100). 
+Such a dependent-subordinate relationship, founded as it is on a sense 
+
+
+===== PDF PAGE 38 =====
+18 Political Policing 
+of emergency, perhaps illuminates one of the functions of Cold War 
+national security ideology: it generated and explained a social threat 
+and, for eliminating it, established a role for professionalized police. 
+We shall see that the United States certainly pushed ULS, foreign police 
+training to combat Communism and did so in the name of profession- 
+alizing Latin American police. 
+Although intracountry police training is governed, at least theoret- 
+ically, by the host country’s legal structures and organizational rules— 
+more or less equally binding on police and their trainers—police train- 
+ers on foreign soil can be much less restricted in what they are allowed 
+to promote and in the consequences of their police training and action. 
+In any case, the United States, in creating social-control institutions 
+favorable to ULS. political and economic interests abroad, has often 
+benefited from a recipient country’s lack of legal guarantees of civic 
+rights and liberties, and from ignoring more informal constraints on 
+local police action. 
+However, at the same time, the professional training of one country’s 
+police by another has almost inevitably led to popular and political 
+resistance in both donor and recipient nations, thus increasing both 
+national and international political conflict and tensions and exposing 
+recipient police to charges of being political, the very problem that 
+prafessionalization is meant to counteract, Even more ironically, as this 
+study will demonstrate, police centralization, professionalization, and 
+specialization has led to increasing conflict among the various spe- 
+cialized police divistons and units in a country and also between its 
+newly centralized and its previously decentralized police units and di- 
+visions. Professionalization’s insistence on centralized and, specialized 
+police activities seems also to lead to devolution (e.g., debureaucratiza- 
+tion), as the activities of professionalized, specialized, and autonomous 
+national police agencies increasingly diverge from the centers of au- 
+thority that have produced them. This process then produces still far- 
+ther devolution and even privatization as public opinion at home and 
+abroad turns out not to approve of the new quasi-official police activi- 
+ties. In a world system of modern armies and nuclear-strike capabilities, 
+these realities of cross-national policing must be seriously addressed. 
+Working Theses 
+Indeed, the basis for this study's concluding empirical theses about the 
+consequences of ULS. foreign police training in Latin America is that 
+
+
+===== PDF PAGE 39 =====
+Policing International Politics 19 
+the fundamental purpose for ULS. assistance to Latin American police 
+was to serve as a mechanism for gaining political control over recipient 
+countries’ internal security systems rather than to further the spread of 
+democracy. Such a conclusion is suggested by four interrelated propo- 
+sitions derived inductively from the data to be presented on ULS, assis- 
+tance to Latin American police. 
+The internationalization proposition maintains that one mechanism for 
+a country to gain political control over another state is to penetrate the 
+other country's police system, although reaching large numbers of 
+rank-and-file police is not necessary. Indeed, ULS. officials clearly con- 
+sidered that the most certain way of internationalizing U.S. security 
+through assistance to Latin American police was to shape the political 
+attitudes and technological preferences of key police officials, making 
+sure that ULS.-trained police headed and otherwise participated in their 
+country’s most important internal security organizations. 
+The centralization proposition suggests that a country, to international- 
+ize its own security, attempts to foster the development of other depen- 
+dent states’ internal security systems, including setting up new police 
+and other internal security organizations and linking these to ane an- 
+other within each foreign country, Taking this centralizing process 
+further still means encouraging subordination of police to the national 
+military so that this internal security system is more closely tied. to 
+national executive power, which in turn is connected indirectly to the 
+foreign power offering the training. Of course, in some Latin American 
+countries, such centralization was fostered initially by Latin American 
+nationals themselves, sometimes assisted by the Lnited States, whereas 
+in other Latin American countries it was largely a product of LLS. 
+initiatives. 
+In the case of LS. foreign police training, centralization was directed 
+toward creating an internal security network under indirect ULS. tu- 
+telage, which was legitimized by a national security ideology arguing 
+that centralization is necessary to protect against political subversives. 
+Whether or not the United States took the lead in centralizing Latin 
+American internal security, Washington could focus on getting US. 
+trained police into leadership positions within a country’s national po- 
+lice organizations or internal security units and then on bringing such 
+social-control entities under the control of indigenous central national- 
+level executive power. Along the way, the more decentralized and po- 
+litically factionalized police systems could be centralized, to be com- 
+manded by U.S.-trained nationals closely linked to the host country’s 
+
+
+===== PDF PAGE 40 =====
+20 Political Policing 
+executive power. Centralization would reduce the autonomous opera- 
+tion of local politicos’ social-control entities and increase US. influ- 
+ence over recipient countries’ more centralized internal-control sys- 
+tems, making such states still more amenable to Washington's internal 
+security agenda, 
+According to the authoritarianizing proposition, the form and content 
+of the centralizing initiatives would result in a top-down system of 
+control that cuts off political participation and dissent. In the process, 
+recipient countries’ police systems and states become more militarized, 
+as each phase of centralizing internal security becomes a foundation for 
+new centralizing initiatives, each building incrementally on previous 
+ones toward developing ever more militarized internal security sys- 
+tems. Such authoritarianizing has often meant superimposing new 
+hybrid military and. internal police security organizations on existing 
+police bodies, all subordinated to the national military and legitimized 
+by national security ideology? This amounted. to bureaucratizing, ra- 
+tionalizing, and routinizing secrecy, deceit, violence, and terror, all 
+under the guise of “modernizing” social control to protect internal 
+security against Communism, This further reduced the internal security 
+system's public accountability, a consequence of professionalizing in- 
+ternal security in any case (Bledstein 1976, 87~90), 
+Yet although the ultimate result of authoritarianizing internal se- 
+curity can be subordination of police to the military, Enloe (1975) has 
+pointed out that neither “policization’ of the military nor militarization 
+of the police should be confused with an actual equivalence between 
+these two social-control entities. Even where these agencies’ differ- 
+ences have been temporarily eclipsed—owing, for example, to a decla- 
+ration of martial law~many structural, functional, bureaucratic, and 
+professional distinctions still remain. There has been a tendency for the 
+original jurisdictional differences between civil police and militaries to 
+reemerge after the cessation of a social or political emergency, although 
+usually without an associated demilitarization of the internal control 
+system. This is just one aspect of the ultimate devolution of a cen- 
+tralized, internationalized, authoritarian system. 
+Indeed, the final proposition, on devolution, suggests that even the 
+most oligarchically consolidated and militarily fortified bureaucratic- 
+authoritarian state using specialization and compartmentalization, as 
+well as secrecy, deceit, and violence, eventually experiences internal 
+tensions, social conflicts, and public resistance. These give rise to par- 
+
+
+===== PDF PAGE 41 =====
+Policing International Politics 21 
+tial debureaucratizing and decentralizing of militarized authoritarian 
+social control, particularly among parts of the system most militarily 
+specialized. Such devolution from bureaucratized militarization is 
+often manifested in the emergence of social-control groups with less 
+direct, more tenuous links to the state. These take the form of death 
+squads related only in varying degree to police, or police-linked jus- 
+ticeiro lone-wolf killers, or parts of the internal security system that have 
+turned against other parts—as when one internal security organization 
+spies on, or takes action against, another (see Huggins 1991, 1997). 
+There has been a tendency to see such devolution as a return to 
+traditional methods of social control—where different local power 
+aspirants and their geographically localized militia and paramilitary 
+forces battle with one another to control local politics. But it can be 
+shown that modern forms of devolution are not equivalent to what 
+existed in Latin America before this century, More recent forms of 
+devolution can be very compatible with modernity (Huggins and 
+Haritos-Fatouros 1996a, 1996b; Huggins 1997), representing a dialec- 
+tic between bureaucratic-authoritarian states’ centralizing and authori- 
+tarianizing and their debureaucratizing and privatizing of social control 
+(Huggins 1991, 1997), a process we shall explore in much more detail 
+(see chapter 9). Thus, at the same time as parts of the state become 
+more bureaucratically modernized—although not necessarily consis- 
+tently more efficient at internal control—they become more internally 
+fortified and more centrally controlled, In the process, these states 
+generate their apparent opposite—seemingly decentralized and de- 
+bureaucratized forms of social control not visibly linked to the state. At 
+first this is a deliberate state policy for reasons we can suggest here and 
+will analyze further in chapter 9. 
+Once debureaucratizing gains speed, the state has difficulty control- 
+ling the process because authoritarian states in fact benefit, at feast in 
+the short run, from vigilante justice. On the one hand, vigilantism gives 
+repressive states more social-control options than either national bud- 
+gets or national or international political conditions permit, and on the 
+other hand, such devolution lowers the political costs of repression by 
+refocusing national and international attention away from the authori- 
+tarian state's own violence: death squads are “a less visible target for 
+internal and international public opinion," and they “sefocus . . . public 
+attention and outrage” (Alves 1985, 258). 
+The thesis on devolution thus proposes that such vigilantism is a 
+
+
+===== PDF PAGE 42 =====
+22 Political Policing 
+product of a consequent—if not fully intended—process of state de- 
+construction, in which parts of the formal control system split off, 
+debureaucratize, and increasingly carry out violence clandestinely and extralegally. Five sources of devolution are suggested in this analysis: 
+(1) from the state's own interest in separating itself from the more 
+egregious examples of its own violence, (2) out of the process of formal 
+organization itself—particularly in the structural consequences of bu- 
+reaucratic centralization, above all in the competition especially associ- 
+ated with a war model of policing; (3) an outgrowth of state-related 
+illegalities—where devolution spawns further devolution into decen- 
+tralization and loss of state control, which, in turn, encourages (4) the 
+privatizing of policing as a response to the failure of state control over 
+violence and to domestic and international pressures against state vio- 
+lence itself, so that (5) internal security becomes a monetized com- 
+modity in a free market. 
+Such outcomes would of course suggest more and more violence by 
+more and more Latin American death squads. However, in Latin Amer- 
+ica, privatized justice in the long run generates a host of problems for 
+the governments there, sometimes even threatening state hegemony 
+over internal control, as earlier in Argentina, Uraguay, and Haiti, con- 
+tinuing in Guatemala and El Salvador, and now in Peru, Colombia, and 
+Mexico (see Hugging 1991). Such states find themselves in the situation 
+of "the sorcerer who is no longer able to control the powers of [a] nether world .. . [that] he has called up by his spells" (Marx and Engels 
+1985, 85-86), 
+As for ULS. international security planning, if pro-LLS. Latin Ameri- 
+can leaders cannot control a segment of their country’s internal security 
+apparatus, how can the United States expect these countries to offer a 
+climate of security hospitable to ULS, interests? So ULS. assistance to 
+Latin American police may have helped to foster the very disorder that foreign police assistance was ostensibly designed to overcome, cer- 
+tainly an ironic paradox, 
+The Working Theses in the Organization of This Book 
+The theoretical foundations for Political Policing developed in this chap- 
+ter will be examined in the sociological analyses of eight subsequent 
+chapters on episodes in U.S. assistance to Latin American police, pri- 
+marily that of Brazil. These chapters illustrate, in varying degrees and in 
+
+
+===== PDF PAGE 43 =====
+Policing International Politics 23 
+changing forms, the interrelated internationalizing, centralizing, au- 
+thoritarianizing, and devolution processes just outlined. 
+Tuternationalizing ULS. security through police assistance can be seen 
+throughout the seventy-five-year period examined, although the strat- 
+egies for accomplishing internationalization change: In the first de- 
+cades of the twentieth century (chapter 2), the United States used its 
+own direct military intervention to establish new national constabu- 
+laries and to promote ULS. control over Latin American internal se- 
+curity. In the 1930s, the United States more indirectly tried to influ- 
+ence Latin American police (chapter 3). During and immediately after 
+World War Il, the United States transformed. its own international 
+security machinery and developed an ideology that justified more ef- 
+fectively, yet invisibly, internationalizing ULS. security throughout 
+Latin America (chapter 4). In the 1950s and 1960s, economic develop- 
+ment programs were the mechanisms and the cover for gaining control 
+over Latin American police and other internal security systems, The 
+US. national security ideology justified internationalizing and cen- 
+tralizing Latin American internal security as Washington spread its 
+newly developed internal security methods to neutralize perceived or 
+expected insurgency threats abroad (chapters 5--9). 
+Centralizing of Latin American internal security assumed different 
+forms between 1898 and 1974, The United States initially set up cen- 
+tralized national police systems in Central America and the Caribbean 
+(chapter 2). Then, in the 1930s, the United States stepped back from 
+direct intervention as its Latin American strongman allies centralized 
+their own police institutions (chapter 3). These centralizing processes 
+then and later usually resulted in authoritarianizing Latin American 
+internal security (especially chapters 79), such that Latin American 
+states and their social-control systems tried to integrate their military 
+and police organizations under the national security ideology and used 
+these agencies to penetrate and dominate their own civil society, elim- 
+inating in the process citizen participation and making political protest 
+risky and dangerous. 
+Yet as chapters 7 through 9 illustrate, these highly rationalized sys- 
+tems of repression generated their apparent opposite—a devolution of 
+internal control—where part of the social-control apparatus debureau- 
+cratizes—that is, breaks off formal ties to the official bureaucracy—even 
+as it remains secretly tied to the formal control system (see also Hug- 
+gins 1997). Chapter 9 further clarifies the model for understanding the 
+
+
+===== PDF PAGE 44 =====
+24 Political Policing 
+roots and dynamics of this dialectic of internationalizing, centralizing, 
+and authoritarianizing against devolution within a highly rationalized 
+and modern system of social control. This can then be used to explain 
+the paradoxical contrast between the theoretical expectations of tradi- 
+tional criminology and the actual practices and outcomes of ULS. for- 
+eign policy in professionalizing and militarizing police. 
+Chapter 10 closes the devolutionary cycle by bringing this process 
+back to United States policy in the 1970s and 1980s, LS. foreign pol- 
+icy reverts to the informal, personalistic decentralization that the whole 
+police assistance program had initially been designed to supersede. 
+In the conclusion, U.S. assistance to Latin American police is dis- 
+cussed as part of a state-run international state-maintaining and state- 
+making entrepreneurial enterprise to promote the interests of the 
+United States, which sold police training to Latin America and other 
+Third World client states after World War Il as a “protection racket” 
+(Tilly 1985). This, in turn, contributed to a devolution, commodifica- 
+tion, and privatization of internal security, with policing and internal 
+security becoming customer-defined products, "bought and sold within 
+a market" (Shearing 1996), further fostering the devolutionary spiral, as 
+we shall see, 
+
+
+===== PDF PAGE 45 =====
+2 “Gunboat" Policing: 
+The First Twenty-five Years 
+By the end of the nineteenth century, the United States had emerged as 
+a world power and was taking steps—particularly after the Spanish- 
+American War of 1898—to secure its newly gained political and eco- 
+nomic advantages. The U.S. economy was growing rapidly, and ULS. 
+foreign policy supported free international trade and investment. This 
+"Open Door" policy began as a demand that no country have a monop- 
+oly over trade with China but was also directed at countries more 
+directly within the new ULS. spheres of influence. To ensure its trade 
+with these countries, the United States would work to guarantee their 
+economic and political stability, and their independence of other world 
+powers. One way to do this with the more problematic regimes was to 
+create new, or to reorganize old, security forces in these countries, 
+Explicitly linking U.S. investment with improvements in policing, 
+USS. secretary of state Elihu Root argued in 1905 that U.S, trading 
+partners in Latin America and elsewhere needed efficient professional 
+police forces that could “repress subversive disorder and preserve the 
+public peace” (in Lobe 1975, 21), In that same year, the United States 
+spearheaded the move to link foreign investment with reform of the 
+Moroccan police (Lobe 1975, 21), In a more general assertion of the 
+security-for-trade principle, President Woodrow Wilson continued to 
+argue between 1914 and 1917 that Latin America needed “a function- 
+ing regional system, secure from European interference, open to the 
+expansion of trade, and capable of policing itself” (Gilderhus 1980, 
+422), referring of course not to the police themselves but to the con- 
+cept of letting indigenous forces maintain their own national security, 
+internal as well as external. 
+Several related goals were attached to this security-for-trade princi- 
+ple: protection of US. creditors and property, stability in these new 
+areas of U.S. control, and hemispheric security. More specifically, once 
+the United States had acquired Puerto Rico and assumed responsibility 
+for Cuba in 1898, and, above all, started the Panama Canal in 1903, 
+Central America and the Caribbean assumed much greater strategic 
+importance. 
+An early mechanism for US. penetration into Latin American inter- 
+
+
+===== PDF PAGE 46 =====
+26 Political Policing 
+nal security was for Washington to establish and then direct police 
+constabularies there. These police-military hybrids were military in 
+structure and technology but were also vested with police furictions, 
+having both internal and external defense responsibilities. Clearly, 
+some Washington policy makers saw such centralized police and quasi 
+police as buffers against internal security threats. For example, in parts 
+of the Caribbean at the dawn of the new century, and in the midst of 
+political conflicts between local and regional poderosos in Central and 
+South America, the United States imposed newly trained, centralized 
+national constabulary forces on some Caribbean and Central American 
+governments. This was sometimes done with, and sometimes without, 
+their nationals’ assistance or approval. Washington argued that new 
+ULS.-funded and -officered nonpolitical professional constabularies 
+would eliminate disorder and reduce the political turmoil created by 
+competing elites’ battling security forces. In effect, Washington was 
+superimposing a further centralizing process on one already being fos- 
+tered by local and national elites, and in the process, the United States 
+was internationalizing its security in the region, 
+Constabularies Open the Door 
+In 1898, LUS, occupation armies in Cuba established a police con- 
+stabulary to guarantee the security of ULS. investment and trade. TI his 
+new national constabulary was trained, equipped, and directed by the 
+US. Marines; former New York City police officers helped organize 
+Havana's municipal police system (Birr and Curti 1954, 93), ULS, influ. 
+ence was also felt in Cuba's prison system: in the early 1900s, the 
+warden of the Havana penitentiary visited ULS. federal prisons in Leav- 
+enworth, Kansas, and Joliet, Illinois, to bring their methods back to 
+Cuba (Birr and Curti 1954, 93). 
+Within two decades after establishing the Cuban constabulary, 
+the ULS. War Department had set up police constabularies in Haiti 
+(1915), the Dominican Republic (1916), Panama (1918), and Nic- 
+aragua (1925), Washington policy makers reasoned that one way to 
+secure ULS. interests was for the United States to strengthen these 
+countries’ internal security where they had weak, highly politicized, or 
+even nonexistent militaries and to establish constabulary forces with 
+primary loyalty to the United States. Sometimes this meant disman- 
+tling a country’s national military and setting up a new civil police force, 
+
+
+===== PDF PAGE 47 =====
+“Gunboat" Policing 27 
+as in Cuba and Haiti. At other times, it meant creating a new constabu- 
+lary where there was no effective unified national military—as in Nic- 
+aragua in the early 1920s. 
+Washington's control over these new national constabularies varied 
+according to how they had been established in the first place. Of 
+course, there was greater internationalizing of US. influence where 
+Washington had direct control over constabulary formation. Where 
+the United States had only indirect control, there was less U.S. pen- 
+etration of a country’s internal security system. 
+For example, the United States had direct control over constabulary 
+development in Cuba (1898), Haiti (1915), and the Dominican Re- 
+public (1916), where it created or restructured these countries’ police 
+forces after full military intervention. ULS. officers replaced national 
+elites in government and abolished existing military and police, and a 
+new constabulary was trained and placed under U.S. control. In con- 
+trast, where ULS. intervention was partial or nonmilitary, as in Nic- 
+aragua in 1923 and 1925, national government institutions remained 
+more or less intact, and traditional elites continued to hold office and 
+direct the new constabulary that ULS. military “volunteers” or contract 
+employees had established and trained (Goldwert 1962, 48-49). 
+It is possible to contrast constabulary development after direct U.S. 
+military intervention in Haiti (1915-1920) with more indirect U.S, 
+political intervention in Nicaragua (1923-1927). These illustrate two 
+different models for centralizing the police and internationalizing ULS. 
+security through police training and suggest their different impacts on 
+recipient countries’ internal security arrangements and long-term au- 
+thoritarianizing. 
+The Haitian Constabulary 
+Looking back on the 1915 military intervention in Haiti, Washington 
+analysts stated that in 1930 Haiti had been in a state of "social, eco- 
+nomic, and political chaos” (ONR 1969, 36). Between 1886 and 1915, 
+every Haitian president had been overthrown, and many of them killed 
+in office; on the eve of the U.S. intervention, there had been mob 
+violence following the murder of President Guillaume Sam. This unrest 
+presumably left Washington with no option but to send U.S. Marines 
+and Navy forces to take over Haiti. Washington argued that invasion 
+was necessary to prevent Haiti's complete collapse and keep this Carib- 
+
+
+===== PDF PAGE 48 =====
+28 Political Policing 
+bean country from defaulting on its financial obligations to foreign 
+creditors, a development that could have justified unwanted European 
+intervention (ONR 1969, 37). 
+In the United States’ full-scale nineteen-year occupation of Haiti 
+(1915-1934), the large Haitian standing army was abolished, and a 
+national police constabulary—the Garde d'Haiti—was created in its 
+place (Diederich and Burt 1969, 39), The United States also assumed 
+control over all Haitian government institutions except the Depart- 
+ments of Justice, Education, and Post Office. In order to ensure ULS. 
+control over the new Garde, U.S. Marines held command. positions. 
+Thus even though this new security force was supposed to be ultimately 
+under the control of Haiti's president, “In fact . . . the President ap- 
+peared to have less power than the American commander of the Marine 
+regular forces, who frequently issued orders directly to the Chief of the 
+Gendarmerie” (ONR 1969, 40), that is, the Garde d’Haiti. 
+Almost immediately, the new Garde d'Haiti, which had jurisdiction 
+throughout the country, became an extension of the U.S. occupation. 
+Indeed, as Goldwert (1962, 48) points out for the Caribbean and Cen- 
+tral America as a whole, these constabularies introduced a new distribu- 
+tion and balance of power in the politics of recipient nations such that 
+“power [came to be] centralized in well-equipped constabularies led by 
+{ULS. Marine] officers.” 
+This, in turn, generated conflict and resistance. Haitians were irked 
+that few of the LLS. Marines who commanded the Garde spoke Creole 
+or French, That some American officers “had biased racial attitudes" 
+also provoked disdain, according to the ULS, military itself, which in 
+retrospect thought that it had made “a serious error of judgment” in 
+assigning LL.S, Marines from southern ULS. states to the Garde “on the 
+mistaken assumption that Southerners would know how ta deal effec- 
+tively with Haitian Negroes” (ONR 1969, 44), In any case, Haitians 
+were angered that prostitution and out-of-wedlock births had increased 
+substantially with the presence of U.S. Marines. 
+However, the biggest source of Haitian dissatisfaction with the 
+Garde grew out of the revival by US. occupation forces in 1916 of an 
+older Haitian corvée law permitting the use of forced labor in road 
+construction. Under the corvée, local Haitian officials supplied the 
+Garde with lists of peasants who were then delivered “notification 
+cards" to report for work at construction sites. A peasant who did not 
+present himself for work could pay a tax, but because most were ex- 
+tremely poor, forced unremunerated labor was their only real option. 
+
+
+===== PDF PAGE 49 =====
+“Gunboat” Policing 29 
+Not surprisingly, enforcement of the corvée law gave U.S. Marines 
+and their Haitian gendarmerie a very bad name because the Garde 
+"virtually shanghaied [peasants] and [forced them to] work .. . in what 
+amounted to chain gangs” (Birr and Curti 1954, 129). The Garde 
+“brutalized the laborers, treating them like criminals” once on the job 
+(ONR 1969, 45). As many Haitians saw it, the Garde had been used by 
+the United States to repress them or extract labor from them (ONR 
+1969, 47). 
+The Garde's behavior led to “a dramatic increase in anti-American- 
+ism” and helped generate a guerrilla resistance movement as peasants 
+took to the hills, there to be recruited into caco units—irregular peasant- 
+based guerrilla militias. By spring 1919, in Haiti's northern and central 
+districts, Charlemagne Peralte had raised a caco army of five thousand 
+men and mounted a successful attack against the ULS.-backed Garde 
+(ONR 1969, 47), The U.S. forces in Haiti offered a $2,000 bounty to 
+Haitian Jean Conze for the capture or assassination of Peralte. Accom- 
+panying Conze on this mission was Herman Heneken, a U.S. Marine 
+captain, In the end, it was Heneken who murdered Peralte and brought 
+the caco leader's “almost naked body... to... [gendarmerie] general 
+headquarters... in Cap Haitien,” where it was tied to a door (Diederich 
+and Burt 1969, 40). Heneken was awarded the LLS, Congressional 
+Medal of Honor, Jean Conze received the Haitian Medal of Honor and 
+Merit. There is no record as to who received the US. bounty (Di- 
+ederich and Burt 1969, 40), Yet although the United States had elimi- 
+nated a troublemaker, it had not neutralized the cacos. Indeed, the 
+United States was embarrassed that the Haitian Garde had been unable 
+to control the cacos and was also concerned that the Garde was so 
+poorly regarded by other Haitians, 
+The Garde was a visible arm of US. intervention, making apparent 
+the connections between the United States and Haiti's dominant eco- 
+nomic and. political elite. Thus, rather than eliminating turmoil, the 
+new ULS.-officered constabulary had increased internal conflict by cen- 
+tralizing and consolidating national power for leaders loyal to the 
+United States. 
+The Nicaraguan Constabulary 
+According to Dana Munro, an early-twentieth-century ULS. career dip- 
+lomat posted to various Caribbean and Central American countries, 
+there was no national army in Nicaragua before the 1912 ULS. interven- 
+
+
+===== PDF PAGE 50 =====
+30 Political Policing 
+tion; "Family feuds, sectional hatred, [and] local bigotry" dominated 
+political life (in Goldwert 1962, 22). For example, between 1913 and 
+1924, there had been ten revolutionary coup attempts in Nicaragua, 
+and the country had been under martial law for virtually the en- 
+tire period. 
+According to Munro, Washington reasoned that a nationally based 
+“nonpartisan” constabulary would bring order out of political chaos and 
+eliminate the factional infighting that dominated Nicaraguan politics 
+(Munro 1964). So, in 1923, as U.S. diplomats helped the Nicaraguan 
+government rewrite its election laws for the upcoming presidential 
+elections, the United States proposed establishing a centralized con- 
+stabulary force for Nicaragua (FRUS 1923), to help the Nicaraguan 
+government keep order and enhance its legitimacy during the elec- 
+tions. Of course, Washington did not want it to appear that the United 
+States was itself hoping to use the constabulary to control Nicaraguan 
+politics. 
+For international validation, Washington sponsored a Central Ameri- 
+can conference on arms limitations, Its primary outcome was the Cen- 
+tral American Treaty of Peace and Amity (CCAA1 1922~1923), which 
+pledged all the participants to withhold political recognition from any 
+government coming to power through coup or revolution, The treaty 
+recommended Central American countries’ establishing constabularies, 
+with training by “suitable instructors” already “experienceld] .. . [in 
+other countries] organizing such corps” (CCAA2 1922-1923, also Mil- 
+lett 1977). 
+The United States had already had ample experience training police 
+constabularies, by 1923 it had established such national police forces 
+in Puerto Rico, Cuba, Haiti, the Dominican Republic, Panama, the 
+Philippines, and Liberia, In most of these countries, the LLS. War De- 
+partment had provided the constabulary training. However, Panama 
+(after 1905} and Nicaragua (1923~1927) were special cases: their 
+police assistance was provided extragovernmentally through a State 
+Department—arranged training contract between the host governments 
+and private U.S. police specialists. 
+In many ways, Washington's involvement with the Nicaraguan con- 
+stabulary was a prototype for later U.S. police training programs in 
+Latin America, because these too had to have at least the appearance of 
+being legitimized by international law. This was particularly necessary 
+in 1923 in Nicaragua because at that time there was no ULS. law that 
+
+
+===== PDF PAGE 51 =====
+“Gunboat” Policing 31 
+permitted ULS. armed forces to train foreign government police where 
+there had been no full-scale U.S. occupation, as in Cuba, Haiti, the 
+Dominican Republic, and the Philippines. There was also no mecha- 
+nism for granting U.S. pay or retirement credits to ULS. specialists 
+brought in by foreign governments to advise them. In fact, Congress 
+did not pass legislation until 1926 permitting the ULS. military to assist 
+"the governments of the Republics of North America, Central America, 
+and South America, [as well as]... Cuba, Haiti, and [the Dominican 
+Republic] in military and naval matters,” the rubric under which police 
+assistance to “independent governments” was categorized at the time 
+(Sixty-Ninth Congr. 1926, 565). 
+Yet there was still an informal tradition in the War and State Depart- 
+ments of arranging police training contracts between foreign govern- 
+ments and “private” LLS. citizens. For example, in 1905 the United 
+States government had recommended that the Panamanian govern- 
+ment contract with Samuel Davis to train the Panamanian police. 
+When Davis died from yellow fever, Washington suggested George W, 
+Jimenez, a former New York City policeman (McCain 1937, 79). 
+The US. proceedings in Nicaragua demonstrate that when political, 
+administrative, or legal reasons stood in the way of Washington's 
+openly and directly establishing a constabulary, the U.S, government 
+sought unofficial means of accomplishing its objective. For example, in 
+Nicaragua in 1923, the two most viable options for setting up a new 
+constabulary were either to recruit trainer “volunteers” from the United 
+States Legation Guard in Nicaragua, a detachment of 100 LLS. Marines 
+that had been backing the LLS. presence in Nicaragua since 1912, or to 
+arrange a private police training contract between a ULS. citizen and 
+the Nicaraguan government, Either alternative required Nicaraguan 
+approval, and it complicated matters that powerful sectors of Nic- 
+aragua’s elite strongly resisted ULS. involvement in their country’s inter- 
+nal affairs. As Secretary of State Charles Evans Hughes pointed out, the 
+presence of ULS. Marines in Nicaragua might give rise to the hypoth- 
+esis that the U.S. “Government is maintaining in office a government 
+which would otherwise perhaps not be strong enough to maintain itself 
+against the attacks of its political opponents” (in FRUS 1923, 607). 
+Nicaragua's foreign minister, General Emiliano Chamorro, warned 
+that Nicaraguans might regard a ULS.-established constabulary as 
+Washington's attempt to influence his country’s 1924 presidential elec- 
+tions, cautioning that open ULS. involvement in Nicaragua's electoral 
+
+
+===== PDF PAGE 52 =====
+32 Political Policing 
+process could cost his U.S.-backed Conservative Party thousands of 
+votes (FRUS 1923, 607). Chamorro would, however, support the con- 
+stabulary project if U.S. military volunteer trainers left Nicaragua be- 
+fore the October 1924 presidential elections. Washington accepted 
+Chamorro’s proposal because the United States also leaned toward the 
+more indirect approach to creating a constabulary in Nicaragua. 
+The constabulary project was taken up again in 1925 when the Nic- 
+araguan congress once more debated the US. role in establishing a 
+constabulary there. Washington's proposal brought strong protests and 
+counterproposals from the Nicaraguan congress. This time, the major 
+stumbling block was whether to accept Washington's proposal to con- 
+stitute U.S. involvement with the police constabulary not just “in... a 
+‘Training Branch’. . . [but also in a] ‘Constabulary Proper, with United 
+States [military] officers wielding supreme control over the Training 
+Branch” (Goldwert 1962, 25-26), to be managed by ULS. military vol- 
+unteers. In the process, the Nicaraguan army would be abolished. 
+Some Nicaraguan politicians wanted both an army and a police con- 
+stabulary, each separate from and equal to the other, The United States 
+wanted a constabulary and no military at all, with U.S, Marines as the 
+constabulary’s trainers and commanding officers. Some Nicaraguan 
+congressmen countered that, at the very least, US, instructors should 
+be "under the supreme command of the Nicaraguan government” and 
+not controlled by the United States (Goldwert 1962, 26). There was 
+fairly general agreement in Nicaragua that any U.S, involvement with 
+the Nicaraguan constabulary had to be informal and “voluntary.” 
+Over the objections of the US. chargé d'affaires in Managua, U.S. 
+State Department officials and Nicaraguans hammered out an agree- 
+ment on the constabulary project, The new constabulary was to be 
+headed by Nicaraguans, U.S. volunteers would conduct the training 
+(FRUS 1925, 624), the constabulary was to be a combined “urban, rural, 
+and judicial police force,” which would not replace the regular army 
+(Millett 1977, 43). This plan was put into effect through a one-year 
+contract, arranged by the State Department, between the Nicaraguan 
+government and Major Calvin Boone Carter, U.S. Army, retired. Car- 
+ter, who in 1898 had established the Philippine constabulary, was to be 
+chief of Nicaragua's new constabulary and head of the School of Police 
+Instruction. Carter was paid $600 a month, a very substantial income at 
+the time, and an additional $1,000 for his four ULS. assistants (Millett 
+1977, 43). 
+
+
+===== PDF PAGE 53 =====
+“Gunboat" Policing 33 
+Carter landed on July 25, 1925, at Bluefields on Nicaragua's east 
+coast, and his first official visit was with General Luis Mena, the prov- 
+ince’s governor, whom Carter described as a “famous old-time rebel.” 
+General Mena had been Nicaragua's minister of war under President 
+Adolfo Diaz but had taken up arms against his commander-in-chief 
+because, according to Mena, President Diaz had sold Nicaragua out to 
+the United States (Arévalo 1961, 69). Mena had wanted to become 
+Nicaragua's president—which meant ousting Diaz (Millett 1977). The 
+coup had failed. 
+For Carter, General Mena symbolized all that was wrong with Nic- 
+aragua: he lacked military discipline, was jealously self-interested, and 
+lacked vision beyond what he could gain from controlling local poli- 
+tics. According to Carter, at their first meeting, General Mena lay “ina 
+hammock with a machine gun close beside him, three rifles leaning 
+against the wall, and two bottles of brandy on the floor, all within easy 
+reach." Such a first impression must have reinforced Carter's belief that 
+Nicaraguan politics were like “an old-fashioned family feud” (Carter 
+1927, 312-13), 
+Carter later explained that during his twenty months in Nicaragua, 
+there were four “revolutions,” a reality of Nicaraguan life that had 
+made the constabulary’s work extremely complicated. Indeed, in such a 
+highly charged political environment, Carter's new constabulary was 
+regarded with suspicion from the very beginning. Competing Nic- 
+araguan politicians worried about which side the constabulary would 
+take in any political conflict (Carter 1927, 315). In particular, one 
+nervous Nicaraguan military commander asked Carter what stand the 
+new constabulary would take in the event of a revolution. Carter's 
+response was that his constabulary would “try to suppress uprisings and 
+support the President,” to which the officer responded: What “Sf we had 
+a President we didn’t like” Carter concluded from this exchange that 
+‘no President of Nicaragua would dare appoint any but his nearest 
+relatives to [the constabulary's} high command" (Carter 1927, 317), a 
+fact that would surely lead to politicization. 
+Although apparently troubled by the new constabulary’s being inex- 
+tricably linked to shifting political power and a likely pawn in any 
+political disputes, Major Carter in fact responded to these political 
+pressures in kind. Within months of his arrival in Nicaragua, Carter 
+“actively . . . comfort{ed] . . . and aidfed]" Emiliano Chamorro, the 
+former Conservative Party foreign minister and President Solérzano’s 
+
+
+===== PDF PAGE 54 =====
+34 Political Policing 
+political rival, in a successful revolt against the Solérzano government 
+(Goldwert 1962, 27). Ironically, on his departure from Nicaragua, Car- 
+ter complained that his constabulary had been a failure because the 
+Solérzano government, which Carter had helped to overthrow, had not 
+given his constabulary sufficient support to get the new constabulary 
+off the ground. 
+In 1927 the United States again attempted to establish a “nonpar- 
+tisan” constabulary in Nicaragua. This time, after another ULS. military 
+intervention, the constabulary had a much better chance of living up to 
+Washington's expectations: U.S. Marines disarmed Nicaraguan govern- 
+ment forces and set up a constabulary officered by U.S, Marines them- 
+selves. Shortly afterward, in order to keep any of Nicaragua's other 
+internal security forces from undermining the ULS.-backed constabu- 
+lary, Washington rejected Managua’s bid to establish a separate police 
+force for the capital city. It was not until 1931, after the United States 
+had established a firm presence in Nicaragua, that the U.S. “finally 
+agreed to the formation of a locally financed municipal police force , . . 
+with the stipulation that such a force be . . , an integral part of the 
+(constabulary, i.c., National] Guard organization" (Goldwert 1962, 36). 
+This arrangement would foster controlled centralization of internal 
+security by subordinating local police to the U.S.-established National 
+Guard, which was in turn linked through national police officials to 
+Washington, 
+Police Intervention by Other Foreign States 
+The United States was not the only country in the early twentieth 
+century working to expand its political influence in Latin America by 
+training and directing police. In the early 1900s, French military mis- 
+sions were training police in Uruguay and Peru and for the Brazilian 
+state of Sao Paulo. The German government reorganized the Argen- 
+tine, Chilean, and Bolivian police (Fernandes 1974, 165). In 1927 Italy 
+under Mussolini sent a military mission to train the Ecuadorian police, 
+dispatching another mission in 1936 to reorganize the Bolivian con- 
+stabulary (G-2 Report 1936b). Some Latin American countries were 
+themselves training other regional police forces. For example, in the 
+1930s, Chile's Carabineiros were brought in to reorganize the Colom- 
+bian National Police (Dawson 1936). 
+During this pre-World War II period—when no one country had 
+hegemony over Latin American countries’ internal security—various 
+
+
+===== PDF PAGE 55 =====
+“Gunboat" Policing 35 
+countries vied for such influence. However, such involvement by Euro- 
+pean and Latin American states was much less invasive of national 
+politics than the ULS. military interventions into Panama, Nicaragua, 
+Haiti, and the Dominican Republic. The case of French trainers in 
+Brazil provides a comparative example. 
+French Police Training in So Paulo 
+In 1906 the French were invited to Sao Paulo state by Governor Jorge 
+Tibiricé. The French wanted to check German influence in Latin Amer- 
+ica, gain political and ideological influence in Brazil, and secure 
+favored-nation trading status with South America’s largest country (Fer- 
+nandes 1974, 157), A French military mission arrived in Sao Paulo at a 
+time when the state's police forces were already being reorganized by 
+Brazilians. In fact, So Paulo had been one of the first Brazilian states to 
+“professionalize" and reorganize its state police; in 1901 the police took 
+a new name, Forga Priblica, and began to be upgraded, These changes 
+were along the lines of changes at the national level. 
+In 1889, with the fall of the Empire of Brazil and proclamation of 
+the Federal Republic, a great many formerly centralized government 
+powers were transferred to the Brazilian states—successors to the impe- 
+rial provinces, Even under the monarchy, maintaining public order had 
+been the responsibility and prerogative of the provinces, although in 
+fact controlled more locally (see Holloway 1993). Under the new re- 
+public, many state governors strengthened their power vis-2-vis both 
+local poderosos and the central government by upgrading the state po- 
+lice, In fact, according to Love (1980), during Brazil's First Republic 
+(1889--1930), it was the state governors—rather than the Brazilian cen- 
+tral government—who “increasingly restricted the power of the rural 
+seigneurs” (p. 126). 
+Sao Paulo’s Governor Tibirigd (1904-1908), following this centraliz- 
+ing lead, wanted French military officers to further professionalize his 
+police, arguing that a well-trained Forca Ptiblica would allow him to 
+break the political stranglehold of local oligarchs and. regulate labor 
+unrest, as well as protect Sido Paulo state against federal government 
+incursions. Because Governor Tibirig4’s upgrading of Sao Paulo's Forga 
+Pablica occurred at the expense of the coffee planters’ personal militias, 
+not surprisingly, his plan had “something less than enthusiastic support 
+from the landowners" (Love 1980, 126). 
+Labor unrest was also on the governor's mind. Indeed, the governor's 
+
+
+===== PDF PAGE 56 =====
+36 Political Policing 
+request for French training for state police forces had come just one 
+year after workers at the Paulista Railway Company had staged Sao 
+Paulo's most important strike of the early twentieth century (Dallari 
+1976, 89). Apparently the poor police performance against strikers 
+had. convinced Tibirigé that his police needed more preparation for 
+labor unrest. 
+Furthermore, a reorganized state police would improve Sdo Paulo's 
+capacity to resist Brazilian federal government encroachment on the 
+state's power. The most immediate threat had been generated by a feud 
+between Sao Paulo state officials and Brazilian president Francisco 
+Rodrigues Alves (1902-1908) over the governor's proposed federal 
+“valorization” program.' It would require the federal government's co- 
+operation with S&o Paulo state in subsidizing the state's coffee crops. 
+But this policy angered other regions’ agricultural interests (Love 1980, 
+45-47). Indeed, Tibirigd’s valorization proposal was hotly opposed by 
+President Alves, a northeasterner with a solid base of support among his 
+region's sugar interests, They wanted federal subsidies for their product 
+instead. 
+By 1906 the dispute between Sao Paulo planter interests and the 
+federal government had become so heated that the Jornal do Comercio, a 
+conservative business-oriented newspaper, urged President Alves to 
+send a warship to block coffee shipments from leaving Sido Paulo's port 
+of Santos (Fernandes 1974, 161). Probably not at all by chance, the 
+French training mission arrived in Sado Paulo on March 21 of that same 
+year to reorganize the state police forces: if nothing else, a profession- 
+alized state police might be able to protect Sado Paula from federal 
+government intervention. 
+But there was national resistance to the French training mission. 
+Brazilian newspapers complained that French training would create 
+“Imperialism by the States”turning So Paulo into the “Prussia of 
+Brazil” (in Fernandes 1974, 161). One Brazilian journalist, fearful that 
+French training would undermine Brazilian “national unity,” pointed out 
+that if each state contracted with foreign advisors for police training, 
+Parana state would have to secure the Germans to counterbalance 
+French influence in neighboring Sao Paulo; Santa Catarina would need 
+to invite the Russians to offset Parana’s German-trained police; and Rio 
+Grande do Sul state would have to counter by hiring Japanese trainers 
+to offset Santa Catarina’s Russian-trained police, and so on (Fernandes 
+1974, 158). 
+
+
+===== PDF PAGE 57 =====
+“Gunboat" Policing 37 
+Even members of the Forga Publica themselves granted neither the 
+need for, nor the legitimacy of, French training (Fernandes 1974, 160). 
+In fact, some of these state police physically attacked their French 
+trainers. Moreover, French training angered Sao Paulo City police 
+forces: It seemed blatantly partisan to give one arm of Sao Paulo's 
+social-control apparatus, the Forga, training, modern equipment, and 
+higher pay while virtually neglecting the city's own police forces (Fer- 
+nandes 1974, 160). 
+There was also increasing conflict between Sdo Paulo's state police 
+and the Brazilian army. On the one hand, the Forga's increasing size 
+posed a potential threat to the federal military's role in protecting the 
+unity of the country. For example, by 1908, the Forga had an active 
+strength of 5,000 men, growing by the mid-1920s to 14,000 (Love 
+1980, 127). The army then had only 5,675 troops in Sao Paulo state 
+(McCann 1977, 242), outnumbered almost three to one by the Forga 
+Publica, Moreover, after 1910, Forga officers were paid as well as, or 
+better than, federal army officers, and the Forga had its own hospital, 
+social insurance programs, and a primary school for enlisted men— 
+many of them illiterate or foreign-born (Love 1980, 127), By the 1920s, 
+the Forga Pablica even had an air unit, organized and trained by Orton 
+Hoover—a relative of the U.S, consul in Sdo Paulo, Charles $, Hoover 
+(Brown 1920). Thus there was good reason for federal officials to sus- 
+pect that Sdo Paulo's modernizing of its police might make these forces 
+more loyal to the state than to federal authorities, a suspicion that grew 
+quickly into a reality. 
+Yet at the same time the professionalization and upgrading of Sao 
+Paulo's Forga Pablica did not fully guarantee their support of the gover- 
+nor'’s needs and expectations. For example, in Sao Paulo city’s 1917 
+strike, elements of the Forga refused to take action against striking 
+workers, The police rebels “identified with the workers... because of 
+[the police force's]... own low wages” (Dallari 1976, 92). And in 1924 
+a group of police from the Forga Publica defied the governor by joining 
+a rebel army in its big march across Brazil, led by a group of lieutenants 
+(the Tenentes) who had revolted two years before at Rio's Fort Copaca- 
+bana against President Artur Bernardes’ support for Brazil's planter- 
+dominated federal system. 
+This “Prestes Column," under its leader Luis Carlos Prestes, one of 
+the original rebel Tenentes, marched across thousands of miles of Brazil 
+in two and a half years (Flynn 1978, 45-47; Levine 1970; Love 1980). 
+
+
+===== PDF PAGE 58 =====
+38 Political Policing 
+Some regiments of the Sao Paulo Forga Publica defied the governor and 
+joined five thousand other dissidents identified with the Tenentes 
+against a rival federal government force of more than twenty thousand. 
+These rebels kept Sao Paulo city in their own hands for eighteen days 
+(Flynn 1978, 45). 
+The governor's response to this disloyalty from elements of his Forga 
+Publica was in fact to increase the Forga's strength from 8,829 to 
+14,000, replacing those who had allied with the Tenentes with recruits 
+whose loyalty could be newly shaped. The governor granted pay 
+bonuses to those officers and soldiers who had known “how to defend 
+and uphold the basic institutions of the nation and the state.” He in- 
+stituted military-style training, uniforms, equipment, and sophisticated 
+arms and ammunition for the newly reconstituted Forga Ptiblica (Dal- 
+lari 1976, 94) and awarded fringe benefits comparable to those of other 
+state employees. 
+Love argues, however, that the Forga Piblica’s “professionalization 
+was probably a direct cause of its officers’ participation in the 1924 
+[Tenente] rebellion—[in other words] modernization had its ideologi- 
+cal side effects” (Love 1980, 128). In any case, the state's governor soon 
+took steps to create a police force more predictably loyal to his interests 
+by offering special rewards and further professionalization, often with 
+assistance from the French, 
+Comparative Internationalizing of Policing 
+There are many parallels between the French training of Sdo Paulo's 
+Forga Priblica and ULS. establishment of the Nicaraguan and Haitian 
+constabularies. In the first place, these police projects were initiated at 
+times when the host country or region was in great political turmoil. In 
+Sao Paulo, French trainers were brought in during rising foreign immi- 
+gration into Brazil with concomitant labor unrest-~all associated with 
+threatened federal intervention in Sao Paulo. Likewise, U.S. establish- 
+ment of Nicaragua's and Haiti's constabularies came not only when the 
+United States was expanding into markets and resources abroad but 
+also while local factionalism and conflict threatened these expansionist 
+designs both in and of themselves and because they increased the 
+possibility of European intervention. 
+Both French training of Sao Paulo state police forces and ULS. estab- 
+lishment of the Haitian and Nicaraguan constabularies nurtured cen- 
+
+
+===== PDF PAGE 59 =====
+“Gunboat" Policing 39 
+tralization of internal control and facilitated political manipulation by 
+those controlling police centralization. For example, in Sao Paulo, 
+French training and the governor's other steps to professionalize the 
+Forga helped increase the governor's control over internal security, 
+reduce the power of competing local and regional oligarchs, and. en- 
+hance the governor's political power. In Nicaragua and Haiti, the ULS.- 
+organized and -controlled police constabularies increased centraliza- 
+tion of internal control and introduced a new balance of power into 
+national politics—with the U.S, becoming a central player in this 
+power nexus. 
+But in both cases, foreign police assistance in fact exacerbated local 
+public and political turmoil. There was conflict over the legitimacy of 
+French training within Sao Paulo state itself, between S30 Paulo and 
+other Brazilian states, and between Sao Paulo and the Brazilian federal 
+government. The training also generated. conflict among the forces of 
+social control themselves—between different levels of police within 
+Sao Paulo and between the state police and the federal military, thus 
+leading to a devolution of control toward more security force violence. 
+In Nicaragua, the establishment of new constabulary forces gener- 
+ated conflict among the Nicaraguans, even among those who had co- 
+operated initially in setting up a new constabulary, and the U.S.- 
+established constabulary then became involved in a coup against the 
+elected Nicaraguan president, Likewise, the use of Haiti's Garde to 
+enforce a forced-labor law fueled peasant resistance to the Haitian 
+government and its constabulary, a Haitian constabulary officer and. a 
+ULS. Marine led an assassination mission against a political foe of the 
+LULS. occupation. The Nicaraguan constabulary and the Haitian Garde 
+in short order had become highly politicized, and an arm of external 
+authoritarian control, conjoined ta the beginnings of devolution. 
+However, as the examples illustrate, foreign police training and cen- 
+tralizing does not necessarily make recipient police more loyal to those 
+controlling their training. In Nicaragua, the constabulary that Carlos 
+Solérzano’s government allowed the United States to establish and 
+train led to a coup against his own regime. Sao Paulo's Forga Publica 
+demonstrated at least twice that foreign training and professionaliza- 
+tion provided no insurance against police disloyalty to state power. 
+Indeed, Love suggests that the ideological content of French training 
+may have actually helped create Forga officers’ support for the Tenente 
+antigovernment movement (Love 1980, 128). 
+
+
+===== PDF PAGE 60 =====
+40 Political Policing 
+Political Policing: Internationalization, Centralization, 
+and Devolution 
+Such disloyalties notwithstanding, public officials and politicians in 
+diverse, including international, cultural settings have recognized that 
+professional police can help them maintain and consolidate political 
+power—whether at the neighborhood, municipal, regional, national, or 
+international levels. Within systems of unequal distribution of political 
+power, one group, political faction, class, or nation-state can use its 
+more centralized control over police to enhance its political advantages 
+over those who do not have control over their police. Yet as the pre- 
+vious examples have suggested, such political manipulation of the po- 
+lice can lead to a partial devolution of the social-control system— 
+ranging from minor forms of insubordination to police-initiated coups. 
+This has often been followed by efforts to increase government control 
+over internal security forces through forms of police professionaliza- 
+tion that promote increased centralizing and militarizing of policing, 
+and thus their nonlocal, authoritarian character, without, however, in- 
+creasing their resistance to devolution, as we shall see. 
+
+
+===== PDF PAGE 61 =====
+3 "Good Neighbor" Policing 
+By the early 1930s, the US.-established constabularies in Central 
+America and the Caribbean had become powerful National Guards that 
+could be used to take over executive power. Inthe Dominican Republic, 
+for example, president Rafael Leonidas Trujillo Molina had risen from 
+poverty through the ranks of his country’s National Guard to build and 
+consolidate his power over political and social life, “armed with... [his] 
+nation’s first modern army"—the US.-established and -supported con- 
+stabulary that had become the National Guard (Goldwert 1962, 21). 
+When LS. Marines withdrew from Nicaragua in 1933, they left 
+Anastasio Somoza as chief of the National Guard. The former minister 
+of foreign affairs, he soon became Nicaragua's strongman president. 
+Somoza had created, as “Chief of the Guard, .. . a third political 
+force... {that reduced] the historical [political] parties [to]... political 
+midgets” (Goldwert 1962, 47). Through the same process, as Haiti's 
+ULS.-trained Garde grew into a decisive force in national polities, Fran- 
+cois "Papa Doc” Duvalier used this national gendarmerie to consolidate 
+his position as President-for-Life. 
+Washington had learned. by the 1930s that establishing and training 
+a foreign country’s police gave the United States strong influence over 
+that country’s local politics. Yet in the 1930s internationalizing ULS. 
+influence through police assistance had to be indirect if the U.S. were 
+to uphold its asserted role as Latin America’s “Good Neighbor” and 
+demonstrate an “aversion to use of force as an instrument of national or 
+international foreign policy.” As Latin America’s “Good Neighbor,’ the 
+United States had announced that it would respect the “equal sov- 
+ereignty of states and justice under international law’ (Haines 1977, 
+373~74). 
+Under such ideological constraints, the process of internationalizing 
+US. assistance to foreign police took two relatively indirect and politi- 
+cally invisible forms: through treaties and agreements allowing the 
+exchange of suspects and information, and through a country's request 
+for FBL assistance in establishing new secret service organizations. The 
+success of such U.S. penetration turned in part on the dictatorial cli- 
+mate in some of the Latin American countries receiving U.S. police 
+assistance, and in part on the quality of relations between high US. 
+diplomatic officials and the recipient country’s national and local police 
+
+
+===== PDF PAGE 62 =====
+42 Political Policing 
+officials, who may not always have represented the interests of their 
+own nation’s executive power in requesting ULS. police assistance. 
+Centralizing Power 
+As far as the indirect nature of police assistance was concerned, the 
+1930s was a relatively easy time for the United States to play the role of 
+Latin America’s “Good Neighbor": more than half these governments 
+were under strongman rule (Haines 1977, 373-74), Often held in place 
+by a strong military, leaders were interested in quick action to gain 
+further control over regional and local police forces, Latin American 
+leaders eager to consolidate their power often sought foreign assistance 
+in reorganizing their national police forces—as in 1935 when Colom- 
+bian central government officials contracted with Chile's Cuerpo de Carabineros to make the Colombian National Police into “the largest 
+armed force in the country." At the end of such training, according toa 
+US, military attaché's communiqué, Colombian government officials 
+planned to absorb the police of "the various [provinces]... into... the 
+[new] National Police” organization (Greene 1936), presumably to 
+block any local police force in Colombia from threatening the central 
+government's power, 
+For this reason, the new strongmen also sought to block foreign 
+governments from assisting regional and local police systems—ag in 
+1933 when Brazilian president Getdlio Vargas prohibited a Minas 
+Gerais state governor from contracting with the French military to train 
+that state's police, as Sio Paulo state had done in the early twentieth 
+century, 
+In Argentina a military coup had installed José Uriburu as the new 
+strongman president in 1930. Uriburu followed a pattern of political 
+consolidation like that of Brazil’s Getilio Vargas, but less successfully, 
+given the fragile political coalition on which he depended, Uribura 
+subordinated all state and local forces to the national military, and then, 
+to further stabilize his regime, he began upgrading the Buenos Aires 
+Capital City’s police forces (Rodriguez 1981). Crowd and riot control 
+tactics and technologies for the police were improved. Ford patrol cars 
+were purchased to help the police deal more efficiently “with riots, 
+fugitive gunmen, and any other cases . . . [where police] presence may 
+be considered necessary” (Fleming 1931, 2). Other improvements in- 
+cluded a new automobile and motorcycle “flying squad” with a “wireless 
+receiving and transmitting apparatus, portable machine guns, and ex- 
+
+
+===== PDF PAGE 63 =====
+"Good Neighbor" Policing 43 
+plosive tear gas bombs." The radio equipment had been purchased from 
+the ULS. Standard Electric Company (Fleming 1931, 2). 
+Uriburu also upgraded his police system by linking Buenos Aires's 
+250 kilometers of private telephone wires into a “close-meshed net to 
+assist in the capture of escaping criminals,” according to the ULS. mili- 
+tary attaché (Fleming 1931, 1). This communications network was con- 
+nected to more than two hundred street emergency call boxes to facili- 
+tate police and military control of crime and civil disturbance. The 
+Union Telefonica, a subsidiary of U.S.-owned International Telephone 
+and Telegraph, had established the police communication system for 
+exclusive use by the army, which, during the 1930 military coup, had 
+been forced "to use the public telephone system [, causing] much con- 
+fusion” (Fleming 1931, 2). 
+A series of Argentinian governments throughout the 1930s, includ- 
+ing the liberal civilian Agustin P. Justo's administration (1932-1938), 
+built up a systematic intelligence network, in which “political policing 
+was... perfected and bureaucratized” (Kalmanowiecki 1994, 12) 
+through the creation of "routine procedures for monitoring, containing, 
+scanning, and eventually breaking up” activities deemed dangerous to 
+the state (p, 6). According to Kalmanowiecki, this surveillance appara- 
+tus, which “increased the state's capacity to act at the national level” 
+(1994, 11), embraced the police system. "The repressive practices [that 
+had been] inaugurated under the [military] Uribura regime endured 
+and were even perfected and further developed during the [civilian] 
+Justo administration [, when] the police [apparatus] underwent further 
+centralization and nationalization’ (Kalmanowiecki 1994, 5), 
+About the same time as Uriburu had come to power in Argentina, 
+Getilio Vargas~Brazil’s civilian strongman—assumed Brazil's presi- 
+dency through a military coup. Like Uriburu, Vargas recognized the 
+importance of controlling the police. For Vargas, this meant taking 
+swift action against any state governor who might reinforce state police 
+forces and threaten Vargas’s own central government's power. Thus, 
+one of Vargas's first moves was to limit the state governments’ budgets 
+for police (Love 1980, 259), taking special action against Sao Paulo's 
+powerful Forga Paiblica by nationalizing its air wing. 
+Many Brazilian state governors moved quickly to circumvent Vargas's 
+restrictions on their control over state police by increasing budget- 
+ary support for local police (Love 1980). Consequently, by 1936 Sao 
+Paulo's city police were receiving more funding than the state police 
+‘Love 1980, 258). According to Love, such budgetary shifts repre- 
+
+
+===== PDF PAGE 64 =====
+44 Political Policing 
+sented not only the governors’ longer-term motive to suppress strikes 
+and fight urban crime but also a more immediate “eagerness to evade 
+Vargas’ stringent limitations on state [police] expenditures" (Love 1980, 
+259), 
+In Minas Gerais state Gtistavo Capanema, the acting State Federal 
+Interventor (a federally appointed governor), in 1933 attempted to 
+bring in a professor at the Lausanne Institute of Police Science in 
+Switzerland to “reform” the state police. When this plan fell through, 
+Capanema approached the French government fora military mission to 
+provide such training (Capanema 1933). Capanema’s attempt “to en- 
+gage foreign specialists for the Minas Gerais state troops” was viewed 
+by the Vargas administration “with . . . utmost distaste” because the 
+federal government thoroughly disapproved of state officials’ contract- 
+ing for foreign upgrading of their states’ police forces (G-2 Report 
+1933, 1). The ULS. military attaché in Rio reported that Minas Gerais 
+governor Capanema was using the threat of bringing in foreign police 
+trainers to gain political leverage against Vargas; if Vargas would name 
+Capanema the state's permanent interventor, Capanema would aban- 
+don his request for French assistance, In the end, Capanema was given 
+the permanent interventor post, and Vargas detailed army officers to 
+train Minas Gerais police, a 
+The U.S. military attaché favored this political deal because it 
+would make Minas Gerais police into “an auxiliary force of the Federal 
+army, .. . [an] important advance toward direct control fof such police] 
+by the federal military authorities” (G-2 Report 1933, 2). But many 
+Brazilian state officials did not share the ULS, attaché's perspective. A 
+political official in So Paulo—Minas Gerais’s neighbor to the south- 
+west-—refused to support the Vargas “dictatorship [because it] has dis- 
+solved state militias [i.e., state police]... toward... the partial or total 
+suppression of the autonomy of the states {themselves], . . , espe- 
+cially. . . of Sdo Paulo, Minas Gerais, and Rio Grande do Sul” (Mar- 
+condes 1932). Among Brazil's most politically and economically impor- 
+tant states at that time, such opposition was a political threat to Vargas's 
+fragile ruling coalition. 
+One faction of this coalition, the Liberal Alliance, favored a strong 
+centralized government—Vargas’s own position. Another faction, the 
+Constitutionalists, wanted to block any new federal encroachment on 
+state autonomy—the position of Sdo Paulo's political leaders, for exam- 
+ple. At the very least, the Constitutionalists wanted their own state 
+parties to share power with the federal government. How such powe 
+

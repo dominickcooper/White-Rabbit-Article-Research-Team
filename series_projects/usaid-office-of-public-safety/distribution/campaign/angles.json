@@ -1,0 +1,118 @@
+[
+  {
+    "angle_id": "ANGLE-P01-001",
+    "angle_name": "DOCUMENT_LANGUAGE",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-017",
+      "CLM-USAIDCIA-P01-018",
+      "CLM-USAIDCIA-P01-019",
+      "CLM-USAIDCIA-P01-020"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-002",
+    "angle_name": "AGENCY_BOUNDARY",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-015",
+      "CLM-USAIDCIA-P01-016",
+      "CLM-USAIDCIA-P01-017",
+      "CLM-USAIDCIA-P01-024"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-003",
+    "angle_name": "KENNEDY_POLICY",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-001",
+      "CLM-USAIDCIA-P01-002",
+      "CLM-USAIDCIA-P01-003",
+      "CLM-USAIDCIA-P01-004",
+      "CLM-USAIDCIA-P01-005"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-004",
+    "angle_name": "TIMELINE_ESCALATION",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-001",
+      "CLM-USAIDCIA-P01-006",
+      "CLM-USAIDCIA-P01-010",
+      "CLM-USAIDCIA-P01-016",
+      "CLM-USAIDCIA-P01-023"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-005",
+    "angle_name": "COLD_WAR_COUNTERINSURGENCY",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-002",
+      "CLM-USAIDCIA-P01-005",
+      "CLM-USAIDCIA-P01-007",
+      "CLM-USAIDCIA-P01-010",
+      "CLM-USAIDCIA-P01-018"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-006",
+    "angle_name": "MONEY_AND_STRUCTURE",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-012",
+      "CLM-USAIDCIA-P01-013",
+      "CLM-USAIDCIA-P01-014",
+      "CLM-USAIDCIA-P01-021",
+      "CLM-USAIDCIA-P01-022"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-007",
+    "angle_name": "INTERAGENCY_STRUCTURE",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-007",
+      "CLM-USAIDCIA-P01-008",
+      "CLM-USAIDCIA-P01-009",
+      "CLM-USAIDCIA-P01-015",
+      "CLM-USAIDCIA-P01-024"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-008",
+    "angle_name": "POLICE_ASSISTANCE",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-003",
+      "CLM-USAIDCIA-P01-004",
+      "CLM-USAIDCIA-P01-010",
+      "CLM-USAIDCIA-P01-011",
+      "CLM-USAIDCIA-P01-014"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-009",
+    "angle_name": "COVERT_CARVEOUT",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-008",
+      "CLM-USAIDCIA-P01-016",
+      "CLM-USAIDCIA-P01-017"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  },
+  {
+    "angle_id": "ANGLE-P01-010",
+    "angle_name": "BUREAUCRATIC_EVOLUTION",
+    "supporting_claim_ids": [
+      "CLM-USAIDCIA-P01-004",
+      "CLM-USAIDCIA-P01-015",
+      "CLM-USAIDCIA-P01-017",
+      "CLM-USAIDCIA-P01-021",
+      "CLM-USAIDCIA-P01-023"
+    ],
+    "spoiler_scope": "CURRENT_PART"
+  }
+]

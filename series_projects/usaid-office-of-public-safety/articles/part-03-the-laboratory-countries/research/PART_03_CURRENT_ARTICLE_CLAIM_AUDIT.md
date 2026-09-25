@@ -1,0 +1,76 @@
+# Part 3 Current Article Claim Audit
+
+Audited file: `article_workspace/PART_03_FINAL.md`  
+Purpose: classify the current article's substantive claims without rewriting prose.
+
+| Audit ID | Current phrase / claim | Current section | Current source | New claim ID | New status | Action | Reason |
+|---|---|---|---|---|---|---|---|
+| CA-001 | CIA inquiry found no Air America policy, senior order, or knowing American-pilot proof. | THE DENIAL | Church Committee/CIA inquiry summary | P3-C001-P3-C003 | VERIFIED | KEEP | Correctly scoped official findings; split into separate claims in rewrite. |
+| CA-002 | Opium could travel because local loading control was incomplete. | THE DENIAL | Church Committee | P3-C004 | VERIFIED | KEEP | Strong official concession. |
+| CA-003 | CIA maintained relationships with narcotics-connected people and prioritized the war. | THE DENIAL | Church Committee/CIA history | P3-C005-P3-C006 | VERIFIED | STRENGTHEN | Retain with exact pages and separate knowledge from priority. |
+| CA-004 | The denial settled policy but not carriage, knowledge, or continuing relationships. | THE DENIAL | Composite | P3-C001-P3-C006 | INFERENCE_ALLOWED | KEEP | Accurate opening contradiction. |
+| CA-005 | Several pipelines ran through the same political terrain. | FOLLOW THE PIPELINE | Composite dossier | P3-C007 | INFERENCE_ALLOWED | QUALIFY | Keep plural and preserve institutional boundaries. |
+| CA-006 | Foreign police moved through training while information moved through liaison. | FOLLOW THE PIPELINE | Part 2 record | P3-C008-P3-C009 | VERIFIED_WITH_ATTRIBUTION | REPLACE_SOURCE | Tie to the Part 2 continuity matrix rather than generic wording. |
+| CA-007 | USAID was not CIA, but overt access could be useful to intelligence. | FOLLOW THE PIPELINE | Part 2/Marchetti/Agee | P3-C007-P3-C009 | INFERENCE_ALLOWED | KEEP | Boundary is correct; callback needs source-specific form. |
+| CA-008 | The article's fixed pattern is strategic objective → useful ally → narcotics → knowledge → weakened enforcement. | FOLLOW THE PIPELINE | Synthesis | P3-C126-P3-C127 | INFERENCE_ALLOWED | QUALIFY | Applies to selected cases, not every theater or actor. |
+| CA-009 | MSU designed centralized Vietnamese police records and identification. | BEFORE THE DRUGS CAME THE FILES | MSU primary reports | Continuity-only | VERIFIED | MOVE | Condense to Part 2 callback; approved structure no longer needs the Vietnam detour. |
+| CA-010 | The Civil Guard reached borders/ports/airfields and 87 Vietnamese officers trained in the U.S. | BEFORE THE DRUGS CAME THE FILES | MSU reports | Continuity-only | VERIFIED | REMOVE | True but narratively displaced by the newly documented Laos/IPA spine. |
+| CA-011 | The same machinery could serve policing, surveillance, counterinsurgency or liaison. | BEFORE THE DRUGS CAME THE FILES | MSU/series synthesis | P3-C007 | INFERENCE_ALLOWED | MOVE | Reduce to one sentence in Section 3. |
+| CA-012 | NSAM 177/OPS/IPA supplied a public program with intelligence junctions. | WHAT THE ACCESS BOUGHT | Parts 1-2 | P3-C008-P3-C010 | VERIFIED_WITH_ATTRIBUTION | REPLACE_SOURCE | Use exact Part 2 continuity facts; do not imply all participants were recruited. |
+| CA-013 | Police assistance supplied both equipment and relationships. | WHAT THE ACCESS BOUGHT | Part 2/Agee | P3-C007-P3-C009 | INFERENCE_ALLOWED | KEEP | Central continuity concept, but needs compact callback. |
+| CA-014 | Northern Laos had an opium economy before CIA arrived. | THE GOLDEN TRIANGLE | McCoy | P3-C011 | VERIFIED_WITH_ATTRIBUTION | KEEP | Essential conventional baseline. |
+| CA-015 | The CIA war required a proxy army, air transport, strips and protection in the same geography. | THE GOLDEN TRIANGLE | McCoy/official history | P3-C039, P3-C126 | VERIFIED / INFERENCE_ALLOWED | KEEP | Split infrastructure from economic implication. |
+| CA-016 | Vang Pao's army drew from opium-growing communities and relied on CIA/Air America support. | THE ARMY THAT GREW WHERE OPIUM GREW | McCoy/Church/Leary | P3-C011, P3-C039 | VERIFIED_WITH_ATTRIBUTION | KEEP | Strong geography/logistics claim; no blanket trafficking implication. |
+| CA-017 | McCoy's villagers, officials and pilots described Air America/military carriage. | THE ARMY THAT GREW WHERE OPIUM GREW | McCoy | P3-C023-P3-C036 | VERIFIED_WITH_ATTRIBUTION | STRENGTHEN | Replace summary with granular named accounts and exact pages. |
+| CA-018 | Independent testimony makes basic carriage hard to dismiss. | THE ARMY THAT GREW WHERE OPIUM GREW | McCoy witness cluster | P3-C028-P3-C032, P3-C040 | INFERENCE_ALLOWED | QUALIFY | Independence is at witness level and does not prove policy/pilot knowledge. |
+| CA-019 | CIA awareness is more plausible than universal pilot knowledge. | THE ARMY THAT GREW WHERE OPIUM GREW | Church/McCoy | P3-C003, P3-C005 | VERIFIED / INFERENCE_ALLOWED | KEEP | Strong evidence asymmetry. |
+| CA-020 | Air America pilots were not customs officers; incomplete control was not policy. | WHAT AIR AMERICA CARRIED | Church Committee | P3-C001-P3-C004 | VERIFIED | KEEP | Fair conventional case. |
+| CA-021 | Inquiry findings rejected policy/order/knowing pilots. | WHAT AIR AMERICA CARRIED | Church Committee | P3-C001-P3-C003 | VERIFIED | MOVE | Consolidate full rebuttal in Section 17 after brief opening use. |
+| CA-022 | Inquiry admitted possible carriage, suspected local employees and continuing contacts. | WHAT AIR AMERICA CARRIED | Church Committee | P3-C004-P3-C006 | VERIFIED | KEEP | Exact official admissions remain core. |
+| CA-023 | CIA-owned air system operated around known traffickers because war mattered more. | WHAT AIR AMERICA CARRIED | Church/McCoy | P3-C005-P3-C006, P3-C039 | VERIFIED / INFERENCE_ALLOWED | QUALIFY | “Around” and “priority” are supportable; do not imply the airline itself chose policy. |
+| CA-024 | No memo needed; preserving the alliance functionally protected the ecosystem. | THE WAR CAME FIRST | Synthesis | P3-C006, P3-C127 | INFERENCE_ALLOWED | MOVE | Keep the inference for Section 16, not as an independent fact section. |
+| CA-025 | A service can enable a trade it does not control. | THE WAR CAME FIRST | Synthesis | P3-C126-P3-C127 | INFERENCE_ALLOWED | QUALIFY | Use “selected systems/relationships,” not universal service responsibility. |
+| CA-026 | Golden Triangle production connected to servicemen and wider markets. | FROM OPIUM TO HEROIN | McCoy/official records | P3-C050 | VERIFIED | STRENGTHEN | Use the newly mapped broad official layer. |
+| CA-027 | No specific Air America load is traced to an American buyer. | FROM OPIUM TO HEROIN | Evidence-gap analysis | P3-C054, P3-C134 | VERIFIED | KEEP | Critical documentary break. |
+| CA-028 | The Laos case establishes a general operating principle later repeated by the Contras. | FROM OPIUM TO HEROIN | Synthesis | P3-C126-P3-C127 | INFERENCE_ALLOWED | QUALIFY | Compare mechanisms; do not imply one continuous organization or era. |
+| CA-029 | Contra record is crowded with narcotics allegations around useful logistics actors. | FROM OPIUM TO HEROIN | Kerry/OIG | P3-C105-P3-C119 | VERIFIED_WITH_ATTRIBUTION | MOVE | Rebuild actor by actor in Sections 13-14. |
+| CA-030 | Kerry found substantial evidence of drug smuggling and network use. | KERRY COMMITTEE | Kerry report | P3-C105 | VERIFIED | KEEP | Core official finding. |
+| CA-031 | State paid exactly $806,452.32/four companies; SETCO exact amount. | KERRY COMMITTEE | Kerry report | P3-C106-P3-C107 | PROHIBITED for exact reconstruction | QUALIFY | Use committee-attributed “more than $806,000”; transaction packet absent. |
+| CA-032 | Morales provided aircraft, pilots, training and money for access. | KERRY COMMITTEE | Kerry/OIG | P3-C108-P3-C109 | VERIFIED_WITH_ATTRIBUTION | KEEP | Preserve witness/finding separation. |
+| CA-033 | Betzner carried weapons south and cocaine back through Hull's sphere. | KERRY COMMITTEE | Kerry testimony | P3-C110 | VERIFIED_WITH_ATTRIBUTION | QUALIFY | Explicitly testimony; no manifest. |
+| CA-034 | Prosecutor believed powerful interests protected Hull. | KERRY COMMITTEE | Kerry testimony | P3-C111 | VERIFIED_WITH_ATTRIBUTION | KEEP | Attribute belief; do not state as adjudicated protection. |
+| CA-035 | Supply apparatus created aircraft/strips/crews and incentives to avoid questions. | KERRY COMMITTEE | Composite | P3-C105-P3-C111 | INFERENCE_ALLOWED | QUALIFY | Evidence supports mechanism in cases, not all components in one transaction. |
+| CA-036 | OIG Volume I found no CIA relationship with Ross/Blandón/Meneses or crack causation. | INSPECTOR GENERAL | CIA OIG I | P3-C137 | VERIFIED | KEEP | Required strong counterevidence. |
+| CA-037 | OIG Volume II rejected institutional conspiracy but documented uncomfortable cases. | INSPECTOR GENERAL | CIA OIG II | P3-C109, P3-C112-P3-C119 | VERIFIED | KEEP | Use case-level split, not report-summary section. |
+| CA-038 | Ten relevant people/organizations were known during Oct. 1986-Dec. 1987 and more could have been done. | INSPECTOR GENERAL | CIA OIG II | Existing OIG claim family | VERIFIED_WITH_ATTRIBUTION | KEEP | Retain only with exact OIG page in drafting pass. |
+| CA-039 | Hyde was retained because of fuel importance despite allegations. | INSPECTOR GENERAL | CIA OIG II | P3-C114-P3-C115 | VERIFIED | KEEP | Strong operational-value/enforcement case with allegation caveat. |
+| CA-040 | Practice varied; some allegations were referred or relationships ended. | INSPECTOR GENERAL | CIA OIG II | P3-C119, P3-C133 | VERIFIED | STRENGTHEN | Necessary counterevidence against a uniform protection thesis. |
+| CA-041 | 1982 MOU treated employees and nonemployees differently and omitted narcotics for mandatory nonemployee reporting. | MEMO BLIND SPOT | MOU/OIG II | P3-C112 | VERIFIED | KEEP | Strong primary structural evidence. |
+| CA-042 | DOJ noticed the gap in 1985; express coverage came in 1995. | MEMO BLIND SPOT | OIG II | P3-C113 | VERIFIED | KEEP | Chronology controlled. |
+| CA-043 | The MOU's effect is proved without protective intent. | MEMO BLIND SPOT | MOU/OIG II | P3-C112-P3-C113 | VERIFIED / INFERENCE_ALLOWED | KEEP | Appropriate distinction. |
+| CA-044 | Seal's DEA sting was compromised by political disclosure; proposed $1.5m diversion was rejected. | LAW ENFORCEMENT | Kerry | P3-C099-P3-C101, P3-C118 | VERIFIED / OPEN detail | QUALIFY | Keep operation/political disclosure; map camera/technical claims separately or omit. |
+| CA-045 | Bueso received accommodation linked to Contra concerns. | LAW ENFORCEMENT | Kerry | P3-C117 | VERIFIED_WITH_ATTRIBUTION | KEEP | Case-specific; full sentencing file absent. |
+| CA-046 | Enforcement stopped being merely criminal when national-security actors intervened. | LAW ENFORCEMENT | Composite | P3-C127 | INFERENCE_ALLOWED | KEEP | Strong synthesis if bounded to named cases. |
+| CA-047 | Brazil documents covert political action and USAID police modernization in parallel. | THEN THERE IS BRAZIL | Brazil primary/secondary corpus | P3-C120-P3-C121 | VERIFIED_WITH_ATTRIBUTION | CONDENSE | Preserve distinct channels and reduce geographic detour. |
+| CA-048 | Operation Brother Sam support and Washington alignment. | THEN THERE IS BRAZIL | U.S. government records | P3-C120 | VERIFIED_WITH_ATTRIBUTION | CONDENSE | One compact comparison paragraph, not a second main narrative. |
+| CA-049 | OPS strengthened communications, records, labs, mobility and training. | THEN THERE IS BRAZIL | Motta/OPS records | P3-C121 | VERIFIED_WITH_ATTRIBUTION | KEEP | Functionally important but should be shorter. |
+| CA-050 | USAID capacity strengthened institutions later used for repression. | THEN THERE IS BRAZIL / SECURITY STATE | Motta/Truth Commission/State | P3-C122-P3-C124 | INFERENCE_ALLOWED | QUALIFY | Capacity effect, not U.S. command or intent. |
+| CA-051 | American officials knew of torture and death-squad abuses. | SECURITY STATE | State reports/Truth Commission | P3-C122 | VERIFIED_WITH_ATTRIBUTION | KEEP | Preserve exact reporting and institution. |
+| CA-052 | Current Brazil record does not complete a U.S.-bound cocaine chain. | BRAZIL BREAK | Brazil corpus | P3-C123-P3-C124 | VERIFIED | KEEP | This is Brazil's controlling function. |
+| CA-053 | Association, knowledge, tolerance, protection and facilitation have different evidentiary weights. | SO WAS CIA TRAFFICKING | Composite | P3-C126-P3-C129 | INFERENCE_ALLOWED | STRENGTHEN | Rebuild from V3 claim groups; do not use labels as proof. |
+| CA-054 | Record does not establish a central CIA drug program or crack causation. | SO WAS CIA TRAFFICKING | Church/OIG | P3-C128, P3-C137 | VERIFIED / PROHIBITED boundary | KEEP | Central thesis limit. |
+| CA-055 | American covert operations knowingly preserved/materially enabled narcotics systems. | SO WAS CIA TRAFFICKING | Composite | P3-C126-P3-C127 | INFERENCE_ALLOWED | QUALIFY | Limit to Laos and selected Contra relationships; “materially enabled” needs mechanism. |
+| CA-056 | Conventional explanation: preexisting economies, autonomous crime, weak states and war chaos. | ORDINARY EXPLANATION | Composite | P3-C133 | INFERENCE_ALLOWED | KEEP | Serious rebuttal, not straw man. |
+| CA-057 | Repeated knowledge plus logistics becomes protection/policy effect. | PROBLEM WITH EXPLANATION | Composite | P3-C127 | INFERENCE_ALLOWED | QUALIFY | “Protection” must stay case-specific; distinguish effect from formal policy. |
+| CA-058 | Brazil fits the same repeated narcotics pattern. | PROBLEM WITH EXPLANATION | Brazil comparison | P3-C123-P3-C124 | PROHIBITED if commodity claim | OUTDATED_BY_NEW_RESEARCH | Brazil shows security/access comparison and evidentiary break, not narcotics continuity. |
+| CA-059 | The pipeline carried trainees, intelligence, records, weapons, cash, fuel and protection. | THE PIPELINE | Composite | P3-C007, P3-C126-P3-C127 | INFERENCE_ALLOWED | QUALIFY | Keep plural systems and avoid implying every item moved through one chain. |
+| CA-060 | USAID need not courier drugs and CIA need not own every shipment for choices to matter. | THE PIPELINE | Synthesis | P3-C126-P3-C129 | INFERENCE_ALLOWED | KEEP | Strong boundary if mechanisms are stated. |
+| CA-061 | Final “who kept it flying” line. | THE PIPELINE | Synthesis | P3-C126-P3-C127 | INFERENCE_ALLOWED | MOVE | Retain only if the C-123 heading is softened and the antecedent remains Air America/systemic. |
+| CA-062 | Mitrione teaser moves directly from all three systems to instructor/interrogation room. | Current ending | Part 4 scope | P3-C139-P3-C142 | PARTIAL | REPLACE_SOURCE | Use institutional fallback; Moran bridge remains open and famous torture claims are disputed. |
+
+## Audit outcome
+
+- The present article contains a strong Laos/Contra evidence spine, but its Vietnam material is too long for the approved architecture and its Brazil section is too large.
+- New Phase 2A material materially strengthens Sections 8-9 and requires replacing generic academy prose with source-specific claims.
+- The exact contractor figure, same-airframe implication, Course No. 8 wording, named IPA-PARU link and Moran bridge must not survive in categorical form.
+- This audit classifies claims only; it does not authorize prose reuse without checking the V3 ledger and quote ledger.

@@ -1,0 +1,3491 @@
+{
+  "mode": "READ_ONLY_EXISTING_ENGINE_HELPERS_NO_PACKAGE_OVERRIDE",
+  "engine_evidence_result": "NOT_A_CLEAN_AUTOMATED_PASS; manual evidence review required",
+  "core_asset_count": 10,
+  "alias": "WRR-USAIDCIA-P01-IG-REEL-003 shares TT-MEDIUM-002 audio",
+  "automatic_status_counts": {
+    "INFERENCE_SUPPORTED": 44,
+    "PARTIALLY_SUPPORTED": 6,
+    "UNSUPPORTED": 20,
+    "NONFACTUAL_FRAMING": 15,
+    "SUPPORTED": 18
+  },
+  "assets": [
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "duration": {
+        "estimated_words": 38,
+        "estimated_seconds": 15.8,
+        "duration_validation": "PASS"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "INFERENCE_SUPPORTED": 1,
+        "PARTIALLY_SUPPORTED": 1,
+        "UNSUPPORTED": 1,
+        "NONFACTUAL_FRAMING": 1
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "This July 1962 memo proposed a police office inside AID.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "One job: a repository of technical knowledge based on research into “controlling subversion and mass violence.”",
+          "claim_ids": "CLM-USAIDCIA-P01-018",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-02",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "That was part of the proposed job description.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-03",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Read the July memo.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-04",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "CTA"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+      "duration": {
+        "estimated_words": 138,
+        "estimated_seconds": 57.5,
+        "duration_validation": "NOT_APPLICABLE"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "NONFACTUAL_FRAMING": 2,
+        "INFERENCE_SUPPORTED": 2,
+        "SUPPORTED": 4,
+        "PARTIALLY_SUPPORTED": 2
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Why propose an AID budget line for “internal defense”?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-01",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The starting figures: looking back at FY1958, the July 1962 committee reported about $14 million across 21 countries for programs it called “AID programs.”",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-02",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Defense police programs: $5.8 million in five countries in that same fiscal year, according to the committee.",
+          "claim_ids": "CLM-USAIDCIA-P01-013",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "NUMERIC",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-03",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The recommendation was expansion: “very substantial increases” in the global FY1963 police-assistance program.",
+          "claim_ids": "CLM-USAIDCIA-P01-014",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-04",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The obstacle was the budget test.",
+          "claim_ids": "CLM-USAIDCIA-P01-014",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-05",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The committee proposed protecting police funds from competition with economic-development projects.",
+          "claim_ids": "CLM-USAIDCIA-P01-021",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-06",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "One proposed solution: a new AID line item for “internal defense” in the FY1964 budget.",
+          "claim_ids": "CLM-USAIDCIA-P01-022",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-07",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "An option—not proof that this budget line was enacted.",
+          "claim_ids": "CLM-USAIDCIA-P01-022",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-08",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The proposed budget label tells you how the committee justified police assistance: internal defense.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-09",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Save the funding trail.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-10",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "CTA"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+      "duration": {
+        "estimated_words": 135,
+        "estimated_seconds": 56.2,
+        "duration_validation": "NOT_APPLICABLE"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "INFERENCE_SUPPORTED": 7,
+        "SUPPORTED": 1,
+        "NONFACTUAL_FRAMING": 2,
+        "UNSUPPORTED": 1
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "The June 1962 directive put CIA and AID in the same personnel assignment: make qualified people with paramilitary skills available for impending crisis areas.",
+          "claim_ids": "CLM-USAIDCIA-P01-008",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-01",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "NSAM 162 also called for country internal-defense plans combining military, police, intelligence and psychological measures.",
+          "claim_ids": "CLM-USAIDCIA-P01-007",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "3",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-02",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Police assistance was being placed inside that wider plan—not discussed only as routine law enforcement.",
+          "claim_ids": "CLM-USAIDCIA-P01-006|CLM-USAIDCIA-P01-007|CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "RELATIONSHIP",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-03",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Then came a separate assignment to CIA: expand training and support for indigenous intelligence organizations, with other U.S. agencies contributing to the CIA-coordinated program.",
+          "claim_ids": "CLM-USAIDCIA-P01-006|CLM-USAIDCIA-P01-007|CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-04",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Read sections 4 and 8 together.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-05",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "One names CIA and AID for personnel availability.",
+          "claim_ids": "CLM-USAIDCIA-P01-006|CLM-USAIDCIA-P01-007|CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-06",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The other names CIA for intelligence support.",
+          "claim_ids": "CLM-USAIDCIA-P01-006|CLM-USAIDCIA-P01-007|CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-07",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Different jobs, written into the same directive.",
+          "claim_ids": "CLM-USAIDCIA-P01-006|CLM-USAIDCIA-P01-007|CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "COMPARATIVE",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-08",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "A directive tells us what officials were instructed to do.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-09",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "To establish what happened afterward, we would need implementation records.",
+          "claim_ids": "CLM-USAIDCIA-P01-006|CLM-USAIDCIA-P01-007|CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-10",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Open NSAM 162 beside the highlighted passages.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-11",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "CTA"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "duration": {
+        "estimated_words": 126,
+        "estimated_seconds": 52.5,
+        "duration_validation": "PASS"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "INFERENCE_SUPPORTED": 7,
+        "SUPPORTED": 3,
+        "PARTIALLY_SUPPORTED": 1,
+        "NONFACTUAL_FRAMING": 1
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "What happens when police assistance has to compete with economic development for money?",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In July 1962, an interagency committee looked back at fiscal 1958: about fourteen million dollars in twenty-one countries for what the report called AID programs.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-02",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Defense police programs cost five point eight million in five countries.",
+          "claim_ids": "CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-012",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-03",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The committee wanted substantial expansion.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-04",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "It also proposed protecting police money from competition with economic-development projects.",
+          "claim_ids": "CLM-USAIDCIA-P01-021",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-05",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "One option was a new AID budget line for fiscal 1964.",
+          "claim_ids": "CLM-USAIDCIA-P01-022",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-06",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Its proposed name: “internal defense.”",
+          "claim_ids": "CLM-USAIDCIA-P01-022",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-07",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Another was military-assistance funding, with the program kept in AID.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-08",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The memo was proposing ways to protect the money.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-09",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "It was not reporting that this new budget line had already been enacted.",
+          "claim_ids": "CLM-USAIDCIA-P01-022",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-10",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Police assistance, budgeted around an internal-defense rationale.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-11",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Follow the money through Part 1.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-12",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "CTA"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+      "duration": {
+        "estimated_words": 201,
+        "estimated_seconds": 83.8,
+        "duration_validation": "NOT_APPLICABLE"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "INFERENCE_SUPPORTED": 10,
+        "UNSUPPORTED": 4,
+        "SUPPORTED": 2
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Who was at the table when a committee proposed putting overseas police assistance under AID's leadership?",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-016|CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-01",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The July 20, 1962 police-assistance memo gives us a roster: AID, State, Defense, CIA, Justice, the White House—and the Bureau of the Budget.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-016|CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-02",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Look at the proposed division of work.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-03",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "State would provide general policy guidance on internal defense.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-04",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "AID's administrator would coordinate and lead police assistance.",
+          "claim_ids": "CLM-USAIDCIA-P01-015",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "RELATIONSHIP",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-05",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "AID would handle operations and funding, except for “covert aspects” and programs selected for Defense.",
+          "claim_ids": "CLM-USAIDCIA-P01-016",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-06",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The committee also wanted a dedicated police office inside AID.",
+          "claim_ids": "CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-024",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "RELATIONSHIP",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-07",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Its proposed duties included a repository of technical knowledge based on research into “controlling subversion and mass violence.”",
+          "claim_ids": "CLM-USAIDCIA-P01-018",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-08",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "That combination is the story: a civilian aid agency proposed as a central part of an interagency internal-defense design.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-016|CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "RELATIONSHIP",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-09",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The police office was not simply a name on an organization chart",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-016|CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-10",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "the committee specified what it should do.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-016|CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-11",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "But the exception matters too.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-12",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "“Covert aspects” were explicitly outside the operating-and-funding assignment proposed for AID.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-016|CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-13",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The wording does not identify every covert activity or who ran it.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-016|CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-14",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "So the next question is specific: what records explain the work on the other side of that exception?",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-015|CLM-USAIDCIA-P01-016|CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-15",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The full Part 1 investigation is linked in the comments.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-LONG-001-16",
+          "content_id": "WRR-USAIDCIA-P01-FB-LONG-001",
+          "text_section": "CTA"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "duration": {
+        "estimated_words": 97,
+        "estimated_seconds": 40.4,
+        "duration_validation": "PASS"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "NONFACTUAL_FRAMING": 2,
+        "PARTIALLY_SUPPORTED": 1,
+        "SUPPORTED": 4,
+        "INFERENCE_SUPPORTED": 2
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Why put overseas police assistance in a civilian aid agency?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Kennedy's answer wasn't just economic growth.",
+          "claim_ids": "CLM-USAIDCIA-P01-003",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-02",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In February 1962, he called police assistance crucial to countering Communist indirect aggression.",
+          "claim_ids": "CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-010",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "2|4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-03",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "He asked AID to review its support for local police used for internal security and counterinsurgency.",
+          "claim_ids": "CLM-USAIDCIA-P01-005",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "2",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-04",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "By June, NSAM 162 called for country plans combining military, police, intelligence and psychological measures.",
+          "claim_ids": "CLM-USAIDCIA-P01-007",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "3",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-05",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The July committee called police programs a neglected part of countering subversion and insurgency.",
+          "claim_ids": "CLM-USAIDCIA-P01-010",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-06",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Economic development was not the only test.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-07",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In these records, police assistance had an explicit counterinsurgency purpose.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-08",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Read Kennedy's reasoning in Part 1.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-09",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "CTA"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-001",
+      "duration": {
+        "estimated_words": 60,
+        "estimated_seconds": 25,
+        "duration_validation": "NOT_APPLICABLE"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "SUPPORTED": 1,
+        "PARTIALLY_SUPPORTED": 1,
+        "INFERENCE_SUPPORTED": 4
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "NSAM 162 puts CIA and AID in a sentence about people with paramilitary skills.",
+          "claim_ids": "CLM-USAIDCIA-P01-008",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "3",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-001-01",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Section 4 directs the agencies to make qualified personnel available for impending crisis areas.",
+          "claim_ids": "CLM-USAIDCIA-P01-008",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-001-02",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Section 8 gives CIA a different assignment: expand training and support for indigenous intelligence organizations, with other U.S. agencies contributing.",
+          "claim_ids": "CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "COMPARATIVE",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-001-03",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Same directive.",
+          "claim_ids": "CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "COMPARATIVE",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-001-04",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Different assignments.",
+          "claim_ids": "CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "COMPARATIVE",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-001-05",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The document makes the distinction worth keeping.",
+          "claim_ids": "CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-001-06",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+      "duration": {
+        "estimated_words": 122,
+        "estimated_seconds": 50.8,
+        "duration_validation": "NOT_APPLICABLE"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "NONFACTUAL_FRAMING": 3,
+        "INFERENCE_SUPPORTED": 1,
+        "UNSUPPORTED": 6
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "What did “covert aspects” mean in the proposed police-assistance structure?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-01",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Recommendation 4 of the July 1962 memo proposed giving AID operating and funding responsibility for police programs—“except for their covert aspects” and programs selected for the Department of Defense.",
+          "claim_ids": "CLM-USAIDCIA-P01-016",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-02",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Read the whole sentence.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-03",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The exception is part of the assignment, not a label pasted onto the program by a later critic.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-04",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "That does not turn every AID police program into a covert operation.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-05",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Nor does this clause identify every excluded activity or the agency responsible for it.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-06",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The next step is to find records assigning or reporting the excluded work.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-07",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The exception gives us a place to look",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-08",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "it does not supply the answer.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-09",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Which primary record would you check next?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-003-10",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-003",
+          "text_section": "CTA"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+      "duration": {
+        "estimated_words": 199,
+        "estimated_seconds": 82.9,
+        "duration_validation": "NOT_APPLICABLE"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [
+        179,
+        160,
+        196,
+        204,
+        172,
+        218,
+        164,
+        151
+      ],
+      "automatic_status_counts": {
+        "NONFACTUAL_FRAMING": 2,
+        "INFERENCE_SUPPORTED": 10,
+        "SUPPORTED": 3,
+        "UNSUPPORTED": 3
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Why put police assistance inside a civilian aid agency?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-01",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In 1962, Kennedy confronted a problem: police programs could look marginal when judged by economic-development criteria.",
+          "claim_ids": "CLM-USAIDCIA-P01-003",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-02",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In NSAM 132, he called police assistance “a crucial element” in countering Communist indirect aggression.",
+          "claim_ids": "CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-010",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "2|4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "QUOTE",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-03",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The justification was not simply economic growth.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-04",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Kennedy said police aid had a “different though related basis”: internal security and resistance to Communist-supported insurgency.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-05",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "That changed the test these programs were supposed to meet.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-06",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "He asked AID to review support for local police used for internal security and counterinsurgency.",
+          "claim_ids": "CLM-USAIDCIA-P01-005",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "2",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-07",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In June, NSAM 162 called for plans combining military, police, intelligence and psychological measures.",
+          "claim_ids": "CLM-USAIDCIA-P01-007",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "3",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-08",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "By July, the committee's recommendations had an agency map: State for general policy guidance",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-09",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "AID for coordination and leadership",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-10",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "a dedicated police office inside AID.",
+          "claim_ids": "CLM-USAIDCIA-P01-017",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "RELATIONSHIP",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-11",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The proposed AID operating-and-funding assignment excluded “covert aspects” and programs selected for Defense.",
+          "claim_ids": "CLM-USAIDCIA-P01-016",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-12",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "CIA was represented on the committee.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-13",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Those are connections and boundaries—not interchangeable facts.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-14",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The evidence points to an AID-led police program within an interagency internal-defense design.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "RELATIONSHIP",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-15",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "It does not establish that AID and CIA were the same institution.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "COMPARATIVE",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-16",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Part 1 follows the memoranda from the policy rationale to the police-office design.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-17",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Read the investigation and its sources.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-X-THREAD-001-18",
+          "content_id": "WRR-USAIDCIA-P01-X-THREAD-001",
+          "text_section": "CTA"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-003",
+      "duration": {
+        "estimated_words": 71,
+        "estimated_seconds": 29.6,
+        "duration_validation": "NOT_APPLICABLE"
+      },
+      "hook": {
+        "status": "PASS",
+        "reasons": []
+      },
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "final_copy_errors": [],
+      "rendered_string_equivalent": true,
+      "source_excerpts_available": true,
+      "claim_scope": "CURRENT_PART",
+      "x_reserved_lengths": [],
+      "automatic_status_counts": {
+        "NONFACTUAL_FRAMING": 2,
+        "UNSUPPORTED": 5
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "If AID's proposed operating-and-funding assignment excluded “covert aspects,” where did that side of the police-assistance structure sit?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-003-01",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The July memo draws the exception.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-003-02",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "It does not map the activities behind it.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-003-03",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "That is a reason to open another file, not permission to supply the answer ourselves.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-003-04",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Part 1 establishes the boundary.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-003-05",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Part 2 will test it against operational records.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-003-06",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Follow the series from the assignment to the evidence of what happened.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-SUB-NOTE-003-07",
+          "content_id": "WRR-USAIDCIA-P01-SUB-NOTE-003",
+          "text_section": "CTA"
+        }
+      ]
+    }
+  ],
+  "packaging_components": [
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "onscreen_1",
+      "text": "JULY 20, 1962 • PROPOSAL",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "JULY 20, 1962 • PROPOSAL",
+          "claim_ids": "CLM-USAIDCIA-P01-010",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "onscreen_2",
+      "text": "A POLICE OFFICE INSIDE AID",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "A POLICE OFFICE INSIDE AID",
+          "claim_ids": "CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "RELATIONSHIP",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "onscreen_3",
+      "text": "“controlling subversion and mass violence”",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "“controlling subversion and mass violence”",
+          "claim_ids": "CLM-USAIDCIA-P01-018",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_1_title",
+      "text": "A police office inside AID?",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "A police office inside AID?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_1_caption",
+      "text": "A proposed job description, in the July 1962 police-assistance memo.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "A proposed job description, in the July 1962 police-assistance memo.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_1_first_line",
+      "text": "A POLICE OFFICE INSIDE AID",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "A POLICE OFFICE INSIDE AID",
+          "claim_ids": "CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "RELATIONSHIP",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_1_cta",
+      "text": "Read the July memo.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Read the July memo.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_2_title",
+      "text": "The proposed job description",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "The proposed job description",
+          "claim_ids": "CLM-USAIDCIA-P01-017",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_2_caption",
+      "text": "Recommendation 5(e), July 20, 1962. The highlighted language belongs to the memo.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Recommendation 5(e), July 20, 1962.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The highlighted language belongs to the memo.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-02",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_2_first_line",
+      "text": "THE PROPOSED JOB DESCRIPTION",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "THE PROPOSED JOB DESCRIPTION",
+          "claim_ids": "CLM-USAIDCIA-P01-017",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_2_cta",
+      "text": "Read the July memo.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Read the July memo.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_3_title",
+      "text": "The 1962 memo proposing an AID police office",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "The 1962 memo proposing an AID police office",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_3_caption",
+      "text": "Source: July 20, 1962, Interagency Committee on Police Assistance Programs, recommendation 5(e).",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Source: July 20, 1962, Interagency Committee on Police Assistance Programs, recommendation 5(e).",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_3_first_line",
+      "text": "JULY 1962: THE POLICE OFFICE PROPOSAL",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "JULY 1962: THE POLICE OFFICE PROPOSAL",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_3_cta",
+      "text": "Read the July memo.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Read the July memo.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_4_title",
+      "text": "Read the proposed duties",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Read the proposed duties",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_4_caption",
+      "text": "The July 1962 committee proposed an AID police office with this technical-knowledge function.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "The July 1962 committee proposed an AID police office with this technical-knowledge function.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-017|CLM-USAIDCIA-P01-018",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_4_first_line",
+      "text": "READ THE PROPOSED DUTIES",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "READ THE PROPOSED DUTIES",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+      "component": "packaging_4_cta",
+      "text": "Read the July memo.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Read the July memo.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-SHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-SHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+      "component": "caption",
+      "text": "The July 1962 committee did more than recommend expanding police assistance. It proposed protecting the money from competition with economic-development projects. “Internal defense” was one proposed AID budget label, not an enacted appropriation established by this memo.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "The July 1962 committee did more than recommend expanding police assistance.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-01",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "It proposed protecting the money from competition with economic-development projects.",
+          "claim_ids": "CLM-USAIDCIA-P01-021",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-02",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "“Internal defense” was one proposed AID budget label, not an enacted appropriation established by this memo.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-03",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+      "component": "cover_option_1",
+      "text": "WHY PROPOSE AN AID BUDGET LINE FOR “INTERNAL DEFENSE”?",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "WHY PROPOSE AN AID BUDGET LINE FOR “INTERNAL DEFENSE”?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-01",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+      "component": "cover_option_2",
+      "text": "POLICE AID: THE BUDGET PROBLEM IN THE JULY 1962 MEMO",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "POLICE AID: THE BUDGET PROBLEM IN THE JULY 1962 MEMO",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-01",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+      "component": "cover_option_3",
+      "text": "$14 MILLION, 21 COUNTRIES—AND A PROPOSAL TO EXPAND",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "$14 MILLION, 21 COUNTRIES—AND A PROPOSAL TO EXPAND",
+          "claim_ids": "CLM-USAIDCIA-P01-012",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "NUMERIC",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-IG-CAROUSEL-001-01",
+          "content_id": "WRR-USAIDCIA-P01-IG-CAROUSEL-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+      "component": "onscreen_1",
+      "text": "NSAM 162 • JUNE 19, 1962",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "NSAM 162 • JUNE 19, 1962",
+          "claim_ids": "CLM-USAIDCIA-P01-006",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-01",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+      "component": "onscreen_2",
+      "text": "SECTION 4: CIA + AID",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "SECTION 4: CIA + AID",
+          "claim_ids": "CLM-USAIDCIA-P01-006|CLM-USAIDCIA-P01-007|CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-01",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+      "component": "onscreen_3",
+      "text": "SECTION 8: CIA-COORDINATED SUPPORT",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "SECTION 8: CIA-COORDINATED SUPPORT",
+          "claim_ids": "CLM-USAIDCIA-P01-006|CLM-USAIDCIA-P01-007|CLM-USAIDCIA-P01-008|CLM-USAIDCIA-P01-009",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-FB-PHOTO-001-01",
+          "content_id": "WRR-USAIDCIA-P01-FB-PHOTO-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "component": "onscreen_1",
+      "text": "REPORTED FY1958 FIGURES",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "REPORTED FY1958 FIGURES",
+          "claim_ids": "CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "component": "onscreen_2",
+      "text": "ABOUT $14m / 21 COUNTRIES",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "ABOUT $14m / 21 COUNTRIES",
+          "claim_ids": "CLM-USAIDCIA-P01-012",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "NUMERIC",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "component": "onscreen_3",
+      "text": "DEFENSE: $5.8m / 5 COUNTRIES",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "DEFENSE: $5.8m / 5 COUNTRIES",
+          "claim_ids": "CLM-USAIDCIA-P01-013",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "NUMERIC",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "component": "onscreen_4",
+      "text": "PROPOSED FY1964 LINE ITEM: “internal defense”",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "PROPOSED FY1964 LINE ITEM: “internal defense”",
+          "claim_ids": "CLM-USAIDCIA-P01-022",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "component": "packaging_1_title",
+      "text": "The proposed “internal defense” budget line",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "The proposed “internal defense” budget line",
+          "claim_ids": "CLM-USAIDCIA-P01-022",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "component": "packaging_1_caption",
+      "text": "Historical spending figures and a future funding proposal are different things. The July 1962 memo contains both.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Historical spending figures and a future funding proposal are different things.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "COMPARATIVE",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The July 1962 memo contains both.",
+          "claim_ids": "CLM-USAIDCIA-P01-010|CLM-USAIDCIA-P01-012|CLM-USAIDCIA-P01-013|CLM-USAIDCIA-P01-014",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-02",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "component": "packaging_1_first_line",
+      "text": "HOW WOULD THEY PROTECT THE POLICE MONEY?",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "HOW WOULD THEY PROTECT THE POLICE MONEY?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+      "component": "packaging_1_cta",
+      "text": "Follow the money through Part 1.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Follow the money through Part 1.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-LONGSHORT-001-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "onscreen_1",
+      "text": "WHY POLICE ASSISTANCE IN AID?",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "WHY POLICE ASSISTANCE IN AID?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "onscreen_2",
+      "text": "KENNEDY'S STATED RATIONALE",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "KENNEDY'S STATED RATIONALE",
+          "claim_ids": "CLM-USAIDCIA-P01-006",
+          "support_status": "PARTIALLY_SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "3",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "onscreen_3",
+      "text": "INTERNAL SECURITY + COUNTERINSURGENCY",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "INTERNAL SECURITY + COUNTERINSURGENCY",
+          "claim_ids": "CLM-USAIDCIA-P01-005",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "2",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "packaging_1_title",
+      "text": "Why put police assistance in AID?",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Why put police assistance in AID?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "packaging_1_caption",
+      "text": "Kennedy gave police assistance a rationale beyond economic growth. This is how the 1962 records explain it.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Kennedy gave police assistance a rationale beyond economic growth.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "This is how the 1962 records explain it.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-02",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "packaging_1_first_line",
+      "text": "WHY POLICE ASSISTANCE IN AID?",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "WHY POLICE ASSISTANCE IN AID?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "packaging_1_cta",
+      "text": "Read Kennedy's reasoning in Part 1.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Read Kennedy's reasoning in Part 1.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "packaging_2_title",
+      "text": "Kennedy's answer, on the page",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Kennedy's answer, on the page",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "packaging_2_caption",
+      "text": "From Kennedy's February memo to the July police-assistance recommendations: the stated counterinsurgency purpose.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "From Kennedy's February memo to the July police-assistance recommendations: the stated counterinsurgency purpose.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-002|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "packaging_2_first_line",
+      "text": "KENNEDY'S ANSWER, ON THE PAGE",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "KENNEDY'S ANSWER, ON THE PAGE",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    },
+    {
+      "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+      "component": "packaging_2_cta",
+      "text": "Read Kennedy's reasoning in Part 1.",
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "Read Kennedy's reasoning in Part 1.",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-TT-MEDIUM-002-01",
+          "content_id": "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+          "text_section": "BODY"
+        }
+      ]
+    }
+  ],
+  "reserve": [
+    {
+      "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+      "word_count": 151,
+      "copyedit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "platform_fit": {
+        "status": "PASS",
+        "issues": []
+      },
+      "automatic_status_counts": {
+        "INFERENCE_SUPPORTED": 6,
+        "NONFACTUAL_FRAMING": 2,
+        "SUPPORTED": 3,
+        "UNSUPPORTED": 1
+      },
+      "automatic_assertions": [
+        {
+          "assertion_text": "The July 1962 police-assistance memo proposed AID leadership, with exceptions.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005|CLM-USAIDCIA-P01-006",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2|3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-01",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "How would you trace those exceptions?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-02",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In February, Kennedy told AID that police assistance could look marginal under economic-growth criteria",
+          "claim_ids": "CLM-USAIDCIA-P01-003",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "2",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-03",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "had a different justification: internal security and resistance to Communist-supported insurgency.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005|CLM-USAIDCIA-P01-006",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2|3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "COMPARATIVE",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-04",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In June, NSAM 162 called for country plans combining military, police, intelligence and psychological measures.",
+          "claim_ids": "CLM-USAIDCIA-P01-007",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "3",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-05",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "In July, the police-assistance committee recommended AID coordination under State policy guidance.",
+          "claim_ids": "CLM-USAIDCIA-P01-015",
+          "support_status": "SUPPORTED",
+          "support_type": "DIRECT",
+          "classification": "DOCUMENTED_FACT",
+          "source_ids": "4",
+          "review_required": "NO",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-06",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Recommendation 4 proposed giving AID operating and funding responsibility, except for covert aspects and programs selected for Defense.",
+          "claim_ids": "CLM-USAIDCIA-P01-016",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "4",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-07",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "That is a specific administrative distinction, not evidence that every police program was covert.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005|CLM-USAIDCIA-P01-006",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2|3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-08",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "My reading is that the recommendation establishes a boundary",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005|CLM-USAIDCIA-P01-006",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2|3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "SYNTHESIS",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-09",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "does not identify all the activities beyond it.",
+          "claim_ids": "",
+          "support_status": "UNSUPPORTED",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "YES",
+          "notes": "Sentence-level deterministic evidence mapping.",
+          "assertion_type": "DIRECT_FACT",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-10",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "The next useful evidence would be records assigning or reporting the excluded work, rather than another broad claim that AID and CIA were identical.",
+          "claim_ids": "CLM-USAIDCIA-P01-001|CLM-USAIDCIA-P01-003|CLM-USAIDCIA-P01-005|CLM-USAIDCIA-P01-006",
+          "support_status": "INFERENCE_SUPPORTED",
+          "support_type": "INFERENTIAL",
+          "classification": "STRONG_INFERENCE",
+          "source_ids": "2|3",
+          "review_required": "YES",
+          "notes": "Synthetic language mapped to underlying claims.",
+          "assertion_type": "CHRONOLOGY",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-11",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "BODY"
+        },
+        {
+          "assertion_text": "Which primary records would help test that reading?",
+          "claim_ids": "",
+          "support_status": "NONFACTUAL_FRAMING",
+          "support_type": "",
+          "classification": "",
+          "source_ids": "",
+          "review_required": "NO",
+          "notes": "No factual proposition detected.",
+          "assertion_type": "RHETORICAL_NONFACTUAL",
+          "assertion_id": "AST-WRR-USAIDCIA-P01-RD-POST-001-12",
+          "content_id": "WRR-USAIDCIA-P01-RD-POST-001",
+          "text_section": "CTA"
+        }
+      ]
+    }
+  ],
+  "original_same_ten_similarity": {
+    "threshold": 0.82,
+    "high_similarity_pairs": [],
+    "duplicate_asset_rate": 0,
+    "boilerplate": {
+      "repeated_sentences": [
+        {
+          "text": "read part 1 and examine the records yourself",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+            "WRR-USAIDCIA-P01-TT-MEDIUM-002",
+            "WRR-USAIDCIA-P01-TT-SHORT-001"
+          ],
+          "code": "REPEATED_SENTENCE"
+        },
+        {
+          "text": "nsam 162 called for country plans combining military police intelligence and psychological measures",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-TT-MEDIUM-002"
+          ],
+          "code": "REPEATED_SENTENCE"
+        },
+        {
+          "text": "nsam 162 directed cia and aid to maintain personnel with paramilitary skills for crisis areas",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_SENTENCE"
+        },
+        {
+          "text": "taken together those assignments describe a division of labor civilian administration in aid policy guidance in state and selected responsibilities outside aid",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-LONG-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003"
+          ],
+          "code": "REPEATED_SENTENCE"
+        },
+        {
+          "text": "the covert carve out limits what the overt assignment proves but it also makes the boundary part of the official design",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-LONG-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003"
+          ],
+          "code": "REPEATED_SENTENCE"
+        },
+        {
+          "text": "that distinction is the payoff",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-LONG-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003"
+          ],
+          "code": "REPEATED_SENTENCE"
+        },
+        {
+          "text": "the records establish an interagency internal defense structure without establishing that every participating agency was the same institution",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-LONG-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003"
+          ],
+          "code": "REPEATED_SENTENCE"
+        },
+        {
+          "text": "the committee assigned aid operating and funding responsibility except for covert aspects and selected defense programs",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-LONG-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_SENTENCE"
+        },
+        {
+          "text": "the committee recommended a dedicated aid police office",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-LONG-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_SENTENCE"
+        }
+      ],
+      "repeated_closings": [
+        {
+          "text": "part 1 has the documents",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-TT-LONGSHORT-001",
+            "WRR-USAIDCIA-P01-TT-SHORT-001"
+          ],
+          "code": "REPEATED_CLOSING"
+        },
+        {
+          "text": "share this with a reader who values primary records",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-LONG-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-001"
+          ],
+          "code": "REPEATED_CLOSING"
+        }
+      ],
+      "repeated_phrases": [
+        {
+          "text": "the committee recommended a dedicated aid police office",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-LONG-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003",
+            "WRR-USAIDCIA-P01-TT-SHORT-001"
+          ],
+          "code": "REPEATED_PHRASE"
+        },
+        {
+          "text": "nsam 162 directed cia and aid to maintain",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_PHRASE"
+        },
+        {
+          "text": "162 directed cia and aid to maintain personnel",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_PHRASE"
+        },
+        {
+          "text": "directed cia and aid to maintain personnel with",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_PHRASE"
+        },
+        {
+          "text": "cia and aid to maintain personnel with paramilitary",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_PHRASE"
+        },
+        {
+          "text": "and aid to maintain personnel with paramilitary skills",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_PHRASE"
+        },
+        {
+          "text": "aid to maintain personnel with paramilitary skills for",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_PHRASE"
+        },
+        {
+          "text": "to maintain personnel with paramilitary skills for crisis",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_PHRASE"
+        },
+        {
+          "text": "maintain personnel with paramilitary skills for crisis areas",
+          "content_ids": [
+            "WRR-USAIDCIA-P01-FB-PHOTO-001",
+            "WRR-USAIDCIA-P01-FB-PHOTO-003",
+            "WRR-USAIDCIA-P01-SUB-NOTE-001",
+            "WRR-USAIDCIA-P01-SUB-NOTE-003"
+          ],
+          "code": "REPEATED_PHRASE"
+        }
+      ],
+      "warning_count": 20
+    },
+    "validation": "PASS"
+  },
+  "rewritten_same_ten_similarity": {
+    "threshold": 0.82,
+    "high_similarity_pairs": [],
+    "duplicate_asset_rate": 0,
+    "boilerplate": {
+      "repeated_sentences": [],
+      "repeated_closings": [],
+      "repeated_phrases": [],
+      "warning_count": 0
+    },
+    "validation": "PASS"
+  },
+  "source_fingerprints": [
+    {
+      "claim_id": "CLM-USAIDCIA-P01-001",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 132.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-002",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 132.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-003",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 132.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-004",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 132.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-005",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 132.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-006",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 162.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-007",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 162.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-008",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 162.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-009",
+      "source_file": "shared_sources/source_gap_hunt/National Security Action Memorandum No. 162.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-010",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-011",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-012",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-013",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-014",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-015",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-016",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-017",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-018",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-019",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-020",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-021",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-022",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-023",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    },
+    {
+      "claim_id": "CLM-USAIDCIA-P01-024",
+      "source_file": "shared_sources/source_gap_hunt/Memorandum From the Interagency Committee on Police Assistance Programs to President Kenne.extracted.txt"
+    }
+  ]
+}
