@@ -1,5 +1,27 @@
 # Research and evidence
 
+## Internal evidence hierarchy
+
+Use A — contemporaneous primary documentation; B — official retrospective or
+investigative record; C — named firsthand participant/witness account; D — investigative
+secondary reconstruction; E — secondhand, anonymous or unclear source; F — contradicted
+or disproven. Add modifiers such as independently corroborated, partially corroborated,
+uncorroborated, materially disputed, contradicted and chronology unresolved. Keep these
+labels mainly in research artifacts, not publication prose.
+
+Interviews, memoirs and investigative reporting are evidence. A named account does not
+become “no evidence” because a declassified memo has not surfaced. Attribute it and give
+it the weight its provenance, specificity, corroboration and conflicts deserve.
+
+Attribution often supplies sufficient qualification. Do not reflexively append a
+no-primary-source disclaimer after “According to...,” “told,” “recalled” or “described.”
+Add an explicit caveat when uncertainty or contrary evidence materially changes meaning.
+
+The evidence engine establishes what is supportable. The connection engine builds the
+entity network, connection report and rabbit-hole queue, including a two-hop personnel
+pass when sources permit. The story engine uses STORY_DECISION.md and STORY_SPINE.md to
+decide discovery order. Never draft in ledger order merely because it is convenient.
+
 Follow documented rabbit holes involving intelligence agencies, military organizations,
 defense contractors, politicians, billionaires, venture capital, banks, foundations,
 NGOs, universities, surveillance companies, Big Tech, military science, patents,

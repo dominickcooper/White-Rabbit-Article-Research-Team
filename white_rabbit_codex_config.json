@@ -3,6 +3,7 @@
   "series_dir": "series_projects",
   "archive_dir": "research_library/previous_white_rabbit_articles",
   "archive_db": "knowledge/white_rabbit.db",
+  "editorial_memory_dir": "research_library/editorial_memory",
   "internal_hosts": [],
   "faq_count": 5
 }

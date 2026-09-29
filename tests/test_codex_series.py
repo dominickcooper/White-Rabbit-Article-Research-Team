@@ -9,6 +9,7 @@ import pytest
 
 from white_rabbit import codex_articles as app
 from white_rabbit import codex_series as series
+from white_rabbit import editorial_memory
 from test_codex_articles import root, ready  # Reuse the tested standalone fixtures.
 
 
@@ -309,6 +310,22 @@ def test_cli_new_add_finale_and_prompt(series_root):
     assert app.main(["series", "set-finale", "example", "part-02-two", "--clear"], root=series_root) == 0
     assert app.main(["series", "set-status", "example", "part-01-one", "drafting"], root=series_root) == 0
     assert app.main(["series", "set-url", "example", "part-01-one", "https://x.test/p/one"], root=series_root) == 0
+
+
+def test_series_learning_preparation_and_status_cli(series_root, pair, capsys):
+    folder, first, _ = pair
+    article = first / "output/article.md"
+    article.write_text("# Machine draft\n\nThe record does not show the connection.\n", encoding="utf-8")
+    editorial_memory.preserve_pre_human_snapshot(series_root, first, series_slug=folder.name)
+    article.write_text("# Human final\n\nI found the connection. Who carried it forward?\n", encoding="utf-8")
+    assert app.main(["series", "learn", folder.name, first.name, "--review"], root=series_root) == 0
+    prepared = json.loads(capsys.readouterr().out)
+    assert prepared["status"] == "AWAITING_CODEX_ANALYSIS"
+    assert app.main(["series", "learning-status", folder.name, first.name], root=series_root) == 0
+    status = json.loads(capsys.readouterr().out)
+    assert status["status"] == "AWAITING_CODEX_ANALYSIS"
+    prompt = Path(prepared["learning_prompt"]).read_text(encoding="utf-8")
+    assert "SERIES_THEMES.md" in prompt and "SERIES_CONTINUITY.md" in prompt
 
 
 def test_series_help_needs_no_providers(tmp_path):

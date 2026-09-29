@@ -1,5 +1,17 @@
 # Application architecture
 
+## Additive editorial layer
+
+`white_rabbit/editorial_memory.py` owns durable voice memory, Gold selection,
+non-destructive artifact initialization, revision snapshots, diff packets and approved
+promotion. `codex_articles.py` keeps standalone CLI/validation/export ownership;
+`codex_series.py` composes it with factual series memory and conceptual SERIES_THEMES.
+The legacy `python -m white_rabbit` Gemini/archive application is unchanged.
+
+Editorial diagnostics are warnings. Publication files, links, CSV mappings and exports
+retain mechanical behavior. Factual confidence belongs to evidence artifacts; narrative
+quality belongs to the story/editorial layer; neither substitutes for the other.
+
 The Python Codex layer is a workspace manager, archive/research memory interface,
 mechanical validator, advisory editorial diagnostic layer and publisher. Codex performs
 research, reasoning and writing outside the Python process. No Codex command loads .env, instantiates a provider,

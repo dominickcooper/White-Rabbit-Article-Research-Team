@@ -14,6 +14,8 @@ REVIEW_STEMS = (
     "that matters", "this matters", "seen in that context", "in other words",
     "the pattern", "taken together", "the better conclusion", "the harder question",
     "the answer cannot", "this gives us", "that distinction", "the directive",
+    "at minimum", "this does not prove", "the record does not show",
+    "there is no evidence that", "this matters because",
 )
 
 PERFORMATIVE_CAUTION_STEMS = (
@@ -106,6 +108,16 @@ def analyze_editorial_style(article: str) -> dict:
     fully_bold = [p for p in re.split(r"\n\s*\n", article)
                   if re.fullmatch(r"\s*\*\*[^*].*?\*\*\s*", p, re.S)]
     isolated = sum(1 for count in word_counts if 0 < count <= 10)
+    sentence_counts = [len([s for s in re.split(r"(?<=[.!?])\s+", p) if s.strip()]) for p in paragraphs]
+    one_sentence = sum(count == 1 for count in sentence_counts)
+    abstract_blocks = 0
+    for paragraph in paragraphs:
+        if len(paragraph.split()) >= 90 and not re.search(
+                r"\b(?:memo|letter|report|document|record|email|interview|court|contract|"
+                r"investigator|witness|officer|agent|director|president|professor|banker|"
+                r"said|told|wrote|found|arrived|met|paid|hired|sent|visited|19\d\d|20\d\d)\b",
+                paragraph, re.I):
+            abstract_blocks += 1
 
     list_lines = re.findall(r"(?m)^\s*(?:[-+*]|\d+[.)])\s+\S", article)
     list_groups = len(re.findall(r"(?m)(?:^\s*(?:[-+*]|\d+[.)])\s+.+\n?){2,}", article))
@@ -142,6 +154,13 @@ def analyze_editorial_style(article: str) -> dict:
         warnings.append("FORMATTING repeated bold emphasis: " + ", ".join(f"{p!r} ×{c}" for p, c in repeated_bold.items()))
     if len(paragraphs) >= 20 and isolated > max(10, len(paragraphs) // 4):
         warnings.append(f"FORMATTING {isolated} short isolated paragraphs; confirm the punch-line effect has not become a metronome.")
+    if len(paragraphs) >= 12 and one_sentence > len(paragraphs) * 0.45:
+        warnings.append(f"STYLE {one_sentence}/{len(paragraphs)} prose paragraphs contain one sentence; use one-line paragraphs selectively.")
+    caveat_total = sum(performative_caution.values()) + caution_sentences
+    if len(paragraphs) >= 10 and caveat_total > max(6, len(paragraphs) // 3):
+        warnings.append(f"STYLE unusually high caveat density ({caveat_total} signals); verify attribution can carry some qualification.")
+    if abstract_blocks:
+        warnings.append(f"STYLE {abstract_blocks} long abstract block(s) contain no obvious person, document, event, action or date.")
     if list_groups >= 3 and len(list_lines) >= 15:
         warnings.append(f"LISTS {list_groups} list groups / {len(list_lines)} items; confirm relationships have not been flattened into enumeration.")
     duplicates = [d for d, c in image_descriptions.items() if c > 1]
@@ -158,6 +177,8 @@ def analyze_editorial_style(article: str) -> dict:
         "paragraphs": len(paragraphs),
         "paragraph_length_cv": round(variation, 3) if variation is not None else None,
         "short_paragraphs": isolated,
+        "one_sentence_paragraphs": one_sentence,
+        "abstract_blocks": abstract_blocks,
         "rhetorical_questions": len(re.findall(r"\?", _plain(article))),
         "first_person_occurrences": len(re.findall(r"\b(?:I|me|my|we|our|us)\b", _plain(article))),
         "symmetric_contrasts": symmetric_contrasts,

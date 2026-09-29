@@ -22,6 +22,18 @@ SERIES_FILES = {
     "SERIES_CONTINUITY.md": "SERIES_CONTINUITY_TEMPLATE.md",
     "shared_research/master_dossier.md": "SERIES_MASTER_DOSSIER_TEMPLATE.md",
 }
+SERIES_THEMES = "shared_research/SERIES_THEMES.md"
+
+
+def ensure_series_themes(root: Path, series: Path, title: str) -> Path:
+    path = articles.contained(series, SERIES_THEMES)
+    if not path.exists():
+        template = (root / "templates/SERIES_THEMES_TEMPLATE.md")
+        if not template.is_file():
+            template = articles.ROOT / "templates/SERIES_THEMES_TEMPLATE.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(template.read_text(encoding="utf-8").replace("{{TITLE}}", title), encoding="utf-8")
+    return path
 PART_STATUSES = ("planned", "drafting", "complete", "published")
 COMPLETED = {"complete", "published"}
 DOSSIER_SECTIONS = (
@@ -207,6 +219,7 @@ def new_series(root: Path, title: str, planned_parts: int | None = None) -> Path
         (series / name).mkdir()
     for name, content in templates.items():
         (series / name).write_text(content.replace("{{TITLE}}", title), encoding="utf-8")
+    ensure_series_themes(root, series, title)
     save(series, {"schema_version": 1, "title": title, "slug": series.name,
                   "status": "planned", "planned_parts": planned_parts,
                   "created_at": now(), "updated_at": now(), "parts": []})
@@ -245,6 +258,7 @@ def add_part(root: Path, slug: str, title: str, *, finale: bool = False) -> Path
 
 
 def generate_prompt(root: Path, series: Path, manifest: dict, part: dict) -> str:
+    ensure_series_themes(root, series, manifest["title"])
     project = series / "articles" / part["slug"]
     prefix = series.relative_to(root).as_posix()
     base = articles.generate_prompt(root, project, command_target=f"series validate {series.name} {part['slug']}")
@@ -277,6 +291,7 @@ def generate_prompt(root: Path, series: Path, manifest: dict, part: dict) -> str
 
 Read `{SERIES_AUTHORITY}` and the following series authority/memory files:
 {chr(10).join('- ' + prefix + '/' + name for name in SERIES_FILES)}
+- {prefix}/{SERIES_THEMES}
 SERIES_BRIEF.md governs investigation scope beneath permanent authority; do not silently
 contradict it. The manifest is authoritative for ordering, status, finale and URLs.
 Re-read SERIES_MANIFEST.json and memory files when executing this assignment: this
@@ -302,7 +317,10 @@ Part sources: {json.dumps(articles.files_under(project / 'sources'), ensure_asci
 Shared research: {json.dumps(articles.files_under(series / 'shared_research'), ensure_ascii=False)}
 The shared source root is `{prefix}/shared_sources/`; the shared research root is
 `{prefix}/shared_research/`. Every part MUST read shared_research/master_dossier.md,
-SERIES_TIMELINE.md, SERIES_ENTITIES.md and SERIES_CONTINUITY.md before drafting.
+SERIES_TIMELINE.md, SERIES_ENTITIES.md, SERIES_CONTINUITY.md and SERIES_THEMES.md before drafting.
+Search SERIES_THEMES.md for unresolved concepts, people, organizations, metaphors,
+promises, contradictions and possible payoffs. Surface a thematic callback to the story
+engine as a hypothesis to test; never declare it proven automatically.
 
 Before drafting answer: What will the reader know after this article that they did not
 know before it? Put the answer in the part dossier and NEW VALUE AUDIT. Recommend merging
@@ -329,7 +347,7 @@ The TRANSITION AUDIT must test whether the connection follows the evidence, teas
 than spoils (non-final), or synthesizes and distinguishes continuity from analogy (finale).
 
 After investigation update master_dossier.md, SERIES_TIMELINE.md, SERIES_ENTITIES.md,
-SERIES_CONTINUITY.md and SERIES_PLAN.md where appropriate. Record new verified findings,
+SERIES_CONTINUITY.md, SERIES_THEMES.md and SERIES_PLAN.md where appropriate. Record new verified findings,
 first part established and evidence-weighted judgments. Preserve earlier judgment, new
 evidence, revised judgment and reason for revision; do not silently overwrite memory.
 Continuity needs a compact PART {part['number']} reader-state entry and next-question,
@@ -372,6 +390,9 @@ def validate(root: Path, series: Path, manifest: dict, part: dict) -> dict:
         path = articles.contained(series, name)
         if not path.is_file() or not path.read_text(encoding="utf-8-sig").strip():
             report["errors"].append(f"Missing or empty series memory: {name}")
+    themes = series / SERIES_THEMES
+    if not themes.is_file() or not themes.read_text(encoding="utf-8-sig").strip():
+        report["warnings"].append(f"EDITORIAL series thematic memory missing or empty: {SERIES_THEMES}")
     for name in ("shared_sources", "shared_research", "articles"):
         if not (series / name).is_dir():
             report["errors"].append(f"Missing series directory: {name}")
@@ -408,6 +429,7 @@ def validate(root: Path, series: Path, manifest: dict, part: dict) -> dict:
 
 def series_status(root: Path, series: Path, manifest: dict) -> dict:
     return {**manifest, "required_files": {n: (series / n).is_file() for n in ("SERIES_MANIFEST.json", *SERIES_FILES)},
+            "series_themes": (series / SERIES_THEMES).is_file(),
             "shared_source_count": len(articles.files_under(series / "shared_sources")),
             "shared_research_files": articles.files_under(series / "shared_research"),
             "part_count": len(manifest["parts"]),
@@ -455,7 +477,8 @@ def main(argv: list[str], *, root: Path) -> int:
     add.add_argument("title")
     add.add_argument("--finale", action="store_true")
     commands.add_parser("status").add_argument("series")
-    for name in ("prompt", "validate", "export", "set-url", "set-finale", "set-status"):
+    for name in ("prompt", "validate", "export", "snapshot", "learn", "learning-status",
+                 "set-url", "set-finale", "set-status"):
         command = commands.add_parser(name)
         command.add_argument("series")
         command.add_argument("part")
@@ -465,6 +488,11 @@ def main(argv: list[str], *, root: Path) -> int:
             command.add_argument("--clear", action="store_true")
         elif name == "set-status":
             command.add_argument("status", choices=PART_STATUSES)
+        elif name == "learn":
+            command.add_argument("--review", action="store_true")
+            command.add_argument(
+                "--story-replacement", action="store_true",
+                help="Explicitly preserve a different-story scope comparison")
     args = parser.parse_args(argv)
     try:
         if args.command == "new":
@@ -488,6 +516,21 @@ def main(argv: list[str], *, root: Path) -> int:
                         prompt = generate_prompt(root, series, manifest, find_part(manifest, args.part))
                         atomic_text(series / "articles" / part["slug"] / "CODEX_PROMPT.md", prompt)
                     print(prompt)
+                elif args.command == "snapshot":
+                    from .editorial_memory import preserve_pre_human_snapshot
+                    path = preserve_pre_human_snapshot(root, series / "articles" / part["slug"], series_slug=series.name)
+                    if path is None:
+                        raise ValueError("No nonempty output/article.md to snapshot")
+                    print(f"Preserved: {path}")
+                elif args.command == "learn":
+                    from .editorial_memory import learn
+                    print(json.dumps(learn(root, series / "articles" / part["slug"],
+                                           series_slug=series.name, review=args.review,
+                                           comparison_mode=("story_replacement" if args.story_replacement
+                                                            else "editorial_revision")), indent=2))
+                elif args.command == "learning-status":
+                    from .editorial_memory import learning_status
+                    print(json.dumps(learning_status(root, f"{series.name}__{part['slug']}"), indent=2))
                 else:
                     report = validate(root, series, manifest, part)
                     print(json.dumps(report, indent=2, ensure_ascii=False))
@@ -495,6 +538,8 @@ def main(argv: list[str], *, root: Path) -> int:
                     if report["errors"]:
                         return 1
                     if args.command == "export":
+                        from .editorial_memory import preserve_pre_human_snapshot
+                        preserve_pre_human_snapshot(root, series / "articles" / part["slug"], series_slug=series.name)
                         for path in articles.export_validated(series / "articles" / part["slug"]):
                             print(f"Exported: {path}")
     except (OSError, ValueError, KeyError, TypeError, ImportError) as exc:

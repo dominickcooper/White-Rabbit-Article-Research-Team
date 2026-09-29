@@ -1,5 +1,38 @@
 # Codex-first White Rabbit articles
 
+The upgraded workflow inserts evidence, connection and story engines before drafting.
+Initialize durable memory once, then start articles with the existing command:
+
+```powershell
+python .\codex_article.py init-editorial-memory
+python .\codex_article.py new "ARTICLE TOPIC"
+python .\codex_article.py prompt article-topic
+python .\codex_article.py validate article-topic
+python .\codex_article.py export article-topic
+```
+
+Export preserves the first pre-human draft. After replacing `output/article.md` with the
+human-final version, prepare a deterministic comparison packet:
+
+```powershell
+python .\codex_article.py learn article-topic --review
+# Give revision_history/article-topic/LEARNING_PROMPT.md to Codex.
+# Codex writes the substantive postmortem and semantic candidate_learnings.json.
+python .\codex_article.py learning-status article-topic
+# Review candidates and change only accepted reusable candidates to status: approved.
+python .\codex_article.py promote-learnings article-topic
+```
+
+Series equivalent: `python .\codex_article.py series learn series-slug part-01-article
+--review`. Give its LEARNING_PROMPT.md to Codex, inspect status with `series
+learning-status`, and only then use `promote-learnings series-slug__part-01-article`.
+The Python command creates `editorial_diff.md` and the assignment; it does not claim to
+perform semantic editorial analysis. Promotion requires explicit human approval on each
+non-article-specific candidate.
+Approved Gold examples live in `research_library/editorial_memory/GOLD_ARTICLES.json`;
+missing paths are skipped. The full archive remains research memory, not equal-quality
+voice training.
+
 This additive workflow uses Python for local project management, archive memory,
 validation and export. Codex does the research/writing using the generated assignment.
 The original Gemini pipeline, archive sync/search/reranking and local sources remain

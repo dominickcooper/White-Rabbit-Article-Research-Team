@@ -1,5 +1,26 @@
 # Multi-part White Rabbit investigations
 
+## Thematic memory and learning
+
+New series include `shared_research/SERIES_THEMES.md`: concepts, unresolved people and
+organizations, recurring networks, reader frameworks, promises, contradictions and
+potential future payoffs. Prompt refresh initializes it for an older series without
+replacing work. Suggested callbacks are hypotheses to test, never automatic proof.
+
+Series parts use the standalone connection/story artifacts and two-audit flow. Export
+preserves the first pre-human snapshot under `<series>__<part>`. Run `series learn ...
+--review` after human editing. Python prepares the structured diff and a LEARNING_PROMPT
+that includes series themes, continuity and relevant earlier installments; it does not
+write semantic conclusions. Give the prompt to Codex, inspect with `series learning-status
+<series> <part>`, approve reusable non-article-specific candidates, then use top-level
+`promote-learnings <series>__<part>`.
+
+Learning preparation checks that the preserved draft and selected final still identify
+the same underlying installment. Rebuilt series plans can legitimately replace a story,
+but that historical comparison must be explicitly marked as `story_replacement`; ordinary
+preference learning is blocked when title, headings, entities, topics, sources and text
+overlap instead indicate an accidental cross-installment pair.
+
 A series is one investigation unfolding across publication-ready articles. Permanent
 research, responsibility, style, sourcing, SEO and audit standards apply without weakening.
 The series brief sets scope beneath those authorities. The manifest governs machine

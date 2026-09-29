@@ -1,5 +1,19 @@
 # White Rabbit style
 
+## Durable editorial memory and discovery structure
+
+`research_library/editorial_memory/VOICE_CANON.md`, `ANTI_PATTERNS.md` and
+`EDITORIAL_LESSONS.md` are loaded for every new article. Approved Gold articles provide
+two to four relevant examples through a per-project STYLE_PROFILE; they guide cadence and
+structure without supplying sentences to imitate.
+
+Keep the narrator present as an investigator. Let documents arrive as discoveries and
+people/career paths bridge abstract systems. Facts create questions; questions expose
+implications. Most paragraphs should land around three to five sentences, with one-line
+paragraphs used selectively. Attribution normally performs necessary qualification unless
+a dispute materially changes interpretation. Conclusions pay off the mystery or open the
+next rabbit hole rather than recap.
+
 Write a long-form investigative newsletter for Substack, normally 2,000–3,500 words;
 go longer when evidence earns it. Be conversational, intelligent, skeptical and
 curiosity-driven. Use active voice, useful rhetorical questions and strong transitions.

@@ -88,7 +88,7 @@ def test_new_refuses_overwrite(root):
     with pytest.raises(FileExistsError):
         app.new_project(root, "A topic")
     assert sentinel.read_text() == "User's work"
-    assert list((project / "output").iterdir()) == []
+    assert [path.name for path in (project / "output").iterdir()] == ["editorial_audit.md"]
     assert all((project / p).is_dir() for p in ("sources", "research", "output"))
 
 
