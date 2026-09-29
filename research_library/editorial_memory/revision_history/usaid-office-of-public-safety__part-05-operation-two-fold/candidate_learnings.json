@@ -1,0 +1,128 @@
+{
+  "schema_version": 2,
+  "key": "usaid-office-of-public-safety__part-05-operation-two-fold",
+  "analysis_status": "analyzed",
+  "automatic_promotion": false,
+  "candidate_learnings": [
+    {
+      "id": "verify-revision-pair-story-identity",
+      "category": "STRUCTURE",
+      "lesson": "Before learning from deletions, verify that the before-and-after files are versions of the same intended story; a change in governing question must be analyzed as story replacement rather than ordinary compression.",
+      "evidence": "The draft centers the Osborn memo, TWO-FOLD recruiting, personnel paths, and DEA discovery conflicts, while the final centers Abourezk, Section 660, the OPS phaseout, and the GAO audit. Nearly every substantive heading and source family changes.",
+      "scope": "global",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "settle-installment-question-before-drafting",
+      "category": "STRUCTURE",
+      "lesson": "Resolve the installment's governing question against the active series promise before expanding a compelling research branch into a full draft.",
+      "evidence": "The preserved final fulfills the continuity promise to explain the congressional shutdown and Section 660; the draft instead answers the adjacent question of how CIA and narcotics personnel and authorities overlapped.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "version-series-handoff-with-rebuilds",
+      "category": "SERIES_CALLBACK",
+      "lesson": "When an earlier installment is rebuilt, reconcile its closing handoff and the continuity ledger with the next installment in the same revision cycle.",
+      "evidence": "The preserved final matches the earlier Part 4 continuity promise about Abourezk and Section 660, but the current rebuilt Part 4 article tees up the narcotics exception and TWO-FOLD instead.",
+      "scope": "series",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "rebuild-sources-after-thesis-mutation",
+      "category": "SOURCE_TREATMENT",
+      "lesson": "When the governing question changes, rebuild the evidence hierarchy around the new causal claim rather than retaining dramatic but now-adjacent sources.",
+      "evidence": "The final replaces CIA memoranda, participant accounts, and DEA correspondence with congressional debate, statutory text, phaseout records, appropriations history, and GAO implementation findings.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "separate-shutdown-events",
+      "category": "EXPLANATION",
+      "lesson": "In institutional-shutdown stories, distinguish proposal, funding cutoff, administrative phaseout, enactment, effective date, and successor authority instead of compressing them into one claim that a program ended.",
+      "evidence": "The final separately dates the failed 1972 proposal, the 1973 appropriations cutoff, the OPS wind-down, the December 1974 law, the July 1975 effective date, and the authorities preserved by exceptions.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "lead-bureaucratic-story-with-human-conflict",
+      "category": "FRAMING_CHANGE",
+      "lesson": "A legislative or bureaucratic article can begin with the person forcing the core moral question, then move into statutory machinery after the reader knows what is at stake.",
+      "evidence": "The final opens with James Abourezk asking why taxpayers were supporting abusive foreign police, then follows his failed and revised legislative efforts before parsing Section 660.",
+      "scope": "investigative",
+      "confidence": "medium",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "earn-narrator-presence-through-inquiry",
+      "category": "VOICE",
+      "lesson": "Narrator presence can come from candid questions, evidence selection, and visible judgment; first-person phrasing is one option, not a requirement.",
+      "evidence": "The final contains no first-person phrasing but uses ten questions to guide the investigation, while the longer draft uses one first-person reference and only five questions and often advances by dossier category.",
+      "scope": "global",
+      "confidence": "medium",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "cut-adjacent-story-as-a-unit",
+      "category": "COMPRESSION",
+      "lesson": "When research produces two complete narrative arcs, choose one for the installment and preserve the other as a separate story instead of line-compressing both into competing climaxes.",
+      "evidence": "The final removes the complete TWO-FOLD-to-DEA-immunity arc rather than keeping isolated personnel anecdotes inside the Section 660 article, leaving one causal line and one payoff.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "compare-caveats-only-on-retained-claims",
+      "category": "CAVEAT_REMOVAL",
+      "lesson": "Infer a caveat preference only by comparing the same retained claim before and after editing; whole-article caveat counts are misleading when the final changes subjects.",
+      "evidence": "Caveat signals fall from twelve to two, but the final also deletes the participant testimony, Anthony Triponi allegation, personnel inferences, and intelligence relationships that generated most of the draft's qualifications.",
+      "scope": "global",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "present-conventional-account-before-boundary",
+      "category": "FRAMING_CHANGE",
+      "lesson": "When revising a familiar institutional claim, establish what the conventional account gets right before showing the legal or operational boundary it misses.",
+      "evidence": "The final first establishes that Congress closed OPS, the academy, and a Foreign Assistance Act-funded model, then shows why exceptions and separately authorized pathways make 'all police aid ended' too broad.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "close-on-next-assigned-question",
+      "category": "CONCLUSION",
+      "lesson": "A series installment should answer its assigned question and end on the next bounded investigative job rather than consume the successor article's evidence in the same conclusion.",
+      "evidence": "The final resolves what the ban did and did not end, then asks who inherited the job; the draft attempts to cover the ban, TWO-FOLD, personnel continuity, DEA succession, and prosecutorial immunity in one arc.",
+      "scope": "series",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "do-not-infer-rejection-of-two-fold-material",
+      "category": "RESEARCH_DISCOVERY",
+      "lesson": "Do not infer from this revision pair that personnel trails, named participant testimony, the Triponi episode, or DEA-immunity documents were editorially rejected; the final excluded their entire subject and cannot test claim-level preferences about them.",
+      "evidence": "The final changes from a TWO-FOLD and narcotics-agency story to a Section 660 legal-history story. Garland Williams, Swain, Baldwin, a no-dismissals contradiction, and a gatekeeper callback are not present on both sides of the pair, while the Triponi and immunity passages are removed with the whole arc.",
+      "scope": "article-specific",
+      "confidence": "high",
+      "status": "pending",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    }
+  ]
+}

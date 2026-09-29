@@ -1,0 +1,140 @@
+{
+  "schema_version": 2,
+  "key": "usaid-office-of-public-safety__part-05-operation-two-fold__same-story",
+  "analysis_status": "analyzed",
+  "automatic_promotion": false,
+  "candidate_learnings": [
+    {
+      "id": "trace-personnel-past-project-closure",
+      "category": "PERSONNEL_RABBIT_HOLE",
+      "lesson": "When a formal project ends, trace the relevant people's later assignments and careers before deciding whether its capabilities disappeared.",
+      "evidence": "The final renames Section 4 from the abstract 'relationship' continuing to 'the people keep moving,' connects Tripodi with the later seven CIA-to-BNDD/DEA transfers, and concludes that the durable legacy was the workforce.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "rejected",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "keep-personnel-cohorts-distinct",
+      "category": "WEAKER_INFERENCE",
+      "lesson": "Use career paths as continuity evidence without collapsing separately documented recruitment cohorts into one covert program.",
+      "evidence": "The final explicitly separates the nineteen TWO-FOLD recruits, the two foreign covered agents, Tripodi's earlier FBN-CIA-BNDD path, and the seven later CIA-to-BNDD/DEA transferees.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "promoted",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "triangulate-testimony-with-documented-architecture",
+      "category": "SOURCE_TREATMENT",
+      "lesson": "Use named participant testimony to illuminate a mechanism after official records establish that mechanism, and state what the testimony still cannot prove.",
+      "evidence": "Fuller, Burke, Gutensohn, Ingersoll, and DiGennaro remain in the final, but their accounts are paired with the CIA memo, Rockefeller findings, roster gaps, or explicit limits on the alleged foreign operation.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "rejected",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "localize-caveats-to-the-claim",
+      "category": "CAVEAT_REMOVAL",
+      "lesson": "Remove repetitive defensive framing while retaining necessary attribution and placing each evidentiary limit beside the specific claim it constrains.",
+      "evidence": "The final cuts generalized phrases such as 'the unresolved details should not obscure' but adds claim-local limits for Gutensohn, DiGennaro, Triponi, the foreign agents, and the later seven transferees.",
+      "scope": "global",
+      "confidence": "high",
+      "status": "rejected",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "expand-disputed-claim-with-boundary",
+      "category": "CAVEAT_ADDITION",
+      "lesson": "When a disputed or extraordinary claim materially advances the investigation, give the reader the source, what independently supports the surrounding architecture, and the specific evidentiary boundary once. Then continue the story rather than repeating the caveat.",
+      "evidence": "The final gives DiGennaro's alleged Colombia mission more detail, then separately states that official records do not identify him, confirm the operation, or document lethal authority.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "promoted",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "stage-reversal-with-layered-evidence",
+      "category": "REVEAL_ORDER",
+      "lesson": "Build a documentary reversal by establishing the formal endpoint first, presenting the contradictory residue second, and then defining exactly how far the contradiction changes the conclusion.",
+      "evidence": "The final moves from 'On paper, the project was dead' to Triponi's 1974 allegation, then treats it as disputed residue rather than proof that the intact domestic project survived.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "rejected",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "distinguish-capability-from-project-survival",
+      "category": "STRONGER_INFERENCE",
+      "lesson": "Frame continuity at the strongest level the evidence supports: a capability may survive through people, training, relationships, and authorities without proving that the original project or command structure survived.",
+      "evidence": "The final replaces an abstract claim that the relationship continued with a synthesis of foreign collection, CIA-experienced personnel, later transfers, training, and working relationships while disclaiming survival of the intact project.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "promoted",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "ground-functional-migration-in-a-handoff",
+      "category": "CONNECTION_ADDED",
+      "lesson": "Before calling similar work 'functional migration,' identify the portable functions and ground the claim in at least one documented transfer of responsibility.",
+      "evidence": "The final names liaison, training, informant development, clandestine communications, and foreign-service access, then uses the Vientiane record to show OPS leaving a narcotics-advisory role that DEA was scheduled to assume.",
+      "scope": "investigative",
+      "confidence": "high",
+      "status": "promoted",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "compress-interpretation-not-proof",
+      "category": "COMPRESSION",
+      "lesson": "After a mechanism is established, compress repeated interpretation and reinvest the space in source links, attribution, evidence boundaries, or payoff.",
+      "evidence": "The final is only modestly shorter but removes repeated explanations of why the institutions were distinct and uses the space for termination ambiguity, DiGennaro's bounded account, the Laos source, and a more specific next investigation.",
+      "scope": "global",
+      "confidence": "high",
+      "status": "rejected",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "callback-then-advance-the-series",
+      "category": "SERIES_CALLBACK",
+      "lesson": "At the first use of established series architecture, provide one concise linked callback and then move immediately to the new mechanism or evidence.",
+      "evidence": "The final links readers back to Part 1 while summarizing the OPS door briefly, then advances to Engle, FBN/BNDD, TWO-FOLD, and the narcotics channel rather than re-teaching the prior installment.",
+      "scope": "series",
+      "confidence": "high",
+      "status": "promoted",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "close-the-loop-to-the-opening-document",
+      "category": "CONCLUSION",
+      "lesson": "When an article opens on a document, event, or contradiction that remains central to the investigation, return to it near the payoff so the reader can see how its meaning changed after the evidence unfolded. Do not force this structure when the investigation naturally ends elsewhere.",
+      "evidence": "The final states that the CIA-versus-DEA discovery conflict completes the arc opened by the May 1973 memo, linking preserved foreign collection to the later de facto-immunity problem.",
+      "scope": "global",
+      "confidence": "high",
+      "status": "promoted",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "name-the-next-rabbit-hole",
+      "category": "CONCLUSION",
+      "lesson": "End a nonfinal series installment with a bounded next investigation that names the successor institutions, functions, or authorities to be tested.",
+      "evidence": "The final expands the Part 6 handoff to Justice, State, later USAID programs, ICITAP, and the International Law Enforcement Academies and asks which functions were new, reauthorized, or carried forward.",
+      "scope": "series",
+      "confidence": "high",
+      "status": "promoted",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    },
+    {
+      "id": "retain-triponi-as-disputed-residue",
+      "category": "FRAMING_CHANGE",
+      "lesson": "In this article, retain the Triponi episode as a reversal about disputed post-termination residue, with the inspectors' credibility evidence attached, rather than as proof of continued TWO-FOLD operations.",
+      "evidence": "The final preserves Triponi immediately after declaring the project dead on paper, then states that his allegation complicates the wind-down without establishing survival of the intact domestic project.",
+      "scope": "article-specific",
+      "confidence": "high",
+      "status": "rejected",
+      "promote_to": "EDITORIAL_LESSONS.md"
+    }
+  ],
+  "status": "promoted",
+  "promoted_at": "2026-09-29T03:42:22.909015+00:00"
+}

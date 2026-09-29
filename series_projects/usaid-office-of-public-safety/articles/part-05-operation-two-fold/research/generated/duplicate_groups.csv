@@ -1,0 +1,77 @@
+duplicate_type,group_id,source_id,relative_path,sha256
+exact,EXACT-013,P5-0006,Benjamin_djvu.txt,923025727e40f8265fc80a9db874ff11bd481613546dc68b393d0f05a645b242
+exact,EXACT-013,P5-0015,documents re hoods/Castellani-Brown_djvu.txt,923025727e40f8265fc80a9db874ff11bd481613546dc68b393d0f05a645b242
+exact,EXACT-012,P5-0016,documents re hoods/Douheret Schrier/August 19 1968 Douheret Interview_djvu.txt,9009d0e5ae135704fcd103b6165512fb8fa8ad57794e4bf2014576eee9de5fb2
+exact,EXACT-012,P5-0135,Pohl/August 19 1968 Douheret Interview_djvu.txt,9009d0e5ae135704fcd103b6165512fb8fa8ad57794e4bf2014576eee9de5fb2
+exact,EXACT-011,P5-0020,documents re hoods/Luciano scans/arrest_djvu.txt,8db63e384a80d7a09c164f996febd87c2532e391492be0460a59dc94a5efcb4b
+exact,EXACT-011,P5-0021,documents re hoods/Luciano scans/FBI Lucky_djvu.txt,8db63e384a80d7a09c164f996febd87c2532e391492be0460a59dc94a5efcb4b
+exact,EXACT-004,P5-0023,documents re hoods/Luciano scans/Kefauver_djvu.txt,36c5d9c0a2057be88d0d32926432e817f4e188ac84f8e231a6bb9bc4e551e953
+exact,EXACT-004,P5-0031,documents re hoods/Luciano scans/White 1951 Lucky_djvu.txt,36c5d9c0a2057be88d0d32926432e817f4e188ac84f8e231a6bb9bc4e551e953
+exact,EXACT-003,P5-0024,documents re hoods/Luciano scans/Manfredi Lucky 1947_djvu.txt,346d669b4863611e6b35446a14c1b3c8f41b01a24748c5e93909508b52693f44
+exact,EXACT-003,P5-0025,documents re hoods/Luciano scans/Manfredi_djvu.txt,346d669b4863611e6b35446a14c1b3c8f41b01a24748c5e93909508b52693f44
+exact,EXACT-010,P5-0029,documents re hoods/Luciano scans/Siragusa to HJA May 51 (2)_djvu.txt,8b80fd3150253d93af8df7142882a5a2d96760c370863cfd170d4c5a176eeaf9
+exact,EXACT-010,P5-0030,documents re hoods/Luciano scans/Siragusa to HJA May 51_djvu.txt,8b80fd3150253d93af8df7142882a5a2d96760c370863cfd170d4c5a176eeaf9
+exact,EXACT-002,P5-0034,documents re hoods/Nebbia Schrier/August 19 1968 Nebbia Interview_djvu.txt,292250690766e903580565517771e9e44663db728cf2d6466aab88be79a835e7
+exact,EXACT-002,P5-0136,Pohl/August 19 1968 Nebbia Interview_djvu.txt,292250690766e903580565517771e9e44663db728cf2d6466aab88be79a835e7
+exact,EXACT-009,P5-0035,documents re hoods/Nebbia Schrier/August 7 1968 Nebbia Interview_djvu.txt,863eac9db6a1f909619eebc850bec92ef1fbfb4752244a8de6e92b264114c6b8
+exact,EXACT-009,P5-0137,Pohl/August 7 1968 Nebbia Interview_djvu.txt,863eac9db6a1f909619eebc850bec92ef1fbfb4752244a8de6e92b264114c6b8
+exact,EXACT-008,P5-0044,FBN rosters.doc/DEA offices.doc/Atlanta April 68 (2)_djvu.txt,7b9608b86c38145c34f3a789ae03e5040e92da6f18214ff9e2045f2341d87d42
+exact,EXACT-008,P5-0045,FBN rosters.doc/DEA offices.doc/Atlanta April 68_djvu.txt,7b9608b86c38145c34f3a789ae03e5040e92da6f18214ff9e2045f2341d87d42
+exact,EXACT-017,P5-0046,FBN rosters.doc/DEA offices.doc/Detroit 1970 (2)_djvu.txt,d00cb339c285b4953cebbd3b9b1cbbb93eb2ec7c5b3824e466d39b9be1c68543
+exact,EXACT-017,P5-0047,FBN rosters.doc/DEA offices.doc/Detroit 1970_djvu.txt,d00cb339c285b4953cebbd3b9b1cbbb93eb2ec7c5b3824e466d39b9be1c68543
+exact,EXACT-014,P5-0048,FBN rosters.doc/DEA offices.doc/District 6 April 68 (2)_djvu.txt,98998a666fdd898811ca32fa73646588495199f3b07ac4697d002eecc5d1e554
+exact,EXACT-014,P5-0049,FBN rosters.doc/DEA offices.doc/District 6 April 68_djvu.txt,98998a666fdd898811ca32fa73646588495199f3b07ac4697d002eecc5d1e554
+exact,EXACT-018,P5-0050,FBN rosters.doc/DEA offices.doc/July 72 Mexico (2)_djvu.txt,d072fb844ebb9ba257cfca3a8a4c0fb9b0609323daf385276bb57092eff32672
+exact,EXACT-018,P5-0051,FBN rosters.doc/DEA offices.doc/July 72 Mexico_djvu.txt,d072fb844ebb9ba257cfca3a8a4c0fb9b0609323daf385276bb57092eff32672
+exact,EXACT-015,P5-0052,FBN rosters.doc/DEA offices.doc/Miami April 1968 (2)_djvu.txt,a8f3862008eecb7520302be1aa01cdb1e311867f998fdc36e96c4ed8e269e483
+exact,EXACT-015,P5-0053,FBN rosters.doc/DEA offices.doc/Miami April 1968_djvu.txt,a8f3862008eecb7520302be1aa01cdb1e311867f998fdc36e96c4ed8e269e483
+exact,EXACT-016,P5-0054,FBN rosters.doc/DEA offices.doc/New York Jan 69 (2)_djvu.txt,afdcf51e5421372621c27e969c1f703afc10b7a2d9f6d9c59d289f36beec8e5b
+exact,EXACT-016,P5-0055,FBN rosters.doc/DEA offices.doc/New York Jan 69_djvu.txt,afdcf51e5421372621c27e969c1f703afc10b7a2d9f6d9c59d289f36beec8e5b
+exact,EXACT-001,P5-0056,FBN rosters.doc/Detroit 1959 Bureau of Narcotics roster (2)_djvu.txt,0a0cd4cdd922c00eabf712e32cd8faad65ba0e8b86f82f3ea731cec6e26bf520
+exact,EXACT-001,P5-0057,FBN rosters.doc/Detroit 1959 Bureau of Narcotics roster_djvu.txt,0a0cd4cdd922c00eabf712e32cd8faad65ba0e8b86f82f3ea731cec6e26bf520
+exact,EXACT-006,P5-0058,FBN rosters.doc/District  6 Oct 63 (2)_djvu.txt,44d47ac9db955b9ebc6e52cf246459f53f2b36a0e2305bf042d081c5a97037f6
+exact,EXACT-006,P5-0059,FBN rosters.doc/District  6 Oct 63_djvu.txt,44d47ac9db955b9ebc6e52cf246459f53f2b36a0e2305bf042d081c5a97037f6
+exact,EXACT-007,P5-0119,MKULTRA pdfs/MKULTRA old files/MKULTRA folder.doc/Victims Task Force_djvu.txt,60186a86ea421a21cb64093f0230d35ab9278ae3e8ec02c63b880251741092a4
+exact,EXACT-007,P5-0120,MKULTRA pdfs/Salmi memo MKULTRA 27 Feb 79_djvu.txt,60186a86ea421a21cb64093f0230d35ab9278ae3e8ec02c63b880251741092a4
+exact,EXACT-005,P5-0127,Pahlevi Iran.doc/Garland Williams 1959_djvu.txt,37eb9fbb081490e32303f59931d99e3f4077bf33ab5d9cdee0468812f61b44f3
+exact,EXACT-005,P5-0155,Williams/Garland Williams 1959_djvu.txt,37eb9fbb081490e32303f59931d99e3f4077bf33ab5d9cdee0468812f61b44f3
+exact,EXACT-019,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,e0ddb54f7d9466d1ec3edd88ab02c6905acc7fd6891fada6926c33087a7fbdae
+exact,EXACT-019,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,e0ddb54f7d9466d1ec3edd88ab02c6905acc7fd6891fada6926c33087a7fbdae
+normalized,NORM-004,P5-0006,Benjamin_djvu.txt,360cd2bd8e5aabac097a436f9b3e6048d338fe59112c96de17205773c124b3cc
+normalized,NORM-004,P5-0015,documents re hoods/Castellani-Brown_djvu.txt,360cd2bd8e5aabac097a436f9b3e6048d338fe59112c96de17205773c124b3cc
+normalized,NORM-011,P5-0016,documents re hoods/Douheret Schrier/August 19 1968 Douheret Interview_djvu.txt,8ede9aa42c6bb8be60b6d6d9f184dde7cc60923760d0d75d8bb0ca049d19ba01
+normalized,NORM-011,P5-0135,Pohl/August 19 1968 Douheret Interview_djvu.txt,8ede9aa42c6bb8be60b6d6d9f184dde7cc60923760d0d75d8bb0ca049d19ba01
+normalized,NORM-010,P5-0020,documents re hoods/Luciano scans/arrest_djvu.txt,88e321b43d54f2ecb195097eab5ac4a3d371eaa89e0dbdac52bc80f8293a0468
+normalized,NORM-010,P5-0021,documents re hoods/Luciano scans/FBI Lucky_djvu.txt,88e321b43d54f2ecb195097eab5ac4a3d371eaa89e0dbdac52bc80f8293a0468
+normalized,NORM-012,P5-0023,documents re hoods/Luciano scans/Kefauver_djvu.txt,c10a88a6eb6af8cce4241cc14aff131e95cef24ca3b1100a2ed8105149943373
+normalized,NORM-012,P5-0031,documents re hoods/Luciano scans/White 1951 Lucky_djvu.txt,c10a88a6eb6af8cce4241cc14aff131e95cef24ca3b1100a2ed8105149943373
+normalized,NORM-003,P5-0024,documents re hoods/Luciano scans/Manfredi Lucky 1947_djvu.txt,2bb59237f6657fcc670805b0efa6aacaddaa9dc7cea55f782ded9066099bdda5
+normalized,NORM-003,P5-0025,documents re hoods/Luciano scans/Manfredi_djvu.txt,2bb59237f6657fcc670805b0efa6aacaddaa9dc7cea55f782ded9066099bdda5
+normalized,NORM-008,P5-0029,documents re hoods/Luciano scans/Siragusa to HJA May 51 (2)_djvu.txt,7b5cff78b56b0ae97d8029de68472885198cda5bb1090261c00782c4014f9851
+normalized,NORM-008,P5-0030,documents re hoods/Luciano scans/Siragusa to HJA May 51_djvu.txt,7b5cff78b56b0ae97d8029de68472885198cda5bb1090261c00782c4014f9851
+normalized,NORM-017,P5-0034,documents re hoods/Nebbia Schrier/August 19 1968 Nebbia Interview_djvu.txt,e99fdc87a4d2b7664e8a074968971ce03d5d993058661ed3c19079f4a24cf187
+normalized,NORM-017,P5-0136,Pohl/August 19 1968 Nebbia Interview_djvu.txt,e99fdc87a4d2b7664e8a074968971ce03d5d993058661ed3c19079f4a24cf187
+normalized,NORM-001,P5-0035,documents re hoods/Nebbia Schrier/August 7 1968 Nebbia Interview_djvu.txt,0ca4c0b45d27458b0d15e6129e4fc27ca7d7c0dadc27dc38fb11cb625d595118
+normalized,NORM-001,P5-0137,Pohl/August 7 1968 Nebbia Interview_djvu.txt,0ca4c0b45d27458b0d15e6129e4fc27ca7d7c0dadc27dc38fb11cb625d595118
+normalized,NORM-018,P5-0044,FBN rosters.doc/DEA offices.doc/Atlanta April 68 (2)_djvu.txt,f33460875d066781ae71aa8a3cb12cd70e4345f9fe4af7d83c5ac22f62aa88d7
+normalized,NORM-018,P5-0045,FBN rosters.doc/DEA offices.doc/Atlanta April 68_djvu.txt,f33460875d066781ae71aa8a3cb12cd70e4345f9fe4af7d83c5ac22f62aa88d7
+normalized,NORM-019,P5-0046,FBN rosters.doc/DEA offices.doc/Detroit 1970 (2)_djvu.txt,ff133984879af619b4aa52af7d3b99b34379b864d0512966fea8a4ca5f5683eb
+normalized,NORM-019,P5-0047,FBN rosters.doc/DEA offices.doc/Detroit 1970_djvu.txt,ff133984879af619b4aa52af7d3b99b34379b864d0512966fea8a4ca5f5683eb
+normalized,NORM-007,P5-0048,FBN rosters.doc/DEA offices.doc/District 6 April 68 (2)_djvu.txt,777aff19aa74b8cdf245bd63333bb936b2d6aedc024542ef0530b2256aa0dc64
+normalized,NORM-007,P5-0049,FBN rosters.doc/DEA offices.doc/District 6 April 68_djvu.txt,777aff19aa74b8cdf245bd63333bb936b2d6aedc024542ef0530b2256aa0dc64
+normalized,NORM-013,P5-0050,FBN rosters.doc/DEA offices.doc/July 72 Mexico (2)_djvu.txt,c6b9e26784a099d2ee074bbeb56e6727bb5bdf03f2b43aaab8d581c3fb88f05a
+normalized,NORM-013,P5-0051,FBN rosters.doc/DEA offices.doc/July 72 Mexico_djvu.txt,c6b9e26784a099d2ee074bbeb56e6727bb5bdf03f2b43aaab8d581c3fb88f05a
+normalized,NORM-002,P5-0052,FBN rosters.doc/DEA offices.doc/Miami April 1968 (2)_djvu.txt,2019c2966d99d28ed90f42d2747583944abd9d6a3e604edbba41d4dc4a174b0d
+normalized,NORM-002,P5-0053,FBN rosters.doc/DEA offices.doc/Miami April 1968_djvu.txt,2019c2966d99d28ed90f42d2747583944abd9d6a3e604edbba41d4dc4a174b0d
+normalized,NORM-006,P5-0054,FBN rosters.doc/DEA offices.doc/New York Jan 69 (2)_djvu.txt,475a33e0b7ab211d8db93d5a8584dbf0821e43d8b96d64d017bfa5f96aaac6a5
+normalized,NORM-006,P5-0055,FBN rosters.doc/DEA offices.doc/New York Jan 69_djvu.txt,475a33e0b7ab211d8db93d5a8584dbf0821e43d8b96d64d017bfa5f96aaac6a5
+normalized,NORM-005,P5-0056,FBN rosters.doc/Detroit 1959 Bureau of Narcotics roster (2)_djvu.txt,3d8f8a2812b5ae1caf34a2d953bf978b24f0c22eeff55586c50ce4ff6d32d8ff
+normalized,NORM-005,P5-0057,FBN rosters.doc/Detroit 1959 Bureau of Narcotics roster_djvu.txt,3d8f8a2812b5ae1caf34a2d953bf978b24f0c22eeff55586c50ce4ff6d32d8ff
+normalized,NORM-015,P5-0058,FBN rosters.doc/District  6 Oct 63 (2)_djvu.txt,c76962bb64011958197e4dbe8fcba3187d26159c3de3a1036c64b60bf09f28d5
+normalized,NORM-015,P5-0059,FBN rosters.doc/District  6 Oct 63_djvu.txt,c76962bb64011958197e4dbe8fcba3187d26159c3de3a1036c64b60bf09f28d5
+normalized,NORM-009,P5-0119,MKULTRA pdfs/MKULTRA old files/MKULTRA folder.doc/Victims Task Force_djvu.txt,7f7c2630eae4fd8cbb428ed3e93d264e673c0941059bdae3bfb1410ac5ddf8fd
+normalized,NORM-009,P5-0120,MKULTRA pdfs/Salmi memo MKULTRA 27 Feb 79_djvu.txt,7f7c2630eae4fd8cbb428ed3e93d264e673c0941059bdae3bfb1410ac5ddf8fd
+normalized,NORM-016,P5-0127,Pahlevi Iran.doc/Garland Williams 1959_djvu.txt,e4ddb2e7d5db92cbfdeb84c19719be3b83a9787ab8330c49800877b3a8467dd0
+normalized,NORM-016,P5-0155,Williams/Garland Williams 1959_djvu.txt,e4ddb2e7d5db92cbfdeb84c19719be3b83a9787ab8330c49800877b3a8467dd0
+normalized,NORM-014,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,c71183728e792421e97e4f47de07fc7495dcd7ae0a4effbadc5222edf4d4f122
+normalized,NORM-014,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,c71183728e792421e97e4f47de07fc7495dcd7ae0a4effbadc5222edf4d4f122

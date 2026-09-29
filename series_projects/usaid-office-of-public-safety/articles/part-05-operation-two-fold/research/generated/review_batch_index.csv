@@ -1,0 +1,200 @@
+batch,packet_path,source_id,relative_path,segment_number,segment_count,segment_start,segment_end,characters
+1,generated/review_packets/batch_001.txt,P5-0001,7 John Does Brief_djvu.txt,1,1,0,37519,37519
+1,generated/review_packets/batch_001.txt,P5-0002,7 John Does Decision_djvu.txt,1,1,0,27793,27793
+1,generated/review_packets/batch_001.txt,P5-0003,Apalachin Wessel/Wessel @ A-C_djvu.txt,1,1,0,39027,39027
+2,generated/review_packets/batch_002.txt,P5-0004,Apalachin Wessel/Wessel @ D-K_djvu.txt,1,1,0,65440,65440
+2,generated/review_packets/batch_002.txt,P5-0005,Apalachin Wessel/Wessel memo_djvu.txt,1,1,0,30855,30855
+3,generated/review_packets/batch_003.txt,P5-0006,Benjamin_djvu.txt,1,1,0,29442,29442
+3,generated/review_packets/batch_003.txt,P5-0007,Bolten WH Exit Interview_djvu.txt,1,1,0,17947,17947
+3,generated/review_packets/batch_003.txt,P5-0008,CCS Files Conein et al_djvu.txt,1,1,0,1650,1650
+3,generated/review_packets/batch_003.txt,P5-0009,CIA in DEA Corson_djvu.txt,1,1,0,924,924
+3,generated/review_packets/batch_003.txt,P5-0010,CIA in DEA internal_djvu.txt,1,1,0,1611,1611
+3,generated/review_packets/batch_003.txt,P5-0011,Compton Boyd/Boyd DEA Corruption 77-78_djvu.txt,1,1,0,40710,40710
+4,generated/review_packets/batch_004.txt,P5-0012,Compton Boyd/Compton Affidavit_djvu.txt,1,1,0,71505,71505
+4,generated/review_packets/batch_004.txt,P5-0013,Copeland_djvu.txt,1,1,0,11557,11557
+4,generated/review_packets/batch_004.txt,P5-0014,Cusack China memo_djvu.txt,1,1,0,32014,32014
+5,generated/review_packets/batch_005.txt,P5-0015,documents re hoods/Castellani-Brown_djvu.txt,1,1,0,29442,29442
+5,generated/review_packets/batch_005.txt,P5-0016,documents re hoods/Douheret Schrier/August 19 1968 Douheret Interview_djvu.txt,1,1,0,3860,3860
+5,generated/review_packets/batch_005.txt,P5-0017,documents re hoods/Douheret Schrier/August 8 1968 Douheret Interview_djvu.txt,1,1,0,14036,14036
+5,generated/review_packets/batch_005.txt,P5-0018,documents re hoods/Lansky_djvu.txt,1,1,0,55320,55320
+6,generated/review_packets/batch_006.txt,P5-0019,documents re hoods/Lombardozzi_djvu.txt,1,1,0,23129,23129
+6,generated/review_packets/batch_006.txt,P5-0020,documents re hoods/Luciano scans/arrest_djvu.txt,1,1,0,8450,8450
+6,generated/review_packets/batch_006.txt,P5-0021,documents re hoods/Luciano scans/FBI Lucky_djvu.txt,1,1,0,8450,8450
+6,generated/review_packets/batch_006.txt,P5-0022,documents re hoods/Luciano scans/July 47 Olivera_djvu.txt,1,1,0,1569,1569
+6,generated/review_packets/batch_006.txt,P5-0023,documents re hoods/Luciano scans/Kefauver_djvu.txt,1,1,0,17059,17059
+6,generated/review_packets/batch_006.txt,P5-0024,documents re hoods/Luciano scans/Manfredi Lucky 1947_djvu.txt,1,1,0,3208,3208
+6,generated/review_packets/batch_006.txt,P5-0025,documents re hoods/Luciano scans/Manfredi_djvu.txt,1,1,0,3208,3208
+6,generated/review_packets/batch_006.txt,P5-0026,documents re hoods/Luciano scans/Morrison_djvu.txt,1,1,0,2483,2483
+6,generated/review_packets/batch_006.txt,P5-0027,documents re hoods/Luciano scans/Olivera Feb 47_djvu.txt,1,1,0,1921,1921
+6,generated/review_packets/batch_006.txt,P5-0028,documents re hoods/Luciano scans/Olivera re Luciano_djvu.txt,1,1,0,38063,38063
+6,generated/review_packets/batch_006.txt,P5-0029,documents re hoods/Luciano scans/Siragusa to HJA May 51 (2)_djvu.txt,1,1,0,10120,10120
+7,generated/review_packets/batch_007.txt,P5-0030,documents re hoods/Luciano scans/Siragusa to HJA May 51_djvu.txt,1,1,0,10120,10120
+7,generated/review_packets/batch_007.txt,P5-0031,documents re hoods/Luciano scans/White 1951 Lucky_djvu.txt,1,1,0,17059,17059
+7,generated/review_packets/batch_007.txt,P5-0032,documents re hoods/Luciano scans/Williams March 47_djvu.txt,1,1,0,7281,7281
+7,generated/review_packets/batch_007.txt,P5-0033,documents re hoods/Nagelberg/nagelberg-ghode_djvu.txt,1,1,0,5685,5685
+7,generated/review_packets/batch_007.txt,P5-0034,documents re hoods/Nebbia Schrier/August 19 1968 Nebbia Interview_djvu.txt,1,1,0,4969,4969
+7,generated/review_packets/batch_007.txt,P5-0035,documents re hoods/Nebbia Schrier/August 7 1968 Nebbia Interview_djvu.txt,1,1,0,6887,6887
+7,generated/review_packets/batch_007.txt,P5-0036,documents re hoods/Zicarelli_djvu.txt,1,1,0,39737,39737
+7,generated/review_packets/batch_007.txt,P5-0037,FBN rosters.doc/1955 roster 1_djvu.txt,1,1,0,3643,3643
+7,generated/review_packets/batch_007.txt,P5-0038,FBN rosters.doc/1955 roster 2_djvu.txt,1,1,0,3068,3068
+7,generated/review_packets/batch_007.txt,P5-0039,FBN rosters.doc/Baltimore 1969_djvu.txt,1,1,0,5456,5456
+7,generated/review_packets/batch_007.txt,P5-0040,FBN rosters.doc/Baltimore feb 69_djvu.txt,1,1,0,5311,5311
+7,generated/review_packets/batch_007.txt,P5-0041,FBN rosters.doc/Baltimore Jan 68_djvu.txt,1,1,0,2045,2045
+7,generated/review_packets/batch_007.txt,P5-0042,FBN rosters.doc/BDAC Baltimore 67_djvu.txt,1,1,0,2197,2197
+7,generated/review_packets/batch_007.txt,P5-0043,FBN rosters.doc/BNDD Baltimore 69_djvu.txt,1,1,0,5467,5467
+8,generated/review_packets/batch_008.txt,P5-0044,FBN rosters.doc/DEA offices.doc/Atlanta April 68 (2)_djvu.txt,1,1,0,3077,3077
+8,generated/review_packets/batch_008.txt,P5-0045,FBN rosters.doc/DEA offices.doc/Atlanta April 68_djvu.txt,1,1,0,3077,3077
+8,generated/review_packets/batch_008.txt,P5-0046,FBN rosters.doc/DEA offices.doc/Detroit 1970 (2)_djvu.txt,1,1,0,6534,6534
+8,generated/review_packets/batch_008.txt,P5-0047,FBN rosters.doc/DEA offices.doc/Detroit 1970_djvu.txt,1,1,0,6534,6534
+8,generated/review_packets/batch_008.txt,P5-0048,FBN rosters.doc/DEA offices.doc/District 6 April 68 (2)_djvu.txt,1,1,0,3121,3121
+8,generated/review_packets/batch_008.txt,P5-0049,FBN rosters.doc/DEA offices.doc/District 6 April 68_djvu.txt,1,1,0,3121,3121
+8,generated/review_packets/batch_008.txt,P5-0050,FBN rosters.doc/DEA offices.doc/July 72 Mexico (2)_djvu.txt,1,1,0,3349,3349
+8,generated/review_packets/batch_008.txt,P5-0051,FBN rosters.doc/DEA offices.doc/July 72 Mexico_djvu.txt,1,1,0,3349,3349
+8,generated/review_packets/batch_008.txt,P5-0052,FBN rosters.doc/DEA offices.doc/Miami April 1968 (2)_djvu.txt,1,1,0,1474,1474
+8,generated/review_packets/batch_008.txt,P5-0053,FBN rosters.doc/DEA offices.doc/Miami April 1968_djvu.txt,1,1,0,1474,1474
+8,generated/review_packets/batch_008.txt,P5-0054,FBN rosters.doc/DEA offices.doc/New York Jan 69 (2)_djvu.txt,1,1,0,10892,10892
+8,generated/review_packets/batch_008.txt,P5-0055,FBN rosters.doc/DEA offices.doc/New York Jan 69_djvu.txt,1,1,0,10892,10892
+8,generated/review_packets/batch_008.txt,P5-0056,FBN rosters.doc/Detroit 1959 Bureau of Narcotics roster (2)_djvu.txt,1,1,0,2290,2290
+8,generated/review_packets/batch_008.txt,P5-0057,FBN rosters.doc/Detroit 1959 Bureau of Narcotics roster_djvu.txt,1,1,0,2290,2290
+8,generated/review_packets/batch_008.txt,P5-0058,FBN rosters.doc/District  6 Oct 63 (2)_djvu.txt,1,1,0,1568,1568
+8,generated/review_packets/batch_008.txt,P5-0059,FBN rosters.doc/District  6 Oct 63_djvu.txt,1,1,0,1568,1568
+8,generated/review_packets/batch_008.txt,P5-0060,FBN rosters.doc/District 14 Sep 65_djvu.txt,1,1,0,4991,4991
+8,generated/review_packets/batch_008.txt,P5-0061,FBN rosters.doc/District 6 Jan 55_djvu.txt,1,1,0,1439,1439
+8,generated/review_packets/batch_008.txt,P5-0062,FBN rosters.doc/District 8 1943_djvu.txt,1,1,0,2174,2174
+8,generated/review_packets/batch_008.txt,P5-0063,FBN rosters.doc/District 8 Nov 47_djvu.txt,1,1,0,1632,1632
+8,generated/review_packets/batch_008.txt,P5-0064,FBN rosters.doc/Field Org FBN 66_djvu.txt,1,1,0,2527,2527
+8,generated/review_packets/batch_008.txt,P5-0065,FBN rosters.doc/Jan 65 FBN_djvu.txt,1,1,0,5991,5991
+8,generated/review_packets/batch_008.txt,P5-0066,FBN rosters.doc/more rosters/March 1966 1_djvu.txt,1,1,0,3875,3875
+8,generated/review_packets/batch_008.txt,P5-0067,FBN rosters.doc/more rosters/March 1966 2_djvu.txt,1,1,0,2866,2866
+8,generated/review_packets/batch_008.txt,P5-0068,FBN rosters.doc/New York March 1966 p 2_djvu.txt,1,1,0,4392,4392
+8,generated/review_packets/batch_008.txt,P5-0069,FBN rosters.doc/New York rosters/1 New York Jan 55_djvu.txt,1,1,0,6431,6431
+8,generated/review_packets/batch_008.txt,P5-0070,FBN rosters.doc/New York rosters/2 New York Oct 1955_djvu.txt,1,1,0,6338,6338
+8,generated/review_packets/batch_008.txt,P5-0071,FBN rosters.doc/New York rosters/2a New York sept 1955_djvu.txt,1,1,0,5455,5455
+8,generated/review_packets/batch_008.txt,P5-0072,FBN rosters.doc/New York rosters/3 New York Jan 58_djvu.txt,1,1,0,7056,7056
+9,generated/review_packets/batch_009.txt,P5-0073,FBN rosters.doc/New York rosters/4 New York Oct 58_djvu.txt,1,1,0,6995,6995
+9,generated/review_packets/batch_009.txt,P5-0074,FBN rosters.doc/New York rosters/5 New York Sept 1959 NY_djvu.txt,1,1,0,3447,3447
+9,generated/review_packets/batch_009.txt,P5-0075,FBN rosters.doc/New York rosters/6 New York Sept 1959 Page 2_djvu.txt,1,1,0,3703,3703
+9,generated/review_packets/batch_009.txt,P5-0076,FBN rosters.doc/New York rosters/7 New York Oct 1960_djvu.txt,1,1,0,4081,4081
+9,generated/review_packets/batch_009.txt,P5-0077,FBN rosters.doc/New York rosters/8 New York  Oct 1960 p 2_djvu.txt,1,1,0,4117,4117
+9,generated/review_packets/batch_009.txt,P5-0078,FBN rosters.doc/New York rosters/91 New York July 63_djvu.txt,1,1,0,7443,7443
+9,generated/review_packets/batch_009.txt,P5-0079,FBN rosters.doc/New York rosters/92 New York Jan 66_djvu.txt,1,1,0,8095,8095
+9,generated/review_packets/batch_009.txt,P5-0080,FBN rosters.doc/New York rosters/9a New York Jan 1962_djvu.txt,1,1,0,3987,3987
+9,generated/review_packets/batch_009.txt,P5-0081,FBN rosters.doc/New York rosters/9b New York Jan 1962 p 2_djvu.txt,1,1,0,4511,4511
+9,generated/review_packets/batch_009.txt,P5-0082,FBN rosters.doc/New York rosters/New York March 1966 p 2_djvu.txt,1,1,0,4019,4019
+9,generated/review_packets/batch_009.txt,P5-0083,FBN rosters.doc/New York rosters/New York March 1966_djvu.txt,1,1,0,3602,3602
+9,generated/review_packets/batch_009.txt,P5-0084,FBN rosters.doc/New York under Gaffney_djvu.txt,1,1,0,4553,4553
+9,generated/review_packets/batch_009.txt,P5-0085,FBN rosters.doc/New YYork Oct 63_djvu.txt,1,1,0,8275,8275
+9,generated/review_packets/batch_009.txt,P5-0086,FBN rosters.doc/Rome Oct 1960_djvu.txt,1,1,0,1984,1984
+9,generated/review_packets/batch_009.txt,P5-0087,georges Bayon_djvu.txt,1,1,0,5536,5536
+9,generated/review_packets/batch_009.txt,P5-0088,Habib memos in pdf.doc/Habib 14 Dec 1966_djvu.txt,1,1,0,3073,3073
+9,generated/review_packets/batch_009.txt,P5-0089,Habib memos in pdf.doc/Habib 16 Nov 1966_djvu.txt,1,1,0,1078,1078
+9,generated/review_packets/batch_009.txt,P5-0090,Habib memos in pdf.doc/Habib 16 Sept 1966 Lucide CIA_djvu.txt,1,1,0,3201,3201
+9,generated/review_packets/batch_009.txt,P5-0091,Habib memos in pdf.doc/Habib 17 Nov 1966_djvu.txt,1,1,0,1889,1889
+9,generated/review_packets/batch_009.txt,P5-0092,Habib memos in pdf.doc/Habib 2 Sept 1966 Tran Ngor An_djvu.txt,1,1,0,7746,7746
+9,generated/review_packets/batch_009.txt,P5-0093,Habib memos in pdf.doc/Habib 20 July 1966 500 pound op_djvu.txt,1,1,0,5259,5259
+9,generated/review_packets/batch_009.txt,P5-0094,Habib memos in pdf.doc/Habib 26 Sept 1966_djvu.txt,1,1,0,3951,3951
+9,generated/review_packets/batch_009.txt,P5-0095,Habib memos in pdf.doc/Habib 27 Jan 1966 Sullivan_djvu.txt,1,1,0,9058,9058
+9,generated/review_packets/batch_009.txt,P5-0096,Habib memos in pdf.doc/Habib 28 July 1966 Waring OSI_djvu.txt,1,1,0,1774,1774
+9,generated/review_packets/batch_009.txt,P5-0097,Habib memos in pdf.doc/Habib 29 Sept 1966_djvu.txt,1,1,0,1807,1807
+9,generated/review_packets/batch_009.txt,P5-0098,Habib memos in pdf.doc/Habib 3 Jan 1966 Lilley_djvu.txt,1,1,0,6081,6081
+10,generated/review_packets/batch_010.txt,P5-0099,Habib memos in pdf.doc/Habib 5 Aug 1966 Jantzen_djvu.txt,1,1,0,1805,1805
+10,generated/review_packets/batch_010.txt,P5-0100,Habib memos in pdf.doc/Habib 5 Oct 1966_djvu.txt,1,1,0,899,899
+10,generated/review_packets/batch_010.txt,P5-0101,Habib memos in pdf.doc/Habib Rouzic 15 May 1971 memo_djvu.txt,1,1,0,47719,47719
+10,generated/review_packets/batch_010.txt,P5-0102,Knight re Khoury Blemant 59 (2)_djvu.txt,1,1,0,16446,16446
+10,generated/review_packets/batch_010.txt,P5-0103,MKULTRA pdfs/24 March 69 meeting with BNDD_djvu.txt,1,1,0,2682,2682
+10,generated/review_packets/batch_010.txt,P5-0104,MKULTRA pdfs/Califano to Turner Jun 79_djvu.txt,1,1,0,2006,2006
+10,generated/review_packets/batch_010.txt,P5-0105,MKULTRA pdfs/CCS Files Conein 28 Dec 77_djvu.txt,1,1,0,1661,1661
+10,generated/review_packets/batch_010.txt,P5-0106,MKULTRA pdfs/CIA to Bensinger notifying victims_djvu.txt,1,1,0,20053,20053
+10,generated/review_packets/batch_010.txt,P5-0107,MKULTRA pdfs/DEA MKULTRA FOIA_djvu.txt,1,1,0,2187,2187
+10,generated/review_packets/batch_010.txt,P5-0108,MKULTRA pdfs/Gottlieb 1967 memo_djvu.txt,1,1,0,11025,11025
+10,generated/review_packets/batch_010.txt,P5-0109,MKULTRA pdfs/Hammond to AG 24 Jan 79_djvu.txt,1,1,0,1470,1470
+10,generated/review_packets/batch_010.txt,P5-0110,MKULTRA pdfs/Helms unwitting testing Dec 63_djvu.txt,1,1,0,4995,4995
+10,generated/review_packets/batch_010.txt,P5-0111,MKULTRA pdfs/Helms unwitting undated_djvu.txt,1,1,0,3429,3429
+10,generated/review_packets/batch_010.txt,P5-0112,MKULTRA pdfs/HES Perry to Wiltse re Panaeolus June 79_djvu.txt,1,1,0,2880,2880
+11,generated/review_packets/batch_011.txt,P5-0113,MKULTRA pdfs/Lansdale-memo 16 March 62_djvu.txt,1,1,0,4557,4557
+11,generated/review_packets/batch_011.txt,P5-0114,MKULTRA pdfs/Lapham as AG to CIA July  78_djvu.txt,1,1,0,4953,4953
+11,generated/review_packets/batch_011.txt,P5-0115,MKULTRA pdfs/Laubinger to Wiltse to DDA 9 March 79_djvu.txt,1,1,0,5023,5023
+11,generated/review_packets/batch_011.txt,P5-0116,MKULTRA pdfs/Mertz re Siragusa_djvu.txt,1,1,0,1088,1088
+11,generated/review_packets/batch_011.txt,P5-0117,MKULTRA pdfs/Michie memo 24 March 77_djvu.txt,1,1,0,9557,9557
+11,generated/review_packets/batch_011.txt,P5-0118,MKULTRA pdfs/MKULTRA old files/MKULTRA folder.doc/Hammond Victims_djvu.txt,1,1,0,1448,1448
+11,generated/review_packets/batch_011.txt,P5-0119,MKULTRA pdfs/MKULTRA old files/MKULTRA folder.doc/Victims Task Force_djvu.txt,1,1,0,17097,17097
+11,generated/review_packets/batch_011.txt,P5-0120,MKULTRA pdfs/Salmi memo MKULTRA 27 Feb 79_djvu.txt,1,1,0,17097,17097
+11,generated/review_packets/batch_011.txt,P5-0121,MKULTRA pdfs/Salmi to file 27 Feb 79_djvu.txt,1,1,0,4977,4977
+11,generated/review_packets/batch_011.txt,P5-0122,MKULTRA pdfs/Salmi to file 7 May 79_djvu.txt,1,1,0,2286,2286
+11,generated/review_packets/batch_011.txt,P5-0123,MKULTRA pdfs/Turner to Bell 6 July 79_djvu.txt,1,1,0,1962,1962
+11,generated/review_packets/batch_011.txt,P5-0124,MKULTRA pdfs/Turner to Bensinger 6 July 79_djvu.txt,1,1,0,1201,1201
+11,generated/review_packets/batch_011.txt,P5-0125,MKULTRA pdfs/Turner to Califano Jan 79_djvu.txt,1,1,0,2257,2257
+11,generated/review_packets/batch_011.txt,P5-0126,Olivera Chile-CIA sept 51 (2)_djvu.txt,1,1,0,19268,19268
+12,generated/review_packets/batch_012.txt,P5-0127,Pahlevi Iran.doc/Garland Williams 1959_djvu.txt,1,1,0,81841,81841
+12,generated/review_packets/batch_012.txt,P5-0128,Pahlevi Iran.doc/Iran 1955_djvu.txt,1,1,0,4662,4662
+12,generated/review_packets/batch_012.txt,P5-0129,Pahlevi Iran.doc/Pahlevi 1-12-53_djvu.txt,1,1,0,1419,1419
+12,generated/review_packets/batch_012.txt,P5-0130,Pahlevi Iran.doc/Pahlevi 6-12-53_djvu.txt,1,1,0,13701,13701
+12,generated/review_packets/batch_012.txt,P5-0131,Pahlevi Iran.doc/Pahlevi 7-23-53_djvu.txt,1,1,0,2473,2473
+12,generated/review_packets/batch_012.txt,P5-0132,Pahlevi Iran.doc/Pahlevi thru Dec 53_djvu.txt,1,1,0,14108,14108
+13,generated/review_packets/batch_013.txt,P5-0133,Pahlevi Iran.doc/Pahlevi-Iran 54_djvu.txt,1,1,0,19337,19337
+13,generated/review_packets/batch_013.txt,P5-0134,Pahlevi Iran.doc/Siragusa to HJA re Pahlevi Feb 54_djvu.txt,1,1,0,2089,2089
+13,generated/review_packets/batch_013.txt,P5-0135,Pohl/August 19 1968 Douheret Interview_djvu.txt,1,1,0,3860,3860
+13,generated/review_packets/batch_013.txt,P5-0136,Pohl/August 19 1968 Nebbia Interview_djvu.txt,1,1,0,4969,4969
+13,generated/review_packets/batch_013.txt,P5-0137,Pohl/August 7 1968 Nebbia Interview_djvu.txt,1,1,0,6887,6887
+13,generated/review_packets/batch_013.txt,P5-0138,Pohl/August 8 1968 Douheret Interview_djvu.txt,1,1,0,13232,13232
+13,generated/review_packets/batch_013.txt,P5-0139,Pohl/August 8 1968 Luccarotti Interview_djvu.txt,1,1,0,1613,1613
+14,generated/review_packets/batch_014.txt,P5-0140,Strength of the wolf.htm,1,14,0,99693,99693
+15,generated/review_packets/batch_015.txt,P5-0140,Strength of the wolf.htm,2,14,99693,199422,99729
+16,generated/review_packets/batch_016.txt,P5-0140,Strength of the wolf.htm,3,14,199422,299102,99680
+17,generated/review_packets/batch_017.txt,P5-0140,Strength of the wolf.htm,4,14,299102,399078,99976
+18,generated/review_packets/batch_018.txt,P5-0140,Strength of the wolf.htm,5,14,399078,498824,99746
+19,generated/review_packets/batch_019.txt,P5-0140,Strength of the wolf.htm,6,14,498824,598208,99384
+20,generated/review_packets/batch_020.txt,P5-0140,Strength of the wolf.htm,7,14,598208,698200,99992
+21,generated/review_packets/batch_021.txt,P5-0140,Strength of the wolf.htm,8,14,698200,798015,99815
+22,generated/review_packets/batch_022.txt,P5-0140,Strength of the wolf.htm,9,14,798015,897220,99205
+23,generated/review_packets/batch_023.txt,P5-0140,Strength of the wolf.htm,10,14,897220,996587,99367
+24,generated/review_packets/batch_024.txt,P5-0140,Strength of the wolf.htm,11,14,996587,1096231,99644
+25,generated/review_packets/batch_025.txt,P5-0140,Strength of the wolf.htm,12,14,1096231,1195978,99747
+26,generated/review_packets/batch_026.txt,P5-0140,Strength of the wolf.htm,13,14,1195978,1295583,99605
+27,generated/review_packets/batch_027.txt,P5-0140,Strength of the wolf.htm,14,14,1295583,1377879,82296
+27,generated/review_packets/batch_027.txt,P5-0141,Strickler Casey CIA doc.doc/casey1_djvu.txt,1,1,0,6642,6642
+27,generated/review_packets/batch_027.txt,P5-0142,Strickler Casey CIA doc.doc/Strickler CIA_djvu.txt,1,1,0,12037,12037
+27,generated/review_packets/batch_027.txt,P5-0143,Talent to HJA Nov 46 Chinese in Mexico_djvu.txt,1,1,0,12070,12070
+28,generated/review_packets/batch_028.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,1,10,0,99942,99942
+29,generated/review_packets/batch_029.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,2,10,99942,199579,99637
+30,generated/review_packets/batch_030.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,3,10,199579,299162,99583
+31,generated/review_packets/batch_031.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,4,10,299162,399069,99907
+32,generated/review_packets/batch_032.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,5,10,399069,498986,99917
+33,generated/review_packets/batch_033.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,6,10,498986,598943,99957
+34,generated/review_packets/batch_034.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,7,10,598943,698712,99769
+35,generated/review_packets/batch_035.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,8,10,698712,798648,99936
+36,generated/review_packets/batch_036.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,9,10,798648,898618,99970
+37,generated/review_packets/batch_037.txt,P5-0144,The CIA as Organized Crime _ How Illegal Operations Corrupt America and the World_djvu.txt,10,10,898618,984724,86106
+38,generated/review_packets/batch_038.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,1,10,0,99942,99942
+39,generated/review_packets/batch_039.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,2,10,99942,199579,99637
+40,generated/review_packets/batch_040.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,3,10,199579,299162,99583
+41,generated/review_packets/batch_041.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,4,10,299162,399069,99907
+42,generated/review_packets/batch_042.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,5,10,399069,498986,99917
+43,generated/review_packets/batch_043.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,6,10,498986,598943,99957
+44,generated/review_packets/batch_044.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,7,10,598943,698712,99769
+45,generated/review_packets/batch_045.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,8,10,698712,798648,99936
+46,generated/review_packets/batch_046.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,9,10,798648,898618,99970
+47,generated/review_packets/batch_047.txt,P5-0145,The CIA as Organized Crime _ How Illegal Operations Corrupt_djvu.txt,10,10,898618,984724,86106
+48,generated/review_packets/batch_048.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",1,14,0,99181,99181
+49,generated/review_packets/batch_049.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",2,14,99181,198818,99637
+50,generated/review_packets/batch_050.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",3,14,198818,298814,99996
+51,generated/review_packets/batch_051.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",4,14,298814,398692,99878
+52,generated/review_packets/batch_052.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",5,14,398692,498553,99861
+53,generated/review_packets/batch_053.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",6,14,498553,598322,99769
+54,generated/review_packets/batch_054.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",7,14,598322,698298,99976
+55,generated/review_packets/batch_055.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",8,14,698298,798289,99991
+56,generated/review_packets/batch_056.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",9,14,798289,898043,99754
+57,generated/review_packets/batch_057.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",10,14,898043,997884,99841
+58,generated/review_packets/batch_058.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",11,14,997884,1097786,99902
+59,generated/review_packets/batch_059.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",12,14,1097786,1197768,99982
+60,generated/review_packets/batch_060.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",13,14,1197768,1297660,99892
+60,generated/review_packets/batch_060.txt,P5-0146,"The Strength of the Pack_ The Personalities, Politics and Espionage Intrigues That Shaped the DEA_djvu.htm",14,14,1297660,1317491,19831
+61,generated/review_packets/batch_061.txt,P5-0147,Tony Triponi memos 74_djvu.txt,1,1,0,14014,14014
+61,generated/review_packets/batch_061.txt,P5-0148,Water gate.doc/colson memos cia bennett and woodward3_djvu.txt,1,1,0,4,4
+61,generated/review_packets/batch_061.txt,P5-0149,Water gate.doc/dean_and_krogh_relationship1[1]_djvu.txt,1,1,0,4108,4108
+61,generated/review_packets/batch_061.txt,P5-0150,Water gate.doc/dean_out_of_country1[1]_djvu.txt,1,1,0,914,914
+61,generated/review_packets/batch_061.txt,P5-0151,Water gate.doc/john_dean_resume[1]_djvu.txt,1,1,0,4066,4066
+61,generated/review_packets/batch_061.txt,P5-0152,Water gate.doc/land_reform_and_colson[1]_djvu.txt,1,1,0,1273,1273
+61,generated/review_packets/batch_061.txt,P5-0153,Water gate.doc/missing_krogh_files[1]_djvu.txt,1,1,0,1461,1461
+61,generated/review_packets/batch_061.txt,P5-0154,william specter_djvu.txt,1,1,0,1370,1370
+61,generated/review_packets/batch_061.txt,P5-0155,Williams/Garland Williams 1959_djvu.txt,1,1,0,81841,81841

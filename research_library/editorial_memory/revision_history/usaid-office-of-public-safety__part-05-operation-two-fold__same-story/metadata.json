@@ -1,0 +1,33 @@
+{
+  "project": "part-05-operation-two-fold",
+  "series": "usaid-office-of-public-safety",
+  "key": "usaid-office-of-public-safety__part-05-operation-two-fold__same-story",
+  "learning_prepared_at": "2026-09-28T04:43:35.775121+00:00",
+  "diff_summary": {
+    "draft_words": 4192,
+    "final_words": 4020,
+    "draft_sections": 17,
+    "final_sections": 16,
+    "draft_paragraphs": 82,
+    "final_paragraphs": 89,
+    "added_blocks": 34,
+    "removed_blocks": 29,
+    "replaced_blocks": 43
+  },
+  "comparison_mode": "editorial_revision",
+  "article_identity": {
+    "outcome": "same_story",
+    "score": 0.756,
+    "reason": "Multiple identity signals support an editorial revision of the same underlying story.",
+    "draft_title": "USAID & THE CIA, PART 5: OPERATION TWO-FOLD",
+    "final_title": "USAID & THE CIA, PART 5: OPERATION TWO-FOLD",
+    "signals": {
+      "title": 1.0,
+      "headings": 0.841,
+      "principal_entities": 0.719,
+      "topic_keywords": 0.667,
+      "source_families": 0.75,
+      "substantial_text_overlap": 0.463
+    }
+  }
+}

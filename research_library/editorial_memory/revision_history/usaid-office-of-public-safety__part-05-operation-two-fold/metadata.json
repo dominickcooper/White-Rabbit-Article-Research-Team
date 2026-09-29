@@ -1,0 +1,33 @@
+{
+  "project": "part-05-operation-two-fold",
+  "series": "usaid-office-of-public-safety",
+  "key": "usaid-office-of-public-safety__part-05-operation-two-fold",
+  "learning_prepared_at": "2026-09-28T04:43:33.886960+00:00",
+  "diff_summary": {
+    "draft_words": 4192,
+    "final_words": 1984,
+    "draft_sections": 17,
+    "final_sections": 17,
+    "draft_paragraphs": 82,
+    "final_paragraphs": 47,
+    "added_blocks": 40,
+    "removed_blocks": 80,
+    "replaced_blocks": 26
+  },
+  "comparison_mode": "story_replacement",
+  "article_identity": {
+    "outcome": "different_story",
+    "score": 0.08,
+    "reason": "Title, topic, entity, source, heading, and overlap signals do not establish the same story.",
+    "draft_title": "USAID & THE CIA, PART 5: OPERATION TWO-FOLD",
+    "final_title": "The Ban That Did Not End Police Aid",
+    "signals": {
+      "title": 0.0,
+      "headings": 0.098,
+      "principal_entities": 0.089,
+      "topic_keywords": 0.111,
+      "source_families": 0.286,
+      "substantial_text_overlap": 0.008
+    }
+  }
+}

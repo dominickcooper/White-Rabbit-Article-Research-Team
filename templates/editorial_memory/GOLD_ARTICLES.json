@@ -1,0 +1,31 @@
+[
+  {
+    "path": "series_projects/usaid-office-of-public-safety/articles/part-05-operation-two-fold/FINAL_ARTICLE.md",
+    "title": "USAID & The CIA, Part 5: Operation TWO-FOLD",
+    "tags": ["intelligence", "historical", "network-investigation", "series"],
+    "notes": "Human-finalized model for connection-driven reveal order and personnel bridges.",
+    "approved": true
+  },
+  {
+    "path": "article_projects/epstein-s-crypto-state/output/article.md",
+    "title": "Epstein's Crypto Network: Bitcoin, Blockstream & Sovereign Money",
+    "tags": ["finance", "technology", "network-investigation"],
+    "notes": "Document-led financial and technical investigation.",
+    "approved": true
+  },
+  {
+    "path": "research_library/previous_white_rabbit_articles/articles/2026/pearl-harbor-false-flag-theory/article.md",
+    "title": "Pearl Harbor Cover-Up",
+    "tags": ["historical", "intelligence", "document-investigation"],
+    "notes": "Historical mystery and archival reveal structure.",
+    "approved": true
+  },
+  {
+    "path": "research_library/previous_white_rabbit_articles/articles/2026/villain-by-design-how-russia-became/article.md",
+    "title": "Villain by Design",
+    "tags": ["geopolitics", "historical", "narrative-investigation"],
+    "notes": "Long-form geopolitical voice and reader orientation.",
+    "approved": true
+  }
+]
+
