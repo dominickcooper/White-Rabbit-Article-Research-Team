@@ -107,3 +107,24 @@ No direct OPS-to-modern-USAID personnel, files, authority or program lineage was
 The user-directed 2026-09-23 rebuild expands Part 4 from a Mitrione case study into a three-act investigation. Official records now support four important migration chains: FBN/BNDD instruction inside IPA; CIA's TWO-FOLD recruitment through BNDD; an explicit OPS-to-DEA narcotics-advisory handoff in Laos; and the later transfer of DOD funds to AID for Nicaraguan Resistance humanitarian logistics. Iran-Contra records establish that congressional limits moved operational work into NSC staff, retired officers, private corporations, foreign funding and aviation. GAO then documents AID purchasing goods, communications and support while separate DOD funds paid regional transport.
 
 Revised judgment: **DOCUMENTED FUNCTIONAL MIGRATION** across selected cases; **STRONG INFERENCE** for survival of specialized aviation/government relationships after the CIA sale of Southern Air Transport; **PLAUSIBLE/OPEN** for same-person, same-vendor, same-aircraft and BCCI account continuity. Gladio, AJAX, PBSUCCESS and Cuba are treated as method/personnel prehistory, not as one formal operation. See the Part 4 master research dossier and open-leads register.
+
+# Part 7 ground-up comparative revision — amended Zebra Protocol
+
+The 2026-09-30 revision preserves the earlier finding that no direct OPS-to-modern-USAID institutional or personnel lineage was established. It adds a 40-country screen, 23 selected political ruptures, eight flagship cases, stateside intermediary tests and an explicit Horse/Zebra/Black Zebra/Hybrid adjudication.
+
+New verified findings:
+
+- **Global base rate:** USAID-funded actors operated in more than 100 countries and through more than 4,000 organizations; presence alone is weak evidence.
+- **Syria:** State/USAID/DOD public roles were deliberately differentiated around opposition governance and stabilization; credible reporting and a congressional exhibit document a separate CIA arming/training compartment. Revised judgment: Hybrid with bounded Black Zebra. USAID ownership of Timber Sycamore is rejected.
+- **Ukraine:** the 2012–16 CDCS explicitly combines civil society and diplomatic pressure around European/democratic objectives. This establishes strategic influence architecture but not operational control of Maidan. Post-2022 support is overt deliberate statecraft responding to Russian invasion.
+- **Venezuela:** recognition, sanctions, assistance and the published transition framework form a documented Zebra toolkit; humanitarian purposes and multi-causal economic collapse make the case Hybrid.
+- **Haiti:** Core Group influence over the post-assassination succession is documented; USAID responsibility for the assassination is not.
+- **Sri Lanka:** substantial democracy programming and strategic alignment coexist with the 2022 collapse, but event-level U.S. role allocation is missing and economic causation is strong. Judgment: Horse.
+- **Bangladesh:** party/civil-society/youth/media programming and election pressure are documented; the operational bridge to the 2024 quota uprising is not. Judgment: unresolved at event level.
+- **Myanmar:** the coup was contrary to U.S. aims; the post-coup aid redirection, sanctions, diplomacy and NUG/media/civil-society support were deliberately networked. Judgment: Hybrid.
+- **Georgia:** CMKI integration plus aid review, visas and sanctions establish overt Zebra without a covert compartment.
+- **OCCRP:** State/USAID deliberately funded independent investigative capacity to generate actionable information and downstream official action, while grant terms and recipient policy preserved editorial independence. Judgment: Zebra, not Black Zebra.
+- **Domestic bleedback:** Tides received USAID grants and separately sponsored BLM/FJP, but no direct pass-through was established; NewsGuard's DOD contract is documented but domestic ratings tasking is not; direct USAID→PolitiFact and USAID→CIR domestic links were not found.
+- **2025 handoff:** GAO reports USAID ceased administering foreign assistance July 1, 2025; selected remaining awards moved to State. This is new documented functional/administrative migration, while thousands of awards were terminated.
+
+Revised series judgment: **the modern ecosystem is HYBRID.** The durable connection to OPS is strongest as policy/doctrinal continuity and a recurring method of role differentiation. Bounded covert compartments recur, but the evidence does not support an unbroken institution, universal CIA ownership, or a general USAID-caused-regime-change thesis. Modern personnel continuity remains weak.

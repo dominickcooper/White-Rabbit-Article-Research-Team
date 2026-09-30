@@ -140,3 +140,21 @@ For a finale, mark next-part fields not applicable and record the final implicat
 - NEXT ARTICLE CONNECTION: follow Project TWO-FOLD, foreign attachés, inherited police contacts and reporting rules.
 - REVEALS SAFE TO TEASE: CIA recruited through BNDD and DEA inherited an OPS narcotics role in Laos.
 - REVEALS TO WITHHOLD: any unverified recruit names, Operation 40 roster claims or Enterprise-to-AID vendor identity.
+
+## PART 7 — Ground-up comparative revision (2026-09-30)
+
+- Core findings already established: a 40-country screen and 23 selected political ruptures show that USAID presence is a weak causal signal; selected programs nevertheless document deliberate role differentiation among aid, diplomacy, sanctions, security, information and covert channels.
+- People already introduced: no new individual is load-bearing; the modern pattern is organizational rather than a proven personnel cadre.
+- Institutions explained: CEPPS, ICFJ/OCCRP, Tides, NewsGuard, Poynter/PolitiFact, CIR, CMKI and Haiti's Core Group.
+- Dates/events explained: Syria's 2013–17 overt/covert architecture; Venezuela 2019 transition campaign; Myanmar 2021 coup/response; Haiti 2021 succession; Sri Lanka 2022 collapse; Georgia/Bangladesh 2024; USAID administrative closure July 1, 2025.
+- Claims the reader should now understand: Syria is Hybrid with a bounded Black Zebra compartment; Georgia and the OCCRP information architecture are overt Zebra; Sri Lanka is Horse; Bangladesh is unresolved; Tides does not supply a proven USAID→BLM/FJP path.
+- Evidence-weighted conclusion: the modern ecosystem is Hybrid. The durable continuity is policy/doctrinal and functional—the method of deliberately distributing roles—not an intact OPS institution or universal CIA ownership.
+- Earlier judgment preserved: the prior finale found recurring strategic logic without direct OPS descent. New evidence strengthens “recurring logic” into documented deliberate networked statecraft in bounded cases while preserving institutional breaks and controls.
+- Reason for revision: amended Zebra definitions no longer require central command, and new comparative/award evidence distinguishes deliberately assembled effects from geographic coincidence.
+- Open questions carried forward: Bangladesh subawards, pre-2014 Ukraine covert records, NewsGuard deliverables, modern personnel histories and Tides indirect-cost accounting.
+- Rabbit holes intentionally deferred: standalone OCCRP network, USAID-to-State award migration and dual-use information tools.
+- Last unresolved question / transition: not applicable—finale; archival gaps are recorded without a next-part promise.
+- NEXT ARTICLE QUESTION: not applicable—finale.
+- NEXT ARTICLE CONNECTION: not applicable—finale.
+- REVEALS SAFE TO TEASE: not applicable.
+- REVEALS TO WITHHOLD: none after publication; unresolved claims remain labeled.

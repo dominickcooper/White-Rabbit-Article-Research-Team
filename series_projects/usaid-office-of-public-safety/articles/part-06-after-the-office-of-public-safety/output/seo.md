@@ -1,35 +1,34 @@
-# SEO package
+# SEO Package
 
 ## Reader-Facing Title
-After OPS: How America Rebuilt Foreign Police Assistance
+USAID & The CIA, Part 6: The Network
 
 ## Reader-Facing Description / Sizzle
-OPS died, but by 1990 five separate portfolios were assisting police in 125 countries. The paper trail shows reauthorization, not a simple renaming.
+Congress killed the Office of Public Safety. The surviving functions were deliberately divided among aid, diplomacy, law enforcement, military support, contractors and foreign partners.
 
 ## Meta Title
-How U.S. Foreign Police Assistance Returned After OPS
+USAID & the CIA Part 6: The Network After OPS
 
 ## Meta Description
-DEA, FBI, ICITAP, State, Defense and ILEA rebuilt foreign-police assistance through separate laws, missions and agencies after OPS closed.
+Documents show how post-OPS funding, policy, operations, contractors and intelligence access were deliberately divided across a strategic network.
 
 ## URL Slug
-foreign-police-assistance-after-ops
+usaid-cia-part-6-the-network
 
 ## Primary Keyword
-post-OPS foreign police assistance
+USAID and CIA network
 
 ## Secondary Keywords
-ICITAP history; ILEA history; Section 660 exceptions; DEA foreign police; FBI National Academy; State antiterrorism assistance
+USAID Office of Public Safety; ICITAP history; Section 660 police assistance; CIA DEA coordination; ZunZuneo USAID; Afghanistan counterinsurgency development; foreign police assistance contractors
 
 ## Social Share Title
-OPS Was Dead. By 1990, U.S. Police Aid Reached 125 Countries.
+Congress Killed the Office. The Network Took Its Place.
 
 ## Social Share Description
-The successor was not one secret office. It was a fragmented legal architecture spread across Justice, State and Defense.
+The post-OPS system was not always accidental. In several documented programs, distribution was the design.
 
 ## Hero/Banner Image Concept
-A timeline branching from the closed OPS box into DEA, FBI, ICITAP, State, DOD and ILEA, with relationship types labeled. Use original diagram art and public-domain agency marks only where licensed.
+A public-domain Section 660 page at the center of a precise network diagram linking AID funding, State policy, Justice operations, FBI expertise, DOD support, contractors, intelligence liaison and foreign recipient institutions. A smaller concealed layer beneath the diagram suggests OPS/IPS, TWO-FOLD and ZunZuneo without using sensational spy imagery.
 
 ## Hero Image Alt Text
-Timeline showing post-OPS foreign-police programs distributed across federal agencies.
-
+Section 660 surrounded by a network of United States agencies, contractors, intelligence channels and foreign partners.

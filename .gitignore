@@ -49,3 +49,4 @@ article_projects/**/sources/
 # generated / extracted derivatives of source files
 series_projects/**/articles/**/research/source_derivatives/
 article_projects/**/research/source_derivatives/
+**/research/generated/normalized_text/

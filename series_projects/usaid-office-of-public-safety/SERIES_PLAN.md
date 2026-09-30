@@ -361,3 +361,14 @@ None after publication.
 
 ### FINAL OR NON-FINAL
 Finale.
+
+### 2026-09-30 GROUND-UP REVISION
+
+- Revised working title: **USAID & The CIA, Part 7: The Method That Survived**.
+- Revised central question: When USAID's modern footprint is mapped against major political ruptures and the strongest cases are tested deeply, where does ordinary aid end and deliberately networked statecraft begin?
+- New value: 40-country screen; 23 rupture cases; eight flagship investigations; Horse/Zebra/Black Zebra/Hybrid controls; OCCRP information architecture; stateside bleedback audit; July 2025 USAID-to-State handoff.
+- Revised final judgment: the ecosystem is Hybrid. Deliberate role differentiation is documented in bounded cases; global coup causation and universal CIA ownership are rejected.
+- Strongest positive: Syria's overt role allocation plus a bounded CIA covert compartment.
+- Strongest control: Sri Lanka's aid/protest coincidence dissolves under economic and event-level causal review.
+- Final implication: the durable unit is the networked method, not the agency name.
+- Status remains complete finale; publication URL remains unset until actual publication.

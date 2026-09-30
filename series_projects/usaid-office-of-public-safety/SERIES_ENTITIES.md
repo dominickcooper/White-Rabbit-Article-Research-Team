@@ -54,3 +54,19 @@
 - Part 3 adds recipient institutions and advisers, classifying South Vietnam as a functional prototype and Brazil as a documented capacity contribution under local command.
 - Part 4 adds claim-provenance relationships: Otero anchors the contested 1970 allegation; Hevia anchors the separate 1978 quotation/live-subject story; Adair and Sendic anchor the documented coercion cable.
 - Rebuilt Part 4 adds North, Secord, Hakim, Clines, Shackley, Rodríguez, Project TWO-FOLD, DEA, Southern Air Transport, the Enterprise, NHAO and the AID Contra task force. Their detailed cross-era roles and evidence levels are preserved in `articles/part-04-the-mitrione-problem/research/PART_04_PERSONNEL_NETWORK.md`.
+
+## Part 7 modern-network additions (2026-09-30 revision)
+
+| Entity | Category | Role / documented connection | Evidence-weighted judgment | First established |
+|---|---|---|---|---:|
+| CEPPS / NDI / IRI / IFES | Grantee consortium | Recurrent election, party and civic programming in Bangladesh, Sri Lanka, Ukraine and elsewhere | Reusable democracy infrastructure; not proof of protest command | 7 |
+| ICFJ / OCCRP | Investigative-journalism network | USAID/State-funded capacity designed to yield public and legally actionable information | ZEBRA architecture with editorial-independence counterevidence; not Black Zebra | 7 |
+| Tides Center / Tides Foundation | Fiscal sponsor/intermediary | USAID global civil-society grants and separate domestic fiscal sponsorship | Shared infrastructure; no direct USAID→BLM/FJP path established | 7 |
+| NewsGuard | Contractor | DOD misinformation-fingerprint R&D contract | Federal funding documented; domestic ratings tasking unresolved | 7 |
+| Poynter / PolitiFact | Journalism/fact-checking network | Global and domestic programs in same institution | No authenticated direct USAID→PolitiFact award found | 7 |
+| Centre for Information Resilience | Investigative/OSINT nonprofit | Discloses State funding for foreign projects | Program-level strategic information role; no USAID/domestic path traced | 7 |
+| Countering Malign Kremlin Influence framework | Strategy | Integrates democracy, governance, economic and information programming against Russian influence | Explicit overt Zebra framework in Georgia and regional missions | 7 |
+| Core Group (Haiti) | Diplomatic coalition | Publicly favored Ariel Henry after Moïse's assassination | Leadership-transition influence documented; assassination role not established | 7 |
+| National Unity Government (Myanmar) | Opposition/parallel government | Recipient of public U.S. capacity and policy support after coup | Part of documented post-coup Zebra response | 7 |
+
+Modern personnel continuity remains weak. Part 7 establishes recurring organizations and contract/grant roles, not a demonstrated cadre rotating through USAID, CIA and political movements.

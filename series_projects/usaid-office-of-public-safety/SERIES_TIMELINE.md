@@ -64,3 +64,22 @@
 - Part 3 corrects the prehistory: the MSU/FOA–ICA Vietnam project began before OPS and is classified as a functional prototype rather than OPS itself.
 - Part 4 separates the July 31 kidnapping, August 9 threat cable and August 10 recovery of Mitrione's body; it also separates the 1970 Otero allegation from Hevia's 1978 additions.
 - Rebuilt Part 4 adds the 1970–73 Project TWO-FOLD period; DEA's July 1973 creation; the 1973–74 SAT sale; the 1984–86 Enterprise; the 1986 C-123 exposure; the 1988 AID task force; and the 1989 DOD-to-AID fund transfer. Full entries and evidence ratings are in `articles/part-04-the-mitrione-problem/research/PART_04_TIMELINE.md`.
+
+## Part 7 modern comparative additions — 2016–2026
+
+| Date | Event | Entities | Evidence status | Part |
+|---|---|---|---|---:|
+| 2018-03 to 2018-05 | Armenia's Velvet Revolution; preexisting USAID civil-society/governance capacity is documented but event-level direction is not. | USAID, Armenian civil society | DOCUMENTED OVERLAP / UNRESOLVED CAUSATION | 7 |
+| 2018-04 | Nicaragua protest wave begins after social-security reforms; U.S. civil-society/media support and later pressure coexist with local initiation. | USAID, State, Nicaraguan actors | HYBRID / CAUSATION LIMITED | 7 |
+| 2019-01-23 | United States recognizes Juan Guaidó; recognition, sanctions, assistance and a published transition framework form an explicit combined toolkit. | State, NSC, USAID, Guaidó institutions | DOCUMENTED ZEBRA | 7 |
+| 2019-11-10 | Evo Morales resigns after disputed Bolivian election and security-force withdrawal; historic democracy aid exists but operational bridge is not established. | USAID, Bolivian institutions | UNRESOLVED | 7 |
+| 2020-08-09 | Belarus disputed election and protest wave; support/pressure architecture is documented, U.S. generation of protest is not. | State, USAID, civil society/media | HYBRID | 7 |
+| 2021-02-01 | Myanmar military coup removes a U.S.-supported civilian order; post-coup interagency response redirects aid and supports democratic actors. | Myanmar military, State, USAID, NUG | HORSE EVENT / ZEBRA RESPONSE | 7 |
+| 2021-07-07 to 2021-07-20 | Jovenel Moïse is assassinated; Core Group backing helps Ariel Henry prevail in the succession dispute. | Moïse, Henry, Joseph, Core Group, State | DOCUMENTED POST-RUPTURE INFLUENCE; NO ASSASSINATION LINK | 7 |
+| 2021-07-25 | Tunisia's president suspends parliament, contradicting the intended effect of U.S. democracy programming. | Saied, Tunisian institutions, USAID/State | HORSE / CONTRARY OUTCOME | 7 |
+| 2022-02-24 onward | Russia invades Ukraine; U.S. aid, diplomacy, sanctions, military and intelligence support are deliberately differentiated. | State, USAID, DOD, intelligence community, Ukraine | DOCUMENTED ZEBRA RESPONSE | 7 |
+| 2022-07-14 | Sri Lankan president resigns amid reserve, debt and shortage crisis; no event-level U.S. role allocation is established. | Rajapaksa government, protest movement, USAID partners | HORSE | 7 |
+| 2024-05 to 2024-12 | Georgia foreign-agent law/election crisis; USAID CMKI programming combines with aid review, visas and sanctions. | USAID, State, Georgian government/civil society | DOCUMENTED ZEBRA | 7 |
+| 2024-08-05 | Sheikh Hasina departs Bangladesh after quota protests and repression; democracy network is documented, operational bridge is not. | Hasina, student movement, USAID/CEPPS, State | UNRESOLVED CAUSATION | 7 |
+| 2025-07-01 | USAID stops administering foreign assistance; selected remaining awards move to State. | USAID, State, implementing partners | DOCUMENTED FUNCTIONAL/ADMINISTRATIVE MIGRATION | 7 |
+| 2026-03 to 2026-09 | GAO reports democracy-aid structure and USAID terminations/State absorption. | GAO, USAID, State | DOCUMENTED OVERSIGHT | 7 |

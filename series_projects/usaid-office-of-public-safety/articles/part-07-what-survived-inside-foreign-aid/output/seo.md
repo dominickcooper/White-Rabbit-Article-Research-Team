@@ -1,35 +1,34 @@
-# SEO package
+# SEO Package
 
 ## Reader-Facing Title
-What Survived Inside USAID After the Police Programs Ended
+USAID & The CIA, Part 7: The Method That Survived
 
 ## Reader-Facing Description / Sizzle
-From Section 660 to OTI, Afghanistan and ZunZuneo, the finale tests what truly connects modern foreign aid to USAID's Cold War police program.
+A 40-country investigation separates ordinary aid from deliberately networked statecraft—and finds the strongest pattern where funding, diplomacy, security and information were divided by design.
 
 ## Meta Title
-What Survived Inside Foreign Aid After OPS
+USAID & the CIA Part 7: The Method That Survived
 
 ## Meta Description
-The finale tests whether modern USAID police, transition and stabilization programs descend from OPS—or reflect recurring foreign-policy logic.
+A global USAID map tests Syria, Ukraine, Venezuela, Haiti, Sri Lanka, Bangladesh and more for deliberate statecraft, covert compartments and false connections.
 
 ## URL Slug
-what-survived-inside-foreign-aid-usaid-ops
+usaid-cia-part-7-method-that-survived
 
 ## Primary Keyword
-USAID Office of Public Safety legacy
+USAID CIA regime change
 
 ## Secondary Keywords
-USAID police programming; OTI history; USAID Afghanistan counterinsurgency; ZunZuneo; Section 660; NED
+USAID political influence; USAID Syria opposition; Timber Sycamore CIA; USAID Ukraine civil society; USAID Venezuela Guaido; USAID Bangladesh protests; OCCRP funding; Tides USAID BLM; Zebra Protocol; foreign aid statecraft
 
 ## Social Share Title
-OPS Died. What Survived Inside Foreign Aid?
+We Mapped USAID Against 23 Political Ruptures. The Pattern Was Not What Either Side Claims.
 
 ## Social Share Description
-Seven investigations separate documented continuity from the more dramatic stories the evidence cannot sustain.
+Some apparent connections collapsed. Others revealed an openly divided system of funding, diplomacy, security, media and covert action.
 
 ## Hero/Banner Image Concept
-A split-screen of NSAM 177 and USAID's 2024 police guidance connected by a seven-part timeline. Use public-domain official records.
+A dark world map covered with muted aid-program pins. Only a handful illuminate into distinct network diagrams: gold for deliberate overt role allocation, red-black for bounded covert compartments, blue-gray for ordinary aid and white for unresolved cases. The visual should communicate discrimination, not a wall of red string.
 
 ## Hero Image Alt Text
-1962 internal-security memorandum beside 2024 USAID police-programming guidance.
-
+World map distinguishing ordinary USAID programs from deliberately networked statecraft and bounded covert compartments.
