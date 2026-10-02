@@ -1,5 +1,25 @@
 # Research and evidence
 
+## Author-approved source corpus
+
+Anything the author deliberately places in an article `sources/` folder, a series
+`shared_sources/` folder, or another explicitly author-provided source location is
+admissible evidence. Codex does not need to independently re-verify the source before
+using facts, quotations, statistics, dates, testimony, relationships, or claims from it.
+The corpus is evidence, not a pile of leads awaiting permission.
+
+Admissibility is not equal weight. Preserve whether the item is contemporaneous primary
+documentation, an official retrospective, a court/congressional/oversight record, named
+firsthand testimony, scholarly or investigative secondary work, memoir, or disputed/
+partisan secondary work. Preserve page, chapter, document ID, witness, and author. Never
+rewrite “McCoy's interview with X described...” as “CIA records prove...” unless those
+records actually do.
+
+Independent corroboration is strongly encouraged and should expand the investigation, but
+it is not a permission gate. If an underlying archival citation cannot be recovered,
+record: supplied source says X; underlying citation is Y; Y was or was not recovered; and
+additional corroboration was or was not found. Do not omit X merely because Y is missing.
+
 ## Internal evidence hierarchy
 
 Use A — contemporaneous primary documentation; B — official retrospective or
@@ -28,8 +48,10 @@ NGOs, universities, surveillance companies, Big Tech, military science, patents,
 subcontractors, family ties, investors, board memberships, lawyers, donors, personnel
 overlap and successor institutions. Proximity is a lead, not proof.
 
-Classify findings as DOCUMENTED FACT, STRONG INFERENCE, PLAUSIBLE CONNECTION, or
-SPECULATION / UNVERIFIED. Preserve uncertainty without flattening unequal evidence.
+Classify findings as DIRECTLY DOCUMENTED, CORROBORATED STRONG INFERENCE,
+HIGH-DIAGNOSTIC PATTERN, PLAUSIBLE CONNECTION, LEAD, SPECULATION, or CONTRADICTED.
+The older shorthand DOCUMENTED FACT / STRONG INFERENCE remains readable in existing
+projects. Preserve uncertainty without flattening unequal evidence.
 Distinguish what is directly proven, what the total evidence most likely means, and
 what remains genuinely unknown. When independent facts converge, state the strongest
 reasonable conclusion. Do not manufacture 50/50 ambiguity when evidence is asymmetric.
@@ -38,6 +60,40 @@ Useful language includes “From what we can verify, the evidence points toward�
 “The most likely explanation is…”, and “Taken together, these records strongly suggest…”.
 Explain the evidentiary bridge. The absence of a signed order is relevant but is not
 automatically exculpatory; it also does not license inventing an order.
+For covert, compartmented, distributed, outsourced, or deniable systems, ask what
+documentary footprint should exist rather than demanding one memorandum describing the
+entire operation. Look for role division, personnel overlap, common recipients, funding
+sequences, statutory workarounds, contractors, intelligence access, concealed sponsorship,
+synchronized timing, common objectives, interagency coordination, successors, information
+sharing, offshore entities, and functional migration. Evaluate the combination.
+
+## Evidence convergence and stepping stones
+
+An established fact or strong inference may become the premise for the next research
+question. The investigation does not reset to zero after every connection. No single edge
+must prove the entire chain, but every edge keeps its own classification and a weak or
+broken edge must remain visible in `research/CONNECTION_CHAINS.md`.
+
+Do not dismiss a theory by observing separately that A, B, and C each fail to prove X.
+Ask what A + B + C show together. Independent streams increase evidentiary weight;
+repetition derived from the same witness, document, dataset, or reporting chain must not
+be double-counted. A strong inference is a valid article-level conclusion when the chain
+and its meaningful boundary are shown.
+
+## Books, bibliographies, and historical precedent
+
+Author-supplied books, monographs, dissertations, memoirs, and investigative works are
+usable evidence and major lead generators, not merely context. Preserve page/chapter and
+attribution for consequential claims. Inspect footnotes and bibliographies, trace archival
+references and document numbers where possible, add recovered records to the corpus, and
+search them for people, programs, organizations, grants, contracts, and new connections.
+Use `research/BOOK_LEADS.md` and `research/BIBLIOGRAPHY_TRACE.csv`. A controversial
+interpretation is not grounds to reject an author-supplied work.
+
+Ask whether the actor or system has used the alleged mechanism before. Document the prior
+mechanism, identify its observable footprint, and search the present case for analogous
+signatures. Historical precedent changes research strategy; it is not proof of recurrence
+and must not be confused with direct continuity.
 
 Before outlining, run a Rabbit-Hole Investigator pass: ask which documented connection
 could materially change the reader's understanding, then check relevant biographies,

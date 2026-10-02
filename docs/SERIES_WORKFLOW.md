@@ -40,9 +40,19 @@ instead of padding it with summary.
 
 Every part reads SERIES_BRIEF.md, SERIES_PLAN.md, SERIES_TIMELINE.md, SERIES_ENTITIES.md,
 SERIES_CONTINUITY.md and shared_research/master_dossier.md before drafting. Inspect
-relevant shared_sources and current sources without copying shared files into each part.
-Consult prior completed articles and relevant dossiers/audits. Planned/drafting parts
-are not reader knowledge. If earlier work is unfinished, record that dependency.
+current-part `sources/`, `shared_sources/`, all `shared_research/`, and the relevant
+`sources/`, `research/`, source inventories, rabbit-hole queues, connection reports,
+dossiers, claims ledgers, source CSVs, and final articles from every earlier installment.
+Use recursive ingestion; do not copy shared files into each part. Earlier sources and
+working research may generate current questions even when an earlier installment is not
+complete, but only complete/published findings are established reader knowledge. If
+earlier work is unfinished, preserve that dependency and provenance.
+
+Earlier findings are cumulative institutional knowledge. They are not automatic proof of
+recurrence, but they change which mechanisms are historically plausible and which
+documentary signatures should be searched. When Extreme-Thesis Protocol activates for a
+part, apply its full sequence before Story Decision and update shared memory with the
+reduced result rather than the opening maximum thesis.
 
 After research update the master dossier, timeline, entities, continuity and plan where
 appropriate. Findings retain source/page/archive ID, evidence level, confidence,

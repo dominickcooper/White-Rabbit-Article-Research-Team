@@ -1,56 +1,83 @@
-# White Rabbit Editorial and Voice Audit
+# White Rabbit Editorial Audit — Part 7
 
-## Result
+## Opening mystery and opening receipt
 
-**PASS AFTER REVISION.** The draft follows the permanent voice canon without modifying it.
+The draft opens inside Syria with concrete program functions, then reveals the parallel CIA track. This earns the series question before introducing method. No abstract throat-clearing remains.
 
-## Lead and narrative engine
+## Reveal ladder and section advancement
 
-The opening begins with an investigative act—the two-layer map—then immediately exposes the methodological trap. It states the scope and stakes before introducing taxonomy. The investigator remains present through “I screened,” “I did not find” and “I reached Syria,” while documentary evidence drives each turn.
+Each section changes the reader's understanding:
 
-## Document-to-realization chain
+1. Syria supplies the puzzle.
+2. The maximum theory raises stakes.
+3. Books dissolve the independence/control binary.
+4. NSAM 177 provides the historical callback.
+5. Syria builds the strongest case.
+6. Ukraine shows influence without recovered direction.
+7. Venezuela shows the architecture in public.
+8. Haiti/Bangladesh split vacuum use from rupture causation.
+9. Sri Lanka breaks the theory.
+10. OCCRP reframes strategic utility.
+11. Domestic bleedback fails its named money chains.
+12. Contractors and Afghanistan constrain control claims.
+13. Finale reduces the thesis and returns to the office.
 
-The central sections follow the intended rhythm:
+Repeated country classifications and research-report tables were removed from publication prose.
 
-1. official strategy or award document;
-2. what the document predicts;
-3. a second, genuinely different evidence stream;
-4. missing signature or contrary cause;
-5. adjudication.
+## Personnel pass and rabbit holes
 
-Syria delivers the strongest reveal. Sri Lanka provides the reversal. OCCRP supplies the conceptual surprise. The 2025 State handoff pays off the entire series.
+Human bridges include Eugene Groves through Wilford, opposition/local actors in Syria, Ariel Henry/Claude Joseph in Haiti, and Yunus/Hasina in Bangladesh. Names appear where they advance the chain rather than as roster decoration.
 
-## Voice
+## Evidence attribution and caveat density
 
-- Direct and investigative without adopting an omniscient conspiracy voice.
-- Skeptical of official euphemism, but conventional explanations are treated as evidence rather than ritual caveats.
-- Short emphatic lines are reserved for transitions and conclusions.
-- Paragraphs are generally three to five sentences where explanation is needed; single lines are used sparingly.
-- Jargon is defined once and then used consistently.
+- **OVERCLAIM check:** no passage converts funding into control, adjacency into causation, or analogy into continuity.
+- **CAVEAT COLLAPSE check:** the draft avoids repeated “this does not prove.” Each section gives the decisive boundary once and moves.
+- Syria presents receipts, states the strong inference, and rejects only the specific USAID-command leap.
+- OCCRP presents strategic funding and editorial independence without turning either into a universal verdict.
 
-## Balance and force
+## Paragraph rhythm, narrator presence and plain-English explanation
 
-The draft does not sand down documented intent. “Inherently political,” opposition legitimacy, whole-of-government transition policy and actionable information are allowed to carry their natural force. It also does not inflate the negative spaces: no Maidan command chain, Haiti assassination link, Sri Lanka removal operation or Tides pass-through is invented.
+Dense documentary paragraphs alternate with short turns (“Then State published the design”; “Then the economic records arrive”). First person appears only to locate research actions. Technical terms are translated into money, roles, partners, and consequences.
 
-## Structural audit
+## Anti-pattern findings
 
-- The country sequence escalates and varies rather than becoming a catalog.
-- Headings are descriptive and not repetitive.
-- CTAs appear at earned pauses: after the Syria proof case and after the information section.
-- Visual markers clarify relationships that prose alone would make cumbersome.
-- The ending closes the series and does not advertise Part 8.
-- Five FAQs answer predictable reader objections without repeating full sections.
+- Removed protocol terms including adjudication, predicted signature, base-rate correction, and confidence ratings.
+- Removed false “both sides” symmetry and defensive disclaimers.
+- Avoided manufactured quips; short lines function as reveals/callbacks.
+- Source pedigrees are concise in prose; full controls remain in research artifacts.
+- No section begins with generic historical scene-setting.
 
-## Revisions applied
+## Strongest finding / thesis mutation check
 
-- Reframed the entire article around the pin-map/base-rate problem.
-- Moved Syria first to prove the full architecture before testing ambiguous cases.
-- Split Myanmar's coup from the post-coup response.
-- Converted OCCRP from a sidebar into the information-without-ownership centerpiece.
-- Narrowed the BLM/FJP language to direct funding versus unquantified shared infrastructure.
-- Made weak personnel convergence explicit rather than hiding it.
-- Replaced the old institutional-continuity conclusion with the better-supported method/role-differentiation thesis.
+The maximum thesis is not quietly substituted. The article names it, tests it, shows failures, and lands on the strongest surviving form: bounded deliberate role division, sometimes with a concealed compartment.
 
-## Anti-pattern check
+## Series callbacks
 
-No fake quotation; no rhetorical “just asking questions”; no accusation-by-adjacency; no paragraph-long disclaimer before every finding; no unsupported CIA shorthand; no use of “conspiracy” as a substitute for mechanism; no forced next-part teaser.
+NSAM 177, OPS/IPA/IPS, TWO-FOLD, Section 660, and contractor migration are recalled only as necessary premises. The ending distinguishes office death from method survival.
+
+## Conclusion payoff and next rabbit hole
+
+As a finale, the conclusion does not advertise another part. It moves from specific cases to the documented series pattern and ends on democratic responsibility when ownership is distributed.
+
+## Unsupported sensationalism or excessive caution
+
+- “USAID is CIA,” “USAID ran Timber Sycamore,” “installed,” “orchestrated,” and direct domestic pass-through claims are excluded.
+- The article retains the stronger inference that Syria's separate tracks were complementary.
+- Sri Lanka's collapse is given enough space to make disconfirmation visible rather than ceremonial.
+
+## Methodology leakage into publication prose
+
+Zebra classifications, confidence terms, claim ratings, and protocol stages remain in research. The published narrative uses receipts and ordinary language.
+
+## Revision actions completed
+
+- Rebuilt opening around Syria.
+- Reordered books before case studies to change the reader's test.
+- Consolidated historical recap.
+- Added Venezuela's public blueprint as the “wait-what” turn.
+- Separated Haiti assassination from succession.
+- Rewrote Bangladesh as relationship-rich but unresolved.
+- Promoted Sri Lanka from sidebar to full control section.
+- Reframed OCCRP around autonomy plus strategic utility.
+- Rejected named domestic money chains explicitly.
+- Reconciled finale with the reduced thesis and series continuity categories.

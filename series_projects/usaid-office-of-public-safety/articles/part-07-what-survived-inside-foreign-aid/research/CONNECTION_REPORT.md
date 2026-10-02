@@ -1,45 +1,37 @@
-# Part 7 Connection Report
+# Connection Report — Part 7
 
-## Strongest positive connections
+## What changed after the ground-up pass
 
-1. **Syria role architecture:** State/USAID support to opposition governance, civil society and media; DOD's military track; and a separately documented CIA covert arming/training program all occupied the same strategic theater. Connection type: deliberate role differentiation plus Black Zebra compartment. Evidence: high.
-2. **Venezuela transition toolkit:** recognition, sanctions, democracy aid, humanitarian programs and an explicit political/economic/security transition framework. Connection type: deliberately assembled strategic effect. Evidence: high.
-3. **Georgia/CMKI:** USAID integrated an adversary-specific framework into country strategy while State used aid review, visas and sanctions. Connection type: overt Zebra. Evidence: high.
-4. **OCCRP information pipeline:** public grants intentionally build independent investigative capacity whose outputs can trigger legal and policy action. Connection type: strategic information benefit without formal ownership. Evidence: high.
-5. **2025 USAID-to-State migration:** the administering institution ceased while selected awards and functions continued under State. Connection type: overt functional migration. Evidence: high.
+The previous Part 7 treated modern cases mainly as a country-by-country classification exercise. The deeper inherited-corpus and book pass revealed a more useful organizing question: can an institution be genuinely independent and still be deliberately useful to state strategy? Wilford and Saunders answer yes historically. Syria, Venezuela, and OCCRP show modern versions with different degrees of coordination and concealment.
 
-## Strongest negative connections
+## Strongest new connection
 
-1. **Sri Lanka:** large USAID portfolio + protest + resignation is not enough. No operational bridge emerged, while the domestic economic chain is strong.
-2. **BLM/FJP:** a shared fiscal sponsor is not a funding path. Direct USAID support was denied by both relevant organizations and not found in award evidence.
-3. **Myanmar coup:** USAID presence cannot explain an event that destroyed the political order U.S. programs supported.
-4. **Afghanistan collapse:** deliberately networked wartime statecraft existed, but the Taliban takeover was the failure of that architecture, not its intended product.
-5. **Maidan:** later intelligence cooperation and prior democracy programming do not prove operational command of the uprising.
+**OPS/IPS → historical fronts → Syria/OCCRP.** OPS supplies the documented architecture of an overt civilian program with a concealed or intelligence-facing compartment. Wilford supplies the missing nuance: recipient autonomy does not cancel strategic utility. Syria then shows overt and covert channels aligned around a common political order without proving one controlled the other. OCCRP shows the non-covert version: an independent newsroom can retain editorial authority while a government deliberately funds a capability for consequences it values.
 
-## Funding convergence
+## Strongest modern chain
 
-The strongest funding convergence is not one secret account. It is the repeated use of prime awards and subawards to distribute roles across specialized intermediaries: CEPPS for electoral/party systems; ICFJ/OCCRP for investigative networks; OTI implementers for rapid political-transition work; and large contractors such as Chemonics, MSI and IREX for governance, justice and media systems. The convergence is strategic procurement, not proof that every grantee shares hidden instructions.
+**Syria:** transition objective → opposition councils/services/media/police → combined State-USAID platforms → DOD support → separate CIA/partner-state armed program → sanctions and diplomatic isolation. Each node is documented; the final assertion of strategic complementarity is a strong inference. USAID command of Timber Sycamore is a broken edge.
 
-## Personnel convergence
+## Unexpected connection
 
-Weak. Public records did not establish a modern revolving cadre comparable to the historical OPS/IPS system. The article should say this clearly because the amended Zebra definition does not require personnel continuity, but a personnel chain would have strengthened the most expansive theory.
+The maximum thesis predicted a secret commander. The recovered records more often show something subtler: strategy can be assembled from actors who have different motives, partial autonomy, and incomplete knowledge. This is not weaker than “coordination”; in some cases, partial autonomy is what makes the system legitimate and scalable.
 
-## Contractor/grantee convergence
+## Two-hop career/network pass
 
-Strong at the organizational level. CEPPS partners recur across flagship countries; IREX and Chemonics recur across media/governance/justice portfolios; OCCRP connects local investigations across borders; Tides demonstrates how one fiscal sponsor can host foreign and domestic programs while keeping legal funds separate. These networks create reusable capacity and access. They do not by themselves demonstrate covert control.
+- Democracy implementers connect U.S. funding to local parties, polling firms, election monitors, youth groups, civil-society organizations, and media.
+- Those local networks connect into embassies, international donors, foundations, universities, and IFIs.
+- Successor figures often have preexisting Western relationships, but relationship density alone does not establish selection or installation.
+- Contractor genealogies reveal recurring implementation capacity, not a general intelligence pedigree.
 
-## Strategic-interest convergence
+## Rejected connections
 
-Strongest in Syria, Ukraine, Georgia and Venezuela. The common objectives are public: pressure Assad, support Ukraine's European orientation and defense, counter Russian influence in Georgia, and pursue democratic transition in Venezuela. Strategic-interest overlap becomes Zebra only where documents also assign complementary instruments.
+- No intact OPS-to-modern-USAID institutional chain.
+- No public USAID-to-Timber Sycamore command link.
+- No recovered operational direction of Maidan or Bangladesh's quota uprising.
+- No USAID role in Moïse's assassination.
+- No direct USAID-to-BLM/FJP pass-through through Tides.
+- No State/USAID assignment of OCCRP stories.
 
-## Leadership-transition convergence
+## Article payoff
 
-Strongest in Haiti after Moïse's assassination. The Core Group's public preference helped settle which claimant would receive external legitimacy. This is influence over succession, not evidence of participation in the assassination.
-
-## Historical connection to Parts 1–6
-
-Parts 1–2 established that the Kennedy system deliberately split overt and covert roles and that concealed compartments could sit beside aid programs. Parts 3–4 showed country implementation and functional handoffs. Parts 5–6 showed that restriction changed authorities and organizations rather than eliminating every function. Part 7 finds the same *design logic* in selected modern programs: role differentiation, intermediary layers and migration. It does not find continuous ownership, universal CIA control or strong modern personnel continuity.
-
-## Final connection judgment
-
-The series thesis changes from “functions survived” to a narrower and more consequential proposition: **the durable unit is the networked method, not the name of the office**. Modern evidence supports that method in selected programs while the controls show that aid presence alone predicts almost nothing.
+The office did not survive. The operating grammar did: split the functions, preserve authentic local capacity, add covert or concealed compartments only where the case evidence shows them, and let the network produce effects no single visible office owns.

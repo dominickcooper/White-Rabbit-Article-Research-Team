@@ -1,34 +1,45 @@
 # SEO Package
 
 ## Reader-Facing Title
-USAID & The CIA, Part 7: The Method That Survived
+
+USAID & The CIA, Part 7: The Network That Replaced the Office
 
 ## Reader-Facing Description / Sizzle
-A 40-country investigation separates ordinary aid from deliberately networked statecraft—and finds the strongest pattern where funding, diplomacy, security and information were divided by design.
+
+We tested the strongest theory across Syria, Ukraine, Venezuela, Haiti, Bangladesh, media networks, and the cases where it collapsed.
 
 ## Meta Title
-USAID & the CIA Part 7: The Method That Survived
+
+USAID & The CIA Part 7: The Network That Replaced OPS
 
 ## Meta Description
-A global USAID map tests Syria, Ukraine, Venezuela, Haiti, Sri Lanka, Bangladesh and more for deliberate statecraft, covert compartments and false connections.
+
+A document-led investigation finds when aid, diplomacy, covert action, media, and contractors operated as a network—and where the theory failed.
 
 ## URL Slug
-usaid-cia-part-7-method-that-survived
+
+usaid-cia-part-7-network-replaced-office
 
 ## Primary Keyword
-USAID CIA regime change
+
+USAID CIA network
 
 ## Secondary Keywords
-USAID political influence; USAID Syria opposition; Timber Sycamore CIA; USAID Ukraine civil society; USAID Venezuela Guaido; USAID Bangladesh protests; OCCRP funding; Tides USAID BLM; Zebra Protocol; foreign aid statecraft
+
+USAID Syria opposition; Timber Sycamore; USAID Ukraine Maidan; Venezuela transition framework; Haiti Ariel Henry; Bangladesh Muhammad Yunus; OCCRP USAID funding; foreign aid regime change; Office of Public Safety
 
 ## Social Share Title
-We Mapped USAID Against 23 Political Ruptures. The Pattern Was Not What Either Side Claims.
+
+The Office Died. Did Its Method Survive as a Network?
 
 ## Social Share Description
-Some apparent connections collapsed. Others revealed an openly divided system of funding, diplomacy, security, media and covert action.
+
+The craziest coherent version failed in Sri Lanka—and survived in a more specific form across Syria, Venezuela, Ukraine, and funded information networks.
 
 ## Hero/Banner Image Concept
-A dark world map covered with muted aid-program pins. Only a handful illuminate into distinct network diagrams: gold for deliberate overt role allocation, red-black for bounded covert compartments, blue-gray for ordinary aid and white for unresolved cases. The visual should communicate discrimination, not a wall of red string.
+
+A declassified 1962 memorandum on the left dissolves into a modern network on the right: aid, diplomacy, sanctions, military support, intelligence, contractors, civil society, and media orbit a blank central space. A highlighted Syria branch shows overt and covert tracks without merging them. Use generated or public-domain documentary textures; do not fabricate seals or classified markings.
 
 ## Hero Image Alt Text
-World map distinguishing ordinary USAID programs from deliberately networked statecraft and bounded covert compartments.
+
+Historical aid memorandum transforming into a modern network of United States foreign-policy institutions and intermediaries.

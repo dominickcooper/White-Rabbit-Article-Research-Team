@@ -1,307 +1,315 @@
-# USAID & The CIA, Part 7: The Method That Survived
+# USAID & The CIA, Part 7: The Network That Replaced the Office
 
-If you drop a pin on every country where USAID funded a program, then drop another pin on every country that suffered a coup, uprising, disputed election, war or leadership collapse, the map begins to look like a confession.
+In Syria, one arm of the United States government helped build an opposition state.
 
-It is also a trap.
+It trained local councils. It supported independent radio and television stations. It supplied civil-defense equipment, helped restore water and electricity, and backed police in territory outside Bashar al-Assad's control. A [2014 State Department account](https://2009-2017.state.gov/r/pa/prs/ps/2014/01/220029.htm) said the purpose was to help the Syrian opposition fill “the void left by the regime.” A later [State Department summary](https://2021-2025.state.gov/u-s-relations-with-syria/) listed local governance, civil society, independent media, community security, and the Free Syrian Police.
 
-USAID said it funded work in [more than 100 countries](https://www.usaid.gov/sites/default/files/2022-05/Exploring_USAID_Funding_Opportunities_Final_Transcript_March_18_2021.pdf) through more than 80 missions. Its inspector general counted [more than 4,000 partner organizations](https://oig.usaid.gov/node/6728) across more than 100 countries. With a footprint that large, overlap with political crisis is inevitable. A pin proves presence. It does not prove purpose, coordination or control.
+At the same time, another arm of the government was running Timber Sycamore, the CIA program that trained and armed anti-Assad rebels with help from Saudi Arabia and other regional partners.
 
-So I built the map anyway—then forced every suspicious overlap through a harder test.
+Those were not the same program. USAID did not run the CIA operation. The local councils were not missile teams, and a radio producer did not become an intelligence asset because both opposed Assad.
 
-I screened 40 countries, mapped 23 major political ruptures and investigated eight flagship cases: Syria, Ukraine, Venezuela, Haiti, Sri Lanka, Bangladesh, Myanmar and Georgia. I also followed the money into contractors, democracy organizations, investigative media and a stateside network that includes Tides, Black Lives Matter, Fair and Just Prosecution, NewsGuard, Poynter and the Centre for Information Resilience.
+But look at the system before looking away.
 
-The result does not vindicate the claim that USAID caused a wave of regime changes. It does not vindicate the official fairy tale that foreign aid was merely charity with better spreadsheets, either.
+Civilian institutions in opposition territory. Media. Police. Essential services. Armed groups. Partner intelligence services. Military support. Sanctions. Diplomacy. Different organizations, different legal authorities, different levels of secrecy—pointed at the same political order.
 
-What emerges is more selective and more durable: an enormous field of ordinary assistance containing a smaller set of programs in which funding, diplomacy, information, sanctions, security and sometimes covert action were divided among institutions **by design**.
+This is the question the entire series has been approaching.
 
-The office was not the unit of power.
+Congress destroyed the Office of Public Safety nearly half a century ago. Did the method die with it?
 
-The network was.
+[IMAGE: Split-screen map of Syria showing State-USAID councils, media, police, and services beside the CIA-partner armed track | ALT: Overt and covert United States support tracks in Syria]
 
-## The test that keeps the map honest
+## The Craziest Coherent Version
 
-This series began with a [1962 system that placed overt foreign-police assistance inside AID while explicitly leaving covert work outside it](https://thewhiterabbitreport.substack.com/p/usaid-and-the-cia-series-part-1). Later records showed CIA liaison and concealed training mechanisms sitting beside the public program. Congress eventually closed the Office of Public Safety, but Parts 5 and 6 followed police, narcotics, intelligence and security functions into other statutes and agencies.
+The strongest version goes like this.
 
-That history gives us a hypothesis. It does not give us permission to paste the old answer onto every modern controversy.
+The national-security state learned that politically sensitive operations no longer had to live inside the CIA. Money could come from USAID. Diplomatic pressure and recognition could come from State. Sanctions could come from Treasury. Military capability could come from DOD. Intelligence could provide collection, liaison, or covert action. Democracy institutes could cultivate parties and civic networks. Contractors and NGOs could implement. Media and anti-corruption organizations could produce information that triggered prosecution, sanctions, asset seizure, or political crisis.
 
-The amended Zebra Protocol uses four categories.
+Put enough of those pieces together and a government could pressure, isolate, realign, stabilize, or replace another government without any one institution owning the whole operation.
 
-**Horse** means ordinary bureaucratic convergence. Agencies pursue their public missions, coordinate when expected and produce a broader strategic effect that is substantially emergent or incidental.
+That was the maximum thesis. I did not begin by sanding it down.
 
-**Zebra** means deliberately networked statecraft. Different public or private institutions are intentionally used for complementary roles around a broader strategic objective. It does not require one commander, a universal organization chart, CIA ownership, or proof that every participant understood the whole design.
+I went back through 773 files from this project and the previous six parts. After duplicate hashing, that left 741 unique inherited sources. I mined the supplied books, followed their notes into government records, reopened the modern cases, and looked for the same things a real distributed operation should leave behind: assigned roles, shared objectives, common partners, close sequencing, concealed sponsorship, operational reporting, and downstream official action.
 
-**Black Zebra** is a concealed compartment inside that network: covered personnel, secret tasking, cutouts, clandestine funding, false attribution or covert operations.
+Then I tried to break it.
 
-**Hybrid** means ordinary activity and deliberately networked statecraft both matter. It is not a consolation prize for cases lacking a central command memo.
+Some of the theory broke immediately. Some of it became much harder to dismiss.
 
-For each case, I asked: Was the overlap incidental? Was it normal interagency coordination? Were roles intentionally divided around a common objective? Was there an additional covert compartment?
+## The Books Changed the Question
 
-That last distinction matters because the federal government itself separates foreign-assistance functions. A [2026 GAO review](https://files.gao.gov/reports/GAO-26-108754/index.html) found that USAID allocated about $9 billion and State about $5 billion for democracy assistance in fiscal years 2018 through 2023. The same report examined USAID and two State bureaus—Democracy, Human Rights and Labor, and International Narcotics and Law Enforcement Affairs—because the work was already institutionally distributed.
+The old binary was simple: either an organization was independent, or it was a front.
 
-Distribution alone is not a Zebra. The question is whether the division was deliberately assembled to generate a shared strategic effect.
+The historical record is not that polite.
 
-[IMAGE: World map showing USAID-active countries and selected political ruptures, color-coded by Horse, Zebra, Black Zebra, Hybrid and Unresolved | ALT: World map distinguishing ordinary USAID programs from deliberately networked statecraft and bounded covert compartments]
+In [*The Mighty Wurlitzer*](https://books.google.com/books?id=n3Ol_XDmPdsC), Hugh Wilford reconstructs the CIA's secret relationship with voluntary associations. The National Student Association received money first through wealthy people posing as donors and later through fake charitable foundations. A small circle knew. Most participants did not.
 
-The controls made the difference. Ghana, Senegal, Jordan and other aid recipients had no comparable rupture in the screen. Several countries that did collapse or convulse produced outcomes Washington opposed. Myanmar's military overthrew a civilian order U.S. programs supported. The Taliban destroyed the Afghan state that two decades of American money had tried to build. Tunisia's president dismantled institutions democracy aid was meant to strengthen.
+Yet Wilford's most important point is not that every organization became a puppet. It is almost the opposite. The student groups, labor organizations, magazines, women's committees, churches, and cultural networks possessed genuine energy of their own. Their members argued with the Agency. They pursued their own beliefs. That autonomy helped make them credible—and useful.
 
-Presence was everywhere. Deliberate role allocation was not.
+Frances Stonor Saunders reaches a related problem in [*The Cultural Cold War*](https://thenewpress.org/books/the-cultural-cold-war/). The Congress for Cultural Freedom gathered real intellectuals doing real work. Secret CIA subsidy still shaped the field in which that work circulated. Independence of mind did not erase the strategic purpose of the patronage. Strategic purpose did not mean every essay arrived with a CIA instruction sheet.
 
-Then I reached Syria.
+Lindsey O'Rourke's [*Covert Regime Change*](https://cornellpress.cornell.edu/book/9781501730658/) supplies the operational logic. Covert action can lower political and reputational costs because local forces carry the visible burden. But secrecy also limits scale, and the missions fail far more often than their mythology admits. Her Cold War data found attempted covert regime changes failed to replace their targets more than 60 percent of the time.
 
-## Syria: when the public and covert systems occupy the same map
+Dov Levin's [*Meddling in the Ballot Box*](https://academic.oup.com/book/36920) adds a useful test. Real electoral intervention should leave more than foreign money somewhere in the country. Look for a willing domestic partner, political weakness, invitation or consent, and close cooperation over the acts meant to affect the result.
 
-Syria is the closest modern case to the architecture documented in the early parts of this series—not because USAID secretly became the CIA, but because public and concealed programs performed different jobs in the same strategic theater.
+That combination changed the investigation.
 
-The overt record is unusually explicit. State's [Syria relationship summary](https://2017-2021.state.gov/u-s-relations-with-syria/) says the United States supplied non-humanitarian assistance to opposition local councils, civil-society activists, independent media, the Syrian opposition and elements of the Free Syrian Army and “free police.” It records more than $1.3 billion in stabilization assistance since 2011, including more than $350 million in northeastern Syria since late 2016.
+The question was no longer: **Did Washington control every node?**
 
-A [2014 State fact sheet](https://2009-2017.state.gov/r/pa/prs/ps/2014/01/220029.htm) described roughly $260 million in transition assistance. The programs supported local councils and activists, built the Syrian Coalition's capacity and delivered services in places where the regime had withdrawn. A separate [budget justification](https://2009-2017.state.gov/documents/organization/264457.pdf) proposed money for local-governance staff, salaries, equipment, accounting systems and communications platforms because credible local institutions could increase the opposition's cohesion and legitimacy.
+It became: **What capability did Washington deliberately buy, how did it fit beside other tools, and what bridge connects the capability to the political event?**
 
-Those are not allegations from a hostile government. They are the program's stated political logic.
+That question catches real systems. It also kills lazy theories.
 
-The division of labor appears in the government's own doctrine. The [2018 Stabilization Assistance Review](https://2017-2021.state.gov/reports/stabilization-assistance-review-a-framework-for-maximizing-the-effectiveness-of-u-s-government-efforts-to-stabilize-conflict-affected-areas-2018/) called stabilization “inherently political” and allocated responsibilities among State, USAID and DOD. State would lead policy and diplomacy. USAID would lead stabilization programming under its authorities. DOD could provide security, logistics and other support in contested environments.
+[IMAGE: Historical diagram of CIA pass-through foundations, witting managers, unwitting members, and foreign partner organizations | ALT: How Cold War front funding moved through private intermediaries]
 
-That is Zebra: separate institutions, separate legal authorities, one deliberately assembled campaign.
+## The Sentence That Started the Series
 
-Below that public layer sat a Black Zebra compartment. The [Washington Post reported in 2017](https://www.washingtonpost.com/world/national-security/trump-ends-covert-cia-program-to-arm-anti-assad-rebels-in-syria-a-move-sought-by-moscow/2017/07/19/b6821a62-6beb-11e7-96ab-5f38140b38cc_story.html) that President Trump ended a covert CIA program to arm and train anti-Assad rebels. A New York Times account reproduced as a [congressional hearing exhibit](https://www.congress.gov/115/meeting/house/106115/documents/HHRG-115-FA00-20170614-SD002.pdf) described the arrangement more specifically: the CIA trained rebels while Saudi intelligence supplied money and weapons after White House authorization expanded the program.
+In 1962, [NSAM 177](https://www.jfklibrary.org/asset-viewer/archives/JFKNSF/338/JFKNSF-338-004) gave AID operating and funding responsibility for overseas police programs—“except for their covert aspects.”
 
-The temptation is to compress that into “USAID ran Timber Sycamore.” The evidence does not say that. USAID and State funded overt governance, stabilization, civil society and media. CIA ran a separate covert armed-support channel. DOD pursued its own military track, especially against ISIS. Partner governments brought money, weapons and access.
+Parts 1 through 6 showed what could fit inside that sentence.
 
-The finding is more consequential when stated accurately: the separation was functional. Public aid helped construct political and administrative alternatives; diplomacy supplied recognition and pressure; military and intelligence nodes handled other parts of the battlefield.
+An AID office directed the visible system. Byron Engle retained CIA status while leading it. The International Police Academy trained foreign officers. International Police Services operated as a CIA proprietary. CIA liaison officers received participant information and assessed selected trainees. TWO-FOLD used narcotics-agency relationships for covert recruitment. When Congress shut OPS down and enacted Section 660, police and security functions reappeared through exceptions and other institutions: State, Justice, DEA, FBI, DOD, international missions, and private contractors.
 
-[IMAGE: Syria network showing State policy, USAID and OTI programs, DOD operations, CIA Timber Sycamore, contractors and distinct Syrian recipients, with the covert compartment below a visible line | ALT: Network diagram separating overt United States programs in Syria from a documented covert CIA program]
+The office ended. The functions scattered.
 
-Syria is therefore **Hybrid with a Black Zebra compartment**. Humanitarian relief, counter-ISIS operations and local stabilization were not fake purposes. The covert program's existence does not convert every clinic, council or media grant into a front. But the public documents make a purely emergent explanation impossible. Role differentiation was part of the plan.
+That history does not prove that every later aid project concealed an intelligence operation. It tells us what to look for when overt and concealed roles occupy the same architecture.
+
+Syria leaves more of those footprints than any modern case in this review.
+
+## Syria: Two Tracks, One Political Order
+
+By January 2014, the United States said it had provided nearly $260 million in nonlethal transition assistance to the moderate Syrian opposition. The program helped local councils deliver services, worked through the Syrian Coalition's Assistance Coordination Unit, supported civil society and media, and extended public safety and interim justice in “liberated” territory.
+
+The language was not humanitarian neutrality. The goal was to make the opposition capable of governing.
+
+In 2015, State announced that nonlethal support since 2012 was approaching $500 million. The money backed provincial councils, civil-society activists, first responders, schools, utilities, media, and the institutional capacity of a moderate opposition expected to play a role in Syria's future.
+
+A [Bureau of Conflict and Stabilization Operations report](https://2009-2017.state.gov/documents/organization/223607.pdf) described training more than 1,300 Syrians and equipping almost 1,100. It credited U.S. support with helping opposition activists establish eleven radio stations and two television outlets. Another program joined councils, police units, and rescue squads in command-and-control structures.
+
+Then there was the interagency machinery.
+
+[GAO-18-654](https://www.gao.gov/products/gao-18-654) found that State and USAID formed a combined team for Syria, supported by military equipment. The Syria Transition Assistance Response Team and Southern Syria Assistance Platform colocated civilian personnel. In the northeast, working groups joined civilian and military representatives around humanitarian protection, internal security, governance, essential services, strategic communications, and diplomatic engagement.
+
+The arrangement directly documents role division.
+
+The hidden track sits beside it. A [congressional hearing exhibit](https://www.congress.gov/115/meeting/house/106115/documents/HHRG-115-FA00-20170614-SD002.pdf) preserved contemporary reporting on the CIA-Saudi arrangement: Saudi money and weapons, CIA-led training, and contributions from other regional governments. Later public discussion referred to Timber Sycamore by name.
+
+The public record I found stops short of an order placing the council-and-media program and Timber Sycamore under one operational command. It does not stop at coincidence.
+
+The programs shared an adversary, a transition objective, partner states, opposition geography, and a sequence in which civilian institutions were built where armed actors sought to displace the state. The civilian side tried to make opposition rule viable. The covert side tried to change the balance of force.
+
+Documented A + documented B + the interagency structure around them produce a strong inference: the overt and covert tracks were complementary parts of U.S. pressure on Assad, even if the compartments were kept administratively separate.
+
+None of this means “USAID ran Timber Sycamore.”
+
+It is more consequential. USAID did not have to run it.
 
 [[SUBSCRIBE]]
 
-## Ukraine: a pressure architecture is not proof of protest control
+## Ukraine: Building the Weather
 
-Ukraine is where the same method needs restraint.
+Ukraine is where a real influence architecture collides with a claim the public record cannot finish.
 
-USAID's [2012–2016 country strategy](https://2012-2017.usaid.gov/sites/default/files/documents/1863/USAID_Ukraine_CDCS_2012-2016.pdf) did not hide its political theory. It proposed combining civil-society support with targeted diplomatic engagement to maintain internal and external pressure on the Ukrainian government, promote European norms and increase political competition.
+The [2012–2016 country strategy](https://2012-2017.usaid.gov/sites/default/files/documents/1863/USAID_Ukraine_CDCS_2012-2016.pdf) is candid about U.S. purpose. Ukraine's location between Russia and the European Union gave it strategic importance. The United States had a clear interest in advancing a democratic, free-market transition and helping the country approach European standards.
 
-In January 2014, as Maidan was unfolding, State said the United States had invested more than $5 billion in Ukraine since independence, including more than $815 million for democracy and exchanges and $184 million for governance since 2009. The official described [direct and frequent engagement with government and civil society](https://2009-2017.state.gov/j/drl/rls/rm/2014/219827.htm). After Yanukovych fled, Washington supplied election support, loan guarantees and technical assistance while openly backing a European and IMF-oriented transition.
+That strategy funded civil society, elections, governance, anti-corruption work, independent media, and political processes. CEPPS brought IRI, NDI, and IFES into the same field. NED supported Ukrainian civic and media organizations. Embassy officials met government, opposition, business, and civil-society leaders.
 
-That is deliberate political influence. It is also what democracy assistance says it does.
+When Maidan erupted after Viktor Yanukovych abandoned an EU association agreement, these organizations did not suddenly appear. A pro-European political environment had been cultivated for years.
 
-What I did not find was the missing bridge: authenticated operational records showing USAID or CIA assigning protest leaders, directing street tactics, ordering the police violence that expanded the movement, engineering parliamentary defections or commanding Yanukovych to flee. A later intelligence partnership, even if accurately reported, cannot be backdated into proof of who controlled Maidan.
+The infamous Nuland-Pyatt call adds another receipt. U.S. diplomats were not passive observers of the emerging political order; they discussed opposition figures and preferred combinations. At a [February 2014 briefing](https://2009-2017.state.gov/r/pa/prs/dpb/2014/02/221422.htm), State defended the contacts as ordinary work with government, opposition, business, and civil society.
 
-After Russia's full-scale invasion, the classification changes because the roles become visible and explicit. A [2024 GAO review](https://www.gao.gov/assets/gao-24-106884.pdf) counted $976 million in democracy assistance since February 2022. Another review found 111 partners and 197 awards. State ran diplomacy and sanctions; USAID supported institutions, media and public resilience; DOD trained and armed Ukrainian forces; intelligence cooperation supported the defense.
+That answer confirms influence. It does not settle direction.
 
-That is overt Zebra responding to an invasion. It is not evidence that Washington caused the invasion—or that every prewar civic organization was a covert asset.
+The bridge Levin's test predicts—close cooperation over the acts that generated and steered the uprising—remains missing. Yanukovych's reversal, police violence, mass domestic mobilization, oligarchic fracture, and Russian pressure all have independent causal force. The United States helped build the political weather in which Maidan occurred and tried to shape the transition that followed. The reviewed record does not show Washington operating the crowd.
 
-Ukraine is **Hybrid**. The United States deliberately built influence infrastructure around a pro-European strategic objective. The record does not establish operational control of the 2014 uprising.
+After 2014, and especially after Russia's 2022 invasion, the architecture became much more explicit. Civil aid, government finance, anti-corruption systems, arms, training, diplomacy, sanctions, and intelligence cooperation reinforced Ukraine's Western alignment and survival. A [2024 GAO inventory](https://www.gao.gov/assets/gao-24-106884.pdf) alone lists hundreds of millions for governance, civil society, media, human rights, rule of law, and political competition.
 
-## Venezuela: the transition plan was published
+The pre-Maidan claim survives as material environmental influence. Operational direction does not.
 
-Venezuela removes much of the ambiguity.
+[IMAGE: Ukraine timeline from pre-2014 civil-society and media programs through Maidan, post-transition reform, and post-2022 security cooperation | ALT: Long-term United States influence and security support in Ukraine]
 
-State described its policy as a [whole-of-government effort](https://2017-2021.state.gov/standing-for-democracy-and-prosperity-in-venezuela/). Washington recognized Juan Guaidó as interim president, imposed sanctions, supported democratic organizations, coordinated humanitarian relief and announced money to assist Venezuelans and the interim institutions.
+## Venezuela: The Operation With a Public Blueprint
 
-Then it published the blueprint. The [Democratic Transition Framework for Venezuela](https://2017-2021.state.gov/democratic-transition-framework-for-venezuela/) connected a transitional government, elections, security arrangements, economic assistance and phased sanctions relief. The strategic effect was not hidden: remove Nicolás Maduro's governing structure through combined political and economic pressure, then support a negotiated transition.
+Venezuela removes one excuse for looking only for secrets.
 
-A [USAID inspector-general audit](https://oig.usaid.gov/sites/default/files/2021-04/9-000-21-005-P_0.pdf) makes the internal relationship even clearer. It found that NSC and State directions to USAID were not always documented, and it described USAID coordination with the interim government under a bilateral agreement expected to provide up to $200 million through fiscal year 2024.
+In 2019, the United States recognized Juan Guaidó as interim president, tightened sanctions, backed opposition and civil-society activity, moved humanitarian assistance toward the border, and urged the military to abandon Nicolás Maduro.
 
-That is strong Zebra evidence. It is also a warning against overstating success or purity. Maduro remained in power. Some assistance addressed real humanitarian need. A [GAO analysis of sanctions](https://www.gao.gov/products/gao-21-239) concluded that sanctions contributed to a steeper economic decline alongside oil-price changes and years of government mismanagement.
+Then State published the design.
 
-Venezuela is **Hybrid**: deliberately networked transition policy inside a crisis with independent domestic causes, ordinary relief programs and major unintended harm. I found no credible public evidence of an additional Black Zebra compartment.
+The [Democratic Transition Framework for Venezuela](https://2017-2021.state.gov/democratic-transition-framework-for-venezuela/) proposed a new Council of State to take executive power. Maduro and Guaidó would both step aside. The National Assembly would select council members. A military adviser would sit with it. Sanctions would be lifted in stages. A new cabinet, electoral authority, and supreme court would follow. Presidential and legislative elections would occur within six to twelve months. The World Bank, IMF, and Inter-American Development Bank would be invited into a recovery program.
 
-## Five countries that change the answer
+Secretary of State Mike Pompeo made the leverage plain: pressure and sanctions would continue until Maduro accepted a genuine transition.
 
-If I had stopped with Syria, Ukraine and Venezuela, the article would have produced a dramatic but biased theory. Haiti, Sri Lanka, Bangladesh, Myanmar and Georgia are the cases that force it to become precise.
+Aid. Recognition. Financial isolation. Diplomatic coalition. Military terms. Institutional design. Election sequence. Reconstruction money.
 
-### Haiti: influence after the murder is not proof of the murder
+No secret memo is required to call those tools complementary. The framework did it on the website.
 
-President Jovenel Moïse was assassinated on July 7, 2021. Constitutional succession was already ambiguous. Acting prime minister Claude Joseph held power, while Moïse had named Ariel Henry as prime minister days before his death.
+The plan failed to remove Maduro. Humanitarian need was real, Venezuela's collapse had deep domestic causes, and opposition fragmentation mattered. Those facts do not make the transition architecture imaginary. They show, as O'Rourke's work predicts, that deliberately assembled pressure is not the same as control.
 
-The United States and other members of the Core Group then backed Henry. In a [July 19 State briefing](https://2021-2025.state.gov/briefings/department-press-briefing-july-19-2021/), a reporter confronted the spokesman with the obvious conclusion: outside governments had taken sides. The spokesman denied choosing Haiti's leader but defended the Core Group statement encouraging Henry to form a government.
+[IMAGE: Venezuela pressure architecture linking recognition, sanctions, opposition support, military terms, elections, and international financial institutions | ALT: Public United States transition framework for Venezuela]
 
-That intervention mattered. International recognition, aid relationships and security ties helped determine which claimant could govern. Long-running USAID election and governance programs and State police assistance formed the institutional background.
+## Haiti: Who Uses the Vacuum?
 
-But I found no evidence that USAID planned, financed, knew about or participated in Moïse's assassination. The strongest defensible connection begins **after** the killing. Haiti is Hybrid because foreign powers shaped the succession, not because the aid agency caused the rupture.
+Jovenel Moïse was assassinated on July 7, 2021. Haiti had no functioning parliament and no clean constitutional succession. Acting prime minister Claude Joseph exercised authority. Moïse had designated Ariel Henry as the next prime minister, but Henry had not been installed.
 
-### Sri Lanka: the coincidence that dissolved
+Ten days after the killing, the international Core Group—including the United States, United Nations, Organization of American States, European Union, and several major embassies—issued a statement. It “strongly encouraged” Henry to form a government.
 
-Sri Lanka looked suspicious on the first map.
+State defended that intervention at its [July 19 briefing](https://2021-2025.state.gov/briefings/department-press-briefing-july-19-2021/), saying Haitians should decide while endorsing the Core Group's call. Joseph stepped aside. Henry took office.
 
-USAID's country strategy tied governance work to a Free and Open Indo-Pacific. A 2022 [governance portfolio](https://www.usaid.gov/sites/default/files/2023-03/Governance%20sector%20portfolio%20Nov%202022_0.pdf) listed multimillion-dollar programs implemented by NDI, IRI, IFES, MSI, IREX and Chemonics. GAO later calculated at least $115.2 million in democracy assistance for fiscal years 2018–2023. Then mass protests drove President Gotabaya Rajapaksa from office in July 2022.
+The [Core Group communiqué](https://binuh.unmissions.org/fr/node/74551) did not pull a trigger. It did help decide which claimant received international recognition in the vacuum after the trigger was pulled.
 
-The deeper timeline broke the apparent chain. Sri Lanka depleted its foreign reserves, defaulted on debt and suffered severe shortages of fuel, food and medicine. Pandemic damage, tax policy, debt, corruption and family rule supplied a direct path to the streets. State's [2022 human-rights report](https://2021-2025.state.gov/reports/2022-country-reports-on-human-rights-practices/sri-lanka/) describes that crisis and the protest sequence without revealing an American operational role.
+That separation is essential. I found no evidence that USAID organized Moïse's assassination. The record does show that outside powers materially shaped the succession, in a country where foreign donors, police programs, justice assistance, and diplomatic recognition already carried extraordinary weight.
 
-The predicted Zebra signatures aimed at removal are missing: no event-specific plan, no divided operational roles, no protest tasking, no covert funding channel and no leadership-transition mechanism.
+The most serious question is not always who caused the rupture. Sometimes it is who had the network ready to use it.
 
-Sri Lanka is **Horse**. It is the strongest example of why a grant list plus a resignation is not a causal argument.
+## Bangladesh: Follow the Successor Backward
 
-### Bangladesh: a real network and a missing bridge
+Bangladesh became more interesting on the second pass—and not more conclusive.
 
-Bangladesh produces a more uncomfortable answer.
+For years, U.S.-funded programs worked with political parties, election officials, civil-society organizations, youth groups, polling firms, universities, media, and monitors. A [USAID election-support evaluation](https://pdf.usaid.gov/pdf_docs/PA00M7MH.pdf) names the ecosystem: IRI, NDI, IFES, local NGOs, research grantees, survey firms, trainers, and party-facing programs.
 
-USAID's [2020–2027 strategy](https://www.usaid.gov/sites/default/files/2023-06/Bangladesh-CDCS-2020-2027-FINAL_1.pdf) sought political pluralism and described work with political parties, citizens, civil-society groups and youth leaders. An earlier [election-support evaluation](https://pdf.usaid.gov/pdf_docs/PA00M7MH.pdf) shows the CEPPS organizations—IFES, IRI and NDI—working across polling, parties, media, election administration and civic engagement. Before the 2024 upheaval, State also used election-related visa pressure.
+Before the disputed 2024 election, Washington applied public pressure and visa restrictions. Months later, a student protest over public-job quotas widened under lethal repression. Sheikh Hasina fled. Nobel laureate Muhammad Yunus became chief adviser to an interim government.
 
-So the long-run influence network is not imaginary.
+Yunus was not a stranger to Washington. He had received the Presidential Medal of Freedom and Congressional Gold Medal. U.S. officials had publicly defended him during his long conflict with Hasina. In September 2024, State and USAID announced more than $200 million in new assistance after meetings with the interim government.
 
-The event-level connection remains unproved. The July protests began over a court-restored government-job quota, expanded after repression and culminated in Sheikh Hasina's departure on August 5. I found no authenticated record connecting USAID award instructions, subgrantee tasking or U.S. operational support to the student organizers or the decisive escalation.
+The result is a relationship-rich successor network, not an installation record.
 
-One inflammatory sentence circulating online—purporting to show a plan to “destabilize” Bangladesh—was not used because I could not authenticate it in the underlying primary document.
+The disputed quotation claiming an explicit plan to “destabilize” Bangladesh does not survive authentication. More importantly, the expected operational bridge is absent. I found no document ordering the quota protests, directing student tactics, or selecting Yunus before the uprising. Domestic grievances, court decisions, repression, and student organization remain sufficient drivers.
 
-Bangladesh is **Unresolved**. Zebra is present in the democracy strategy. The bridge from strategy to regime rupture is missing.
+Bangladesh therefore stays unresolved: too much prior network-building and immediate affinity to dismiss as irrelevant, too little event-level evidence to call the rupture directed.
 
-### Myanmar: the event and the response classify differently
+[IMAGE: Successor-network map linking Bangladesh election programs, youth and civil-society partners, U.S. pressure, Hasina's departure, and Yunus's interim government | ALT: Documented relationships around Bangladesh's 2024 transition]
 
-On February 1, 2021, Myanmar's military overthrew the elected government and arrested its leaders. That event ran against the political order U.S. programs had supported.
+## The Horse in Sri Lanka
 
-State's [country relationship account](https://2021-2025.state.gov/u-s-relations-with-burma/) describes what followed: an interagency process, $42.4 million redirected away from activities benefiting the government, continued direct programs, sanctions, and support for civil society and independent media. Officials later discussed support for the National Unity Government's capacity, policy development, budgeting and public engagement.
+A theory that explains every crisis explains nothing.
 
-The coup is Horse: local military actors destroyed the U.S.-favored order. The response is Zebra: aid redirection, diplomacy, sanctions, media support and opposition-government capacity were intentionally combined.
+USAID had governance, civil-society, election, media, and reconciliation programs in Sri Lanka before the 2022 uprising. The island mattered strategically. Protesters drove the Rajapaksa government from power. On a map, the ingredients look familiar.
 
-Myanmar is therefore **Hybrid**, and it demonstrates why classifying a country instead of a specific event or program can mislead.
+Then the economic records arrive.
 
-### Georgia: the Zebra in plain sight
+The [IMF's 2021 Article IV review](https://www.imf.org/en/publications/cr/issues/2022/03/25/sri-lanka-2021-article-iv-consultation-press-release-staff-report-and-statement-by-the-515737), completed before the climax, documented the mechanism in motion: major 2019 tax cuts, pandemic damage, the collapse of tourism, deficits above 10 percent of GDP, public debt reaching 119 percent, lost market access, depleted reserves, foreign-exchange shortages, and rising inflation. The government's fertilizer ban and defense of the exchange rate deepened the crisis. Fuel, medicine, food, and electricity became scarce.
 
-Georgia is the clean overt case.
+That chain runs directly into the streets.
 
-USAID's inspector general found that the mission integrated the [Countering Malign Kremlin Influence framework](https://oig.usaid.gov/node/5198) into its country strategy. The framework tied democracy, governance and economic programming to resistance against Russian election interference, disinformation, corruption and coercion. GAO counted more than $224 million in democracy assistance in fiscal years 2018–2023.
+No recovered document assigns U.S. programs a role in removing Gotabaya Rajapaksa. No covert compartment appeared. No operational bridge connected democracy grants to protest command. Aid organizations existed in the same country where a government detonated its finances.
 
-When the Georgian government adopted a foreign-agent law and intensified repression in 2024, State reviewed assistance, paused $95 million that directly benefited the government, announced visa restrictions and imposed sanctions while support for civil society and media continued.
+Sri Lanka is not the exception we hide in a footnote. It is the control that makes the other findings meaningful.
 
-No master memo is necessary. The target, roles and tools are public: strategic programming to counter Russian influence; grants to civic and media actors; diplomatic pressure; aid shifts; visas and sanctions.
+The extreme theory failed there.
 
-Georgia is **Zebra**. No covert compartment was required, and none appeared in the evidence.
+## The Newsroom That Can Be Two Things
 
-## The information machine without an owner
+The Organized Crime and Corruption Reporting Project poses the historical question in modern form.
 
-The most revealing modern network is not a protest organization. It is investigative journalism.
+State and USAID have funded OCCRP and related investigative networks because cross-border reporting can uncover assets, expose corrupt officials, trigger investigations, change policy, and strengthen prosecutors or civil society. A [USAID midterm evaluation](https://pdf.usaid.gov/pdf_docs/PA00KM3J.pdf) examined how OCCRP tracked the effects of stories, including government or civic action.
 
-USAID funded the International Center for Journalists under an award that included the Journalism Development Network and the Organized Crime and Corruption Reporting Project. A [midterm evaluation](https://pdf.usaid.gov/pdf_docs/PA00KM3J.pdf) described the goals: connect investigative reporters, provide secure tools, raise professional standards and expand distribution. The theory linked reporting to public accountability, resignations, indictments and other official consequences.
+The funding is not a neutral interest in journalism as an ornament. It buys a capability whose downstream consequences matter to foreign policy.
 
-State's [Global Anti-Corruption Consortium solicitation](https://2009-2017.state.gov/j/drl/p/previouscalls/260077.htm) was even more direct. The program sought investigative reporting that generated legally actionable information and action by governments, international organizations, prosecutors and asset-recovery bodies.
+OCCRP also publishes an explicit donor firewall. Its [funding and editorial policies](https://www.occrp.org/en/faq-on-occrps-funding-and-editorial-policies) show grant language preserving complete editorial control. Donors do not sit in editorial meetings or choose stories.
 
-This is the proposition Mike Benz and others often describe as “intelligence benefit without formal ownership.” Stripped of the slogan, the core mechanism is real. Government money builds a transnational information-gathering network. Journalists find corporate records, beneficial owners, financial trails and corrupt relationships. The material enters public debate and can trigger prosecutors, sanctions, asset recovery or political consequences.
+Both records belong on the table.
 
-In Ukraine, State credited a USAID-supported regional network and an OCCRP partner with helping secure documents abandoned by the departing Yanukovych government and publishing them through a searchable asset-tracking project.
+The false choice says OCCRP must be either an independent newsroom or a tool of statecraft. The real answer is that an independent newsroom can be deliberately funded because its independently chosen work is expected to produce useful public consequences.
 
-But the second half of the record matters just as much. The State solicitation said the U.S. government would not exercise editorial influence or control. OCCRP's [funding and editorial policies](https://www.occrp.org/en/faq-on-occrps-funding-and-editorial-policies) say donors do not decide which stories reporters pursue or preview stories before publication.
+That was the old front system's most important lesson, stripped of the secret subsidy. Authentic institutions can be strategically useful precisely because their work is authentic.
 
-Those provisions do not make strategic funding apolitical. They do defeat the lazy claim that a grant proves every article was government-tasked.
+The missing edge still matters. I found no evidence that State or USAID assigned individual OCCRP investigations. Calling the newsroom a covert front would outrun the record. Calling it strategically irrelevant to its government donors would ignore the award's purpose.
 
-OCCRP is **Zebra, not Black Zebra**: intentionally funded independent reporting whose outputs can serve broader anti-corruption and foreign-policy objectives, without evidence of a secretly owned newsroom.
+[IMAGE: Flow diagram from government grant to independent investigative capacity to stories, investigations, sanctions, asset recovery, and policy response | ALT: How funded independent journalism can produce statecraft-relevant effects]
 
-That distinction may be the most important in the article. A government does not have to own an institution to benefit from the capacity it creates. Independence and strategic utility can coexist.
+## The Domestic Echo That Did Not Land
+
+The maximum thesis predicted another trail: foreign-policy money building organizational capacity that later mattered inside the United States.
+
+Several real relationships appeared.
+
+Tides received substantial USAID awards for overseas programs and separately provided fiscal sponsorship to domestic advocacy organizations. NewsGuard received a Defense Department small-business award to develop its Misinformation Fingerprints technology for identifying foreign influence campaigns. Poynter and the Centre for Information Resilience operate across international and domestic information spaces.
+
+But the named money chains did not close.
+
+No reviewed record traced USAID grant dollars through Tides into Black Lives Matter-linked entities or Fair and Just Prosecution. No USAID award was found directing PolitiFact's domestic ratings. NewsGuard's [federal award record](https://www.usaspending.gov/award/CONT_AWD_FA864921P1569_9700_-NONE-_-NONE-) proves the defense research relationship, not government direction of every later rating or domestic product.
+
+Indirect capacity subsidy remains a legitimate accounting question. Restricted dollars can pay overhead, staff, compliance systems, technology, or databases that leave an organization stronger elsewhere. Proving it requires cost pools, payroll, asset records, and reuse evidence—not arrows on an organization chart.
+
+Here, the direct domestic-bleedback claim failed.
+
+[IMAGE: Domestic-bleedback audit showing direct funding, overhead, shared infrastructure, personnel transfer, technology reuse, and broken links | ALT: Tests for tracing foreign-policy funding into domestic organizational capacity]
+
+## What the Contractors Changed
+
+The contractor layer connects the beginning of this series to its end.
+
+International Police Services gave the CIA a private institutional shell beside the public police academy. Decades later, Creative Associates implemented ZunZuneo for USAID's Office of Transition Initiatives using offshore companies and concealed U.S. sponsorship. DynCorp, PAE, Amentum, Chemonics, and other firms supplied police, logistics, stabilization, and development capacity across later theaters.
+
+These companies were not interchangeable, and contractor status is not proof of intelligence affiliation.
+
+The continuity is structural. A contractor can hold personnel, move money, build technology, manage local partners, and absorb operational distance. It can let the government divide policy, finance, execution, and attribution among separate entities. When something fails, responsibility travels back through task orders, subawards, agency mandates, and jurisdictional gaps.
+
+That longer chain can be ordinary outsourcing. In ZunZuneo, concealment was part of the design. In Syria, contractors and local implementers extended a political program into territory where American officials could not operate normally. In Afghanistan, enormous implementation networks served an openly integrated war—and then failed with it.
+
+The network is not evidence of omnipotence. Afghanistan is evidence of the opposite. Development, counternarcotics, counterinsurgency, intelligence partnerships, military power, contractors, and diplomacy were deliberately combined for twenty years. The republic still collapsed in days.
+
+Integration proves intent to assemble capabilities. It does not prove the ability to control consequences.
+
+## What Survived
+
+The maximum thesis did not survive intact.
+
+There is no evidence of one hidden commander running USAID, the CIA, democracy institutes, NGOs, contractors, media organizations, and every political rupture examined here. The theory failed in Sri Lanka. It failed as an explanation for Myanmar's coup. It failed as an explanation for Afghanistan's collapse. It failed to connect USAID to Moïse's assassination. It failed to trace named foreign-aid dollars into the domestic advocacy targets tested.
+
+But the safe alternative failed too.
+
+These programs are not merely benevolent projects that happen to overlap with U.S. strategy. In documented cases, Washington assigns different institutions different roles around a common outcome. Venezuela's blueprint says so openly. Syria's records show civilian governance, media, policing, military support, sanctions, diplomacy, and a separate covert armed track occupying the same regime-pressure architecture. Ukraine shows years of deliberate environmental influence even though direction of Maidan remains unproved. Haiti shows international power shaping succession without evidence it caused the assassination. OCCRP shows how independent institutions can be funded for consequences the state values without surrendering day-to-day autonomy.
+
+What remained was the strongest version left standing:
+
+**What survived OPS was not an office, a name, or a seamless CIA chain. It was a governing method—the ability to separate money, legitimacy, diplomacy, security, intelligence, implementation, and information across institutions, then combine selected functions around a strategic objective.**
+
+Sometimes the arrangement is public. Sometimes one compartment is hidden. Often a grant is just a grant. The difference lives in the bridge: assigned roles, common operational structures, concealed attribution, partner selection, and measurable downstream action.
+
+OPS made the machine visible because the functions were concentrated. Congress could point to the office, expose it, and kill it.
+
+The modern architecture is harder to see because each node can tell a partial truth. USAID funds development. State conducts diplomacy. Treasury administers sanctions. DOD provides security. Intelligence officers protect sources. Contractors implement statements of work. Journalists choose their stories. Local actors pursue their own politics.
+
+All of those statements can be true.
+
+And in selected cases, the functions still fit together.
+
+[IMAGE: Final network map connecting aid, diplomacy, sanctions, military support, intelligence, contractors, civil society, and information outputs around a shared objective | ALT: The distributed architecture that replaced the Office of Public Safety]
+
+The office died.
+
+The grammar survived.
+
+The final question is not whether every node belongs to the CIA.
+
+It is who can be held responsible when no node admits to owning the whole operation.
 
 [[SHARE]]
 
-## The domestic bleedback test
+## FAQ
 
-If foreign-assistance networks create political, media and information capacity abroad, what happens when the same intermediaries operate at home?
+### Does this prove USAID is a CIA front?
 
-The answer is not “nothing.” It is also not the pass-through story that has circulated online.
+No. It proves documented intelligence interfaces in the historical OPS system and deliberate role division in selected modern cases. USAID also runs vast amounts of ordinary humanitarian and development work. The universal proxy claim failed.
 
-### Tides, BLM and Fair and Just Prosecution
+### Did USAID run Timber Sycamore?
 
-Tides says it received [$24.5 million in USAID grants](https://www.tides.org/statement/tides-partnership-with-usaid/) between October 2016 and July 2024, plus a $1.5 million Open Government Partnership grant in the preceding period. It says $680,807 went to subawards. Tides also provided fiscal sponsorship to domestic organizations, including Black Lives Matter and Fair and Just Prosecution.
+No evidence reviewed here assigns USAID operational control of the CIA program. The stronger supported finding is that overt opposition-building and the covert armed track were strategically complementary in Syria.
 
-That proves a shared intermediary. It does not prove a shared pot of money.
+### Did the United States organize Maidan?
 
-Tides says no USAID funding went to BLM, FJP, Greenpeace or any domestic program. FJP's [own funding FAQ](https://fairandjustprosecution.org/about-fjp/frequently-asked-questions/) says it receives no USAID or public-agency funds. I found no award or subaward record tracing USAID dollars to either project.
+The record supports long-term U.S. influence on Ukraine's political environment and efforts to shape the transition. It does not establish operational direction of the uprising.
 
-There may be an indirect organizational benefit when a fiscal sponsor collects fees, maintains staff and operates common legal, payroll and compliance systems. But that benefit cannot be quantified from Tides' current fee schedule, and it is not the same as funding a project's advocacy.
+### Can OCCRP be independent if governments fund it?
 
-The BLM/FJP claim is **Horse with indirect organizational overlap**. The direct USAID funding allegation weakened under research.
+Yes. Its published grant language preserves editorial control. Government funders can still deliberately buy investigative capacity because they value the public and official consequences that independent reporting may produce.
 
-### NewsGuard, Poynter and CIR
+### What is the strongest theory that failed?
 
-NewsGuard did receive a federal contract. The [USAspending award record](https://www.usaspending.gov/award/CONT_AWD_FA864921P1569_9700_-NONE-_-NONE-) lists $749,387 from the Air Force for “Misinformation Fingerprints.” A [federal court decision](https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2023cv07088/604160/73/) records a September 2021 to December 2022 performance period and says no later contracts were awarded.
-
-That proves government-funded research with dual-use potential. It does not prove that the government directed NewsGuard's later ratings of domestic outlets. Without the contract deliverables and a tasking chain tied to specific ratings, domestic bleedback remains **Unresolved**.
-
-I found no authenticated direct USAID award to PolitiFact. USAID documents sometimes recommend Poynter resources; Poynter and PolitiFact publicly list major funders. The same institution can participate in global fact-checking and domestic journalism without restricted foreign-aid money crossing between them.
-
-The [Centre for Information Resilience](https://www.info-res.org/faqs/) discloses funding from the U.S. State Department, Britain's Foreign Office and other donors for foreign investigations. It also asserts editorial independence. I found no USAID award and no traced domestic political operation.
-
-[IMAGE: Stateside intermediary map with solid lines for proven grants, dashed lines for shared infrastructure and blocked lines where no pass-through was found | ALT: Diagram showing federal grants to intermediary organizations and separate domestic programs without implying unproved direct funding]
-
-The domestic investigation therefore produced the opposite of a conspiracy crescendo. Shared contractors, nonprofit infrastructure and reusable information tools are real. The strongest direct-funding claims failed.
-
-## What the contractor map can—and cannot—prove
-
-Across the flagship countries, the same organizational names recur: NDI, IRI and IFES under the Consortium for Elections and Political Process Strengthening; IREX in media systems; Chemonics and MSI in governance and justice; ICFJ and OCCRP in investigative networks.
-
-That convergence matters. These organizations provide ready-made accounting systems, local partnerships, security protocols, regional expertise and the ability to expand quickly. A government that wants to build civic, media or governance capacity does not start from zero in every country. It uses a mature implementation market.
-
-But recurrence is not command. CEPPS partners working under one cooperative agreement are not three independent confirmations of a covert plan. A contractor that works in Sri Lanka and Afghanistan is not automatically carrying one political operation between them. A nonprofit can pursue its own mission, negotiate grant terms and resist donor pressure while still serving an objective the funder deliberately selected.
-
-The personnel search was even more limiting. I did not find a modern chain comparable to the old OPS/IPS record—a documented cadre moving among USAID, CIA, contractors and opposition groups. The strongest continuity is organizational and doctrinal, not individual.
-
-That negative finding matters because historical precedent can sharpen a search without deciding it. The early series proved that overt and covert roles were sometimes separated. It did not prove that every modern grant inherited the covert compartment.
-
-## The agency disappeared. The function moved.
-
-Then the finale acquired an ending I had not expected when this series began.
-
-On July 1, 2025, USAID stopped administering foreign assistance. A [September 2026 GAO report](https://www.gao.gov/products/gao-26-108607) says the government terminated roughly 6,780 of about 7,510 awards in the review universe by March 2026. The remaining active awards—representing tens of billions of dollars in cumulative obligations—were administered by State.
-
-This is not evidence that every terminated program secretly continued. Most did not. It is evidence of the exact institutional principle the series has followed from the Office of Public Safety forward: closing an office and ending a function are different acts.
-
-Across seven parts, the documentary categories now separate cleanly.
-
-**Documented continuity:** specific authorities, appropriations, awards or functions that can be followed across a transition.
-
-**Institutional descent:** a successor organization formally inherits part of a mission.
-
-**Personnel continuity:** identifiable people carry relationships or methods between systems. This was strong in portions of the historical record and weak in the modern Part 7 cases.
-
-**Policy and doctrinal continuity:** the same design principle reappears—especially the division of overt assistance, diplomacy, security and concealed work.
-
-**Functional similarity:** two systems perform comparable jobs without proof of descent.
-
-**Historical analogy:** the old case suggests what records to look for in the new one.
-
-**Speculation:** the predicted evidence is missing.
-
-The most defensible modern conclusion sits in the fourth category. The method survived.
-
-Not everywhere. Not inside every grant. Not because USAID was a costume worn by CIA. It survived because distributed government is resilient. Policy can sit at State, money at an aid agency, operations at DOD or Justice, local access with a contractor, public legitimacy with a civil-society partner and a concealed compartment somewhere else. No participant needs the full chart for the chart to work.
-
-Mike Benz's larger theory therefore comes out both stronger and weaker.
-
-It is stronger where he argues that funding, policy, operations, intermediaries and information can be deliberately divided. Syria, Venezuela, Georgia, post-coup Myanmar and the OCCRP architecture make that impossible to dismiss as mere coincidence.
-
-It is weaker where the existence of that architecture is treated as proof that a specific uprising was commanded, a newsroom was owned, or a domestic group received foreign-aid money. Sri Lanka, Bangladesh, Tides/BLM/FJP and the missing personnel chain impose limits the theory has to survive.
-
-The choice was never between “USAID caused the revolutions” and “USAID only dug wells.”
-
-The real question was whether role differentiation could be an instrument of power.
-
-The record says yes.
-
-The harder obligation is to prove it one role, one award, one country and one covert compartment at a time.
-
-## Frequently Asked Questions
-
-### Did USAID cause the political ruptures mapped in this investigation?
-
-No general causal claim survives. Syria, Venezuela, Georgia and post-coup Myanmar show deliberate role allocation around strategic objectives. Sri Lanka is best explained by domestic economic collapse; Myanmar's coup and Afghanistan's fall ran against U.S. objectives; Bangladesh remains unresolved.
-
-### Did USAID run the CIA's Timber Sycamore program in Syria?
-
-No. Public documents show USAID and State supporting governance, civil society, media and stabilization, while credible reporting and congressional material document a separate CIA program to arm and train rebels. Their objectives overlapped, but operational ownership was distinct.
-
-### Does U.S. funding make OCCRP a government-controlled newsroom?
-
-The evidence does not support that conclusion. Grant documents deliberately sought reporting that could produce legal and policy action, which makes the architecture strategically useful. The same documents barred U.S. editorial control, and OCCRP says donors do not choose or preview stories.
-
-### Did USAID money fund Black Lives Matter or Fair and Just Prosecution through Tides?
-
-No direct path was established. Tides received USAID grants and separately sponsored those domestic projects, but Tides says USAID money did not fund them, FJP denies public-agency funding, and no award-level pass-through was found.
-
-### What survived after USAID stopped administering foreign assistance?
-
-Many awards were terminated, while remaining active programs moved under State administration. What survived selectively was not a single intact agency but functions, contracts, partner networks and the doctrine of dividing strategic work among institutions.
+The claim that foreign-aid and democracy programs engineered Sri Lanka's 2022 uprising. Contemporaneous economic records supply a direct domestic causal chain, while the predicted operational bridge never appeared.
 
 ## YOU MAY BE INTERESTED IN THESE ARTICLES
 
-- [USAID & The CIA: The Aid Memo That Built a Global Police System — Part 1](https://thewhiterabbitreport.substack.com/p/usaid-and-the-cia-series-part-1)
-- [USAID & The CIA: The Academy & The Agency — Part 2](https://thewhiterabbitreport.substack.com/p/usaid-and-the-cia-series-part-2)
-- [The Phoenix Program: The Template for Endless Wars](https://thewhiterabbitreport.substack.com/p/phoenix-program-template-for-endless-wars-operation-gladio)
-- [The Blueprint Pt. 1: The CIA's Global Coup Machine](https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s)
-- [False Profits: The Chemonics–USAID Scandal](https://thewhiterabbitreport.substack.com/p/false-profits-the-chemonics-usaid)
+- [Operation Gladio in America: Nixon, Narcotics, and the CIA Pipeline](https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-nixon)
+- [Blueprint for Empire: CIA Coups and the Architecture of Intervention](https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s)
+- [Phoenix Program: The Template for Endless War](https://thewhiterabbitreport.substack.com/p/phoenix-program-template-for-endless-wars-operation-gladio)

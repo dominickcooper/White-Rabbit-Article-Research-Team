@@ -1,85 +1,59 @@
-# Story Spine
+# Story Spine — Part 7
 
-## Reader transformation
+## Opening receipt
 
-Before: a reader can see that USAID appears near many political crises and may either infer universal covert control or dismiss every connection as normal aid.
+Open on the Syria record: while CIA and partner states armed rebels, official U.S. programs were building councils, media outlets, emergency services, and police in opposition territory. The strange detail is not overlap but division of labor.
 
-After: the reader can distinguish presence, ordinary coordination, deliberate role allocation and covert compartments; can name which flagship cases fall into each category; and can explain why the durable continuity from OPS is a networked method rather than a single secret organization.
+## Reader expectation
 
-## Spine
+The reader expects either a declaration that USAID is a CIA front or a debunking. Deny the binary. Test the craziest coherent version through documents and controls.
 
-### 1. The map that accuses everyone
+## Reveal sequence
 
-- Open with 100+ countries, 4,000+ partners and the impossibility of treating presence as proof.
-- Introduce Horse/Zebra/Black Zebra/Hybrid in compact narrative form.
-- Promise to test the strongest cases and the strongest controls.
+1. **The question Parts 1–6 earned:** if Congress destroyed the office, did the method survive as a network?
+2. **The old playbook:** Wilford's witting/unwitting fronts, Saunders's independent intellectuals, O'Rourke's private intermediaries, and Levin's domestic-partner test.
+3. **Wait—autonomy is not an alibi or a conviction:** an independent actor can still deliver strategic value.
+4. **Syria:** show the overt nodes, then open the Timber Sycamore compartment, then state the strong inference and its boundary once.
+5. **Ukraine:** long-built pro-European environment; diplomatic influence; missing operational bridge.
+6. **Venezuela:** the network becomes visible because the transition architecture was published.
+7. **Haiti and Bangladesh:** separate vacuum use from rupture causation; follow successors backward; preserve the unresolved edge.
+8. **The case that collapses:** Sri Lanka's economic receipts beat the foreign-engineering theory.
+9. **The information machine:** OCCRP demonstrates independence and strategic utility simultaneously.
+10. **Domestic echo:** trace Tides/NewsGuard/Poynter/CIR; let direct claims fail.
+11. **Contractor/intermediary architecture:** connect IPS, ZunZuneo, and modern implementation without assigning universal covert status.
+12. **Series payoff:** no intact office, but a repeatable grammar of divided roles.
 
-### 2. Syria: the complete architecture
+## Human bridges
 
-- State/USAID local councils, activists, media, opposition legitimacy.
-- Stabilization doctrine explicitly divides State/USAID/DOD responsibilities.
-- Timber Sycamore as separately documented CIA covert program.
-- Judgment: Hybrid with Black Zebra; USAID did not run the covert program.
-- Visual: Syria network.
+- Eugene Groves confronting the NSA funding secret.
+- Syrian local council and police recipients situated inside competing support tracks.
+- Ariel Henry moving from designated but uninstalled premier to internationally backed successor.
+- Muhammad Yunus as a relationship-rich successor whose event bridge is still missing.
 
-### 3. Ukraine and Venezuela: influence is not the same as command
+## Rabbit holes
 
-- Ukraine CDCS: civil society + targeted diplomacy to maintain pressure and European orientation.
-- No operational bridge proving Maidan control; later CIA partnership cannot be back-projected.
-- Post-2022 support is overt Zebra responding to invasion.
-- Venezuela: whole-of-government, recognition, sanctions, transition plan, $200m agreement.
-- Judgment: both Hybrid for different reasons.
+Pass-through foundations; START working groups; Nuland/Pyatt political preferences; OCCRP outcome metrics; Tides indirect-cost theory.
 
-### 4. The category test
+## Wait-what moment
 
-- Haiti: Core Group shaped succession, no assassination link.
-- Sri Lanka: apparent coincidence dissolves; economic collapse beats pin-map suspicion.
-- Bangladesh: network exists, bridge missing; unresolved.
-- Myanmar: coup Horse, response Zebra.
-- Georgia: explicit CMKI + aid review + visas/sanctions = Zebra.
-- Visual: comparative timeline/map.
+The public Venezuela plan specifies not merely elections but the interim executive, military adviser, sanction sequence, and international-finance package. Nothing about the pressure architecture had to be hidden.
 
-### 5. The information machine
+## Ordinary explanation
 
-- OCCRP/ICFJ award and Global Anti-Corruption Consortium solicitation.
-- Desired result: actionable information and official response.
-- Editorial-control prohibition and OCCRP donor policy.
-- Judgment: strategic information benefit without ownership; Zebra, not Black Zebra.
+Agencies coordinate because laws and expertise divide their jobs; grantees pursue genuine public purposes; local actors drive their own politics. Keep this explanation active and show exactly where it stops accounting for deliberate role allocation.
 
-### 6. Domestic bleedback under the same test
+## Unresolved residue
 
-- Tides USAID grants and shared fiscal-sponsor infrastructure.
-- No direct USAID→BLM/FJP path; recipient denials and no award trace.
-- NewsGuard DOD contract documented, domestic tasking unproven.
-- No authenticated USAID→PolitiFact award; CIR is State-funded for foreign work, no domestic operation traced.
-- Visual: stateside intermediary map with solid versus dashed lines.
+Bangladesh implementer/subaward communications, Ukraine event-level coordination, Syria NSC integration, Tides cost pools, and NewsGuard deliverable reuse.
 
-### 7. What actually survived
+## Callback
 
-- Recurring contractors and NGOs show reusable implementation capacity, not a secret cadre.
-- Personnel convergence is weak; organizational role convergence is strong.
-- GAO 2026: USAID ceased administering foreign assistance July 1, 2025; State assumed remaining awards.
-- The office can disappear while selected functions migrate.
-- Close the seven-part series: documented continuity versus descent, doctrine, similarity and speculation.
+Return to NSAM 177's words: AID was responsible “except for their covert aspects.” The modern system often externalizes that sentence across entire institutions.
 
-## Emotional/investigative beats
+## Finale payoff
 
-1. Suspicion: the crowded map.
-2. Discipline: base rates and controls.
-3. Discovery: Syria's separately assigned roles.
-4. Restraint: Sri Lanka and the missing Bangladesh bridge.
-5. Surprise: independent journalism as an intentionally funded information instrument without editorial ownership.
-6. Reversal: the domestic funding allegations weaken.
-7. Payoff: USAID's 2025 disappearance demonstrates function migration in real time.
+The CIA did not need to swallow foreign aid. The state learned to separate capabilities and recombine them when strategy demanded it. The office died; the grammar survived.
 
-## Required visual plan
+## Final question before FAQ
 
-- World map: Horse/Zebra/Black Zebra/Hybrid/Unresolved.
-- Syria network: public and concealed compartments visually separated.
-- Comparative timeline: flagship program activity and rupture dates.
-- Contractor/grantee network: CEPPS, IREX, Chemonics, OCCRP.
-- Stateside map: solid line for proven grants, dashed gray for shared infrastructure, red stop symbol for unproven pass-through.
-
-## Ending
-
-No next-part teaser. The final implication: oversight built around an agency name will always lag a statecraft system that can distribute functions across authorities, appropriations and intermediaries. The analytical defense is not cynicism; it is insisting on the right signature for each claimed connection.
+When every node can truthfully deny owning the whole operation, where does democratic responsibility live?

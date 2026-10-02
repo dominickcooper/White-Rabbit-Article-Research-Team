@@ -1,38 +1,37 @@
-# Validation Report
+# Validation Report — Part 7
 
-## Pre-export checks
+## Result
 
-- Article word count: 4,269 words (PowerShell whitespace count; exporter count may differ slightly).
-- Sources: 32 exact phrase/link entries; local precheck found zero missing or mismatched hyperlinks.
-- Required article markers: present (3 image opportunities, `[[SUBSCRIBE]]`, `[[SHARE]]`).
-- FAQs: exactly 5 under the FAQ section.
-- Required research artifacts: present in staging.
-- Required output artifacts: present except generated HTML/DOCX, pending repository export.
-- Article, story decision and story spine were written only after the research matrices and connection analysis.
+**PASS** — 2026-10-02
 
-## Workflow validation
+Command:
 
-Repository command: `python codex_article.py series validate usaid-office-of-public-safety part-07-what-survived-inside-foreign-aid`
+`python codex_article.py series validate usaid-office-of-public-safety part-07-what-survived-inside-foreign-aid`
 
-- Result: **PASS**
-- Validator word count: 4,310
-- Markdown links: 38
-- External links: 35
-- Verified White Rabbit archive links: 3
-- Source CSV rows: 32
-- Duplication matches: none
-- Errors: none
-- Non-blocking warnings: requested length exceeds the repository's ordinary 2,000–3,500-word range; repeated opening/emphasis diagnostics; reminder that mechanical validation does not prove factual truth. The assignment explicitly authorized 4,000–7,000 words, and the factual/editorial audits review the remaining warnings.
+## Mechanical results
 
-## Export validation
+- Word count: 3,996
+- Image markers: 8
+- Subscribe markers: 1
+- Share markers: 1
+- Markdown links: 24
+- External links: 21
+- White Rabbit archive links: 3 unique
+- FAQ questions: exactly 5
+- `sources.csv` rows: 24
+- Errors: 0
+- Duplication matches: 0
 
-Repository export command completed successfully and generated:
+## Reviewed warnings
 
-- `output/article_substack.html`
-- `output/article_substack.docx`
+- Length exceeds the usual 2,000–3,500 range. Retained because this is the seven-part finale and the additional length carries new evidence, a control case, thesis reduction, and series synthesis.
+- One fully bold paragraph is intentional: it is the single thesis payoff after the evidence build.
+- One abstract synthesis block is retained because the immediately surrounding paragraphs anchor every function in named cases.
+- Mechanical validation does not establish factual truth. The separate factual/adversarial audit, source-dependency review, and dossier-to-article coverage matrix address editorial adequacy.
 
-The DOCX opens through the bundled `python-docx` parser and contains 156 nonempty paragraphs, one section, no tables, and the correct article title. The prescribed PNG rendering tool could not perform visual QA because the workspace dependency bundle did not contain `soffice.exe`; no user-installed LibreOffice was substituted. This is a layout-verification limitation, not an export or content-validation failure.
+## Export verification
 
-## Final status
-
-**PASS** for repository validation, factual/evidence audit, editorial audit, source-link integrity and export. Series status recorded as complete. No commit, push or remote action performed.
+- `article_substack.html`: 32,858 bytes; one H1, fifteen H2s, five H3s, 24 unique hyperlinks, eight image markers, and both CTA markers.
+- `article_substack.docx`: 48,474 bytes; valid OOXML package; one Heading 1, fifteen Heading 2s, five Heading 3s, 24 unique external hyperlink relationships, eight image markers, and both CTA markers.
+- No tool-citation tokens, TODOs, or FIXMEs were detected.
+- The bundled LibreOffice renderer was unavailable on this Windows host and Microsoft Word was not installed, so PNG render QA could not be completed. Structural DOCX and exported HTML QA passed.

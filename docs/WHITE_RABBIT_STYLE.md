@@ -35,6 +35,11 @@ Use FACT → QUESTION → JUDGMENT → IMPLICATION organically: what is document
 makes us ask, what the evidence most likely means, and why it matters. Do not label
 every paragraph or force this sequence into every section. Preserve supported causal
 chains and enough context to understand the judgment. End with an earned implication.
+For cumulative investigations, show the receipts, accumulate them, state the supported
+inference, give the meaningful boundary once, and keep moving. Avoid both OVERCLAIM
+(turning proximity or inference into direct fact) and CAVEAT COLLAPSE (repeating “does not
+prove” until the combined pattern disappears). Keep methodology terms in research
+artifacts unless the reader truly needs a category.
 
 Include useful visual notes as `[IMAGE: description | ALT: alt text]`, and place
 `[[SUBSCRIBE]]` and `[[SHARE]]` strategically. Markers are editorial placement notes,

@@ -1,0 +1,19 @@
+# Historical Zebra Mechanism Library
+
+| Mechanism | Historical case and evidence | Agencies / intermediaries | Observable footprint | Modern analogue tested | Result |
+|---|---|---|---|---|---|
+| Overt aid beside a covert compartment | NSAM 177 assigned AID operating/funding responsibility except covert aspects; OPS/IPS files show overt academy plus CIA proprietary and liaison | AID, CIA, IPS | explicit carve-out; concealed ownership; liaison; participant data | Syria overt opposition programs beside Timber Sycamore | Strong analogue; recurrence inferred, not lineage |
+| Civilian institutional cover | MSU Vietnam project and IPS; Wilford's student/cultural fronts | universities, foundations, associations, CIA | legitimate public activity plus hidden patron or embedded officers | contractors, NGOs, media networks | Diagnostic only when sponsor/tasking evidence exists |
+| Participant data into intelligence | IPA/Police Group records and trainee biographies | OPS, IPA, CIA Police Group | rosters, assessments, referral/briefing channels | police, justice, counterterror, border programs | Historical mechanism proven; modern universal claim unproven |
+| Covert recruitment through law enforcement | TWO-FOLD and BNDD/DEA relationships | CIA, BNDD/DEA | cover arrangements, recruitments, compartmented reporting | foreign police/justice liaison | Modern access documented in some programs; recruitment claims case-specific |
+| Political finance / election intervention | O'Rourke and Levin cases; covert party funding and propaganda | CIA, embassies, parties, local partners | domestic invitation, vulnerable ally, close operational cooperation | Ukraine, Bangladesh, Venezuela | Environmental influence often proven; operational direction rarely recovered |
+| Media/cultural fronts | Congress for Cultural Freedom; National Student Association; fake foundations | CIA, foundations, magazines, associations | pass-throughs, witting/unwitting circles, strategic audience | OCCRP and independent-media awards | Funding/desired effects proven; covert control analogy fails without secrecy/tasking |
+| Student/labor/civil-society intermediaries | Wilford's front network | CIA, unions, student groups, voluntary associations | local autonomy plus hidden subsidy | democracy assistance networks | Shows autonomy and utility can coexist; not proof of modern covert direction |
+| Contractors and proprietaries | IPS; later Creative Associates/ZunZuneo; DynCorp delivery | CIA, USAID/OTI, State, private firms | contract chain, concealed sponsor, offshore entity, divided accountability | global contractor implementation | Direct functional recurrence; intelligence affiliation must be separately proven |
+| Funding cutouts / offshore structures | fake charitable foundations; private intermediaries; ZunZuneo entities | CIA, foundations, firms, OTI | indirect transfers, false attribution, sponsor concealment | grant chains and fiscal sponsors | Only ZunZuneo reaches concealed-attribution threshold in modern set |
+| Sanctions + aid + diplomacy | post-Cold War transition toolkits | State, Treasury, USAID, IFIs | conditionality, recognition, transition plan, recovery package | Venezuela | Directly documented Zebra architecture |
+| Functional migration after restriction | OPS termination and Section 660 exceptions | State, DOJ/ICITAP, DEA, FBI, DOD, contractors | statutory exceptions, money transfers, new operating homes | modern foreign police/security assistance | Directly documented functional continuity; institutional descent rejected |
+
+## Interpretive constraint
+
+Historical precedent establishes what signatures are worth searching for. It does not establish recurrence. A modern case enters Zebra territory only when its own evidence reveals deliberate role allocation, concealment, or a high-diagnostic chain that cannot be explained by simple co-presence.

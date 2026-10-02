@@ -266,6 +266,21 @@ def generate_prompt(root: Path, series: Path, manifest: dict, part: dict) -> str
     completed = [p for p in earlier if p["status"] in COMPLETED]
     prior_files = [f"{prefix}/articles/{p['slug']}/output/{name}"
                    for p in completed for name in ("article.md", "research_dossier.md", "audit.md")]
+    prior_corpus = []
+    for previous in earlier:
+        previous_project = series / "articles" / previous["slug"]
+        previous_prefix = f"{prefix}/articles/{previous['slug']}"
+        prior_corpus.append({
+            "part": previous["slug"],
+            "status": previous["status"],
+            "source_files": [f"{previous_prefix}/sources/{name}"
+                             for name in articles.files_under(previous_project / "sources")],
+            "research_files": [f"{previous_prefix}/research/{name}"
+                               for name in articles.files_under(previous_project / "research")],
+            "output_memory": [f"{previous_prefix}/output/{name}"
+                              for name in ("research_dossier.md", "sources.csv", "article.md", "audit.md")
+                              if (previous_project / "output" / name).is_file()],
+        })
     snapshot = {"series_title": manifest["title"], "part_number": part["number"],
                 "part_title": part["title"], "finale": part["finale"],
                 "previous_part": next((p for p in earlier if p["slug"] == part["previous"]), None),
@@ -307,8 +322,15 @@ fields mean unknown, not license to invent. Resolve gaps by reading prior comple
 Read relevant earlier completed articles for continuity; compare ALL earlier finalized
 article.md files during the repetition audit. Read their dossiers/audits where relevant:
 {json.dumps(prior_files, ensure_ascii=False, indent=2)}
-Earlier planned/drafting parts are not established findings. If earlier work is unfinished,
-record that dependency and do not imply the reader has already seen unverified material.
+Recursively inspect the source and research corpus from EVERY earlier installment. This
+includes source inventories, claims ledgers, rabbit-hole queues, connection reports,
+dossiers, prior source CSVs and previous final articles when present:
+{json.dumps(prior_corpus, ensure_ascii=False, indent=2)}
+Earlier-part sources and working research may generate current questions and modern
+signature searches. Earlier planned/drafting parts are not established findings or reader
+knowledge. If earlier work is unfinished, record that dependency and do not imply the
+reader has already seen unverified material. Preserve each item's original part path and
+status; never copy shared or earlier sources into the current part.
 
 Inspect relevant shared_sources recursively without copying them into the part folder.
 Discover both shared and part-specific sources, including files added after generation:
@@ -318,6 +340,10 @@ Shared research: {json.dumps(articles.files_under(series / 'shared_research'), e
 The shared source root is `{prefix}/shared_sources/`; the shared research root is
 `{prefix}/shared_research/`. Every part MUST read shared_research/master_dossier.md,
 SERIES_TIMELINE.md, SERIES_ENTITIES.md, SERIES_CONTINUITY.md and SERIES_THEMES.md before drafting.
+Author-approved files in shared_sources and every part's sources are admissible evidence
+without an independent-verification permission gate. Preserve source type, attribution,
+location and part provenance; corroboration strengthens the record but does not decide
+whether the supplied source may be used.
 Search SERIES_THEMES.md for unresolved concepts, people, organizations, metaphors,
 promises, contradictions and possible payoffs. Surface a thematic callback to the story
 engine as a hypothesis to test; never declare it proven automatically.

@@ -1,0 +1,21 @@
+lead_id,secondary_source,chapter_page,claim_or_lead,underlying_record_or_target,recovery_status,resulting_use,evidence_status
+B01,O'Rourke Covert Regime Change,"ch.1; PDF pp.8-10","covert action trades scale for plausible deniability; frequent failure",author dataset and cited case archives,PARTIAL,"article framing and control-case expectation",secondary synthesis
+B02,O'Rourke Covert Regime Change,"PDF p.108 n.39","Kennan plan routed government direction and money through private intermediaries",NSC directive quoted in text,QUOTED_NOT_SEPARATELY_RECOVERED,"historical mechanism library",attributed secondary/quoted primary
+B03,O'Rourke Covert Regime Change,ch.2-3,"viable domestic partners and intelligence access predict success",case archives,PARTIAL,"successor and partner tests",secondary synthesis
+B04,Levin Meddling in the Ballot Box,ch.3,"intervention predicts domestic invitation and close cooperation",PEIG case sources,PARTIAL,"Ukraine/Bangladesh event-level test",secondary synthesis
+B05,Levin Meddling in the Ballot Box,ch.6,"43 percent repeat interventions",PEIG dataset,RECOVERED_IN_BOOK,"base-rate qualification",secondary/data analysis
+B06,Wilford Mighty Wurlitzer,"PDF pp.19-20","NSA funded through wealthy donors then fake charitable pass-throughs",NSA/CIA records and participant files,PARTIAL,"front/pass-through mechanism",corroborated secondary
+B07,Wilford Mighty Wurlitzer,introduction,"front groups retained authentic autonomy and associational strength",organization archives/interviews,RECOVERED_IN_BOOK,"OCCRP independence-utility framework",corroborated secondary
+B08,Saunders Cultural Cold War,"A Bad Bargain","CCF autonomy could coexist with CIA strategic subsidy",CCF/Ford participant records,RECOVERED_IN_BOOK,"media-network analytical frame",corroborated secondary
+B09,Robinson Global Capitalism,ch.1-2,"transnational power coordinates through public/private networks",cited political-economy literature,NOT_ESCALATED,"network interpretation only",secondary theory
+B10,Robinson Global Capitalism,ch.5,"war and social control increasingly privatized",contractor literature,PARTIAL,"contractor architecture",secondary theory
+B11,McCoy Politics of Heroin,various,"narcotics/intelligence/law-enforcement relationships",CIA-DEA coordination records,RECOVERED,"Parts 4-6 inheritance",primary escalation complete
+B12,Scott American War Machine,various,"network-state and private intermediary leads",Iran-Contra and declassified files,PARTIAL,"bounded historical analogy",attributed secondary plus primary corroboration
+B13,Kuzmarov Quiet Violence of Empire,various,"aid and counterinsurgency overlap in Afghanistan",GAO and SIGAR reports,RECOVERED,"Afghanistan control/integration case",primary escalation complete
+B14,Robinson Promoting Polyarchy,supplied article,"democracy aid supports bounded political order",USAID/State country strategies,PARTIAL,"maximum thesis and country tests",attributed secondary
+B15,Wilford/Saunders,front disclosures,"exposure shifts funding homes and legitimacy claims",1967 exposure/Ford succession,PARTIAL,"functional-migration analogy",corroborated secondary
+B16,Prior Part 7 OCCRP evaluation lead,n/a,"funded investigations measured through downstream action",USAID midterm evaluation PA00KM3J,RECOVERED,"OCCRP section",primary/evaluation
+B17,Prior Part 7 Syria lead,n/a,"overt programs and covert arming shared opposition theater",State records; GAO-18-654; congressional exhibit,RECOVERED,"primary stress test",independent primary convergence
+B18,Prior Part 7 Bangladesh lead,n/a,"CEPPS network included named implementers and local partners",USAID evaluation PA00M7MH,RECOVERED,"Bangladesh network map",primary/evaluation
+B19,Prior Part 7 Sri Lanka lead,n/a,"economic crisis has sufficient non-covert causal chain",IMF Article IV and EFF records,RECOVERED,"Horse control",primary institutional analysis
+B20,Prior Part 7 Haiti lead,n/a,"Core Group backed Ariel Henry after assassination",BINUH July 17 2021 communiqué,RECOVERED,"succession chain",contemporaneous primary statement

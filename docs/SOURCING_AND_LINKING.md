@@ -1,5 +1,20 @@
 # Sourcing and linking
 
+## Admissibility versus publication linking
+
+Author-approved files in article `sources/`, series `shared_sources/`, and other explicitly
+provided source locations are admissible evidence without independent online verification.
+Preserve private provenance, source type, page/chapter/location, attribution, and the exact
+claim supported. Public-link availability is a publication concern, not an admissibility
+test. A private supplied source may support a claim even when it cannot become a public
+hyperlink; record that limitation in the dossier and audit rather than fabricating a URL or
+omitting the claim.
+
+Corroboration and primary-source recovery should strengthen, extend, and sometimes revise
+the record. They do not decide whether a supplied source can be used. When a secondary work
+cites an underlying record, trace it when possible while keeping the secondary attribution
+intact unless the recovered record independently supports the same claim.
+
 The Codex workflow produces already-linked output/article.md. Unlike the legacy
 evidence-marker pipeline, its exporter does not insert links. Use inline Markdown
 `[exact phrase](https://canonical-url)`. Percent-encode parentheses in destinations

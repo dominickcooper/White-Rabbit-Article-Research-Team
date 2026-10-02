@@ -2,16 +2,48 @@
 
 ## Connection-first editorial workflow
 
-The sequence is SOURCES → EVIDENCE ENGINE → CONNECTION ENGINE → STORY ENGINE → ARTICLE →
-FACTUAL AUDIT → EDITORIAL/VOICE AUDIT → REVISION → VALIDATION → POST-PUBLICATION LEARNING.
+The ordinary sequence is SOURCES → EVIDENCE ENGINE → CONNECTION ENGINE → STORY ENGINE →
+ARTICLE → FACTUAL AUDIT → EDITORIAL/VOICE AUDIT → REVISION → VALIDATION →
+POST-PUBLICATION LEARNING.
+
+For covert, deniable, compartmented, conspiratorial, outsourced, or comparably
+circumstantial theories, activate the permanent Extreme-Thesis Protocol. Its research
+order is EXTREME THESIS → EVIDENCE BUILD → CONNECTION CHAINS → DISCONFIRMATION → ZEBRA
+ADJUDICATION → THESIS REDUCTION → STORY DECISION. Zebra is an adjudication stage, not a
+preemptive moderation stage. Ordinary projects remain valid and need not manufacture an
+extreme thesis or Zebra analysis.
 
 New projects receive STYLE_PROFILE.md, ENTITY_NETWORK.md, RABBIT_HOLE_QUEUE.md,
-CONNECTION_REPORT.md, STORY_DECISION.md, STORY_SPINE.md and editorial_audit.md. The claims
+CONNECTION_REPORT.md, CONNECTION_CHAINS.md, BOOK_LEADS.md, BIBLIOGRAPHY_TRACE.csv,
+STORY_DECISION.md, STORY_SPINE.md and editorial_audit.md. The claims
 ledger establishes support; STORY_SPINE controls reader-facing reveal order. Do not draft
 directly from the dossier or ledger. The connection pass follows significant people two
 career/network hops when sources permit. STORY_DECISION lets the thesis mutate when the
 research earns it. Editorial audit remains separate from factual audit and drives revision
 before mechanical validation.
+
+## Extreme-Thesis activation and artifacts
+
+Read `research_library/methodologies/EXTREME_THESIS_PROTOCOL.md` and
+`research_library/methodologies/ZEBRA_PROTOCOL.md`. Activate the protocol when the brief
+requests it or the central theory materially depends on covert, deniable, compartmented,
+conspiratorial, outsourced, or cumulative circumstantial conduct. State the strongest
+logically coherent thesis before research and break it into testable propositions with
+predicted observables. Do not soften it in anticipation of later review.
+
+When active, create `research/EXTREME_THESIS_LEDGER.md`,
+`research/ZEBRA_ANALYSIS.md`, and `research/THESIS_REDUCTION.md` from the repository
+templates. Build the strongest case first, track evidence dependencies, seek contrary
+evidence, adjudicate Horse/Zebra/Black Zebra/Hybrid/Unresolved, then reduce the thesis.
+Horse can win; a theory can be contradicted; or the strongest surviving result can be a
+corroborated strong inference. Story Decision uses the reduced thesis, not the safest
+available wording.
+
+CONNECTION_CHAINS.md permits a documented fact or strong inference to become the premise
+for the next research question without promoting it into proof of the entire chain. Every
+edge retains its classification and source dependency. Analyze what independent A + B + C
+show together; do not double-count derivative repetition of one witness, record, dataset,
+or reporting chain.
 
 ## Editorial memory and learning
 
@@ -51,7 +83,9 @@ remain a separate gate and never pretend to numerically score good writing.
 4. Run `python codex_article.py prompt <slug>` and give the resulting assignment to
    Codex. Refreshing the prompt inventories current sources without editing the brief.
 5. Codex reads permanent authority, brief, private sources and relevant archive records;
-   performs additional and rabbit-hole research; builds a claims ledger and visual plan;
+   treats author-approved source folders as admissible evidence while preserving weight;
+   performs additional and rabbit-hole research; traces book footnotes and bibliographies;
+   builds claims and connection-chain ledgers plus a visual plan;
    drafts; runs separate structure, voice, emphasis, visual, evidence-integrity and
    anti-AI review passes; reconciles source anchors after prose is stable; writes SEO,
    FAQ and related links; then audits, revises and validates.
@@ -63,9 +97,12 @@ remain a separate gate and never pretend to numerically score good writing.
    creates article_substack.docx and article_substack.html. Re-export updates these
    generated files, leaving article.md and source material intact.
 
-audit.md must separately address MECHANICAL CITATION VALIDITY, EDITORIAL SOURCE ADEQUACY,
-DOSSIER-TO-ARTICLE AUDIT, SECTION-BY-SECTION SOURCE COVERAGE, PRIMARY-SOURCE ESCALATION,
-competing explanations, evidence-weighted conclusions and unresolved limitations.
+audit.md must separately address DIRECT FACTUAL CLAIMS, ATTRIBUTED SOURCE CLAIMS,
+INFERENTIAL CLAIMS, CONNECTION CHAINS, HISTORICAL ANALOGY, MECHANICAL CITATION VALIDITY,
+EDITORIAL SOURCE ADEQUACY, DOSSIER-TO-ARTICLE AUDIT, SECTION-BY-SECTION SOURCE COVERAGE,
+PRIMARY-SOURCE ESCALATION, competing explanations, evidence-weighted conclusions and
+unresolved limitations. Do not downgrade a supported strong inference merely because a
+single smoking-gun memorandum does not exist.
 The tool cannot judge factual truth, citation sufficiency or rhetorical quality. Its
 editorial diagnostics are advisory warnings and must not be optimized as numeric targets.
 

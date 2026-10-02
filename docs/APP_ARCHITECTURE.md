@@ -23,6 +23,10 @@ Anti-AI Style Red Team are distinct prompt-governed passes, not provider-backed 
 agents. Keeping them as passes preserves the local Codex-first architecture and avoids
 redundant orchestration. `white_rabbit/editorial_diagnostics.py` supplies non-blocking
 signals for final review; it does not assign a style score or factual verdict.
+Extreme-Thesis evidence building, connection chains, disconfirmation, Zebra adjudication,
+and thesis reduction are likewise prompt-governed research stages. Their permanent
+authorities live under `research_library/methodologies/`; templates make their provenance
+and ordering auditable without pretending Python can adjudicate historical truth.
 
 `codex_article.py` delegates to `white_rabbit/codex_articles.py`. Repository paths
 resolve from the installed script, not the shell's current directory. Relative paths

@@ -1,33 +1,25 @@
-source_number,phrase,link
-1,more than 100 countries,https://www.usaid.gov/sites/default/files/2022-05/Exploring_USAID_Funding_Opportunities_Final_Transcript_March_18_2021.pdf
-2,"more than 4,000 partner organizations",https://oig.usaid.gov/node/6728
-3,2026 GAO review,https://files.gao.gov/reports/GAO-26-108754/index.html
-4,Syria relationship summary,https://2017-2021.state.gov/u-s-relations-with-syria/
-5,2014 State fact sheet,https://2009-2017.state.gov/r/pa/prs/ps/2014/01/220029.htm
-6,budget justification,https://2009-2017.state.gov/documents/organization/264457.pdf
-7,2018 Stabilization Assistance Review,https://2017-2021.state.gov/reports/stabilization-assistance-review-a-framework-for-maximizing-the-effectiveness-of-u-s-government-efforts-to-stabilize-conflict-affected-areas-2018/
-8,Washington Post reported in 2017,https://www.washingtonpost.com/world/national-security/trump-ends-covert-cia-program-to-arm-anti-assad-rebels-in-syria-a-move-sought-by-moscow/2017/07/19/b6821a62-6beb-11e7-96ab-5f38140b38cc_story.html
-9,congressional hearing exhibit,https://www.congress.gov/115/meeting/house/106115/documents/HHRG-115-FA00-20170614-SD002.pdf
-10,2012–2016 country strategy,https://2012-2017.usaid.gov/sites/default/files/documents/1863/USAID_Ukraine_CDCS_2012-2016.pdf
-11,direct and frequent engagement with government and civil society,https://2009-2017.state.gov/j/drl/rls/rm/2014/219827.htm
-12,2024 GAO review,https://www.gao.gov/assets/gao-24-106884.pdf
-13,whole-of-government effort,https://2017-2021.state.gov/standing-for-democracy-and-prosperity-in-venezuela/
+﻿source_number,phrase,link
+1,2014 State Department account,https://2009-2017.state.gov/r/pa/prs/ps/2014/01/220029.htm
+2,State Department summary,https://2021-2025.state.gov/u-s-relations-with-syria/
+3,The Mighty Wurlitzer,https://books.google.com/books?id=n3Ol_XDmPdsC
+4,The Cultural Cold War,https://thenewpress.org/books/the-cultural-cold-war/
+5,Covert Regime Change,https://cornellpress.cornell.edu/book/9781501730658/
+6,Meddling in the Ballot Box,https://academic.oup.com/book/36920
+7,NSAM 177,https://www.jfklibrary.org/asset-viewer/archives/JFKNSF/338/JFKNSF-338-004
+8,Bureau of Conflict and Stabilization Operations report,https://2009-2017.state.gov/documents/organization/223607.pdf
+9,GAO-18-654,https://www.gao.gov/products/gao-18-654
+10,congressional hearing exhibit,https://www.congress.gov/115/meeting/house/106115/documents/HHRG-115-FA00-20170614-SD002.pdf
+11,2012–2016 country strategy,https://2012-2017.usaid.gov/sites/default/files/documents/1863/USAID_Ukraine_CDCS_2012-2016.pdf
+12,February 2014 briefing,https://2009-2017.state.gov/r/pa/prs/dpb/2014/02/221422.htm
+13,2024 GAO inventory,https://www.gao.gov/assets/gao-24-106884.pdf
 14,Democratic Transition Framework for Venezuela,https://2017-2021.state.gov/democratic-transition-framework-for-venezuela/
-15,USAID inspector-general audit,https://oig.usaid.gov/sites/default/files/2021-04/9-000-21-005-P_0.pdf
-16,GAO analysis of sanctions,https://www.gao.gov/products/gao-21-239
-17,July 19 State briefing,https://2021-2025.state.gov/briefings/department-press-briefing-july-19-2021/
-18,governance portfolio,https://www.usaid.gov/sites/default/files/2023-03/Governance%20sector%20portfolio%20Nov%202022_0.pdf
-19,2022 human-rights report,https://2021-2025.state.gov/reports/2022-country-reports-on-human-rights-practices/sri-lanka/
-20,2020–2027 strategy,https://www.usaid.gov/sites/default/files/2023-06/Bangladesh-CDCS-2020-2027-FINAL_1.pdf
-21,election-support evaluation,https://pdf.usaid.gov/pdf_docs/PA00M7MH.pdf
-22,country relationship account,https://2021-2025.state.gov/u-s-relations-with-burma/
-23,Countering Malign Kremlin Influence framework,https://oig.usaid.gov/node/5198
-24,midterm evaluation,https://pdf.usaid.gov/pdf_docs/PA00KM3J.pdf
-25,Global Anti-Corruption Consortium solicitation,https://2009-2017.state.gov/j/drl/p/previouscalls/260077.htm
-26,funding and editorial policies,https://www.occrp.org/en/faq-on-occrps-funding-and-editorial-policies
-27,"$24.5 million in USAID grants",https://www.tides.org/statement/tides-partnership-with-usaid/
-28,own funding FAQ,https://fairandjustprosecution.org/about-fjp/frequently-asked-questions/
-29,USAspending award record,https://www.usaspending.gov/award/CONT_AWD_FA864921P1569_9700_-NONE-_-NONE-
-30,federal court decision,https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2023cv07088/604160/73/
-31,Centre for Information Resilience,https://www.info-res.org/faqs/
-32,September 2026 GAO report,https://www.gao.gov/products/gao-26-108607
+15,July 19 briefing,https://2021-2025.state.gov/briefings/department-press-briefing-july-19-2021/
+16,Core Group communiqué,https://binuh.unmissions.org/fr/node/74551
+17,USAID election-support evaluation,https://pdf.usaid.gov/pdf_docs/PA00M7MH.pdf
+18,IMF's 2021 Article IV review,https://www.imf.org/en/publications/cr/issues/2022/03/25/sri-lanka-2021-article-iv-consultation-press-release-staff-report-and-statement-by-the-515737
+19,USAID midterm evaluation,https://pdf.usaid.gov/pdf_docs/PA00KM3J.pdf
+20,funding and editorial policies,https://www.occrp.org/en/faq-on-occrps-funding-and-editorial-policies
+21,federal award record,https://www.usaspending.gov/award/CONT_AWD_FA864921P1569_9700_-NONE-_-NONE-
+22,"Operation Gladio in America: Nixon, Narcotics, and the CIA Pipeline",https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-nixon
+23,Blueprint for Empire: CIA Coups and the Architecture of Intervention,https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s
+24,Phoenix Program: The Template for Endless War,https://thewhiterabbitreport.substack.com/p/phoenix-program-template-for-endless-wars-operation-gladio

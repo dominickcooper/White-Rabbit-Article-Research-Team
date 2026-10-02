@@ -1,77 +1,111 @@
-# Factual and Evidence Audit
+# Factual and Adversarial Audit — Part 7
 
-## Result
+## Direct factual claims
 
-**PASS AFTER CORRECTION.** The article's governing thesis is supported at the stated level. Passing this audit and the mechanical validator does not establish factual truth beyond the cited record or erase the source gaps logged below.
+- **Syria program elements:** supported by State fact sheets/CSO report and GAO-18-654. Article distinguishes opposition aid from humanitarian aid and does not assign Timber Sycamore to USAID.
+- **OPS/CIA recap:** inherited from Parts 1–6 primary record set; wording preserves distinctions among OPS, IPA, IPS, CIA liaison, and TWO-FOLD.
+- **Ukraine strategy:** 2012–16 CDCS supports strategic importance, democratic/free-market transition, and European standards. CEPPS/NED support program-network statements.
+- **Venezuela framework:** public State document directly supports Council of State, military adviser, sanction sequencing, elections, and IFI package.
+- **Haiti succession:** BINUH/Core Group communiqué and State briefing support chronology and external endorsement.
+- **Bangladesh programs/Yunus:** USAID evaluation and public State records support network and relationship; no “installation” language retained.
+- **Sri Lanka causes:** IMF record predates peak rupture and supports tax/debt/reserve/tourism/inflation chain.
+- **OCCRP:** USAID evaluation supports impact-monitoring logic; recipient-published clause supports editorial control.
+- **NewsGuard:** federal award supports DOD research relationship only.
 
-## MECHANICAL CITATION VALIDITY
+## Attributed source claims
 
-- `sources.csv` contains 32 entries with the required header.
-- Every source phrase occurs in `article.md` as an exact Markdown hyperlink to the recorded destination.
-- Publication-facing links are placed at first useful occurrence.
-- The article includes three image markers, one `[[SUBSCRIBE]]`, one `[[SHARE]]`, five FAQ questions and a related-reading section.
-- No local research path, research note or private file is cited as public evidence.
+- Wilford, Saunders, O'Rourke, and Levin are clearly presented as book authors, not primary witnesses.
+- The Timber Sycamore operational description is tied to a congressional exhibit preserving contemporary reporting; the article does not imply a CIA declassification of all details.
+- Recipient claims about editorial independence are identified as OCCRP's policy and supported by disclosed grant language.
+- No disputed Bangladesh “destabilize” quotation appears as fact.
 
-## EDITORIAL SOURCE ADEQUACY
+## Inferential claims and evidence convergence
 
-### Load-bearing claims
+- **Syria complementarity:** independently documented overt architecture + separately documented covert program + common anti-Assad/transition purpose + interagency structure. Rated CORROBORATED STRONG INFERENCE. Article states the missing joint-command memo once.
+- **Ukraine environmental shaping:** strategy + multi-year capacity + diplomatic engagement. Rated CORROBORATED STRONG INFERENCE. Direction of protest remains unsupported.
+- **Haiti succession influence:** endorsement immediately precedes Joseph's withdrawal/Henry's accession. Strong inference; assassination causation separated.
+- **OCCRP strategic utility:** award purpose/evaluation + downstream effects + editorial clause. Capability-level inference supported; individual tasking rejected.
 
-| Claim | Best evidence | Adequacy | Correction/limit |
-|---|---|---|---|
-| Presence is a weak signal because USAID operated in 100+ countries | USAID transcript; USAID OIG NPI report | strong | global screen described as purposeful, not statistical |
-| Syria roles were deliberately differentiated | State fact sheets; budget justification; Stabilization Assistance Review | strong | USAID not described as owner of covert program |
-| Timber Sycamore was a CIA covert compartment | Washington Post; NYT text reproduced in congressional exhibit | medium-strong | attributed reporting, not treated as declassified operational file |
-| Ukraine strategy joined civil society and diplomatic pressure | USAID CDCS; State testimony | strong | no Maidan operational-control conclusion |
-| Venezuela used a whole-of-government transition toolkit | State framework; USAID OIG; GAO | strong | humanitarian purpose and multi-causal economic decline preserved |
-| Core Group influenced Haiti succession | State briefing and HRR | strong | no assassination responsibility implied |
-| Sri Lanka is Horse | USAID portfolio; GAO; State HRR | strong | economic causation stated as best-supported, not exclusive |
-| Bangladesh network existed but event bridge is missing | USAID CDCS/evaluation; State records | adequate | disputed quotation excluded; classification unresolved |
-| Myanmar coup and response classify differently | State relationship account and coup assessment | strong | no U.S.-caused-coup implication |
-| Georgia is overt Zebra | USAID OIG CMKI review; GAO; State actions | strong | no covert compartment asserted |
-| OCCRP architecture sought actionable information without editorial control | State solicitation; USAID evaluation; OCCRP policy | strong | recipient policy treated as relevant but not dispositive self-certification |
-| No direct USAID→BLM/FJP path was found | Tides and FJP disclosures; award screen | adequate for negative finding | phrased “not established,” not universal impossibility |
-| USAID stopped administering aid July 1, 2025 and remaining programs moved to State | GAO-26-108607 | strong | terminations distinguished from continuation |
+## Connection chains
 
-## Source coverage
+All major chains are preserved in `research/CONNECTION_CHAINS.md` with edge labels. Broken edges remain visible: USAID→Timber Sycamore control; U.S.→Maidan direction; U.S.→Bangladesh protest direction; USAID→Moïse assassination; Tides foreign grants→named domestic advocacy; State/USAID→OCCRP story assignment.
 
-- Primary/official strategy and oversight documents carry the core thesis.
-- Independent reporting is load-bearing only for the covert Syria compartment and is explicitly attributed.
-- Organizational self-disclosures are used for Tides/FJP/OCCRP/CIR claims and paired with narrower language.
-- No interview personality, including Mike Benz, is used as primary proof.
+## Historical analogy and continuity
 
-## Primary-source escalation
+The article distinguishes:
 
-The research escalated interview-derived propositions to strategy documents, audits, award records, solicitations and recipient policies. The Bangladesh “destabilize” sentence was withheld because the claimed underlying primary source could not be authenticated. Timber Sycamore remains partly dependent on attributed reporting; the article labels that limitation.
+- **DOCUMENTED CONTINUITY:** recurring role division and selected functions.
+- **INSTITUTIONAL DESCENT:** not established from OPS to modern programs.
+- **PERSONNEL CONTINUITY:** sparse and not used as a general claim.
+- **POLICY/DOCTRINAL CONTINUITY:** supported in bounded statecraft and counterinsurgency cases.
+- **FUNCTIONAL SIMILARITY:** contractors, intermediaries, political capacity, information outputs.
+- **HISTORICAL ANALOGY:** Wilford/Saunders fronts guide tests but do not prove modern covert control.
+- **SPECULATION:** event-direction and domestic-pass-through claims kept out of factual prose.
 
-## Causal-chain audit
+## Disconfirmation and Zebra adjudication
 
-- **Funding** is not equated with **operational control**.
-- **Strategic alignment** is not equated with **causation**.
-- **Diplomatic recognition after a rupture** is not equated with **causing the rupture**.
-- **Shared intermediary infrastructure** is not equated with **restricted-fund pass-through**.
-- **Information utility** is not equated with **editorial ownership**.
-- **Historical precedent** is used to predict signatures, not prove modern facts.
+Horse remained available and won for Sri Lanka. Myanmar's coup is classified Horse while the post-coup response is Zebra. Afghanistan is an integrated network whose unintended collapse strongly rebuts omnipotent-control reasoning. Venezuela is an open Zebra core; Syria a Hybrid with bounded Black-Zebra compartment; Ukraine Hybrid; Bangladesh unresolved.
 
-## Negative findings preserved
+## Dossier-to-article and section source coverage
 
-Sri Lanka's suspected chain dissolved. Myanmar's coup and Afghanistan's collapse ran against U.S. aims. Modern personnel convergence was weak. No direct USAID funding to BLM/FJP was established. No direct USAID award to PolitiFact or USAID award/domestic operation for CIR was established. No Black Zebra evidence was found in Venezuela, Haiti, Bangladesh or Georgia.
+| Article section | Coverage | Decision |
+|---|---|---|
+| Opening/Syria | State + GAO + congressional exhibit | adequate; strongest direct/independent convergence |
+| Books | six supplied books and inherited works | adequate; page/chapter controls retained in research |
+| OPS recap | Parts 1–6 primary corpus | adequate; concise to avoid repetition |
+| Ukraine | CDCS + CEPPS/NED + State + GAO | adequate for environment, not direction |
+| Venezuela | State framework and policy | strong primary coverage |
+| Haiti | BINUH + State chronology | adequate for succession only |
+| Bangladesh | USAID evaluation + State relationship | adequate for unresolved classification |
+| Sri Lanka | IMF primary institutional analysis | strong disconfirmation |
+| OCCRP | USAID evaluation + recipient grant clause | adequate; story-tasking claim rejected |
+| Domestic | award/recipient/court records | inadequate for direct pass-through; article says so |
+| Contractors/finale | inherited OIG/GAO/series corpus | adequate for structural synthesis |
 
-## Dossier comparison
+## Primary-source escalation and bibliography recovery
 
-Every evidence-weighted conclusion in the dossier appears consistently in the article. No article claim exceeds the Zebra case matrix. Syria is Hybrid with a bounded Black Zebra compartment; Georgia and OCCRP are overt Zebra; Sri Lanka is Horse; Bangladesh and NewsGuard bleedback are unresolved.
+- Book leads were traced into NSC policy, declassified intelligence/law-enforcement records, government strategies, evaluations, statutes, GAO, SIGAR, and State program documents.
+- The quoted Kennan private-intermediary directive was identified but not separately recovered; it remains attributed through O'Rourke.
+- Full Syria NSC integration records, Bangladesh/Ukraine partner communications, OCCRP monitoring plans, Tides cost pools, and NewsGuard deliverables remain open.
 
-## SERIES CONTINUITY AUDIT
+## Mechanical citation validity
 
-The article recaps the OPS overt/covert division and later functional migration once, then advances to modern cases. It does not re-teach Parts 1–6. It revises the prior Part 7 conclusion transparently: the earlier “recurring logic” finding is retained but now differentiated through controls and modern role-allocation evidence.
+- `sources.csv` was generated from unique Markdown links in final article order.
+- Every phrase occurs exactly in `article.md` and every destination matches the inline link.
+- First-use anchors are used; repeated links are not duplicated.
+- Passing the validator will confirm syntax, not factual adequacy.
 
-## NEW VALUE AUDIT
+## Editorial source adequacy
 
-The article justifies publication for a reader of all prior parts because it adds a 40-country map, 23 rupture cases, eight deep cases, a formal control method, the OCCRP and stateside tests, and the 2025 USAID-to-State migration.
+The article's central direct claims rest primarily on government, oversight, statutory, award, or recipient documents. The most sensitive inferential claim—Syria complementarity—uses independent evidence streams and is labeled as inference. No section depends solely on geographic overlap.
 
-## TRANSITION AUDIT
+## Series continuity audit
 
-As a finale, the ending does not tease another installment. It synthesizes the series using documented continuity, institutional descent, personnel continuity, policy/doctrinal continuity, functional similarity, analogy and speculation. The final implication follows the evidence: oversight tied to an agency name can miss functions distributed across other institutions.
+- Earlier OPS machinery is summarized in one compact section without re-teaching entire installments.
+- No prior verdict is silently overwritten: institutional descent remains rejected; functional/policy continuity is sharpened.
+- The finale synthesizes rather than teases a next installment.
 
-## Remaining gaps
+## New value audit
 
-Bangladesh subaward/tasking records; Ukraine's pre-2014 covert record; NewsGuard deliverables; historical Tides indirect-cost accounting; and modern personnel histories remain unresolved. None is silently promoted to fact.
+Publication is justified for a reader of Parts 1–6 because this pass adds the autonomy/utility mechanism, direct modern stress tests, successor analysis, a real Horse control, and a reduced thesis materially stronger than the old “method survived” summary.
+
+## Transition audit
+
+The conclusion moves from Syria's specific split tracks to the series-wide result and explicitly distinguishes office death from method survival. It does not imply same personnel, intact institutional descent, or universal covert control.
+
+## Remaining limitations and resolved revisions
+
+- Removed broad language implying every intermediary supplies deniability.
+- Replaced “USAID/CIA operation in Syria” with separate overt and covert tracks plus strong inference of complementarity.
+- Kept Bangladesh out of causal prose beyond documented relationships.
+- Added Sri Lanka and Afghanistan as substantive disconfirmation.
+- Limited domestic section to proven relationships and broken money chains.
+- Retained the article's strongest conclusion without protocol vocabulary.
+
+## Mechanical warning decisions
+
+- **Length (3,998 words):** retained. This is a seven-part finale with five flagship cases, a control case, books, information networks, domestic bleedback, and series synthesis; compression below the normal band would remove new evidence rather than repetition.
+- **Repeated “that is” openings:** revised all six flagged openings to restore rhythm.
+- **Entirely bold paragraph:** retained as the single thesis payoff after the evidence build; it is intentional emphasis, not decorative formatting.
+- **One abstract block:** retained at the finale because it synthesizes named functions established in the immediately preceding cases. Concrete documents, actors, and events surround it.
+- **Factual adequacy warning:** addressed by the separate claim audit, dossier-to-article matrix, source-dependency notes, and primary-source escalation above. Mechanical PASS is not treated as substantive verification.
