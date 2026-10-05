@@ -1,20 +1,10 @@
-[The Deep State](https://thewhiterabbitreport.substack.com/s/the-deep-state/?utm_source=substack&utm_medium=menu)
-
 # PROJECT SUN STREAK: The Intelligence Program That Wasn’t Supposed to Work
 
-### For nearly two decades, the U.S. government secretly funded a psychic warfare program that wasn’t supposed to work — but did.
-
-[![The White Rabbit Report's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)](https://substack.com/@thewhiterabbitreport)
-
-[The White Rabbit Report](https://substack.com/@thewhiterabbitreport)
-
-Feb 01, 2026
-
-[![](https://substackcdn.com/image/fetch/$s_!z1h4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0410908-ab4c-4601-b239-99be8a15120a_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!z1h4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0410908-ab4c-4601-b239-99be8a15120a_1536x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/f0410908-ab4c-4601-b239-99be8a15120a_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!z1h4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0410908-ab4c-4601-b239-99be8a15120a_1536x1024.png)
 
 **Project Sun Streak** was one codename within the broader **[Star Gate Project](https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R002800180001-2.pdf)** (1977–1995), a classified U.S. government effort to investigate psychic phenomena for intelligence purposes.
 
-[![](https://substackcdn.com/image/fetch/$s_!RWAp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd07a9e88-ad48-437a-8fe5-628350fa28a2_622x291.png)](https://substackcdn.com/image/fetch/$s_!RWAp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd07a9e88-ad48-437a-8fe5-628350fa28a2_622x291.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/d07a9e88-ad48-437a-8fe5-628350fa28a2_622x291.png)](https://substackcdn.com/image/fetch/$s_!RWAp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd07a9e88-ad48-437a-8fe5-628350fa28a2_622x291.png)
 
 [Overview of the Star Gate Project](https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R002800180001-2.pdf)
 
@@ -35,15 +25,13 @@ The program *officially* ended that same year.
 
 Today’s focus is **Project Sun Streak**.
 
-Thanks for reading! Subscribe for free to receive new posts and support my work.
-
 ---
 
 ## The Precursor: Project Grill Flame
 
 Before Sun Streak, there was **Project Grill Flame**.
 
-[![](https://substackcdn.com/image/fetch/$s_!B8SZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63dc30c6-4416-49b1-9b4e-a6a35b86a559_562x226.png)](https://substackcdn.com/image/fetch/$s_!B8SZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63dc30c6-4416-49b1-9b4e-a6a35b86a559_562x226.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/63dc30c6-4416-49b1-9b4e-a6a35b86a559_562x226.png)](https://substackcdn.com/image/fetch/$s_!B8SZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63dc30c6-4416-49b1-9b4e-a6a35b86a559_562x226.png)
 
 Excerpt from the [Grill Flame Project Report](https://www.cia.gov/readingroom/docs/CIA-RDP96-00788R001000410001-6.pdf)
 
@@ -61,7 +49,7 @@ They were **conclusions based on empirical, observable data**.
 
 ## DIA’s Own Description of Project Sun Streak
 
-[![](https://substackcdn.com/image/fetch/$s_!m5-i!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59c6e7d8-a427-4fa4-a200-fe26d062110d_530x603.png)](https://substackcdn.com/image/fetch/$s_!m5-i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59c6e7d8-a427-4fa4-a200-fe26d062110d_530x603.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/59c6e7d8-a427-4fa4-a200-fe26d062110d_530x603.png)](https://substackcdn.com/image/fetch/$s_!m5-i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59c6e7d8-a427-4fa4-a200-fe26d062110d_530x603.png)
 
 Excerpt from [DIA’s overview of Project SUN STREAK](https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R002100240001-2.pdf)
 
@@ -100,7 +88,7 @@ By implication, *that* question had already been settled.
 *Wait a second…  
 What else happened in the early 1970s?*
 
-[![](https://substackcdn.com/image/fetch/$s_!zXg8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8ed27d-171a-4dfd-81a2-37352e45c8c3_978x560.jpeg)](https://substackcdn.com/image/fetch/$s_!zXg8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8ed27d-171a-4dfd-81a2-37352e45c8c3_978x560.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/7c8ed27d-171a-4dfd-81a2-37352e45c8c3_978x560.jpeg)](https://substackcdn.com/image/fetch/$s_!zXg8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8ed27d-171a-4dfd-81a2-37352e45c8c3_978x560.jpeg)
 
 [The Marland Report](https://www.valdosta.edu/colleges/education/human-services/document%20/marland-report.pdf) was a federal report by U.S. Commissioner of Education Sidney P. Marland, Jr., mandated by the Education Amendments of 1969. Submitted in 1971, published 1972, it’s the first national push to define and prioritize gifted education—[The GATE Program’s origin story](https://thewhiterabbitreport.substack.com/p/gatekeepers-cia-gifted-education-conspiracy-1960s-1970s).
 
@@ -109,10 +97,6 @@ What else happened in the early 1970s?*
 ## The Stanford Research Institute Connection
 
 The document credits early success to experiments conducted at **Stanford Research Institute (SRI)** by laser physicists **[Hal Puthoff](https://en.wikipedia.org/wiki/Harold_E._Puthoff)** and **[Russell Targ](https://en.wikipedia.org/wiki/Russell_Targ)**.
-
-![Hal Puthoff and Russell Targ - Project Sun Streak](https://substackcdn.com/image/fetch/$s_!wj9n!,w_720,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feafbc477-fb45-4a28-98cb-005a70f5186a_300x300.jpeg)![Hal Puthoff and Russell Targ - Project Sun Streak](https://substackcdn.com/image/fetch/$s_!bznt!,w_720,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc48a8f1-b69c-47d5-b39a-1d099dd4bd5a_576x768.jpeg)
-
-Hal Puthoff and Russell Targ
 
 Their experiments using **remote viewing as an intelligence-gathering tool** were described as successful.
 
@@ -160,7 +144,7 @@ Later on the would go to some pretty eyebrow raising places:
 
 **DR. KERR:**
 
-[![](https://substackcdn.com/image/fetch/$s_!7_Ta!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe85e5d4c-7671-44a1-a9a8-ac395defe3d8_2083x2752.jpeg)](https://substackcdn.com/image/fetch/$s_!7_Ta!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe85e5d4c-7671-44a1-a9a8-ac395defe3d8_2083x2752.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/e85e5d4c-7671-44a1-a9a8-ac395defe3d8_2083x2752.jpeg)](https://substackcdn.com/image/fetch/$s_!7_Ta!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe85e5d4c-7671-44a1-a9a8-ac395defe3d8_2083x2752.jpeg)
 
 **[Dr. Donald M. Kerr](https://potomacinstitute.org/regents/the-honorable-donald-m-kerr-ph-d)**
 
@@ -171,7 +155,7 @@ Later on the would go to some pretty eyebrow raising places:
 
 **DR. ZACHARIASEN:**
 
-[![https://aspenphys.org/assets/2023/10/Fredrik-Zachariasen-e1696533814718.png](https://substackcdn.com/image/fetch/$s_!iS16!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc075e1ad-986c-4d33-9196-b014f797db47_739x986.png "https://aspenphys.org/assets/2023/10/Fredrik-Zachariasen-e1696533814718.png")](https://substackcdn.com/image/fetch/$s_!iS16!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc075e1ad-986c-4d33-9196-b014f797db47_739x986.png)
+[![https://aspenphys.org/assets/2023/10/Fredrik-Zachariasen-e1696533814718.png](https://substack-post-media.s3.amazonaws.com/public/images/c075e1ad-986c-4d33-9196-b014f797db47_739x986.png "https://aspenphys.org/assets/2023/10/Fredrik-Zachariasen-e1696533814718.png")](https://substackcdn.com/image/fetch/$s_!iS16!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc075e1ad-986c-4d33-9196-b014f797db47_739x986.png)
 
 [Dr. Fredrik “Zach” Zachariasen](https://en.wikipedia.org/wiki/Fredrik_Zachariasen)
 
@@ -181,14 +165,12 @@ Later on the would go to some pretty eyebrow raising places:
 
 **DR. ADEY:**
 
-[![William Ross Adey - The Lancet](https://substackcdn.com/image/fetch/$s_!NwX2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe93e4670-8b00-4b76-b8a7-afc8a14dfb50_190x266.jpeg "William Ross Adey - The Lancet")](https://substackcdn.com/image/fetch/$s_!NwX2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe93e4670-8b00-4b76-b8a7-afc8a14dfb50_190x266.jpeg)
+[![William Ross Adey - The Lancet](https://substack-post-media.s3.amazonaws.com/public/images/e93e4670-8b00-4b76-b8a7-afc8a14dfb50_190x266.jpeg "William Ross Adey - The Lancet")](https://substackcdn.com/image/fetch/$s_!NwX2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe93e4670-8b00-4b76-b8a7-afc8a14dfb50_190x266.jpeg)
 
 [Dr. William Ross Adey](https://senate.universityofcalifornia.edu/_files/inmemoriam/html/williamrossadey.htm)
 
 - Became internationally known for pioneering research on the biological effects of **non-ionizing electromagnetic fields** (including extremely low-level and non-thermal effects on brain tissue, cells, and **behavior**)
 - His work influenced discussions on EMF safety, bioelectromagnetics, and potential medical applications.
-
-*Are you liking this article?* **Subscribe Now!**
 
 ---
 
@@ -229,7 +211,7 @@ The report identified conditions that increase the likelihood of successful phen
 
 Buried in the DIA’s overview of **Project Sun Streak** is a line that feels almost accidental — the kind of sentence that slips through because the authors assume no one will linger on it.
 
-[![](https://substackcdn.com/image/fetch/$s_!lrt2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e317af0-9fa0-49e3-bc0e-dcac88a8d8a5_680x395.jpeg)](https://substackcdn.com/image/fetch/$s_!lrt2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e317af0-9fa0-49e3-bc0e-dcac88a8d8a5_680x395.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/3e317af0-9fa0-49e3-bc0e-dcac88a8d8a5_680x395.jpeg)](https://substackcdn.com/image/fetch/$s_!lrt2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e317af0-9fa0-49e3-bc0e-dcac88a8d8a5_680x395.jpeg)
 
 “Work to replicate these experiments [on children]…is onging at SRI (Stanford Research Instititue).” Yes. They were experiment on kids. [SOURCE](https://nsarchive.gwu.edu/document/15935-document-21-defense-intelligence-agency-project)
 
@@ -255,18 +237,6 @@ The **Defense Intelligence Agency** acknowledged that:
 At the same time the **U.S. government** was running classified psychic research programs.
 
 At the same time it was quietly rolling out programs like **GATE** (Gifted and Talented Education).
-
-[![GATEkeepers Pt 1: The CIA, GATE, and the Gifted Student Pipeline](https://substackcdn.com/image/fetch/$s_!Wq_h!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb31e5793-adad-4213-b49b-c258f1cb3c16_1792x1024.webp)
-
-#### GATEkeepers Pt 1: The CIA, GATE, and the Gifted Student Pipeline
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-March 22, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/gate-program-cia-mkultra-gifted-education)](https://thewhiterabbitreport.substack.com/p/gate-program-cia-mkultra-gifted-education)
 
 **You can call it coincidence** if you want.  
 But coincidences don’t usually line up this cleanly.
@@ -298,18 +268,6 @@ They do it when they believe **the payoff** justifies the risk.
 
 Just look at Project Monarch:
 
-[![The MK-Ultra Files | PROJECT MONARCH (Part 5 of 5)](https://substackcdn.com/image/fetch/$s_!Qo4E!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9cef5963-a4bd-4ddd-906e-410b2b62dceb_1536x1024.png)
-
-#### The MK-Ultra Files | PROJECT MONARCH (Part 5 of 5)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-October 9, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/the-mk-ultra-files-project-monarch)](https://thewhiterabbitreport.substack.com/p/the-mk-ultra-files-project-monarch)
-
 ---
 
 ## Operational Use: When Sun Streak Went Live
@@ -324,11 +282,11 @@ It wasn’t just lab work.
 
 (Source: [CIA Reading Room](https://www.cia.gov/readingroom/docs/DOC_0000139451.pdf))
 
-[![](https://substackcdn.com/image/fetch/$s_!PAlG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55748566-da9a-4548-9960-7b039fe7e957_572x291.png)](https://substackcdn.com/image/fetch/$s_!PAlG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55748566-da9a-4548-9960-7b039fe7e957_572x291.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/55748566-da9a-4548-9960-7b039fe7e957_572x291.png)](https://substackcdn.com/image/fetch/$s_!PAlG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55748566-da9a-4548-9960-7b039fe7e957_572x291.png)
 
 A declassified document reveals a **remote viewing session** conducted under Project Sun Streak targeting **Terry Waite**, the Church of England envoy [kidnapped in Beirut](https://en.wikipedia.org/wiki/Terry_Waite) on January 20, 1987.
 
-[![Thank you all! From Terry Waite CBE on the anniversary of ...](https://substackcdn.com/image/fetch/$s_!cmmt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4a70362-fc92-4b26-a8e6-973f00fbd28e_820x560.png "Thank you all! From Terry Waite CBE on the anniversary of ...")](https://substackcdn.com/image/fetch/$s_!cmmt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4a70362-fc92-4b26-a8e6-973f00fbd28e_820x560.png)
+[![Thank you all! From Terry Waite CBE on the anniversary of ...](https://substack-post-media.s3.amazonaws.com/public/images/d4a70362-fc92-4b26-a8e6-973f00fbd28e_820x560.png "Thank you all! From Terry Waite CBE on the anniversary of ...")](https://substackcdn.com/image/fetch/$s_!cmmt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4a70362-fc92-4b26-a8e6-973f00fbd28e_820x560.png)
 
 **Terry Waite** arrived in Beirut on 12 January 1987 with the intention of negotiating with the Islamic Jihad Organization, which was holding hostages, including Terry A. Anderson and Thomas Sutherland. On 20 January, he agreed to meet the captors of the hostages as he was promised safe conduct to visit the hostages, who, he was told, were ill. The group broke trust and took him hostage. Waite remained in captivity for 1,763 days, the first four years of which were spent in solitary confinement.
 
@@ -359,7 +317,7 @@ Project Sun Streak built on earlier successes that stunned intelligence analysts
 
 ### Pat Price — July 1974
 
-[![](https://substackcdn.com/image/fetch/$s_!KZCw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5babc372-8f23-4977-9c29-cba90965d9c6_968x575.png)](https://substackcdn.com/image/fetch/$s_!KZCw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5babc372-8f23-4977-9c29-cba90965d9c6_968x575.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/5babc372-8f23-4977-9c29-cba90965d9c6_968x575.png)](https://substackcdn.com/image/fetch/$s_!KZCw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5babc372-8f23-4977-9c29-cba90965d9c6_968x575.png)
 
 *From left to right: Hal Puthoff, Kit Green, Russell Targ, Pat Price (1974)*
 
@@ -371,11 +329,11 @@ Psychic **Pat Price** was given only map coordinates. From that, he sketched:
 
 Photo interpreters [later identified](https://ersby.blogspot.com/2017/03/pat-prices-remote-viewing-of-urdf-3.html) the site as **URDF-3**, a newly constructed gantry over a Soviet ICBM complex near **Semipalatinsk**.
 
-[![](https://substackcdn.com/image/fetch/$s_!Ugi1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fe20611-75a1-455c-bc62-68f9ca3d2f18_320x196.jpeg)](https://substackcdn.com/image/fetch/$s_!Ugi1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fe20611-75a1-455c-bc62-68f9ca3d2f18_320x196.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/7fe20611-75a1-455c-bc62-68f9ca3d2f18_320x196.jpeg)](https://substackcdn.com/image/fetch/$s_!Ugi1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fe20611-75a1-455c-bc62-68f9ca3d2f18_320x196.jpeg)
 
 Comparison of Target Site and Drawing by Remote Viewer (Pat)
 
-[![](https://substackcdn.com/image/fetch/$s_!IzRC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d888f6c-612b-488c-894b-434f99eadd08_1405x613.jpeg)](https://substackcdn.com/image/fetch/$s_!IzRC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d888f6c-612b-488c-894b-434f99eadd08_1405x613.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/8d888f6c-612b-488c-894b-434f99eadd08_1405x613.jpeg)](https://substackcdn.com/image/fetch/$s_!IzRC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d888f6c-612b-488c-894b-434f99eadd08_1405x613.jpeg)
 
 The match was so unsettling that copies of Price’s drawings were **hand-carried** to the **Office of Scientific Intelligence** the same day.
 
@@ -389,7 +347,7 @@ Army remote viewer **Joe McMoneagle** later sketched:
 
 > “A massive, double-hulled vessel under construction in an enclosed slip.”
 
-[![Thoughts about remote viewer joe mcmoneagle? : r/skeptic](https://substackcdn.com/image/fetch/$s_!VDqe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc6dd9f1b-337f-4a78-92c3-bacb453ead27_906x606.png "Thoughts about remote viewer joe mcmoneagle? : r/skeptic")](https://substackcdn.com/image/fetch/$s_!VDqe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc6dd9f1b-337f-4a78-92c3-bacb453ead27_906x606.png)
+[![Thoughts about remote viewer joe mcmoneagle? : r/skeptic](https://substack-post-media.s3.amazonaws.com/public/images/c6dd9f1b-337f-4a78-92c3-bacb453ead27_906x606.png "Thoughts about remote viewer joe mcmoneagle? : r/skeptic")](https://substackcdn.com/image/fetch/$s_!VDqe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc6dd9f1b-337f-4a78-92c3-bacb453ead27_906x606.png)
 
 Three months later, satellite imagery confirmed the keel of the **first Typhoon-class nuclear submarine** at **Severodvinsk**.
 
@@ -410,7 +368,7 @@ They were tasked with targets that blurred **intelligence and mythology**.
 Among the documented taskings:  
 **Search efforts [related to the Ark of the Covenant](https://www.cia.gov/readingroom/docs/CIA-RDP96-00789R001300180002-7.pdf).**
 
-[![Ark of the Covenant | Indiana Jones Wiki | Fandom](https://substackcdn.com/image/fetch/$s_!2h0D!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36ac7b11-5674-489d-bf69-597ad7d8dc02_620x418.webp "Ark of the Covenant | Indiana Jones Wiki | Fandom")](https://substackcdn.com/image/fetch/$s_!2h0D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36ac7b11-5674-489d-bf69-597ad7d8dc02_620x418.webp)
+[![Ark of the Covenant | Indiana Jones Wiki | Fandom](https://substack-post-media.s3.amazonaws.com/public/images/36ac7b11-5674-489d-bf69-597ad7d8dc02_620x418.webp "Ark of the Covenant | Indiana Jones Wiki | Fandom")](https://substackcdn.com/image/fetch/$s_!2h0D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36ac7b11-5674-489d-bf69-597ad7d8dc02_620x418.webp)
 
 That detail is often dismissed as fringe.
 
@@ -454,5 +412,3 @@ And if it worked *too well*…
 
 That might explain why it ended.  
 **If it did at all.**
-
-Thanks for reading! If you liked this, Subscribe for free to receive new post

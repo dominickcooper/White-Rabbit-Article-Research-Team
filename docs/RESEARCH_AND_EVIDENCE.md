@@ -1,5 +1,28 @@
 # Research and evidence
 
+`research_library/methodologies/SOURCE_AUTHORITY_AND_CANON.md` governs source authority.
+Use its three levels rather than applying newly discovered-source skepticism to published
+White Rabbit canon or the author-supplied corpus.
+
+Before external research, complete `research/SOURCE_THESIS.md` from the explicit brief and
+the complete supported source corpus. Editorial priority is author objective → source-
+derived investigation → published canon → external expansion. This does not change the
+provenance levels below. If research would fundamentally change the investigation, stop at
+AUTHOR THESIS DECISION REQUIRED rather than substituting a safer adjacent article.
+
+## Published White Rabbit canon
+
+Facts, findings, quotations, statistics, connections, conclusions, and established
+premises in published White Rabbit articles are project canon. They can seed a new chain
+without being independently re-verified or re-taught. Recheck only on author request,
+actual contradictory evidence, an explicitly unresolved/speculative prior finding, or a
+material wording question. Preserve genuine conflicts as existing canon + new contrary
+evidence + reason for conflict + author-review status; never silently weaken canon.
+
+Canon retrieval must return and read actual published passages, then record the premise
+and next-hop question it opens. Voice retrieval is separate filtered authored prose; it
+cannot establish facts.
+
 ## Author-approved source corpus
 
 Anything the author deliberately places in an article `sources/` folder, a series
@@ -29,9 +52,11 @@ or disproven. Add modifiers such as independently corroborated, partially corrob
 uncorroborated, materially disputed, contradicted and chronology unresolved. Keep these
 labels mainly in research artifacts, not publication prose.
 
-Interviews, memoirs and investigative reporting are evidence. A named account does not
-become “no evidence” because a declassified memo has not surfaced. Attribute it and give
-it the weight its provenance, specificity, corroboration and conflicts deserve.
+Interviews, memoirs and investigative reporting are evidence. Named testimony in Level 1
+or Level 2 material ordinarily becomes an ACCEPTED TESTIMONY premise for downstream
+reasoning. Assume good-faith truth unless actual contrary evidence appears. A named
+account does not become “no evidence” because a declassified memo has not surfaced.
+Preserve its testimonial provenance without forcing the investigation to re-prove it.
 
 Attribution often supplies sufficient qualification. Do not reflexively append a
 no-primary-source disclaimer after “According to...,” “told,” “recalled” or “described.”
@@ -48,17 +73,19 @@ NGOs, universities, surveillance companies, Big Tech, military science, patents,
 subcontractors, family ties, investors, board memberships, lawyers, donors, personnel
 overlap and successor institutions. Proximity is a lead, not proof.
 
-Classify findings as DIRECTLY DOCUMENTED, CORROBORATED STRONG INFERENCE,
-HIGH-DIAGNOSTIC PATTERN, PLAUSIBLE CONNECTION, LEAD, SPECULATION, or CONTRADICTED.
+Classify provenance/status as PUBLISHED WHITE RABBIT CANON, DOCUMENTED RECORD, ACCEPTED
+TESTIMONY, CORROBORATED INFERENCE, PLAUSIBLE CONNECTION, SPECULATION, or CONTRADICTED.
+The existing labels DIRECTLY DOCUMENTED, CORROBORATED STRONG INFERENCE,
+HIGH-DIAGNOSTIC PATTERN and LEAD remain readable where additional granularity helps.
 The older shorthand DOCUMENTED FACT / STRONG INFERENCE remains readable in existing
 projects. Preserve uncertainty without flattening unequal evidence.
 Distinguish what is directly proven, what the total evidence most likely means, and
 what remains genuinely unknown. When independent facts converge, state the strongest
 reasonable conclusion. Do not manufacture 50/50 ambiguity when evidence is asymmetric.
 
-Useful language includes “From what we can verify, the evidence points toward…”,
-“The most likely explanation is…”, and “Taken together, these records strongly suggest…”.
-Explain the evidentiary bridge. The absence of a signed order is relevant but is not
+Explain the evidentiary bridge and state the strongest supported conclusion plainly.
+Do not force stock phrases such as “the evidence points toward” or “taken together” into
+publication prose. The absence of a signed order is relevant but is not
 automatically exculpatory; it also does not license inventing an order.
 For covert, compartmented, distributed, outsourced, or deniable systems, ask what
 documentary footprint should exist rather than demanding one memorandum describing the
@@ -69,8 +96,9 @@ sharing, offshore entities, and functional migration. Evaluate the combination.
 
 ## Evidence convergence and stepping stones
 
-An established fact or strong inference may become the premise for the next research
-question. The investigation does not reset to zero after every connection. No single edge
+Published canon, accepted testimony, a documented record, or a corroborated inference may
+become the premise for the next research question. The investigation does not reset to
+zero after every connection. No single edge
 must prove the entire chain, but every edge keeps its own classification and a weak or
 broken edge must remain visible in `research/CONNECTION_CHAINS.md`.
 
@@ -78,7 +106,9 @@ Do not dismiss a theory by observing separately that A, B, and C each fail to pr
 Ask what A + B + C show together. Independent streams increase evidentiary weight;
 repetition derived from the same witness, document, dataset, or reporting chain must not
 be double-counted. A strong inference is a valid article-level conclusion when the chain
-and its meaningful boundary are shown.
+and its meaningful boundary are shown. Corroborating facts should also be examined for
+the distinct branch each opens; do not consume them solely to validate an already
+accepted premise.
 
 ## Books, bibliographies, and historical precedent
 
@@ -92,8 +122,11 @@ interpretation is not grounds to reject an author-supplied work.
 
 Ask whether the actor or system has used the alleged mechanism before. Document the prior
 mechanism, identify its observable footprint, and search the present case for analogous
-signatures. Historical precedent changes research strategy; it is not proof of recurrence
-and must not be confused with direct continuity.
+signatures. Historical precedent changes research strategy and prior plausibility; it is
+not proof of recurrence and must not be confused with direct continuity. Once the project
+has established a mechanism, use its people, intermediaries, organizational layers,
+funding methods, and documentary signatures as search templates rather than starting
+from zero.
 
 Before outlining, run a Rabbit-Hole Investigator pass: ask which documented connection
 could materially change the reader's understanding, then check relevant biographies,
@@ -111,8 +144,9 @@ clandestine work leaves no explicit confession.
 For consequential disputed questions: state the evidence, present the strongest
 conventional/alternative explanation, test each against the total record, explain
 what each accounts for and cannot account for, then make an evidence-weighted judgment.
-Actively seek contrary evidence and distinguish independent sources from repetition
-of a single source. Never treat an old White Rabbit article as independent proof.
+Actively seek contrary evidence and distinguish independent sources from repetition of a
+single source. A published White Rabbit article is Level 1 canon, not a new independent
+evidence stream; use its premise without double-counting it as corroboration.
 
 If a foreign government knew about misconduct, investigate what it knew and when,
 private beliefs, investigations, differences between public/private positions,

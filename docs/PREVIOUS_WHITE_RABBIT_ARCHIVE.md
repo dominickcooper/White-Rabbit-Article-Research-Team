@@ -10,8 +10,10 @@ This upgrade adds a persistent corpus of previously published White Rabbit Repor
 4. Hyperlinks and metadata are extracted and stored alongside each article.
 5. A global SQLite registry is updated at `knowledge/white_rabbit.db`.
 6. The most relevant prior White Rabbit articles are retrieved before Gemini creates its research plan.
-7. Prior articles are supplied as **institutional memory / research leads**, not as proof.
-8. Their published URLs may be used for internal links. Their prior external source links may be re-opened and independently verified.
+7. Published prior articles are supplied as **Level 1 project canon and voice canon**.
+8. Their established premises may be used without re-verification. Their source trails
+   should be reopened when a canon exception applies or when they can expand the new
+   investigation; genuine contradictions are preserved for author review.
 
 ## Folder layout
 
@@ -44,6 +46,9 @@ python -m white_rabbit archive sync --refresh   # re-fetch older posts to detect
 python -m white_rabbit archive status
 python -m white_rabbit archive reindex          # rebuild the local search index
 python -m white_rabbit archive search "query"
+python -m white_rabbit archive voice "investigative intelligence contractor"
+python -m white_rabbit archive probe             # real-network discovery smoke test
+python -m white_rabbit archive verify
 python -m white_rabbit run "TOPIC" --project project_id
 ```
 
@@ -55,6 +60,51 @@ Search indexes are generated on the machine and should not be committed. After a
 python -m white_rabbit archive reindex
 ```
 
+`archive search` is the published-factual-canon path. It returns ranked article passages,
+canonical URLs, precise sections, access status, and source trails while preserving the
+writer's original testimony/inference/question status. `archive voice` is a separate
+full-body authored-prose path. It excludes Markdown blockquotes, copied quotations,
+related-post cards, subscription/paywall UI, and every partial-preview article. Both
+packets are generated and embedded in every Codex-first prompt; the legacy pipeline writes
+`previous_white_rabbit_canon.md` and `previous_white_rabbit_voice.md` separately and sends
+their combined, clearly labeled packet to planning, outlining, writing, audit, and revision.
+
+`archive verify` writes these evidence artifacts in the archive root:
+
+- `PUBLISHED_ARTICLE_INVENTORY.csv`
+- `ARCHIVE_COVERAGE_REPORT.md`
+- `CANON_RETRIEVAL_SMOKE_TEST.md`
+- `VOICE_RETRIEVAL_SMOKE_TEST.md`
+- `DRY_RUN_CODEX_ASSIGNMENT.md`
+
+The inventory uses `FULL_PUBLIC`, `FULL_AUTHOR_EXPORT`, `PARTIAL_PREVIEW`, `TITLE_ONLY`,
+and `FETCH_FAILED`. It includes publication/update timestamps, discovery provenance, HTTP
+status, word and authored-paragraph counts, content hash, archive path, indexing state,
+failure reason, duplicate hash, and missing-from-latest-discovery review state. Missing
+URLs are never silently deleted.
+
 ## Paid/subscriber-only posts
 
-Anonymous web retrieval can expose only a preview for some paid posts. The synchronizer detects common paywall signals and records `content_status: preview_only` instead of silently treating a preview as the full article. The `imports/substack_exports/` directory is reserved for a later owner-export importer so full paid-post text can be seeded from an official Substack export without storing browser session cookies.
+Anonymous web retrieval can expose only a preview for some paid posts. The synchronizer detects common paywall signals and records `content_status: preview_only` instead of silently treating a preview as the full article. The `imports/substack_exports/` directory accepts an official owner export so full paid-post text can be seeded without storing browser session cookies.
+
+To fill those gaps, request a Substack owner export and keep the ZIP outside the
+repository (preferred), then run:
+
+```powershell
+python -m white_rabbit archive import-export "PATH_TO_EXPORT.zip"
+python -m white_rabbit archive reindex --force
+python -m white_rabbit archive verify
+```
+
+The importer reads `posts.csv` plus only the matching HTML for rows whose
+`is_published` flag is true. It does not read or copy subscriber lists, email addresses,
+payments, pledges, open/delivery analytics, or other account files. Drafts remain
+excluded. Imported full bodies are labeled `FULL_AUTHOR_EXPORT` and retain their export
+post ID, publication status, audience, subtitle, dates, links, images, headings, quotes,
+captions, and source entry. The ZIP may remain outside the repository; extracted exports
+under `imports/substack_exports/` are ignored as a privacy backstop.
+
+Source precedence is `author export > verified local author copy > full public capture >
+public preview > metadata shell`. Once a published body is labeled `FULL_AUTHOR_EXPORT`,
+a later public refresh records its observation in metadata but cannot overwrite the
+author-export body with a preview or divergent public rendering.

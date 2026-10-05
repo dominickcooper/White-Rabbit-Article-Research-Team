@@ -50,3 +50,6 @@ article_projects/**/sources/
 series_projects/**/articles/**/research/source_derivatives/
 article_projects/**/research/source_derivatives/
 **/research/generated/normalized_text/
+
+# owner exports may contain full paid posts or private account data; keep local only
+research_library/previous_white_rabbit_articles/imports/substack_exports/

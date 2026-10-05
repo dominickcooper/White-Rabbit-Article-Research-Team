@@ -1,34 +1,12 @@
-[Operation Gladio](https://thewhiterabbitreport.substack.com/s/operation-gladio/?utm_source=substack&utm_medium=menu)
-
 # Operation Gladio in America: Nixon, Narcotics, and the CIA Pipeline (Part 1/2)
 
-### The drug war, the French Connection, Taiwan’s KMT networks, and the birth of the DEA may not be separate stories. They may be spokes on the same covert wheel: America’s Gladio infrastructure.
-
-[![The White Rabbit Report's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)](https://substack.com/@thewhiterabbitreport)
-
-[The White Rabbit Report](https://substack.com/@thewhiterabbitreport)
-
-Apr 29, 2026
-
-[![](https://substackcdn.com/image/fetch/$s_!EScY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05e68062-977d-413c-89f0-7a5708dec9a4_1672x941.png)](https://substackcdn.com/image/fetch/$s_!EScY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05e68062-977d-413c-89f0-7a5708dec9a4_1672x941.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/05e68062-977d-413c-89f0-7a5708dec9a4_1672x941.png)](https://substackcdn.com/image/fetch/$s_!EScY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05e68062-977d-413c-89f0-7a5708dec9a4_1672x941.png)
 
 What if the most important intelligence story in American history never made the front page? What if the drug war, the Watergate scandal, and decades of covert political suppression weren’t separate events — but spokes on the same wheel?
 
 There’s a whole series I wrote on this about **the International Syndicate**, a term coined (to my knowledge) by **Colonel Towner.**
 
 Be sure to **follow her** **on X**: [@ColonelTowner](https://x.com/ColonelTowner)
-
-[![The International Syndicate: How the West Manufactures Enemies, Wars, and Control (Part 1/5)](https://substackcdn.com/image/fetch/$s_!9-Fq!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05e13de-ccfc-49b3-ac2f-237fb68b8744_1024x1536.png)
-
-#### The International Syndicate: How the West Manufactures Enemies, Wars, and Control (Part 1/5)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-June 20, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)
 
 Now, what do I mean by **[Operation Gladio](https://thewhiterabbitreport.substack.com/s/operation-gladio) in America?**
 
@@ -50,7 +28,7 @@ It’s a pattern hidden inside **declassified documents**, **congressional testi
 
 [Operation Gladio](https://thewhiterabbitreport.substack.com/s/operation-gladio) was a clandestine NATO program, officially acknowledged by Italian Prime Minister **[Giulio Andreotti](https://en.wikipedia.org/wiki/Giulio_Andreotti)** in 1990, that established secret “stay-behind” networks across Western Europe after World War II.
 
-[![](https://substackcdn.com/image/fetch/$s_!fKM-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0093a787-8f83-4272-9a22-e86a125d1fe7_250x358.jpeg)](https://substackcdn.com/image/fetch/$s_!fKM-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0093a787-8f83-4272-9a22-e86a125d1fe7_250x358.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/0093a787-8f83-4272-9a22-e86a125d1fe7_250x358.jpeg)](https://substackcdn.com/image/fetch/$s_!fKM-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0093a787-8f83-4272-9a22-e86a125d1fe7_250x358.jpeg)
 
 Giulio Andreotti
 
@@ -61,20 +39,6 @@ The stated purpose was to prepare resistance cells in the event of a Soviet inva
 The reality, according to a [European Parliament resolution passed in 1990](https://en.wikisource.org/wiki/European_Parliament_resolution_on_Gladio), was far darker — these networks were linked to terrorism, political assassinations, and what is called a **“strategy of tension”**: using **manufactured chaos** to push populations toward **authoritarian control**.
 
 You can read more about it in-depth here:
-
-[Operation Gladio](https://thewhiterabbitreport.substack.com/p/operation-gladio-natos-covert-war)[## Operation Gladio: NATO’s Covert War, Secret Armies, and Hidden Agendas](https://thewhiterabbitreport.substack.com/p/operation-gladio-natos-covert-war)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-March 16, 2025
-
-[![Operation Gladio: NATO’s Covert War, Secret Armies, and Hidden Agendas](https://substackcdn.com/image/fetch/$s_!hpAk!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21734de6-2598-4f3a-acaa-6be46319fd0c_1792x1024.webp)](https://thewhiterabbitreport.substack.com/p/operation-gladio-natos-covert-war)
-
-Discover the shocking truth behind Operation Gladio, NATO's secret stay-behind armies, and covert operations that continue to shape global conflicts and geopolitics.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/operation-gladio-natos-covert-war)
 
 The Gladio model relied on a **“wagon wheel”** structure. The hub is the covert apparatus itself.
 
@@ -140,7 +104,7 @@ Think of it like a franchise system.
 
 **[Operation 40](https://www.theblackvault.com/documentarchive/operation-40/)**— a CIA-sponsored counter-intelligence group composed entirely of Cuban exiles, formed to seize the Cuban government after the Bay of Pigs — is the American franchise.
 
-[![](https://substackcdn.com/image/fetch/$s_!p8yD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fb76b08-4499-4489-bafa-a6b83e0889e0_1576x998.png)](https://substackcdn.com/image/fetch/$s_!p8yD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fb76b08-4499-4489-bafa-a6b83e0889e0_1576x998.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/0fb76b08-4499-4489-bafa-a6b83e0889e0_1576x998.png)](https://substackcdn.com/image/fetch/$s_!p8yD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0fb76b08-4499-4489-bafa-a6b83e0889e0_1576x998.png)
 
 [This photograph](https://www.theblackvault.com/documentarchive/operation-40/) was taken in a nightclub in Mexico City on January 22nd, 1963. It has been argued by Daniel Hopsicker that the men in the photograph are all members of **Operation 40**. [Image enhanced by AI]
 
@@ -150,7 +114,7 @@ Think of it like a franchise system.
 
 ### **From British Opium to Taiwan’s KMT Narco-State**
 
-[![r/ChineseHistory - What was the state of the KMT army around 1942-1945? (Or late stage of ww2)](https://substackcdn.com/image/fetch/$s_!NMKZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc22b5d7-6488-4370-8818-5897cdb82ca1_640x498.png "r/ChineseHistory - What was the state of the KMT army around 1942-1945? (Or late stage of ww2)")](https://substackcdn.com/image/fetch/$s_!NMKZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc22b5d7-6488-4370-8818-5897cdb82ca1_640x498.png)
+[![r/ChineseHistory - What was the state of the KMT army around 1942-1945? (Or late stage of ww2)](https://substack-post-media.s3.amazonaws.com/public/images/fc22b5d7-6488-4370-8818-5897cdb82ca1_640x498.png "r/ChineseHistory - What was the state of the KMT army around 1942-1945? (Or late stage of ww2)")](https://substackcdn.com/image/fetch/$s_!NMKZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc22b5d7-6488-4370-8818-5897cdb82ca1_640x498.png)
 
 To understand **the modern drug network**, you have to go back further than Nixon.
 
@@ -162,7 +126,7 @@ The KMT didn’t disappear, by the way.
 
 a relatively tiny landmass (slightly larger than Maryland).
 
-[![](https://substackcdn.com/image/fetch/$s_!B4Sa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c63098-3163-45c1-82d3-4a4a0cf83bfc_584x184.png)](https://substackcdn.com/image/fetch/$s_!B4Sa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c63098-3163-45c1-82d3-4a4a0cf83bfc_584x184.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/78c63098-3163-45c1-82d3-4a4a0cf83bfc_584x184.png)](https://substackcdn.com/image/fetch/$s_!B4Sa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78c63098-3163-45c1-82d3-4a4a0cf83bfc_584x184.png)
 
 [Full list of pharmaceutical companies in Taiwan](https://pharmchoices.com/full-list-of-pharmaceutical-companies-in-taiwan/)
 
@@ -172,7 +136,7 @@ The pipeline ran from **Taiwan to Hong Kong, Hong Kong to Sicily, Sicily to Cuba
 
 When Nixon’s administration declared that “[drugs were coming from Mexico](https://time.com/6090016/us-war-on-drugs-origins/),” [a postwar research study](https://disruptnow.org/wp-content/uploads/2024/04/Heroin-From-Where.pdf) found that **80% of the world’s opium came from Southeast Asia** (aka *not Mexico*). **These areas were controlled by both Taiwan and the CIA.**
 
-[![](https://substackcdn.com/image/fetch/$s_!SVfq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b59b63-c79c-454a-9c7f-c8c574e5e960_496x126.png)](https://substackcdn.com/image/fetch/$s_!SVfq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b59b63-c79c-454a-9c7f-c8c574e5e960_496x126.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/f3b59b63-c79c-454a-9c7f-c8c574e5e960_496x126.png)](https://substackcdn.com/image/fetch/$s_!SVfq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b59b63-c79c-454a-9c7f-c8c574e5e960_496x126.png)
 
 “Heroin! From Where?” - newspaper *Palante*, July 1971
 
@@ -198,15 +162,13 @@ This is **[The French Connection](https://en.wikipedia.org/wiki/French_Connectio
 
 But how did the Corsicans get to run Marseille in the first place? That part of the story is where the CIA’s fingerprints are the clearest — and the most documented.
 
-*Enjoying the article?* Make sure to subscribe so you don’t miss future articles!
-
 ---
 
 #### Follow the Money
 
 **It [started with the docks.](https://www.goodreads.com/book/show/22245430-operation-gladio)**
 
-[![Chronologie de Marseille de 1939 à 1950](https://substackcdn.com/image/fetch/$s_!RFvz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f910d4b-f5a1-48cc-8191-74863b6c8193_261x193.jpeg "Chronologie de Marseille de 1939 à 1950")](https://substackcdn.com/image/fetch/$s_!RFvz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f910d4b-f5a1-48cc-8191-74863b6c8193_261x193.jpeg)
+[![Chronologie de Marseille de 1939 à 1950](https://substack-post-media.s3.amazonaws.com/public/images/9f910d4b-f5a1-48cc-8191-74863b6c8193_261x193.jpeg "Chronologie de Marseille de 1939 à 1950")](https://substackcdn.com/image/fetch/$s_!RFvz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f910d4b-f5a1-48cc-8191-74863b6c8193_261x193.jpeg)
 
 In 1947, the port workers of Marseille — the most strategically important shipping hub in the French colonial empire — [were organized](https://www.frontsyndical-classe.org/2017/02/histoire-marseille-1947-quand-la-mafia-corse-en-alliance-avec-le-ps.et-la-cia-etait-utilisee-contre-la-cgt.html) under the communist-led **Confédération Générale du Travail (CGT)**.
 
@@ -220,17 +182,13 @@ Using conduits including the AFL-CIO, the CIA funneled approximately **[$2 milli
 
 *Because, you know, communists suck.*
 
-[![](https://substackcdn.com/image/fetch/$s_!qmAh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0b18ef7-b29c-4de9-91bd-0b5a04ec45d0_628x815.png)](https://substackcdn.com/image/fetch/$s_!qmAh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0b18ef7-b29c-4de9-91bd-0b5a04ec45d0_628x815.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/b0b18ef7-b29c-4de9-91bd-0b5a04ec45d0_628x815.png)](https://substackcdn.com/image/fetch/$s_!qmAh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0b18ef7-b29c-4de9-91bd-0b5a04ec45d0_628x815.png)
 
 [The CIA’s French Connection and Other Footnotes to History](https://stlreporter.com/2017/05/13/the-cias-french-connection-and-other-other-footnotes-to-history/), May 2017 Article
 
 But money alone wasn’t enough to move communist dockworkers off their picket lines. So the CIA did what it always does when it needs muscle with deniability:
 
 It called on **organized crime**.
-
-![Antoine & Barthelemy Guerini](https://substackcdn.com/image/fetch/$s_!HlKH!,w_720,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf6a85a8-e88c-4789-9b50-730af3877c93_623x623.jpeg)![Antoine & Barthelemy Guerini](https://substackcdn.com/image/fetch/$s_!0RAh!,w_720,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2a4be1c-bf24-44f4-b25e-ef221af19a61_300x300.jpeg)
-
-Antoine & Barthelemy Guerini
 
 **The Guerini brothers** — [Antoine and Barthélémy](https://en.wikipedia.org/wiki/Corsican_mafia), the leading Corsican gangsters in Marseille — were recruited, armed, and funded [by CIA operatives](https://en.wikipedia.org/wiki/CIA_activities_in_France) to do what no government official could do publicly.
 
@@ -246,7 +204,7 @@ CIA official **[Tom Braden](https://en.wikipedia.org/wiki/Tom_Braden)** didn’t
 
 This is a senior CIA official bragging about it in print.
 
-[![](https://substackcdn.com/image/fetch/$s_!_By_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0203f3c1-04f1-4103-94bb-c17b46d3e954_660x544.png)](https://substackcdn.com/image/fetch/$s_!_By_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0203f3c1-04f1-4103-94bb-c17b46d3e954_660x544.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/0203f3c1-04f1-4103-94bb-c17b46d3e954_660x544.png)](https://substackcdn.com/image/fetch/$s_!_By_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0203f3c1-04f1-4103-94bb-c17b46d3e954_660x544.png)
 
 [I’m Glad the CIA is ‘Immoral’ (1967)](https://archive.org/details/im-glad-the-cia-is-immoral-by-thomas-w.-braden-the-saturday-evening-post-may-20-1967-pp.-10-12-14/mode/2up)
 
@@ -254,7 +212,7 @@ The payoff for the CIA was immediate and enormous.
 
 [Within months of breaking the dockworkers’ strike](https://archive.org/details/isbn_9781556521256), the port of Marseille began manufacturing and exporting large quantities of heroin to the United States. By 1965, the U.S. Federal Bureau of Narcotics estimated that [Corsican syndicates operated](https://stlreporter.com/2017/05/13/the-cias-french-connection-and-other-other-footnotes-to-history/) **as many as 24 heroin-processing plants** in or around Marseille, smuggling nearly **five tons of pure heroin** into America per year.
 
-[![](https://substackcdn.com/image/fetch/$s_!g7An!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3da1cd19-72f4-4ec5-85c9-bcc0c6be7498_250x342.jpeg)](https://substackcdn.com/image/fetch/$s_!g7An!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3da1cd19-72f4-4ec5-85c9-bcc0c6be7498_250x342.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/3da1cd19-72f4-4ec5-85c9-bcc0c6be7498_250x342.jpeg)](https://substackcdn.com/image/fetch/$s_!g7An!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3da1cd19-72f4-4ec5-85c9-bcc0c6be7498_250x342.jpeg)
 
 Lucky Luciano
 
@@ -265,7 +223,7 @@ By 1951, **[Luciano and the Corsicans](https://irp.fas.org/congress/1998_cr/9805
 And all of this by the way.   
 **ALL OF IT** has receipts.
 
-[![](https://substackcdn.com/image/fetch/$s_!wTUz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fe1f05f-a620-4382-8a60-454180edcbe0_900x783.png)](https://substackcdn.com/image/fetch/$s_!wTUz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fe1f05f-a620-4382-8a60-454180edcbe0_900x783.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/3fe1f05f-a620-4382-8a60-454180edcbe0_900x783.png)](https://substackcdn.com/image/fetch/$s_!wTUz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fe1f05f-a620-4382-8a60-454180edcbe0_900x783.png)
 
 [INTELLIGENCE AUTHORIZATION ACT FOR FISCAL YEAR 1999](https://irp.fas.org/congress/1998_cr/980507-l.htm) (House of Representatives - May 07, 1998)
 
@@ -275,7 +233,7 @@ Nixon’s so-called “War on Drugs” wasn’t about stopping drugs. It was abo
 
 **[CIA documents](https://www.cia.gov/readingroom/docs/CIA-RDP85T00875R001700030075-5.pdf)** simply state that they were “seized.” And then was very *hush-hush* on any other labs…
 
-[![](https://substackcdn.com/image/fetch/$s_!pWkt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82f9c32d-ffd3-413c-b35c-563e629b48d6_523x286.png)](https://substackcdn.com/image/fetch/$s_!pWkt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82f9c32d-ffd3-413c-b35c-563e629b48d6_523x286.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/82f9c32d-ffd3-413c-b35c-563e629b48d6_523x286.png)](https://substackcdn.com/image/fetch/$s_!pWkt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82f9c32d-ffd3-413c-b35c-563e629b48d6_523x286.png)
 
 [1972 CIA Intelligence Memorandum](https://www.cia.gov/readingroom/docs/CIA-RDP85T00875R001700030075-5.pdf)
 
@@ -292,7 +250,7 @@ The aim was to **absorb their infrastructure** and remove their independent cont
 - Now it had the refinery capacity too — or rather, it neutralized the one organization that ran the refineries independently.
 - After the [French police raided the Marseille heroin factories](https://time.com/6090016/us-war-on-drugs-origins/) in 1972, Mexico’s traffickers — operating under growing American intelligence supervision — moved into producing heroin for the exploding domestic market of returning Vietnam veterans.
 
-[![President Richard Nixon explains aspects of the special message sent to Congress asking for an extra $155 millions for a new program to combat the use of drugs, on June 17, 1971.](https://substackcdn.com/image/fetch/$s_!aodW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffabbf37b-4c7c-49ec-8f08-a2ae0e85f096_3840x2560.jpeg "President Richard Nixon explains aspects of the special message sent to Congress asking for an extra $155 millions for a new program to combat the use of drugs, on June 17, 1971.")](https://substackcdn.com/image/fetch/$s_!aodW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffabbf37b-4c7c-49ec-8f08-a2ae0e85f096_3840x2560.jpeg)
+[![President Richard Nixon explains aspects of the special message sent to Congress asking for an extra $155 millions for a new program to combat the use of drugs, on June 17, 1971.](https://substack-post-media.s3.amazonaws.com/public/images/fabbf37b-4c7c-49ec-8f08-a2ae0e85f096_3840x2560.jpeg "President Richard Nixon explains aspects of the special message sent to Congress asking for an extra $155 millions for a new program to combat the use of drugs, on June 17, 1971.")](https://substackcdn.com/image/fetch/$s_!aodW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffabbf37b-4c7c-49ec-8f08-a2ae0e85f096_3840x2560.jpeg)
 
 President Richard Nixon explains aspects of the special message sent to Congress asking for an extra $155 millions for a new program to combat the use of drugs, on June 17, 1971.
 
@@ -303,7 +261,7 @@ And [the proof is in the numbers](https://www.cia.gov/readingroom/docs/CIA-RDP74
 
 The number of heroin addictions in the U.S. promptly rose from an estimated **315,000 to 560,000 within two years of the “crackdown.”**
 
-[![](https://substackcdn.com/image/fetch/$s_!Mf4O!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13d4d1f2-109d-423f-9180-85e04d8a275d_360x294.png)](https://substackcdn.com/image/fetch/$s_!Mf4O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13d4d1f2-109d-423f-9180-85e04d8a275d_360x294.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/13d4d1f2-109d-423f-9180-85e04d8a275d_360x294.png)](https://substackcdn.com/image/fetch/$s_!Mf4O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13d4d1f2-109d-423f-9180-85e04d8a275d_360x294.png)
 
 “[The Drug Problem Still Grows](https://www.cia.gov/readingroom/docs/CIA-RDP74B00415R000400030021-8.pdf)” by [Charles B Rangel](https://en.wikipedia.org/wiki/Charles_Rangel), US Representative for NY
 
@@ -312,20 +270,6 @@ Meanwhile, by 1973, the DEA had been created with **[some 60 CIA agents](https:/
 **The media**, obviously, told you a different story.
 
 You can read more about the CIA and drugs in Vietnam in this series:
-
-[The Deep State](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)[## The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-July 23, 2025
-
-[![The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)](https://substackcdn.com/image/fetch/$s_!isMp!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7162d927-206f-43e4-ad89-30ff831a2bbc_1536x1024.png)](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)
-
-A leaked FBI file. A dead senator. And a CIA banking network more powerful than any government. Discover how the Five Star Trust black budget empire was born.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)
 
 ---
 
@@ -367,7 +311,7 @@ of the international narcotics market.
 
 ## **THE DRUG WAR WAS ONLY THE FIRST DOOR**
 
-[![Nixon Adviser Ehrlichman Explains Anti-Left, Anti-Black War on Drugs -  Business Insider](https://substackcdn.com/image/fetch/$s_!X6Fo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db943f8-2f07-4a6c-82e3-cc5ee2a25848_1200x600.jpeg "Nixon Adviser Ehrlichman Explains Anti-Left, Anti-Black War on Drugs -  Business Insider")](https://substackcdn.com/image/fetch/$s_!X6Fo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db943f8-2f07-4a6c-82e3-cc5ee2a25848_1200x600.jpeg)
+[![Nixon Adviser Ehrlichman Explains Anti-Left, Anti-Black War on Drugs -  Business Insider](https://substack-post-media.s3.amazonaws.com/public/images/2db943f8-2f07-4a6c-82e3-cc5ee2a25848_1200x600.jpeg "Nixon Adviser Ehrlichman Explains Anti-Left, Anti-Black War on Drugs -  Business Insider")](https://substackcdn.com/image/fetch/$s_!X6Fo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db943f8-2f07-4a6c-82e3-cc5ee2a25848_1200x600.jpeg)
 
 If Part 1 proves anything, it’s this:
 
@@ -415,20 +359,6 @@ And once you see them together, **Watergate** stops looking like a “*[third-ra
 **That’s where Part 2 begins.**
 
 In Part 2, we’ll follow the men behind the break-ins, dirty tricks, blackmail plans, assassination whispers, and domestic surveillance programs — and ask the questions no one in power wants answered.
-
-[Operation Gladio](https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-watergate-operation-40-dea-syndicate)[## Operation Gladio in America: Operation 40, Watergate, and More (Part 2/2)](https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-watergate-operation-40-dea-syndicate)
-
-May 2
-
-[![Operation Gladio in America: Operation 40, Watergate, and More (Part 2/2)](https://substackcdn.com/image/fetch/$s_!Pnac!,w_1300,h_650,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F689863ac-663b-4336-85a7-c7b6a081180c_1536x1024.png)](https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-watergate-operation-40-dea-syndicate)
-
-Watergate was never just a burglary. Part 2 connects Operation 40, Cuban exile assets, COINTELPRO, and the White House Plumbers to a deeper domestic Gladio-style control structure that exists today.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-watergate-operation-40-dea-syndicate)
-
-**Subscribe now to get** all future investigations and all past investigations (100+ articles)!
-
-[Share](https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-nixon?utm_source=substack&utm_medium=email&utm_content=share&action=share)
 
 IF YOU HAVEN’T YET,   
 MAKE SURE TO SUBSCRIBE TO **COLONEL TOWNER’S SUBSTACK  

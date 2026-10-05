@@ -11,6 +11,11 @@ Any one of these moves can be useful. Repetition is the warning:
 - “This matters because,” “In other words,” “Seen in that context,” “The pattern is
   clear,” or “Taken together” as routine connective tissue;
 - “not X but Y,” “not merely X; Y,” “both X and Y,” and perfectly parallel contrasts;
+- “this does not prove,” “that does not mean,” “the evidence stops short,” “the stronger
+  conclusion,” “the better question,” “what this actually shows,” “the reality is more
+  complicated,” “both things can be true,” and “it is important to note” as stock pivots;
+- repeated “however” corrections after findings and repeated “in other words” summaries;
+- three-part “Not A. Not B. Rather C.” antithesis structures;
 - a conventional explanation followed by an equally sized caveat in every section;
 - exactly three items whenever emphasis is needed;
 - every section opening with recap and ending with a summary;
@@ -72,6 +77,22 @@ The red team separately reports Type A polished scaffolding and Type B performed
 It looks for inflated source provenance, symmetrical disclaimer constructions, repeated
 self-policing, manufactured punch lines and explanations that continue after the evidence
 has made the point. It recommends local compression, not a wholesale voice rewrite.
+
+The separate semantic review locates and judges multi-paragraph behavior: DEFENSIVE
+SEQUENCE, CONTRIVED DIALECTIC, AUDITOR VOICE, PREMATURE ADJUDICATION, NARRATIVE
+STAGNATION, NARRATOR ABSENCE, MECHANICAL REVEAL WRITING, CANON DEFENSIVENESS and THESIS
+SUBSTITUTION. Deterministic code may identify candidate windows through negation density,
+recurring transitions, paragraph distribution and explicit redirects. It must return an
+excerpt/locator and proposed local fix, and it must never pretend regex alone settled the
+literary judgment.
+
+## AI-tic audit record
+
+For every recurring AI-tic, report the phrase or construction, count, line or section
+locations, whether each use is necessary, and the recommended deletion or local rewrite.
+Do not replace one repeated formula with a different repeated formula. Repeated defensive
+dialectic that materially interrupts accumulation is an editorial failure, not merely a
+style preference. A single necessary boundary may remain.
 
 ## Do not overcorrect
 

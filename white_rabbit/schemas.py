@@ -21,6 +21,23 @@ class ResearchPlan(BaseModel):
     likely_entities: list[str] = Field(default_factory=list)
 
 
+class SourceThesis(BaseModel):
+    author_objective: str
+    source_inventory: list[str] = Field(default_factory=list)
+    principal_thesis: str
+    supporting_theories: list[str] = Field(default_factory=list)
+    accepted_testimony: list[str] = Field(default_factory=list)
+    canon_premises: list[str] = Field(default_factory=list)
+    key_entities: list[str] = Field(default_factory=list)
+    initial_connections: list[str] = Field(default_factory=list)
+    unresolved_questions: list[str] = Field(default_factory=list)
+    predicted_footprints: list[str] = Field(default_factory=list)
+    source_conflicts: list[str] = Field(default_factory=list)
+    external_research_objectives: list[str] = Field(default_factory=list)
+    thesis_version: int = 1
+    status: Literal["LOCKED", "AUTHOR THESIS DECISION REQUIRED", "AUTHOR APPROVED REVISION"] = "LOCKED"
+
+
 class CitationRef(BaseModel):
     title: str = ""
     url: str
@@ -78,6 +95,26 @@ class ArticleOutline(BaseModel):
     ending_move: str
 
 
+class WriterPacket(BaseModel):
+    author_objective: str
+    locked_thesis: str
+    thesis_version: int = 1
+    strongest_findings: list[str] = Field(default_factory=list)
+    accepted_testimony: list[str] = Field(default_factory=list)
+    canon_premises: list[str] = Field(default_factory=list)
+    characters_and_relationships: list[str] = Field(default_factory=list)
+    connection_chains: list[str] = Field(default_factory=list)
+    investigated_rabbit_holes: list[str] = Field(default_factory=list)
+    documentary_details: list[str] = Field(default_factory=list)
+    chronology: list[str] = Field(default_factory=list)
+    narrative_surprises: list[str] = Field(default_factory=list)
+    contradictions: list[str] = Field(default_factory=list)
+    factual_boundaries: list[str] = Field(default_factory=list)
+    source_locators: list[str] = Field(default_factory=list)
+    reveal_sequence: list[str] = Field(default_factory=list)
+    gold_voice_lessons: list[str] = Field(default_factory=list)
+
+
 class AuditFinding(BaseModel):
     severity: Literal["blocker", "warning", "note"]
     category: Literal[
@@ -87,10 +124,17 @@ class AuditFinding(BaseModel):
         "missing_counterevidence",
         "style",
         "repetition",
+        "thesis_drift",
+        "defensive_sequence",
+        "narrative",
         "other",
     ]
     text: str
     evidence_ids: list[str] = Field(default_factory=list)
+    locator: str = ""
+    excerpt: str = ""
+    required_constraint: str = ""
+    minimum_correction: str = ""
     recommendation: str = ""
 
 

@@ -4,6 +4,7 @@ import pytest
 
 from white_rabbit.config import Settings
 from white_rabbit.pipeline import SingleArticlePipeline
+from white_rabbit.archive_sync import ArticleSnapshot, SubstackArchiveSync
 from white_rabbit.schemas import (
     AnchorChoice, AnchorMap, ArticleMetadata, ArticleOutline, AuditReport,
     EvidenceExtraction, ExtractedEvidence, OutlineSection,
@@ -58,6 +59,37 @@ class FakeProvider:
         )
 
 
+class MemoryAwareFakeProvider(FakeProvider):
+    def __init__(self):
+        super().__init__()
+        self.memory_by_stage: dict[str, str] = {}
+        self.audit_calls = 0
+
+    def _remember(self, stage: str, publication_memory: str | None) -> None:
+        self.memory_by_stage[stage] = publication_memory or ""
+
+    def plan_research(self, topic, angle, style, max_questions, publication_memory=None):
+        self._remember("plan", publication_memory)
+        return super().plan_research(topic, angle, style, max_questions)
+
+    def build_outline(self, topic, angle, evidence_packet, style, publication_memory=None):
+        self._remember("outline", publication_memory)
+        return super().build_outline(topic, angle, evidence_packet, style)
+
+    def write_article(self, topic, angle, outline, evidence_packet, style, publication_memory=None):
+        self._remember("draft", publication_memory)
+        return super().write_article(topic, angle, outline, evidence_packet, style)
+
+    def audit_article(self, article, evidence_packet, publication_memory=None):
+        self._remember("audit", publication_memory)
+        self.audit_calls += 1
+        return AuditReport(pass_for_publish=self.audit_calls > 1, findings=[])
+
+    def revise_article(self, article, audit, evidence_packet, style, publication_memory=None):
+        self._remember("revision", publication_memory)
+        return article
+
+
 def _settings(root: Path) -> Settings:
     return Settings(
         root=root, workspace=root / "workspace", style_path=root / "config" / "white_rabbit_style.md",
@@ -97,3 +129,54 @@ def test_pipeline_rejects_invented_evidence_markers(tmp_path: Path):
         SingleArticlePipeline(_settings(root), FakeProvider(invented_marker=True)).run(
             topic="Night Window", project="test", sources_folder=source_dir, skip_archive_sync=True
         )
+
+
+def test_legacy_pipeline_sends_distinct_canon_and_voice_to_every_editorial_stage(tmp_path: Path):
+    root = tmp_path / "app"
+    (root / "config").mkdir(parents=True)
+    (root / "config" / "white_rabbit_style.md").write_text("Test style", encoding="utf-8")
+    source_dir = root / "sources"
+    source_dir.mkdir()
+    (source_dir / "record.txt").write_text("Project Night Window began in 2001.", encoding="utf-8")
+
+    settings = _settings(root)
+    syncer = SubstackArchiveSync(
+        publication_url="https://example.substack.com",
+        archive_root=settings.archive_root,
+        db_path=settings.archive_db_path,
+        request_delay_ms=0,
+    )
+    try:
+        syncer.store_snapshot(ArticleSnapshot(
+            title="The Night Window archive",
+            slug="night-window-archive",
+            canonical_url="https://example.substack.com/p/night-window-archive",
+            published_date="2025-01-01T00:00:00Z",
+            author="White Rabbit",
+            markdown=(
+                "# The Night Window archive\n\n"
+                "Project Night Window began with a dated record and a concrete chain of evidence. "
+                "The investigation follows names, institutions, and documentary receipts before "
+                "drawing its conclusion, while retaining the author's natural paragraph rhythm."
+            ),
+            links=[],
+            content_status="full",
+            access_level="FULL_AUTHOR_EXPORT",
+            source_origin="author_export",
+        ))
+    finally:
+        syncer.close()
+
+    provider = MemoryAwareFakeProvider()
+    out = SingleArticlePipeline(settings, provider).run(
+        topic="Night Window", project="memory-test", sources_folder=source_dir,
+        skip_archive_sync=True,
+    )
+
+    for stage in ("plan", "outline", "draft", "audit", "revision"):
+        packet = provider.memory_by_stage[stage]
+        assert "# PUBLISHED WHITE RABBIT CANON" in packet
+        assert "# WHITE RABBIT VOICE REFERENCES" in packet
+    research = out.parent / "research"
+    assert (research / "previous_white_rabbit_canon.md").is_file()
+    assert (research / "previous_white_rabbit_voice.md").is_file()

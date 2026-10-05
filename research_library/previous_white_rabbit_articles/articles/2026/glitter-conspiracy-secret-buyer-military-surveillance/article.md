@@ -1,16 +1,6 @@
-[Shadow Reports](https://thewhiterabbitreport.substack.com/s/shadow-reports/?utm_source=substack&utm_medium=menu)
-
 # THE GLITTER CONSPIRACY: THE SECRET INDUSTRY HIDING IN PLAIN SIGHT
 
-### The glitter conspiracy began with one secret buyer. Follow the trail through military contracts, spectral taggants, smart textiles, surveillance, and stealth.
-
-[![The White Rabbit Report's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)](https://substack.com/@thewhiterabbitreport)
-
-[The White Rabbit Report](https://substack.com/@thewhiterabbitreport)
-
-Aug 27, 2026
-
-[![](https://substackcdn.com/image/fetch/$s_!EdZA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff54aaa72-82a7-4422-8596-8d8d2eaf8574_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!EdZA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff54aaa72-82a7-4422-8596-8d8d2eaf8574_1536x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/f54aaa72-82a7-4422-8596-8d8d2eaf8574_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!EdZA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff54aaa72-82a7-4422-8596-8d8d2eaf8574_1536x1024.png)
 
 [It started with a question](https://web.archive.org/web/20190111002038/https://www.nytimes.com/2018/12/21/style/glitter-factory.html) that should have produced a boring answer.
 
@@ -34,17 +24,15 @@ But after digging through the people, patents, military research programs, gover
 
 *What if the mystery is what glitter becomes when nobody calls it glitter anymore?*
 
-[![](https://substackcdn.com/image/fetch/$s_!e5Tf!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34c09ea2-28ee-4fe8-963a-401b05934ac5_572x317.png)](https://substackcdn.com/image/fetch/$s_!e5Tf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34c09ea2-28ee-4fe8-963a-401b05934ac5_572x317.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/34c09ea2-28ee-4fe8-963a-401b05934ac5_572x317.png)](https://substackcdn.com/image/fetch/$s_!e5Tf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34c09ea2-28ee-4fe8-963a-401b05934ac5_572x317.png)
 
 Excerpt from [2018 NYT Aritcle about Glitter](https://web.archive.org/web/20190111002038/https://www.nytimes.com/2018/12/21/style/glitter-factory.html)
-
-This Substack is reader-supported. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
 ---
 
 ## FIRST, FORGET THE CRAFT STORE
 
-[![Glitter Fireworks Craft | Easy Glitter Firework Art for Kids](https://substackcdn.com/image/fetch/$s_!3yZs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F760293f8-bc54-410c-bdc0-8cac38de0925_650x348.jpeg "Glitter Fireworks Craft | Easy Glitter Firework Art for Kids")](https://substackcdn.com/image/fetch/$s_!3yZs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F760293f8-bc54-410c-bdc0-8cac38de0925_650x348.jpeg)
+[![Glitter Fireworks Craft | Easy Glitter Firework Art for Kids](https://substack-post-media.s3.amazonaws.com/public/images/760293f8-bc54-410c-bdc0-8cac38de0925_650x348.jpeg "Glitter Fireworks Craft | Easy Glitter Firework Art for Kids")](https://substackcdn.com/image/fetch/$s_!3yZs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F760293f8-bc54-410c-bdc0-8cac38de0925_650x348.jpeg)
 
 When most people hear **glitter**, they picture Christmas ornaments, nail polish, school projects, and those microscopic sparkles that somehow survive every vacuum cleaner ever invented.
 
@@ -60,19 +48,19 @@ That distinction sits at the heart of the glitter mystery.
 
 **Glitter isn’t fundamentally about sparkle. It’s about controlling what happens when light hits a material.**
 
-[![](https://substackcdn.com/image/fetch/$s_!64wX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d52c5e2-8650-402e-88f9-29dc872732bd_1448x1086.png)](https://substackcdn.com/image/fetch/$s_!64wX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d52c5e2-8650-402e-88f9-29dc872732bd_1448x1086.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/5d52c5e2-8650-402e-88f9-29dc872732bd_1448x1086.png)](https://substackcdn.com/image/fetch/$s_!64wX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5d52c5e2-8650-402e-88f9-29dc872732bd_1448x1086.png)
 
 ## THE MAN BEHIND MODERN GLITTER WORKED ON THE **MANHATTAN PROJECT**
 
 The man credited with developing modern machine-cut glitter was **[Henry F. Ruschmann](https://www.ancientfaces.com/person/henry-f-ruschmann-birth-1905-death-1989/18835227)**, founder of **[Meadowbrook Inventions](https://meadowbrookglitter.com/)**.
 
-[![](https://substackcdn.com/image/fetch/$s_!asR2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fc2bbd7-4d01-48fa-99ac-00e805ab57e5_197x197.jpeg)](https://substackcdn.com/image/fetch/$s_!asR2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fc2bbd7-4d01-48fa-99ac-00e805ab57e5_197x197.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/1fc2bbd7-4d01-48fa-99ac-00e805ab57e5_197x197.jpeg)](https://substackcdn.com/image/fetch/$s_!asR2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1fc2bbd7-4d01-48fa-99ac-00e805ab57e5_197x197.jpeg)
 
 Henry F. Ruschmann
 
 Ruschmann wasn’t a crafts entrepreneur who happened to build a clever glitter machine. He was a **machinist specializing in precision cutting**, and during World War II he **[worked on the Manhattan Project for the U.S. government](https://chrisbarton.info/bibliography-for-glitter-everywhere/)**. His December 1989 obituary also described Meadowbrook as a firm specializing in the precision cutting of **metallic films, paper, and foils**.
 
-[![Excerpt from a local US newspaper reporting the death of the inventor of glitter — Photo: Image: Reproduction/Bridgewater News](https://substackcdn.com/image/fetch/$s_!X4Uv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99e443e0-df22-4222-82dc-e1591d040f93_984x1072.jpeg "Excerpt from a local US newspaper reporting the death of the inventor of glitter — Photo: Image: Reproduction/Bridgewater News")](https://substackcdn.com/image/fetch/$s_!X4Uv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99e443e0-df22-4222-82dc-e1591d040f93_984x1072.jpeg)
+[![Excerpt from a local US newspaper reporting the death of the inventor of glitter — Photo: Image: Reproduction/Bridgewater News](https://substack-post-media.s3.amazonaws.com/public/images/99e443e0-df22-4222-82dc-e1591d040f93_984x1072.jpeg "Excerpt from a local US newspaper reporting the death of the inventor of glitter — Photo: Image: Reproduction/Bridgewater News")](https://substackcdn.com/image/fetch/$s_!X4Uv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99e443e0-df22-4222-82dc-e1591d040f93_984x1072.jpeg)
 
 Excerpt from [Ruschmann Obituary](https://www.newspapers.com/article/daily-record/30799529/?locale=en-US)
 
@@ -122,7 +110,7 @@ Ruschmann wasn’t merely perfecting decoration.
 
 He was developing a method for **precision particulate manufacturing**.
 
-[![](https://substackcdn.com/image/fetch/$s_!Oxrb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F381bb1d2-ca7a-4dca-9aee-09b3b5d1bd81_569x867.png)](https://substackcdn.com/image/fetch/$s_!Oxrb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F381bb1d2-ca7a-4dca-9aee-09b3b5d1bd81_569x867.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/381bb1d2-ca7a-4dca-9aee-09b3b5d1bd81_569x867.png)](https://substackcdn.com/image/fetch/$s_!Oxrb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F381bb1d2-ca7a-4dca-9aee-09b3b5d1bd81_569x867.png)
 
 [Technical Drawing by Ruschmann](https://patentimages.storage.googleapis.com/0f/44/0d/9c38f8be3363b0/US3156283.pdf) for Patent
 
@@ -144,7 +132,7 @@ That’s the vocabulary of materials science.
 
 ## THE OTHER SIDE OF THE GLITTER BUSINESS: SECURITY TAGGANTS
 
-[![No photo description available.](https://substackcdn.com/image/fetch/$s_!u-Ig!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff552339b-3783-4196-b38c-2cdbde0bd2e1_800x533.jpeg "No photo description available.")](https://substackcdn.com/image/fetch/$s_!u-Ig!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff552339b-3783-4196-b38c-2cdbde0bd2e1_800x533.jpeg)
+[![No photo description available.](https://substack-post-media.s3.amazonaws.com/public/images/f552339b-3783-4196-b38c-2cdbde0bd2e1_800x533.jpeg "No photo description available.")](https://substackcdn.com/image/fetch/$s_!u-Ig!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff552339b-3783-4196-b38c-2cdbde0bd2e1_800x533.jpeg)
 
 [Meadowbrook Inventions, Inc. Headquarters](https://meadowbrookglitter.com/glitter-company/) in Randolph, NJ
 
@@ -160,7 +148,7 @@ The barcode doesn’t have to be printed onto the object.
 
 And once you follow taggant technology beyond traditional forensic identification, things get much more interesting.
 
-[![](https://substackcdn.com/image/fetch/$s_!3juP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50e07b31-8f7b-41b4-828d-273cf66df7bc_1448x1086.png)](https://substackcdn.com/image/fetch/$s_!3juP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50e07b31-8f7b-41b4-828d-273cf66df7bc_1448x1086.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/50e07b31-8f7b-41b4-828d-273cf66df7bc_1448x1086.png)](https://substackcdn.com/image/fetch/$s_!3juP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50e07b31-8f7b-41b4-828d-273cf66df7bc_1448x1086.png)
 
 ## PARTICLES THAT CAN BE READ FROM A DISTANCE
 
@@ -192,7 +180,7 @@ No GPS. No Bluetooth. No battery.
 
 **Always readable.**
 
-[![](https://substackcdn.com/image/fetch/$s_!ZdmV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1607e39b-89c2-4557-908e-90a7da1a4d1e_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!ZdmV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1607e39b-89c2-4557-908e-90a7da1a4d1e_1536x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/1607e39b-89c2-4557-908e-90a7da1a4d1e_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!ZdmV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1607e39b-89c2-4557-908e-90a7da1a4d1e_1536x1024.png)
 
 ## THE NAVY WANTED COVERT TAGGANTS FOR TRACKING TARGETS IN CITIES
 
@@ -237,7 +225,7 @@ The fiber can be **woven directly among the normal fibers of a textile**.
 
 **The clothing becomes its own ID card.**
 
-[![](https://substackcdn.com/image/fetch/$s_!qon9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc18f745a-16ff-40d6-a1c4-65a6666e8274_1535x1024.png)](https://substackcdn.com/image/fetch/$s_!qon9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc18f745a-16ff-40d6-a1c4-65a6666e8274_1535x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/c18f745a-16ff-40d6-a1c4-65a6666e8274_1535x1024.png)](https://substackcdn.com/image/fetch/$s_!qon9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc18f745a-16ff-40d6-a1c4-65a6666e8274_1535x1024.png)
 
 ## THE PATENT EVEN DESCRIBES HOW A MACHINE WOULD READ IT
 
@@ -298,18 +286,6 @@ Suddenly:
 
 Readers of my investigation into **[BlackRock’s Aladdin](https://thewhiterabbitreport.substack.com/p/blackrocks-aladdin-the-ai-quietly)** will recognize the underlying idea. The important part of a massive information system isn’t necessarily the sensor collecting the raw data.
 
-[![BlackRock's Aladdin: The AI Quietly Running the World?](https://substackcdn.com/image/fetch/$s_!1-f-!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e9a226a-5c2f-470a-b949-b70026137f8d_1536x1024.png)
-
-#### BlackRock's Aladdin: The AI Quietly Running the World?
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-September 25, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/blackrocks-aladdin-the-ai-quietly)](https://thewhiterabbitreport.substack.com/p/blackrocks-aladdin-the-ai-quietly)
-
 It’s the layer that **combines, interprets, correlates, and acts upon it**.
 
 ## THE PENTAGON HAS BEEN BUILDING AN ADVANCED-TEXTILE INDUSTRY SINCE 2016
@@ -318,7 +294,7 @@ This isn’t happening in isolation.
 
 In April 2016, **[the Defense Department launched](https://www.defense.gov/News/Releases/Release/Article/710462/dod-announces-award-of-new-revolutionary-fibers-and-textiles-manufacturing-inno/)** **[Advanced Functional Fabrics of America — AFFOA](https://affoa.org/)**, organized by MIT, with **[$75 million in initial federal funding](https://news.mit.edu/2018/affoa-vms-launch-advanced-fabrics-entrepreneurship-program-0413)** and hundreds of millions more in non-federal commitments. The program’s stated mission was to transform fibers and fabrics into **“highly sophisticated, integrated and networked devices and systems.”**
 
-[![](https://substackcdn.com/image/fetch/$s_!jI3T!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf36e7cb-6afe-492e-a48e-952565d33a0d_880x569.png)](https://substackcdn.com/image/fetch/$s_!jI3T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf36e7cb-6afe-492e-a48e-952565d33a0d_880x569.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/df36e7cb-6afe-492e-a48e-952565d33a0d_880x569.png)](https://substackcdn.com/image/fetch/$s_!jI3T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf36e7cb-6afe-492e-a48e-952565d33a0d_880x569.png)
 
 Excerpt from [DoW Announcement](https://www.war.gov/News/Releases/Release/Article/710462/dod-announces-award-of-new-revolutionary-fibers-and-textiles-manufacturing-inno/)
 
@@ -337,13 +313,9 @@ In case it wasn’t clear, the Pentagon wasn’t funding a better T-shirt.
 
 It was funding a new class of **networked material**.
 
-[![](https://substackcdn.com/image/fetch/$s_!qEfN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9013d15-9bb1-441d-97ed-35fd1b29d50d_766x384.png)](https://substackcdn.com/image/fetch/$s_!qEfN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9013d15-9bb1-441d-97ed-35fd1b29d50d_766x384.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/c9013d15-9bb1-441d-97ed-35fd1b29d50d_766x384.png)](https://substackcdn.com/image/fetch/$s_!qEfN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9013d15-9bb1-441d-97ed-35fd1b29d50d_766x384.png)
 
 Excerpt from [DoW Announcement](https://www.war.gov/News/Releases/Release/Article/710462/dod-announces-award-of-new-revolutionary-fibers-and-textiles-manufacturing-inno/)
-
-*Do you enjoy articles like this? **Become a free or paid subscriber! (Paid gets you more)***
-
-[Share](https://thewhiterabbitreport.substack.com/p/glitter-conspiracy-secret-buyer-military-surveillance?utm_source=substack&utm_medium=email&utm_content=share&action=share)
 
 ## THE IDEA OF ELECTRONICS INSIDE THREAD IS ALREADY HERE
 
@@ -353,27 +325,13 @@ That matters because it pushes the technology beyond passive optical tags.
 
 A passive photonic thread produces a fixed optical signature when illuminated. An active functional fiber can **sense, emit, communicate, or change state**.
 
-[![](https://substackcdn.com/image/fetch/$s_!uz2O!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1592907-fc03-4c18-99d8-f660a6cc71ae_1448x1086.png)](https://substackcdn.com/image/fetch/$s_!uz2O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1592907-fc03-4c18-99d8-f660a6cc71ae_1448x1086.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/f1592907-fc03-4c18-99d8-f660a6cc71ae_1448x1086.png)](https://substackcdn.com/image/fetch/$s_!uz2O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1592907-fc03-4c18-99d8-f660a6cc71ae_1448x1086.png)
 
 Put those ideas together and future clothing doesn’t have to possess one permanent sensor signature. It can potentially **alter how it appears to the machine looking at it**.
 
 This is the same dual-use pattern we’ve seen in other advanced defense technologies: civilian logistics, medical monitoring, manufacturing, communications—and obvious military or surveillance applications riding on the same platform.
 
 Readers of **[DARPA’s Wireless Brain-Computer Interface: The New MKULTRA?](https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra)** will recognize that pattern immediately.
-
-[The Deep State](https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra)[## The Rebirth of MK-ULTRA: DARPA’s Wireless Brain-Computer Interface](https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-December 13, 2025
-
-[![The Rebirth of MK-ULTRA: DARPA’s Wireless Brain-Computer Interface](https://substackcdn.com/image/fetch/$s_!_xEo!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F990f7958-d3d9-4c1e-92a4-98e090cbdb72_1536x1024.png)](https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra)
-
-DARPA’s Wireless Brain-Computer Interface has moved from science fiction into military reality. The same agency that funded decades of “behavioral modification” programs now leads the race toward mind-machine fusion.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra)
 
 ## THE NEW CAMOUFLAGE ISN’T ABOUT GREEN AND BROWN
 
@@ -403,7 +361,7 @@ In May 2024, **ACS Applied Materials & Interfaces** published a paper titled:
 
 The material used **porous alumina/aluminum flake powder combined with carbon nanotubes**. Its purpose was to manipulate a target’s appearance across **visible light, infrared, and microwave bands**.
 
-[![Graphic. Refer to the image caption for details.](https://substackcdn.com/image/fetch/$s_!OTFE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c282659-4fe6-4011-8866-5f1c04abaa1d_520x314.png "Graphic. Refer to the image caption for details.")](https://substackcdn.com/image/fetch/$s_!OTFE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c282659-4fe6-4011-8866-5f1c04abaa1d_520x314.png)
+[![Graphic. Refer to the image caption for details.](https://substack-post-media.s3.amazonaws.com/public/images/3c282659-4fe6-4011-8866-5f1c04abaa1d_520x314.png "Graphic. Refer to the image caption for details.")](https://substackcdn.com/image/fetch/$s_!OTFE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c282659-4fe6-4011-8866-5f1c04abaa1d_520x314.png)
 
 Visual Abstraction of [ACS 2024 Paper](https://pubs.acs.org/aamick/article-abstract/16/21/27627/89235/Ultrawide-Spectra-Camouflage-Coatings-from?redirectedFrom=fulltext)
 
@@ -415,7 +373,7 @@ That’s **metallic flake engineering intended to make something harder for sens
 
 Not “*glitter.”*
 
-[![](https://substackcdn.com/image/fetch/$s_!MzgS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1d893d5-142b-45e2-a409-ad0a4d898adc_1448x1086.png)](https://substackcdn.com/image/fetch/$s_!MzgS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1d893d5-142b-45e2-a409-ad0a4d898adc_1448x1086.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/b1d893d5-142b-45e2-a409-ad0a4d898adc_1448x1086.png)](https://substackcdn.com/image/fetch/$s_!MzgS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1d893d5-142b-45e2-a409-ad0a4d898adc_1448x1086.png)
 
 ### PATENT US11774652B2 PUTS ALUMINUM FLAKES DIRECTLY ON FABRIC FOR STEALTH
 
@@ -431,7 +389,7 @@ So by 2023, we have a granted U.S. patent whose recipe is essentially:
 
 **fabric + aluminum flakes + engineered particles + controlled electromagnetic response = stealth material.**
 
-[![](https://substackcdn.com/image/fetch/$s_!-dcY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c20fba1-af54-4f9d-af19-0fe17f10a760_448x223.png)](https://substackcdn.com/image/fetch/$s_!-dcY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c20fba1-af54-4f9d-af19-0fe17f10a760_448x223.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/7c20fba1-af54-4f9d-af19-0fe17f10a760_448x223.png)](https://substackcdn.com/image/fetch/$s_!-dcY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c20fba1-af54-4f9d-af19-0fe17f10a760_448x223.png)
 
 Excerpt from [U.S. Patent US11774652B2](https://patents.google.com/patent/US11774652B2/en)
 
@@ -456,11 +414,11 @@ But it lives in the same technological neighborhood:
 - **Microscopic flakes**
 - **Bulk dispersion into another material**.
 
-[![](https://substackcdn.com/image/fetch/$s_!ulgA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc404bcd8-80dd-4265-886a-e882e226f0fc_1690x1079.png)](https://substackcdn.com/image/fetch/$s_!ulgA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc404bcd8-80dd-4265-886a-e882e226f0fc_1690x1079.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/c404bcd8-80dd-4265-886a-e882e226f0fc_1690x1079.png)](https://substackcdn.com/image/fetch/$s_!ulgA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc404bcd8-80dd-4265-886a-e882e226f0fc_1690x1079.png)
 
 Figures 6 from U.S. Patent US10350633B2 show the Navy’s engineered multilayer polymer flakes and how they alter a coating’s optical behavior. Figure 6 is a micrograph of the reflective flakes at roughly the **200-micrometer scale (roughly equal to the upper limit thickness of a single human hair)**.
 
-[![](https://substackcdn.com/image/fetch/$s_!EBZp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7c19fd5-f5ab-4fcb-88ab-dade79df2d04_1690x1269.png)](https://substackcdn.com/image/fetch/$s_!EBZp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7c19fd5-f5ab-4fcb-88ab-dade79df2d04_1690x1269.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/c7c19fd5-f5ab-4fcb-88ab-dade79df2d04_1690x1269.png)](https://substackcdn.com/image/fetch/$s_!EBZp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7c19fd5-f5ab-4fcb-88ab-dade79df2d04_1690x1269.png)
 
 Figure 7 compares their reflectance across wavelengths, showing that once the flakes are dispersed into a coating, they significantly change both specular and diffuse reflection—demonstrating how **microscopic flakes can be used to tune how a surface returns light.**
 
@@ -468,7 +426,7 @@ Figure 7 compares their reflectance across wavelengths, showing that once the fl
 
 **[Radar chaff](https://www.gao.gov/assets/nsiad-98-219.pdf)** remains the clearest military cousin of glitter.
 
-[![chaff.html](https://substackcdn.com/image/fetch/$s_!PnUR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0393d5d-00d8-4e35-a0c9-6505559bc412_762x418.jpeg "chaff.html")](https://substackcdn.com/image/fetch/$s_!PnUR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0393d5d-00d8-4e35-a0c9-6505559bc412_762x418.jpeg)
+[![chaff.html](https://substack-post-media.s3.amazonaws.com/public/images/c0393d5d-00d8-4e35-a0c9-6505559bc412_762x418.jpeg "chaff.html")](https://substackcdn.com/image/fetch/$s_!PnUR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0393d5d-00d8-4e35-a0c9-6505559bc412_762x418.jpeg)
 
 Chaff cartridges release enormous numbers of tiny reflective elements designed to confuse radar. Modern systems use precisely controlled reflective material because the geometry determines which radar frequencies respond to it.
 
@@ -488,7 +446,7 @@ The manufacturing logic is familiar:
 
 The better question is what the materials are called once they enter a technical specification.
 
-[![The History Column: Chaff | IEEE AESS](https://substackcdn.com/image/fetch/$s_!TbWN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63402a68-02df-40a0-b26b-caf51595ffc7_491x444.jpeg "The History Column: Chaff | IEEE AESS")](https://substackcdn.com/image/fetch/$s_!TbWN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63402a68-02df-40a0-b26b-caf51595ffc7_491x444.jpeg)
+[![The History Column: Chaff | IEEE AESS](https://substack-post-media.s3.amazonaws.com/public/images/63402a68-02df-40a0-b26b-caf51595ffc7_491x444.jpeg "The History Column: Chaff | IEEE AESS")](https://substackcdn.com/image/fetch/$s_!TbWN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63402a68-02df-40a0-b26b-caf51595ffc7_491x444.jpeg)
 
 Chaff, deployed from an RAF Lancaster bomber.
 
@@ -518,7 +476,7 @@ Only days after the original Glitterex mystery went viral, journalist **[Graham 
 
 On **December 24, 2018**, Starr filed **[Treasury FOIA request 2018-12-115](https://home.treasury.gov/system/files/236/2019-1st-Quarter-Log-of-FOIA-Requests-Redacted.pdf)**, asking for all documents and emails mentioning or communicating with **Glitterex**.
 
-[![](https://substackcdn.com/image/fetch/$s_!F9ta!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c8dacbe-cfdf-43ca-9ab1-b0e1bdff2b9d_852x143.png)](https://substackcdn.com/image/fetch/$s_!F9ta!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c8dacbe-cfdf-43ca-9ab1-b0e1bdff2b9d_852x143.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/4c8dacbe-cfdf-43ca-9ab1-b0e1bdff2b9d_852x143.png)](https://substackcdn.com/image/fetch/$s_!F9ta!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c8dacbe-cfdf-43ca-9ab1-b0e1bdff2b9d_852x143.png)
 
 Request in the Treasury Department’s own quarterly FOIA log.
 
@@ -590,21 +548,9 @@ The prime contractor isn’t always the interesting layer.
 
 Readers of my **[Five Star Trust](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)** investigation will recognize why this distinction matters whenever money, classified programs, subcontracting, and government procurement intersect.
 
-[![The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)](https://substackcdn.com/image/fetch/$s_!isMp!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7162d927-206f-43e4-ad89-30ff831a2bbc_1536x1024.png)
-
-#### The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-July 23, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)
-
 ## WHICH BRINGS US TO FLOCK
 
-[![What are Flock cameras, and why are they controversial in Oakland?](https://substackcdn.com/image/fetch/$s_!-igE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98966e2c-b338-421e-b577-8aa590b8d959_780x585.jpeg "What are Flock cameras, and why are they controversial in Oakland?")](https://substackcdn.com/image/fetch/$s_!-igE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98966e2c-b338-421e-b577-8aa590b8d959_780x585.jpeg)
+[![What are Flock cameras, and why are they controversial in Oakland?](https://substack-post-media.s3.amazonaws.com/public/images/98966e2c-b338-421e-b577-8aa590b8d959_780x585.jpeg "What are Flock cameras, and why are they controversial in Oakland?")](https://substackcdn.com/image/fetch/$s_!-igE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98966e2c-b338-421e-b577-8aa590b8d959_780x585.jpeg)
 
 Now shift from military procurement to the [cameras appearing beside American roads](https://www.flocksafety.com/products/license-plate-readers).
 
@@ -622,13 +568,13 @@ But the important technological idea is broader:
 
 **the camera can observe how the same physical surface behaves under different wavelengths of light.**
 
-[![](https://substackcdn.com/image/fetch/$s_!2wAK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2443b13-0f2f-48a7-9910-f28c7252ef27_280x835.png)](https://substackcdn.com/image/fetch/$s_!2wAK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2443b13-0f2f-48a7-9910-f28c7252ef27_280x835.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/f2443b13-0f2f-48a7-9910-f28c7252ef27_280x835.png)](https://substackcdn.com/image/fetch/$s_!2wAK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff2443b13-0f2f-48a7-9910-f28c7252ef27_280x835.png)
 
 Flowchart from Flock Safety‘s Patent US12322186B1
 
 Now put that beside **[Patent WO2024215348A2](https://patentimages.storage.googleapis.com/49/82/51/47e35956c7e8f4/WO2024215348A2.pdf)**.
 
-[![](https://substackcdn.com/image/fetch/$s_!ZKM9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F470c82b4-1e78-4c1e-ab83-7cecacc8b0b0_997x621.png)](https://substackcdn.com/image/fetch/$s_!ZKM9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F470c82b4-1e78-4c1e-ab83-7cecacc8b0b0_997x621.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/470c82b4-1e78-4c1e-ab83-7cecacc8b0b0_997x621.png)](https://substackcdn.com/image/fetch/$s_!ZKM9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F470c82b4-1e78-4c1e-ab83-7cecacc8b0b0_997x621.png)
 
 Excerpt from **[Patent WO2024215348A2](https://patentimages.storage.googleapis.com/49/82/51/47e35956c7e8f4/WO2024215348A2.pdf)**
 
@@ -662,7 +608,7 @@ By all appearances, **that engineering problem is becoming easier every year.**
 
 ## FROM SPARKLE TO DATA
 
-[![Glitter - Wikipedia](https://substackcdn.com/image/fetch/$s_!RJmA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f34ca69-f394-4386-8587-8bf000baab67_1105x941.jpeg "Glitter - Wikipedia")](https://substackcdn.com/image/fetch/$s_!RJmA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f34ca69-f394-4386-8587-8bf000baab67_1105x941.jpeg)
+[![Glitter - Wikipedia](https://substack-post-media.s3.amazonaws.com/public/images/1f34ca69-f394-4386-8587-8bf000baab67_1105x941.jpeg "Glitter - Wikipedia")](https://substackcdn.com/image/fetch/$s_!RJmA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f34ca69-f394-4386-8587-8bf000baab67_1105x941.jpeg)
 
 And that’s where the glitter mystery becomes **bigger than Glitterex.**
 
@@ -682,7 +628,7 @@ That’s not glitter anymore.
 
 That’s **information embedded in matter**.
 
-[![](https://substackcdn.com/image/fetch/$s_!f_OT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2d24d02-a396-48c8-a8c4-642809202452_1672x941.png)](https://substackcdn.com/image/fetch/$s_!f_OT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2d24d02-a396-48c8-a8c4-642809202452_1672x941.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/c2d24d02-a396-48c8-a8c4-642809202452_1672x941.png)](https://substackcdn.com/image/fetch/$s_!f_OT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2d24d02-a396-48c8-a8c4-642809202452_1672x941.png)
 
 ## SO…WHAT ABOUT THE BOATS?
 
@@ -849,13 +795,7 @@ There is no public evidence that today’s Flock network is reading hidden photo
 
 That’s a question worth keeping open.
 
-To receive new posts and support my work, become a free or paid subscriber and see how deep the rabbit hole goes.
-
 *Do you know someone who would like this article? Share it with them!*
-
-[Share](https://thewhiterabbitreport.substack.com/p/glitter-conspiracy-secret-buyer-military-surveillance?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
-[CLICK FOR FLOCK CAMERA ARTICLE](https://thewhiterabbitreport.substack.com/p/flock-safety-conspiracy-surveillance-network-police-ai)
 
 ---
 
@@ -867,74 +807,18 @@ If the glitter rabbit hole caught your attention, these investigations follow se
 
 The glitter story eventually becomes a story about **databases**—because identifying a material is only useful if a larger system knows what that identifier means. My investigation into BlackRock’s **Aladdin** looks at what happens when enormous quantities of information are centralized, analyzed, and acted upon by a system few people outside the industry understand.
 
-[![BlackRock's Aladdin: The AI Quietly Running the World?](https://substackcdn.com/image/fetch/$s_!1-f-!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e9a226a-5c2f-470a-b949-b70026137f8d_1536x1024.png)
-
-#### BlackRock's Aladdin: The AI Quietly Running the World?
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-September 25, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/blackrocks-aladdin-the-ai-quietly)](https://thewhiterabbitreport.substack.com/p/blackrocks-aladdin-the-ai-quietly)
-
 ### **DARPA’s Wireless Brain-Computer Interface: The New MKULTRA?**
 
 Smart fibers show how technologies developed for medicine, communications, logistics, and defense can begin overlapping in unexpected ways. This investigation follows that same **dual-use technology pipeline** into DARPA-funded brain-computer interfaces and asks where therapeutic research ends and military capability begins.
-
-[![The Rebirth of MK-ULTRA: DARPA’s Wireless Brain-Computer Interface](https://substackcdn.com/image/fetch/$s_!_xEo!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F990f7958-d3d9-4c1e-92a4-98e090cbdb72_1536x1024.png)
-
-#### The Rebirth of MK-ULTRA: DARPA’s Wireless Brain-Computer Interface
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-December 13, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra)](https://thewhiterabbitreport.substack.com/p/darpa-wireless-brain-computer-interface-new-mkultra)
 
 ### **The Epstein Files Part 3: The Maxwell Dynasty, Mossad & Grooming**
 
 The upcoming Flock investigation will eventually cross into several networks already explored in **The Epstein Files**. This chapter digs into the Maxwell family, intelligence allegations surrounding Robert Maxwell, and the broader question of where **private power, surveillance, intelligence, and blackmail networks** intersect.
 
-[![The Epstein Files: The Maxwell Dynasty – Mossad Roots & Grooming Machine (Part 3/7)](https://substackcdn.com/image/fetch/$s_!Bdj-!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F026fddc4-99d3-4ef1-bcb9-3f2e1f0e9db5_1635x1168.png)
-
-#### The Epstein Files: The Maxwell Dynasty – Mossad Roots & Grooming Machine (Part 3/7)
-
-Feb 27
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/epstein-files-3-maxwell-dynasty-mossad-grooming)](https://thewhiterabbitreport.substack.com/p/epstein-files-3-maxwell-dynasty-mossad-grooming)
-
 ### **Five Star Trust Part 1: The Kennedy File, CIA & the Black Budget**
 
 One of the recurring problems in the glitter investigation is figuring out what lies **beneath the prime contractor**—subcontractors, proprietary programs, compartmentalized procurement, and spending that doesn’t reveal the entire supply chain. *Five Star Trust* explores that same world from the direction of intelligence finance and black-budget infrastructure.
 
-[![The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)](https://substackcdn.com/image/fetch/$s_!isMp!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7162d927-206f-43e4-ad89-30ff831a2bbc_1536x1024.png)
-
-#### The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-July 23, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)
-
 ### **Operation Mockingbird: The CIA Files**
 
 Technology can collect information. But controlling **how information is interpreted** is another form of power entirely. This investigation looks at the documented history of CIA relationships with journalists and media organizations—and the much larger question of how intelligence operations shape what the public believes it knows.
-
-[![CIA Files: Operation Mockingbird](https://substackcdn.com/image/fetch/$s_!y6iw!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c473712-3407-45ce-a656-f8efc82da90f_1792x1024.webp)
-
-#### CIA Files: Operation Mockingbird
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-December 14, 2024
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/cia-files-operation-mockingbird)](https://thewhiterabbitreport.substack.com/p/cia-files-operation-mockingbird)

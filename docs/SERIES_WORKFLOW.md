@@ -23,9 +23,17 @@ overlap instead indicate an accidental cross-installment pair.
 
 A series is one investigation unfolding across publication-ready articles. Permanent
 research, responsibility, style, sourcing, SEO and audit standards apply without weakening.
+Each part also receives SOURCE_THESIS.md, WRITER_PACKET.md, SEMANTIC_EDITORIAL_REVIEW.md
+and QUALITY_GATES.md from the standalone scaffold. Complete the part Source Thesis before
+external research using SERIES_BRIEF, shared sources, part sources, prior published canon
+and reader state. A fundamental change to the assigned investigation requires AUTHOR
+THESIS DECISION REQUIRED; one part cannot silently redirect the series.
 The series brief sets scope beneath those authorities. The manifest governs machine
 metadata; the editable plan, dossier, timeline, entities and continuity govern research
 memory. Resolve conflicts explicitly rather than silently changing earlier conclusions.
+Published installments and other published White Rabbit articles are Level 1 canon.
+Complete but unpublished parts remain inherited project material with their recorded
+status; do not mislabel them as published canon.
 
 ## New value and cumulative memory
 
@@ -48,9 +56,10 @@ working research may generate current questions even when an earlier installment
 complete, but only complete/published findings are established reader knowledge. If
 earlier work is unfinished, preserve that dependency and provenance.
 
-Earlier findings are cumulative institutional knowledge. They are not automatic proof of
-recurrence, but they change which mechanisms are historically plausible and which
-documentary signatures should be searched. When Extreme-Thesis Protocol activates for a
+Earlier published findings are cumulative project canon and may be used as premises
+without re-verification or re-teaching. They are not automatic proof that a mechanism
+recurred in a new event, but they change prior plausibility and which documentary
+signatures should be searched. When Extreme-Thesis Protocol activates for a
 part, apply its full sequence before Story Decision and update shared memory with the
 reduced result rather than the opening maximum thesis.
 
@@ -59,6 +68,9 @@ appropriate. Findings retain source/page/archive ID, evidence level, confidence,
 responsibility, competing explanation, unresolved question, significance, connection
 and first part established. Preserve each changed judgment as earlier judgment -> new
 evidence -> revised judgment -> reason for revision. Never destroy cumulative memory.
+If new evidence genuinely contradicts a published finding, record EXISTING CANON, NEW
+CONTRADICTORY EVIDENCE, WHY THEY CONFLICT, and WHETHER AUTHOR REVIEW IS NEEDED. Do not
+silently revise the earlier reader state.
 The canonical timeline prevents date drift and unsupported causal compression. Entity
 records preserve roles, dates, documents, connections and where people were introduced.
 

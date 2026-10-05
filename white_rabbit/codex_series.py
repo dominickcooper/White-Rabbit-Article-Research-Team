@@ -327,10 +327,13 @@ includes source inventories, claims ledgers, rabbit-hole queues, connection repo
 dossiers, prior source CSVs and previous final articles when present:
 {json.dumps(prior_corpus, ensure_ascii=False, indent=2)}
 Earlier-part sources and working research may generate current questions and modern
-signature searches. Earlier planned/drafting parts are not established findings or reader
-knowledge. If earlier work is unfinished, record that dependency and do not imply the
-reader has already seen unverified material. Preserve each item's original part path and
-status; never copy shared or earlier sources into the current part.
+signature searches. Published earlier parts are Level 1 canon and reader knowledge: use
+their established premises without automatic re-verification or re-teaching. Complete but
+unpublished parts are inherited project material, not published canon. Earlier planned/
+drafting parts are not established findings or reader knowledge. If earlier work is
+unfinished, record that dependency and do not imply the reader has already seen it.
+Preserve each item's original part path and status; never copy shared or earlier sources
+into the current part.
 
 Inspect relevant shared_sources recursively without copying them into the part folder.
 Discover both shared and part-specific sources, including files added after generation:
@@ -344,6 +347,18 @@ Author-approved files in shared_sources and every part's sources are admissible 
 without an independent-verification permission gate. Preserve source type, attribution,
 location and part provenance; corroboration strengthens the record but does not decide
 whether the supplied source may be used.
+Treat named testimony in that Level 2 corpus as an accepted premise for downstream
+reasoning while retaining ACCEPTED TESTIMONY provenance. Use corroboration to open new
+people, organizations, programs, places, events, documents and financial relationships.
+
+Before external research, complete the current part's research/SOURCE_THESIS.md from the
+SERIES_BRIEF, the current part objective, all relevant shared and part-specific supplied
+sources, prior published canon and carried-forward reader state. The explicit series/part
+objective and source-derived investigation control editorial direction. A fundamental
+change to the part or series investigation requires ORIGINAL THESIS + CONTRADICTORY
+EVIDENCE + FAILED CLAIMS + PROPOSED DIRECTION and **AUTHOR THESIS DECISION REQUIRED**;
+do not silently redirect one installment into an easier adjacent story. Reconcile the
+part's WRITER_PACKET.md and STORY_SPINE.md with that locked thesis before drafting.
 Search SERIES_THEMES.md for unresolved concepts, people, organizations, metaphors,
 promises, contradictions and possible payoffs. Surface a thematic callback to the story
 engine as a hypothesis to test; never declare it proven automatically.
@@ -351,7 +366,8 @@ engine as a hypothesis to test; never declare it proven automatically.
 Before drafting answer: What will the reader know after this article that they did not
 know before it? Put the answer in the part dossier and NEW VALUE AUDIT. Recommend merging
 or restructuring a part that adds too little; never pad it with earlier material.
-Do not re-teach earlier agencies/people/documents merely because they recur. Recap in
+Do not re-teach or re-prove earlier canonical agencies/people/documents merely because
+they recur. Recap in
 one sentence or a short paragraph; use more only when comprehension requires it. Preserve
 necessary context for midstream readers. Never recycle prose, introductions, anecdotes,
 quotes, conclusions or rhetorical framing unnecessarily. Use natural first-use callbacks
@@ -373,9 +389,11 @@ The TRANSITION AUDIT must test whether the connection follows the evidence, teas
 than spoils (non-final), or synthesizes and distinguishes continuity from analogy (finale).
 
 After investigation update master_dossier.md, SERIES_TIMELINE.md, SERIES_ENTITIES.md,
-SERIES_CONTINUITY.md, SERIES_THEMES.md and SERIES_PLAN.md where appropriate. Record new verified findings,
-first part established and evidence-weighted judgments. Preserve earlier judgment, new
-evidence, revised judgment and reason for revision; do not silently overwrite memory.
+SERIES_CONTINUITY.md, SERIES_THEMES.md and SERIES_PLAN.md where appropriate. Record new
+findings, first part established and evidence-weighted judgments. If new evidence genuinely
+conflicts with published canon, record EXISTING CANON, NEW CONTRADICTORY EVIDENCE, WHY THEY
+CONFLICT, and WHETHER AUTHOR REVIEW IS NEEDED. Preserve earlier judgment, new evidence,
+revised judgment and reason for revision; do not silently overwrite memory.
 Continuity needs a compact PART {part['number']} reader-state entry and next-question,
 safe-teaser and withheld-reveal fields. These are memory, not publication prose.
 After revision, validation and editorial audit, record completion with:

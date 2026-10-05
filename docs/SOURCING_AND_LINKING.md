@@ -1,5 +1,10 @@
 # Sourcing and linking
 
+Source authority is defined in
+`research_library/methodologies/SOURCE_AUTHORITY_AND_CANON.md`. Publication-link
+availability does not change the authority level of published canon or author-supplied
+material.
+
 ## Admissibility versus publication linking
 
 Author-approved files in article `sources/`, series `shared_sources/`, and other explicitly
@@ -14,6 +19,11 @@ Corroboration and primary-source recovery should strengthen, extend, and sometim
 the record. They do not decide whether a supplied source can be used. When a secondary work
 cites an underlying record, trace it when possible while keeping the secondary attribution
 intact unless the recovered record independently supports the same claim.
+
+Published White Rabbit articles may be linked as Level 1 canon for established premises
+and concise callbacks. Their underlying links can be reopened to expand the investigation,
+but re-verification is not a prerequisite to use the canon. A new contradiction must be
+recorded and surfaced; it must not silently rewrite the prior published conclusion.
 
 The Codex workflow produces already-linked output/article.md. Unlike the legacy
 evidence-marker pipeline, its exporter does not insert links. Use inline Markdown
@@ -60,7 +70,9 @@ necessary. Do not publish a weak mirror when an authoritative destination is ava
 ## White Rabbit archive
 
 Search research_library/previous_white_rabbit_articles and inspect relevant article.md,
-metadata.json and links.json files. Reverify underlying sources. About 3–6 internal links
+metadata.json and links.json files. Treat published findings as canon; reopen underlying
+sources when an exception in the canon methodology applies or when doing so may open a
+new branch. About 3–6 internal links
 are often useful, but relevance governs. Link useful callbacks without spamming.
 Validation reports internal_link_occurrences separately from
 unique_internal_white_rabbit_articles (fragment/query variants count as one article).

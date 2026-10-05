@@ -1,0 +1,16 @@
+{
+  "publication_url": "https://thewhiterabbitreport.substack.com",
+  "discovered": 156,
+  "sitemap_urls_reached": [
+    "https://thewhiterabbitreport.substack.com/sitemap",
+    "https://thewhiterabbitreport.substack.com/sitemap.xml"
+  ],
+  "sitemap_urls_failed": {
+    "https://thewhiterabbitreport.substack.com/sitemap": "HTTP 200; XML parse failed: not well-formed (invalid token): line 156, column 36"
+  },
+  "discovery_source_counts": {
+    "archive_page": 12,
+    "feed": 20,
+    "sitemap:https://thewhiterabbitreport.substack.com/sitemap.xml": 156
+  }
+}

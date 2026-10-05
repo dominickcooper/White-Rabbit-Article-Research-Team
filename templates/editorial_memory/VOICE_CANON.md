@@ -16,4 +16,12 @@ These are operational defaults, not phrases to imitate mechanically.
 12. Show important connections before summarizing them. A strong movement often follows FACT → QUESTION → IMPLICATION without labeling those steps.
 13. Open sections with a receipt, person, event, contradiction or discovery. End them by changing the reader's question.
 14. Conclusions deliver the larger implication or next rabbit hole; they do not merely recap.
-
+15. Published White Rabbit articles are voice canon as well as project canon. Study their
+    rhythm, short reactions, questions, humor, sarcasm, theories and rabbit-hole turns;
+    never mechanically copy a phrase bank.
+16. Accepted testimony may become a downstream premise after useful first attribution.
+    Preserve its source type internally without repeatedly retrying credibility in prose.
+17. Personal theory is allowed. “My theory,” “I think,” and “From where I'm sitting” can
+    mark inference more naturally than sterile institutional hedging.
+18. Publication movement is FACT → QUESTION → IMPLICATION → NEXT RECEIPT. Put a genuinely
+    story-changing boundary once and keep moving.

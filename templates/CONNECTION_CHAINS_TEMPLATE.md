@@ -1,12 +1,18 @@
 # Connection chains
 
-An established fact or strong inference may become the premise for the next research
-question. Do not promote any edge beyond its own evidence, and do not treat a broken edge
+Published canon, accepted testimony, a documented record, or a corroborated inference may
+become the premise for the next research question. Do not promote any edge beyond its own
+source type or evidentiary status, and do not treat a broken edge
 as repaired by stronger neighboring edges.
 
-| Chain ID | Nodes / sequence | Edge ID | Edge | Evidence source and locator | Classification | Independent stream / dependency | Why complete chain matters | Next research target |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Chain ID | Nodes / sequence | Edge ID | Relationship type and chronology | Evidence source and locator | Authority / provenance | Classification | Dependency group / underlying source | Convergent node(s) | New branch opened | Narrative significance | Next research action |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-Classification: DIRECT, STRONG INFERENCE, PLAUSIBLE, or BROKEN. Use the broader evidence
-labels in the ledger where useful. Note when multiple citations derive from the same
+Authority/provenance: PUBLISHED WHITE RABBIT CANON, DOCUMENTED RECORD, ACCEPTED TESTIMONY,
+or NEW EXTERNAL MATERIAL. Classification: DIRECT, CORROBORATED INFERENCE, PLAUSIBLE,
+SPECULATION, CONTRADICTED, or BROKEN. Existing DIRECT / STRONG INFERENCE / PLAUSIBLE /
+BROKEN entries remain valid. Note when multiple citations derive from the same
 witness, document, dataset, or reporting chain so they are not double-counted.
+When independent paths reach the same node, investigate coordination, common
+infrastructure, access, commercial overlap, chronology, or coincidence. Shared contacts
+alone do not establish unified command.

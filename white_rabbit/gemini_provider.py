@@ -17,7 +17,9 @@ from .schemas import (
     CitationRef,
     EvidenceExtraction,
     ResearchPlan,
+    SourceThesis,
     WebResearchResult,
+    WriterPacket,
 )
 
 T = TypeVar("T", bound=BaseModel)
@@ -248,7 +250,40 @@ each excerpt under 500 characters, and each significance field under 400 charact
         )
         return (interaction.output_text or "").strip()
 
-    def plan_research(self, topic: str, angle: str, style: str, max_questions: int, publication_memory: str = "") -> ResearchPlan:
+    def derive_source_thesis(
+        self, topic: str, angle: str, source_corpus: str, canon_memory: str = ""
+    ) -> SourceThesis:
+        prompt = f"""
+You are the source-thesis researcher for The White Rabbit Report. This happens before
+external research. The author selected the source corpus deliberately.
+
+AUTHOR OBJECTIVE / TOPIC:
+{topic}
+
+OPTIONAL EXPLICIT ANGLE:
+{angle or '(none supplied)'}
+
+AUTHOR-SELECTED SOURCE CORPUS:
+{source_corpus or '(no readable supplied text; preserve this limitation)'}
+
+RELEVANT PUBLISHED WHITE RABBIT CANON (separate factual retrieval):
+{canon_memory or '(none retrieved)'}
+
+Identify the strongest coherent investigation emerging from the explicit objective and
+source corpus. Do not replace it with a more conventional or easier adjacent article.
+Preserve competing source claims, accepted testimony provenance, genuine contradictions,
+entities, initial connection chains, predicted documentary footprints and concrete
+external research objectives. Canon can become an established premise and open a next
+hop; it does not override explicit author intent. Set status LOCKED unless irreducible
+ambiguity genuinely requires AUTHOR THESIS DECISION REQUIRED. Do not suppress contrary
+evidence and do not claim every allegation is independently proven.
+"""
+        return self._structured(prompt, SourceThesis)
+
+    def plan_research(
+        self, topic: str, angle: str, style: str, max_questions: int,
+        publication_memory: str = "", source_thesis: str = "", canon_memory: str = "",
+    ) -> ResearchPlan:
         prompt = f"""
 You are the research planner for an evidence-first investigative publication.
 
@@ -258,8 +293,11 @@ TOPIC:
 OPTIONAL ANGLE:
 {angle or '(none supplied)'}
 
-PREVIOUS WHITE RABBIT INSTITUTIONAL MEMORY (research leads, not proof):
-{publication_memory or '(none)'}
+LOCKED SOURCE THESIS:
+{source_thesis or '(missing: return only questions needed to complete it)'}
+
+PUBLISHED WHITE RABBIT CANON:
+{canon_memory or publication_memory or '(none)'}
 
 Create a research plan for ONE article. Return no more than {max_questions} high-value research questions.
 The plan must deliberately cover:
@@ -270,7 +308,9 @@ The plan must deliberately cover:
 - credible conventional explanations and contrary evidence
 - unresolved factual gaps
 
-Search queries should be practical Google queries, with precise names/identifiers when possible. When prior White Rabbit memory supplies an original source URL/name or a recurring entity, use it as a lead that should be independently re-opened/re-verified. Do not treat the prior article itself as proof. Do not assume the thesis is true.
+Search queries should be practical Google queries, with precise names/identifiers when possible. Treat stated facts, findings, connections and conclusions in published White Rabbit memory as Level 1 project canon: they may seed new research without automatic re-verification. Reopen an underlying source when the author requests it, canon was marked unresolved/speculative, exact wording matters, genuine contrary evidence appears, or the trail can open a new branch. Do not count canon as an independent corroborating stream or assume a new extension of the thesis is true.
+Every question must develop, test, or materially challenge the locked source-derived
+investigation. External research may not silently substitute a safer adjacent thesis.
 """
         return self._structured(prompt, ResearchPlan)
 
@@ -303,7 +343,7 @@ STRICT RULES:
 - Ask: would a careful investigative reporter reasonably reopen this prior article or its source trail before researching the new topic?
 - A non-obvious connection may score 4-5 when it is specific and materially useful.
 - A sensational or conspiratorial similarity alone is not relevance.
-- Previous White Rabbit assertions are NOT proof; they are leads only.
+- Previous published White Rabbit assertions are Level 1 project canon. Judge relevance to the next research branch; do not require re-verification before they can be used as premises.
 - source_urls_to_reopen MUST contain only URLs that were explicitly supplied in that candidate's section-local source list. Do not invent URLs.
 - research_leads should be concise, concrete follow-up questions or source checks, not conclusions.
 - relationship should be a short label such as "direct entity overlap", "surveillance infrastructure precedent", "shared investor/company network", "historical civil-liberties precedent", or "superficial overlap".
@@ -471,7 +511,10 @@ Return relevant=false if the source does not materially help.
             compact_retry=True,
         )
 
-    def build_outline(self, topic: str, angle: str, evidence_packet: str, style: str, publication_memory: str = "") -> ArticleOutline:
+    def build_outline(
+        self, topic: str, angle: str, evidence_packet: str, style: str,
+        publication_memory: str = "", source_thesis: str = "", canon_memory: str = "",
+    ) -> ArticleOutline:
         prompt = f"""
 You are outlining ONE White Rabbit Report investigative article.
 
@@ -484,14 +527,55 @@ STYLE RULES:
 EVIDENCE PACKET:
 {evidence_packet}
 
-PREVIOUS WHITE RABBIT ARTICLES (internal-link/style/context candidates only; not factual evidence):
-{publication_memory or '(none)'}
+LOCKED SOURCE THESIS:
+{source_thesis or '(not supplied)'}
 
-Build a compelling 12–20-section structure when the evidence supports that many sections. Every evidence_id you assign must exist in the packet. Include a credible conventional explanation/counterevidence section and a larger-implication ending. Do not invent facts to fill structural gaps.
+PREVIOUS WHITE RABBIT ARTICLES (Level 1 factual project canon):
+{canon_memory or publication_memory or '(none)'}
+
+Build a compelling 12–20-section structure when the record supports that many sections. Every evidence_id you assign must exist in the packet; a section relying only on a clearly identified canonical premise may use no evidence_id. Use canon briefly, then open a new branch. Include actual contrary evidence where material; do not manufacture a defensive counterargument after every finding. End sections by opening the next door. Do not invent facts to fill structural gaps.
+The outline must develop the locked investigation. If the evidence requires a fundamental
+change, do not substitute it here; return an outline whose thesis explicitly says AUTHOR
+THESIS DECISION REQUIRED and identifies the contradiction.
 """
         return self._structured(prompt, ArticleOutline)
 
-    def write_article(self, topic: str, angle: str, outline: ArticleOutline, evidence_packet: str, style: str, publication_memory: str = "") -> str:
+    def build_writer_packet(
+        self, *, source_thesis: str, outline: ArticleOutline, evidence_packet: str,
+        canon_memory: str = "", voice_memory: str = "",
+    ) -> WriterPacket:
+        prompt = f"""
+Act as the showrunner. Build the controlled Writer Packet for the assigned investigation.
+
+SOURCE THESIS:
+{source_thesis}
+
+APPROVED STORY OUTLINE:
+{outline.model_dump_json(indent=2)}
+
+COMPLETE EVIDENCE RECORD (for packet selection, not wholesale transfer):
+{evidence_packet}
+
+PUBLISHED CANON:
+{canon_memory or '(none)'}
+
+FILTERED GOLD VOICE REFERENCE:
+{voice_memory or '(none)'}
+
+Select the strongest supported findings, testimony with provenance, canon premises,
+characters, five to ten consequential dependency-aware chains where available, three to
+five actually investigated rabbit holes with honest dispositions, crucial documentary
+details/IDs/locators, chronology, surprises, contradictions, factual boundaries, source
+locators and reveal order. Voice lessons must describe behavior, not copy sentences.
+Do not include abandoned research bureaucracy or invent missing discoveries.
+"""
+        return self._structured(prompt, WriterPacket)
+
+    def write_article(
+        self, topic: str, angle: str, outline: ArticleOutline, evidence_packet: str,
+        style: str, publication_memory: str = "", source_thesis: str = "",
+        writer_packet: str = "", canon_memory: str = "", voice_memory: str = "",
+    ) -> str:
         prompt = f"""
 Write the complete Markdown article for The White Rabbit Report.
 
@@ -504,44 +588,74 @@ STYLE RULES:
 APPROVED OUTLINE:
 {outline.model_dump_json(indent=2)}
 
-EVIDENCE PACKET:
-{evidence_packet}
+LOCKED SOURCE THESIS:
+{source_thesis or '(not supplied)'}
 
-PREVIOUS WHITE RABBIT ARTICLES:
-{publication_memory or '(none)'}
+CONTROLLED WRITER PACKET:
+{writer_packet or evidence_packet}
+
+PUBLISHED WHITE RABBIT CANON:
+{canon_memory or publication_memory or '(none)'}
+
+FILTERED GOLD VOICE REFERENCE:
+{voice_memory or '(none)'}
 
 CRITICAL EVIDENCE RULES:
-1. Base factual claims on the evidence packet. Do not smuggle in unsupported remembered facts.
+1. Base new factual claims on the evidence packet. Stated findings in PREVIOUS WHITE RABBIT ARTICLES are Level 1 canon and may be used as premises without re-verification.
 2. Append evidence markers like [[EV-0001]] immediately after factual sentences they support.
 3. Use only evidence IDs that exist in the packet.
 4. Treat UNVERIFIED excerpts as paraphrase evidence only; never put them in quotation marks.
 5. For direct quotations, use only VERIFIED excerpts and keep quotations short.
 6. Clearly distinguish documented fact, strong inference, plausible connection, and speculation.
-7. Include the strongest credible conventional explanation and contrary evidence.
+7. Include actual material contrary evidence and the strongest relevant conventional explanation; do not insert defensive balance after every finding.
 8. Do not place external Markdown hyperlinks in the draft; the publishing pipeline will add them.
 9. You MAY add 3–6 natural internal Markdown links to previous White Rabbit articles, but ONLY using exact published URLs supplied in PREVIOUS WHITE RABBIT ARTICLES. Never invent an internal URL.
-10. Prior White Rabbit article text is institutional memory, not proof. Factual claims still require EV evidence markers from the EVIDENCE PACKET.
+10. Canon claims should use the exact supplied internal article URL and need no invented EV marker. They do not count as an independent corroborating stream. New external claims still require EV evidence markers.
+11. Accepted named testimony may become a downstream premise while retaining testimonial provenance. Attribute first use where useful, then follow the people, organizations, programs, places, events or documents it names.
+12. Reason cumulatively. Use corroboration to open new branches, not only to retry accepted premises. Avoid repeated “this does not prove,” “not X but Y,” “stronger conclusion,” “better question,” and section-ending thesis recaps.
+13. Develop the locked source-selected investigation. Do not replace it with a safer
+adjacent story. If the packet records AUTHOR THESIS DECISION REQUIRED, stop rather than
+drafting an unapproved replacement.
 
 The article body should normally be roughly 2,000–3,500 words. Include useful [IMAGE: ...] notes and five FAQs. If no internal White Rabbit links were supplied, omit rather than invent the "You May Be Interested" links.
 """
         interaction = self._retry(lambda: self.client.interactions.create(model=self.model, input=prompt))
         return (interaction.output_text or "").strip()
 
-    def audit_article(self, article: str, evidence_packet: str) -> AuditReport:
+    def audit_article(
+        self, article: str, evidence_packet: str, publication_memory: str = "",
+        source_thesis: str = "", canon_memory: str = "",
+    ) -> AuditReport:
         prompt = f"""
-Act as an adversarial source editor. Audit this draft only against the evidence packet.
+Act as an adversarial source editor. Audit this draft against the evidence packet and
+published White Rabbit canon.
 
 EVIDENCE PACKET:
 {evidence_packet}
 
+PUBLISHED WHITE RABBIT CANON:
+{canon_memory or publication_memory or '(none)'}
+
+LOCKED SOURCE THESIS:
+{source_thesis or '(not supplied)'}
+
 ARTICLE:
 {article}
 
-Flag factual claims that are unsupported, stronger than their evidence, attached to the wrong evidence marker, missing major counterevidence, or repetitious. Do not flag rhetorical questions or clearly labeled analysis merely because they are not factual claims. pass_for_publish should be false if any blocker remains.
+Flag fabrication, source-type conversion, invented relationships, claims stronger than their source, wrong evidence markers, genuine omitted contrary evidence, repetition, and thesis drift. Treat a claim actually supported by the supplied published canon as accepted without an EV marker. Also flag defensive collapse: re-proving canon, treating accepted testimony as unusable, resetting inference at each edge, or weakening cumulative inference merely for lack of a smoking gun. Do not flag rhetorical questions, clearly marked personal theory, or supported cumulative inference merely because they are not direct facts.
+
+Return targeted findings only. Every substantive finding must provide exact locator or
+excerpt, evidence IDs, required factual constraint and minimum correction. Do not rewrite
+the draft and do not approve a fundamental thesis change. pass_for_publish should be false
+if any blocker remains; it is an evidence-audit result, never human publication approval.
 """
         return self._structured(prompt, AuditReport)
 
-    def revise_article(self, article: str, audit: AuditReport, evidence_packet: str, style: str) -> str:
+    def revise_article(
+        self, article: str, audit: AuditReport, evidence_packet: str, style: str,
+        publication_memory: str = "", source_thesis: str = "", canon_memory: str = "",
+        voice_memory: str = "",
+    ) -> str:
         prompt = f"""
 Revise the White Rabbit Report draft to resolve the audit findings without adding new unsupported claims.
 
@@ -554,10 +668,23 @@ AUDIT:
 EVIDENCE PACKET:
 {evidence_packet}
 
+PUBLISHED WHITE RABBIT CANON:
+{canon_memory or publication_memory or '(none)'}
+
+LOCKED SOURCE THESIS:
+{source_thesis or '(not supplied)'}
+
+FILTERED GOLD VOICE REFERENCE:
+{voice_memory or '(none)'}
+
 DRAFT:
 {article}
 
-Preserve valid evidence markers. Remove or soften unsupported material. Return only the complete revised Markdown article.
+Apply only the targeted minimum corrections. Preserve valid evidence markers and exact supplied canon links. Correct unsupported material
+without reflexively weakening accepted testimony, canon, or a supported cumulative
+inference. Remove defensive AI-tic phrasing rather than replacing it with a new stock
+caveat. Do not perform a broad rewrite, flatten the narrator, or change the locked thesis.
+Return only the complete revised Markdown article.
 """
         interaction = self._retry(lambda: self.client.interactions.create(model=self.model, input=prompt))
         return (interaction.output_text or "").strip()

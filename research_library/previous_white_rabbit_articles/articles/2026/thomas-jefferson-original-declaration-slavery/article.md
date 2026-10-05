@@ -1,16 +1,6 @@
-[Current Events](https://thewhiterabbitreport.substack.com/s/current-events/?utm_source=substack&utm_medium=menu)
-
 # Thomas Jefferson's Original Declaration of Independence: The Anti-Slavery Passages They Took Out
 
-### What if one of the most repeated "facts" about Jefferson leaves out the most important part of the story? Discover the anti-slavery passage Congress deleted from the Declaration of Independence.
-
-[![The White Rabbit Report's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)](https://substack.com/@thewhiterabbitreport)
-
-[The White Rabbit Report](https://substack.com/@thewhiterabbitreport)
-
-Jul 04, 2026
-
-[![](https://substackcdn.com/image/fetch/$s_!4AQt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4244dc1c-6307-4876-8076-8e73d56d1bf8_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!4AQt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4244dc1c-6307-4876-8076-8e73d56d1bf8_1536x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/4244dc1c-6307-4876-8076-8e73d56d1bf8_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!4AQt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4244dc1c-6307-4876-8076-8e73d56d1bf8_1536x1024.png)
 
 When most Americans hear the name **[Thomas Jefferson](https://en.wikipedia.org/wiki/Thomas_Jefferson)**, they think of contradictions.
 
@@ -34,15 +24,11 @@ And what does it reveal about Jefferson’s actual views?
 
 The answers complicate the modern narrative.
 
-Subscribe for free—or go paid to unlock the full archive and deeper investigations.
-
-[Share](https://thewhiterabbitreport.substack.com/p/thomas-jefferson-original-declaration-slavery?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
 ---
 
 # **THE MAN HISTORY LOVES TO HATE**
 
-[![Painting of Jefferson in his late 50s with a full head of hair](https://substackcdn.com/image/fetch/$s_!Wzy4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47e28b05-7cc5-46e6-8097-278d8a73d290_250x298.jpeg "Painting of Jefferson in his late 50s with a full head of hair")](https://substackcdn.com/image/fetch/$s_!Wzy4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47e28b05-7cc5-46e6-8097-278d8a73d290_250x298.jpeg)
+[![Painting of Jefferson in his late 50s with a full head of hair](https://substack-post-media.s3.amazonaws.com/public/images/47e28b05-7cc5-46e6-8097-278d8a73d290_250x298.jpeg "Painting of Jefferson in his late 50s with a full head of hair")](https://substackcdn.com/image/fetch/$s_!Wzy4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47e28b05-7cc5-46e6-8097-278d8a73d290_250x298.jpeg)
 
 Thomas Jefferson deserves criticism where criticism is warranted.
 
@@ -64,7 +50,7 @@ Understanding Jefferson requires holding **both truths** at once rather than sim
 
 # **THE ORIGINAL DECLARATION WAS DIFFERENT**
 
-[![](https://substackcdn.com/image/fetch/$s_!1uRK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa44f8158-7e7d-4fe2-a131-6862a2424228_1643x2420.jpeg)](https://substackcdn.com/image/fetch/$s_!1uRK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa44f8158-7e7d-4fe2-a131-6862a2424228_1643x2420.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/a44f8158-7e7d-4fe2-a131-6862a2424228_1643x2420.jpeg)](https://substackcdn.com/image/fetch/$s_!1uRK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa44f8158-7e7d-4fe2-a131-6862a2424228_1643x2420.jpeg)
 
 [Rough Draft of the Declaration](http://monticello.org/the-declaration-of-independence/transcripts-and-readings)
 
@@ -133,7 +119,7 @@ Rather, he argued that the British Crown had consistently vetoed colonial attemp
 
 # **WHY THE CLAUSE WAS REMOVED**
 
-[![](https://substackcdn.com/image/fetch/$s_!TcU_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff665bf4-f84e-4f7c-a16c-a9c94d53e012_500x593.jpeg)](https://substackcdn.com/image/fetch/$s_!TcU_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff665bf4-f84e-4f7c-a16c-a9c94d53e012_500x593.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/ff665bf4-f84e-4f7c-a16c-a9c94d53e012_500x593.jpeg)](https://substackcdn.com/image/fetch/$s_!TcU_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff665bf4-f84e-4f7c-a16c-a9c94d53e012_500x593.jpeg)
 
 The anti-slavery passage did not survive congressional debate.
 
@@ -161,8 +147,6 @@ By the way, [Jefferson himself said](https://www.history.com/articles/declaratio
 
 Nearly a century later, both states would join the Confederacy, with **South Carolina becoming the first state to secede** in December 1860.
 
-If this is the kind of history you wish school had taught, **you’ll want the full archive.** Subscribe free for new posts, or become a paid supporter to access everything.
-
 ---
 
 # **JEFFERSON’S LONG RECORD AGAINST THE SLAVE TRADE**
@@ -185,7 +169,7 @@ This historical record often receives far less attention than the undeniable fac
 
 # **WHY DIDN’T JEFFERSON FREE ALL OF HIS SLAVES?**
 
-[![Presidents and the Enslaved: Helping Students Find the Truth](https://substackcdn.com/image/fetch/$s_!3rXe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58629098-aa8e-426f-9d4c-eb29fa76a476_448x285.jpeg "Presidents and the Enslaved: Helping Students Find the Truth")](https://substackcdn.com/image/fetch/$s_!3rXe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58629098-aa8e-426f-9d4c-eb29fa76a476_448x285.jpeg)
+[![Presidents and the Enslaved: Helping Students Find the Truth](https://substack-post-media.s3.amazonaws.com/public/images/58629098-aa8e-426f-9d4c-eb29fa76a476_448x285.jpeg "Presidents and the Enslaved: Helping Students Find the Truth")](https://substackcdn.com/image/fetch/$s_!3rXe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58629098-aa8e-426f-9d4c-eb29fa76a476_448x285.jpeg)
 
 This is one of the most difficult—and controversial—questions surrounding Jefferson.
 
@@ -213,7 +197,7 @@ Doing so could constitute **fraud against those creditors**.
 
 # **THE DEBT TRAP OF VIRGINIA PLANTERS**
 
-[![Detail from one of Thomas Jefferson's account books showing Jefferson's payments by day in the month of July 1776, including one for the purchase of thermometer on July 4.](https://substackcdn.com/image/fetch/$s_!FEtw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6049c263-6c92-4d4b-a423-aa018f08536b_1200x800.webp "Detail from one of Thomas Jefferson's account books showing Jefferson's payments by day in the month of July 1776, including one for the purchase of thermometer on July 4.")](https://substackcdn.com/image/fetch/$s_!FEtw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6049c263-6c92-4d4b-a423-aa018f08536b_1200x800.webp)
+[![Detail from one of Thomas Jefferson's account books showing Jefferson's payments by day in the month of July 1776, including one for the purchase of thermometer on July 4.](https://substack-post-media.s3.amazonaws.com/public/images/6049c263-6c92-4d4b-a423-aa018f08536b_1200x800.webp "Detail from one of Thomas Jefferson's account books showing Jefferson's payments by day in the month of July 1776, including one for the purchase of thermometer on July 4.")](https://substackcdn.com/image/fetch/$s_!FEtw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6049c263-6c92-4d4b-a423-aa018f08536b_1200x800.webp)
 
 Jefferson died owing the equivalent of **millions of dollars** in today’s purchasing power.
 
@@ -294,7 +278,7 @@ That matters because **historical narratives have power**. The way we remember t
 
 Race remains one of **[the most emotionally charged issues](https://www.nytimes.com/2020/07/03/us/minneapolis-government-george-floyd.html) in America**.
 
-[![They Have Lost Control': Why Minneapolis Burned - The New York Times](https://substackcdn.com/image/fetch/$s_!81d8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a8c668b-a062-434f-915e-30c07c3bfee1_600x400.jpeg "They Have Lost Control': Why Minneapolis Burned - The New York Times")](https://substackcdn.com/image/fetch/$s_!81d8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a8c668b-a062-434f-915e-30c07c3bfee1_600x400.jpeg)
+[![They Have Lost Control': Why Minneapolis Burned - The New York Times](https://substack-post-media.s3.amazonaws.com/public/images/7a8c668b-a062-434f-915e-30c07c3bfee1_600x400.jpeg "They Have Lost Control': Why Minneapolis Burned - The New York Times")](https://substackcdn.com/image/fetch/$s_!81d8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a8c668b-a062-434f-915e-30c07c3bfee1_600x400.jpeg)
 
 A building burned in Minneapolis during protests against the death of George Floyd by the police in May 2021.
 
@@ -315,20 +299,6 @@ Throughout the twentieth century, **governments and intelligence agencies** demo
 
 And don’t get me started on **9/11**.
 
-[Shadow Reports](https://thewhiterabbitreport.substack.com/p/top-9-facts-that-911-was-an-inside)[## Top 9 Facts That 9/11 Was an Inside Job](https://thewhiterabbitreport.substack.com/p/top-9-facts-that-911-was-an-inside)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-December 15, 2024
-
-[![Top 9 Facts That 9/11 Was an Inside Job](https://substackcdn.com/image/fetch/$s_!Kuhh!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75828abb-a4a0-4df1-83fe-5378f0d34e5b_1024x729.jpeg)](https://thewhiterabbitreport.substack.com/p/top-9-facts-that-911-was-an-inside)
-
-Explore the top 9 baffling facts about 9/11 that challenge the official story: From indestructible passports to molten steel and forewarnings.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/top-9-facts-that-911-was-an-inside)
-
 This is why Jefferson’s story is **necessary**.
 
 If a figure as extensively studied as **Thomas Jefferson** can be reduced in popular culture to **a single talking point** while significant historical context is omitted, it should remind us to examine the evidence for ourselves.
@@ -347,83 +317,7 @@ Before accepting any narrative, it is worth asking a simple question:
 
 ***What do the facts actually say?***
 
-**The rabbit hole doesn’t end here.** Subscribe free to keep reading, or go paid to unlock every article and support independent research.
-
-[Share](https://thewhiterabbitreport.substack.com/p/thomas-jefferson-original-declaration-slavery?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
-[Buy Me A Coffee ☕](https://buymeacoffee.com/whiterabbitreport)
-
 ## **OTHER ARTICLES TO CHECK OUT**
-
-[The Deep State](https://thewhiterabbitreport.substack.com/p/epstein-files-1-epstein-scandal-teaser-blackmail-empire-exposed)[## The Epstein Files: Unraveling the Blackmail Empire – (Part 1/7)](https://thewhiterabbitreport.substack.com/p/epstein-files-1-epstein-scandal-teaser-blackmail-empire-exposed)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-Feb 20
-
-[![The Epstein Files: Unraveling the Blackmail Empire – (Part 1/7)](https://substackcdn.com/image/fetch/$s_!QOMu!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc664d512-4def-4e44-9fd0-52c9cb8a29d4_1536x1024.png)](https://thewhiterabbitreport.substack.com/p/epstein-files-1-epstein-scandal-teaser-blackmail-empire-exposed)
-
-Did Epstein's "suicide" hide a global blackmail empire? Spy cameras capturing presidents and unreleased tapes that could topple tycoons. Is Epstein the key that unlocks the map?
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/epstein-files-1-epstein-scandal-teaser-blackmail-empire-exposed)
-
-[The Deep State](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)[## The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-July 23, 2025
-
-[![The Five Star Trust: The Kennedy File and the CIA’s Secret Bank Account (Part 1/5)](https://substackcdn.com/image/fetch/$s_!isMp!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7162d927-206f-43e4-ad89-30ff831a2bbc_1536x1024.png)](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)
-
-A leaked FBI file. A dead senator. And a CIA banking network more powerful than any government. Discover how the Five Star Trust black budget empire was born.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/five-star-trust-part-1-kennedy-file-cia-black-budget)
-
-[Operation Gladio](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)[## The International Syndicate: How the West Manufactures Enemies, Wars, and Control (Part 1/5)](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-June 20, 2025
-
-[![The International Syndicate: How the West Manufactures Enemies, Wars, and Control (Part 1/5)](https://substackcdn.com/image/fetch/$s_!9-Fq!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05e13de-ccfc-49b3-ac2f-237fb68b8744_1024x1536.png)](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)
-
-Why does the West always need an enemy? From communists to terrorists, a rotating cast of villains keeps fear high and war perpetual. But what if the villain was one of us? Or all of us?
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)
-
-[The Deep State](https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s)[## The Blueprint Pt 1/3: The CIA’s Global Coup Machine (1950s–70s)](https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-April 19, 2025
-
-[![The Blueprint Pt 1/3: The CIA’s Global Coup Machine (1950s–70s)](https://substackcdn.com/image/fetch/$s_!_VhN!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29133ddc-c9ee-445b-aeb2-8ad7ae924d08_1536x1024.png)](https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s)
-
-Learn how the CIA overthrew governments from Guatemala to Greece, using propaganda, coups, and economic sabotage to shape the world to their goals.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s)
-
-[Operation Gladio](https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and)[## From Gladio to Guyana: Jonestown and the CIA (Part 1/3)](https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-March 8, 2025
-
-[![From Gladio to Guyana: Jonestown and the CIA (Part 1/3)](https://substackcdn.com/image/fetch/$s_!XoeJ!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb562b12-d14b-4cef-a0b8-57e0794c4da0_1024x768.webp)](https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and)
-
-What if the Jonestown deaths weren’t a mass suicide but a CIA cleanup? This deep dive connects the dots between Operation Gladio, Jim Jones’ shady past, and a massacre that silenced the truth—forever.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/from-gladio-to-guyana-jonestown-and)
 
 ---
 

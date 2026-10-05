@@ -6,6 +6,11 @@
 `EDITORIAL_LESSONS.md` are loaded for every new article. Approved Gold articles provide
 two to four relevant examples through a per-project STYLE_PROFILE; they guide cadence and
 structure without supplying sentences to imitate.
+Published White Rabbit articles are both project canon and voice canon. Study
+representative published work beyond a single gold example when useful: sentence length,
+paragraph rhythm, rhetorical questions, blunt turns, humor, sarcasm, personal theories,
+“wait a minute” discoveries, and the movement from one receipt into the next rabbit hole.
+Learn the rhythm; do not turn memorable phrases into a checklist or catchphrase bank.
 
 Keep the narrator present as an investigator. Let documents arrive as discoveries and
 people/career paths bridge abstract systems. Facts create questions; questions expose
@@ -31,7 +36,7 @@ and verbs to abstract policy language. Vary paragraph and sentence rhythm; do no
 the article orderly enough to erase discovery. Read the author-voice and anti-AI
 authorities for the required post-draft passes.
 
-Use FACT → QUESTION → JUDGMENT → IMPLICATION organically: what is documented, what it
+Use FACT → QUESTION → JUDGMENT → IMPLICATION → NEXT RECEIPT organically: what is documented, what it
 makes us ask, what the evidence most likely means, and why it matters. Do not label
 every paragraph or force this sequence into every section. Preserve supported causal
 chains and enough context to understand the judgment. End with an earned implication.
@@ -40,6 +45,14 @@ inference, give the meaningful boundary once, and keep moving. Avoid both OVERCL
 (turning proximity or inference into direct fact) and CAVEAT COLLAPSE (repeating “does not
 prove” until the combined pattern disappears). Keep methodology terms in research
 artifacts unless the reader truly needs a category.
+
+Publication prose asserts before it defends. Avoid recurring “It is not A. It is B,”
+“This does not prove,” “the stronger conclusion,” “the better question,” and “that
+distinction matters” constructions. A necessary boundary belongs once, exactly where it
+changes meaning. Sections should usually end by opening the next evidentiary door rather
+than restating a qualified thesis. Personal inference is welcome when accurate: “My
+theory,” “I think,” or “From where I'm sitting” may distinguish the author's judgment from
+a source without sterilizing it into “the evidence may suggest.”
 
 Include useful visual notes as `[IMAGE: description | ALT: alt text]`, and place
 `[[SUBSCRIBE]]` and `[[SHARE]]` strategically. Markers are editorial placement notes,

@@ -14,6 +14,7 @@ from .archive_reranker import (
     rerank_audit_payload,
 )
 from .archive_sync import SubstackArchiveSync
+from .archive_voice import format_voice_reference_packet, retrieve_voice_references
 from .config import Settings
 from .evidence_db import EvidenceDB
 from .local_sources import chunk_document, discover_local_documents, rank_chunks
@@ -56,6 +57,116 @@ def _supports_kwarg(fn, name: str) -> bool:
         return name in inspect.signature(fn).parameters
     except Exception:
         return False
+
+
+def _call_supported(fn, *args, **kwargs):
+    """Call a provider with new workflow context while preserving older providers."""
+    accepted = {key: value for key, value in kwargs.items() if _supports_kwarg(fn, key)}
+    return fn(*args, **accepted)
+
+
+def _source_corpus_packet(documents, *, per_document: int = 18000, total: int = 140000) -> str:
+    """Create a bounded pre-research corpus packet while inventorying every local item."""
+    inventory = [f"- {doc.path.name}: {len(doc.text)} extracted characters" for doc in documents]
+    sections = ["# SOURCE INVENTORY", *inventory, "", "# SOURCE EXCERPTS"]
+    remaining = total
+    for doc in documents:
+        if remaining <= 0:
+            sections.append(f"\n## {doc.path.name}\n[Inventory retained; excerpt omitted by context bound.]")
+            continue
+        excerpt = doc.text[: min(per_document, remaining)].strip()
+        remaining -= len(excerpt)
+        status = "complete extracted text" if len(excerpt) == len(doc.text) else "bounded excerpt; full source remains available downstream"
+        sections.append(f"\n## {doc.path.name}\nReading status: {status}\n\n{excerpt}")
+    return "\n".join(sections)
+
+
+def _source_thesis_markdown(thesis) -> str:
+    data = thesis.model_dump()
+    def bullets(values):
+        return "\n".join(f"- {value}" for value in values) or "- None recorded."
+    return f"""# Source thesis
+
+Thesis version: {data['thesis_version']}
+Thesis status: {data['status']}
+
+## Author's explicit assignment
+
+{data['author_objective']}
+
+## Source inventory and reading status
+
+{bullets(data['source_inventory'])}
+
+## Principal source-derived thesis
+
+{data['principal_thesis']}
+
+## Supporting source-derived subtheories
+
+{bullets(data['supporting_theories'])}
+
+## Key testimony and witness accounts
+
+{bullets(data['accepted_testimony'])}
+
+## Published White Rabbit canon relevant to the thesis
+
+{bullets(data['canon_premises'])}
+
+## Significant entities, operations, companies, agencies, and events
+
+{bullets(data['key_entities'])}
+
+## Initial connection chains
+
+{bullets(data['initial_connections'])}
+
+## Strongest unresolved questions
+
+{bullets(data['unresolved_questions'])}
+
+## Predicted documentary footprints
+
+{bullets(data['predicted_footprints'])}
+
+## Genuine contradictions already inside the supplied corpus
+
+{bullets(data['source_conflicts'])}
+
+## Specific external research objectives
+
+{bullets(data['external_research_objectives'])}
+"""
+
+
+def _writer_packet_markdown(packet) -> str:
+    data = packet.model_dump()
+    def section(title, values):
+        body = "\n".join(f"- {value}" for value in values) or "- None recorded."
+        return f"## {title}\n\n{body}"
+    sections = [
+        "# Writer packet",
+        f"## Original author objective\n\n{data['author_objective']}",
+        f"## Locked source-derived thesis and version\n\nVersion {data['thesis_version']}: {data['locked_thesis']}",
+        section("Strongest surviving supported findings", data["strongest_findings"]),
+        section("Accepted testimony and provenance", data["accepted_testimony"]),
+        section("Published White Rabbit canon used as premises", data["canon_premises"]),
+        section("Important characters and relationships", data["characters_and_relationships"]),
+        section("Consequential connection chains", data["connection_chains"]),
+        section("Investigated rabbit holes", data["investigated_rabbit_holes"]),
+        section("Crucial quotations, document identifiers, dates, and locators", data["documentary_details"]),
+        section("Timeline", data["chronology"]),
+        section("Significant new details and narrative surprises", data["narrative_surprises"]),
+        section("Material contradictions", data["contradictions"]),
+        section("Critical factual boundaries that must survive drafting", data["factual_boundaries"]),
+        section("Reader-facing source and link locators", data["source_locators"]),
+        section("Recommended reveal sequence", data["reveal_sequence"]),
+        section("Relevant Gold voice passages and behavioral lessons", data["gold_voice_lessons"]),
+        "## Writer context boundary\n\nDraft from this packet, Source Thesis, Story Spine/outline, selected receipts and voice references—not the complete adversarial research bureaucracy.",
+        "## Auditor context boundary\n\nThe independent auditor receives the complete evidence record and returns targeted minimum corrections.",
+    ]
+    return "\n\n".join(sections) + "\n"
 
 
 class SingleArticlePipeline:
@@ -159,25 +270,74 @@ class SingleArticlePipeline:
             publication_memory = format_archive_memory(memories)
             print(f"      Gemini reranker disabled/unavailable; using top {len(memories)} local archive matches")
 
+        voice_result = retrieve_voice_references(
+            self.settings.archive_db_path,
+            f"{topic} {angle}",
+            root=self.settings.root,
+            passage_limit=8,
+        )
+        voice_memory = format_voice_reference_packet(voice_result)
+        canon_memory = publication_memory
+        publication_memory = canon_memory + "\n\n" + voice_memory
+
         (research_dir / "previous_white_rabbit_rerank.json").write_text(
             json.dumps(rerank_rows, indent=2, ensure_ascii=False), encoding="utf-8"
         )
+        (research_dir / "previous_white_rabbit_canon.md").write_text(canon_memory, encoding="utf-8")
+        (research_dir / "previous_white_rabbit_voice.md").write_text(voice_memory, encoding="utf-8")
         (research_dir / "previous_white_rabbit_memory.md").write_text(publication_memory, encoding="utf-8")
 
         style = self.settings.style_path.read_text(encoding="utf-8")
         db = EvidenceDB(root / "evidence.sqlite3")
         try:
-            print("[2/10] Building research plan...")
-            plan_fn = self.provider.plan_research
-            if _supports_kwarg(plan_fn, "publication_memory"):
-                plan = plan_fn(topic, angle, style, self.settings.research_questions, publication_memory=publication_memory)
-            else:
-                plan = plan_fn(topic, angle, style, self.settings.research_questions)
-            (research_dir / "research_plan.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
-
-            print("[3/10] Researching project/private sources...")
+            print("[2/12] Reading author-selected sources and locking Source Thesis...")
             docs = discover_local_documents(sources_folder)
             chunks = [c for d in docs for c in chunk_document(d)]
+            corpus_packet = _source_corpus_packet(docs)
+            (research_dir / "source_inventory.json").write_text(
+                json.dumps([
+                    {"path": str(doc.path), "title": doc.title, "extracted_characters": len(doc.text)}
+                    for doc in docs
+                ], indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            derive_fn = getattr(self.provider, "derive_source_thesis", None)
+            if derive_fn is not None:
+                source_thesis_model = _call_supported(
+                    derive_fn, topic, angle, corpus_packet, canon_memory=canon_memory
+                )
+                source_thesis = _source_thesis_markdown(source_thesis_model)
+            else:
+                source_thesis_model = None
+                source_thesis = f"""# Source thesis
+
+Thesis version: 1
+Thesis status: AUTHOR THESIS DECISION REQUIRED
+
+## Author's explicit assignment
+
+{topic}{(': ' + angle) if angle else ''}
+
+## Source inventory and reading status
+
+{chr(10).join('- ' + doc.path.name for doc in docs) or '- No supported local sources discovered.'}
+
+## Principal source-derived thesis
+
+Provider does not implement source-thesis derivation. Complete this artifact before treating the legacy plan as editorially approved.
+"""
+            (research_dir / "SOURCE_THESIS.md").write_text(source_thesis, encoding="utf-8")
+
+            print("[3/12] Building thesis-fidelity research plan...")
+            plan_fn = self.provider.plan_research
+            plan = _call_supported(
+                plan_fn, topic, angle, style, self.settings.research_questions,
+                publication_memory=publication_memory,
+                canon_memory=canon_memory,
+                source_thesis=source_thesis,
+            )
+            (research_dir / "research_plan.json").write_text(plan.model_dump_json(indent=2), encoding="utf-8")
+
+            print("[4/12] Researching project/private sources...")
             qtext = topic + " " + " ".join(q.question + " " + q.search_query for q in plan.questions)
             for chunk in rank_chunks(chunks, qtext, self.settings.local_chunks):
                 source_id = db.add_source(
@@ -197,7 +357,7 @@ class SingleArticlePipeline:
                 for item in extraction.items:
                     db.add_evidence(source_id, item, excerpt_verified=verify_excerpt(item.excerpt, chunk.text))
 
-            print("[4/10] Running grounded web research...")
+            print("[5/12] Running grounded web research...")
             web_log: list[dict] = []
             processed_urls: set[str] = set()
             for i, q in enumerate(plan.questions, start=1):
@@ -269,30 +429,75 @@ class SingleArticlePipeline:
             if not evidence_packet.strip():
                 raise RuntimeError("No evidence was extracted. Aborting before article generation.")
 
-            print("[5/10] Building evidence-backed outline...")
+            print("[6/12] Building evidence-backed showrunner outline...")
             outline_fn = self.provider.build_outline
-            if _supports_kwarg(outline_fn, "publication_memory"):
-                outline = outline_fn(topic, angle, evidence_packet, style, publication_memory=publication_memory)
-            else:
-                outline = outline_fn(topic, angle, evidence_packet, style)
+            outline = _call_supported(
+                outline_fn, topic, angle, evidence_packet, style,
+                publication_memory=publication_memory,
+                canon_memory=canon_memory,
+                source_thesis=source_thesis,
+            )
             (research_dir / "outline.json").write_text(outline.model_dump_json(indent=2), encoding="utf-8")
 
-            print("[6/10] Writing article with evidence markers and verified internal-link candidates...")
-            write_fn = self.provider.write_article
-            if _supports_kwarg(write_fn, "publication_memory"):
-                article = write_fn(topic, angle, outline, evidence_packet, style, publication_memory=publication_memory)
+            print("[7/12] Building controlled Writer Packet...")
+            packet_fn = getattr(self.provider, "build_writer_packet", None)
+            if packet_fn is not None:
+                packet_model = _call_supported(
+                    packet_fn,
+                    source_thesis=source_thesis,
+                    outline=outline,
+                    evidence_packet=evidence_packet,
+                    canon_memory=canon_memory,
+                    voice_memory=voice_memory,
+                )
+                writer_packet = _writer_packet_markdown(packet_model)
             else:
-                article = write_fn(topic, angle, outline, evidence_packet, style)
+                writer_packet = (
+                    "# Writer packet\n\n## Locked source-derived thesis and version\n\n" +
+                    source_thesis + "\n\n## Recommended reveal sequence\n\n" +
+                    outline.model_dump_json(indent=2) +
+                    "\n\n## Auditor context boundary\n\nThe auditor retains the complete evidence packet.\n"
+                )
+            (research_dir / "WRITER_PACKET.md").write_text(writer_packet, encoding="utf-8")
+
+            print("[8/12] Writing from the controlled handoff...")
+            write_fn = self.provider.write_article
+            article = _call_supported(
+                write_fn, topic, angle, outline, evidence_packet, style,
+                publication_memory=publication_memory,
+                canon_memory=canon_memory,
+                voice_memory=voice_memory,
+                source_thesis=source_thesis,
+                writer_packet=writer_packet,
+            )
             (drafts_dir / "article_with_evidence_markers.md").write_text(article, encoding="utf-8")
 
-            print("[7/10] Auditing claims against evidence...")
-            audit = self.provider.audit_article(article, evidence_packet)
+            print("[9/12] Independently auditing claims against the complete record...")
+            audit_fn = self.provider.audit_article
+            audit = _call_supported(
+                audit_fn, article, evidence_packet,
+                publication_memory=publication_memory,
+                canon_memory=canon_memory,
+                source_thesis=source_thesis,
+            )
             (research_dir / "source_audit.json").write_text(audit.model_dump_json(indent=2), encoding="utf-8")
             if not audit.pass_for_publish:
-                print("      audit found blockers/warnings; running one evidence-constrained revision...")
-                article = self.provider.revise_article(article, audit, evidence_packet, style)
+                print("      audit found blockers/warnings; running one surgical evidence-constrained revision...")
+                revise_fn = self.provider.revise_article
+                article = _call_supported(
+                    revise_fn, article, audit, evidence_packet, style,
+                    publication_memory=publication_memory,
+                    canon_memory=canon_memory,
+                    voice_memory=voice_memory,
+                    source_thesis=source_thesis,
+                )
                 (drafts_dir / "article_with_evidence_markers.md").write_text(article, encoding="utf-8")
-                audit = self.provider.audit_article(article, evidence_packet)
+                audit = _call_supported(
+                    audit_fn, article, evidence_packet,
+                    publication_memory=publication_memory,
+                    canon_memory=canon_memory,
+                    source_thesis=source_thesis,
+                )
                 (research_dir / "source_audit_after_revision.json").write_text(audit.model_dump_json(indent=2), encoding="utf-8")
 
             lookup = db.evidence_lookup()
@@ -300,7 +505,7 @@ class SingleArticlePipeline:
             if unknown_markers:
                 raise RuntimeError(f"Article contains invented/unknown evidence markers: {unknown_markers}")
 
-            print("[8/10] Building exact phrase → source CSV and inserting external links...")
+            print("[10/12] Building exact phrase → source CSV and inserting external links...")
             contexts = marker_contexts(article)
             anchor_map = self.provider.choose_anchors(format_contexts(contexts))
             unlinked, source_rows, anchor_warnings = build_source_rows(article, anchor_map, lookup)
@@ -314,7 +519,7 @@ class SingleArticlePipeline:
             linked_md_path = output_dir / "article_linked.md"
             linked_md_path.write_text(linked, encoding="utf-8")
 
-            print("[9/10] Exporting DOCX/HTML/package...")
+            print("[11/12] Exporting DOCX/HTML/package...")
             docx_path = output_dir / "article_substack.docx"
             html_path = output_dir / "article_substack.html"
             report_path = output_dir / "article_link_report.txt"
@@ -326,7 +531,23 @@ class SingleArticlePipeline:
             metadata = self.provider.metadata(unlinked, topic)
             (output_dir / "metadata.json").write_text(metadata.model_dump_json(indent=2), encoding="utf-8")
 
-            print("[10/10] Finalizing run summary...")
+            print("[12/12] Recording independent quality-gate state...")
+            quality_gates = {
+                "A": {"status": "PASS", "evidence": "Legacy export and source-link package completed."},
+                "B": {"status": "PASS" if source_thesis_model is not None else "NEEDS REVIEW",
+                      "evidence": "Source inventory and Source Thesis recorded before planning."},
+                "C": {"status": "NEEDS REVIEW", "evidence": "Legacy provider produced a locked thesis; independent thesis-fidelity review is still required."},
+                "D": {"status": "NOT RUN", "evidence": "Independent narrative review is not automated by the legacy provider."},
+                "E": {"status": "NOT RUN", "evidence": "Independent Gold/semantic voice review is not automated by the legacy provider."},
+                "F": {"status": "PASS" if audit.pass_for_publish else "FAIL", "evidence": "Independent provider evidence audit result."},
+                "G": {"status": "AUTHOR APPROVAL REQUIRED", "evidence": "Software cannot approve publication."},
+                "publication_status": "AUTHOR APPROVAL REQUIRED",
+            }
+            (output_dir / "quality_gates.json").write_text(
+                json.dumps(quality_gates, indent=2), encoding="utf-8"
+            )
+
+            print("      finalizing run summary...")
             summary = {
                 "project": project,
                 "project_sources": str(sources_folder.resolve()),
@@ -338,6 +559,9 @@ class SingleArticlePipeline:
                 "public_links_inserted": len(successful),
                 "unmatched_anchors": len(missing),
                 "source_audit_pass": audit.pass_for_publish,
+                "evidence_audit_pass": audit.pass_for_publish,
+                "publication_status": "AUTHOR APPROVAL REQUIRED",
+                "quality_gates": quality_gates,
             }
             (output_dir / "run_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
 
@@ -348,7 +572,8 @@ class SingleArticlePipeline:
             print(f"Evidence items: {len(db.list_evidence())}")
             print(f"Public links inserted: {len(successful)}")
             print(f"Unmatched anchors: {len(missing)}")
-            print(f"Final source audit pass: {audit.pass_for_publish}")
+            print(f"Final evidence audit pass: {audit.pass_for_publish}")
+            print("Publication status: AUTHOR APPROVAL REQUIRED")
             return output_dir
         finally:
             db.close()

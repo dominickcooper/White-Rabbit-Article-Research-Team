@@ -59,8 +59,9 @@ class ArchiveDB:
     """Persistent registry for previously published White Rabbit articles.
 
     This database is intentionally separate from per-project evidence databases.
-    Prior White Rabbit articles are institutional memory / research leads, not
-    automatically evidence for a new article.
+    Published archive articles are Level 1 White Rabbit canon. Their statements remain
+    distinct from newly discovered external evidence and are not double-counted as an
+    independent corroborating stream.
     """
 
     def __init__(self, path: Path):

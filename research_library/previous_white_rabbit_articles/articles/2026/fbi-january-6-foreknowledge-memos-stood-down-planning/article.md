@@ -1,16 +1,6 @@
-[Current Events](https://thewhiterabbitreport.substack.com/s/current-events/?utm_source=substack&utm_medium=menu)
-
 # The FBI Knew January 6 Was Coming — And Did Nothing
 
-### The FBI had the memos. They had the informants. They had the intelligence. They chose not to warn anyone. This is the document trail that proves it.
-
-[![The White Rabbit Report's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)](https://substack.com/@thewhiterabbitreport)
-
-[The White Rabbit Report](https://substack.com/@thewhiterabbitreport)
-
-Apr 10, 2026
-
-[![](https://substackcdn.com/image/fetch/$s_!FzbY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b1c6927-08ec-4344-ae7d-4bb8e73a3818_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!FzbY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b1c6927-08ec-4344-ae7d-4bb8e73a3818_1536x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/8b1c6927-08ec-4344-ae7d-4bb8e73a3818_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!FzbY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8b1c6927-08ec-4344-ae7d-4bb8e73a3818_1536x1024.png)
 
 ---
 
@@ -31,8 +21,6 @@ And then — despite receiving **strong intelligence warnings** from those very 
 That is not a conspiracy theory.
 
 That is what the documents show.
-
-*Do enjoy No-BS news and information?* **Get the unfiltered, always-sourced truth here.**
 
 ---
 
@@ -68,7 +56,7 @@ Taken together, they are stunning — because **both strategies** were **subsequ
 
 ### **Strategy One: Embed Informants**
 
-[![](https://substackcdn.com/image/fetch/$s_!LCmG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa4c6ec3-0c0e-4004-bb05-a1147bf117cd_927x561.png)](https://substackcdn.com/image/fetch/$s_!LCmG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa4c6ec3-0c0e-4004-bb05-a1147bf117cd_927x561.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/aa4c6ec3-0c0e-4004-bb05-a1147bf117cd_927x561.png)](https://substackcdn.com/image/fetch/$s_!LCmG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa4c6ec3-0c0e-4004-bb05-a1147bf117cd_927x561.png)
 
 [2025 Dallas Express Article](https://dallasexpress.com/national/fbi-embedded-275-plainclothes-agents-in-jan-6-crowds-blaze-reports-as-house-panel-probes-informants-roles/)
 
@@ -140,17 +128,13 @@ It was explicitly framed around groups on **both sides** of the political divide
 
 But, it was applied to **exactly one side.**
 
-![An example of the Disparity of Justice - BLM Jan 6](https://substackcdn.com/image/fetch/$s_!H0gB!,w_720,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ee833d2-1da7-4e0c-80db-cc94942ef9fe_1290x1893.jpeg)![An example of the Disparity of Justice - BLM Jan 6](https://substackcdn.com/image/fetch/$s_!Ghow!,w_720,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35599009-1818-4b50-bd6d-af4b8dfac5a1_1235x1477.jpeg)
-
-An example of the Disparity of Justice
-
 Throughout the summer and fall of 2020, the United States experienced the most sustained wave of political violence in decades. By one count, **[574 riots](https://www.wdrb.com/news/national/police-chief-association-releases-number-of-officers-injured-nationwide-during-violent-protests/article_db673920-34ab-11eb-9431-a3e24704f86a.html)** [occurred across the country](https://www.wdrb.com/news/national/police-chief-association-releases-number-of-officers-injured-nationwide-during-violent-protests/article_db673920-34ab-11eb-9431-a3e24704f86a.html) between May and September 2020, resulting in [billions of dollars](https://www.usatoday.com/story/news/factcheck/2022/02/22/fact-check-thousands-black-lives-matter-protesters-arrested-2020/6816074001/) in property damage, dozens of deaths, and thousands of injuries. Federal buildings were attacked.
 
-[![Portland Clashes Converge on Courthouse Named for an Antiwar Republican -  The New York Times](https://substackcdn.com/image/fetch/$s_!J9eV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01c5c563-e3d9-40c3-bc62-731844a835bc_2048x1365.jpeg "Portland Clashes Converge on Courthouse Named for an Antiwar Republican -  The New York Times")](https://substackcdn.com/image/fetch/$s_!J9eV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01c5c563-e3d9-40c3-bc62-731844a835bc_2048x1365.jpeg)
+[![Portland Clashes Converge on Courthouse Named for an Antiwar Republican -  The New York Times](https://substack-post-media.s3.amazonaws.com/public/images/01c5c563-e3d9-40c3-bc62-731844a835bc_2048x1365.jpeg "Portland Clashes Converge on Courthouse Named for an Antiwar Republican -  The New York Times")](https://substackcdn.com/image/fetch/$s_!J9eV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01c5c563-e3d9-40c3-bc62-731844a835bc_2048x1365.jpeg)
 
 A courthouse in Portland was besieged for months
 
-[![Man sentenced to 4 years for Minneapolis police station fire](https://substackcdn.com/image/fetch/$s_!XCzm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70c70b46-d35d-49e1-b77d-c4b1d9c05972_1200x675.jpeg "Man sentenced to 4 years for Minneapolis police station fire")](https://substackcdn.com/image/fetch/$s_!XCzm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70c70b46-d35d-49e1-b77d-c4b1d9c05972_1200x675.jpeg)
+[![Man sentenced to 4 years for Minneapolis police station fire](https://substack-post-media.s3.amazonaws.com/public/images/70c70b46-d35d-49e1-b77d-c4b1d9c05972_1200x675.jpeg "Man sentenced to 4 years for Minneapolis police station fire")](https://substackcdn.com/image/fetch/$s_!XCzm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70c70b46-d35d-49e1-b77d-c4b1d9c05972_1200x675.jpeg)
 
 A police precinct in Minneapolis was burned to the ground
 
@@ -172,7 +156,7 @@ The documentary evidence in the FBI memos does not stand alone. It is corroborat
 
 On **January 14, 2021** — eight days after the Capitol events — **J. Michael Waller**, a senior analyst at the Center for Security Policy and a veteran observer of political movements and intelligence operations, published a piece in *The Federalist* titled *“I Saw Provocateurs at the Capitol Riot on Jan. 6.”*
 
-[![](https://substackcdn.com/image/fetch/$s_!8-JH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e40ffdc-fa7b-44f0-9b26-dceff44cc445_707x605.png)](https://substackcdn.com/image/fetch/$s_!8-JH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e40ffdc-fa7b-44f0-9b26-dceff44cc445_707x605.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/3e40ffdc-fa7b-44f0-9b26-dceff44cc445_707x605.png)](https://substackcdn.com/image/fetch/$s_!8-JH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e40ffdc-fa7b-44f0-9b26-dceff44cc445_707x605.png)
 
 The piece is available at [thefederalist.com](https://thefederalist.com/2021/01/14/i-saw-provocateurs-at-the-capitol-riot-on-jan-6/).
 
@@ -238,23 +222,7 @@ Not as isolated failures.
 
 And, if you want to learn more about patterns surrounding January 6th, you should read this article:
 
-[![Was January 6 a Set Up? 16 Clues of a Deep State Plot](https://substackcdn.com/image/fetch/$s_!xF2U!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06c3fa99-25f2-4c50-bb33-ca2c2fce6f3d_1536x1024.png)
-
-#### Was January 6 a Set Up? 16 Clues of a Deep State Plot
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-August 20, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/was-january-6-a-set-up-16-clues-of)](https://thewhiterabbitreport.substack.com/p/was-january-6-a-set-up-16-clues-of)
-
-*Get your facts straight!* **Subscribe Now (Free or Paid)!**
-
 SPREAD THE WORD.
-
-[Share](https://thewhiterabbitreport.substack.com/p/fbi-january-6-foreknowledge-memos-stood-down-planning?utm_source=substack&utm_medium=email&utm_content=share&action=share)
 
 ---
 

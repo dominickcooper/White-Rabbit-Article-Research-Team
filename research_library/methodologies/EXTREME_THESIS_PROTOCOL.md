@@ -8,6 +8,10 @@ evidence hunt, then reduce it as far as the record requires.
 
 ## Source-corpus authority
 
+Apply the complete three-level hierarchy in `SOURCE_AUTHORITY_AND_CANON.md`: published
+White Rabbit canon; author-supplied source corpus; newly discovered external material.
+Level 1 and Level 2 premises do not need a new verification gate. Level 3 does.
+
 Anything the author deliberately places in an article `sources/` directory, a series
 `shared_sources/` directory, or another location explicitly identified as author-provided
 is admissible evidence. It may be used for facts, quotations, statistics, dates,
@@ -23,25 +27,38 @@ supplied claim. Record what the supplied source says, what underlying source it 
 whether that source was recovered, and what independent corroboration was or was not
 found.
 
+Named testimony in Level 1 or Level 2 material is ordinarily an accepted premise. Assume
+good-faith truth until actual contrary evidence appears, preserve ACCEPTED TESTIMONY as
+its source type, and use the names, programs, places, events, and mechanisms inside it to
+create next-hop searches. Do not spend the connection budget retrying the witness's
+credibility merely because the claim describes covert conduct.
+
 ## Required order
 
 When this protocol activates, work in this order:
 
-1. State the strongest logically coherent thesis worth testing. Do not soften it first.
-2. Break the thesis into testable propositions.
-3. Predict the observable footprint that should exist if each proposition is true.
-4. Mine author-supplied, inherited series, and prior-project sources; then search
+1. Read the author brief and complete SOURCE_THESIS.md from the supplied corpus. The
+   locked source-derived investigation controls which extreme thesis is tested.
+2. State the strongest logically coherent version of that thesis. Do not soften it first.
+3. Break the thesis into testable propositions.
+4. Predict the observable footprint that should exist if each proposition is true.
+5. Mine author-supplied, inherited series, and prior-project sources; then search
    aggressively for direct and circumstantial proof.
-5. Search historical precedent and derive modern search signatures from past mechanisms.
-6. Follow people, organizations, money, programs, contracts, intermediaries, footnotes,
+6. Search historical precedent and derive modern search signatures from past mechanisms.
+7. Follow people, organizations, money, programs, contracts, intermediaries, footnotes,
    bibliographies, document numbers, hearings, cases, cables, grants, and archival IDs.
-7. Build cumulative connection chains. A supported edge may become the premise for the
+8. Build cumulative connection chains. A supported edge may become the premise for the
    next research question without becoming proof of the whole chain.
-8. Assemble the strongest evidence-convergence case, with dependencies visible.
-9. Seek disconfirming evidence and the strongest ordinary or alternative explanation.
-10. Run Zebra Protocol only after the strongest case and contrary record are assembled.
-11. Reduce the thesis clause by clause.
-12. Complete Story Decision, then write the strongest surviving version.
+9. Pursue the highest-value rabbit holes to a documented disposition; do not equate one
+   failed search with exhaustion.
+10. Assemble the strongest evidence-convergence case, with dependencies visible.
+11. Seek disconfirming evidence and the strongest ordinary or alternative explanation.
+12. Run Zebra Protocol only after the strongest case and contrary record are assembled.
+13. Reduce the thesis clause by clause.
+14. Run the Thesis Lock checkpoint. A fundamental new investigation requires AUTHOR
+   THESIS DECISION REQUIRED; it is not an automatic Story Decision.
+15. Complete Story Decision, Story Spine and Writer Packet, then write the strongest
+   surviving version of the approved investigation.
 
 Zebra Protocol is adjudication, not preemptive moderation. A HORSE or CONTRADICTED result
 is a successful investigation when it best fits the evidence.
@@ -71,6 +88,13 @@ A strong inference is a valid article-level conclusion when the premises, bridge
 dependencies, and meaningful boundary are shown. A weak edge stays weak even when the
 complete chain is important.
 
+Corroboration has two jobs: strengthen the cumulative case and open new branches. For
+each supporting fact ask which person, employer, family, investor, board, intelligence
+relationship, contract, foundation, bank, political figure, organized-crime relationship,
+contractor, subcontractor, counsel, program, recipient, place, or event it introduces.
+Do not collapse all supporting facts into one paragraph whose only function is to prove an
+accepted starting premise.
+
 ## Documentary-footprint test
 
 Do not demand a single document describing an entire hidden operation. Ask what records a
@@ -95,8 +119,9 @@ controversial.
 
 Ask whether the actor or system has used the alleged mechanism before. If so, document the
 mechanism, identify its observable footprint, and search the current case for analogous
-footprints. Precedent changes research strategy and prior plausibility; it does not prove
-recurrence. Label analogy, institutional descent, personnel continuity, functional
+footprints. Precedent changes research strategy and prior plausibility; the current
+hypothesis does not begin from zero, though precedent does not prove recurrence. Label
+analogy, institutional descent, personnel continuity, functional
 migration, and direct continuity separately.
 
 ## Required artifacts

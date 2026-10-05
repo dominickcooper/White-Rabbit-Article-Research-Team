@@ -1,15 +1,5 @@
 [
   {
-    "anchor": "Current Events",
-    "url": "https://thewhiterabbitreport.substack.com/s/current-events",
-    "type": "external"
-  },
-  {
-    "anchor": "The White Rabbit Report",
-    "url": "https://substack.com/@thewhiterabbitreport",
-    "type": "external"
-  },
-  {
     "anchor": "USA PATRIOT Act",
     "url": "https://www.justice.gov/archive/ag/speeches/2003/090903nycremarks.htm",
     "type": "external"
@@ -45,26 +35,6 @@
     "type": "internal"
   },
   {
-    "anchor": "Operation Gladio",
-    "url": "https://thewhiterabbitreport.substack.com/p/phoenix-program-template-for-endless-wars-operation-gladio",
-    "type": "internal"
-  },
-  {
-    "anchor": "THE PHOENIX PROGRAM: THE TEMPLATE FOR ENDLESS WARS",
-    "url": "https://thewhiterabbitreport.substack.com/p/phoenix-program-template-for-endless-wars-operation-gladio",
-    "type": "internal"
-  },
-  {
-    "anchor": "The White Rabbit Report",
-    "url": "https://substack.com/profile/269271170-the-white-rabbit-report",
-    "type": "external"
-  },
-  {
-    "anchor": "Read full story",
-    "url": "https://thewhiterabbitreport.substack.com/p/phoenix-program-template-for-endless-wars-operation-gladio",
-    "type": "internal"
-  },
-  {
     "anchor": "Flock FreeForm",
     "url": "https://www.404media.co/how-cops-use-flock-to-track-people-not-cars",
     "type": "external"
@@ -75,8 +45,243 @@
     "type": "external"
   },
   {
-    "anchor": "Or purchase a paid subscription.",
-    "url": "https://thewhiterabbitreport.substack.com/subscribe",
+    "anchor": "Garrett Langley",
+    "url": "https://www.flocksafety.com/blog/flock-safety-ceo-garrett-langley-ted2026",
     "type": "external"
+  },
+  {
+    "anchor": "In a long interview about Flock’s expansion",
+    "url": "https://cheekypint.transistor.fm/26/transcript",
+    "type": "external"
+  },
+  {
+    "anchor": "Axon Enterprise",
+    "url": "https://www.axon.com/",
+    "type": "external"
+  },
+  {
+    "anchor": "$4.7 million minority investment in Flock",
+    "url": "https://investor.axon.com/image/AXON-2020-Annual-Report.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Outpost and Lightpost",
+    "url": "https://www.axon.com/newsroom/press-releases/axon-announces-new-fixed-ALPR-camera-solutions-and-next-gen-AI-advancements-to-expand-real-time-public-safety-ecosystem",
+    "type": "external"
+  },
+  {
+    "anchor": "SEC filings now identify Flock as a competitor in fixed license-plate recognition and FlockOS as a competitor to Axon Fusus",
+    "url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828026011360/axon-20251231.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "March 2026 Article",
+    "url": "https://www.9news.com/article/news/local/denver-removes-flock-license-plate-reader-cameras/73-eaf91d0a-3b90-45f5-8338-dbb9f79a8712",
+    "type": "external"
+  },
+  {
+    "anchor": "replacing Flock with Axon license-plate readers",
+    "url": "https://www.youtube.com/watch",
+    "type": "external"
+  },
+  {
+    "anchor": "connected public-private safety network.",
+    "url": "https://investor.axon.com/2025-05-07-Axon-reports-Q1-2025-revenue-of-604-million%2C-up-31-year-over-year",
+    "type": "external"
+  },
+  {
+    "anchor": "Axon Community Request",
+    "url": "https://www.axon.com/products/community-request",
+    "type": "external"
+  },
+  {
+    "anchor": "Ring",
+    "url": "https://www.axon.com/products/community-request/ring",
+    "type": "external"
+  },
+  {
+    "anchor": "a16z",
+    "url": "https://a16z.com/",
+    "type": "external"
+  },
+  {
+    "anchor": "The power of Flock Safety is in its network.",
+    "url": "https://a16z.com/announcement/investing-in-flock-safety",
+    "type": "external"
+  },
+  {
+    "anchor": "Washington and Silicon Valley are going to have to become friends.",
+    "url": "https://a16z.com/building-american-dynamism",
+    "type": "external"
+  },
+  {
+    "anchor": "Founders Fund",
+    "url": "https://foundersfund.com/portfolio",
+    "type": "external"
+  },
+  {
+    "anchor": "Trae Stephens",
+    "url": "https://foundersfund.com/team/trae-stephens",
+    "type": "external"
+  },
+  {
+    "anchor": "Horowitz Family Foundation",
+    "url": "https://projects.propublica.org/nonprofits/organizations/357050910",
+    "type": "external"
+  },
+  {
+    "anchor": "Ben Horowitz",
+    "url": "https://a16z.com/author/ben-horowitz",
+    "type": "external"
+  },
+  {
+    "anchor": "almost $1.9 million for Flock license plate readers and another $2.47 million for supporting software",
+    "url": "https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift",
+    "type": "external"
+  },
+  {
+    "anchor": "LVMPD Foundation",
+    "url": "https://lvmpdfoundation.org/about-us",
+    "type": "external"
+  },
+  {
+    "anchor": "The Nevada Independent",
+    "url": "https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift",
+    "type": "external"
+  },
+  {
+    "anchor": "$625 million acquisition of Carbyne",
+    "url": "https://www.axon.com/newsroom/press-releases/axon-to-acquire-carbyne",
+    "type": "external"
+  },
+  {
+    "anchor": "described the strategy",
+    "url": "https://www.axon.com/newsroom/press-releases/axon-to-acquire-carbyne",
+    "type": "external"
+  },
+  {
+    "anchor": "Reporty Homeland Security",
+    "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3766639,00.html",
+    "type": "external"
+  },
+  {
+    "anchor": "Ehud Barak",
+    "url": "https://main.knesset.gov.il/EN/About/Lexicon/Pages/barak.aspx",
+    "type": "external"
+  },
+  {
+    "anchor": "Jeffrey Epstein quietly supplied roughly $1 million toward Barak’s Reporty investment",
+    "url": "https://www.forbes.com/sites/thomasbrewster/2026/02/10/epstein-police-surveillance-investments-with-ehud-barak",
+    "type": "external"
+  },
+  {
+    "anchor": "Michael Chertoff",
+    "url": "https://carbyne.com/company/our-team",
+    "type": "external"
+  },
+  {
+    "anchor": "Toka",
+    "url": "https://www.globenewswire.com/news-release/2018/07/16/1537961/0/en/Toka-Launches-to-Help-Strengthen-Countries-Cyber-Defenses.html",
+    "type": "external"
+  },
+  {
+    "anchor": "Palantir and Israel’s Ministry of Defense agreed to a strategic partnership supporting war-related missions",
+    "url": "https://www.palantir.com/assets/xrfr7uokpv1b/3MuEeA8MLbLDAyxixTsiIe/9e4a11a7fb058554a8a1e3cd83e31c09/C134184_finaleprint.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Flock explicitly says",
+    "url": "https://www.flocksafety.com/blog/customers-own-and-control-their-flock-data",
+    "type": "external"
+  },
+  {
+    "anchor": "Customs and Border Protection",
+    "url": "https://www.flocksafety.com/blog/ensuring-local-compliance",
+    "type": "external"
+  },
+  {
+    "anchor": "historical federal pilot list also includes the FBI, ATF, NCIS, and National Park Service",
+    "url": "https://www.flocksafety.com/blog/does-flock-share-data-with-ice",
+    "type": "external"
+  },
+  {
+    "anchor": "“muddled patchwork”",
+    "url": "https://www.warner.senate.gov/public/_cache/files/9/9/99fdb231-e6eb-4a85-8700-c16c9cea69a6/B2B57708CB0278A83937247C8498A48B2ABBD1E4D6FED6B95973D47541321C0D.2026.01.29-letter-to-dhs-oig-re-data.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "$95.9 million five-year Palantir contract",
+    "url": "https://www.nasdaq.com/press-release/homeland-security-investigations-renews-partnership-with-palantir-for-case-management",
+    "type": "external"
+  },
+  {
+    "anchor": "a woman who had self-managed an abortion",
+    "url": "https://www.404media.co/a-texas-cop-searched-license-plate-cameras-nationwide-for-a-woman-who-got-an-abortion",
+    "type": "external"
+  },
+  {
+    "anchor": "Subsequent court records showed the investigation went beyond a simple welfare check",
+    "url": "https://www.404media.co/police-said-they-surveilled-woman-who-had-an-abortion-for-her-safety-court-records-show-they-considered-charging-her-with-a-crime",
+    "type": "external"
+  },
+  {
+    "anchor": "at least 69 police officials had been accused, charged, or convicted of misusing Flock or other license-plate reader systems",
+    "url": "https://www.washingtonpost.com/technology/2026/08/19/we-found-cops-who-misused-flock-their-police-departments-didnt-know",
+    "type": "external"
+  },
+  {
+    "anchor": "August 2026 WAPO article",
+    "url": "https://www.washingtonpost.com/technology/2026/08/19/we-found-cops-who-misused-flock-their-police-departments-didnt-know",
+    "type": "external"
+  },
+  {
+    "anchor": "local departments shared Flock data with Border Patrol",
+    "url": "https://jsis.washington.edu/humanrights/wp-content/uploads/sites/22/2025/10/Leaving-the-Door-Wide-Open-Flock-WA.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "once",
+    "url": "https://www.forbes.com/sites/thomasbrewster/2026/07/17/flock-ceo-sorry-for-labelling-activists-terrorists",
+    "type": "external"
+  },
+  {
+    "anchor": "described DeFlock",
+    "url": "https://www.forbes.com/sites/thomasbrewster/2026/07/17/flock-ceo-sorry-for-labelling-activists-terrorists",
+    "type": "external"
+  },
+  {
+    "anchor": "monitored",
+    "url": "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts",
+    "type": "external"
+  },
+  {
+    "anchor": "anti-Flock social-media activity",
+    "url": "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts",
+    "type": "external"
+  },
+  {
+    "anchor": "someone from Flock reached out",
+    "url": "https://www.youtube.com/watch",
+    "type": "external"
+  },
+  {
+    "anchor": "The International Syndicate",
+    "url": "https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio",
+    "type": "internal"
+  },
+  {
+    "anchor": "formal Senate investigation into its collection, retention, and sharing practices",
+    "url": "https://www.axios.com/2026/08/26/flock-cameras-senate-investigation-josh-hawley",
+    "type": "external"
+  },
+  {
+    "anchor": "CIA Files: Operation Mockingbird",
+    "url": "https://thewhiterabbitreport.substack.com/p/cia-files-operation-mockingbird",
+    "type": "internal"
+  },
+  {
+    "anchor": "Osama Bin Laden & the CIA: The Secret Alliance Behind Al-Qaeda",
+    "url": "https://thewhiterabbitreport.substack.com/p/osama-bin-laden-cia-connection",
+    "type": "internal"
   }
 ]

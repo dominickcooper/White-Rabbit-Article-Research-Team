@@ -112,9 +112,11 @@ def format_curated_archive_memory(results: list[RerankedArchiveMemory]) -> str:
 
     out = [
         "# GEMINI-CURATED PREVIOUS WHITE RABBIT MEMORY\n\n",
-        "These prior articles survived a separate relevance-judgment pass. They are research leads, "
-        "source-reopening aids, style/internal-link candidates, and institutional memory — NOT factual proof. "
-        "Re-verify claims through original sources before treating them as evidence.\n\n",
+        "These published prior articles survived a separate relevance-judgment pass. Their stated findings "
+        "are Level 1 White Rabbit canon and may seed the new investigation without automatic re-verification. "
+        "They are also source-trail, style, and internal-link resources. Reopen original sources when canon "
+        "is contradicted, was marked unresolved/speculative, exact wording matters, the author requests it, "
+        "or the source trail can open a new branch.\n\n",
     ]
     for result in included:
         memory = result.memory

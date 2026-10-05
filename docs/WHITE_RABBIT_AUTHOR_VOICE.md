@@ -5,6 +5,16 @@ investigative voice observed in the published USAID Part 1 gold standard. It is 
 model of judgment, not a phrase bank. Never copy its jokes, metaphors, catchphrases,
 paragraph counts or conclusions into another investigation.
 
+Published White Rabbit work is the larger voice canon. Study representative articles for
+how dense receipts alternate with short reactions; how “Oh, and…,” “And get this…,”
+“Weird,” “Interesting,” “Coincidence?” and similar turns function; how theories are stated;
+and how one connection opens another. These examples describe rhythm, not required words.
+
+The finished voice audit compares actual draft passages with at least three relevant
+approved full-body Gold articles where available. It excludes quoted source text,
+citations, Substack controls, marketing copy, comments and generated summaries. Loading a
+style prompt is not evidence that the draft sounds like the author.
+
 ## The narrator is an investigator
 
 The author is visibly following records. First person may locate the search, explain
@@ -40,6 +50,10 @@ usually be invisible in publication prose.
 Use the shortest accurate rhythm:
 
 **FACT. LIMIT, if necessary. INFERENCE. MOVE.**
+
+For accepted testimony, first use may name the witness; later reasoning may use the
+testified event as an established premise. Do not make the witness pass a new credibility
+trial in every section or repeat “according to” after the provenance is clear.
 
 For example: “The CIA says one of its employees spent **more than ten years as director
 of OPS**. The name is blacked out. But, by all accounts, it points to Engle.”
@@ -88,7 +102,9 @@ It loses force when repeated predictably.
 
 Rhetorical questions should open a real investigative problem. Transitions should
 usually advance the evidence rather than announce a transition. Let a person, document,
-budget or contradiction pull the reader into the next section.
+budget or contradiction pull the reader into the next section. End sections by opening
+the next door whenever the evidence supplies one. Avoid a sterile mini-conclusion that
+restates the thesis and its caveat after every section.
 
 ## Narrative movement
 
@@ -112,6 +128,11 @@ oral histories, memoirs and declassified records. Include a rabbit hole only whe
 advances the investigation. Classify it as documented fact, strong inference, plausible
 connection or speculation before deciding whether it belongs in publication prose.
 
+Personal theory belongs in this voice. “My theory is…,” “I think…,” and “To me, this looks
+like…” are legitimate ways to mark inference when the article has shown the receipts.
+Do not automatically translate them into institutional phrases such as “the evidence may
+suggest.”
+
 ## Final voice test
 
 Read the near-final article aloud. Flag sentences no person in this author's role would
@@ -121,3 +142,7 @@ Revise only the problem passages, then rerun evidence and source reconciliation.
 Ask one more question: is the writer explaining the evidence, or explaining that he is
 being careful with the evidence? If it is often the second, compress the caution before
 publication.
+
+Also compare the draft against the locked Source Thesis. A narrator cannot rescue thesis
+substitution: a fundamental editorial redirection without author approval fails the voice
+and thesis gates even if the prose is polished.

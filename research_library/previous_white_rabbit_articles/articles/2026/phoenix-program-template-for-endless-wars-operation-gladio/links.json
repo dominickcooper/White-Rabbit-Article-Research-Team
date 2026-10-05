@@ -1,15 +1,5 @@
 [
   {
-    "anchor": "Operation Gladio",
-    "url": "https://thewhiterabbitreport.substack.com/s/operation-gladio",
-    "type": "external"
-  },
-  {
-    "anchor": "The White Rabbit Report",
-    "url": "https://substack.com/@thewhiterabbitreport",
-    "type": "external"
-  },
-  {
     "anchor": "The Phoenix Program",
     "url": "https://en.wikipedia.org/wiki/Phoenix_Program",
     "type": "external"
@@ -48,21 +38,6 @@
     "anchor": "stay-behind networks",
     "url": "https://phpisn.ethz.ch/lory1.ethz.ch/collections/coll_gladio/chronology76c1.html",
     "type": "external"
-  },
-  {
-    "anchor": "Operation Gladio: NATO’s Covert War, Secret Armies, and Hidden Agendas The White Rabbit Report · March 16, 2025 Read full story",
-    "url": "https://thewhiterabbitreport.substack.com/p/operation-gladio-natos-covert-war",
-    "type": "internal"
-  },
-  {
-    "anchor": "The White Rabbit Report",
-    "url": "https://substack.com/profile/269271170-the-white-rabbit-report",
-    "type": "external"
-  },
-  {
-    "anchor": "Read full story",
-    "url": "https://thewhiterabbitreport.substack.com/p/operation-gladio-natos-covert-war",
-    "type": "internal"
   },
   {
     "anchor": "the codename",
@@ -115,8 +90,613 @@
     "type": "external"
   },
   {
-    "anchor": "Or purchase a paid subscription.",
-    "url": "https://thewhiterabbitreport.substack.com/subscribe",
+    "anchor": "The peninsula was divided",
+    "url": "https://en.wikipedia.org/wiki/1954_Geneva_Conference",
+    "type": "external"
+  },
+  {
+    "anchor": "United States Army Military Government in Korea",
+    "url": "https://en.wikipedia.org/wiki/United_States_Army_Military_Government_in_Korea",
+    "type": "external"
+  },
+  {
+    "anchor": "Jeju Island",
+    "url": "https://jeju43peace.org/historytruth/fact-truth",
+    "type": "external"
+  },
+  {
+    "anchor": "had been reclassified",
+    "url": "https://www.unesco.org/en/memory-world/revealing-truth-jeju-43-archives",
+    "type": "external"
+  },
+  {
+    "anchor": "Korean military units",
+    "url": "https://jeju43peace.org/jeju-4-3-u-s-intervention",
+    "type": "external"
+  },
+  {
+    "anchor": "were under American oversight",
+    "url": "https://jeju43peace.org/jeju-4-3-u-s-intervention",
+    "type": "external"
+  },
+  {
+    "anchor": "Bodo League",
+    "url": "https://en.wikipedia.org/wiki/Bodo_League_massacre",
+    "type": "external"
+  },
+  {
+    "anchor": "South Korean authorities used the organization",
+    "url": "https://www.jinsil.go.kr/upload/TRCK%20NewsLetter%20Vol.%2011_1697538546330.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "villagers swept into local registration drives",
+    "url": "https://www.jinsil.go.kr/upload/TRCK%20NewsLetter%20Vol.%2011_1697538546330.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "invaded in",
+    "url": "https://en.wikipedia.org/wiki/Korean_War",
+    "type": "external"
+  },
+  {
+    "anchor": "June 1950",
+    "url": "https://en.wikipedia.org/wiki/Korean_War",
+    "type": "external"
+  },
+  {
+    "anchor": "South Korea’s Truth and Reconciliation Commission",
+    "url": "https://en.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_(South_Korea)",
+    "type": "external"
+  },
+  {
+    "anchor": "killed by the military and police",
+    "url": "https://en.wikipedia.org/wiki/Bodo_League_massacre",
+    "type": "external"
+  },
+  {
+    "anchor": "recruited local agents",
+    "url": "https://www.cia.gov/readingroom/document/01410803",
+    "type": "external"
+  },
+  {
+    "anchor": "Declassified CIA material",
+    "url": "https://www.cia.gov/readingroom/document/06146212",
+    "type": "external"
+  },
+  {
+    "anchor": "an official history of Army human intelligence",
+    "url": "https://www.cia.gov/readingroom/docs/DOC_0000872714.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "US Army HUMINT in Korean War",
+    "url": "https://web.archive.org/web/20220115022205/https://www.cia.gov/static/5f627af58cdf8f8f490cd87d1b0cd4e4/Evolution-US-Army-HUMINT.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "French defeat at Điện Biên Phủ",
+    "url": "https://en.wikipedia.org/wiki/Battle_of_Dien_Bien_Phu",
+    "type": "external"
+  },
+  {
+    "anchor": "Hồ Chí Minh",
+    "url": "https://en.wikipedia.org/wiki/Ho_Chi_Minh",
+    "type": "external"
+  },
+  {
+    "anchor": "Ngô Đình Diệm",
+    "url": "https://en.wikipedia.org/wiki/Ng%C3%B4_%C4%90%C3%ACnh_Di%E1%BB%87m",
+    "type": "external"
+  },
+  {
+    "anchor": "Diệm was a Catholic nationalist",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/Ng%C3%B4%2C%20%C4%90%C3%ACnh%20Di%E1%BB%87m%2C%201901-1963",
+    "type": "external"
+  },
+  {
+    "anchor": "Wesley Fishel",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/Fishel%2C%20Wesley%20R",
+    "type": "external"
+  },
+  {
+    "anchor": "Fishel met Diệm",
+    "url": "https://vietnamproject.archives.msu.edu/collections/Wesley%20R.%20Fishel%20Papers",
+    "type": "external"
+  },
+  {
+    "anchor": "arrived in Vietnam in August 1954",
+    "url": "https://history.state.gov/historicaldocuments/frus1955-57v01/d28",
+    "type": "external"
+  },
+  {
+    "anchor": "State Department records",
+    "url": "https://history.state.gov/historicaldocuments/frus1955-57v01/persons",
+    "type": "external"
+  },
+  {
+    "anchor": "Michigan State’s own archive",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/Fishel%2C%20Wesley%20R",
+    "type": "external"
+  },
+  {
+    "anchor": "Diệm",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/Ng%C3%B4%2C%20%C4%90%C3%ACnh%20Di%E1%BB%87m%2C%201901-1963",
+    "type": "external"
+  },
+  {
+    "anchor": "centralized authority",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/Ng%C3%B4%2C%20%C4%90%C3%ACnh%20Di%E1%BB%87m%2C%201901-1963",
+    "type": "external"
+  },
+  {
+    "anchor": "signed a",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/Michigan%20State%20University.%20Vietnam%20Advisory%20Group",
+    "type": "external"
+  },
+  {
+    "anchor": "technical-assistance contract",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/Michigan%20State%20University.%20Vietnam%20Advisory%20Group",
+    "type": "external"
+  },
+  {
+    "anchor": "Vietnamese Bureau of Investigation",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/counterespionage%20training",
+    "type": "external"
+  },
+  {
+    "anchor": "A State Department document",
+    "url": "https://history.state.gov/historicaldocuments/frus1955-57v01/d251",
+    "type": "external"
+  },
+  {
+    "anchor": "251. Telegram From the Ambassador in Vietnam",
+    "url": "https://history.state.gov/historicaldocuments/frus1955-57v01/d251",
+    "type": "external"
+  },
+  {
+    "anchor": "Excerpt from newspaper article",
+    "url": "https://vietnamproject.archives.msu.edu/recordFiles/159-547-1590/UA17-149_000061.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Michigan State’s own Vietnam archive",
+    "url": "https://vietnamproject.archives.msu.edu/terms/subjects/Central%20Intelligence%20Agency",
+    "type": "external"
+  },
+  {
+    "anchor": "Excerpt from Newspaper Article",
+    "url": "https://vietnamproject.archives.msu.edu/recordFiles/159-547-1590/UA17-149_000061.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The archive also confirms",
+    "url": "https://vietnamproject.archives.msu.edu/recordFiles/159-547-1553/UA17-149_000027.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The Office of “Technical Services”",
+    "url": "http://office of technical service/",
+    "type": "external"
+  },
+  {
+    "anchor": "Ramparts",
+    "url": "https://vietnamproject.archives.msu.edu/recordFiles/159-547-2349/UA17-234_000015.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "magazine",
+    "url": "https://vietnamproject.archives.msu.edu/recordFiles/159-547-2349/UA17-234_000015.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "exposed the relationship in 1966",
+    "url": "https://vietnamproject.archives.msu.edu/recordFiles/159-547-2349/UA17-234_000015.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The article",
+    "url": "https://vietnamproject.archives.msu.edu/recordFiles/159-547-2349/UA17-234_000015.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "the Rampart article",
+    "url": "https://vietnamproject.archives.msu.edu/recordFiles/159-547-2349/UA17-234_000015.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Excerpt of 1965 article",
+    "url": "https://www.cia.gov/readingroom/docs/CIA-RDP75-00149R000700270039-7.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "As early as 1964,",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/COIN-Reader-1/Andrade-Willbanks-MA-2006",
+    "type": "external"
+  },
+  {
+    "anchor": "Provincial Reconnaissance Units",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d74",
+    "type": "external"
+  },
+  {
+    "anchor": "U.S. Agency for International Development",
+    "url": "https://en.wikipedia.org/wiki/United_States_Agency_for_International_Development",
+    "type": "external"
+  },
+  {
+    "anchor": "American pacification programs",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/COIN-Reader-1/Andrade-Willbanks-MA-2006",
+    "type": "external"
+  },
+  {
+    "anchor": "placed civilian programs",
+    "url": "https://en.wikipedia.org/wiki/Civil_Operations_and_Revolutionary_Development_Support",
+    "type": "external"
+  },
+  {
+    "anchor": "Military Assistance Command",
+    "url": "https://en.wikipedia.org/wiki/Military_Assistance_Command,_Vietnam",
+    "type": "external"
+  },
+  {
+    "anchor": "Development programs",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/COIN-Reader-1/Andrade-Willbanks-MA-2006",
+    "type": "external"
+  },
+  {
+    "anchor": "The Tet Offensive",
+    "url": "https://en.wikipedia.org/wiki/Tet_Offensive",
+    "type": "external"
+  },
+  {
+    "anchor": "May 1969 National Security Council memorandum",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d74",
+    "type": "external"
+  },
+  {
+    "anchor": "The CIA’s December 1968",
+    "url": "https://www.cia.gov/readingroom/document/0005347532",
+    "type": "external"
+  },
+  {
+    "anchor": "assessment",
+    "url": "https://www.cia.gov/readingroom/document/0005347532",
+    "type": "external"
+  },
+  {
+    "anchor": "CIA’s December 1968 assessment",
+    "url": "https://www.cia.gov/readingroom/docs/DOC_0005347532.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The basic loop",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/COIN-Reader-1/Andrade-Willbanks-MA-2006",
+    "type": "external"
+  },
+  {
+    "anchor": "Unknown PRU team.",
+    "url": "https://www.instagram.com/p/DXiNx_uFAQ4",
+    "type": "external"
+  },
+  {
+    "anchor": "The PRUs had evolved",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/COIN-Reader-1/Andrade-Willbanks-MA-2006",
+    "type": "external"
+  },
+  {
+    "anchor": "A secret May 1969",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d74",
+    "type": "external"
+  },
+  {
+    "anchor": "May 1969 memo",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d74",
+    "type": "external"
+  },
+  {
+    "anchor": "another classified review",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d157",
+    "type": "external"
+  },
+  {
+    "anchor": "just",
+    "url": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
+    "type": "external"
+  },
+  {
+    "anchor": "a bit smaller",
+    "url": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
+    "type": "external"
+  },
+  {
+    "anchor": "more than",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d157",
+    "type": "external"
+  },
+  {
+    "anchor": "one hundred American military advisers",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d157",
+    "type": "external"
+  },
+  {
+    "anchor": "Memo for the 303 Committee",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d157",
+    "type": "external"
+  },
+  {
+    "anchor": "Neutralized",
+    "url": "https://history.state.gov/historicaldocuments/frus1964-68v06/d296",
+    "type": "external"
+  },
+  {
+    "anchor": "The CIA’s own assessment",
+    "url": "https://www.cia.gov/readingroom/document/0005347532",
+    "type": "external"
+  },
+  {
+    "anchor": "The U.S. Army’s later review",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/COIN-Reader-1/Andrade-Willbanks-MA-2006",
+    "type": "external"
+  },
+  {
+    "anchor": "Vietnam : the (last) war the U.S. lost",
+    "url": "https://archive.org/details/vietnamlastwarus0000alle/page/164/mode/2up",
+    "type": "external"
+  },
+  {
+    "anchor": "K. Barton Osborn",
+    "url": "https://www.cia.gov/readingroom/document/01434866",
+    "type": "external"
+  },
+  {
+    "anchor": "Newspaper article",
+    "url": "https://www.proquest.com/openview/bd38fa688e05188518c4c1d110525d13/1",
+    "type": "external"
+  },
+  {
+    "anchor": "William Colby responded",
+    "url": "https://www.cia.gov/readingroom/document/cia-rdp99-00418r000100090001-2",
+    "type": "external"
+  },
+  {
+    "anchor": "monthly neutralization goals",
+    "url": "https://www.cia.gov/readingroom/document/0005347532",
+    "type": "external"
+  },
+  {
+    "anchor": "Army’s Foreign Intelligence Assistance Program",
+    "url": "https://en.wikipedia.org/wiki/Army_Foreign_Intelligence_Assistance_Program",
+    "type": "external"
+  },
+  {
+    "anchor": "U.S. Army School of the Americas",
+    "url": "https://en.wikipedia.org/wiki/Western_Hemisphere_Institute_for_Security_Cooperation",
+    "type": "external"
+  },
+  {
+    "anchor": "described Project X",
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB122/910801%20USSOUTHCOM%20CI%20Training%20(U).pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Iran-Contra",
+    "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+    "type": "external"
+  },
+  {
+    "anchor": "Scandal",
+    "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Contra_affair",
+    "type": "external"
+  },
+  {
+    "anchor": "The",
+    "url": "https://en.wikipedia.org/wiki/Office_of_Public_Safety",
+    "type": "external"
+  },
+  {
+    "anchor": "Office of Public Safety",
+    "url": "https://en.wikipedia.org/wiki/Office_of_Public_Safety",
+    "type": "external"
+  },
+  {
+    "anchor": "sent",
+    "url": "https://history.state.gov/historicaldocuments/frus1961-63v12/d90",
+    "type": "external"
+  },
+  {
+    "anchor": "American police advisers abroad",
+    "url": "https://history.state.gov/historicaldocuments/frus1961-63v12/d90",
+    "type": "external"
+  },
+  {
+    "anchor": "expanded police programs",
+    "url": "https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d415",
+    "type": "external"
+  },
+  {
+    "anchor": "Dan Mitrione",
+    "url": "https://en.wikipedia.org/wiki/Dan_Mitrione",
+    "type": "external"
+  },
+  {
+    "anchor": "directed the Public Safety office in",
+    "url": "https://nsarchive.gwu.edu/article/doj-arguments-inconsistent-purpose-foia-more-frinformsum-842016",
+    "type": "external"
+  },
+  {
+    "anchor": "Uruguay",
+    "url": "https://nsarchive.gwu.edu/article/doj-arguments-inconsistent-purpose-foia-more-frinformsum-842016",
+    "type": "external"
+  },
+  {
+    "anchor": "Mitrione was kidnapped and killed",
+    "url": "https://en.wikipedia.org/wiki/Tupamaros",
+    "type": "external"
+  },
+  {
+    "anchor": "CIA officer",
+    "url": "https://en.wikipedia.org/wiki/Theodore_Shackley",
+    "type": "external"
+  },
+  {
+    "anchor": "Theodore Shackley",
+    "url": "https://en.wikipedia.org/wiki/Theodore_Shackley",
+    "type": "external"
+  },
+  {
+    "anchor": "Shackley personally requested",
+    "url": "https://nsarchive.gwu.edu/document/22829-06-cia-memorandum-theodore-g-shackley",
+    "type": "external"
+  },
+  {
+    "anchor": "Salvador Allende",
+    "url": "https://en.wikipedia.org/wiki/Salvador_Allende",
+    "type": "external"
+  },
+  {
+    "anchor": "Later documents",
+    "url": "https://nsarchive.gwu.edu/briefing-book/chile/2023-09-08/chiles-coup-50-countdown-toward-coup",
+    "type": "external"
+  },
+  {
+    "anchor": "Paul L. Williams’ research",
+    "url": "https://archive.org/download/OperationGladioTheUnholyAllianceBetweenTheVaticanTheCIAAndTheMafia/Operation-Gladio-the-unholy-alliance-between-the-Vatican-the-CIA-and-the-Mafia.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Nugan Hand Bank",
+    "url": "https://en.wikipedia.org/wiki/Nugan_Hand_Bank",
+    "type": "external"
+  },
+  {
+    "anchor": "allegedly",
+    "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p%3Bquery%3DId%3A%22publications%2Ftabledpapers%2FHPP032016002667%22%3Bsrc1%3Dsm1",
+    "type": "external"
+  },
+  {
+    "anchor": "Operation Condor",
+    "url": "https://en.wikipedia.org/wiki/Operation_Condor",
+    "type": "external"
+  },
+  {
+    "anchor": "military governments",
+    "url": "https://history.state.gov/historicaldocuments/frus1977-80v24/d12",
+    "type": "external"
+  },
+  {
+    "anchor": "Declassified State Department records",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76ve11p2/d249",
+    "type": "external"
+  },
+  {
+    "anchor": "KUBARK Counterintelligence Interrogation Manual",
+    "url": "https://www2.gwu.edu/~nsarchiv/NSAEBB/NSAEBB122/CIA%20Kubark%201-60.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "CIA KUBARK Manual",
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB122/CIA%20Kubark%201-60.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "KUBARK",
+    "url": "https://www2.gwu.edu/~nsarchiv/NSAEBB/NSAEBB122/CIA%20Kubark%2061-112.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "discussed",
+    "url": "https://www2.gwu.edu/~nsarchiv/NSAEBB/NSAEBB122/CIA%20Kubark%2061-112.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "National Security Archive notes",
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB122",
+    "type": "external"
+  },
+  {
+    "anchor": "Abu Ghraib",
+    "url": "https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse",
+    "type": "external"
+  },
+  {
+    "anchor": "1983",
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB122/CIA%20Human%20Res%20Exploit%20A1-G11.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Human Resource Exploitation Training Manual",
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB122/CIA%20Human%20Res%20Exploit%20A1-G11.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The USA PATRIOT Act",
+    "url": "https://en.wikipedia.org/wiki/Patriot_Act",
+    "type": "external"
+  },
+  {
+    "anchor": "had gathered fragments of information",
+    "url": "https://www.justice.gov/archive/olp/pdf/patriot_report_from_the_field0704.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "removed those barriers",
+    "url": "https://www.justice.gov/sites/default/files/ag/legacy/2005/04/19/sabintestimony4_19.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The method",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/July-August-2018/Lushenko",
+    "type": "external"
+  },
+  {
+    "anchor": "F3EAD",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/May-June-2017/The-State-of-Afghanistans-Intelligence-Enterprise",
+    "type": "external"
+  },
+  {
+    "anchor": "material recovered",
+    "url": "https://www.armyupress.army.mil/Journals/Military-Review/English-Edition-Archives/May-June-2017/The-State-of-Afghanistans-Intelligence-Enterprise",
+    "type": "external"
+  },
+  {
+    "anchor": "strengthened the information-sharing",
+    "url": "https://www.justice.gov/archive/ll/subs/congress/hjcpatriotactcombinedresponses3.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "training material",
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB122",
+    "type": "external"
+  },
+  {
+    "anchor": "Then came",
+    "url": "https://www.govinfo.gov/content/pkg/CHRG-110shrg47298/html/CHRG-110shrg47298.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "January 6th",
+    "url": "https://thewhiterabbitreport.substack.com/p/was-january-6-a-set-up-16-clues-of",
+    "type": "internal"
+  },
+  {
+    "anchor": "official American count",
+    "url": "https://www.cia.gov/readingroom/docs/CIA-RDP80R01720R001100090041-2.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "closer to 40,000",
+    "url": "https://en.wikipedia.org/wiki/Phoenix_Program",
+    "type": "external"
+  },
+  {
+    "anchor": "Project X",
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB122",
+    "type": "external"
+  },
+  {
+    "anchor": ",",
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB122",
     "type": "external"
   }
 ]

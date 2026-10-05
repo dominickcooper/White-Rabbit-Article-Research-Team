@@ -1,22 +1,12 @@
-[Shadow Reports](https://thewhiterabbitreport.substack.com/s/shadow-reports/?utm_source=substack&utm_medium=menu)
-
 # PEARL HARBOR COVER-UP: The False Flag That Launched World War II
 
-### Was Pearl Harbor truly a surprise attack—or a calculated step into World War II? Discover the key players, the intelligence warnings, and the theory that reshapes how we see December 7, 1941.
-
-[![The White Rabbit Report's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)](https://substack.com/@thewhiterabbitreport)
-
-[The White Rabbit Report](https://substack.com/@thewhiterabbitreport)
-
-Mar 17, 2026
-
-[![](https://substackcdn.com/image/fetch/$s_!Y-f2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66d1ac2a-9a33-481c-9b50-2f1e0552258a_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!Y-f2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66d1ac2a-9a33-481c-9b50-2f1e0552258a_1536x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/66d1ac2a-9a33-481c-9b50-2f1e0552258a_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!Y-f2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66d1ac2a-9a33-481c-9b50-2f1e0552258a_1536x1024.png)
 
 By late 1940, **U.S. codebreakers had cracked Japan’s top diplomatic cipher** (called PURPLE). That meant American intelligence was reading Tokyo’s secret messages to its embassies almost as fast as the Japanese diplomats did.
 
 **True story.**
 
-[![](https://substackcdn.com/image/fetch/$s_!_OKf!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6733ee86-3cf1-4e83-b65c-f986ab969b89_567x117.png)](https://substackcdn.com/image/fetch/$s_!_OKf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6733ee86-3cf1-4e83-b65c-f986ab969b89_567x117.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/6733ee86-3cf1-4e83-b65c-f986ab969b89_567x117.png)](https://substackcdn.com/image/fetch/$s_!_OKf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6733ee86-3cf1-4e83-b65c-f986ab969b89_567x117.png)
 
 Excerpt from [Defense Visual Information Distribution Service](https://www.dvidshub.net/news/454045/sis-makes-breakthrough-against-japanese-code-20-sep-1940) (DVIDS)
 
@@ -70,8 +60,6 @@ You can wave all this away as **bad luck**, **bureaucracy**, or **coincidence**.
 
 **One way or another.**
 
-*Hey, you!* If you haven’t yet, **make sure to subscribe to receive more highly-researched articles like this one!**
-
 ---
 
 ## THE BACK DOOR TO WAR
@@ -88,7 +76,7 @@ An unprovoked attack, however, **would instantly change that.**
 
 ## THE MCCOLLUM MEMO
 
-[![undefined](https://substackcdn.com/image/fetch/$s_!tgXT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f7f8ca6-6d6d-4fbc-8782-53e5e151fc12_376x456.jpeg "undefined")](https://substackcdn.com/image/fetch/$s_!tgXT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f7f8ca6-6d6d-4fbc-8782-53e5e151fc12_376x456.jpeg)
+[![undefined](https://substack-post-media.s3.amazonaws.com/public/images/7f7f8ca6-6d6d-4fbc-8782-53e5e151fc12_376x456.jpeg "undefined")](https://substackcdn.com/image/fetch/$s_!tgXT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f7f8ca6-6d6d-4fbc-8782-53e5e151fc12_376x456.jpeg)
 
 Arthur McCollum
 
@@ -119,13 +107,13 @@ That is an **ultimatum.**
 
 Not only that, it seems that this memo indicates the US was **actively anticipating** entering the war:
 
-[![](https://substackcdn.com/image/fetch/$s_!Zrz5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f17ba57-a82e-4c0c-b6fe-31bf98b1a754_639x59.png)](https://substackcdn.com/image/fetch/$s_!Zrz5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f17ba57-a82e-4c0c-b6fe-31bf98b1a754_639x59.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/2f17ba57-a82e-4c0c-b6fe-31bf98b1a754_639x59.png)](https://substackcdn.com/image/fetch/$s_!Zrz5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f17ba57-a82e-4c0c-b6fe-31bf98b1a754_639x59.png)
 
 Excerpt from [Page 2 of the McCollum Memo](https://whatreallyhappened.com/WRHARTICLES/McCollum/page2.gif): “In other words, after England has been disposed of, her enemies will decide whether or not to immediately proceed with an attack on The United States.”
 
 So **the fall of England** was expected. Then they go on to say:
 
-[![](https://substackcdn.com/image/fetch/$s_!SvPQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47765e93-e148-4518-9076-decb01a386b8_668x170.png)](https://substackcdn.com/image/fetch/$s_!SvPQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47765e93-e148-4518-9076-decb01a386b8_668x170.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/47765e93-e148-4518-9076-decb01a386b8_668x170.png)](https://substackcdn.com/image/fetch/$s_!SvPQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47765e93-e148-4518-9076-decb01a386b8_668x170.png)
 
 Excerpt from [Page 2 of the McCollum Memo](https://whatreallyhappened.com/WRHARTICLES/McCollum/page2.gif): “The possibility of [The British Fleet Failing] would be materially lessened were we actually allied in war with the British or at the very least were taking active measures to relieve the pressure on Britain in other spheres of action.”
 
@@ -148,7 +136,7 @@ In each case, **pressure intended to deter** was interpreted as **encirclement**
 
 And when you look at **[page 4 of the McCollum Memo](https://whatreallyhappened.com/WRHARTICLES/McCollum/page4.gif)** it becomes pretty clear what they’re wanting:
 
-[![](https://substackcdn.com/image/fetch/$s_!GHQi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f3ac211-2ae0-4b7d-bc44-16f8de7f3187_662x582.png)](https://substackcdn.com/image/fetch/$s_!GHQi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f3ac211-2ae0-4b7d-bc44-16f8de7f3187_662x582.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/0f3ac211-2ae0-4b7d-bc44-16f8de7f3187_662x582.png)](https://substackcdn.com/image/fetch/$s_!GHQi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f3ac211-2ae0-4b7d-bc44-16f8de7f3187_662x582.png)
 
 **[Page 4 of the McCollum Memo](https://whatreallyhappened.com/WRHARTICLES/McCollum/page4.gif)**
 
@@ -172,12 +160,12 @@ Well…*I come with receipts.*
 
 **[Arthur McCollum](https://en.wikipedia.org/wiki/Arthur_H._McCollum) wasn’t a random officer.**
 
-[![Oral Histories | U.S. Naval Institute](https://substackcdn.com/image/fetch/$s_!QA3j!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb58825b3-9a82-45de-a2bf-934c32728374_550x330.jpeg "Oral Histories | U.S. Naval Institute")](https://substackcdn.com/image/fetch/$s_!QA3j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb58825b3-9a82-45de-a2bf-934c32728374_550x330.jpeg)
+[![Oral Histories | U.S. Naval Institute](https://substack-post-media.s3.amazonaws.com/public/images/b58825b3-9a82-45de-a2bf-934c32728374_550x330.jpeg "Oral Histories | U.S. Naval Institute")](https://substackcdn.com/image/fetch/$s_!QA3j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb58825b3-9a82-45de-a2bf-934c32728374_550x330.jpeg)
 
 He headed **Naval Intelligence’s Far East desk**.   
 *Later on, he would work for the **CIA** for a **little bit.***
 
-[![](https://substackcdn.com/image/fetch/$s_!36Do!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae6327a6-a964-4d65-8832-eff60d094d7c_470x71.png)](https://substackcdn.com/image/fetch/$s_!36Do!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae6327a6-a964-4d65-8832-eff60d094d7c_470x71.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/ae6327a6-a964-4d65-8832-eff60d094d7c_470x71.png)](https://substackcdn.com/image/fetch/$s_!36Do!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae6327a6-a964-4d65-8832-eff60d094d7c_470x71.png)
 
 Excerpt from 1986 book **[The Pacific war remembered : an oral history collection](https://archive.org/details/pacificwarrememb0000unse_y2t9/page/146/mode/2up)**
 
@@ -187,7 +175,7 @@ So…*that’s interesting.*
 
 He oversaw **intercepted and decoded Japanese communications** flowing toward the White House. His October 7, 1940 memo wasn’t buried—it was sent to senior Navy officials, including **[Captain Dudley Knox](https://en.wikipedia.org/wiki/Dudley_Wright_Knox)**, who reviewed it and largely concurred.
 
-[![](https://substackcdn.com/image/fetch/$s_!Hoip!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F332b822d-f0fd-4a9b-8a90-9079dc692da0_250x316.jpeg)](https://substackcdn.com/image/fetch/$s_!Hoip!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F332b822d-f0fd-4a9b-8a90-9079dc692da0_250x316.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/332b822d-f0fd-4a9b-8a90-9079dc692da0_250x316.jpeg)](https://substackcdn.com/image/fetch/$s_!Hoip!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F332b822d-f0fd-4a9b-8a90-9079dc692da0_250x316.jpeg)
 
 Dudley Wright Knox
 
@@ -203,23 +191,23 @@ In 1941, **U.S. policy began to mirror** the memo’s **eight recommendations:**
 
 That last one directly reflected the memo’s call to **send cruisers** into the Pacific.
 
-[![](https://substackcdn.com/image/fetch/$s_!YVh5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4f434f0-ace1-4e41-b483-288cab8cca40_702x268.png)](https://substackcdn.com/image/fetch/$s_!YVh5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4f434f0-ace1-4e41-b483-288cab8cca40_702x268.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/a4f434f0-ace1-4e41-b483-288cab8cca40_702x268.png)](https://substackcdn.com/image/fetch/$s_!YVh5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4f434f0-ace1-4e41-b483-288cab8cca40_702x268.png)
 
 [Page 2150 of the Congressional Investigation Pearl Harbor Attack](http://www.ibiblio.org/pha/congress/Vol16.pdf). Admiral Harold R. Stark is writing and makes it clear that Roosevelt knew about the “cruises”.
 
-[![](https://substackcdn.com/image/fetch/$s_!lC0j!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca3e4653-edfa-4f9b-bb65-a7178536bad2_689x119.png)](https://substackcdn.com/image/fetch/$s_!lC0j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca3e4653-edfa-4f9b-bb65-a7178536bad2_689x119.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/ca3e4653-edfa-4f9b-bb65-a7178536bad2_689x119.png)](https://substackcdn.com/image/fetch/$s_!lC0j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca3e4653-edfa-4f9b-bb65-a7178536bad2_689x119.png)
 
 [Page 2151 of the Congressional Investigation Pearl Harbor Attack](http://www.ibiblio.org/pha/congress/Vol16.pdf). Admiral Harold R. Stark warned FDR that the cruises “”will precipitate hostilities,”
 
 Meanwhile, **[Admiral James O. Richardson](https://en.wikipedia.org/wiki/James_O._Richardson)** opposed keeping the fleet exposed in Hawaii.
 
-[![](https://substackcdn.com/image/fetch/$s_!JcHz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7c39850-ce03-41c9-8a76-c823e9d37745_1280x1014.jpeg)](https://substackcdn.com/image/fetch/$s_!JcHz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7c39850-ce03-41c9-8a76-c823e9d37745_1280x1014.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/f7c39850-ce03-41c9-8a76-c823e9d37745_1280x1014.jpeg)](https://substackcdn.com/image/fetch/$s_!JcHz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7c39850-ce03-41c9-8a76-c823e9d37745_1280x1014.jpeg)
 
 Admiral Richardson was the Commander in Chief, United States Fleet, from January 1940 until February 1941.
 
 In his memoirs (later published) he recalled Roosevelt as saying (or implying) that *Japan would eventually commit “an overt act” that would bring the nation into war*.
 
-[![](https://substackcdn.com/image/fetch/$s_!eLdT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd322a662-5b10-4bb6-ad77-082ff76eb7fa_584x550.png)](https://substackcdn.com/image/fetch/$s_!eLdT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd322a662-5b10-4bb6-ad77-082ff76eb7fa_584x550.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/d322a662-5b10-4bb6-ad77-082ff76eb7fa_584x550.png)](https://substackcdn.com/image/fetch/$s_!eLdT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd322a662-5b10-4bb6-ad77-082ff76eb7fa_584x550.png)
 
 **[On the treadmill to Pearl Harbor : the memoirs of Admiral James O. Richardson as told to George C. Dyer](https://archive.org/details/ontreadmilltopea0000rich/page/426/mode/2up)**
 
@@ -247,7 +235,7 @@ The memo existed. It circulated at high levels.
 
 ## SUMMER & FALL 1941: THE VISE TIGHTENS
 
-[![](https://substackcdn.com/image/fetch/$s_!XKPr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81bcc293-cfb6-4260-97f2-a2379dab1217_459x385.png)](https://substackcdn.com/image/fetch/$s_!XKPr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81bcc293-cfb6-4260-97f2-a2379dab1217_459x385.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/81bcc293-cfb6-4260-97f2-a2379dab1217_459x385.png)](https://substackcdn.com/image/fetch/$s_!XKPr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F81bcc293-cfb6-4260-97f2-a2379dab1217_459x385.png)
 
 [July 28 1941 Paper](https://trove.nla.gov.au/newspaper/article/17758791) from The Sydney Morning Herald
 
@@ -281,7 +269,7 @@ So, with no good move, **they stall.**
 
 Secretary of State **Cordell Hull** [presents Japan with terms](https://en.wikipedia.org/wiki/Hull_note) demanding withdrawal from China.
 
-[![Portrait of Cordell Hull](https://substackcdn.com/image/fetch/$s_!pF4g!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa80c0475-72a5-4e99-8a27-b58adacef6f8_640x864.jpeg "Portrait of Cordell Hull")](https://substackcdn.com/image/fetch/$s_!pF4g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa80c0475-72a5-4e99-8a27-b58adacef6f8_640x864.jpeg)
+[![Portrait of Cordell Hull](https://substack-post-media.s3.amazonaws.com/public/images/a80c0475-72a5-4e99-8a27-b58adacef6f8_640x864.jpeg "Portrait of Cordell Hull")](https://substackcdn.com/image/fetch/$s_!pF4g!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa80c0475-72a5-4e99-8a27-b58adacef6f8_640x864.jpeg)
 
 Cordell Hull
 
@@ -298,8 +286,6 @@ By late November, **[Washington knows something big is coming](https://artsandcu
 But they don’t know exactly where.
 
 Or at least—***that’s the official story.***
-
-***It’s getting good!*** Make sure to subscribe, so you don’t miss a thing!
 
 ---
 
@@ -327,13 +313,13 @@ They didn’t even tell their commanders: **Rear Admiral Husband E. Kimmel** (th
 
 And yeah…they were **PISSED**.
 
-[![](https://substackcdn.com/image/fetch/$s_!n33N!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16cf55fa-fcff-4fbd-a11b-9f2b89a9d1f6_606x359.png)](https://substackcdn.com/image/fetch/$s_!n33N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16cf55fa-fcff-4fbd-a11b-9f2b89a9d1f6_606x359.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/16cf55fa-fcff-4fbd-a11b-9f2b89a9d1f6_606x359.png)](https://substackcdn.com/image/fetch/$s_!n33N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16cf55fa-fcff-4fbd-a11b-9f2b89a9d1f6_606x359.png)
 
 Congressional Investigation Pearl Harbor Attack - [Testimony by Major General Walter C. Short](https://www.ibiblio.org/pha/congress/Vol07.pdf)
 
 **Admiral Kimmel** was equally pissed:
 
-[![](https://substackcdn.com/image/fetch/$s_!eKCF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35ad6305-d901-414a-a001-04192cc50666_631x149.png)](https://substackcdn.com/image/fetch/$s_!eKCF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35ad6305-d901-414a-a001-04192cc50666_631x149.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/35ad6305-d901-414a-a001-04192cc50666_631x149.png)](https://substackcdn.com/image/fetch/$s_!eKCF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F35ad6305-d901-414a-a001-04192cc50666_631x149.png)
 
 Congressional Investigation Pearl Harbor Attack - [Testimony by Rear Admiral Husband E. Kimmel](https://www.ibiblio.org/pha/congress/Vol06.pdf)
 
@@ -341,11 +327,11 @@ Well, about a month later, Washington has received more reports at this time, mo
 
 **[On November 27, 1941](https://olli.gmu.edu/docstore/700docs/0901-703-PEARL%20HARBOR%20WARNINGS.pdf),** Washington sends a “war warning” to commanders across the Pacific.
 
-[![](https://substackcdn.com/image/fetch/$s_!Xaj5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55e21744-5417-479a-a863-1c9a5abfc64e_593x181.png)](https://substackcdn.com/image/fetch/$s_!Xaj5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55e21744-5417-479a-a863-1c9a5abfc64e_593x181.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/55e21744-5417-479a-a863-1c9a5abfc64e_593x181.png)](https://substackcdn.com/image/fetch/$s_!Xaj5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55e21744-5417-479a-a863-1c9a5abfc64e_593x181.png)
 
 Message Sent by Navy Department. War Plan 46 dictated that the ships available at Pearl Harbor should stay there as a base, rather than dispersing it widely or heightening alert.
 
-[![](https://substackcdn.com/image/fetch/$s_!-yZY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c34eb44-b1e1-446e-ac25-e340d05d05ad_585x263.png)](https://substackcdn.com/image/fetch/$s_!-yZY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c34eb44-b1e1-446e-ac25-e340d05d05ad_585x263.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/0c34eb44-b1e1-446e-ac25-e340d05d05ad_585x263.png)](https://substackcdn.com/image/fetch/$s_!-yZY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c34eb44-b1e1-446e-ac25-e340d05d05ad_585x263.png)
 
 War Department dispatch
 
@@ -377,7 +363,7 @@ If you truly believe war could break out **at any moment**, and you’ve forward
 
 *Why wouldn’t Hawaii be placed on **the highest alert?***
 
-[![](https://substackcdn.com/image/fetch/$s_!0sR3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F467151f8-001e-4a23-9ea0-5d9ea4dab6d7_451x237.png)](https://substackcdn.com/image/fetch/$s_!0sR3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F467151f8-001e-4a23-9ea0-5d9ea4dab6d7_451x237.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/467151f8-001e-4a23-9ea0-5d9ea4dab6d7_451x237.png)](https://substackcdn.com/image/fetch/$s_!0sR3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F467151f8-001e-4a23-9ea0-5d9ea4dab6d7_451x237.png)
 
 [Dec 1 1941 memo](https://artsandculture.google.com/story/pearl-harbor-why-was-the-attack-a-surprise-u-s-national-archives/5QVRxdyVqxIA8A?hl=en) from FDR to Secretary Cordell Hull
 
@@ -395,7 +381,7 @@ And the timeline only gets stranger from here.
 
 Japanese naval officer [Takeo Yoshikawa](https://en.wikipedia.org/wiki/Takeo_Yoshikawa) operated in Hawaii under a false identity and transmitted detailed reports about ship locations.
 
-[![https://www.militarytimes.com/resizer/v2/EH3APOVXFZEDLMEF4D52K67UKE.jpg?auth=41ea0df61855c3528e8cf9b2db4ac0d72572d9c87d30540bebcd4650363b1c7f&width=300](https://substackcdn.com/image/fetch/$s_!0woy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c963891-f841-4429-857f-801a0352c455_300x445.jpeg "https://www.militarytimes.com/resizer/v2/EH3APOVXFZEDLMEF4D52K67UKE.jpg?auth=41ea0df61855c3528e8cf9b2db4ac0d72572d9c87d30540bebcd4650363b1c7f&width=300")](https://substackcdn.com/image/fetch/$s_!0woy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c963891-f841-4429-857f-801a0352c455_300x445.jpeg)
+[![https://www.militarytimes.com/resizer/v2/EH3APOVXFZEDLMEF4D52K67UKE.jpg?auth=41ea0df61855c3528e8cf9b2db4ac0d72572d9c87d30540bebcd4650363b1c7f&width=300](https://substack-post-media.s3.amazonaws.com/public/images/8c963891-f841-4429-857f-801a0352c455_300x445.jpeg "https://www.militarytimes.com/resizer/v2/EH3APOVXFZEDLMEF4D52K67UKE.jpg?auth=41ea0df61855c3528e8cf9b2db4ac0d72572d9c87d30540bebcd4650363b1c7f&width=300")](https://substackcdn.com/image/fetch/$s_!0woy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c963891-f841-4429-857f-801a0352c455_300x445.jpeg)
 
 Takeo Yoshikawa
 
@@ -407,7 +393,7 @@ Yoshikawa became friends with a [friendly Japanese woman](https://warfarehistory
 
 Yoshikawa also worked with a German spy in the area, **Bernard Otto Kuehn.**
 
-[![](https://substackcdn.com/image/fetch/$s_!a9nn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0529ff7-db66-4889-a8cc-92373b62e711_1400x945.webp)](https://substackcdn.com/image/fetch/$s_!a9nn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0529ff7-db66-4889-a8cc-92373b62e711_1400x945.webp)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/d0529ff7-db66-4889-a8cc-92373b62e711_1400x945.webp)](https://substackcdn.com/image/fetch/$s_!a9nn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0529ff7-db66-4889-a8cc-92373b62e711_1400x945.webp)
 
 Bernard Otto Kuehn
 
@@ -429,7 +415,7 @@ AND, in case you’re still on the fence of the **foreknowledge of Pearl Harbor*
 
 ## THE CHURCHILL FACTOR
 
-[![](https://substackcdn.com/image/fetch/$s_!K8-Z!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8bf74b3f-e4a6-4c36-a77b-38da470987b9_1160x629.jpeg)](https://substackcdn.com/image/fetch/$s_!K8-Z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8bf74b3f-e4a6-4c36-a77b-38da470987b9_1160x629.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/8bf74b3f-e4a6-4c36-a77b-38da470987b9_1160x629.jpeg)](https://substackcdn.com/image/fetch/$s_!K8-Z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8bf74b3f-e4a6-4c36-a77b-38da470987b9_1160x629.jpeg)
 
 Up to this point, the “back door to war” theory mostly centers on **Roosevelt and Washington**.
 
@@ -445,10 +431,6 @@ And, by the looks of it, Churchill may have known what was coming **before Roose
 
 ### THE CODEBREAKERS IN SINGAPORE
 
-![James Rusbridger (L) and Eric Nave (R)](https://substackcdn.com/image/fetch/$s_!K8IX!,w_720,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facec82b9-7ec6-4f9a-85e7-8b274db7945e_140x200.jpeg)![James Rusbridger (L) and Eric Nave (R)](https://substackcdn.com/image/fetch/$s_!Q1vy!,w_720,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ee7e914-4350-4556-a7b8-b6e0523793e6_648x980.jpeg)
-
-James Rusbridger (L) and Eric Nave (R)
-
 In 1991, British historian **[James Rusbridger](https://en.wikipedia.org/wiki/James_Rusbridger)** and former naval cryptologist **[Eric Nave](https://en.wikipedia.org/wiki/Eric_Nave)** published a book titled *Betrayal at Pearl Harbor*.
 
 Rusbridger was **not** a fringe writer.
@@ -459,7 +441,7 @@ Their claim was explosive, to say the least.
 
 They argued that the British **[Far East Combined Bureau](https://en.wikipedia.org/wiki/Far_East_Combined_Bureau) (FECB)** in Singapore had cracked Japan’s naval operational code **JN-25** as early as **1939**.
 
-[![Betrayal at Pearl Harbor: How Churchill Lured Roosevelt into World War II  by James Rusbridger | Goodreads](https://substackcdn.com/image/fetch/$s_!BP0S!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a60affb-4948-44e1-8018-444c1658cf4e_313x475.jpeg "Betrayal at Pearl Harbor: How Churchill Lured Roosevelt into World War II  by James Rusbridger | Goodreads")](https://substackcdn.com/image/fetch/$s_!BP0S!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a60affb-4948-44e1-8018-444c1658cf4e_313x475.jpeg)
+[![Betrayal at Pearl Harbor: How Churchill Lured Roosevelt into World War II  by James Rusbridger | Goodreads](https://substack-post-media.s3.amazonaws.com/public/images/8a60affb-4948-44e1-8018-444c1658cf4e_313x475.jpeg "Betrayal at Pearl Harbor: How Churchill Lured Roosevelt into World War II  by James Rusbridger | Goodreads")](https://substackcdn.com/image/fetch/$s_!BP0S!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a60affb-4948-44e1-8018-444c1658cf4e_313x475.jpeg)
 
 [Betrayal at Pearl Harbor: How Churchill Lured Roosevelt into World War II](https://www.goodreads.com/book/show/1976612.Betrayal_at_Pearl_Harbor), by James Rusbridger and Eric Nave
 
@@ -479,7 +461,7 @@ By **November 26**, Burnett reportedly warned London that the only logical targe
 
 ### BRITAIN’S DESPERATE MOMENT
 
-[![No photo description available.](https://substackcdn.com/image/fetch/$s_!WvdR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45fbc616-2eee-4b04-86c0-3ce0e2ca7324_700x420.jpeg "No photo description available.")](https://substackcdn.com/image/fetch/$s_!WvdR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45fbc616-2eee-4b04-86c0-3ce0e2ca7324_700x420.jpeg)
+[![No photo description available.](https://substack-post-media.s3.amazonaws.com/public/images/45fbc616-2eee-4b04-86c0-3ce0e2ca7324_700x420.jpeg "No photo description available.")](https://substackcdn.com/image/fetch/$s_!WvdR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45fbc616-2eee-4b04-86c0-3ce0e2ca7324_700x420.jpeg)
 
 NYT Article September 1, 1939.
 
@@ -513,15 +495,9 @@ Congress resisted.
 
 Here’s a clip from Charles Lindbergh’s famous speech “[Who Are the War Agitators](https://www.toqonline.com/archives/v3n4/TOQv3n4Lindbergh.pdf)?”:
 
-0:00
-
--9:15
-
-Audio playback is not supported on your browser. Please upgrade.
-
 *Ironically, **this speech was made on September 11th, 1941.**Exactly 60 years before **September 11th, 2001.***
 
-[![](https://substackcdn.com/image/fetch/$s_!n4BA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb38e56f7-6396-4032-be69-b2feeff717bb_539x308.png)](https://substackcdn.com/image/fetch/$s_!n4BA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb38e56f7-6396-4032-be69-b2feeff717bb_539x308.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/b38e56f7-6396-4032-be69-b2feeff717bb_539x308.png)](https://substackcdn.com/image/fetch/$s_!n4BA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb38e56f7-6396-4032-be69-b2feeff717bb_539x308.png)
 
 “[Who Are the War Agitators](https://www.toqonline.com/archives/v3n4/TOQv3n4Lindbergh.pdf)?”
 
@@ -535,7 +511,7 @@ Something dramatic would be required to change that.
 
 Despite the famous wartime photos of the two leaders smiling together, Churchill and Roosevelt [were not originally close friends](https://archive.org/details/franklindrooseve0000dani_j0j9/page/n9/mode/2up?q=stinker).
 
-[![](https://substackcdn.com/image/fetch/$s_!4wst!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8660ef-348f-4030-aa4a-119f0a5976d6_688x291.png)](https://substackcdn.com/image/fetch/$s_!4wst!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8660ef-348f-4030-aa4a-119f0a5976d6_688x291.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/7c8660ef-348f-4030-aa4a-119f0a5976d6_688x291.png)](https://substackcdn.com/image/fetch/$s_!4wst!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8660ef-348f-4030-aa4a-119f0a5976d6_688x291.png)
 
 Excerpt from “Franklin D. Roosevelt”, [a biography by Daniel Rogers](https://www.press.uillinois.edu/books/?id=p083808).
 
@@ -594,7 +570,7 @@ So according to Rusbridger…
 
 ### A DELIBERATE SILENCE?
 
-[![Britain on Fire: How Churchill Defied the Blitz](https://substackcdn.com/image/fetch/$s_!qYYG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a5e5463-c8ca-4354-aff1-7539360c759c_686x386.jpeg "Britain on Fire: How Churchill Defied the Blitz")](https://substackcdn.com/image/fetch/$s_!qYYG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a5e5463-c8ca-4354-aff1-7539360c759c_686x386.jpeg)
+[![Britain on Fire: How Churchill Defied the Blitz](https://substack-post-media.s3.amazonaws.com/public/images/5a5e5463-c8ca-4354-aff1-7539360c759c_686x386.jpeg "Britain on Fire: How Churchill Defied the Blitz")](https://substackcdn.com/image/fetch/$s_!qYYG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a5e5463-c8ca-4354-aff1-7539360c759c_686x386.jpeg)
 
 There was another complication.
 
@@ -624,7 +600,7 @@ Or protect the secret and let events unfold.
 
 ### DID ROOSEVELT KNOW?
 
-[![The Mythology of Roosevelt and the New Deal: Published Paper - Independent  Institute](https://substackcdn.com/image/fetch/$s_!NGuI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe634a413-dce4-463f-80fa-60f432bd8404_789x414.jpeg "The Mythology of Roosevelt and the New Deal: Published Paper - Independent  Institute")](https://substackcdn.com/image/fetch/$s_!NGuI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe634a413-dce4-463f-80fa-60f432bd8404_789x414.jpeg)
+[![The Mythology of Roosevelt and the New Deal: Published Paper - Independent  Institute](https://substack-post-media.s3.amazonaws.com/public/images/e634a413-dce4-463f-80fa-60f432bd8404_789x414.jpeg "The Mythology of Roosevelt and the New Deal: Published Paper - Independent  Institute")](https://substackcdn.com/image/fetch/$s_!NGuI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe634a413-dce4-463f-80fa-60f432bd8404_789x414.jpeg)
 
 That leads to the final question.
 
@@ -657,7 +633,7 @@ The man most often suspected of controlling this flow was **[Admiral Richmond K.
 Turner was responsible for the creation of the “Underwater Demolition Teams” (UDT).  
 **You now know them as Navy SEALs.**
 
-[![](https://substackcdn.com/image/fetch/$s_!z6bK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b8886e-7372-4f51-8c15-fe17561a25be_250x317.jpeg)](https://substackcdn.com/image/fetch/$s_!z6bK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b8886e-7372-4f51-8c15-fe17561a25be_250x317.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/a0b8886e-7372-4f51-8c15-fe17561a25be_250x317.jpeg)](https://substackcdn.com/image/fetch/$s_!z6bK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b8886e-7372-4f51-8c15-fe17561a25be_250x317.jpeg)
 
 Richmond K. Turner
 
@@ -685,7 +661,7 @@ Different motives.
 
 **December 7, 1941.**
 
-[![](https://substackcdn.com/image/fetch/$s_!oDbQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0656f7b3-0194-4412-b615-c5a0bfe477ee_3840x1920.avif)](https://substackcdn.com/image/fetch/$s_!oDbQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0656f7b3-0194-4412-b615-c5a0bfe477ee_3840x1920.avif)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/0656f7b3-0194-4412-b615-c5a0bfe477ee_3840x1920.avif)](https://substackcdn.com/image/fetch/$s_!oDbQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0656f7b3-0194-4412-b615-c5a0bfe477ee_3840x1920.avif)
 
 The United States enters World War II.
 
@@ -757,26 +733,8 @@ That trail leads straight into my other series:
 
 ## **The International Syndicate**
 
-[Operation Gladio](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)[## The International Syndicate: How the West Manufactures Enemies, Wars, and Control (Part 1/5)](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-June 20, 2025
-
-[![The International Syndicate: How the West Manufactures Enemies, Wars, and Control (Part 1/5)](https://substackcdn.com/image/fetch/$s_!9-Fq!,w_1300,h_650,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa05e13de-ccfc-49b3-ac2f-237fb68b8744_1024x1536.png)](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)
-
-Why does the West always need an enemy? From communists to terrorists, a rotating cast of villains keeps fear high and war perpetual. But what if the real villain was one of us? Or all of us?
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/international-syndicate-cia-mi6-nato-global-control-gladio)
-
 **Because once you start asking** who benefited, who coordinated, who financed, who protected, and who kept appearing behind the curtain in one crisis after another…
 
 you stop looking at isolated events.
 
 **You start seeing a system.**
-
-*Did you enjoy this article?* To receive new posts and support my work, consider becoming a free or paid subscriber!
-
-[Share](https://thewhiterabbitreport.substack.com/p/pearl-harbor-false-flag-theory?utm_source=substack&utm_medium=email&utm_content=share&action=share)

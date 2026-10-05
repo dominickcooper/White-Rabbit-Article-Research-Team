@@ -12,6 +12,10 @@ This—not dossier or claims-ledger order—is the principal structural source f
 
 For each of approximately 5–12 reveals record discovery, evidence, why it changes the story, the question it creates, and what the reader learns next.
 
+Use FACT → QUESTION → IMPLICATION → NEXT RECEIPT. Mark which reveals rest on published
+canon, accepted testimony, documented record, corroborated inference, or new external
+material. Internal labels guide structure; they do not have to appear in article prose.
+
 ## HUMAN BRIDGES
 
 ## RABBIT HOLES WE ARE FOLLOWING
@@ -19,6 +23,8 @@ For each of approximately 5–12 reveals record discovery, evidence, why it chan
 ## RABBIT HOLES WE ARE DEFERRING
 
 ## PRIOR-SERIES CALLBACKS
+
+Use canon briefly and move to the new edge; do not re-teach or re-prove it.
 
 ## “WAIT, WHAT?” MOMENT
 
@@ -34,3 +40,4 @@ For each of approximately 5–12 reveals record discovery, evidence, why it chan
 
 ## FINAL QUESTION / NEXT RABBIT HOLE
 
+Prefer an evidence-opened door over a sterile section or thesis recap.

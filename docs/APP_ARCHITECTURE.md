@@ -8,7 +8,10 @@ promotion. `codex_articles.py` keeps standalone CLI/validation/export ownership;
 `codex_series.py` composes it with factual series memory and conceptual SERIES_THEMES.
 The legacy `python -m white_rabbit` Gemini/archive application is unchanged.
 
-Editorial diagnostics are warnings. Publication files, links, CSV mappings and exports
+Editorial diagnostics are warnings. `white_rabbit/investigative_workflow.py` supplies
+deterministic state checks for Thesis Lock, dependency-aware convergence, rabbit-hole
+completion, writer/auditor context boundaries and independent quality gates. It does not
+decide historical truth or literary merit. Publication files, links, CSV mappings and exports
 retain mechanical behavior. Factual confidence belongs to evidence artifacts; narrative
 quality belongs to the story/editorial layer; neither substitutes for the other.
 
@@ -17,16 +20,28 @@ mechanical validator, advisory editorial diagnostic layer and publisher. Codex p
 research, reasoning and writing outside the Python process. No Codex command loads .env, instantiates a provider,
 uploads a source or calls an LLM API. Research performed by Codex may use its own tools.
 
-The named Rabbit-Hole Investigator, Narrative Structure Editor, Author Voice Editor,
+The Source Thesis researcher, Rabbit-Hole Investigator, showrunner, writer, Narrative Structure Editor, Author Voice Editor,
 Emphasis and Formatting Editor, Visual Story Editor, Evidence Integrity Editor and
 Anti-AI Style Red Team are distinct prompt-governed passes, not provider-backed Python
 agents. Keeping them as passes preserves the local Codex-first architecture and avoids
 redundant orchestration. `white_rabbit/editorial_diagnostics.py` supplies non-blocking
-signals for final review; it does not assign a style score or factual verdict.
+signals and located multi-paragraph rhetorical patterns for final review; it does not
+assign a style score or factual verdict. The semantic editorial artifact remains a
+prompt-governed judgment because regexes cannot adjudicate rhetoric.
 Extreme-Thesis evidence building, connection chains, disconfirmation, Zebra adjudication,
 and thesis reduction are likewise prompt-governed research stages. Their permanent
 authorities live under `research_library/methodologies/`; templates make their provenance
 and ordering auditable without pretending Python can adjudicate historical truth.
+`SOURCE_AUTHORITY_AND_CANON.md` is the single authority for the three-level source
+hierarchy, accepted testimony, cumulative inference, canon conflicts, and the rule that
+corroboration should open new branches. Python exposes this contract in generated prompts
+and diagnostics; it does not decide whether testimony is true or a contradiction is real.
+
+`INVESTIGATION_TO_STORY_HANDOFF.md` is the context-boundary authority. The writer does not
+automatically ingest the complete adversarial bureaucracy; the auditor does. Quality
+gates report Technical, Research, Thesis, Narrative, Voice, Evidence and Human Approval
+separately. Existing export remains a technical operation and never writes software
+publication approval.
 
 `codex_article.py` delegates to `white_rabbit/codex_articles.py`. Repository paths
 resolve from the installed script, not the shell's current directory. Relative paths

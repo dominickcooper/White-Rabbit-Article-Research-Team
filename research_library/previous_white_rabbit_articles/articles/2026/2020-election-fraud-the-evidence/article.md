@@ -1,16 +1,6 @@
-[The Deep State](https://thewhiterabbitreport.substack.com/s/the-deep-state/?utm_source=substack&utm_medium=menu)
-
 # 2020 ELECTION FRAUD: The Evidence They Don't Want You to See
 
-### What really happened in the 2020 election, and why do millions still have doubts? This deep dive examines the evidence that fueled one of the most controversial political firestorms in history.
-
-[![The White Rabbit Report's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)](https://substack.com/@thewhiterabbitreport)
-
-[The White Rabbit Report](https://substack.com/@thewhiterabbitreport)
-
-Feb 12, 2026
-
-[![](https://substackcdn.com/image/fetch/$s_!iclU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce3840d9-fc71-46b9-8aeb-3d63b07c22a0_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!iclU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce3840d9-fc71-46b9-8aeb-3d63b07c22a0_1536x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/ce3840d9-fc71-46b9-8aeb-3d63b07c22a0_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!iclU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce3840d9-fc71-46b9-8aeb-3d63b07c22a0_1536x1024.png)
 
 Every election produces winners, losers, and noise.
 
@@ -26,7 +16,7 @@ Subversive.
 Disqualifying.  
 **Dangerous.**
 
-[![](https://substackcdn.com/image/fetch/$s_!_4pE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ec90ffc-eaa8-4a77-b6f9-60d3cf46f7b1_439x423.png)](https://substackcdn.com/image/fetch/$s_!_4pE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ec90ffc-eaa8-4a77-b6f9-60d3cf46f7b1_439x423.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/9ec90ffc-eaa8-4a77-b6f9-60d3cf46f7b1_439x423.png)](https://substackcdn.com/image/fetch/$s_!_4pE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ec90ffc-eaa8-4a77-b6f9-60d3cf46f7b1_439x423.png)
 
 [Just one of many similar “tweets”](https://x.com/MattNegrin/status/1335607425047654402?s=20) during this time period (prior to Jan 6, when the attention then diverted from Election Fraud to that…)
 
@@ -48,8 +38,6 @@ Especially the **resistance to scrutiny** that followed.
 *If the election was as secure as claimed,   
 why was scrutiny treated as treason?*
 
-Thanks for reading! Subscribe for free to receive new posts and support my work.
-
 ---
 
 ## THE OFFICIAL NARRATIVE
@@ -58,7 +46,7 @@ The official story of the 2020 election solidified with remarkable speed and con
 
 First came the declaration: **“The most secure election in American history.”**
 
-[![](https://substackcdn.com/image/fetch/$s_!djz_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0ec9e28-e052-4f76-acdd-82cd02550be2_611x407.png)](https://substackcdn.com/image/fetch/$s_!djz_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0ec9e28-e052-4f76-acdd-82cd02550be2_611x407.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/e0ec9e28-e052-4f76-acdd-82cd02550be2_611x407.png)](https://substackcdn.com/image/fetch/$s_!djz_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0ec9e28-e052-4f76-acdd-82cd02550be2_611x407.png)
 
 Excerpt from [2020 CBS News Article](https://www.cbsnews.com/live-updates/2020-election-most-secure-history-dhs/)
 
@@ -71,7 +59,7 @@ Maybe even *suspect*.
 
 **Next came the numbers.**
 
-[![](https://substackcdn.com/image/fetch/$s_!kHYu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc79c7126-78b6-46c7-b262-33a865e104c2_607x342.png)](https://substackcdn.com/image/fetch/$s_!kHYu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc79c7126-78b6-46c7-b262-33a865e104c2_607x342.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/c79c7126-78b6-46c7-b262-33a865e104c2_607x342.png)](https://substackcdn.com/image/fetch/$s_!kHYu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc79c7126-78b6-46c7-b262-33a865e104c2_607x342.png)
 
 Excerpt from [2020 CBS News Article](https://www.cbsnews.com/news/joe-biden-popular-vote-record-barack-obama-us-presidential-election-donald-trump/)
 
@@ -91,7 +79,7 @@ By January, **this framing** had fully hardened.
 
 Trump was accused of “inciting an insurrection.”
 
-[![](https://substackcdn.com/image/fetch/$s_!8snd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50b9b167-6c51-43fd-a3c1-558bd541ec64_939x654.png)](https://substackcdn.com/image/fetch/$s_!8snd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50b9b167-6c51-43fd-a3c1-558bd541ec64_939x654.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/50b9b167-6c51-43fd-a3c1-558bd541ec64_939x654.png)](https://substackcdn.com/image/fetch/$s_!8snd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50b9b167-6c51-43fd-a3c1-558bd541ec64_939x654.png)
 
 Excerpt from [2021 CNN Opinion Piece](https://edition.cnn.com/2021/01/06/opinions/trump-caused-capitol-hill-insurrection-jennings)
 
@@ -99,7 +87,7 @@ Concerns were raised (publicly and repeatedly) about whether he would leave offi
 
 In contrast, **Joe Biden was cast as the antithesis of chaos**: a steady, benevolent presence.
 
-[![Joe Biden wins US presidential election – POLITICO](https://substackcdn.com/image/fetch/$s_!CEx3!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27347460-cf36-4ae0-b700-179d3d952974_1200x675.jpeg "Joe Biden wins US presidential election – POLITICO")](https://substackcdn.com/image/fetch/$s_!CEx3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27347460-cf36-4ae0-b700-179d3d952974_1200x675.jpeg)
+[![Joe Biden wins US presidential election – POLITICO](https://substack-post-media.s3.amazonaws.com/public/images/27347460-cf36-4ae0-b700-179d3d952974_1200x675.jpeg "Joe Biden wins US presidential election – POLITICO")](https://substackcdn.com/image/fetch/$s_!CEx3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27347460-cf36-4ae0-b700-179d3d952974_1200x675.jpeg)
 
 He was framed as the reassuring uncle, the institutional caretaker, the return to normalcy. The election, according to this narrative, was not just a political victory but **a moral restoration.**
 
@@ -121,7 +109,7 @@ And that is where the real conflict begins.
 
 ### Reason One - Conditions That Changed the Rules
 
-[![A Presidential Election During the Time of COVID-19 | Baker Institute](https://substackcdn.com/image/fetch/$s_!0ijS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79bc8e88-a5da-48f4-8644-dcc11dc0dcf4_3000x2000.jpeg "A Presidential Election During the Time of COVID-19 | Baker Institute")](https://substackcdn.com/image/fetch/$s_!0ijS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79bc8e88-a5da-48f4-8644-dcc11dc0dcf4_3000x2000.jpeg)
+[![A Presidential Election During the Time of COVID-19 | Baker Institute](https://substack-post-media.s3.amazonaws.com/public/images/79bc8e88-a5da-48f4-8644-dcc11dc0dcf4_3000x2000.jpeg "A Presidential Election During the Time of COVID-19 | Baker Institute")](https://substackcdn.com/image/fetch/$s_!0ijS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79bc8e88-a5da-48f4-8644-dcc11dc0dcf4_3000x2000.jpeg)
 
 The 2020 presidential election did not occur under normal circumstances. That alone does not imply misconduct. But it does mean that the procedures governing the vote departed (often dramatically) from historical precedent. Understanding those departures is essential before any evaluation of outcomes can take place.
 
@@ -135,7 +123,7 @@ These changes were often implemented by **executive** or **administrative action
 
 At the same time, the scale of mail-in voting expanded dramatically. While absentee voting had long existed, 2020 saw **tens of millions of ballots** mailed nationwide, in some cases ***[without](https://www.snopes.com/fact-check/millions-mail-in-ballots/)*** **[being explicitly requested](https://www.snopes.com/fact-check/millions-mail-in-ballots/)**.
 
-[![](https://substackcdn.com/image/fetch/$s_!7HUB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b390bf-7c23-42e6-a572-e07e1e9e0a6a_811x468.png)](https://substackcdn.com/image/fetch/$s_!7HUB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b390bf-7c23-42e6-a572-e07e1e9e0a6a_811x468.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/43b390bf-7c23-42e6-a572-e07e1e9e0a6a_811x468.png)](https://substackcdn.com/image/fetch/$s_!7HUB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43b390bf-7c23-42e6-a572-e07e1e9e0a6a_811x468.png)
 
 Even [Snopes](https://www.snopes.com/fact-check/millions-mail-in-ballots/) had a hard time dancing around Trump’s claim of “millions of mail-in ballots were sent to people who never asked for them.” Turns out they were right.
 
@@ -155,7 +143,7 @@ What remains indisputable is that the rules governing federal elections were alt
 
 ### Reason Two - Voting Systems & Chain-of-Trust Concerns
 
-[![Election fact check: How voting machines work and why they're hard to hack  - ABC News](https://substackcdn.com/image/fetch/$s_!i0fI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff83ad37f-6b14-49df-84d8-56e7bf8df515_3072x2048.jpeg "Election fact check: How voting machines work and why they're hard to hack  - ABC News")](https://substackcdn.com/image/fetch/$s_!i0fI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff83ad37f-6b14-49df-84d8-56e7bf8df515_3072x2048.jpeg)
+[![Election fact check: How voting machines work and why they're hard to hack  - ABC News](https://substack-post-media.s3.amazonaws.com/public/images/f83ad37f-6b14-49df-84d8-56e7bf8df515_3072x2048.jpeg "Election fact check: How voting machines work and why they're hard to hack  - ABC News")](https://substackcdn.com/image/fetch/$s_!i0fI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff83ad37f-6b14-49df-84d8-56e7bf8df515_3072x2048.jpeg)
 
 After November 3, claims circulated that *certain* voting machine models were designed or modified in ways that could enable external connection or manipulation.
 
@@ -173,33 +161,19 @@ Both Dominion and Smartmatic have of course stated there was no wrong doing.
 
 You can read **more about Smartmatic** [here](https://thewhiterabbitreport.substack.com/p/venezuela-election-psy-op-cia-smartmatic-maduro):
 
-[The Deep State](https://thewhiterabbitreport.substack.com/p/venezuela-election-psy-op-cia-smartmatic-maduro)[## The Venezuela Election Psy-Op: How the CIA Uses Smartmatic to Blame Maduro for Their Own Crimes](https://thewhiterabbitreport.substack.com/p/venezuela-election-psy-op-cia-smartmatic-maduro)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-December 4, 2025
-
-[![The Venezuela Election Psy-Op: How the CIA Uses Smartmatic to Blame Maduro for Their Own Crimes](https://substackcdn.com/image/fetch/$s_!QSWt!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4038d58-1052-44e7-9ed4-6c872578e549_1536x1024.png)](https://thewhiterabbitreport.substack.com/p/venezuela-election-psy-op-cia-smartmatic-maduro)
-
-How the CIA weaponizes Smartmatic, Cartel de los Soles myths, and USAID fronts to blame Maduro for global election rigging while hiding decades of U.S. interference in Latin America.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/venezuela-election-psy-op-cia-smartmatic-maduro)
-
 And since we’re talking about Venezuela, let’s roll back the clock a bit here.
 
 **[Let’s go to 2018](https://en.wikipedia.org/wiki/2018_Venezuelan_presidential_election).**
 
 Maduro was running against several opponents but Falcón was the real competition. And for most of it, they were “neck and neck”:
 
-[![](https://substackcdn.com/image/fetch/$s_!sE4V!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61cc0585-cff2-4e47-a96e-beee2e62613e_488x508.png)](https://substackcdn.com/image/fetch/$s_!sE4V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61cc0585-cff2-4e47-a96e-beee2e62613e_488x508.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/61cc0585-cff2-4e47-a96e-beee2e62613e_488x508.png)](https://substackcdn.com/image/fetch/$s_!sE4V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61cc0585-cff2-4e47-a96e-beee2e62613e_488x508.png)
 
 Then, in May 2018, **surprise surprise.**
 
 **MADURO WINS BY A LANDSLIDE!**
 
-[![](https://substackcdn.com/image/fetch/$s_!Qghg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d13ab10-03d6-4a97-a8b6-2b6a9cfb6406_532x357.png)](https://substackcdn.com/image/fetch/$s_!Qghg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d13ab10-03d6-4a97-a8b6-2b6a9cfb6406_532x357.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/0d13ab10-03d6-4a97-a8b6-2b6a9cfb6406_532x357.png)](https://substackcdn.com/image/fetch/$s_!Qghg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d13ab10-03d6-4a97-a8b6-2b6a9cfb6406_532x357.png)
 
 **Falcón** among the rest rejected the results, stating that there were too many…*irregularities*.
 
@@ -207,11 +181,11 @@ Well, Maduro had a solution for irregularities.
 
 Once in power, he **[began imprisoning people](https://en.wikipedia.org/wiki/Timeline_of_protests_in_Venezuela_in_2018)** who refused to accept the election results.
 
-[![](https://substackcdn.com/image/fetch/$s_!v4fi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fd57c5b-f735-48af-9988-048b2aea553b_699x223.png)](https://substackcdn.com/image/fetch/$s_!v4fi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fd57c5b-f735-48af-9988-048b2aea553b_699x223.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/5fd57c5b-f735-48af-9988-048b2aea553b_699x223.png)](https://substackcdn.com/image/fetch/$s_!v4fi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fd57c5b-f735-48af-9988-048b2aea553b_699x223.png)
 
 Excerpt from 2018 **[article by lapatilla](https://lapatilla.com/2018/08/16/gnb-reprime-a-los-manifestantes-frente-al-palacio-de-miraflores-videos-16ago/)**
 
-[![](https://substackcdn.com/image/fetch/$s_!9EmN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96182a55-cc7f-4a0a-8363-bf04dbc3dbff_678x153.png)](https://substackcdn.com/image/fetch/$s_!9EmN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96182a55-cc7f-4a0a-8363-bf04dbc3dbff_678x153.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/96182a55-cc7f-4a0a-8363-bf04dbc3dbff_678x153.png)](https://substackcdn.com/image/fetch/$s_!9EmN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96182a55-cc7f-4a0a-8363-bf04dbc3dbff_678x153.png)
 
 Excerpt from 2018 article by **[El Sol de Margarita](http://elsoldemargarita.com.ve/posts/post/id:208262/Siete-udistas-detenidos-tras-protesta-por-servicios)**
 
@@ -229,7 +203,7 @@ In major Democratic-leaning cities across **Pennsylvania**, **Nevada**, **Georgi
 
 ### Reason Four - The Biden Vote “Dump”
 
-[![Image](https://substackcdn.com/image/fetch/$s_!2zyf!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe49cd322-e538-49ef-ba91-5dc4a427b6db_1206x763.jpeg "Image")](https://substackcdn.com/image/fetch/$s_!2zyf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe49cd322-e538-49ef-ba91-5dc4a427b6db_1206x763.jpeg)
+[![Image](https://substack-post-media.s3.amazonaws.com/public/images/e49cd322-e538-49ef-ba91-5dc4a427b6db_1206x763.jpeg "Image")](https://substackcdn.com/image/fetch/$s_!2zyf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe49cd322-e538-49ef-ba91-5dc4a427b6db_1206x763.jpeg)
 
 One of the most talked-about events after Election Night was that in several states (especially **Wisconsin and Michigan**) large batches of votes appeared suddenly in the early morning hours, often around **3 a.m.** or later.
 
@@ -242,7 +216,7 @@ Those votes were OVERWHELMINGLY **favored Joe Biden**.
 
 **Let’s look at Wisconsin.**
 
-[![](https://substackcdn.com/image/fetch/$s_!9HoQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54a75ae7-9f91-44c4-ac9b-f2404194eab2_575x655.png)](https://substackcdn.com/image/fetch/$s_!9HoQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54a75ae7-9f91-44c4-ac9b-f2404194eab2_575x655.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/54a75ae7-9f91-44c4-ac9b-f2404194eab2_575x655.png)](https://substackcdn.com/image/fetch/$s_!9HoQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F54a75ae7-9f91-44c4-ac9b-f2404194eab2_575x655.png)
 
 Graph made by [FiveThirtyEight](https://x.com/FiveThirtyEight/status/1323957535628558337?s=20)
 
@@ -268,7 +242,7 @@ I know **Wisconsin and Milwaukee** leans to the **blue side of life**, but…*4 
 Another interesting thing is **Michigan**.  
 The graph is almost the same.
 
-[![Image](https://substackcdn.com/image/fetch/$s_!gmMt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6b5f82b-eba1-4b50-99a3-212e51c2dc78_680x623.png "Image")](https://substackcdn.com/image/fetch/$s_!gmMt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6b5f82b-eba1-4b50-99a3-212e51c2dc78_680x623.png)
+[![Image](https://substack-post-media.s3.amazonaws.com/public/images/a6b5f82b-eba1-4b50-99a3-212e51c2dc78_680x623.png "Image")](https://substackcdn.com/image/fetch/$s_!gmMt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6b5f82b-eba1-4b50-99a3-212e51c2dc78_680x623.png)
 
 [The general consensus](https://x.com/FiveThirtyEight/status/1323993669800775681?s=20) is that this “jump” was **Detroit.**
 
@@ -306,7 +280,7 @@ But in these swing states, **four massive overnight spikes** (over about five ho
 
 **We’re talking extreme outliers here.**
 
-[![](https://substackcdn.com/image/fetch/$s_!w7Qv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff711976-39ab-4a2e-a021-9bd38d9d6838_1024x592.png)](https://substackcdn.com/image/fetch/$s_!w7Qv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff711976-39ab-4a2e-a021-9bd38d9d6838_1024x592.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/ff711976-39ab-4a2e-a021-9bd38d9d6838_1024x592.png)](https://substackcdn.com/image/fetch/$s_!w7Qv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff711976-39ab-4a2e-a021-9bd38d9d6838_1024x592.png)
 
 Nationwide vote-update scatter plot (N=8,954) showing standardized Biden margin vs. Biden/Trump ratio. The four extreme outliers (red/green/yellow) from Michigan, Wisconsin, and Georgia on November 4, 2020 lie well beyond the 99th percentile boundary (dashed line), marking them as among the most lopsided and unusual batches observed across all states.
 
@@ -341,7 +315,7 @@ Let’s ground this in **[raw history](https://en.wikipedia.org/wiki/List_of_Uni
 - **2020 - Joe Biden:** ~81 million
 - **2024 - Kamala Harris:** ~67 million
 
-[![Image](https://substackcdn.com/image/fetch/$s_!lwRB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae9d8b0-c3c7-48cf-af76-c398d76480fd_900x675.jpeg "Image")](https://substackcdn.com/image/fetch/$s_!lwRB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae9d8b0-c3c7-48cf-af76-c398d76480fd_900x675.jpeg)
+[![Image](https://substack-post-media.s3.amazonaws.com/public/images/3ae9d8b0-c3c7-48cf-af76-c398d76480fd_900x675.jpeg "Image")](https://substackcdn.com/image/fetch/$s_!lwRB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ae9d8b0-c3c7-48cf-af76-c398d76480fd_900x675.jpeg)
 
 Yes, **population** grows.   
 Yes, **turnout** fluctuates.
@@ -362,11 +336,9 @@ Not because fraud is proven, but because **the math doesn’t match the sniff te
 
 But apparently, Biden’s 81 Million made perfect sense.
 
-Thanks for reading! Subscribe for free to receive new posts and support my work.
-
 ### Reason Six - **Boxes of Ballots “Dropped Off in the Middle of the Night”**
 
-[![No major problems with ballot drop boxes in 2020, AP survey finds | PBS News](https://substackcdn.com/image/fetch/$s_!-9_1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53d86b47-747e-4779-b1ea-e80a191bcfaf_1024x600.jpeg "No major problems with ballot drop boxes in 2020, AP survey finds | PBS News")](https://substackcdn.com/image/fetch/$s_!-9_1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53d86b47-747e-4779-b1ea-e80a191bcfaf_1024x600.jpeg)
+[![No major problems with ballot drop boxes in 2020, AP survey finds | PBS News](https://substack-post-media.s3.amazonaws.com/public/images/53d86b47-747e-4779-b1ea-e80a191bcfaf_1024x600.jpeg "No major problems with ballot drop boxes in 2020, AP survey finds | PBS News")](https://substackcdn.com/image/fetch/$s_!-9_1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53d86b47-747e-4779-b1ea-e80a191bcfaf_1024x600.jpeg)
 
 After Election Day, large numbers of ballots were quietly delivered during the late night or early morning hours.
 
@@ -390,7 +362,7 @@ By the way, make sure you follow Brian and Chris from the video above:
 
 ### Reason Seven - The Georgia “Burst Pipe”
 
-[![](https://substackcdn.com/image/fetch/$s_!Fbq1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73fbc99d-5fb0-41a0-9430-29f7c292f3f9_707x196.png)](https://substackcdn.com/image/fetch/$s_!Fbq1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73fbc99d-5fb0-41a0-9430-29f7c292f3f9_707x196.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/73fbc99d-5fb0-41a0-9430-29f7c292f3f9_707x196.png)](https://substackcdn.com/image/fetch/$s_!Fbq1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73fbc99d-5fb0-41a0-9430-29f7c292f3f9_707x196.png)
 
 Headline from [ABC News Article](https://abcnews.com/Politics/pipe-bursts-atlanta-arena-causing-hour-delay-processing/story?id=73981348)
 
@@ -407,7 +379,7 @@ Only later did the **real story** come out.
 
 It was a **faulty urinal**, in another part of the building, reportedly fixed within a short time. No flooding of the counting floor. No emergency-level damage. And yet the counting stopped anyway.
 
-[![](https://substackcdn.com/image/fetch/$s_!_k9l!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F439dccdf-bfa5-461a-a153-022931e78ed5_710x328.png)](https://substackcdn.com/image/fetch/$s_!_k9l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F439dccdf-bfa5-461a-a153-022931e78ed5_710x328.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/439dccdf-bfa5-461a-a153-022931e78ed5_710x328.png)](https://substackcdn.com/image/fetch/$s_!_k9l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F439dccdf-bfa5-461a-a153-022931e78ed5_710x328.png)
 
 2021 [Article from Newsweek](https://www.newsweek.com/fact-check-did-fabricated-water-main-break-affect-vote-counting-georgia-trump-says-1558876)
 
@@ -446,7 +418,7 @@ Which leads to the uncomfortable counterfactual that never goes away:
 
 ### Reason Eight - The Bellwether Counties
 
-[![Where Did All The Bellwether Counties Go? | FiveThirtyEight](https://substackcdn.com/image/fetch/$s_!VvEX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed430103-afe8-4a69-8082-66ea0fcadd0c_1150x1126.png "Where Did All The Bellwether Counties Go? | FiveThirtyEight")](https://substackcdn.com/image/fetch/$s_!VvEX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed430103-afe8-4a69-8082-66ea0fcadd0c_1150x1126.png)
+[![Where Did All The Bellwether Counties Go? | FiveThirtyEight](https://substack-post-media.s3.amazonaws.com/public/images/ed430103-afe8-4a69-8082-66ea0fcadd0c_1150x1126.png "Where Did All The Bellwether Counties Go? | FiveThirtyEight")](https://substackcdn.com/image/fetch/$s_!VvEX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed430103-afe8-4a69-8082-66ea0fcadd0c_1150x1126.png)
 
 Elections aren’t random.
 
@@ -494,7 +466,7 @@ Then there’s **Biden 2020**.
 
 *HUH?!*
 
-[![](https://substackcdn.com/image/fetch/$s_!UsS_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F321e7c74-a260-415e-ac50-972d4c86b751_644x280.png)](https://substackcdn.com/image/fetch/$s_!UsS_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F321e7c74-a260-415e-ac50-972d4c86b751_644x280.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/321e7c74-a260-415e-ac50-972d4c86b751_644x280.png)](https://substackcdn.com/image/fetch/$s_!UsS_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F321e7c74-a260-415e-ac50-972d4c86b751_644x280.png)
 
 Excerpt From [2020 WSJ Article](https://www.wsj.com/politics/elections/bellwether-counties-nearly-wiped-out-by-2020-election-11605272400)
 
@@ -511,7 +483,7 @@ And more importantly: *why are we not allowed to ask?*
 
 ### Reason Nine - The Data *and* the Whistleblowers
 
-[![](https://substackcdn.com/image/fetch/$s_!mUan!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F319ce490-a7ad-4eba-ac54-f415e14a6cef_1528x800.webp)](https://substackcdn.com/image/fetch/$s_!mUan!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F319ce490-a7ad-4eba-ac54-f415e14a6cef_1528x800.webp)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/319ce490-a7ad-4eba-ac54-f415e14a6cef_1528x800.webp)](https://substackcdn.com/image/fetch/$s_!mUan!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F319ce490-a7ad-4eba-ac54-f415e14a6cef_1528x800.webp)
 
 At some point, anecdotes stop being anecdotes. When irregularities show up **across states**, **across systems**, and **across roles**…clerks, poll watchers, mail carriers, data analysts…you’re no longer looking at isolated mistakes.
 
@@ -589,7 +561,7 @@ But dismissing it all as noise requires believing that **dozens of unrelated fai
 
 ### Reason Ten - The Fallout
 
-[![](https://substackcdn.com/image/fetch/$s_!ZLFw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a6063c5-ec01-4d5f-a106-e0e50e55c89a_623x125.png)](https://substackcdn.com/image/fetch/$s_!ZLFw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a6063c5-ec01-4d5f-a106-e0e50e55c89a_623x125.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/1a6063c5-ec01-4d5f-a106-e0e50e55c89a_623x125.png)](https://substackcdn.com/image/fetch/$s_!ZLFw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a6063c5-ec01-4d5f-a106-e0e50e55c89a_623x125.png)
 
 There’s a whole Wikipedia page now on the “[Election Denial Movement](https://en.wikipedia.org/wiki/Election_denial_movement_in_the_United_States)”
 
@@ -605,7 +577,7 @@ Almost every one of them was **dismissed or withdrawn**, often on procedural gro
 
 *YES*. ***LACK OF EVIDENCE.***
 
-[![Pennsylvania judge dismisses Trump campaign election lawsuit: ‘This Court  has been presented with strained legal arguments without merit and  speculative accusations’](https://substackcdn.com/image/fetch/$s_!637m!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b8f82c1-e4c9-4b09-95b5-21d1e89bc984_1920x1080.jpeg "Pennsylvania judge dismisses Trump campaign election lawsuit: ‘This Court  has been presented with strained legal arguments without merit and  speculative accusations’")](https://substackcdn.com/image/fetch/$s_!637m!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b8f82c1-e4c9-4b09-95b5-21d1e89bc984_1920x1080.jpeg)
+[![Pennsylvania judge dismisses Trump campaign election lawsuit: ‘This Court  has been presented with strained legal arguments without merit and  speculative accusations’](https://substack-post-media.s3.amazonaws.com/public/images/0b8f82c1-e4c9-4b09-95b5-21d1e89bc984_1920x1080.jpeg "Pennsylvania judge dismisses Trump campaign election lawsuit: ‘This Court  has been presented with strained legal arguments without merit and  speculative accusations’")](https://substackcdn.com/image/fetch/$s_!637m!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b8f82c1-e4c9-4b09-95b5-21d1e89bc984_1920x1080.jpeg)
 
 [MSNBC Article](https://www.nbcnews.com/politics/2020-election/beyond-embarrassment-legal-experts-say-trump-giuliani-s-floundering-efforts-n1248667)
 
@@ -613,7 +585,7 @@ Almost every one of them was **dismissed or withdrawn**, often on procedural gro
 
 Mainstream outlets framed the narrative around *democratic stability* and *rule of law*. Conservative media **eventually backed away** from some claims amid legal pressure, including libel suits from voting-machine companies.
 
-[![Fox News settles with Dominion at the last second, pays more than $787  million to avoid defamation trial](https://substackcdn.com/image/fetch/$s_!j_7s!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ea9c8a4-09b3-4669-a7f6-72e5fa7b2c03_1920x1080.png "Fox News settles with Dominion at the last second, pays more than $787  million to avoid defamation trial")](https://substackcdn.com/image/fetch/$s_!j_7s!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ea9c8a4-09b3-4669-a7f6-72e5fa7b2c03_1920x1080.png)
+[![Fox News settles with Dominion at the last second, pays more than $787  million to avoid defamation trial](https://substack-post-media.s3.amazonaws.com/public/images/5ea9c8a4-09b3-4669-a7f6-72e5fa7b2c03_1920x1080.png "Fox News settles with Dominion at the last second, pays more than $787  million to avoid defamation trial")](https://substackcdn.com/image/fetch/$s_!j_7s!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ea9c8a4-09b3-4669-a7f6-72e5fa7b2c03_1920x1080.png)
 
 [CNN Article](https://www.cnn.com/videos/world/2023/04/19/exp-fox-dominion-settlement-elie-honig-intv-041908aseg1-cnni-world.cnn)
 
@@ -622,20 +594,6 @@ In Congress, dozens of Republican lawmakers **objected to the certification of e
 But the most dramatic moment came on January 6 itself, when a joint session of Congress was interrupted by a ✌️ violent breach of the Capitol. ✌️
 
 **You can read all about that here:**
-
-[The Deep State](https://thewhiterabbitreport.substack.com/p/was-january-6-a-set-up-16-clues-of)[## Was January 6 a Set Up? 16 Clues of a Deep State Plot](https://thewhiterabbitreport.substack.com/p/was-january-6-a-set-up-16-clues-of)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-August 20, 2025
-
-[![Was January 6 a Set Up? 16 Clues of a Deep State Plot](https://substackcdn.com/image/fetch/$s_!xF2U!,w_280,h_280,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06c3fa99-25f2-4c50-bb33-ca2c2fce6f3d_1536x1024.png)](https://thewhiterabbitreport.substack.com/p/was-january-6-a-set-up-16-clues-of)
-
-Discover 16 shocking reasons why January 6 might have been a set up. From undercover agents to destroyed evidence, explore the clues fueling theories about a deep state plot.
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/was-january-6-a-set-up-16-clues-of)
 
 The cultural result is that **2020 didn’t just elect a president** but it fractured the way many Americans had trusted elections for years. They trusted that their vote counted and their concerns were either laughed off or outright dismissed.
 
@@ -664,21 +622,6 @@ Transparency was **not expanded.**Audits were **limited**, **resisted**, or **fr
 
 *Well,* **Heresy for Republicans only…**
 
-[![X avatar for @libsoftiktok](https://substackcdn.com/image/fetch/$s_!S1MA!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fprofile_images%2F1489097242321428482%2FsQSUN_M6.jpg)
-
-Libs of TikTok@libsoftiktok
-
-Here’s 24 straight minutes of Democrats denying election results.
-Whatever you do do not share this!!!
-
-[](https://video.twimg.com/amplify_video/1626656515850440737/vid/1280x720/YcGZJbK0HZ15S7ti.mp4?tag=16)
-
-2:36 AM · Oct 2, 2024 · 4.47M Views
-
----
-
-1.56K Replies · 49K Reposts · 110K Likes](https://x.com/libsoftiktok/status/1841306128635834768?s=20)
-
 **If the win was clean and overwhelming,   
 why fight transparency so aggressively?**
 
@@ -688,7 +631,7 @@ And that’s **the real legacy of 2020.**
 
 It’s not who won, but **what trust was lost**.
 
-[![](https://substackcdn.com/image/fetch/$s_!VvGg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e3f4933-2303-4cf2-9dee-916592719228_926x541.png)](https://substackcdn.com/image/fetch/$s_!VvGg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e3f4933-2303-4cf2-9dee-916592719228_926x541.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/2e3f4933-2303-4cf2-9dee-916592719228_926x541.png)](https://substackcdn.com/image/fetch/$s_!VvGg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e3f4933-2303-4cf2-9dee-916592719228_926x541.png)
 
 The trust in the government was alredy low to begin with. But after 2020, it just got lower and lower…[Pew Research](https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/).
 
@@ -715,7 +658,3 @@ It frays when questions are forbidden, when scrutiny is mocked, and when trust i
 Whatever you believe about **November 3 2020**, one thing is clear:
 
 **2020 wasn’t the end of the story. It was the catalyst of a much needed overhaul of our election infrastructure and system.**
-
-*DId you enjoy this deep dive?* **Subscribe** to receive new posts and support my work.
-
-[BUY ME A COFFEE ☕](https://buymeacoffee.com/whiterabbitreport)

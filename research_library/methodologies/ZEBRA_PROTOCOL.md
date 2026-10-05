@@ -60,6 +60,8 @@ EXTREME THESIS → EVIDENCE BUILD → CONNECTION CHAINS → DISCONFIRMATION → 
 ADJUDICATION → THESIS REDUCTION → STORY DECISION
 
 Historical precedent informs predicted signatures but never substitutes for evidence of
-the current case. Absence of a smoking-gun memo is one observation, not an automatic Horse
+the current case. Established precedent changes the prior and supplies search templates;
+the current hypothesis does not reset to zero. Absence of a smoking-gun memo is one
+observation, not an automatic Horse
 finding. Equally, proximity, thematic similarity, or one weak edge is not an automatic
 Zebra finding.

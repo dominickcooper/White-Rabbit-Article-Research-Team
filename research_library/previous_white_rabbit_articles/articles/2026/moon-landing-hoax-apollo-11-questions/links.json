@@ -1,15 +1,5 @@
 [
   {
-    "anchor": "Shadow Reports",
-    "url": "https://thewhiterabbitreport.substack.com/s/shadow-reports",
-    "type": "external"
-  },
-  {
-    "anchor": "The White Rabbit Report",
-    "url": "https://substack.com/@thewhiterabbitreport",
-    "type": "external"
-  },
-  {
     "anchor": "John F. Kennedy",
     "url": "https://en.wikipedia.org/wiki/John_F._Kennedy",
     "type": "external"
@@ -20,13 +10,178 @@
     "type": "external"
   },
   {
-    "anchor": "Share",
-    "url": "https://thewhiterabbitreport.substack.com/p/moon-landing-hoax-apollo-11-questions",
-    "type": "internal"
+    "anchor": "The Apollo Program",
+    "url": "https://www.nasa.gov/the-apollo-program",
+    "type": "external"
   },
   {
-    "anchor": "Or purchase a paid subscription.",
-    "url": "https://thewhiterabbitreport.substack.com/subscribe",
+    "anchor": "Saturn V",
+    "url": "https://en.wikipedia.org/wiki/Saturn_V",
+    "type": "external"
+  },
+  {
+    "anchor": "command module",
+    "url": "https://en.wikipedia.org/wiki/Apollo_command_and_service_module",
+    "type": "external"
+  },
+  {
+    "anchor": "lunar module",
+    "url": "https://en.wikipedia.org/wiki/Apollo_Lunar_Module",
+    "type": "external"
+  },
+  {
+    "anchor": "2009 NPR Article",
+    "url": "https://www.npr.org/2009/07/16/106637066/houston-we-erased-the-apollo-11-tapes",
+    "type": "external"
+  },
+  {
+    "anchor": "NASA’s explanation",
+    "url": "https://en.wikipedia.org/wiki/Apollo_11_missing_tapes",
+    "type": "external"
+  },
+  {
+    "anchor": "WIRED",
+    "url": "https://www.wired.com/2007/01/nasa",
+    "type": "external"
+  },
+  {
+    "anchor": "Apollo Lunar Surface Experiments Package data recovery",
+    "url": "https://ntrs.nasa.gov/api/citations/20190032593/downloads/20190032593.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Research Paper on Apollo Lunar Surface Experiments Package (ALSEP)",
+    "url": "https://ntrs.nasa.gov/api/citations/20190032593/downloads/20190032593.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "thousands of photos",
+    "url": "https://www.flickr.com/photos/projectapolloarchive",
+    "type": "external"
+  },
+  {
+    "anchor": "Scientific American",
+    "url": "https://www.scientificamerican.com/article/why-is-it-so-much-harder-for-nasa-to-send-people-to-the-moon-now-than-it-was-during-the-apollo-era",
+    "type": "external"
+  },
+  {
+    "anchor": "The official answer is",
+    "url": "https://www.scientificamerican.com/article/why-is-it-so-much-harder-for-nasa-to-send-people-to-the-moon-now-than-it-was-during-the-apollo-era",
+    "type": "external"
+  },
+  {
+    "anchor": "Apollo 11 image gallery",
+    "url": "https://www.nasa.gov/gallery/apollo-11",
+    "type": "external"
+  },
+  {
+    "anchor": "Apollo 11 post-flight press conference",
+    "url": "https://ntrs.nasa.gov/citations/20010116507",
+    "type": "external"
+  },
+  {
+    "anchor": "quarantine",
+    "url": "https://www.nasa.gov/history/50-years-ago-apollo-11-astronauts-leave-quarantine",
+    "type": "external"
+  },
+  {
+    "anchor": "Van Allen radiation belts",
+    "url": "https://en.wikipedia.org/wiki/Van_Allen_radiation_belt",
+    "type": "external"
+  },
+  {
+    "anchor": "What Are the Van Allen Belts?",
+    "url": "https://science.nasa.gov/biological-physical/stories/van-allen-belts",
+    "type": "external"
+  },
+  {
+    "anchor": "even",
+    "url": "https://www.aircooledheatexchangers.net/if-the-van-allen-radiation-belt-reaches-temperatures-of-35000c-how-could-it-be-harnessed",
+    "type": "external"
+  },
+  {
+    "anchor": "35,000°F",
+    "url": "https://www.aircooledheatexchangers.net/if-the-van-allen-radiation-belt-reaches-temperatures-of-35000c-how-could-it-be-harnessed",
+    "type": "external"
+  },
+  {
+    "anchor": "Apollo Experience Report: Protection Against Radiation",
+    "url": "https://ntrs.nasa.gov/api/citations/19730010172/downloads/19730010172.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "the FDA says",
+    "url": "https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/what-are-radiation-risks-ct",
+    "type": "external"
+  },
+  {
+    "anchor": "A 2024 paper in",
+    "url": "https://www.nature.com/articles/s41586-024-07927-7",
+    "type": "external"
+  },
+  {
+    "anchor": "Nature",
+    "url": "https://www.nature.com/articles/s41586-024-07927-7",
+    "type": "external"
+  },
+  {
+    "anchor": "less than half",
+    "url": "https://www.fda.gov/radiation-emitting-products/medical-x-ray-imaging/what-are-radiation-risks-ct",
+    "type": "external"
+  },
+  {
+    "anchor": "Space Shuttle Challenger",
+    "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster",
+    "type": "external"
+  },
+  {
+    "anchor": "Rogers Commission Report",
+    "url": "https://www.nasa.gov/history/rogersrep/genindex.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "Report of the PRESIDENTIAL COMMISSION on the Space Shuttle Challenger Accident",
+    "url": "https://www.nasa.gov/history/rogersrep/v1ch5.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "@did_you_know_that_123",
+    "url": "https://www.tiktok.com/@did_you_know_that_123",
+    "type": "external"
+  },
+  {
+    "anchor": "NASA Fails: Part 3 👩🏼‍🚀  #conspiracytheory #nasa #hoax #alltheworldsastage",
+    "url": "https://www.tiktok.com/@did_you_know_that_123/video/7537309336012344631",
+    "type": "external"
+  },
+  {
+    "anchor": "@billy40784",
+    "url": "https://www.tiktok.com/@billy40784",
+    "type": "external"
+  },
+  {
+    "anchor": "#greenscreen #poll #fyp",
+    "url": "https://www.tiktok.com/@billy40784/video/7626908270367640862",
+    "type": "external"
+  },
+  {
+    "anchor": "@flat_out_truth",
+    "url": "https://www.tiktok.com/@flat_out_truth",
+    "type": "external"
+  },
+  {
+    "anchor": "Caught red handed . Alot of line and strings . Alot of money invested into those harnesses. wake up to the deception . #space #artemis #iss #spacestation",
+    "url": "https://www.tiktok.com/@flat_out_truth/video/7626117047327493397",
+    "type": "external"
+  },
+  {
+    "anchor": "NASA itself says",
+    "url": "https://www.nasa.gov/history/50-years-ago-nasa-cancels-apollo-20-mission",
+    "type": "external"
+  },
+  {
+    "anchor": "NASA’s budget",
+    "url": "https://www.planetary.org/space-policy/nasa-budget",
     "type": "external"
   }
 ]

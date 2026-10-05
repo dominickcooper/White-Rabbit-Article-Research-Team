@@ -8,6 +8,8 @@ from .archive_db import ArchiveDB
 from .archive_sync import SubstackArchiveSync
 from .archive_retrieval import rebuild_archive_search_index, retrieve_archive_memory
 from .archive_reranker import apply_archive_rerank, format_candidates_for_rerank, rerank_audit_payload
+from .archive_verification import verify_archive
+from .archive_voice import format_voice_reference_packet, retrieve_voice_references
 from .config import load_settings
 from .gemini_provider import GeminiProvider
 from .pipeline import SingleArticlePipeline
@@ -30,7 +32,16 @@ def build_parser() -> argparse.ArgumentParser:
     archive_sub = archive.add_subparsers(dest="archive_command", required=True)
     sync_cmd = archive_sub.add_parser("sync", help="Discover/download White Rabbit Substack articles not already stored")
     sync_cmd.add_argument("--refresh", action="store_true", help="Re-fetch existing posts too, to detect edits")
+    sync_cmd.add_argument("--url", help="Refresh one canonical /p/ URL and reconcile the latest sync report")
     archive_sub.add_parser("status", help="Show the local White Rabbit article archive status")
+    archive_sub.add_parser("verify", help="Write inventory plus canon/voice/coverage smoke-test reports")
+    archive_sub.add_parser("probe", help="Run a real-network discovery/endpoint smoke test without fetching bodies")
+
+    import_cmd = archive_sub.add_parser("import-export", help="Import published post bodies from an owner-export ZIP")
+    import_cmd.add_argument(
+        "path", type=Path,
+        help="Substack export ZIP, extracted directory, or posts.csv (private/account files are ignored)",
+    )
 
     reindex_cmd = archive_sub.add_parser("reindex", help="Rebuild the cleaned hybrid search index from archived articles")
     reindex_cmd.add_argument("--force", action="store_true", help="Force a rebuild even if the archive has not changed")
@@ -41,6 +52,10 @@ def build_parser() -> argparse.ArgumentParser:
     search_cmd.add_argument("--links", type=int, default=8, help="Maximum external research links to display per article (default: 8)")
     search_cmd.add_argument("--min-score", type=float, default=0.12, help="Minimum article relevance score, 0-1 (default: 0.12)")
     search_cmd.add_argument("--json", action="store_true", help="Emit machine-readable JSON")
+
+    voice_cmd = archive_sub.add_parser("voice", help="Retrieve full-body authored prose for voice/structure reference")
+    voice_cmd.add_argument("query", help="Subject/style context for selecting authored passages")
+    voice_cmd.add_argument("--limit", type=int, default=8, help="Maximum authored passages (default: 8)")
 
     rerank_cmd = archive_sub.add_parser("rerank", help="Use Gemini to judge which local archive matches are materially relevant")
     rerank_cmd.add_argument("query", help="Topic/entity/research question to judge prior articles against")
@@ -75,6 +90,23 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "archive":
         if args.archive_command == "sync":
             try:
+                if args.url:
+                    if not settings.substack_url:
+                        raise RuntimeError("WR_SUBSTACK_URL is not configured in .env")
+                    syncer = SubstackArchiveSync(
+                        publication_url=settings.substack_url,
+                        archive_root=settings.archive_root,
+                        db_path=settings.archive_db_path,
+                        timeout=settings.http_timeout,
+                        sitemap_url=settings.sitemap_url,
+                        request_delay_ms=settings.archive_request_delay_ms,
+                    )
+                    try:
+                        targeted = syncer.refresh_url(args.url)
+                    finally:
+                        syncer.close()
+                    print(json.dumps(targeted, indent=2, ensure_ascii=False))
+                    return 0
                 report = _archive_sync(settings, refresh_existing=args.refresh)
             except Exception as exc:
                 print(f"ERROR: {exc}")
@@ -102,6 +134,69 @@ def main(argv: list[str] | None = None) -> int:
             print(f"Archive folder: {settings.archive_root}")
             return 0
 
+        if args.archive_command == "probe":
+            if not settings.substack_url:
+                print("ERROR: WR_SUBSTACK_URL is not configured in .env")
+                return 2
+            syncer = SubstackArchiveSync(
+                publication_url=settings.substack_url,
+                archive_root=settings.archive_root,
+                db_path=settings.archive_db_path,
+                timeout=settings.http_timeout,
+                sitemap_url=settings.sitemap_url,
+                request_delay_ms=settings.archive_request_delay_ms,
+            )
+            try:
+                report = syncer.probe_discovery()
+            except Exception as exc:
+                print(f"ERROR: {exc}")
+                return 2
+            finally:
+                syncer.close()
+            print(json.dumps(report, indent=2, ensure_ascii=False))
+            return 0
+
+        if args.archive_command == "verify":
+            try:
+                report = verify_archive(settings.root, settings.archive_root, settings.archive_db_path)
+            except Exception as exc:
+                print(f"ERROR: {exc}")
+                return 2
+            print(json.dumps(report, indent=2, ensure_ascii=False))
+            return 0
+
+        if args.archive_command == "import-export":
+            if not settings.substack_url:
+                print("ERROR: WR_SUBSTACK_URL is required to construct canonical post URLs.")
+                return 2
+            syncer = SubstackArchiveSync(
+                publication_url=settings.substack_url,
+                archive_root=settings.archive_root,
+                db_path=settings.archive_db_path,
+                timeout=settings.http_timeout,
+                sitemap_url=settings.sitemap_url,
+                request_delay_ms=0,
+            )
+            try:
+                report = syncer.import_author_export(args.path)
+            except Exception as exc:
+                print(f"ERROR: {exc}")
+                return 2
+            finally:
+                syncer.close()
+            print(json.dumps({
+                "source_archive": report["source_archive"],
+                "manifest_rows": report["manifest_rows"],
+                "published_rows": report["published_rows"],
+                "unpublished_rows_excluded": report["unpublished_rows_excluded"],
+                "private_entries_ignored": report["private_entries_ignored"],
+                "analytics_entries_ignored": report["analytics_entries_ignored"],
+                "skipped": len(report["skipped"]),
+                **report["summary"],
+                "report": str(settings.archive_root / "sync" / "author_export_import_report.json"),
+            }, indent=2, ensure_ascii=False))
+            return 0
+
         if args.archive_command == "reindex":
             try:
                 result = rebuild_archive_search_index(settings.archive_db_path, force=args.force)
@@ -109,6 +204,16 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"ERROR: {exc}")
                 return 2
             print(json.dumps(result, indent=2))
+            return 0
+
+        if args.archive_command == "voice":
+            result = retrieve_voice_references(
+                settings.archive_db_path,
+                args.query,
+                root=settings.root,
+                passage_limit=max(1, min(int(args.limit), 30)),
+            )
+            print(format_voice_reference_packet(result))
             return 0
 
         if args.archive_command == "rerank":
@@ -267,7 +372,7 @@ def main(argv: list[str] | None = None) -> int:
                         anchor = str(link.get("anchor", "")).strip() or "(no anchor)"
                         print(f"     - {anchor}: {link.get('url', '')}")
             print()
-            print("NOTE: Prior White Rabbit articles are research leads/internal-link candidates, not proof. Re-verify original sources before using factual claims.")
+            print("NOTE: Published White Rabbit findings are Level 1 project canon. Reopen original sources for a canon exception or to expand the investigation; preserve genuine conflicts for author review.")
             return 0
 
     if not settings.gemini_api_key:

@@ -1,0 +1,28 @@
+{
+  "article_id": "WR-000145",
+  "title": "Your Digital Twin is Here",
+  "slug": "your-digital-twin-is-here",
+  "canonical_url": "https://thewhiterabbitreport.substack.com/p/your-digital-twin-is-here",
+  "published_date": "2024-09-24T18:29:32.443Z",
+  "updated_date": null,
+  "author": "The White Rabbit Report",
+  "series": null,
+  "tags": [],
+  "content_hash": "sha256:877ae61fb0bbbd88cff0a933a60b1c02284a184c24ed5fed3e211a7dea645426",
+  "content_status": "full",
+  "access_level": "FULL_AUTHOR_EXPORT",
+  "source_origin": "author_export",
+  "discovery_sources": [
+    "author_export:posts.csv"
+  ],
+  "http_status": null,
+  "subtitle": "We all have a digital twin—a virtual version of ourselves made from the data we unknowingly give away every day. It's time to look into the mirror and meet your digital self.",
+  "export_post_id": "149361892.your-digital-twin-is-here",
+  "publication_status": "published",
+  "audience": "everyone",
+  "source_reference": "posts/149361892.your-digital-twin-is-here.html",
+  "source_precedence": "author_export is authoritative for this published body",
+  "word_count": 2544,
+  "author_paragraph_count": 30,
+  "indexed": true
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "path": "104-10185-10015.pdf",
+    "bytes": 235103,
+    "sha256": "1ac0a213b6d12790f4c19705cd2bde4ce2c2241537547bdec6ec1772b70351a2",
+    "pages": 3,
+    "metadata": {
+      "/CreationDate": "D:20171028201055-04'00'",
+      "/Creator": "Adobe Acrobat 11.0.21",
+      "/ModDate": "D:20171028201055-04'00'",
+      "/Producer": "Adobe Acrobat 11.0.21 Image Conversion Plug-in",
+      "/Title": "104-10185-10015.tif"
+    },
+    "text_chars": 75,
+    "nonempty_pages": 0,
+    "low_text_pages": [
+      1,
+      2,
+      3
+    ],
+    "extracted_text": "C:\\Users\\domin\\PycharmProjects\\White-Rabbit-Article-Research-Team\\article_projects\\zrrifle\\research\\generated\\pdf_text\\104-10185-10015.pdf.txt"
+  },
+  {
+    "path": "CIA FILE ON WIROGUE.[16639877].pdf",
+    "bytes": 8482427,
+    "sha256": "10044373f9bd793793d85e0d56d316e66a6c06a727bf91152e034b4346f0a362",
+    "pages": 199,
+    "metadata": {
+      "/Creator": "Aspose Pty Ltd.",
+      "/Producer": "Aspose.PDF for .NET 24.11.0",
+      "/CreationDate": "D:20260916140315-04'00'",
+      "/ModDate": "D:20260916140315-04'00'",
+      "/Title": "",
+      "/Author": "",
+      "/Subject": "",
+      "/Keywords": ""
+    },
+    "text_chars": 426208,
+    "nonempty_pages": 199,
+    "low_text_pages": [],
+    "extracted_text": "C:\\Users\\domin\\PycharmProjects\\White-Rabbit-Article-Research-Team\\article_projects\\zrrifle\\research\\generated\\pdf_text\\CIA_FILE_ON_WIROGUE._16639877_.pdf.txt"
+  },
+  {
+    "path": "cia-rdp80m01009a000700970140-2_text.pdf",
+    "bytes": 389015,
+    "sha256": "6e2b5ecf4ac5bd9d8ade8c67b5c418c1b0617481543b8fcfd37f70ece922c12f",
+    "pages": 2,
+    "metadata": {
+      "/Producer": "Internet Archive PDF 1.4.25; including mupdf and pymupdf/skimage",
+      "/CreationDate": "D:20260408043123Z",
+      "/Title": "CIA Reading Room cia-rdp80m01009a000700970140-2: FOREIGN NEWSPAPER",
+      "/Keywords": "https://archive.org/details/cia-readingroom-document-cia-rdp80m01009a000700970140-2",
+      "/Author": "CIA Reading Room",
+      "/Creator": "Internet Archive",
+      "/Subject": "CIA Reading Room;",
+      "/ModDate": "D:20260408043123Z"
+    },
+    "text_chars": 20033,
+    "nonempty_pages": 2,
+    "low_text_pages": [],
+    "extracted_text": "C:\\Users\\domin\\PycharmProjects\\White-Rabbit-Article-Research-Team\\article_projects\\zrrifle\\research\\generated\\pdf_text\\cia-rdp80m01009a000700970140-2_text.pdf.txt"
+  },
+  {
+    "path": "December_15,_2022_Release_104-10079-10012.pdf",
+    "bytes": 469458,
+    "sha256": "27fd7100578564bd1b5983a1b10a670480d93bd4fc56ea4ae0a7ea8e2402bec9",
+    "pages": 3,
+    "metadata": {
+      "/Creator": "Aspose Ltd.",
+      "/Producer": "Aspose.PDF for .NET 21.3.0",
+      "/CreationDate": "D:20221207123545-05'00'",
+      "/ModDate": "D:20221207123545-05'00'",
+      "/Title": " ",
+      "/Author": " ",
+      "/Subject": " ",
+      "/Keywords": ""
+    },
+    "text_chars": 75,
+    "nonempty_pages": 0,
+    "low_text_pages": [
+      1,
+      2,
+      3
+    ],
+    "extracted_text": "C:\\Users\\domin\\PycharmProjects\\White-Rabbit-Article-Research-Team\\article_projects\\zrrifle\\research\\generated\\pdf_text\\December_15__2022_Release_104-10079-10012.pdf.txt"
+  },
+  {
+    "path": "MESSRS BORIS SHUB BERNARD[16645979].pdf",
+    "bytes": 77185,
+    "sha256": "bcf8483e889f8a3ce1acc7546a7f093cedc2fde8c5197d15e7f50850dd96d80f",
+    "pages": 1,
+    "metadata": {
+      "/Creator": "Aspose Pty Ltd.",
+      "/Producer": "Aspose.PDF for .NET 24.11.0",
+      "/CreationDate": "D:20260916140322-04'00'",
+      "/ModDate": "D:20260916140322-04'00'",
+      "/Title": "",
+      "/Author": "",
+      "/Subject": "",
+      "/Keywords": ""
+    },
+    "text_chars": 2851,
+    "nonempty_pages": 1,
+    "low_text_pages": [],
+    "extracted_text": "C:\\Users\\domin\\PycharmProjects\\White-Rabbit-Article-Research-Team\\article_projects\\zrrifle\\research\\generated\\pdf_text\\MESSRS_BORIS_SHUB_BERNARD_16645979_.pdf.txt"
+  },
+  {
+    "path": "PROJECT ZRRIFLE AND QJWIN[16639421].pdf",
+    "bytes": 582176,
+    "sha256": "4d0cfce74803734ae52576277b0b413592e004bb4175196fde0364c4649e4caf",
+    "pages": 13,
+    "metadata": {
+      "/Creator": "Aspose Pty Ltd.",
+      "/Producer": "Aspose.PDF for .NET 24.11.0",
+      "/CreationDate": "D:20260916140329-04'00'",
+      "/ModDate": "D:20260916140329-04'00'",
+      "/Title": "",
+      "/Author": "",
+      "/Subject": "",
+      "/Keywords": ""
+    },
+    "text_chars": 30463,
+    "nonempty_pages": 13,
+    "low_text_pages": [],
+    "extracted_text": "C:\\Users\\domin\\PycharmProjects\\White-Rabbit-Article-Research-Team\\article_projects\\zrrifle\\research\\generated\\pdf_text\\PROJECT_ZRRIFLE_AND_QJWIN_16639421_.pdf.txt"
+  }
+]

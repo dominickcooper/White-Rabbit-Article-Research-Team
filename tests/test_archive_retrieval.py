@@ -44,5 +44,44 @@ def test_retrieval_returns_relevant_previous_article(tmp_path: Path):
     assert len(memories) == 1
     assert memories[0].article.slug == "flock-safety"
     text = format_archive_memory(memories)
-    assert "DO NOT treat a prior White Rabbit assertion as proof" in text
+    assert "Level 1 project canon" in text
+    assert "Do not spend the new investigation merely re-proving canon" in text
     assert "https://www.flocksafety.com" in text
+
+
+def test_slash_delimited_multihop_query_preserves_separate_entities(tmp_path: Path):
+    syncer = SubstackArchiveSync(
+        publication_url="https://example.substack.com",
+        archive_root=tmp_path / "archive",
+        db_path=tmp_path / "knowledge" / "white_rabbit.db",
+        request_delay_ms=0,
+    )
+    try:
+        syncer.store_snapshot(ArticleSnapshot(
+            title="The Maxwell intelligence network",
+            slug="maxwell-network",
+            canonical_url="https://example.substack.com/p/maxwell-network",
+            published_date="2026-01-01T00:00:00Z",
+            author="White Rabbit",
+            markdown=(
+                "# The Maxwell intelligence network\n\n"
+                "Robert Maxwell operated across media, finance, and intelligence circles. "
+                "Investigative reporting repeatedly examined his alleged Mossad relationship "
+                "and the documentary trail surrounding those claims."
+            ),
+            links=[],
+            content_status="full",
+        ))
+    finally:
+        syncer.close()
+
+    memories = retrieve_archive_memory(
+        tmp_path / "knowledge" / "white_rabbit.db",
+        query="Robert Maxwell / Mossad",
+        chunk_limit=5,
+        article_limit=3,
+        min_score=0.0,
+    )
+    assert memories
+    assert memories[0].article.slug == "maxwell-network"
+    assert "robert maxwell" in memories[0].exact_phrases

@@ -1,18 +1,6 @@
-[Shadow Reports](https://thewhiterabbitreport.substack.com/s/shadow-reports/?utm_source=substack&utm_medium=menu)
-
 # The Curious Case of Larry Silverstein: A 9/11 Mystery
 
-### Just six weeks before 9/11, Larry Silverstein signed the lease of a lifetime. Months later, after the deadliest terrorist attack in American history, he became the recipient of billions. Coincidence?
-
-[![The White Rabbit Report's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)](https://substack.com/@thewhiterabbitreport)
-
-[The White Rabbit Report](https://substack.com/@thewhiterabbitreport)
-
-Jul 30, 2026
-
-∙ Paid
-
-[![](https://substackcdn.com/image/fetch/$s_!Tv1C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e254f57-f1f1-4d2b-89bd-117684fc41dd_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!Tv1C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e254f57-f1f1-4d2b-89bd-117684fc41dd_1536x1024.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/5e254f57-f1f1-4d2b-89bd-117684fc41dd_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!Tv1C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e254f57-f1f1-4d2b-89bd-117684fc41dd_1536x1024.png)
 
 **Forty-nine days.**
 
@@ -100,13 +88,11 @@ Three things are a pattern.
 
 **Let’s find out.**
 
-**The official story is easy to find.** The buried records take more work. Subscribe free (or go paid) to support investigations that follow the evidence wherever it leads.
-
 ---
 
 # **FORTY-NINE DAYS EARLIER**
 
-[![Larry Silverstein's Big World Trade Center Bet Is Paying Off – Commercial  Observer](https://substackcdn.com/image/fetch/$s_!qQpJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9c55217-f702-4462-b450-195dcdfe11b8_1462x963.jpeg "Larry Silverstein's Big World Trade Center Bet Is Paying Off – Commercial  Observer")](https://substackcdn.com/image/fetch/$s_!qQpJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9c55217-f702-4462-b450-195dcdfe11b8_1462x963.jpeg)
+[![Larry Silverstein's Big World Trade Center Bet Is Paying Off – Commercial  Observer](https://substack-post-media.s3.amazonaws.com/public/images/e9c55217-f702-4462-b450-195dcdfe11b8_1462x963.jpeg "Larry Silverstein's Big World Trade Center Bet Is Paying Off – Commercial  Observer")](https://substackcdn.com/image/fetch/$s_!qQpJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9c55217-f702-4462-b450-195dcdfe11b8_1462x963.jpeg)
 
 ### **The Lease of a Lifetime**
 
@@ -128,7 +114,7 @@ The estimated value of the World Trade Center lease was approximately **$3.2 bil
 
 And Silverstein wanted it **bad**.
 
-[![](https://substackcdn.com/image/fetch/$s_!Qt2J!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3401cae-f7be-4981-94a9-5497a51904b9_446x597.png)](https://substackcdn.com/image/fetch/$s_!Qt2J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3401cae-f7be-4981-94a9-5497a51904b9_446x597.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/d3401cae-f7be-4981-94a9-5497a51904b9_446x597.png)](https://substackcdn.com/image/fetch/$s_!Qt2J!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3401cae-f7be-4981-94a9-5497a51904b9_446x597.png)
 
 Excerpt from [April 2001 NYP Article](https://nypost.com/2001/04/27/larry-bags-wtc-silverstein-3-21b-bid-wins-towers/)
 
@@ -156,7 +142,7 @@ His team submitted the final bid on January 30.
 
 While [there was a little drama](https://nypost.com/2001/03/20/vornado-is-dumped-pa-talks-with-silverstein-about-wtc-lease/), he ended up winning the bid. Of course, it helped to have already **curried some good favor** with Port Authority (the previous owner) from **another terrorist attack** at the World Trade Center in 1993…and had some **friendly faces** in the room.
 
-[![](https://substackcdn.com/image/fetch/$s_!MPbz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc515c96b-1b5c-4802-8cd8-cc531f65afab_599x605.png)](https://substackcdn.com/image/fetch/$s_!MPbz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc515c96b-1b5c-4802-8cd8-cc531f65afab_599x605.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/c515c96b-1b5c-4802-8cd8-cc531f65afab_599x605.png)](https://substackcdn.com/image/fetch/$s_!MPbz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc515c96b-1b5c-4802-8cd8-cc531f65afab_599x605.png)
 
 Excerpt from [April 2001 Article by The Observer](https://observer.com/2001/04/silverstein-recovers-dark-horse-may-win-world-trade-center/)
 
@@ -164,7 +150,7 @@ Excerpt from [April 2001 Article by The Observer](https://observer.com/2001/04/s
 
 At the time of purchase, some analyses had the Twin Towers as nearly worthless buildings that no rational investor would want.
 
-[![](https://substackcdn.com/image/fetch/$s_!RJBC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facbe4476-fa9d-4e70-9007-56f67d5b3d08_574x184.png)](https://substackcdn.com/image/fetch/$s_!RJBC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facbe4476-fa9d-4e70-9007-56f67d5b3d08_574x184.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/acbe4476-fa9d-4e70-9007-56f67d5b3d08_574x184.png)](https://substackcdn.com/image/fetch/$s_!RJBC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facbe4476-fa9d-4e70-9007-56f67d5b3d08_574x184.png)
 
 Excerpt from [April 2001 Article by The Observer](https://observer.com/2001/04/silverstein-recovers-dark-horse-may-win-world-trade-center/)
 
@@ -183,7 +169,7 @@ Regardless, the entire agreement closed **49 days before September 11**.
 
 # **THE BUILDING THAT WASN’T HIT**
 
-[![7 World Trade Center (1987–2001) - Wikipedia](https://substackcdn.com/image/fetch/$s_!W7Hy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21929a89-43ed-4ea8-b353-dcae62e8dcff_1266x1783.jpeg "7 World Trade Center (1987–2001) - Wikipedia")](https://substackcdn.com/image/fetch/$s_!W7Hy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21929a89-43ed-4ea8-b353-dcae62e8dcff_1266x1783.jpeg)
+[![7 World Trade Center (1987–2001) - Wikipedia](https://substack-post-media.s3.amazonaws.com/public/images/21929a89-43ed-4ea8-b353-dcae62e8dcff_1266x1783.jpeg "7 World Trade Center (1987–2001) - Wikipedia")](https://substackcdn.com/image/fetch/$s_!W7Hy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21929a89-43ed-4ea8-b353-dcae62e8dcff_1266x1783.jpeg)
 
 7 World Trade Center
 
@@ -213,7 +199,7 @@ And it too belonged to **Larry Silverstein**.
 
 ### **Silverstein’s First World Trade Center**
 
-[![New 9/11 exhibit shares story behind World Trade Center rebuild | Fox  Business](https://substackcdn.com/image/fetch/$s_!Ncxu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F316cf7ac-7570-476e-999f-460ef210b43e_931x506.jpeg "New 9/11 exhibit shares story behind World Trade Center rebuild | Fox  Business")](https://substackcdn.com/image/fetch/$s_!Ncxu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F316cf7ac-7570-476e-999f-460ef210b43e_931x506.jpeg)
+[![New 9/11 exhibit shares story behind World Trade Center rebuild | Fox  Business](https://substack-post-media.s3.amazonaws.com/public/images/316cf7ac-7570-476e-999f-460ef210b43e_931x506.jpeg "New 9/11 exhibit shares story behind World Trade Center rebuild | Fox  Business")](https://substackcdn.com/image/fetch/$s_!Ncxu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F316cf7ac-7570-476e-999f-460ef210b43e_931x506.jpeg)
 
 Building 7 was not included in the 99-year lease Silverstein signed 49 days before the attacks.
 
@@ -320,7 +306,7 @@ According to the [UAF final study](https://ine.uaf.edu/wtc7), **fire did not cau
 
 The researchers concluded that the observed descent required a **“near-simultaneous failure of every column in the building.”**
 
-[![](https://substackcdn.com/image/fetch/$s_!JLYe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19e0be13-99f2-4c59-b51c-7fc7c4cc093b_652x83.png)](https://substackcdn.com/image/fetch/$s_!JLYe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19e0be13-99f2-4c59-b51c-7fc7c4cc093b_652x83.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/19e0be13-99f2-4c59-b51c-7fc7c4cc093b_652x83.png)](https://substackcdn.com/image/fetch/$s_!JLYe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19e0be13-99f2-4c59-b51c-7fc7c4cc093b_652x83.png)
 
 *That sounds like controlled demolition.*
 
@@ -362,13 +348,11 @@ To begin answering that, we have to leave the buildings behind.
 
 Most people have heard of the Twin Towers. Far fewer have seriously examined Building 7. **Share this investigation with someone who still has questions.**
 
-[Share](https://thewhiterabbitreport.substack.com/p/larry-silverstein-9-11-israel?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
 ---
 
 # **SILVERSTEIN’S ISRAEL CONNECTION**
 
-[![](https://substackcdn.com/image/fetch/$s_!2yBh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F527557b9-6ab1-43d6-a716-5c6e7a6c549b_2700x1874.jpeg)](https://substackcdn.com/image/fetch/$s_!2yBh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F527557b9-6ab1-43d6-a716-5c6e7a6c549b_2700x1874.jpeg)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/527557b9-6ab1-43d6-a716-5c6e7a6c549b_2700x1874.jpeg)](https://substackcdn.com/image/fetch/$s_!2yBh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F527557b9-6ab1-43d6-a716-5c6e7a6c549b_2700x1874.jpeg)
 
 Now, Larry Silverstein’s **ties to Israel** were not and are not hidden.
 
@@ -406,11 +390,11 @@ Of all Silverstein’s Israeli relationships, one stands apart.
 
 In November 2001 (a little more than two months after the attacks) the Israeli newspaper *Haaretz* published a profile of Silverstein titled [“Up in Smoke”](https://web.archive.org/web/20220807154722/https://www.haaretz.com/2001-11-21/ty-article/up-in-smoke/0000017f-dc11-d856-a37f-fdd16fb20000).
 
-[![](https://substackcdn.com/image/fetch/$s_!nwWL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8da093b-4b72-479c-80cd-65bc292b01f3_588x326.png)](https://substackcdn.com/image/fetch/$s_!nwWL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8da093b-4b72-479c-80cd-65bc292b01f3_588x326.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/f8da093b-4b72-479c-80cd-65bc292b01f3_588x326.png)](https://substackcdn.com/image/fetch/$s_!nwWL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8da093b-4b72-479c-80cd-65bc292b01f3_588x326.png)
 
 Excerpt from “[Up in Smoke](https://www.haaretz.com/2001-11-21/ty-article/up-in-smoke/0000017f-dc11-d856-a37f-fdd16fb20000)” article.
 
-[![](https://substackcdn.com/image/fetch/$s_!vxSX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27351854-4cb0-4afc-b684-813c7cb4ea4a_458x491.png)](https://substackcdn.com/image/fetch/$s_!vxSX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27351854-4cb0-4afc-b684-813c7cb4ea4a_458x491.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/27351854-4cb0-4afc-b684-813c7cb4ea4a_458x491.png)](https://substackcdn.com/image/fetch/$s_!vxSX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F27351854-4cb0-4afc-b684-813c7cb4ea4a_458x491.png)
 
 Excerpt from “[Up in Smoke](https://web.archive.org/web/20220807154722/https://www.haaretz.com/2001-11-21/ty-article/up-in-smoke/0000017f-dc11-d856-a37f-fdd16fb20000)” article.
 
@@ -438,7 +422,7 @@ We may never know, but my money is on that **they did talk.**
 
 ### **The Man Who Built His Career on Terrorism**
 
-[![Exclusive: Benjamin Netanyahu at War](https://substackcdn.com/image/fetch/$s_!6X2t!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88aed507-1989-48f5-a3d3-4913c4138cd0_3840x2560.webp "Exclusive: Benjamin Netanyahu at War")](https://substackcdn.com/image/fetch/$s_!6X2t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88aed507-1989-48f5-a3d3-4913c4138cd0_3840x2560.webp)
+[![Exclusive: Benjamin Netanyahu at War](https://substack-post-media.s3.amazonaws.com/public/images/88aed507-1989-48f5-a3d3-4913c4138cd0_3840x2560.webp "Exclusive: Benjamin Netanyahu at War")](https://substackcdn.com/image/fetch/$s_!6X2t!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88aed507-1989-48f5-a3d3-4913c4138cd0_3840x2560.webp)
 
 Netanyahu’s place in this story matters because few political leaders had spent more time warning Americans about international terrorism.
 
@@ -468,7 +452,7 @@ Then he caught himself.
 
 > **“Well, it’s not very good, but it’s going to generate immediate sympathy.”**
 
-[![](https://substackcdn.com/image/fetch/$s_!_CjV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60f2a976-05d7-4a50-a83e-5a28e2753562_567x114.png)](https://substackcdn.com/image/fetch/$s_!_CjV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60f2a976-05d7-4a50-a83e-5a28e2753562_567x114.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/60f2a976-05d7-4a50-a83e-5a28e2753562_567x114.png)](https://substackcdn.com/image/fetch/$s_!_CjV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60f2a976-05d7-4a50-a83e-5a28e2753562_567x114.png)
 
 Excerpt from Bennet’s article featured in the *[The Atlantic](https://www.theatlantic.com/magazine/archive/2011/09/on-91111/308594/)*
 
@@ -493,7 +477,7 @@ According to the report, Netanyahu said Israel was **[benefiting from two major 
 
 *Uh, excuse me?*
 
-[![](https://substackcdn.com/image/fetch/$s_!CKiz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9960421-8130-4b28-bd0f-ad1651426004_618x610.png)](https://substackcdn.com/image/fetch/$s_!CKiz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9960421-8130-4b28-bd0f-ad1651426004_618x610.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/f9960421-8130-4b28-bd0f-ad1651426004_618x610.png)](https://substackcdn.com/image/fetch/$s_!CKiz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9960421-8130-4b28-bd0f-ad1651426004_618x610.png)
 
 Excerpt from [Ha’aretz Article](https://web.archive.org/web/20221015015232/https://www.haaretz.com/2008-04-16/ty-article/report-netanyahu-says-9-11-terror-attacks-good-for-israel/0000017f-db7e-db22-a17f-ffff07ea0000) about Bibi’s comments
 
@@ -545,7 +529,7 @@ Because Netanyahu was not the only part of Israel’s national-security world ap
 
 # **THE WARNINGS**
 
-[![Where Were You on the Morning of September 11? Part 2](https://substackcdn.com/image/fetch/$s_!arR6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dcd0de2-7f9b-4988-8ce9-d8989ceb0d78_1280x720.jpeg "Where Were You on the Morning of September 11? Part 2")](https://substackcdn.com/image/fetch/$s_!arR6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dcd0de2-7f9b-4988-8ce9-d8989ceb0d78_1280x720.jpeg)
+[![Where Were You on the Morning of September 11? Part 2](https://substack-post-media.s3.amazonaws.com/public/images/4dcd0de2-7f9b-4988-8ce9-d8989ceb0d78_1280x720.jpeg "Where Were You on the Morning of September 11? Part 2")](https://substackcdn.com/image/fetch/$s_!arR6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4dcd0de2-7f9b-4988-8ce9-d8989ceb0d78_1280x720.jpeg)
 
 Before examining what Israeli intelligence may have known, **one fact must be made clear:**
 
@@ -558,7 +542,7 @@ This was not a calm intelligence landscape disturbed by one mysterious message f
 
 The [9/11 Commission devoted an entire chapter to what it called “The System Was Blinking Red”](https://www.govinfo.gov/content/pkg/GPO-911REPORT/pdf/GPO-911REPORT.pdf#page=271). During the spring and summer of 2001, **American intelligence agencies** received an extraordinary stream of reports suggesting that Osama bin Laden’s network was preparing something large.
 
-[![](https://substackcdn.com/image/fetch/$s_!o0l0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe3fb706-167a-4143-ac9a-2bb6802e6b7e_430x170.png)](https://substackcdn.com/image/fetch/$s_!o0l0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe3fb706-167a-4143-ac9a-2bb6802e6b7e_430x170.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/fe3fb706-167a-4143-ac9a-2bb6802e6b7e_430x170.png)](https://substackcdn.com/image/fetch/$s_!o0l0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe3fb706-167a-4143-ac9a-2bb6802e6b7e_430x170.png)
 
 Excerpt from [“The System was Blinking Red”](https://www.govinfo.gov/content/pkg/GPO-911REPORT/pdf/GPO-911REPORT.pdf#page=271) chapter
 
@@ -576,15 +560,15 @@ The [congressional Joint Inquiry into pre-9/11 intelligence](https://www.intelli
 
 ***Excerpts from [JOINT COMMITTEE HEARING ON THE EVENTS SURROUNDING THE ATTACK ON THE UNITED STATES ON SEPTEMBER 11, 2001](https://www.intelligence.senate.gov/2002/09/26/hearings-joint-inquiry-intelligence-community-activities-and-after-terrorist-attacks-september-11-0/):***
 
-[![](https://substackcdn.com/image/fetch/$s_!yvHk!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae5b3223-ebd1-4635-bd92-f52da80a6ab6_727x227.png)](https://substackcdn.com/image/fetch/$s_!yvHk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae5b3223-ebd1-4635-bd92-f52da80a6ab6_727x227.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/ae5b3223-ebd1-4635-bd92-f52da80a6ab6_727x227.png)](https://substackcdn.com/image/fetch/$s_!yvHk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae5b3223-ebd1-4635-bd92-f52da80a6ab6_727x227.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!nNbD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb53f4153-5668-46ac-a2ae-12c27b13ac13_682x166.png)](https://substackcdn.com/image/fetch/$s_!nNbD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb53f4153-5668-46ac-a2ae-12c27b13ac13_682x166.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/b53f4153-5668-46ac-a2ae-12c27b13ac13_682x166.png)](https://substackcdn.com/image/fetch/$s_!nNbD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb53f4153-5668-46ac-a2ae-12c27b13ac13_682x166.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!keY5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F873b6d5d-44e1-460d-b0f7-6ca4dde4560c_724x360.png)](https://substackcdn.com/image/fetch/$s_!keY5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F873b6d5d-44e1-460d-b0f7-6ca4dde4560c_724x360.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/873b6d5d-44e1-460d-b0f7-6ca4dde4560c_724x360.png)](https://substackcdn.com/image/fetch/$s_!keY5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F873b6d5d-44e1-460d-b0f7-6ca4dde4560c_724x360.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!OvED!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd78d82b8-dc96-4f03-a73b-b92d36627ca6_721x259.png)](https://substackcdn.com/image/fetch/$s_!OvED!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd78d82b8-dc96-4f03-a73b-b92d36627ca6_721x259.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/d78d82b8-dc96-4f03-a73b-b92d36627ca6_721x259.png)](https://substackcdn.com/image/fetch/$s_!OvED!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd78d82b8-dc96-4f03-a73b-b92d36627ca6_721x259.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!TIeu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7dfeb1e3-ad6f-4bd5-955f-f287be0b4cd4_746x387.png)](https://substackcdn.com/image/fetch/$s_!TIeu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7dfeb1e3-ad6f-4bd5-955f-f287be0b4cd4_746x387.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/7dfeb1e3-ad6f-4bd5-955f-f287be0b4cd4_746x387.png)](https://substackcdn.com/image/fetch/$s_!TIeu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7dfeb1e3-ad6f-4bd5-955f-f287be0b4cd4_746x387.png)
 
 **I leave it to you:**
 
@@ -594,7 +578,7 @@ The [congressional Joint Inquiry into pre-9/11 intelligence](https://www.intelli
 
 Five days after September 11, Britain’s *Daily Telegraph* reported that [Israeli intelligence officials had warned their American counterparts in August 2001](https://www.telegraph.co.uk/news/worldnews/northamerica/usa/1340698/Israeli-security-issued-urgent-warning-to-CIA-of-large-scale-terror-attacks.html).
 
-[![](https://substackcdn.com/image/fetch/$s_!imtx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182b5956-1ae6-4f6c-bfe2-830b448ab8ec_428x138.png)](https://substackcdn.com/image/fetch/$s_!imtx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182b5956-1ae6-4f6c-bfe2-830b448ab8ec_428x138.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/182b5956-1ae6-4f6c-bfe2-830b448ab8ec_428x138.png)](https://substackcdn.com/image/fetch/$s_!imtx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F182b5956-1ae6-4f6c-bfe2-830b448ab8ec_428x138.png)
 
 Some interesting things about this warning though:
 
@@ -638,10 +622,6 @@ The paper argued that **removing Saddam could weaken Syria**, **strengthen Jorda
 Iraq was not treated as one threat among many.  
 It was **the first domino.**
 
-![Feith, Perle, and Wurmser](https://substackcdn.com/image/fetch/$s_!8HFZ!,w_474,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21cab173-6c0f-40fd-a917-f55f32392c8b_250x312.jpeg)![Feith, Perle, and Wurmser](https://substackcdn.com/image/fetch/$s_!2Y7R!,w_474,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53c635a8-3e85-4d2f-83cf-6f0c6a7c43e8_250x263.jpeg)![Feith, Perle, and Wurmser](https://substackcdn.com/image/fetch/$s_!bUoq!,w_474,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a442ce9-26ed-4ca7-a056-1e2865332d73_2000x1000.webp)
-
-Feith, Perle, and Wurmser
-
 **[Douglas Feith](https://en.wikipedia.org/wiki/Douglas_Feith)**, one of its authors, became [undersecretary of defense for policy in July 2001](https://georgewbush-whitehouse.archives.gov/news/briefings/20010406.html)—one of **the most powerful policy positions** inside the Pentagon.
 
 *[Richard Perle](https://en.wikipedia.org/wiki/Richard_Perle)?*   
@@ -665,7 +645,7 @@ By 1998, the campaign had moved from a paper prepared for Netanyahu **into Ameri
 
 A group called the **Project for the New American Century** sent [a public letter to President Bill Clinton calling for the removal of Saddam Hussein’s regime](https://www.militarist-monitor.org/images/uploads/PNAC_Letter_to_President_Clinton_on_Iraq.pdf).
 
-[![](https://substackcdn.com/image/fetch/$s_!SLRe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc53e8645-f77f-44b2-b9a0-99d7dfebd40d_637x70.png)](https://substackcdn.com/image/fetch/$s_!SLRe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc53e8645-f77f-44b2-b9a0-99d7dfebd40d_637x70.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/c53e8645-f77f-44b2-b9a0-99d7dfebd40d_637x70.png)](https://substackcdn.com/image/fetch/$s_!SLRe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc53e8645-f77f-44b2-b9a0-99d7dfebd40d_637x70.png)
 
 Excerpt from 1998 [Letter to President Clinton on Iraq](https://www.militarist-monitor.org/images/uploads/PNAC_Letter_to_President_Clinton_on_Iraq.pdf)
 
@@ -687,7 +667,7 @@ More than three years before the Twin Towers fell.
 
 Interestingly, by the time 9/11 happened, nearly all of these men **were already inside**—or immediately beside—**the Bush administration**:
 
-[![](https://substackcdn.com/image/fetch/$s_!muR2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2660d4ca-ce08-432c-978d-0e19f7b097eb_647x411.png)](https://substackcdn.com/image/fetch/$s_!muR2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2660d4ca-ce08-432c-978d-0e19f7b097eb_647x411.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/2660d4ca-ce08-432c-978d-0e19f7b097eb_647x411.png)](https://substackcdn.com/image/fetch/$s_!muR2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2660d4ca-ce08-432c-978d-0e19f7b097eb_647x411.png)
 
 So when September 11 happened, these officials did not suddenly *discover* Iraq.
 
@@ -715,7 +695,7 @@ Secretary of State Colin Powell later told the Commission that **Wolfowitz could
 
 > “One way of using this event as a way to deal with the Iraq problem.”
 
-[![](https://substackcdn.com/image/fetch/$s_!WS4_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb31d1f1-a73c-413c-931e-0e2f1e32de4d_868x121.png)](https://substackcdn.com/image/fetch/$s_!WS4_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb31d1f1-a73c-413c-931e-0e2f1e32de4d_868x121.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/eb31d1f1-a73c-413c-931e-0e2f1e32de4d_868x121.png)](https://substackcdn.com/image/fetch/$s_!WS4_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb31d1f1-a73c-413c-931e-0e2f1e32de4d_868x121.png)
 
 **Using this event.**
 
@@ -749,30 +729,6 @@ That does not prove Israel planned to frame Iraq.
 But it does show that **the machinery for blaming (and attacking) Iraq had already been built**.
 
 This is discussed in our series on regime change, as well as the White Rabbit article on Gaddafi:
-
-[![The Blueprint Pt 2/3: The CIA’s Global Coup Machine (1980s–2020)](https://substackcdn.com/image/fetch/$s_!dDfe!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc201450-18f4-4257-982e-0bbd98b75139_1536x1024.png)
-
-#### The Blueprint Pt 2/3: The CIA’s Global Coup Machine (1980s–2020)
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-April 26, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-2-history-1980s-2020)](https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-2-history-1980s-2020)
-
-[![The Assassination of Gaddafi: Why He Had to Die](https://substackcdn.com/image/fetch/$s_!6ptp!,w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72941f45-e465-4663-a150-e767ba40f1dd_1536x1024.png)
-
-#### The Assassination of Gaddafi: Why He Had to Die
-
-[The White Rabbit Report](https://substack.com/profile/269271170-the-white-rabbit-report)
-
-·
-
-December 6, 2025
-
-[Read full story](https://thewhiterabbitreport.substack.com/p/real-reasons-gaddafi-was-killed-cia-mi6-nato)](https://thewhiterabbitreport.substack.com/p/real-reasons-gaddafi-was-killed-cia-mi6-nato)
 
 ### **Where Did the Number Come From?**
 
@@ -912,7 +868,7 @@ That phone call began one of the strangest (and most carefully buried) investiga
 
 ### **The So-Called “Dancing Israelis”**
 
-[![Image](https://substackcdn.com/image/fetch/$s_!6p2C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7806a5b3-0e4b-45fc-98d9-73aef74a1e3f_655x681.jpeg "Image")](https://substackcdn.com/image/fetch/$s_!6p2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7806a5b3-0e4b-45fc-98d9-73aef74a1e3f_655x681.jpeg)
+[![Image](https://substack-post-media.s3.amazonaws.com/public/images/7806a5b3-0e4b-45fc-98d9-73aef74a1e3f_655x681.jpeg "Image")](https://substackcdn.com/image/fetch/$s_!6p2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7806a5b3-0e4b-45fc-98d9-73aef74a1e3f_655x681.jpeg)
 
 Redacted photo that was covered from one of the cameras
 
@@ -978,7 +934,7 @@ Interesting. According to **another witness in the FBI files** who previously **
 
 ### **The Photographs**
 
-[![](https://substackcdn.com/image/fetch/$s_!oVz2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F448f0705-18fd-4506-ac20-2fda83152a58_1170x864.png)](https://substackcdn.com/image/fetch/$s_!oVz2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F448f0705-18fd-4506-ac20-2fda83152a58_1170x864.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/448f0705-18fd-4506-ac20-2fda83152a58_1170x864.png)](https://substackcdn.com/image/fetch/$s_!oVz2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F448f0705-18fd-4506-ac20-2fda83152a58_1170x864.png)
 
 Mugshots of the five arrested Israelis, via 2002 ABC report
 
@@ -1023,7 +979,7 @@ The men underwent **repeated interviews** and **polygraph examinations**. **Coun
 
 ### **Urban Moving Systems**
 
-[![Urban Moving Systems, 3 W 18th St, Weehawken, NJ 07086, US - MapQuest](https://substackcdn.com/image/fetch/$s_!GiAJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcfc41a3-b515-41f4-a7cf-ec22aaf1666c_474x266.jpeg "Urban Moving Systems, 3 W 18th St, Weehawken, NJ 07086, US - MapQuest")](https://substackcdn.com/image/fetch/$s_!GiAJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcfc41a3-b515-41f4-a7cf-ec22aaf1666c_474x266.jpeg)
+[![Urban Moving Systems, 3 W 18th St, Weehawken, NJ 07086, US - MapQuest](https://substack-post-media.s3.amazonaws.com/public/images/dcfc41a3-b515-41f4-a7cf-ec22aaf1666c_474x266.jpeg "Urban Moving Systems, 3 W 18th St, Weehawken, NJ 07086, US - MapQuest")](https://substackcdn.com/image/fetch/$s_!GiAJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcfc41a3-b515-41f4-a7cf-ec22aaf1666c_474x266.jpeg)
 
 The FBI searched Urban Moving Systems’ facility in Weehawken shortly after the arrests.
 
@@ -1035,7 +991,7 @@ No surprise, the company **abruptly ceased operating** after this.
 
 ### **The Owner Leaves for Israel**
 
-[![](https://substackcdn.com/image/fetch/$s_!q0XG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26d3ddc0-4023-46a0-a9f9-7e94077dcae9_1254x1254.png)](https://substackcdn.com/image/fetch/$s_!q0XG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26d3ddc0-4023-46a0-a9f9-7e94077dcae9_1254x1254.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/26d3ddc0-4023-46a0-a9f9-7e94077dcae9_1254x1254.png)](https://substackcdn.com/image/fetch/$s_!q0XG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F26d3ddc0-4023-46a0-a9f9-7e94077dcae9_1254x1254.png)
 
 Urban owner Dominik Suter
 
@@ -1049,7 +1005,7 @@ In March 2002, **The Forward**, a longstanding Jewish-American newspaper, report
 
 According to that official, the FBI concluded that [Urban Moving Systems was a front for an Israeli intelligence operation](https://forward.com/news/325698/spy-rumors-fly-on-gusts-of-truth/) and that at least two of the five detained men were Mossad operatives.
 
-[![](https://substackcdn.com/image/fetch/$s_!q4eS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28742ad2-8d6d-430a-9798-2969b99ce505_701x95.png)](https://substackcdn.com/image/fetch/$s_!q4eS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28742ad2-8d6d-430a-9798-2969b99ce505_701x95.png)
+[![](https://substack-post-media.s3.amazonaws.com/public/images/28742ad2-8d6d-430a-9798-2969b99ce505_701x95.png)](https://substackcdn.com/image/fetch/$s_!q4eS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28742ad2-8d6d-430a-9798-2969b99ce505_701x95.png)
 
 The Forward also reported that **names connected to two of the men** appeared in an **American intelligence database of foreign operatives**, causing the matter to become a foreign-counterintelligence investigation.
 
@@ -1094,14 +1050,483 @@ This whole story during 9/11, of course, **was memory holed.**
 
 **What else was memory holed?**The Israeli art students.
 
-*You’ve reached the part most accounts leave out.* Become **a paid subscriber** for full access to investigations built from court records, intelligence reports, and the details hidden between the headlines.
-
 This story was reported, investigated, and then largely forgotten. Share it before another **documented piece of 9/11** **history** disappears beneath the label of “conspiracy.”
 
-[Share](https://thewhiterabbitreport.substack.com/p/larry-silverstein-9-11-israel?utm_source=substack&utm_medium=email&utm_content=share&action=share)
+---
 
-![User's avatar](https://substackcdn.com/image/fetch/$s_!xqaS!,w_64,h_64,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb71d99aa-12b8-4907-b0cb-75f51848fe2f_962x962.png)
+# **THE OPERATION ALREADY UNDERWAY**
 
-## Continue reading this post for free in the Substack app
+Months before September 11 (January 2001), federal agents across the United States began reporting the same strange encounter.
 
-[Or purchase a paid subscription.](https://thewhiterabbitreport.substack.com/subscribe?simple=true&next=https%3A%2F%2Fthewhiterabbitreport.substack.com%2Fp%2Flarry-silverstein-9-11-israel&utm_source=paywall&utm_medium=web&utm_content=208695417&just_signed_up=falsesimple=true&utm_source=paywall&utm_medium=email&utm_content=208695417&next=https://thewhiterabbitreport.substack.com/p/larry-silverstein-9-11-israel)
+Young Israelis would arrive carrying portfolios of inexpensive paintings.
+
+They said they were art students.
+
+They offered to sell their work.
+
+Sometimes they appeared at government buildings. Sometimes they approached military installations. Sometimes they arrived at the private homes of federal agents.
+
+And when questioned, many told almost identical stories.
+
+They claimed to attend the **Bezalel Academy of Arts and Design** in Jerusalem.
+
+Others said they studied at the “University of Jerusalem.”
+
+There was one problem.
+
+**[None of the people named in the DEA report](https://www.salon.com/2002/05/07/students/)** could be confirmed as students or recent graduates of Bezalel.
+
+And an institution called the “University of Jerusalem” **did not exist.**
+
+They were selling art.
+
+But they did not appear to be art students.
+
+*So what were they?*
+
+### **A Pattern Too Large to Ignore**
+
+The incidents were not confined to one city.  
+Reports arrived from more than **40 American cities**.
+
+Agents from the **Drug Enforcement Administration**, **Bureau of Alcohol, Tobacco and Firearms**, **Secret Service**, **FBI**, **U.S. Marshals Service**, and branches of the military documented suspicious contacts.
+
+By June 2001, the DEA’s Office of Security Programs had assembled the field reports into a memorandum running **roughly 60 pages**.
+
+The report chronicled approximately **130 separate encounters** involving young Israelis who claimed to be selling art. In some cases, they tried to **enter restricted sections** of government buildings. In others, agents believed they were mapping interiors, photographing personnel, or **gathering information** about sites that were not publicly identified.
+
+The DEA memo reportedly concluded that the pattern **“may well be an organized intelligence-gathering activity.”**
+
+### **The Offices That Did Not Advertise Themselves**
+
+The **most troubling visits** were not made to well-marked courthouses or public lobbies.
+
+Some of the supposed students appeared at [DEA offices that were not openly identified as government facilities](https://www.salon.com/2002/05/07/students/).
+
+Some approached entrances **away from the public lobby.**
+
+Some reportedly tried side doors, parking garages, or elevators **leading toward secure floors.**
+
+In October 2000, security officers at a **DEA building in Houston** reportedly stopped an Israeli man after he entered an elevator from a secure area. Three months later, another man claiming to sell art allegedly **tried to enter the same facility** through a back door inside a secured parking area.
+
+*Aggressive door-to-door selling?***Yeah, no.**
+
+**An unmarked federal office** is not the kind of place a traveling salesperson finds while strolling down the street.
+
+Someone had **identified the building**.
+
+Someone had **identified the entrance**.
+
+And in some cases, **someone appeared to know where the agents lived.**
+
+### **The Visits to Agents’ Homes**
+
+**Numerous federal agents and officials** were approached at their homes. One agent reportedly told the publication that supposed art students visited her residence **six times.**
+
+After becoming suspicious, some agents watched what the sellers did next.
+
+They reportedly did not knock on every door.
+
+They did not work through the neighborhood in a normal sales pattern.
+
+They approached the agent.
+
+Then they left.
+
+That detail transformed an odd sales pitch into a security problem.
+
+Federal agents’ home addresses were not always public.
+
+Some worked in sensitive investigations.
+
+Some handled informants, surveillance, wiretaps, or classified information.
+
+How had **a group of foreign nationals** selling cheap paintings repeatedly found their private residences?
+
+**And the stories kept piling up:**
+
+- March 2001, the Office of the National Counterintelligence Executive issued a warning about suspicious visitors attempting to bypass security at federal facilities.
+- April 30, 2001, personnel at **Tinker Air Force Base in Oklahoma** circulated a notice concerning possible intelligence collection by Israeli art students. Tinker supported sensitive Air Force operations, including aircraft connected to airborne surveillance and command systems.
+- Weeks later, two Israeli nationals entered **Volk Field Air National Guard Base** in Wisconsin after asking to visit a museum. They were reportedly discovered on an active runway taking photographs and were charged with trespassing.
+- A Justice Department spokeswoman told *The Washington Post* that the spy-ring allegation appeared to be an [“urban myth” unsupported by available information](https://www.washingtonpost.com/archive/politics/2002/03/06/reports-of-israeli-spy-ring-dismissed/11efbc92-1b6f-4701-80b7-bc78e57d7de8/). “Anonymous officials” suggested that much of the story came from a DEA employee whose espionage theory had been rejected by FBI and CIA experts.
+- It was discovered that [many had served in military-intelligence or electronic signal-interception units](https://www.mrt.com/news/article/Gov-t-Tracks-Israeli-Art-Students-7780385.php).
+
+[Other reports](https://www.theguardian.com/education/2002/mar/06/internationaleducationnews.highereducation) said the group included:
+
+- The son of an Israeli general
+- A former bodyguard to a senior military leader
+- Individuals with electronics or communications experience
+- Veterans of intelligence-related units
+- At least one person associated with explosive-ordnance work
+
+Alone, none of that **establishes an intelligence operation.**
+
+A veteran does not remain an intelligence agent forever.
+
+A former signals technician can sell paintings.
+
+*Sure.*
+
+**But the backgrounds mattered** because of the behavior.
+
+- Technical and intelligence experience.
+- Repeated false cover stories.
+- Attempts to enter government sites.
+- Visits to agents’ homes.
+- Photography at military facilities.
+
+Taken separately, each point can be explained.
+
+**Together**, they look like surveillance.
+
+*Was this how they knew about the 200 member terror network?*
+
+### **The Florida Cluster**
+
+The story becomes more difficult when the addresses are compared with those of the future hijackers.
+
+According to the DEA material [reviewed by](https://www.salon.com/2002/05/07/students/) *[Salon](https://www.salon.com/2002/05/07/students/)*, a substantial number of the supposed students lived in **Florida**, especially around **Hollywood and Fort Lauderdale**.
+
+Those same areas were used by members of the September 11 plot.
+
+[The FBI publicly listed Hollywood, Florida](https://www.fbi.gov/news/pressrel/press-releases/fbi-announces-list-of-19-hijackers), among the possible residences associated with several hijackers.
+
+*S*ome Israelis named in the DEA material lived at **4220 Sheridan Street** in Hollywood, near an apartment at **3389 Sheridan Street** used by Mohammed Atta and other plotters.
+
+*Coincidence?*
+
+### **The Ally Problem**
+
+Investigating an adversary is simple.
+
+Investigating an ally is not.
+
+Israel and the United States share intelligence, technology, military support, and deep political ties.
+
+At the same time, [Israel has conducted documented espionage against the United States](https://www.fbi.gov/history/famous-cases/jonathan-pollard), most famously through **Jonathan Pollard**.
+
+If American investigators discovered an Israeli surveillance operation in 2001, they would have faced several competing interests:
+
+- Protect American counterintelligence
+- Preserve cooperation with Israel
+- Avoid exposing sensitive collection methods
+- Determine whether the operation had encountered al-Qaeda
+- Avoid a diplomatic crisis after the attacks
+- Prevent the public from believing an ally had allowed 9/11 to happen
+
+**That last possibility would have been explosive.**
+
+If Israeli intelligence had been following the future hijackers but **failed to provide sufficient warning**, Israel would face accusations of withholding information.
+
+If it had warned the United States and been ignored, American agencies would face another **devastating intelligence failure**.
+
+**Either outcome** gave both governments a reason to keep the details quiet.
+
+### **The Operation Before the Attack**
+
+By September 11, the Israeli-linked activity surrounding the United States was no longer limited to **Larry Silverstein’s political friendships**.
+
+It included:
+
+- A reported warning from **Israeli intelligence**
+- An anonymous message received in Israel **hours before the attacks**
+- Five Israelis connected to a company investigated as a **Mossad Cut-out**
+- A **nationwide pattern of false art students** approaching federal facilities
+- **Counterintelligence alerts** issued months before the attacks
+- Israeli nationals with **surveillance-related backgrounds**
+- A geographic overlap with **communities used by the future hijackers**
+
+*Does that prove Israel had a hand in 9/11?*
+
+No. **But what this does do is remind me of Pearl Harbor.  
+And probably the story you didn’t know about.**
+
+The facts now leave us with three possible explanations.
+
+One is **coincidence**.
+
+One is **foreknowledge**.
+
+And one is **far darker**.
+
+---
+
+# **THREE POSSIBLE EXPLANATIONS**
+
+**The first is the official or conventional explanation:**
+
+Larry Silverstein was extraordinarily lucky. Israeli intelligence possessed only the same broad warnings circulating through other governments. The Odigo message was an unexplained threat. The five Israelis behaved disgracefully but knew nothing in advance. The art sellers were visa violators whose strange sales tactics were mistaken for espionage.
+
+**The second explanation is more serious:**
+
+Israeli intelligence had penetrated—or come close to penetrating—the network behind September 11. It knew that a major attack was coming, tracked people connected to the plot, and provided the United States with only part of what it had learned.
+
+**The third explanation is the darkest:**
+
+Some Israeli intelligence officers or assets did more than observe. They assisted, enabled, protected, or participated in the operation.
+
+**The first theory** requires the fewest hidden actors.
+
+**The third** requires the most.
+
+But the number of assumptions is not the only thing that matters.
+
+The evidence must also be able to explain the pattern.
+
+### **Theory One: A Series of Unrelated Coincidences**
+
+The conventional case **begins with Larry Silverstein**.
+
+He completed the [99-year lease of the World Trade Center on July 24, 2001](https://www.panynj.gov/port-authority/en/press-room/press-release-archives/2001_press_releases/port_authority_toleaseworldtradecentertosilversteinpropertiesinc.html), but there is no public evidence that the transaction itself was fraudulent. The Port Authority had spent years moving toward private management, several major developers competed for the property, and **Silverstein acquired the lease** only after the original winning bidder’s negotiations failed.
+
+**His absence on September 11** can also be explained without conspiracy.
+
+A dermatologist appointment kept him away from the site. **Countless people survived the attacks** because of delayed trains, missed meetings, sick children, traffic, or changes in routine.
+
+And after a catastrophe, **ordinary acts of chance** can appear almost supernatural.
+
+**The insurance dispute** also has a conventional explanation.
+
+The lease required insurance. The policies did not all contain identical definitions of an occurrence. Two aircraft struck two separate towers, giving Silverstein’s attorneys **a rational contractual basis** for arguing that the attacks constituted two events.
+
+The claim was aggressive.
+
+It was also what highly paid insurance lawyers are expected to do.
+
+**Building 7** can be explained the same way.
+
+According to the [National Institute of Standards and Technology’s investigation](https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-7-investigation), **debris damaged the building**, **fires burned uncontrolled** for hours, **thermal expansion** triggered an internal structural failure, and the exterior fell after the core had already lost support. NIST **acknowledged a period of free fall** but concluded that it occurred **only** **after** the supporting structure below the visible façade had already failed.
+
+Under this interpretation, Silverstein’s **“pull it”** comment referred to **withdrawing emergency personnel.**
+
+The BBC’s premature announcement **resulted from bad information** moving through a chaotic newsroom.
+
+Each issue can be explained away. **:)**
+
+**The Israeli connections can be explained away too.**
+
+Silverstein was a wealthy Jewish philanthropist with close relationships in Israel.   
+**That is unsurprising.**
+
+**Israel and the United States were allies** confronting many of the same extremist organizations. Israeli intelligence had every reason to collect information on al-Qaeda and to warn Washington of a possible attack.
+
+**The Odigo employees [received a vague message](https://www.computerworld.com/article/1412803/fbi-probes-advance-im-attack-warnings.html)** that did not publicly identify the World Trade Center. The company passed technical data to law enforcement, and no publicly known prosecution followed.
+
+The five **Urban Moving employees** were **strange, insensitive men** who began photographing a disaster already underway.
+
+According to the FBI’s public position [reported by ABC News](https://www-cdn.abcnews.com/amp/2020/story?id=123885&page=1), the investigation **“did not identify anybody who in this country had pre-knowledge of the events of 9/11.”** The men were detained for 71 days, investigated, and deported on immigration grounds rather than charged with terrorism.
+
+**The art sellers also have a conventional explanation.**
+
+**Groups of young Israelis** traveled through the United States selling low-cost artwork without legal work authorization. They used false stories because they were violating immigration rules and trying to avoid deportation.
+
+**Their military backgrounds** were common in a country with compulsory service too.
+
+**Their contacts with federal agents** may have reflected aggressive sales tactics, access to purchased address lists, or the simple fact that **government workers had disposable income** and stable office locations.
+
+**Even the Florida overlap can be explained.**
+
+South Florida contained **large numbers of foreign students**, young travelers, immigrants, short-term tenants, and flight schools. Mohammed Atta and other hijackers lived in **crowded communities** where **many unrelated people** occupied the same streets and apartment corridors.
+
+#### **Where this theory begins to strain…**
+
+The problem is not that any **single** conventional explanation is impossible.
+
+The problem is that **so many are required.**
+
+Any one of those explanations *can* be true.
+
+Hell, **all of them can be true.**
+
+But the conventional theory works by keeping **every event in a separate box**.
+
+The moment two boxes connect…  
+**it starts to unravel.**
+
+- Like **Urban Moving** being an intelligence front.
+- Our **art sellers** collecting intelligence.
+- Our **building 7** being rigged for a demolition in advance.
+
+And that brings us to **the second theory.**
+
+### **Theory Two: Israeli Intelligence Had Foreknowledge**
+
+Foreknowledge does not mean Israel planned the attacks.
+
+It does not mean Israeli officials *wanted* them to happen (despite Bibi’s *weirdly enthusiastic comments* in the aftermath…).
+
+It means Israeli intelligence acquired information indicating that the September 11 operation was approaching…  
+**and knew more than it later admitted publicly.**
+
+**This is the strongest serious theory supported by the available record.**
+
+#### **The intelligence model**
+
+Intelligence agencies rarely discover an entire plot at once.
+
+**They collect pieces.**
+
+- One team monitors a financial network.
+- Another intercepts communications.
+- Another tracks travel.
+- Another watches a suspected safe house.
+- A partner service identifies a name.
+- An immigration record produces an address.
+
+Over time, **analysts begin to see a shape.**
+
+No one possessed the whole picture.
+
+But someone possessed **enough pieces** to know that **a major operation was forming.**
+
+The [August 2001 Israeli warning about a large attack inside the United States](https://www.vanityfair.com/news/2004/11/path-to-9-11-200411) would fit this model. The warning’s weakness may have reflected the limits of the intelligence.
+
+**Or it may have reflected a choice.**
+
+#### **Why would an ally withhold information?**
+
+Intelligence cooperation is not friendship.
+
+**It is trade.**
+
+Services exchange selected information while protecting the sources and methods that produced it.
+
+**Mossad might warn the CIA** that an attack was coming without revealing that Israeli officers were conducting unauthorized surveillance inside the United States.
+
+That would create an obvious problem.
+
+To explain how it knew, Israel might have to admit:
+
+- It was monitoring American citizens
+- It had penetrated American communications
+- It was operating undeclared officers on American soil
+- It was following federal agents
+- It was running front companies
+- It had access to investigations Washington believed were secure
+
+The other option is that they knew it was coming.   
+And wanting a crisis that would push the United States into war in the Middle East, decided to **do nothing.**
+
+#### **The Urban Moving problem**
+
+The Urban Moving case fits foreknowledge more easily than direct involvement.
+
+[A former](https://forward.com/news/325698/spy-rumors-fly-on-gusts-of-truth/) **[high-ranking American intelligence official](https://forward.com/news/325698/spy-rumors-fly-on-gusts-of-truth/)** even said the FBI concluded that **Urban** **Moving** served as **cover for a Mossad surveillance** operation and that **at least two** of the detained men **were operatives**.
+
+If the men *were* **intelligence officers**, their presence near the burning towers cannot be dismissed as **the behavior of random foreign workers**.
+
+That would mean that they belonged to **the same intelligence service** that had **warned the United States** **weeks** **earlier**.
+
+#### **The art-student network as surveillance cover**
+
+The [DEA reports](https://www.salon.com/2002/05/07/students/) documented a widespread pattern of **young Israelis using false art-student identities** while approaching federal offices, military facilities, and agents’ homes.
+
+If that network was purely commercial, it adds little to the case.
+
+But if **even part of it** served as intelligence cover, **foreknowledge becomes more plausible.**
+
+**Only a few leaders** would require intelligence tasking to pull it off too.
+
+#### **The moral difference between knowing and causing**
+
+Even foreknowledge contains several levels.
+
+At the lowest level, **Israel possessed scattered intelligence** but failed to understand it.
+
+At the next level, **Israeli** **intelligence** **recognized that a large attack was approaching** but lacked the precise date or target.
+
+More serious still, it knew the likely targets and method but **provided only partial warning.**
+
+**Darkest of all,** it had enough information to stop the attack and **deliberately withheld it.**
+
+The publicly available evidence does not tell us where on that ladder Israeli knowledge may have rested.
+
+**But the strategic aftermath** gives the final possibility a motive.
+
+Israeli leaders understood that 9/11 would bind the United States more closely to Israel, transform American attitudes toward Islamist militancy, and unleash wars against governments and movements Israel regarded as threats.
+
+**Essentially making the US a puppet of the Zionist state.**
+
+That benefit does not prove the attack was allowed.
+
+But **if evidence of detailed foreknowledge emerged**…   
+**The benefit** would become **impossible to treat as irrelevant.**
+
+### **THEORY THREE: An Operational Hand in the Attack**
+
+The third theory goes beyond surveillance and withheld warnings.
+
+It argues that Israeli intelligence personnel, assets, or allied individuals **helped make the attacks possible.**
+
+#### **What direct involvement would require**
+
+A serious case would need to show at least one of the following:
+
+- **Communication:** Israeli officers or assets **communicating with hijackers or plot facilitators**
+- **Financing:** Money moving from an **Israeli-controlled source** into the operation
+- **Logistics:** Help with housing, travel, documents, vehicles, training, or target selection
+- **Surveillance support:** Intelligence passed to the attackers about airport security, aircraft, targets, or emergency response
+- **Operational protection:** Officials suppressing investigations to keep the plot alive
+- **Building access:** Evidence linking **Israeli-connected personnel** to structural preparation inside the World Trade Center
+- **Tasking orders:** Documents directing operatives to assist, observe, protect, or record the attack
+- **Advance positioning:** Proof that **surveillance teams were deployed** before the first impact because they knew precisely what would happen
+- **Post-operation extraction:** Evidence that **participants** were removed, protected, or rewarded afterward
+
+*Do we have evidence of that?***Nothing at the moment.**
+
+But we do have history.
+
+We have **The U.S.S. Liberty incident…**We have **Pearl Harbor…**We have **The Fall of Gaddafi**We have **The 70+ years of regime change by the CIA** and other agencies…  
+We have **Operation Gladio**We have **Operation Northwoods**
+
+If you think that **the United States or Israel** would never even think to attack innocents or attack their own citizens…
+
+**READ THOSE ARTICLES.**
+
+---
+
+# **HOW MUCH COINCIDENCE IS TOO MUCH?**
+
+[![9/11: The Photographs That Moved Them Most](https://substack-post-media.s3.amazonaws.com/public/images/3041c02a-9e95-4bb5-8005-c15893eda88b_3840x2560.jpeg "9/11: The Photographs That Moved Them Most")](https://substackcdn.com/image/fetch/$s_!ap-j!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3041c02a-9e95-4bb5-8005-c15893eda88b_3840x2560.jpeg)
+
+If the story involved only the Silverstein lease, the appointment, and the insurance dispute, it might remain little more than a dark tale about timing.
+
+Strange timing.
+
+Extraordinary timing.
+
+But timing alone.
+
+Then there was **World Trade Center 7**.
+
+- And **political access to Israel’s PMs.**
+- And **the Israeli messaging** **company** Odigo.
+- And **the men with the cameras.**
+- And **Urban Moving Systems**.
+- And the Israeli “art students” focusing in on government agents.
+
+…then the events become harder to treat as wholly unrelated.
+
+That is where **the case** ends **for now**.
+
+Not with a verdict.
+
+But with a demand.
+
+**Open the files. Release the records. Let the evidence decide.**
+
+Until then, **Larry Silverstein** may remain what he has always appeared to be:
+
+An **extraordinarily fortunate man** standing at the center of an **extraordinarily unfortunate event**.
+
+But after the lease, the money, the building, the political friendships, the warnings, and the smiling, dancing men who arrived with cameras…
+
+The question refuses to leave:
+
+**How much coincidence is too much coincidence?**
+
+You do not have to accept the darkest theory to believe the **unanswered questions matter**. Share this article and let others examine the record for themselves.
+
+## IF YOU’D LIKE MORE OF A DIVE INTO 9/11, CHECK OUT THIS ARTICLE:
+
+## OUR THESE OTHER ARTICLES:

@@ -1,10 +1,5 @@
 [
   {
-    "anchor": "Operation Gladio",
-    "url": "https://thewhiterabbitreport.substack.com/s/operation-gladio",
-    "type": "external"
-  },
-  {
     "anchor": "Part 1",
     "url": "https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-nixon",
     "type": "internal"
@@ -15,39 +10,9 @@
     "type": "internal"
   },
   {
-    "anchor": "Operation Gladio in America: Nixon, Narcotics, and the CIA Pipeline (Part 1/2) The White Rabbit Report · Apr 29 Read full story",
-    "url": "https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-nixon",
-    "type": "internal"
-  },
-  {
-    "anchor": "The White Rabbit Report",
-    "url": "https://substack.com/profile/269271170-the-white-rabbit-report",
-    "type": "external"
-  },
-  {
-    "anchor": "Read full story",
-    "url": "https://thewhiterabbitreport.substack.com/p/operation-gladio-in-america-nixon",
-    "type": "internal"
-  },
-  {
     "anchor": "Operation 40",
     "url": "https://en.wikipedia.org/wiki/Operation_40",
     "type": "external"
-  },
-  {
-    "anchor": "The Deep State",
-    "url": "https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s",
-    "type": "internal"
-  },
-  {
-    "anchor": "The Blueprint Pt 1/3: The CIA’s Global Coup Machine (1950s–70s)",
-    "url": "https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s",
-    "type": "internal"
-  },
-  {
-    "anchor": "Read full story",
-    "url": "https://thewhiterabbitreport.substack.com/p/blueprint-for-empire-cia-coups-history-1950s-1970s",
-    "type": "internal"
   },
   {
     "anchor": "A Program of Covert Action Against the Castro Regime",
@@ -55,8 +20,553 @@
     "type": "external"
   },
   {
-    "anchor": "Or purchase a paid subscription.",
-    "url": "https://thewhiterabbitreport.substack.com/subscribe",
+    "anchor": "E. Howard Hunt",
+    "url": "https://en.wikipedia.org/wiki/E._Howard_Hunt",
+    "type": "external"
+  },
+  {
+    "anchor": "Santo Trafficante Jr.",
+    "url": "https://en.wikipedia.org/wiki/Santo_Trafficante_Jr.",
+    "type": "external"
+  },
+  {
+    "anchor": "Lansky",
+    "url": "https://en.wikipedia.org/wiki/Meyer_Lansky",
+    "type": "external"
+  },
+  {
+    "anchor": "Operation Mongoose",
+    "url": "https://en.wikipedia.org/wiki/Operation_Mongoose",
+    "type": "external"
+  },
+  {
+    "anchor": "a deathbed confession",
+    "url": "https://dn710001.ca.archive.org/0/items/pdfy-_1wbhT0CNdH4FFc6/The%20Last%20Confessions%20Of%20E.%20Howard%20Hunt.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "interesting tidbit",
+    "url": "https://archive.org/details/coupdetatinameri0000canf/page/34/mode/2up",
+    "type": "external"
+  },
+  {
+    "anchor": "Coup d’état in America",
+    "url": "https://archive.org/details/coupdetatinameri0000canf/page/34/mode/2up",
+    "type": "external"
+  },
+  {
+    "anchor": "Frank Sturgis",
+    "url": "https://en.wikipedia.org/wiki/Frank_Sturgis",
+    "type": "external"
+  },
+  {
+    "anchor": "U.S. Marine Corps veteran",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Norfolk Police Department, Whitehorse Tavern, U.S. Army, and Top Hat Nightclub experience",
+    "url": "https://spartacus-educational.com/JFKsturgis.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "several arrests and alleged check-kiting trouble before leaving Norfolk for Miami",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "suspected courier and gunrunner for Castro’s 26th of July Movement",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "detained by Cuban military intelligence in July 1958",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "26th of July Movement",
+    "url": "https://en.wikipedia.org/wiki/26th_of_July_Movement",
+    "type": "external"
+  },
+  {
+    "anchor": "arrested by U.S. Customs on July 30, 1958",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "“Rebel Captain Frank Fiorini” or Castro revolutionary associate",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "captain in the Cuban Army",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "government gambling inspector at Havana’s Tropicana Night Club",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "investigator for the Revolutionary Air Force",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "associate of Pedro Luis Díaz Lanz",
+    "url": "https://www.archives.gov/files/research/jfk/releases/104-10221-10189.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "participated in an anti-Castro leaflet-dropping raid over Cuba with Pedro Díaz Lanz",
+    "url": "https://spartacus-educational.com/JFKsturgis.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "many of the CIA hot-bed countries",
+    "url": "https://en.wikipedia.org/wiki/Frank_Sturgis",
+    "type": "external"
+  },
+  {
+    "anchor": "trained Castro’s guerrilla forces",
+    "url": "https://archives.law.virginia.edu/dengrove/writeup/fidel-castros-girlfriend-accuses-watergate-burglar-frank-sturgis-threatening-her",
+    "type": "external"
+  },
+  {
+    "anchor": "women who do contracts",
+    "url": "https://archives.law.virginia.edu/dengrove/writeup/fidel-castros-girlfriend-accuses-watergate-burglar-frank-sturgis-threatening-her",
+    "type": "external"
+  },
+  {
+    "anchor": "Anti-Castro operations",
+    "url": "https://history.state.gov/historicaldocuments/frus1958-60v06/d481",
+    "type": "external"
+  },
+  {
+    "anchor": "Assassinations",
+    "url": "https://archives.law.virginia.edu/dengrove/writeup/fidel-castros-girlfriend-accuses-watergate-burglar-frank-sturgis-threatening-her",
+    "type": "external"
+  },
+  {
+    "anchor": "Exile networks",
+    "url": "https://spartacus-educational.com/JFKsturgis.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "Watergate",
+    "url": "https://www.nixonlibrary.gov/news/watergate-break-50th-anniversary",
+    "type": "external"
+  },
+  {
+    "anchor": "CIA-Mafia-Cuba triangle",
+    "url": "https://en.wikipedia.org/wiki/Operation_Mongoose",
+    "type": "external"
+  },
+  {
+    "anchor": "Rockefeller Commission stated (in relation to the",
+    "url": "https://web.archive.org/web/20080829144724/http://mcadams.posc.mu.edu/hunt_sturgis.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "JFK",
+    "url": "https://web.archive.org/web/20080829144724/http://mcadams.posc.mu.edu/hunt_sturgis.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "assassination) that",
+    "url": "https://web.archive.org/web/20080829144724/http://mcadams.posc.mu.edu/hunt_sturgis.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "the CIA files",
+    "url": "https://www.cia.gov/readingroom/docs/CIA-RDP79M00983A001300110002-1.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Bernard Barker",
+    "url": "https://en.wikipedia.org/wiki/Bernard_Barker",
+    "type": "external"
+  },
+  {
+    "anchor": "A Cuban-born U.S. citizen",
+    "url": "https://spartacus-educational.com/JFKbarkerB.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "Brigade 2506",
+    "url": "https://en.wikipedia.org/wiki/Brigade_2506",
+    "type": "external"
+  },
+  {
+    "anchor": "“Coup d’état in America”",
+    "url": "https://archive.org/details/coupdetatinameri0000canf/page/56/mode/2up",
+    "type": "external"
+  },
+  {
+    "anchor": "James McCord",
+    "url": "https://en.wikipedia.org/wiki/James_W._McCord_Jr.",
+    "type": "external"
+  },
+  {
+    "anchor": "L. Fletcher Prouty",
+    "url": "https://en.wikipedia.org/wiki/L._Fletcher_Prouty",
+    "type": "external"
+  },
+  {
+    "anchor": "said that",
+    "url": "https://web.archive.org/web/20230309021041/https://www.nytimes.com/1973/03/29/archives/key-watergate-figure-james-walter-mccord-jr-reputed-security-chief.html",
+    "type": "external"
+  },
+  {
+    "anchor": "famous letter to Judge John Sirica",
+    "url": "https://www.nixonlibrary.gov/sites/default/files/2022-05/McCord%27s%20letter%20to%20Judge%20Sirica%20p1%262.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Copy of the McCord Letter",
+    "url": "https://www.nixonlibrary.gov/sites/default/files/2022-05/McCord%27s%20letter%20to%20Judge%20Sirica%20p1%262.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The secret bombing of Cambodia",
+    "url": "https://en.wikipedia.org/wiki/Operation_Menu",
+    "type": "external"
+  },
+  {
+    "anchor": "official line",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d40",
+    "type": "external"
+  },
+  {
+    "anchor": "on any questioning about Cambodia",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v06/d40",
+    "type": "external"
+  },
+  {
+    "anchor": "Southeast Asian heroin networks",
+    "url": "https://www.cia.gov/readingroom/docs/CIA-RDP74B00415R000400050034-2.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The creation of the DEA",
+    "url": "https://www.federalregister.gov/executive-order/11727",
+    "type": "external"
+  },
+  {
+    "anchor": "Chile and the September 1973 coup",
+    "url": "https://history.state.gov/milestones/1969-1976/allende",
+    "type": "external"
+  },
+  {
+    "anchor": "G. Gordon Liddy",
+    "url": "https://en.wikipedia.org/wiki/G._Gordon_Liddy",
+    "type": "external"
+  },
+  {
+    "anchor": "FIRED",
+    "url": "https://web.archive.org/web/20210331000847/https://www.latimes.com/obituaries/story/2021-03-30/g-gordon-liddy-watergate-nixon-dies",
+    "type": "external"
+  },
+  {
+    "anchor": "from Treasury",
+    "url": "https://web.archive.org/web/20210331000847/https://www.latimes.com/obituaries/story/2021-03-30/g-gordon-liddy-watergate-nixon-dies",
+    "type": "external"
+  },
+  {
+    "anchor": "2022 Politico Article",
+    "url": "https://www.politico.com/news/magazine/2022/02/11/watergate-secret-history-garrett-graff-gordon-liddy-operation-gemstone-00007927",
+    "type": "external"
+  },
+  {
+    "anchor": "plan the break-in",
+    "url": "https://www.fordlibrarymuseum.gov/exhibits/watergate-files",
+    "type": "external"
+  },
+  {
+    "anchor": "Operation Gemstone",
+    "url": "https://en.wikipedia.org/wiki/Operation_Gemstone",
+    "type": "external"
+  },
+  {
+    "anchor": "ODESSA",
+    "url": "https://en.wikipedia.org/wiki/ODESSA",
+    "type": "external"
+  },
+  {
+    "anchor": "John Mitchell",
+    "url": "https://en.wikipedia.org/wiki/John_N._Mitchell",
+    "type": "external"
+  },
+  {
+    "anchor": "the earmarks of",
+    "url": "https://www.politico.com/news/magazine/2022/02/11/watergate-secret-history-garrett-graff-gordon-liddy-operation-gemstone-00007927",
+    "type": "external"
+  },
+  {
+    "anchor": "Operation Gladio",
+    "url": "https://www.politico.com/news/magazine/2022/02/11/watergate-secret-history-garrett-graff-gordon-liddy-operation-gemstone-00007927",
+    "type": "external"
+  },
+  {
+    "anchor": "kidnapping and assassinating",
+    "url": "https://www.politico.com/news/magazine/2022/02/11/watergate-secret-history-garrett-graff-gordon-liddy-operation-gemstone-00007927",
+    "type": "external"
+  },
+  {
+    "anchor": "was approved",
+    "url": "https://www.politico.com/news/magazine/2022/02/11/watergate-secret-history-garrett-graff-gordon-liddy-operation-gemstone-00007927",
+    "type": "external"
+  },
+  {
+    "anchor": "with a budget of $250,000",
+    "url": "https://www.politico.com/news/magazine/2022/02/11/watergate-secret-history-garrett-graff-gordon-liddy-operation-gemstone-00007927",
+    "type": "external"
+  },
+  {
+    "anchor": "was found in the burglars’ address books",
+    "url": "https://www.washingtonpost.com/politics/watergate-revisited-20-years-after-the-break-in-the-story-continues-to-unfold/2012/06/04/gJQAKaAqIV_story.html",
+    "type": "external"
+  },
+  {
+    "anchor": "possession of a document",
+    "url": "https://ia801203.us.archive.org/1/items/nsia-LorenzMarita/nsia-LorenzMarita/Lotrenz%20Marita%2012_text.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Chilean Embassy break-in",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v21/d300",
+    "type": "external"
+  },
+  {
+    "anchor": "this wasn’t the first time",
+    "url": "https://www.cia.gov/readingroom/docs/chilean%20break-ins%20puzzle%20%5B15132552%5D.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "New York Times, May 29, 1973",
+    "url": "https://www.cia.gov/readingroom/docs/chilean%20break-ins%20puzzle%20%5B15132552%5D.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Watergate Special Prosecution Force memo",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v21/d300",
+    "type": "external"
+  },
+  {
+    "anchor": "Foreign Relations of the United States, 1969–1976, Volume XXI, Chile, 1969–1973",
+    "url": "https://history.state.gov/historicaldocuments/frus1969-76v21/d300",
+    "type": "external"
+  },
+  {
+    "anchor": "Chief of Staff",
+    "url": "https://en.wikipedia.org/wiki/H._R._Haldeman",
+    "type": "external"
+  },
+  {
+    "anchor": "the FBI investigation could “open the whole",
+    "url": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/wspf/741-002.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Bay of Pigs",
+    "url": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/wspf/741-002.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "thing.”",
+    "url": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/wspf/741-002.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "TRANSCRIPT OF A RECORDING OF A MEETING",
+    "url": "https://www.nixonlibrary.gov/sites/default/files/forresearchers/find/tapes/watergate/wspf/741-002.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Haldeman later suggested",
+    "url": "https://www.youtube.com/watch",
+    "type": "external"
+  },
+  {
+    "anchor": "Geoff Shepard",
+    "url": "https://shepardonwatergate.com/",
+    "type": "external"
+  },
+  {
+    "anchor": "interview with Tucker Carlson",
+    "url": "https://www.youtube.com/watch",
+    "type": "external"
+  },
+  {
+    "anchor": "all the pieces came together",
+    "url": "https://oig.justice.gov/sites/default/files/legacy/reports/DEA/a0719/final.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "50 CIA agents",
+    "url": "https://thegreenpulpit.wordpress.com/2014/12/10/required-reading-the-origin-of-the-dea-part-2",
+    "type": "external"
+  },
+  {
+    "anchor": "Lucien Conein",
+    "url": "https://en.wikipedia.org/wiki/Lucien_Conein",
+    "type": "external"
+  },
+  {
+    "anchor": "DEA’s Special Operations Branch",
+    "url": "https://www.cia.gov/readingroom/docs/CIA-RDP77M00144R000600090029-9.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "Ngô Đình Diệm",
+    "url": "https://en.wikipedia.org/wiki/Ng%C3%B4_%C4%90%C3%ACnh_Di%E1%BB%87m",
+    "type": "external"
+  },
+  {
+    "anchor": "awarded the CIA’s",
+    "url": "https://nsarchive.gwu.edu/document/33070-document-22-cia-lucien-conein-personnel-file-secret-undated",
+    "type": "external"
+  },
+  {
+    "anchor": "Intelligence Star",
+    "url": "https://nsarchive.gwu.edu/document/33070-document-22-cia-lucien-conein-personnel-file-secret-undated",
+    "type": "external"
+  },
+  {
+    "anchor": "previously worked in Asia with Edward Lansdale",
+    "url": "https://www.washingtonpost.com/archive/local/1998/06/06/lucien-e-conein-dies-at-79/ee2af3b1-97ff-4bfd-85e0-037f2d35087e",
+    "type": "external"
+  },
+  {
+    "anchor": "suspected to be involved in the JFK assassination",
+    "url": "https://web.archive.org/web/20160531083021/http://www.umsl.edu/~thomaskp/conein.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "BR Fox Company",
+    "url": "https://ia800504.us.archive.org/13/items/nsia-CIAConeinLuciusE/nsia-CIAConeinLuciusE/CIA%20Conein%20Lucius%2003.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "The Devil’s Chessboard",
+    "url": "https://archive.org/details/the-devils-chessboard-allen-d-david-talbot/page/n310/mode/1up",
+    "type": "external"
+  },
+  {
+    "anchor": "Through A Glass Darkly CIA, NATO and the Great Heroin Coup: How Miami Became the Center of International Fascism and the Murder of President Kennedy [This is a chapter from my newly released book ‘The Empire on Which the Black Sun Never Set: the Birth of International Fascism and Anglo-American Foreign Policy.’ For further details on different formats and how to purchase click here… Read more 4 years ago · 166 likes · 9 comments · Cynthia Chung",
+    "url": "https://cynthiachung.substack.com/p/cia-nato-and-the-great-heroin-coup",
+    "type": "external"
+  },
+  {
+    "anchor": "Mitchell WerBell III",
+    "url": "https://en.wikipedia.org/wiki/Mitchell_WerBell_III",
+    "type": "external"
+  },
+  {
+    "anchor": "as late as 1974",
+    "url": "https://archive.org/details/spookshauntingof0000houg/page/n9/mode/2up",
+    "type": "external"
+  },
+  {
+    "anchor": "with",
+    "url": "https://spartacus-educational.com/JFKcondor.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "Sturgis",
+    "url": "https://spartacus-educational.com/JFKcondor.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "and",
+    "url": "https://spartacus-educational.com/JFKcondor.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "the Cuban exile networks",
+    "url": "https://spartacus-educational.com/JFKcondor.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "Fred Hampton",
+    "url": "https://en.wikipedia.org/wiki/Fred_Hampton",
+    "type": "external"
+  },
+  {
+    "anchor": "In the words",
+    "url": "https://grokipedia.com/page/Give_me_the_man_and_I_will_give_you_the_case_against_him",
+    "type": "external"
+  },
+  {
+    "anchor": "William Sullivan",
+    "url": "https://en.wikipedia.org/wiki/William_C._Sullivan",
+    "type": "external"
+  },
+  {
+    "anchor": "Sullivan told journalist Robert Novak",
+    "url": "https://spartacus-educational.com/JFKsullivan.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "Sullivan was shot dead",
+    "url": "https://dn790009.ca.archive.org/0/items/nsia-FBISullivanWilliamC/nsia-FBISullivanWilliamC/FBI%20Sullivan%20William%2008_text.pdf",
+    "type": "external"
+  },
+  {
+    "anchor": "covert intelligence operation in",
+    "url": "https://www.theatlantic.com/magazine/archive/1975/04/the-fbi-file-men-and-machinations-in-the-court-of-j-edgar-hoover/663136",
+    "type": "external"
+  },
+  {
+    "anchor": "Spain",
+    "url": "https://spartacus-educational.com/JFKsullivan.htm",
+    "type": "external"
+  },
+  {
+    "anchor": "Otto Skorzeny",
+    "url": "https://en.wikipedia.org/wiki/Otto_Skorzeny",
+    "type": "external"
+  },
+  {
+    "anchor": "COINTELPRO",
+    "url": "https://vault.fbi.gov/cointel-pro",
+    "type": "external"
+  },
+  {
+    "anchor": "Sicilia Falcón",
+    "url": "https://heraldodemexico.com.mx/nacional/2021/11/19/alberto-sicilia-falcon-el-narco-cubano-que-domino-tijuana-se-fugo-de-lecumberri-por-un-tunel-al-estilo-chapo-355097.html",
+    "type": "external"
+  },
+  {
+    "anchor": "the Tijuana Cartel",
+    "url": "https://en.wikipedia.org/wiki/Tijuana_Cartel",
+    "type": "external"
+  },
+  {
+    "anchor": "Falcón was involved with the CIA",
+    "url": "https://heraldodemexico.com.mx/nacional/2021/11/19/alberto-sicilia-falcon-el-narco-cubano-que-domino-tijuana-se-fugo-de-lecumberri-por-un-tunel-al-estilo-chapo-355097.html",
+    "type": "external"
+  },
+  {
+    "anchor": "— “",
+    "url": "https://heraldodemexico.com.mx/nacional/2021/11/19/alberto-sicilia-falcon-el-narco-cubano-que-domino-tijuana-se-fugo-de-lecumberri-por-un-tunel-al-estilo-chapo-355097.html",
+    "type": "external"
+  },
+  {
+    "anchor": "Alberto Sicilia Falcón",
+    "url": "https://heraldodemexico.com.mx/nacional/2021/11/19/alberto-sicilia-falcon-el-narco-cubano-que-domino-tijuana-se-fugo-de-lecumberri-por-un-tunel-al-estilo-chapo-355097.html",
+    "type": "external"
+  },
+  {
+    "anchor": ", the Cuban drug lord who dominated Tijuana and escaped from Lecumberri through a tunnel in the style of “El Chapo”\", 2021",
+    "url": "https://heraldodemexico.com.mx/nacional/2021/11/19/alberto-sicilia-falcon-el-narco-cubano-que-domino-tijuana-se-fugo-de-lecumberri-por-un-tunel-al-estilo-chapo-355097.html",
+    "type": "external"
+  },
+  {
+    "anchor": "CDC data",
+    "url": "https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm",
     "type": "external"
   }
 ]

@@ -248,25 +248,31 @@ def _detect_query_entities(query: str) -> tuple[str, ...]:
         if len(_tokenize(q)) >= 2:
             add(q)
 
-    toks = re.findall(r"[A-Za-z0-9][A-Za-z0-9_.&'-]*", query)
-    title_run: list[str] = []
+    # A slash/comma/semicolon is an explicit entity boundary in multi-hop
+    # investigative queries (for example ``Robert Maxwell / Mossad``). Without
+    # this split the detector incorrectly invents one entity, "Robert Maxwell
+    # Mossad", which cannot occur in the corpus and suppresses exact matches.
+    segments = re.split(r"\s*(?:/|,|;|\|)\s*", query)
+    for segment in segments:
+        toks = re.findall(r"[A-Za-z0-9][A-Za-z0-9_.&'-]*", segment)
+        title_run: list[str] = []
 
-    def flush_title_run() -> None:
-        nonlocal title_run
-        if len(title_run) >= 2:
-            add(" ".join(title_run))
-        title_run = []
+        def flush_title_run() -> None:
+            nonlocal title_run
+            if len(title_run) >= 2:
+                add(" ".join(title_run))
+            title_run = []
 
-    for tok in toks:
-        if tok.isupper() and len(tok) >= 2:
+        for tok in toks:
+            if tok.isupper() and len(tok) >= 2:
+                flush_title_run()
+                add(tok)
+                continue
+            if tok[:1].isupper() and not tok.isupper():
+                title_run.append(tok)
+                continue
             flush_title_run()
-            add(tok)
-            continue
-        if tok[:1].isupper() and not tok.isupper():
-            title_run.append(tok)
-            continue
         flush_title_run()
-    flush_title_run()
     return tuple(entities)
 
 def _query_plan(query: str) -> tuple[tuple[str, ...], tuple[str, ...], tuple[str, ...]]:
@@ -655,6 +661,7 @@ def rebuild_archive_search_index(db_path: Path, *, force: bool = False) -> dict:
                     "rebuilt": False,
                     "articles": existing.get("article_count", 0),
                     "chunks": len(existing.get("chunks", [])),
+                    "duplicate_bodies_skipped": existing.get("duplicate_bodies_skipped", 0),
                     "index_path": str(index_path),
                 }
         except Exception:
@@ -662,13 +669,19 @@ def rebuild_archive_search_index(db_path: Path, *, force: bool = False) -> dict:
 
     chunks: list[IndexedChunk] = []
     indexed_articles = 0
+    duplicate_bodies_skipped = 0
+    seen_hashes: set[str] = set()
     for article in articles:
+        if article.content_hash in seen_hashes:
+            duplicate_bodies_skipped += 1
+            continue
         article_path = Path(article.local_dir) / "article.md"
         if not article_path.exists():
             continue
         raw = article_path.read_text(encoding="utf-8", errors="ignore")
         article_chunks = _section_chunks(raw, article, registered_links.get(article.canonical_url, []))
         if article_chunks:
+            seen_hashes.add(article.content_hash)
             indexed_articles += 1
             chunks.extend(article_chunks)
 
@@ -699,6 +712,7 @@ def rebuild_archive_search_index(db_path: Path, *, force: bool = False) -> dict:
         "version": INDEX_VERSION,
         "signature": signature,
         "article_count": indexed_articles,
+        "duplicate_bodies_skipped": duplicate_bodies_skipped,
         "chunks": [asdict(c) for c in chunks],
         "vectorizer": vectorizer,
         "svd": svd,
@@ -710,6 +724,7 @@ def rebuild_archive_search_index(db_path: Path, *, force: bool = False) -> dict:
         "rebuilt": True,
         "articles": indexed_articles,
         "chunks": len(chunks),
+        "duplicate_bodies_skipped": duplicate_bodies_skipped,
         "index_path": str(index_path),
     }
 
@@ -1148,11 +1163,14 @@ def format_archive_memory(memories: list[ArchiveMemory], *, max_source_links_per
     if not memories:
         return "(No sufficiently relevant previous White Rabbit articles were found.)"
     out = [
-        "# PREVIOUS WHITE RABBIT ARTICLES — INSTITUTIONAL MEMORY\n",
-        "These are prior published White Rabbit articles and previously used source links. "
-        "Treat them as research leads, prior editorial context, style/internal-link candidates, "
-        "and pointers to original sources. DO NOT treat a prior White Rabbit assertion as proof "
-        "of a factual claim in the new article. Re-verify material through original sources.\n\n",
+        "# PUBLISHED WHITE RABBIT CANON — RANKED FACTUAL RETRIEVAL\n",
+        "These are passages from published White Rabbit articles. Their stated facts, findings, "
+        "quotations, statistics, connections, conclusions, and established premises are Level 1 "
+        "project canon. Preserve the original claim status and provenance: testimony remains "
+        "testimony, a writer inference remains an inference, and a rhetorical question remains a "
+        "question. Reopen sources when canon is genuinely contradicted, was explicitly unresolved "
+        "or speculative, exact wording controls the new claim, the author requests it, or a source "
+        "trail can open a new branch. Do not spend the new investigation merely re-proving canon.\n\n",
     ]
     for memory in memories:
         a = memory.article
@@ -1185,11 +1203,22 @@ def format_archive_memory(memories: list[ArchiveMemory], *, max_source_links_per
         out.append(f"Published article: {a.canonical_url}\n")
         if a.published_date:
             out.append(f"Published date: {a.published_date}\n")
-        out.append(f"Archive content status: {a.content_status}\n")
+        access = "PARTIAL_PREVIEW" if a.content_status == "preview_only" else "FULL_PUBLIC_OR_AUTHOR_EXPORT"
+        out.append(f"Archive access level: {access}\n")
+        claim_cues: list[str] = []
+        excerpt_low = memory.excerpt.casefold()
+        if any(cue in excerpt_low for cue in (" testified", " told ", " recalled", " according to")):
+            claim_cues.append("attributed testimony/source statement present")
+        if any(cue in excerpt_low for cue in ("my theory", "i think", "from where i'm sitting")):
+            claim_cues.append("writer inference/personal theory present")
+        if "?" in memory.excerpt:
+            claim_cues.append("rhetorical or investigative question present")
+        if claim_cues:
+            out.append(f"Claim-status cues: {'; '.join(claim_cues)}\n")
         out.append(f"Relevant excerpt:\n{memory.excerpt}\n\n")
         links = [l for l in memory.links if l.get("type") == "external_research"][:max_source_links_per_article]
         if links:
-            out.append("Section-local external sources (re-open and verify before treating as evidence):\n")
+            out.append("Section-local source trails (reopen when a canon exception or new branch warrants it):\n")
             for link in links:
                 out.append(f"- {link.get('anchor', '')} → {link.get('url', '')}\n")
             out.append("\n")

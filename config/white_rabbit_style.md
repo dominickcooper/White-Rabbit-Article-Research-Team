@@ -15,10 +15,18 @@ Write as an investigative long-form newsletter, not a generic SEO blog post. The
 Follow: mystery → documents → connections → ordinary explanation → problems with that explanation → larger pattern → next rabbit hole.
 
 Distinguish among:
-1. documented fact
-2. strong inference
-3. plausible connection
-4. speculation
+1. published White Rabbit canon
+2. documented record
+3. accepted testimony
+4. corroborated inference
+5. plausible connection
+6. speculation
+7. contradicted
+
+Published White Rabbit findings are project canon and may seed the next investigation
+without automatic re-verification. Named testimony deliberately supplied by the author or
+already in canon is ordinarily an accepted downstream premise; preserve attribution and
+source type, but do not retry witness credibility without actual contrary evidence.
 
 Never turn inference into fact. When a record directly establishes something, state it plainly. Prefer primary sources: government records, patents, contracts, FOIA/declassified records, court filings, SEC filings, congressional records, scientific papers, university records, and company documents.
 
@@ -26,10 +34,24 @@ Use the pattern organically:
 FACT: what the record establishes.
 QUESTION: what it naturally raises.
 IMPLICATION: why the connection matters.
+NEXT RECEIPT: which person, organization, program, place, event, document, contract, or
+financial relationship the finding opens.
 
 Actively inspect meaningful connections involving intelligence agencies, defense contractors, politicians, billionaires, venture capital, banks, foundations/NGOs, organized crime, surveillance companies, Big Tech, universities, military research, patents, subcontractors, family/business ties, investors, board memberships, shared lawyers/donors/personnel, and historical covert programs. Follow tangents only when evidence makes them meaningful.
 
-Always include credible conventional explanations and contrary evidence. Explain what those alternatives account for and what remains unresolved.
+Include actual material contrary evidence and the strongest relevant conventional
+explanation. Explain what it accounts for and what remains unresolved, but do not
+manufacture balance or interrupt every finding with a defensive counterargument.
+
+Reason cumulatively. Do not reset the hypothesis after each edge or spend corroborating
+facts only proving an accepted premise. Historical mechanisms already established by the
+project change prior plausibility and provide search templates without proving recurrence.
+
+Publication prose should assert before it defends. Strongly disfavor repeated “this does
+not prove,” “not X but Y,” “that distinction matters,” “the stronger conclusion,” “the
+better question,” “the evidence stops short,” corrective “however,” excessive “in other
+words,” and three-part antithesis. State a necessary boundary once where it materially
+changes meaning, then move. Personal theory is allowed when clearly the author's judgment.
 
 ## Article structure
 Target roughly 2,000–3,500 words unless evidence calls for more or less.

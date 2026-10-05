@@ -1,0 +1,27 @@
+# Connection chains
+
+Published canon, accepted testimony, a documented record, or a corroborated inference may
+become the premise for the next research question. Do not promote any edge beyond its own
+source type or evidentiary status, and do not treat a broken edge
+as repaired by stronger neighboring edges.
+
+| Chain ID | Nodes / sequence | Edge ID | Edge | Evidence source and locator | Authority / provenance | Classification | Independent stream / dependency | New branch opened | Why complete chain matters | Next research target |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C1 | Bissell → Harvey → executive action | C1-E1 | Bissell assigned Harvey to create a standby capability including assassination. | Church interim report, pp. 181–183 | DOCUMENTED RECORD | DIRECT | Senate synthesis from testimony and IG file | Helms approval | Establishes institutional origin. | Original Harvey notes, if extant. |
+| C1 | Harvey → Helms → ZR/RIFLE authorization | C1-E2 | Helms authorized QJWIN and other agents, certification accounting and EYES ONLY control. | Feb. 19, 1962 and extension memorandum in supplied TXT | DOCUMENTED RECORD | DIRECT | Primary authorization | Finance/records architecture | Turns concept into funded authority. | Full signed originals and distribution. |
+| C1 | ZR/RIFLE → QJWIN → criminal talent | C1-E3 | QJWIN spotted and assessed burglars, safecrackers and underworld candidates. | Cargill memo pp. 2–8; dispatch 104-10185-10015 | DOCUMENTED RECORD | DIRECT | Primary files reviewed by commission | Deniable recruitment market | Shows how capability was staffed without CIA biographies. | Candidate 201 files. |
+| C2 | Genuine burglary project → dual cryptonym → executive-action cover | C2-E1 | The second ZR/RIFLE area was real and also served as cover for executive action. | Church report p. 197 n.1 | DOCUMENTED RECORD | DIRECT | Senate report relying on CIA testimony/files | Cover as active infrastructure | Resolves the apparent safecracker/assassin contradiction. | Complete project justification memo. |
+| C3 | ZR/RIFLE → Roselli → Castro plots | C3-E1 | Harvey took over the gambling-syndicate contact as part of ZR/RIFLE. | Church report pp. 201–202 | DOCUMENTED RECORD | DIRECT | Senate + IG stream | Operational deployment | Moves program beyond abstract planning. | Harvey-Roselli contact logs. |
+| C3 | Harvey → Task Force W → MONGOOSE | C3-E2 | Harvey directed CIA implementation of MONGOOSE while holding executive-action responsibility. | FRUS Vol. X doc. 270 and related memoranda | NEW EXTERNAL MATERIAL | DIRECT | State Department documentary stream | Large-scale operational platform | Shows two compartments converging in one operator. | Task Force W accounting and staffing. |
+| C4 | Congo plot → QJWIN one-shot trip | C4-E1 | QJWIN was recruited for a highly sensitive, high-risk Congo mission with purpose withheld. | Cargill memo pp. 2–9; CIA IG report p. 38 | DOCUMENTED RECORD | CORROBORATED INFERENCE | Same CIA file family plus later IG; not fully independent | Lumumba target question | Opens strongest unresolved rabbit hole. | Direct tasking/after-action. |
+| C4 | WIROGUE → Congo → extra-legal action profile | C4-E2 | CIA assessed WIROGUE as poor for reporting but useful for action and nefarious extra-legal activity. | WIROGUE file PDF p. 50 | DOCUMENTED RECORD | DIRECT | Primary operational record independent of QJWIN memo | Parallel candidate logic | Shows selection criteria operating in theater. | Lethal tasking or target reference. |
+| C4 | QJWIN/WIROGUE → Lumumba killing | C4-E3 | Either asset participated in Lumumba's murder. | Proximity and later speculation only | ACCEPTED TESTIMONY / NEW EXTERNAL MATERIAL | BROKEN | No operational order or custody-chain proof | None until repaired | Prevents a suggestive pattern becoming a false conclusion. | Unredacted Leopoldville traffic. |
+| C5 | Castro plots → senior CIA secrecy → Warren Commission | C5-E1 | Senior CIA officials did not tell the Commission or working investigators about assassination plots. | Church Book V pp. 1–11, 67–76 | DOCUMENTED RECORD | DIRECT | Senate documentary/testimonial stream | Investigative impairment | Establishes the cover-up of relevant operations without asserting cover-up of murder. | Identify exact withholding decisions. |
+| C5 | Withholding → JFK culpability | C5-E2 | Concealment proves the Agency killed Kennedy. | No direct evidence | SPECULATION | BROKEN | Late Hunt/Lorenz claims do not repair edge | Credibility test | Marks the boundary the article must hold. | Contemporaneous Dallas tasking or finance. |
+| C6 | ZR/RIFLE spotting → TWO-FOLD spotting → covert personnel seam | C6-E1 | Similar personnel verbs and concealment recur in later CIA placement systems. | Published White Rabbit TWO-FOLD canon | PUBLISHED WHITE RABBIT CANON | PLAUSIBLE analogy, not continuity | Independent later program | Method migration hypothesis | Connects reader to established canon without claiming lineage. | Personnel continuity records. |
+
+Authority/provenance: PUBLISHED WHITE RABBIT CANON, DOCUMENTED RECORD, ACCEPTED TESTIMONY,
+or NEW EXTERNAL MATERIAL. Classification: DIRECT, CORROBORATED INFERENCE, PLAUSIBLE,
+SPECULATION, CONTRADICTED, or BROKEN. Existing DIRECT / STRONG INFERENCE / PLAUSIBLE /
+BROKEN entries remain valid. Note when multiple citations derive from the same
+witness, document, dataset, or reporting chain so they are not double-counted.

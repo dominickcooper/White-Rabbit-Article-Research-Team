@@ -14,8 +14,10 @@ For Codex article work, read these permanent authorities before the project brie
 - [Formatting and visual style](docs/WHITE_RABBIT_FORMAT_AND_VISUAL_STYLE.md)
 - [Research and evidence](docs/RESEARCH_AND_EVIDENCE.md)
 - [Sourcing and linking](docs/SOURCING_AND_LINKING.md)
+- [Source authority and canon](research_library/methodologies/SOURCE_AUTHORITY_AND_CANON.md)
 - [Extreme-Thesis Protocol](research_library/methodologies/EXTREME_THESIS_PROTOCOL.md)
 - [Zebra Protocol](research_library/methodologies/ZEBRA_PROTOCOL.md)
+- [Investigation-to-story handoff](research_library/methodologies/INVESTIGATION_TO_STORY_HANDOFF.md)
 - [SEO and publishing](docs/SEO_AND_PUBLISHING.md)
 - [Archive](docs/PREVIOUS_WHITE_RABBIT_ARCHIVE.md)
 
@@ -33,3 +35,7 @@ Anything deliberately placed by the author in an article `sources/`, series
 evidence without an independent-verification permission gate. Preserve provenance and
 weight; corroboration strengthens the record but does not decide whether the supplied
 source may be used.
+Published White Rabbit articles are project canon and voice canon. Accepted canon and
+author-supplied testimony may become downstream research premises without being re-proven;
+preserve provenance, follow new connections, and surface genuine contradictions for
+author review rather than silently weakening prior conclusions.

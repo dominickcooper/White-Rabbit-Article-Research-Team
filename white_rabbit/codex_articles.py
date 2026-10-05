@@ -19,15 +19,18 @@ AUTHORITY = (
     "docs/RESEARCH_AND_EVIDENCE.md",
     "docs/SOURCING_AND_LINKING.md", "docs/SEO_AND_PUBLISHING.md",
     "docs/PREVIOUS_WHITE_RABBIT_ARCHIVE.md",
+    "research_library/methodologies/SOURCE_AUTHORITY_AND_CANON.md",
     "research_library/methodologies/EXTREME_THESIS_PROTOCOL.md",
     "research_library/methodologies/ZEBRA_PROTOCOL.md",
+    "research_library/methodologies/INVESTIGATION_TO_STORY_HANDOFF.md",
 )
 EDITORIAL_ARTIFACTS = (
-    "research/STYLE_PROFILE.md", "research/ENTITY_NETWORK.md",
+    "research/SOURCE_THESIS.md", "research/STYLE_PROFILE.md", "research/ENTITY_NETWORK.md",
     "research/RABBIT_HOLE_QUEUE.md", "research/CONNECTION_REPORT.md",
     "research/CONNECTION_CHAINS.md", "research/BOOK_LEADS.md",
     "research/BIBLIOGRAPHY_TRACE.csv",
-    "research/STORY_DECISION.md", "research/STORY_SPINE.md",
+    "research/STORY_DECISION.md", "research/STORY_SPINE.md", "research/WRITER_PACKET.md",
+    "research/SEMANTIC_EDITORIAL_REVIEW.md", "research/QUALITY_GATES.md",
     "output/editorial_audit.md",
 )
 DELIVERABLES = ("research_dossier.md", "outline.md", "seo.md", "article.md", "sources.csv", "audit.md")
@@ -80,6 +83,7 @@ def files_under(folder: Path) -> list[str]:
 
 def generate_prompt(root: Path, project: Path, *, command_target: str | None = None) -> str:
     from .editorial_memory import ensure_project_artifacts, memory_dir, select_gold_articles
+    from .archive_context import build_archive_context
     ensure_project_artifacts(root, project)
     cfg = config(root)
     relative = project.relative_to(root).as_posix()
@@ -89,6 +93,11 @@ def generate_prompt(root: Path, project: Path, *, command_target: str | None = N
     brief = (project / "ARTICLE_BRIEF.md").read_text(encoding="utf-8")
     gold = select_gold_articles(root, brief, limit=4)
     memory = memory_dir(root).relative_to(root).as_posix()
+    archive_context = build_archive_context(
+        root=root,
+        db_path=contained(root, cfg["archive_db"]),
+        query=brief,
+    )
     return f"""# Codex article-production assignment: {project.name}
 
 Work from the repository containing this prompt; all paths below are repository-relative.
@@ -109,45 +118,107 @@ weight: a secondary work or named witness remains attributed secondary/testimoni
 evidence and must not be silently rewritten as a primary record. Seek corroboration,
 follow footnotes and underlying citations, and record recovery status, but never omit a
 supplied claim solely because the cited archival item could not be independently found.
+Named testimony in this Level 2 corpus is ordinarily an accepted premise for downstream
+reasoning. Assume good-faith truth unless actual contrary evidence appears. Preserve
+ACCEPTED TESTIMONY as its internal source type, attribute first use where useful, then
+follow what it names instead of retrying the witness's credibility at every step.
 
 Load durable editorial memory before research: `{memory}/VOICE_CANON.md`,
-`{memory}/ANTI_PATTERNS.md`, and `{memory}/EDITORIAL_LESSONS.md`. The complete archive
-remains research memory, but only approved Gold articles are voice examples. Read the
-following relevant approved Gold examples and create `research/STYLE_PROFILE.md` from
+`{memory}/ANTI_PATTERNS.md`, and `{memory}/EDITORIAL_LESSONS.md`. Published White Rabbit
+articles are project canon and voice canon; approved Gold articles are the selected
+exemplars for this assignment. Read the following relevant approved Gold examples and
+create `research/STYLE_PROFILE.md` from
 their narrator presence, paragraph rhythm, reveal pacing, transitions, questions,
-quotation/uncertainty handling, callbacks, section openings and conclusion mechanics.
+quotation/uncertainty handling, blunt turns, humor, personal theory, callbacks, section
+openings, rabbit-hole transitions, and conclusion mechanics.
 Never imitate exact sentences. Missing registry paths are skipped rather than invented:
 {json.dumps([{k: v for k, v in entry.items() if k != 'exists'} for entry in gold], ensure_ascii=False, indent=2)}
 
 Consult the local White Rabbit archive at `{cfg['archive_dir']}` and registry
 `{cfg['archive_db']}`. Search relevant people, institutions and concepts with
 `python -m white_rabbit archive search "QUERY"`; read relevant article.md,
-metadata.json and links.json files. Archive articles are leads, not independent proof.
-Reopen underlying sources. If the index is unavailable, inspect local files directly;
-record absent/preview-only material and never invent archive URLs.
+metadata.json and links.json files. A published article's stated facts, findings,
+quotations, statistics, connections, conclusions, and established premises are Level 1
+project canon. Use them without automatic re-verification or re-teaching. Reopen
+underlying sources only when the author requests it, the prior article marked the point
+unresolved/speculative, exact wording materially matters, genuine contradictory evidence
+appears, or the source trail can open a new branch. Preserve canon conflicts as EXISTING
+CANON + NEW CONTRADICTORY EVIDENCE + WHY THEY CONFLICT + AUTHOR REVIEW NEEDED. If the
+index is unavailable, inspect local files directly; record absent/preview-only material
+and never invent archive URLs.
 
-Complete these stages in order. Treat the named editors as distinct review passes,
-not necessarily separate agents:
-1. Source inspection: inventory author-approved sources and archive research leads.
-   Populate BOOK_LEADS.md and BIBLIOGRAPHY_TRACE.csv for consequential secondary claims.
-2. Protocol decision: activate Extreme-Thesis Protocol when requested by the brief or
+The following two packets were generated live from the local registry for this exact
+brief. They are separate retrieval products: the first carries factual canon and claim
+provenance; the second contains only filtered authored prose for voice/structure study.
+Expand from any selected passage to its complete archived article when more context is
+needed. Never use a partial-preview passage as if it were a full read.
+
+{archive_context.canon_packet}
+
+{archive_context.voice_packet}
+
+Role/model handoff: this Python workflow does not invoke or switch models. When the
+Codex environment offers them, prefer GPT-5.6 Sol High for research/extraction/connections
+and independent evidence audit; prefer GPT-6 Astra for showrunning, drafting, voice
+revision and final surgical correction. Run these as separately invoked stages and obey
+the Writer Packet/auditor context boundaries. If those models are unavailable, keep the
+role separation with the available model and record the limitation; never claim automatic
+routing.
+
+Complete these stages in order. Treat the named roles as distinct passes, not necessarily
+separate agents. The editorial-priority order is explicit author objective → thesis
+emerging from the selected source corpus → published canon → new external research;
+evidentiary provenance remains governed by the three authority levels.
+1. Source Thesis: read the brief and every supported author-supplied source before any
+   external research. Complete SOURCE_THESIS.md with inventory/reading status, principal
+   source-derived thesis, competing subtheories, accepted testimony, entities, initial
+   chains, predicted footprints, corpus contradictions and external research objectives.
+   Mark Thesis version 1 and LOCKED. Where the corpus genuinely supports irreducible
+   competing directions and the brief does not decide, stop for author direction rather
+   than inventing intent.
+2. Canon retrieval: retrieve and read relevant full-body published passages from the
+   factual canon packet/archive. Add the established findings and the next-hop questions
+   they generate to SOURCE_THESIS.md and the research plan. Canon use means premise → new
+   search/edge, not merely an internal link. Keep voice retrieval separate and do not use
+   filtered voice passages as factual support.
+Source inspection ledger: inventory Level 1 published canon, Level 2 author-approved
+   sources, and Level 3 newly discovered external material. Apply ordinary verification to Level 3,
+   not retroactively to Levels 1 or 2. Populate BOOK_LEADS.md and
+   BIBLIOGRAPHY_TRACE.csv for consequential secondary claims.
+Protocol decision: activate Extreme-Thesis Protocol when requested by the brief or
    when the central theory concerns covert, deniable, compartmented, conspiratorial,
    outsourced, or cumulative circumstantial conduct. If active, state the strongest
    coherent thesis without softening it, create EXTREME_THESIS_LEDGER.md from the template,
    break the thesis into testable propositions, and predict observable footprints.
-3. Evidence build: seek direct and circumstantial proof, preserve named testimony and
-   investigative reporting as weighted evidence, mine supplied and inherited sources,
+3. Evidence build: seek direct and circumstantial proof, preserve named testimony as an
+   accepted premise and testimonial source type, mine supplied and inherited sources,
    follow bibliographies, and build the claims/evidence ledger. Attribution often supplies
    sufficient qualification. Missing underlying recovery is not an exclusion gate.
 4. Connection engine: create ENTITY_NETWORK.md, CONNECTION_REPORT.md,
-   CONNECTION_CHAINS.md and RABBIT_HOLE_QUEUE.md. A fact or strong inference may become a
-   premise for the next research question; every edge keeps its own DIRECT, STRONG
-   INFERENCE, PLAUSIBLE, or BROKEN label. Perform the two-hop career/network pass and
-   pursue the strongest story-changing rabbit holes.
-5. Evidence convergence and historical precedent: ask what independent A + B + C show
+   CONNECTION_CHAINS.md and RABBIT_HOLE_QUEUE.md. Published canon, accepted testimony, a
+   documented record, or a corroborated inference may become the premise for the next
+   research question; every edge keeps its provenance and classification. Prioritize
+   PERSON → EMPLOYER / FAMILY / INVESTOR / BOARD / INTELLIGENCE / CONTRACT / FOUNDATION /
+   BANK / POLITICAL FIGURE / ORGANIZED CRIME; COMPANY → CONTRACTOR / SUBCONTRACTOR /
+   INVESTOR / SHARED COUNSEL; PROGRAM → PERSONNEL / CONTRACTOR / RECIPIENT; RECIPIENT →
+   OTHER PROGRAM; and TESTIMONY → NAMED PERSON / PROGRAM / PLACE / EVENT. Do not spend the
+   connection budget asking whether an accepted starting node deserves to exist. When
+   independent paths reach the same node, investigate coordination, common infrastructure,
+   access, chronology, ordinary overlap and coincidence; shared contacts alone do not
+   prove unified command. Track the underlying dependency group for every important edge.
+5. Rabbit-Hole Investigator and convergence: select approximately three to five high-value branches,
+   adjusted to scope. Follow the applicable people, careers, institutions, cryptonyms,
+   money, logistics, dates, places, citations, indirect connections and contrary records.
+   Record searches, identifiers, records actually read, next-hop discoveries and a
+   DEVELOPED, CONTRADICTED, EXHAUSTED, DEFERRED or BLOCKED disposition. One failed keyword
+   search is not EXHAUSTED. Use a documented stopping rule.
+   Then ask what independent A + B + C show
    together. Do not double-count derivative repetitions. Document prior mechanisms,
    derive observable signatures, and search the current case without treating analogy as
-   proof of recurrence. Do not require one smoking-gun document for a distributed system.
+   proof of recurrence. Established mechanisms change prior plausibility and supply search
+   templates; the hypothesis does not reset to zero. Do not require one smoking-gun
+   document for a distributed system. For each corroborating fact, identify the new branch
+   it opens instead of using it only to re-prove an accepted premise.
 6. Disconfirmation: after assembling the strongest case, seek contrary evidence and the
    strongest ordinary or alternative explanation. A controversial theory may fail.
 7. Zebra adjudication, only if Extreme-Thesis Protocol is active: create ZEBRA_ANALYSIS.md
@@ -156,60 +227,108 @@ not necessarily separate agents:
 8. Thesis reduction, only if active: create THESIS_REDUCTION.md from the template and sort
    clauses into directly proven, strongly inferred, plausible, failed/contradicted, and
    final surviving thesis. Keep the strongest supported version, not the safest one.
-9. Research dossier: retain provenance, A–F source level plus the conclusion labels
-   DIRECTLY DOCUMENTED, CORROBORATED STRONG INFERENCE, HIGH-DIAGNOSTIC PATTERN,
-   PLAUSIBLE CONNECTION, LEAD, SPECULATION, or CONTRADICTED; include source dependencies,
+9. Research dossier: retain the three authority levels and provenance labels PUBLISHED
+   WHITE RABBIT CANON, DOCUMENTED RECORD, ACCEPTED TESTIMONY, CORROBORATED INFERENCE,
+   PLAUSIBLE CONNECTION, SPECULATION, or CONTRADICTED. Existing CORROBORATED STRONG INFERENCE
+   and HIGH-DIAGNOSTIC PATTERN labels remain valid; include source dependencies,
    confidence, responsibility, contrary evidence, causal chains, unresolved questions,
    and a visual-evidence plan.
-10. Story Decision: complete STORY_DECISION.md only after the preceding active stages.
-    The brief sets scope and intention, not a predetermined conclusion. Use the reduced
-    thesis when the protocol is active.
-11. Story engine: complete STORY_SPINE.md with opening receipt, reader expectation,
+10. Story Decision: run the thesis-fidelity checkpoint by comparing Author brief → SOURCE_THESIS.md
+    → research findings before selecting the story. Complete STORY_DECISION.md only after
+    the preceding active stages. Record the Source Thesis version, ALIGNED / REFINED /
+    FUNDAMENTAL CHANGE PROPOSED outcome, and author-decision state. The brief and source
+    corpus select the investigation, not a predetermined conclusion. Record what is
+    already canon, what testimony becomes a premise, which new facts expand the network,
+    the strongest chain, which prior facts should not be re-taught, what the article will
+    state plainly, and which caveats are story-changing versus defensive habits. Use the
+    reduced thesis when the protocol is active. If substantive contrary evidence requires
+    a fundamentally different article, preserve the original thesis and research, identify
+    exactly what fails and stop at AUTHOR THESIS DECISION REQUIRED. Missing corroboration
+    alone does not authorize a different investigation.
+11. Showrunner / story engine: complete STORY_SPINE.md with opening receipt, reader expectation,
    5–12 reveal steps, human bridges, rabbit holes, callbacks, wait-what moment, ordinary
    explanation, unresolved residue, bigger pattern, payoff and final question.
 
-DO NOT DRAFT THE ARTICLE DIRECTLY FROM THE CLAIMS LEDGER OR RESEARCH DOSSIER.
-The claims ledger tells you what is supportable. The STORY_SPINE tells you how the
-investigation should unfold.
+12. Writer handoff: complete WRITER_PACKET.md from
+    `templates/WRITER_PACKET_TEMPLATE.md`. Reconcile it with SOURCE_THESIS.md and
+    STORY_SPINE.md. Include surviving findings, testimony, canon premises, five to ten
+    consequential chains where supported, the investigated high-value rabbit holes,
+    quotations/IDs/locators, chronology, surprises, contradictions, factual boundaries,
+    source links, reveal order and relevant filtered Gold behavior.
 
-12. Article architecture and first draft: draft from STORY_SPINE in reader-facing reveal order.
-13. Narrative Structure Editor: remove repeated revelations and ensure every section
+DO NOT DRAFT THE ARTICLE DIRECTLY FROM THE CLAIMS LEDGER, RESEARCH DOSSIER, ZEBRA
+ANALYSIS, ADVERSARIAL AUDIT, OR EXPLORATORY NOTES. The writer primarily receives
+SOURCE_THESIS.md, WRITER_PACKET.md, STORY_SPINE.md, STYLE_PROFILE.md, selected documentary
+excerpts/source locators, Gold voice examples and publication constraints. The complete
+research remains available only for specific factual lookup and to the independent auditor.
+
+13. Article architecture and first draft: draft from the controlled writer context in
+    reader-facing reveal order.
+14. Narrative Structure Editor: remove repeated revelations and ensure every section
    changes the reader's understanding before line-level polishing.
-14. Author Voice Editor: make actors and actions concrete, vary rhythm, and use first
+15. Author Voice Editor: make actors and actions concrete, vary rhythm, and use first
    person only where it locates an actual investigation or interpretation. Do not write
-   about being careful; be careful in the wording. Compress caution to FACT -> minimum
-   necessary LIMIT -> strongest supportable INFERENCE -> MOVE.
-15. Emphasis and Formatting Editor, then Visual Story Editor: use typography as argument;
+   about being careful; be careful in the wording. Use personal theory when appropriate.
+   Default to FACT -> QUESTION -> IMPLICATION -> NEXT RECEIPT. State a genuinely necessary
+   boundary once at the point where it changes meaning, then move.
+16. Emphasis and Formatting Editor, then Visual Story Editor: use typography as argument;
    distinguish documentary, archival, explanatory, relationship, atmospheric, analogy
    and promotional visuals; place evidence next to the claim it supports.
-16. Evidence Integrity Editor: independently compare the rewritten draft with the ledger,
+17. Evidence Integrity Editor: independently compare the rewritten draft with the complete
+   research record, ledger,
    quotations and chronology; restore lost qualifiers without flattening documented facts.
    Internal caution can be verbose; published corrections should use the smallest change
    that restores accuracy. Distinguish minor identification uncertainty, real evidentiary
    gaps and speculation instead of giving all three the same disclaimer treatment.
-17. Anti-AI Style Red Team: review the near-final article without the drafting prompt.
+18. Anti-AI Style Red Team: review the near-final article without the drafting prompt.
     Detect both polished essay scaffolding and performed human/evidence prose: repeated
     self-policing, lawyer voice, caution inflation, long source pedigree and manufactured
-    quips. Have the Author Voice Editor resolve only the flagged passages, then rerun the
+    quips. Report each recurring AI tic with phrase/construction, count, line or section
+    locations, necessity, and delete/rewrite recommendation. Include repeated “not X but
+    Y,” “this does not prove,” “stronger conclusion,” “better question,” “evidence stops
+    short,” corrective “however,” excessive “in other words,” and three-part antithesis.
+    Do not swap one stock phrase for another. Also complete
+    SEMANTIC_EDITORIAL_REVIEW.md with passage/locator and local repair for DEFENSIVE
+    SEQUENCE, CONTRIVED DIALECTIC, AUDITOR VOICE, PREMATURE ADJUDICATION, NARRATIVE
+    STAGNATION, NARRATOR ABSENCE, MECHANICAL REVEAL WRITING, CANON DEFENSIVENESS and
+    THESIS SUBSTITUTION. Deterministic diagnostics are leads, not the semantic verdict.
+    Have the Author Voice Editor resolve only the
+    flagged passages, then rerun the
     Evidence Integrity Editor so compression does not change claim status.
-18. Factual/adversarial audit in audit.md using FACTUAL_AUDIT_TEMPLATE.md. Separately
-    inspect direct factual claims, attributed source claims, cumulative inferential claims,
-    connection chains and weak edges, evidence independence, and historical analogy versus
-    continuity. Do not downgrade strong inference solely for lack of a smoking-gun memo.
-19. White Rabbit editorial audit in editorial_audit.md. Detect OVERCLAIM and CAVEAT
-    COLLAPSE. Preferred rhythm: show receipts -> accumulate them -> state the inference ->
-    give the meaningful boundary once -> keep moving. Identify passages, prescribe fixes,
-    and revise article.md before validation.
-20. Final emphasis/visual reconciliation, followed by source/link reconciliation. Create
+19. Factual/adversarial audit in audit.md using FACTUAL_AUDIT_TEMPLATE.md. Separately
+    inspect canon, accepted testimony, new external material, direct factual claims,
+    cumulative inferential claims, connection chains and weak edges, evidence independence,
+    contradiction, and historical analogy versus continuity. Detect both OVERCLAIM and
+    DEFENSIVE COLLAPSE. Do not downgrade accepted testimony or strong inference solely for
+    lack of a smoking-gun memo. The auditor issues targeted findings with exact passage,
+    problem, evidence, required constraint and minimum correction; it does not rewrite the
+    article or silently alter the locked thesis. The writer applies surgical corrections,
+    then the auditor rechecks them.
+20. White Rabbit editorial audit in editorial_audit.md. Detect OVERCLAIM, CAVEAT COLLAPSE,
+    and DEFENSIVE COLLAPSE. The draft fails when defensive collapse materially damages the
+    voice. Preferred rhythm: show receipts -> accumulate them -> state the inference -> give
+    the meaningful boundary once -> keep moving. Sections usually open the next door rather
+    than restating a qualified thesis. Identify passages, prescribe fixes, and revise
+    article.md before validation.
+21. Final emphasis/visual reconciliation, followed by source/link reconciliation. Create
     sources.csv only after prose is stable; verify every exact phrase and destination.
-21. SEO package: complete every field required by SEO_AND_PUBLISHING.md.
-22. FAQ: exactly {cfg['faq_count']} useful questions, each as ### under ## FAQ.
-23. Related White Rabbit articles: the required related-articles section with relevant
+22. SEO package: complete every field required by SEO_AND_PUBLISHING.md.
+23. FAQ: exactly {cfg['faq_count']} useful questions, each as ### under ## FAQ.
+24. Related White Rabbit articles: the required related-articles section with relevant
    verified archive links. Never pad with irrelevant recommendations.
-24. Adversarial evidence audit: dossier-to-article comparison, section-by-section source
-    coverage, primary-source escalation, competing explanations and responsibility.
-25. Publication QA: run `{validate_command}`; resolve errors and review warnings by
-    revising or recording an evidence-based editorial decision in audit.md.
+25. Adversarial evidence audit: dossier-to-article comparison, a consequential-claim
+    source matrix, section-by-section reader-facing coverage, primary-source escalation,
+    competing explanations and responsibility. A mechanically valid sources.csv or a low
+    link count never settles editorial adequacy. Distinguish originals genuinely
+    unavailable from records merely neglected by the workflow.
+26. Independent quality gates: complete QUALITY_GATES.md with separate A Technical,
+    B Research completeness, C Thesis fidelity, D Narrative, E Author voice, F Evidence
+    integrity and G Human editorial approval results. Use PASS, FAIL, NEEDS REVIEW,
+    BLOCKED, NOT RUN or AUTHOR APPROVAL REQUIRED honestly. Missing subjective reviews do
+    not pass. Software never assigns Gate G.
+27. Technical QA: run `{validate_command}`; resolve errors and review warnings by revising
+    or recording an evidence-based editorial decision in audit.md. A technical PASS is not
+    publication approval.
 
 Write these final deliverables under `{relative}/output/`:
 {chr(10).join('- ' + p for p in DELIVERABLES)}
@@ -221,8 +340,9 @@ and have the correct publication-facing Markdown destination. Use first useful o
 Include [IMAGE: description | ALT: alt text], [[SUBSCRIBE]] and [[SHARE]].
 Place CTAs at earned narrative pauses, not fixed word counts. Keep full PURPOSE, SOURCE,
 PLACEMENT, CAPTION, ALT TEXT and EVIDENCE STATUS metadata in the dossier visual plan.
-audit.md must distinguish DIRECT FACTUAL CLAIMS, ATTRIBUTED SOURCE CLAIMS, INFERENTIAL
-CLAIMS, CONNECTION CHAINS, HISTORICAL ANALOGY, MECHANICAL CITATION VALIDITY and EDITORIAL
+audit.md must distinguish PUBLISHED WHITE RABBIT CANON, ACCEPTED TESTIMONY, NEW EXTERNAL
+MATERIAL, DIRECT FACTUAL CLAIMS, INFERENTIAL CLAIMS, CONNECTION CHAINS, HISTORICAL ANALOGY,
+MECHANICAL CITATION VALIDITY and EDITORIAL
 SOURCE ADEQUACY, and record dossier comparison, source coverage and primary-source
 escalation.
 Passing validation does not establish factual truth or editorial source adequacy.
@@ -446,21 +566,35 @@ def validate(root: Path, project: Path, *, series_urls: set[str] | None = None) 
             if path.read_text(encoding="utf-8-sig").strip() == template.read_text(encoding="utf-8-sig").strip():
                 warnings.append(f"EDITORIAL workflow artifact is still an uncompleted template: {relative}")
     queue = project / "research/RABBIT_HOLE_QUEUE.md"
-    if queue.is_file() and re.search(r"(?im)^\|.*\|\s*(?:OPEN|FOLLOW)\s*\|\s*$", queue.read_text(encoding="utf-8-sig")):
-        warnings.append("EDITORIAL unresolved OPEN/FOLLOW rabbit holes remain; confirm high-value candidates were resolved or consciously deferred.")
+    if queue.is_file() and re.search(
+            r"(?im)^\|.*\|\s*(?:OPEN|FOLLOW|ACTIVE)\s*\|\s*$",
+            queue.read_text(encoding="utf-8-sig")):
+        warnings.append(
+            "EDITORIAL active rabbit holes remain; high-value branches need a documented "
+            "DEVELOPED/CONTRADICTED/EXHAUSTED/DEFERRED/BLOCKED disposition."
+        )
     warnings.append("Mechanical validation does not establish factual truth or editorial source adequacy.")
+    technical_result = "FAIL" if errors else "PASS"
+    from .investigative_workflow import quality_gate_report
+    gates = quality_gate_report(project, technical_pass=not errors)
     return {"slug": project.name, **metrics, "editorial_diagnostics": editorial,
             "errors": errors, "warnings": warnings,
-            "result": "FAIL" if errors else "PASS"}
+            "technical_result": technical_result,
+            "quality_gates": gates["gates"],
+            "thesis_fidelity": gates["thesis_fidelity"],
+            "publication_status": gates["publication_status"],
+            "result": technical_result}
 
 
 def status(root: Path, project: Path) -> dict:
+    from .investigative_workflow import writer_context_manifest
     return {"slug": project.name,
             "article_brief": (project / "ARTICLE_BRIEF.md").is_file(),
             "codex_prompt": (project / "CODEX_PROMPT.md").is_file(),
             "source_count": len(files_under(project / "sources")),
             "research_files": files_under(project / "research"),
             "editorial_artifacts": {n: (project / n).is_file() for n in EDITORIAL_ARTIFACTS},
+            "writer_context": writer_context_manifest(project),
             "output_deliverables": {n: (project / "output" / n).is_file() for n in DELIVERABLES},
             "validation_ready": all((project / "output" / n).is_file() and
                                     (project / "output" / n).stat().st_size for n in DELIVERABLES)}

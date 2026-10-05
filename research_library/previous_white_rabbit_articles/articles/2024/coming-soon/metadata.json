@@ -1,0 +1,28 @@
+{
+  "article_id": "WR-000013",
+  "title": "Coming soon",
+  "slug": "coming-soon",
+  "canonical_url": "https://thewhiterabbitreport.substack.com/p/coming-soon",
+  "published_date": "2024-09-21T17:21:07.345Z",
+  "updated_date": null,
+  "author": "The White Rabbit Report",
+  "series": null,
+  "tags": [],
+  "content_hash": "sha256:a6c1729ee03c6504655307b0762469e5ce3620830357cd0a50250b36d793166b",
+  "content_status": "preview_only",
+  "access_level": "TITLE_ONLY",
+  "source_origin": "author_export",
+  "discovery_sources": [
+    "author_export:posts.csv"
+  ],
+  "http_status": null,
+  "subtitle": null,
+  "export_post_id": "149214256.coming-soon",
+  "publication_status": "published",
+  "audience": "everyone",
+  "source_reference": "posts/149214256.coming-soon.html",
+  "source_precedence": "author_export is authoritative for this published body",
+  "word_count": 8,
+  "author_paragraph_count": 0,
+  "indexed": true
+}
