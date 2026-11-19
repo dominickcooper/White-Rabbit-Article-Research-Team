@@ -21,6 +21,7 @@ workspace/*/output/*.html
 # rebuildable / bulky local indexes
 knowledge/*.joblib
 knowledge/*.sqlite3
+knowledge/*.db
 knowledge/*.db-journal
 knowledge/*.db-wal
 knowledge/*.db-shm
