@@ -6,10 +6,18 @@ from pathlib import Path
 
 from .database import VaultDB
 from .ingestion import ingest_document, import_structured
+from .backup import create_backup_bundle, restore_backup_bundle
 
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DB = ROOT / "knowledge" / "intelligence_vault.db"
+
+
+def _temporal_arg(value: str | None) -> dict:
+    if not value:
+        return {}
+    precision = "year" if len(value) == 4 else "month" if len(value) == 7 else "exact"
+    return {"value": value, "precision": precision, "certainty": "unknown"}
 
 
 def parser() -> argparse.ArgumentParser:
@@ -28,6 +36,8 @@ def parser() -> argparse.ArgumentParser:
     sub.add_parser("stats"); sub.add_parser("review")
     events = sub.add_parser("events"); events.add_argument("start"); events.add_argument("end")
     export = sub.add_parser("export"); export.add_argument("path", type=Path)
+    backup = sub.add_parser("backup"); backup.add_argument("directory", type=Path)
+    restore = sub.add_parser("restore"); restore.add_argument("directory", type=Path)
     serve = sub.add_parser("serve"); serve.add_argument("--host", default="127.0.0.1"); serve.add_argument("--port", type=int, default=8765)
     return p
 
@@ -37,6 +47,9 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "serve":
         from .web import serve
         serve(args.db, args.host, args.port); return 0
+    if args.command == "restore":
+        result = {"restored": str(restore_backup_bundle(args.directory, args.db))}
+        print(json.dumps(result, ensure_ascii=False, indent=2)); return 0
     with VaultDB(args.db) as db:
         if args.command == "init": result = {"database": str(args.db.resolve()), **db.stats()}
         elif args.command == "ingest":
@@ -48,12 +61,13 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "show-document": result = db.get_document(args.document_id) or {"error": "not found"}
         elif args.command == "add-entity": result = {"id": db.add_entity(args.entity_type, args.name, aliases=args.alias, description=args.description, details=json.loads(args.details_json))}
         elif args.command == "add-claim": result = {"id": db.add_claim(args.statement, claim_type=args.type, status=args.status, entity_ids=args.entity)}
-        elif args.command == "add-relationship": result = {"id": db.add_relationship(args.subject_id, args.object_id, args.relationship_type, directed=not args.undirected, classification=args.classification, historical_start={"value": args.start, "precision": "exact" if args.start and len(args.start) > 4 else "year"}, historical_end={"value": args.end, "precision": "exact" if args.end and len(args.end) > 4 else "year"})}
+        elif args.command == "add-relationship": result = {"id": db.add_relationship(args.subject_id, args.object_id, args.relationship_type, directed=not args.undirected, classification=args.classification, historical_start=_temporal_arg(args.start), historical_end=_temporal_arg(args.end))}
         elif args.command == "stats": result = db.stats()
         elif args.command == "review": result = db.list_review()
         elif args.command == "events": result = db.events_between(args.start, args.end)
         elif args.command == "export":
             args.path.parent.mkdir(parents=True, exist_ok=True); args.path.write_text(json.dumps(db.export(), ensure_ascii=False, indent=2), encoding="utf-8"); result = {"exported": str(args.path.resolve())}
+        elif args.command == "backup": result = {"backup": str(create_backup_bundle(db, args.directory))}
         else: raise AssertionError(args.command)
     print(json.dumps(result, ensure_ascii=False, indent=2, default=str))
     return 1 if result.get("error") else 0

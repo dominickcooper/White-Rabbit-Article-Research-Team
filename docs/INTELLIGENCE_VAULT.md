@@ -4,9 +4,11 @@
 
 The Vault is an additive, local, provenance-first subsystem. It does not replace the
 Codex article, series, archive, Gemini, or distribution workflows. Its SQLite database is
-`knowledge/intelligence_vault.db`, which is intentionally ignored by Git. Stable UUID-based
+`knowledge/intelligence_vault.db`, which is intentionally ignored by Git. Original files are
+preserved under the ignored `knowledge/intelligence_vault_evidence/` content-addressed archive.
+Stable UUID-based
 IDs separate identity from names. Versioned migrations run transactionally with foreign
-keys enabled.
+keys enabled. Schema version 2 upgrades existing Phase 1 databases in place.
 
 The model has four entity kinds (people, organizations, events, and places), aliases,
 investigations, documents with immutable revisions, claims, claim evidence, relationships,
@@ -18,7 +20,7 @@ are separate fields.
 
 | Area | Tables | Purpose |
 |---|---|---|
-| Identity | `entities`, `aliases`, four `*_details` tables | Stable identity and type-specific metadata |
+| Identity | `entities`, `aliases`, four `*_details` tables, `import_entity_bindings` | Stable identity, explicit import bindings, and type-specific metadata |
 | Investigations | `investigations`, `entity_investigations` | Reuse one identity across many projects |
 | Sources | `documents`, `document_locations`, `document_revisions` | Original locators, classification, hash, text, immutable revisions |
 | Evidence | `claims`, `claim_evidence`, `claim_entities` | Atomic statements, wording, locations, dependency and entity links |
@@ -67,6 +69,8 @@ Import a validated extraction package, search, inspect, and export:
 .venv\Scripts\python.exe -m white_rabbit vault review
 .venv\Scripts\python.exe -m white_rabbit vault events 1940 1950
 .venv\Scripts\python.exe -m white_rabbit vault export backups\vault-export.json
+.venv\Scripts\python.exe -m white_rabbit vault backup knowledge\intelligence_vault_backups\phase-1-1
+.venv\Scripts\python.exe -m white_rabbit vault --db knowledge\restored-vault.db restore knowledge\intelligence_vault_backups\phase-1-1
 ```
 
 Manual commands include `add-entity`, `add-claim`, and `add-relationship`; use `--help`
@@ -75,8 +79,11 @@ and `/api/relationships`, plus `PATCH /api/entities/<id>`.
 
 ## Structured import format
 
-The JSON format is schema-versioned and validated by Pydantic. Entity and claim `ref`
-values are local import references:
+The JSON format is schema-versioned and strictly validated by Pydantic. Entity and claim
+`ref` values are local import references. An entity is never assigned to a pre-existing
+identity merely because its name or alias matches. Use `known_entity_id` only after a human
+has confirmed the identity. Otherwise the import creates a distinct stable entity and a
+reviewable match suggestion. Re-imports remain idempotent through the document/ref binding.
 
 ```json
 {
@@ -84,7 +91,8 @@ values are local import references:
   "document": {"path": "memo.pdf", "title": "Memo", "authority_level": 2},
   "entities": [
     {"ref": "person-a", "entity_type": "person", "name": "Example Name", "aliases": []},
-    {"ref": "unit-a", "entity_type": "organization", "name": "Example Unit", "aliases": []}
+    {"ref": "unit-a", "known_entity_id": "ENT-confirmed-uuid",
+     "entity_type": "organization", "name": "Example Unit", "aliases": []}
   ],
   "claims": [{
     "ref": "claim-a", "statement": "Example Name served in Example Unit.",
@@ -100,18 +108,44 @@ values are local import references:
 }
 ```
 
+The complete structured import is one database transaction. Any entity, claim, relationship,
+or conflict failure rolls back the document and every other database write from that import.
 An unchanged file hash is idempotent. A changed file creates a new immutable revision;
 older extracted text and evidence links remain intact. Exact name or alias collisions create
 merge suggestions rather than automatic merges.
 Copies at different paths with the same hash share one document identity while retaining
 each observed location.
 
+The original file is copied, byte-for-byte, to `intelligence_vault_evidence/sha256/<prefix>/<hash>`.
+The database stores the relative archived path, SHA-256 hash, and original path. Later changes
+or removal of the original do not affect the preserved copy. Existing schema-v1 documents
+must be re-ingested once to populate their archived path.
+
+## Historical dates and overlap
+
+Dates retain `exact`, `month`, `year`, `approximate`, or `unknown` precision plus `certain`,
+`probable`, `possible`, `uncertain`, or `unknown` certainty. A known start with no end is
+open-ended; a missing start is insufficient chronology. Overlap queries return one of four
+states: `definite_overlap`, `possible_overlap`, `no_overlap`, or `insufficient_evidence`.
+Year/month boundary ranges and uncertainty are never silently collapsed to a Boolean.
+
 ## Backup and recovery
 
-Stop writers and copy `knowledge/intelligence_vault.db` plus any `-wal` and `-shm` files,
-or use the `export` command for a portable JSON snapshot. Original source files are never
-replaced. Recovery is copying a consistent SQLite backup back to the same location; test a
-restored copy with `vault stats` before using it.
+Use `vault backup` for a complete bundle. It uses SQLite's online backup API, runs an integrity
+check, includes the content-addressed evidence archive, and records hashes in `manifest.json`.
+`vault restore` verifies every hash before restoring the database and evidence. The JSON
+`export` command now includes every application table, including all entity-detail tables,
+investigations, memberships, import bindings, evidence locations, and review records.
+Original source files are never replaced. Always restore to a separate database first and
+confirm it with `vault stats` before replacing a working copy.
+
+## Local API safety
+
+The browser server can bind only to `127.0.0.1`, `localhost`, or `::1`. It validates the Host
+header to resist DNS rebinding, rejects cross-origin writes, does not enable CORS, requires
+`application/json`, rejects transfer-encoded or malformed bodies, and caps request bodies at
+256 KiB. Payloads use strict schemas and security headers disable framing, MIME sniffing, and
+caching. Document ingestion remains a CLI operation rather than a large HTTP upload.
 
 ## Extension roadmap
 
@@ -127,6 +161,15 @@ restored copy with `vault stats` before using it.
 ## Known limitations
 
 Phase 1 uses lexical substring search rather than semantic retrieval, does not OCR image-only
-PDFs, has no authentication (loopback use only), and offers basic duplicate matching rather
-than probabilistic entity resolution. It does not automatically ingest the archive, invoke an
-LLM, rank suspiciousness, merge identities, or turn connection candidates into facts.
+PDFs, and has no user authentication because the server is enforced as loopback-only. Identity
+suggestions are deterministic signals, not probabilistic adjudications; a human must confirm
+matches. It does not automatically ingest the archive, invoke an LLM, rank suspiciousness,
+merge identities, or turn connection candidates into facts.
+
+## Phase 1.1 verification
+
+The Phase 1.1 hardening suite covers non-merging identity resolution, explicit known-ID
+reuse, contextual match suggestions, mid-import rollback, content-addressed preservation,
+schema-v1 migration, lossless export, complete backup/restore, four-state temporal overlap,
+strict request parsing, origin/Host checks, body limits, and loopback-only binding. The full
+repository regression run completed with **290 passing tests** and no failures.

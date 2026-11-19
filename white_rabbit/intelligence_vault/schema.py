@@ -1,20 +1,44 @@
 from __future__ import annotations
 
 from typing import Literal
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, model_validator
+
+from .temporal import HistoricalDate
 
 
 EntityType = Literal["person", "organization", "event", "place"]
 
 
 class TemporalValue(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     value: str | None = None
     precision: Literal["exact", "month", "year", "approximate", "unknown"] = "unknown"
-    certainty: Literal["certain", "probable", "possible", "unknown"] = "unknown"
+    certainty: Literal["certain", "probable", "possible", "uncertain", "unknown"] = "unknown"
+
+    @model_validator(mode="after")
+    def valid_value(self) -> "TemporalValue":
+        if self.value is None:
+            if self.precision != "unknown":
+                raise ValueError("a missing date value must use unknown precision")
+            return self
+        HistoricalDate(self.value, self.precision, self.certainty).bounds()
+        return self
+
+
+class DocumentInput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    path: str = Field(min_length=1)
+    title: str | None = None
+    author: str | None = None
+    document_date: str | None = None
+    source_classification: str = "author_supplied"
+    authority_level: int = Field(default=2, ge=1, le=3)
 
 
 class EntityInput(BaseModel):
-    ref: str | None = None
+    model_config = ConfigDict(extra="forbid")
+    ref: str = Field(min_length=1, max_length=200)
+    known_entity_id: str | None = None
     entity_type: EntityType
     name: str = Field(min_length=1, max_length=500)
     aliases: list[str] = Field(default_factory=list)
@@ -23,6 +47,7 @@ class EntityInput(BaseModel):
 
 
 class ClaimInput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     ref: str | None = None
     statement: str = Field(min_length=1)
     original_wording: str | None = None
@@ -40,6 +65,7 @@ class ClaimInput(BaseModel):
 
 
 class RelationshipInput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     subject_ref: str
     object_ref: str
     relationship_type: str = Field(min_length=1, max_length=200)
@@ -56,6 +82,7 @@ class RelationshipInput(BaseModel):
 
 
 class ConflictInput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     claim_ref_a: str
     claim_ref_b: str
     reason: str = ""
@@ -63,8 +90,9 @@ class ConflictInput(BaseModel):
 
 
 class VaultImport(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     schema_version: Literal[1] = 1
-    document: dict = Field(default_factory=dict)
+    document: DocumentInput
     entities: list[EntityInput] = Field(default_factory=list)
     claims: list[ClaimInput] = Field(default_factory=list)
     relationships: list[RelationshipInput] = Field(default_factory=list)
@@ -72,10 +100,10 @@ class VaultImport(BaseModel):
 
     @model_validator(mode="after")
     def unique_refs(self) -> "VaultImport":
-        refs = [item.ref for item in self.entities + self.claims if item.ref]
+        refs = [item.ref for item in self.entities] + [item.ref for item in self.claims if item.ref]
         if len(refs) != len(set(refs)):
             raise ValueError("entity and claim refs must be unique")
-        entity_refs = {item.ref for item in self.entities if item.ref}
+        entity_refs = {item.ref for item in self.entities}
         claim_refs = {item.ref for item in self.claims if item.ref}
         for claim in self.claims:
             if set(claim.entity_refs) - entity_refs:

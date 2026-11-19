@@ -10,7 +10,7 @@ from typing import Any, Iterator
 from uuid import uuid4
 
 
-LATEST_SCHEMA_VERSION = 1
+LATEST_SCHEMA_VERSION = 2
 ENTITY_TYPES = {"person", "organization", "event", "place"}
 
 
@@ -24,6 +24,20 @@ def _stable_id(prefix: str) -> str:
 
 def normalize_name(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
+
+
+def _validate_temporal(value: dict[str, Any]) -> None:
+    from .temporal import HistoricalDate
+    raw = value.get("value")
+    precision = value.get("precision", "unknown")
+    certainty = value.get("certainty", "unknown")
+    if precision not in {"exact", "month", "year", "approximate", "unknown"}:
+        raise ValueError(f"unsupported historical date precision: {precision}")
+    if certainty not in {"certain", "probable", "possible", "uncertain", "unknown"}:
+        raise ValueError(f"unsupported historical date certainty: {certainty}")
+    if raw is None and precision != "unknown":
+        raise ValueError("a missing historical date must use unknown precision")
+    HistoricalDate(raw, precision, certainty).bounds()
 
 
 MIGRATIONS = [
@@ -133,6 +147,21 @@ MIGRATIONS = [
       score REAL NOT NULL, status TEXT NOT NULL DEFAULT 'open', created_at TEXT NOT NULL,
       CHECK(entity_a_id != entity_b_id)
     );
+    """),
+    (2, """
+    ALTER TABLE document_revisions ADD COLUMN archived_path TEXT;
+    ALTER TABLE merge_suggestions ADD COLUMN evidence_json TEXT NOT NULL DEFAULT '{}';
+    ALTER TABLE person_details ADD COLUMN birth_certainty TEXT NOT NULL DEFAULT 'unknown';
+    ALTER TABLE person_details ADD COLUMN death_certainty TEXT NOT NULL DEFAULT 'unknown';
+    ALTER TABLE event_details ADD COLUMN start_certainty TEXT NOT NULL DEFAULT 'unknown';
+    ALTER TABLE event_details ADD COLUMN end_certainty TEXT NOT NULL DEFAULT 'unknown';
+    CREATE TABLE import_entity_bindings (
+      document_id TEXT NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+      import_ref TEXT NOT NULL,
+      entity_id TEXT NOT NULL REFERENCES entities(id) ON DELETE RESTRICT,
+      created_at TEXT NOT NULL,
+      PRIMARY KEY(document_id, import_ref)
+    );
     """)
 ]
 
@@ -143,6 +172,7 @@ class VaultDB:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         self.conn = sqlite3.connect(self.path)
         self.conn.row_factory = sqlite3.Row
+        self._savepoint_number = 0
         self.conn.execute("PRAGMA foreign_keys=ON")
         self.conn.execute("PRAGMA journal_mode=WAL")
         self.migrate()
@@ -158,8 +188,21 @@ class VaultDB:
 
     @contextmanager
     def transaction(self) -> Iterator[sqlite3.Connection]:
+        if self.conn.in_transaction:
+            self._savepoint_number += 1
+            name = f"vault_sp_{self._savepoint_number}"
+            self.conn.execute(f"SAVEPOINT {name}")
+            try:
+                yield self.conn
+            except Exception:
+                self.conn.execute(f"ROLLBACK TO {name}")
+                self.conn.execute(f"RELEASE {name}")
+                raise
+            else:
+                self.conn.execute(f"RELEASE {name}")
+            return
         try:
-            self.conn.execute("BEGIN")
+            self.conn.execute("BEGIN IMMEDIATE")
             yield self.conn
         except Exception:
             self.conn.rollback()
@@ -184,7 +227,7 @@ class VaultDB:
 
     def add_entity(self, entity_type: str, name: str, *, aliases: list[str] | None = None,
                    description: str = "", details: dict[str, Any] | None = None) -> str:
-        if entity_type not in ENTITY_TYPES or not name.strip():
+        if entity_type not in ENTITY_TYPES or not name.strip() or len(name) > 500:
             raise ValueError("valid entity_type and name are required")
         entity_id, now = _stable_id("ENT"), _now()
         with self.transaction():
@@ -199,12 +242,28 @@ class VaultDB:
             self.conn.execute(f"INSERT INTO {table}(entity_id) VALUES (?)", (entity_id,))
             if details:
                 allowed = {
-                    "person": {"birth_value", "birth_precision", "death_value", "death_precision", "biography"},
+                    "person": {"birth_value", "birth_precision", "birth_certainty", "death_value", "death_precision", "death_certainty", "biography"},
                     "organization": {"organization_kind"},
-                    "event": {"event_kind", "start_value", "start_precision", "end_value", "end_precision", "date_certainty"},
+                    "event": {"event_kind", "start_value", "start_precision", "start_certainty", "end_value", "end_precision", "end_certainty", "date_certainty"},
                     "place": {"place_kind", "address", "latitude", "longitude"},
                 }[entity_type]
                 values = {key: value for key, value in details.items() if key in allowed}
+                if entity_type == "person":
+                    for prefix in ("birth", "death"):
+                        if values.get(f"{prefix}_value"):
+                            _validate_temporal({
+                                "value": values[f"{prefix}_value"],
+                                "precision": values.get(f"{prefix}_precision", "unknown"),
+                                "certainty": values.get(f"{prefix}_certainty", "unknown"),
+                            })
+                elif entity_type == "event":
+                    for prefix in ("start", "end"):
+                        if values.get(f"{prefix}_value"):
+                            _validate_temporal({
+                                "value": values[f"{prefix}_value"],
+                                "precision": values.get(f"{prefix}_precision", "unknown"),
+                                "certainty": values.get(f"{prefix}_certainty", values.get("date_certainty", "unknown")),
+                            })
                 if values:
                     self.conn.execute(
                         f"UPDATE {table} SET " + ",".join(f"{key}=?" for key in values) + " WHERE entity_id=?",
@@ -216,12 +275,17 @@ class VaultDB:
     def add_alias(self, entity_id: str, alias: str, *, alias_type: str = "alias", commit: bool = True) -> None:
         if not alias.strip():
             return
-        self.conn.execute(
-            "INSERT OR IGNORE INTO aliases(entity_id,alias,normalized_alias,alias_type) VALUES (?,?,?,?)",
-            (entity_id, alias.strip(), normalize_name(alias), alias_type),
-        )
         if commit:
-            self.conn.commit()
+            with self.transaction():
+                self.conn.execute(
+                    "INSERT OR IGNORE INTO aliases(entity_id,alias,normalized_alias,alias_type) VALUES (?,?,?,?)",
+                    (entity_id, alias.strip(), normalize_name(alias), alias_type),
+                )
+        else:
+            self.conn.execute(
+                "INSERT OR IGNORE INTO aliases(entity_id,alias,normalized_alias,alias_type) VALUES (?,?,?,?)",
+                (entity_id, alias.strip(), normalize_name(alias), alias_type),
+            )
 
     def _create_duplicate_suggestions(self, entity_id: str, entity_type: str, names: list[str]) -> None:
         normalized = {normalize_name(n) for n in names if normalize_name(n)}
@@ -240,8 +304,13 @@ class VaultDB:
                 "SELECT 1 FROM merge_suggestions WHERE entity_a_id=? AND entity_b_id=? AND status='open'", (a, b)
             ).fetchone()
             if not exists:
-                self.conn.execute("INSERT INTO merge_suggestions VALUES (?,?,?,?,?,?,?)",
-                                  (_stable_id("MERGE"), a, b, "matching name or alias", 1.0, "open", _now()))
+                self.conn.execute(
+                    """INSERT INTO merge_suggestions(
+                           id,entity_a_id,entity_b_id,reason,score,status,created_at,evidence_json
+                       ) VALUES (?,?,?,?,?,?,?,?)""",
+                    (_stable_id("MERGE"), a, b, "possible name or alias match", 0.25, "open", _now(),
+                     json.dumps({"signals": ["name_or_alias_match"]})),
+                )
 
     def resolve_entity(self, name: str, entity_type: str | None = None) -> list[dict[str, Any]]:
         norm = normalize_name(name)
@@ -255,6 +324,123 @@ class VaultDB:
             params,
         ).fetchall()
         return [dict(r) for r in rows]
+
+    def get_import_binding(self, document_id: str, import_ref: str) -> str | None:
+        row = self.conn.execute(
+            "SELECT entity_id FROM import_entity_bindings WHERE document_id=? AND import_ref=?",
+            (document_id, import_ref),
+        ).fetchone()
+        return str(row["entity_id"]) if row else None
+
+    def bind_import_entity(self, document_id: str, import_ref: str, entity_id: str) -> None:
+        existing = self.get_import_binding(document_id, import_ref)
+        if existing and existing != entity_id:
+            raise ValueError(f"import ref {import_ref!r} is already bound to {existing}")
+        with self.transaction():
+            self.conn.execute(
+                "INSERT OR IGNORE INTO import_entity_bindings VALUES (?,?,?,?)",
+                (document_id, import_ref, entity_id, _now()),
+            )
+
+    def validate_known_entity(self, entity_id: str, entity_type: str) -> None:
+        row = self.conn.execute("SELECT entity_type FROM entities WHERE id=?", (entity_id,)).fetchone()
+        if not row:
+            raise ValueError(f"unknown known_entity_id: {entity_id}")
+        if row["entity_type"] != entity_type:
+            raise ValueError(f"known_entity_id {entity_id} is {row['entity_type']}, not {entity_type}")
+
+    def refresh_match_suggestions(self, entity_id: str) -> None:
+        entity = self.conn.execute("SELECT * FROM entities WHERE id=?", (entity_id,)).fetchone()
+        if not entity:
+            raise KeyError(entity_id)
+        names = {entity["normalized_name"], *(
+            row[0] for row in self.conn.execute("SELECT normalized_alias FROM aliases WHERE entity_id=?", (entity_id,))
+        )}
+        marks = ",".join("?" for _ in names)
+        candidates = self.conn.execute(
+            f"""SELECT DISTINCT e.id FROM entities e LEFT JOIN aliases a ON a.entity_id=e.id
+                WHERE e.id != ? AND e.entity_type=? AND
+                (e.normalized_name IN ({marks}) OR a.normalized_alias IN ({marks}))""",
+            (entity_id, entity["entity_type"], *names, *names),
+        ).fetchall()
+        with self.transaction():
+            for candidate in candidates:
+                other_id = str(candidate["id"])
+                signals, conflicts, score = self._identity_comparison(entity_id, other_id)
+                a, b = sorted((entity_id, other_id))
+                evidence = json.dumps({"signals": signals, "conflicts": conflicts}, ensure_ascii=False)
+                reason = "; ".join(signals + conflicts) or "possible identity match"
+                existing = self.conn.execute(
+                    "SELECT id FROM merge_suggestions WHERE entity_a_id=? AND entity_b_id=? AND status='open'", (a, b)
+                ).fetchone()
+                if existing:
+                    self.conn.execute(
+                        "UPDATE merge_suggestions SET reason=?,score=?,evidence_json=? WHERE id=?",
+                        (reason, score, evidence, existing["id"]),
+                    )
+                else:
+                    self.conn.execute(
+                        "INSERT INTO merge_suggestions VALUES (?,?,?,?,?,?,?,?)",
+                        (_stable_id("MERGE"), a, b, reason, score, "open", _now(), evidence),
+                    )
+
+    def _identity_comparison(self, entity_a: str, entity_b: str) -> tuple[list[str], list[str], float]:
+        signals = ["name or alias match"]
+        conflicts: list[str] = []
+        score = 0.25
+        kinds = self.conn.execute(
+            "SELECT id,entity_type FROM entities WHERE id IN (?,?)", (entity_a, entity_b)
+        ).fetchall()
+        if kinds and kinds[0]["entity_type"] == "person":
+            details = {row["entity_id"]: row for row in self.conn.execute(
+                "SELECT * FROM person_details WHERE entity_id IN (?,?)", (entity_a, entity_b)
+            )}
+            for field, weight in (("birth_value", 0.25), ("death_value", 0.15)):
+                left, right = details[entity_a][field], details[entity_b][field]
+                label = field.removesuffix("_value")
+                if left and right:
+                    from .temporal import HistoricalDate
+                    prefix = field.removesuffix("_value")
+                    left_bounds = HistoricalDate(
+                        left, details[entity_a][f"{prefix}_precision"],
+                        details[entity_a][f"{prefix}_certainty"],
+                    ).bounds()
+                    right_bounds = HistoricalDate(
+                        right, details[entity_b][f"{prefix}_precision"],
+                        details[entity_b][f"{prefix}_certainty"],
+                    ).bounds()
+                    compatible = left_bounds[0] <= right_bounds[1] and right_bounds[0] <= left_bounds[1]
+                    if compatible:
+                        qualifier = "matching" if left == right else "compatible"
+                        signals.append(f"{qualifier} {label} dates {left} and {right}")
+                        score += weight if left == right else weight / 2
+                    else:
+                        conflicts.append(f"conflicting {label} dates {left} and {right}")
+                        score -= weight
+        relationships: dict[str, list[sqlite3.Row]] = {}
+        for item in (entity_a, entity_b):
+            relationships[item] = self.conn.execute(
+                """SELECT r.*, e.canonical_name object_name, e.entity_type object_type
+                   FROM relationships r JOIN entities e ON e.id=r.object_entity_id
+                   WHERE r.subject_entity_id=?""", (item,)
+            ).fetchall()
+        from .temporal import HistoricalDate, OverlapResult, ranges_overlap
+        for left in relationships[entity_a]:
+            for right in relationships[entity_b]:
+                if left["relationship_type"] != right["relationship_type"] or left["object_entity_id"] != right["object_entity_id"]:
+                    continue
+                overlap = ranges_overlap(
+                    HistoricalDate(left["historical_start"], left["historical_start_precision"], left["historical_start_certainty"]),
+                    HistoricalDate(left["historical_end"], left["historical_end_precision"], left["historical_end_certainty"]),
+                    HistoricalDate(right["historical_start"], right["historical_start_precision"], right["historical_start_certainty"]),
+                    HistoricalDate(right["historical_end"], right["historical_end_precision"], right["historical_end_certainty"]),
+                )
+                context = "location" if left["object_type"] == "place" else "organization/role"
+                signals.append(
+                    f"shared {context}: {left['relationship_type']} {left['object_name']} ({overlap.value})"
+                )
+                score += 0.2 if overlap == OverlapResult.DEFINITE_OVERLAP else 0.1
+        return signals, conflicts, max(0.0, min(1.0, score))
 
     def get_entity(self, entity_id: str) -> dict[str, Any] | None:
         row = self.conn.execute("SELECT * FROM entities WHERE id=?", (entity_id,)).fetchone()
@@ -299,11 +485,29 @@ class VaultDB:
             if cur.rowcount != 1:
                 raise KeyError(entity_id)
 
+    def add_investigation(self, name: str, description: str = "") -> str:
+        existing = self.conn.execute("SELECT id FROM investigations WHERE name=?", (name,)).fetchone()
+        if existing:
+            return str(existing["id"])
+        investigation_id = _stable_id("INV")
+        with self.transaction():
+            self.conn.execute(
+                "INSERT INTO investigations VALUES (?,?,?,?)", (investigation_id, name, description, _now())
+            )
+        return investigation_id
+
+    def attach_investigation(self, entity_id: str, investigation_id: str, notes: str = "") -> None:
+        with self.transaction():
+            self.conn.execute(
+                "INSERT OR REPLACE INTO entity_investigations VALUES (?,?,?)",
+                (entity_id, investigation_id, notes),
+            )
+
     def add_document_revision(self, *, title: str, file_hash: str, extracted_text: str,
                               byte_size: int = 0, original_file: str | None = None,
                               original_url: str | None = None, author: str | None = None,
                               document_date: str | None = None, source_classification: str = "author_supplied",
-                              authority_level: int = 2) -> tuple[str, str, bool]:
+                              authority_level: int = 2, archived_path: str | None = None) -> tuple[str, str, bool]:
         if not original_file and not original_url:
             raise ValueError("original_file or original_url is required")
         field, value = ("original_file", original_file) if original_file else ("original_url", original_url)
@@ -316,6 +520,11 @@ class VaultDB:
                     (existing["id"], file_hash),
                 ).fetchone()
                 if same:
+                    if archived_path:
+                        self.conn.execute(
+                            "UPDATE document_revisions SET archived_path=COALESCE(archived_path,?) WHERE id=?",
+                            (archived_path, same["id"]),
+                        )
                     return existing["id"], same["id"], False
                 document_id = existing["id"]
                 number = int(self.conn.execute(
@@ -331,6 +540,11 @@ class VaultDB:
                         "INSERT OR IGNORE INTO document_locations(document_id,location,location_kind,first_seen) VALUES (?,?,?,?)",
                         (duplicate["document_id"], value, "file" if original_file else "url", now),
                     )
+                    if archived_path:
+                        self.conn.execute(
+                            "UPDATE document_revisions SET archived_path=COALESCE(archived_path,?) WHERE id=?",
+                            (archived_path, duplicate["revision_id"]),
+                        )
                     return str(duplicate["document_id"]), str(duplicate["revision_id"]), False
                 document_id, number = _stable_id("DOC"), 1
                 self.conn.execute(
@@ -343,8 +557,12 @@ class VaultDB:
                     (document_id, value, "file" if original_file else "url", now),
                 )
             revision_id = _stable_id("REV")
-            self.conn.execute("INSERT INTO document_revisions VALUES (?,?,?,?,?,?,?)",
-                              (revision_id, document_id, number, file_hash, byte_size, extracted_text, now))
+            self.conn.execute(
+                """INSERT INTO document_revisions(
+                       id,document_id,revision_number,file_hash,byte_size,extracted_text,imported_at,archived_path
+                   ) VALUES (?,?,?,?,?,?,?,?)""",
+                (revision_id, document_id, number, file_hash, byte_size, extracted_text, now, archived_path),
+            )
             self.conn.execute(
                 "UPDATE documents SET title=?, author=COALESCE(?,author), document_date=COALESCE(?,document_date), current_revision_id=? WHERE id=?",
                 (title, author, document_date, revision_id, document_id),
@@ -359,7 +577,7 @@ class VaultDB:
         result["locations"] = [dict(r) for r in self.conn.execute(
             "SELECT location, location_kind, first_seen FROM document_locations WHERE document_id=? ORDER BY id", (document_id,))]
         result["revisions"] = [dict(r) for r in self.conn.execute(
-            "SELECT id, revision_number, file_hash, byte_size, imported_at FROM document_revisions WHERE document_id=? ORDER BY revision_number",
+            "SELECT id, revision_number, file_hash, byte_size, imported_at, archived_path FROM document_revisions WHERE document_id=? ORDER BY revision_number",
             (document_id,),
         )]
         result["claims"] = [dict(r) for r in self.conn.execute(
@@ -373,20 +591,33 @@ class VaultDB:
                JOIN document_revisions dr ON dr.id=re.revision_id WHERE dr.document_id=?""", (document_id,))]
         return result
 
+    def archived_file(self, archived_path: str) -> Path:
+        root = (self.path.resolve().parent / "intelligence_vault_evidence").resolve()
+        candidate = (root / archived_path).resolve()
+        if not candidate.is_relative_to(root):
+            raise ValueError("archived path escapes the evidence archive")
+        return candidate
+
     def add_claim(self, statement: str, *, original_wording: str | None = None,
                   claim_type: str = "fact", status: str = "DOCUMENTED RECORD",
                   historical_start: dict[str, Any] | None = None, historical_end: dict[str, Any] | None = None,
                   entity_ids: list[str] | None = None) -> str:
         start, end = historical_start or {}, historical_end or {}
+        _validate_temporal(start)
+        _validate_temporal(end)
+        if not statement.strip() or len(statement) > 10000:
+            raise ValueError("claim statement must contain 1-10000 characters")
         normalized = normalize_name(statement)
         existing = self.conn.execute(
             "SELECT id FROM claims WHERE normalized_statement=? AND claim_type=? AND epistemic_status=?",
             (normalized, claim_type, status),
         ).fetchone()
         if existing:
-            for entity_id in entity_ids or []:
-                self.conn.execute("INSERT OR IGNORE INTO claim_entities VALUES (?,?,?)", (existing["id"], entity_id, "subject"))
-            self.conn.commit()
+            with self.transaction():
+                for entity_id in entity_ids or []:
+                    self.conn.execute(
+                        "INSERT OR IGNORE INTO claim_entities VALUES (?,?,?)", (existing["id"], entity_id, "subject")
+                    )
             return str(existing["id"])
         claim_id, now = _stable_id("CLM"), _now()
         with self.transaction():
@@ -403,9 +634,11 @@ class VaultDB:
     def add_claim_evidence(self, claim_id: str, revision_id: str, *, locator: str = "",
                            original_wording: str | None = None, independent: bool = True,
                            dependency_group: str | None = None) -> None:
-        self.conn.execute("INSERT OR IGNORE INTO claim_evidence VALUES (?,?,?,?,?,?)",
-                          (claim_id, revision_id, locator, original_wording, int(independent), dependency_group))
-        self.conn.commit()
+        with self.transaction():
+            self.conn.execute(
+                "INSERT OR IGNORE INTO claim_evidence VALUES (?,?,?,?,?,?)",
+                (claim_id, revision_id, locator, original_wording, int(independent), dependency_group),
+            )
 
     def update_claim(self, claim_id: str, **changes: Any) -> None:
         allowed = {"statement", "original_wording", "claim_type", "epistemic_status",
@@ -414,6 +647,19 @@ class VaultDB:
         fields = {key: value for key, value in changes.items() if key in allowed}
         if not fields:
             return
+        current = self.conn.execute("SELECT * FROM claims WHERE id=?", (claim_id,)).fetchone()
+        if not current:
+            raise KeyError(claim_id)
+        _validate_temporal({
+            "value": fields.get("historical_start", current["historical_start"]),
+            "precision": fields.get("historical_start_precision", current["historical_start_precision"]),
+            "certainty": fields.get("historical_start_certainty", current["historical_start_certainty"]),
+        })
+        _validate_temporal({
+            "value": fields.get("historical_end", current["historical_end"]),
+            "precision": fields.get("historical_end_precision", current["historical_end_precision"]),
+            "certainty": fields.get("historical_end_certainty", current["historical_end_certainty"]),
+        })
         if "statement" in fields:
             fields["normalized_statement"] = normalize_name(fields["statement"])
         fields["updated_at"] = _now()
@@ -430,6 +676,10 @@ class VaultDB:
                          historical_end: dict[str, Any] | None = None, revision_id: str | None = None,
                          claim_id: str | None = None, locator: str = "", original_wording: str | None = None) -> str:
         start, end = historical_start or {}, historical_end or {}
+        _validate_temporal(start)
+        _validate_temporal(end)
+        if not relationship_type.strip() or len(relationship_type) > 200:
+            raise ValueError("relationship_type must contain 1-200 characters")
         existing = self.conn.execute(
             """SELECT id FROM relationships WHERE subject_entity_id=? AND object_entity_id=?
                AND relationship_type=? AND directed=? AND classification=?
@@ -457,9 +707,11 @@ class VaultDB:
         if existing:
             return str(existing["id"])
         conflict_id = _stable_id("CONFLICT")
-        self.conn.execute("INSERT INTO conflicts VALUES (?,?,?,?,?,?,?)",
-                          (conflict_id, claim_a_id, claim_b_id, reason, "open", int(requires_author_review), _now()))
-        self.conn.commit()
+        with self.transaction():
+            self.conn.execute(
+                "INSERT INTO conflicts VALUES (?,?,?,?,?,?,?)",
+                (conflict_id, claim_a_id, claim_b_id, reason, "open", int(requires_author_review), _now()),
+            )
         return conflict_id
 
     def update_relationship(self, relationship_id: str, **changes: Any) -> None:
@@ -469,6 +721,19 @@ class VaultDB:
         fields = {key: value for key, value in changes.items() if key in allowed}
         if not fields:
             return
+        current = self.conn.execute("SELECT * FROM relationships WHERE id=?", (relationship_id,)).fetchone()
+        if not current:
+            raise KeyError(relationship_id)
+        _validate_temporal({
+            "value": fields.get("historical_start", current["historical_start"]),
+            "precision": fields.get("historical_start_precision", current["historical_start_precision"]),
+            "certainty": fields.get("historical_start_certainty", current["historical_start_certainty"]),
+        })
+        _validate_temporal({
+            "value": fields.get("historical_end", current["historical_end"]),
+            "precision": fields.get("historical_end_precision", current["historical_end_precision"]),
+            "certainty": fields.get("historical_end_certainty", current["historical_end_certainty"]),
+        })
         with self.transaction():
             cur = self.conn.execute(
                 "UPDATE relationships SET " + ",".join(f"{key}=?" for key in fields) + " WHERE id=?",
@@ -510,8 +775,54 @@ class VaultDB:
         return result
 
     def export(self) -> dict[str, Any]:
-        tables = ["entities", "aliases", "documents", "document_locations", "document_revisions", "claims", "claim_evidence",
-                  "claim_entities", "relationships", "relationship_evidence", "conflicts", "merge_suggestions"]
+        tables = [
+            "entities", "aliases", "person_details", "organization_details", "event_details", "place_details",
+            "investigations", "entity_investigations", "documents", "document_locations", "document_revisions",
+            "import_entity_bindings", "claims", "claim_evidence", "claim_entities", "relationships",
+            "relationship_evidence", "conflicts", "merge_suggestions",
+        ]
         return {"schema_version": LATEST_SCHEMA_VERSION,
                 "exported_at": _now(),
                 "tables": {table: [dict(r) for r in self.conn.execute(f"SELECT * FROM {table}")] for table in tables}}
+
+    def backup_to(self, destination: Path | str) -> Path:
+        if self.conn.in_transaction:
+            raise RuntimeError("cannot create a backup while a write transaction is active")
+        destination = Path(destination).resolve()
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        temporary = destination.with_name(destination.name + ".tmp")
+        if temporary.exists():
+            temporary.unlink()
+        target = sqlite3.connect(temporary)
+        try:
+            self.conn.backup(target)
+            if target.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
+                raise RuntimeError("backup integrity check failed")
+        finally:
+            target.close()
+        temporary.replace(destination)
+        return destination
+
+    @staticmethod
+    def restore_from(snapshot: Path | str, destination: Path | str) -> Path:
+        snapshot, destination = Path(snapshot).resolve(), Path(destination).resolve()
+        if not snapshot.is_file():
+            raise FileNotFoundError(snapshot)
+        if destination.exists():
+            raise FileExistsError(f"restore destination already exists: {destination}")
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        temporary = destination.with_name(destination.name + ".restore-tmp")
+        if temporary.exists():
+            temporary.unlink()
+        source = sqlite3.connect(snapshot)
+        source.execute("PRAGMA query_only=ON")
+        target = sqlite3.connect(temporary)
+        try:
+            if source.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
+                raise ValueError("snapshot failed integrity check")
+            source.backup(target)
+        finally:
+            source.close()
+            target.close()
+        temporary.replace(destination)
+        return destination

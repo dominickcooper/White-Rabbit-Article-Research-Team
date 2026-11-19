@@ -9,13 +9,13 @@ import pytest
 from white_rabbit.intelligence_vault.database import VaultDB
 from white_rabbit.intelligence_vault.discovery import SharedAffiliationProvider
 from white_rabbit.intelligence_vault.ingestion import ingest_document, import_structured, sha256_file
-from white_rabbit.intelligence_vault.temporal import HistoricalDate, ranges_overlap
+from white_rabbit.intelligence_vault.temporal import HistoricalDate, OverlapResult, ranges_overlap
 
 
 def test_initialization_migration_foreign_keys_and_persistence(tmp_path: Path):
     path = tmp_path / "vault.db"
     with VaultDB(path) as db:
-        assert db.stats()["schema_version"] == 1
+        assert db.stats()["schema_version"] == 2
         assert db.conn.execute("PRAGMA foreign_keys").fetchone()[0] == 1
         person = db.add_entity("person", "Ada Example", description="Fictional")
         db.update_entity(person, canonical_name="Ada Historical Example")
@@ -58,12 +58,16 @@ def test_alias_resolution_and_ambiguous_identity_review(tmp_path: Path):
 
 @pytest.mark.parametrize(
     "a_start,a_end,b_start,b_end,expected",
-    [("1942", "1945", "1944", "1948", True), ("1942", "1943", "1944", "1948", False), (None, None, "1944", "1948", None)],
+    [
+        ("1942", "1945", "1944", "1948", OverlapResult.POSSIBLE_OVERLAP),
+        ("1942", "1943", "1944", "1948", OverlapResult.NO_OVERLAP),
+        (None, None, "1944", "1948", OverlapResult.INSUFFICIENT_EVIDENCE),
+    ],
 )
 def test_exact_approximate_and_open_date_overlap(a_start, a_end, b_start, b_end, expected):
     def d(value):
         return HistoricalDate(value, "year" if value else "unknown", "possible" if value else "unknown")
-    assert ranges_overlap(d(a_start), d(a_end), d(b_start), d(b_end)) is expected
+    assert ranges_overlap(d(a_start), d(a_end), d(b_start), d(b_end)) == expected
 
 
 def test_relationship_provenance_and_original_wording(tmp_path: Path):
