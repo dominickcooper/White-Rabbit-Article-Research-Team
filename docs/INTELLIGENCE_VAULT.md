@@ -1,4 +1,4 @@
-# White Rabbit Intelligence Vault — Phase 1
+# White Rabbit Intelligence Vault — Phases 1–2
 
 ## Purpose and architecture
 
@@ -8,7 +8,7 @@ Codex article, series, archive, Gemini, or distribution workflows. Its SQLite da
 preserved under the ignored `knowledge/intelligence_vault_evidence/` content-addressed archive.
 Stable UUID-based
 IDs separate identity from names. Versioned migrations run transactionally with foreign
-keys enabled. Schema version 2 upgrades existing Phase 1 databases in place.
+keys enabled. Schema version 3 upgrades existing Phase 1/1.1 databases in place.
 
 The model has four entity kinds (people, organizations, events, and places), aliases,
 investigations, documents with immutable revisions, claims, claim evidence, relationships,
@@ -26,6 +26,7 @@ are separate fields.
 | Evidence | `claims`, `claim_evidence`, `claim_entities` | Atomic statements, wording, locations, dependency and entity links |
 | Network | `relationships`, `relationship_evidence` | Typed, dated, classified edges with direct provenance |
 | Review | `conflicts`, `merge_suggestions` | Preserve disagreement and defer ambiguous identity decisions |
+| AI extraction | `extraction_jobs`, `extraction_chunks`, `extraction_proposals`, `extraction_quality_issues`, `extraction_approval_history` | Resumable inference, isolated proposals, quality review, and complete decision history |
 
 ## Source-authority behavior
 
@@ -147,24 +148,129 @@ header to resist DNS rebinding, rejects cross-origin writes, does not enable COR
 256 KiB. Payloads use strict schemas and security headers disable framing, MIME sniffing, and
 caching. Document ingestion remains a CLI operation rather than a large HTTP upload.
 
+## Phase 2 document intelligence
+
+Phase 2 uses the enforced workflow **Document → Extract → Validate → Reconcile → Preview →
+Approve → Commit**. Model output is stored only in extraction tables. It cannot write directly
+to accepted entities, claims, relationships, or conflicts. A proposal enters accepted knowledge
+only after an approval decision and `extraction-commit`.
+
+### Providers and privacy
+
+- `manual` validates offline extraction JSON keyed by stable chunk ID or ordinal.
+- `mock` is deterministic and intended for tests and fictional demonstrations.
+- `gemini` uses the repository's existing structured-output and retry infrastructure.
+
+Gemini is disabled unless `--allow-cloud` is supplied for that job. This is the explicit consent
+that document chunks may leave the computer. API keys remain in the environment or local `.env`;
+they are never stored in the Vault. No provider performs web research during ingestion. Source
+text is marked as untrusted data in the Gemini prompt so instructions embedded in documents are
+not followed.
+
+```powershell
+# Explicit cloud extraction
+.venv\Scripts\python.exe -m white_rabbit vault extract C:\Sources\book.pdf `
+  --provider gemini --model gemini-3.7-flash --allow-cloud
+
+# Offline/manual extraction
+.venv\Scripts\python.exe -m white_rabbit vault extraction-prepare C:\Sources\book.pdf `
+  C:\Sources\book-packet
+# Fill book-packet\results.template.json with an offline tool, then:
+.venv\Scripts\python.exe -m white_rabbit vault extract C:\Sources\book.pdf `
+  --provider manual --manual-results C:\Sources\book-packet\results.template.json
+```
+
+No live paid-provider call is made by tests. The system records an estimated input-token count
+before processing and stores any provider token/cost metadata returned by a provider.
+
+### Chunking, locators, and resume
+
+PDFs are divided with physical page numbers and printed page labels. DOCX paragraphs and
+Markdown sections retain section/line context. Other readable formats receive reproducible line
+and absolute character offsets. Chunk IDs derive from the source hash and exact source offsets;
+size and overlap are configurable with `--chunk-size`, `--overlap`, and `--max-chunks`.
+
+Every selected chunk is checkpointed independently. Completed unchanged chunks are not sent to
+the provider again. Interrupted `processing` chunks return to `pending` on resume; failed chunks
+are retried explicitly:
+
+```powershell
+.venv\Scripts\python.exe -m white_rabbit vault extraction-status JOB-UUID
+.venv\Scripts\python.exe -m white_rabbit vault extraction-retry JOB-UUID `
+  --provider gemini --allow-cloud
+```
+
+Unreadable PDF pages, provider failures, skipped sections, and incomplete chunk coverage are
+reported rather than silently truncated.
+
+### Review and approval
+
+```powershell
+.venv\Scripts\python.exe -m white_rabbit vault extraction-review JOB-UUID
+.venv\Scripts\python.exe -m white_rabbit vault extraction-review JOB-UUID --approve PROP-UUID
+.venv\Scripts\python.exe -m white_rabbit vault extraction-review JOB-UUID --reject PROP-UUID
+.venv\Scripts\python.exe -m white_rabbit vault extraction-review JOB-UUID `
+  --match PROP-UUID=ENT-CONFIRMED-UUID
+.venv\Scripts\python.exe -m white_rabbit vault extraction-review JOB-UUID --approve-all
+.venv\Scripts\python.exe -m white_rabbit vault extraction-commit JOB-UUID
+```
+
+Bulk approval skips blocking proposals. Bulk rejection may reject every pending proposal.
+Approved relationships and claims cannot commit unless their entity dependencies were also
+approved or already committed. Confirmed identity matches use the existing `known_entity_id`
+boundary; name equality alone never merges a person. Approving a confirmed match adds proposed
+aliases and fills previously empty profile fields, but never overwrites conflicting accepted
+dates or biography fields.
+
+The browser screen can start a job and the JSON interface provides:
+
+- `POST /api/extractions`
+- `GET /api/extractions/<job-id>` and `/review`
+- `PATCH /api/extractions/<job-id>/proposals/<proposal-id>`
+- `POST /api/extractions/<job-id>/retry` and `/commit`
+
+### Deterministic quality controls
+
+The validator checks verbatim quote existence, exact offsets, page/line/section locators,
+historical date syntax, chunk reference consistency, repeated claims, entity/date conflicts,
+same-name ambiguity, required testimony/allegation attribution, relationship support, provider
+schema violations, lexical claim/passage mismatch, and complete document coverage. Findings are
+classified as blocking, warning, or informational. These checks validate extraction fidelity;
+they do not apply external credibility tests to author-supplied evidence.
+
+The offline fictional demonstration is in `examples/intelligence_vault_phase2/`.
+
 ## Extension roadmap
 
-- Phase 2: an extractor can emit the validated JSON package. It must preserve wording,
-  locators, source type, dependency groups, and uncertainty; no API key is needed in Phase 1.
 - Phase 3: timeline and graph clients can consume the entity profile/search APIs without
-  changing storage. Add pagination before very large interactive datasets.
+  changing accepted storage. Extraction proposals already retain the entity IDs, historical
+  ranges, provenance, and confidence boundaries needed for reviewed timeline/graph edges.
 - Phase 4: discovery implementations conform to `DiscoveryProvider` in `discovery.py`.
   Providers return reviewable candidates and never silently write relationships. The included
   shared-affiliation provider demonstrates temporal-overlap leads while explicitly refusing
   to infer acquaintance or coordination.
 
+### Phase 3 readiness
+
+Accepted Phase 2 records already expose stable entity IDs, typed relationships, exact or
+uncertain temporal ranges, event entities, source document/revision IDs, verified locators,
+and claim/relationship evidence. A Phase 3 timeline can therefore query event and relationship
+ranges without reading model output. A graph client can use accepted edges while displaying
+proposal/quality state separately. Before large interactive collections, Phase 3 should add
+pagination, graph-specific read endpoints, background-job cancellation, and OCR-derived page
+geometry for image-only records. None of those changes require rewriting the accepted schema or
+the Phase 2 approval boundary.
+
 ## Known limitations
 
-Phase 1 uses lexical substring search rather than semantic retrieval, does not OCR image-only
+The Vault uses lexical substring search rather than semantic retrieval, does not OCR image-only
 PDFs, and has no user authentication because the server is enforced as loopback-only. Identity
 suggestions are deterministic signals, not probabilistic adjudications; a human must confirm
-matches. It does not automatically ingest the archive, invoke an LLM, rank suspiciousness,
-merge identities, or turn connection candidates into facts.
+matches. It does not automatically ingest the archive, invoke an LLM without an explicit
+provider choice (and cloud consent where applicable), rank suspiciousness,
+merge identities, or turn connection candidates into facts. Gemini cost is estimated unless the
+provider exposes usage metadata. Very large proposal sets currently use JSON/CLI review without
+pagination or a rich side-by-side visual diff.
 
 ## Phase 1.1 verification
 
@@ -173,3 +279,13 @@ reuse, contextual match suggestions, mid-import rollback, content-addressed pres
 schema-v1 migration, lossless export, complete backup/restore, four-state temporal overlap,
 strict request parsing, origin/Host checks, body limits, and loopback-only binding. The full
 repository regression run completed with **290 passing tests** and no failures.
+
+## Phase 2 verification
+
+The Phase 2 suite uses fictional local documents and deterministic providers. It covers people,
+organizations, events, document metadata, relationships, attributed testimony, PDF page labels,
+verbatim quote checks, long-document chunk coverage, overlap deduplication, same-name identities,
+confirmed identity matches, contradictions, derivative evidence groups, interruption/resume,
+provider and schema failures, rejection isolation, approved provenance, unchanged-job idempotence,
+manual chunk packets, and explicit cloud consent. The final full repository regression run
+completed with **302 passing tests** and no failures. No paid or live provider request was made.

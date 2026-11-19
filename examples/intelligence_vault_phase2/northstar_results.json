@@ -1,0 +1,51 @@
+{
+  "0": {
+    "entities": [
+      {
+        "ref": "mara",
+        "identity_key": "mara-vale",
+        "entity_type": "person",
+        "name": "Mara Vale",
+        "supporting_passage": "Mara Vale told researcher Elias March"
+      },
+      {
+        "ref": "reed",
+        "identity_key": "ivo-reed",
+        "entity_type": "person",
+        "name": "Ivo Reed",
+        "aliases": ["Colonel Ivo Reed"],
+        "supporting_passage": "Colonel Ivo Reed"
+      },
+      {
+        "ref": "northstar",
+        "identity_key": "northstar-agency",
+        "entity_type": "organization",
+        "name": "Northstar Agency",
+        "supporting_passage": "Northstar Agency"
+      }
+    ],
+    "claims": [
+      {
+        "ref": "testimony",
+        "statement": "Mara Vale stated that she met Ivo Reed at Northstar Agency on June 4, 1962.",
+        "original_passage": "On June 4, 1962, Mara Vale told researcher Elias March that she met Colonel Ivo Reed in the\nrecords room at Northstar Agency.",
+        "claim_type": "testimony",
+        "status": "ACCEPTED TESTIMONY",
+        "attribution": "Mara Vale, in an interview recorded by Elias March",
+        "entity_refs": ["mara", "reed", "northstar"],
+        "historical_start": {"value": "1962-06-04", "precision": "exact", "certainty": "certain"}
+      }
+    ],
+    "relationships": [
+      {
+        "subject_ref": "mara",
+        "object_ref": "northstar",
+        "relationship_type": "met_at",
+        "claim_ref": "testimony",
+        "classification": "ACCEPTED TESTIMONY",
+        "historical_start": {"value": "1962-06-04", "precision": "exact", "certainty": "certain"},
+        "supporting_passage": "she met Colonel Ivo Reed in the\nrecords room at Northstar Agency"
+      }
+    ]
+  }
+}

@@ -4,6 +4,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 from pathlib import Path
 import sqlite3
+from threading import Thread
 from typing import Literal
 from urllib.parse import parse_qs, urlparse
 
@@ -11,6 +12,11 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from .database import VaultDB
 from .schema import TemporalValue
+from .extraction import (
+    ExtractionConfig, commit_approved, create_extraction_job, decide_proposal,
+    extraction_review, extraction_status, process_extraction_job,
+)
+from .providers import build_provider
 
 
 MAX_BODY_BYTES = 256 * 1024
@@ -46,6 +52,32 @@ class APIRelationship(BaseModel):
     classification: str = Field(default="DOCUMENTED RECORD", max_length=100)
     historical_start: TemporalValue = Field(default_factory=TemporalValue)
     historical_end: TemporalValue = Field(default_factory=TemporalValue)
+
+
+class APIExtractionStart(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    document: str = Field(min_length=1, max_length=2000)
+    provider: Literal["gemini", "manual", "mock"]
+    model: str | None = Field(default=None, max_length=200)
+    allow_cloud: bool = False
+    manual_results: str | None = Field(default=None, max_length=2000)
+    chunk_size: int = Field(default=12000, ge=500, le=100000)
+    overlap: int = Field(default=1000, ge=0, le=20000)
+    max_chunks: int | None = Field(default=None, ge=1, le=10000)
+
+
+class APIProposalDecision(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    action: Literal["approve", "reject"]
+    known_entity_id: str | None = Field(default=None, max_length=100)
+
+
+class APIExtractionRetry(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    provider: Literal["gemini", "manual", "mock"]
+    model: str | None = Field(default=None, max_length=200)
+    allow_cloud: bool = False
+    manual_results: str | None = Field(default=None, max_length=2000)
 
 
 def is_loopback_host_header(host: str) -> bool:
@@ -102,11 +134,37 @@ pre{white-space:pre-wrap;background:#1d1d1d;padding:1rem;border-radius:8px}.row{
 <button onclick='stats()'>Statistics</button><button onclick='review()'>Review queue</button></div>
 <h2>Add entity</h2><div class='row'><select id='type'><option>person</option><option>organization</option><option>event</option><option>place</option></select>
 <input id='name' placeholder='Canonical name'><input id='aliases' placeholder='Aliases, comma separated'><button onclick='addEntity()'>Add</button></div>
+<h2>Process document</h2><div class='row'><input id='docpath' size='55' placeholder='Absolute local document path'>
+<select id='provider'><option>manual</option><option>gemini</option><option>mock</option></select>
+<input id='manualresults' size='35' placeholder='Manual results JSON path'><label><input id='cloud' type='checkbox'>Allow cloud upload</label>
+<button onclick='extractDoc()'>Start extraction</button></div>
+<div class='row'><input id='jobid' size='42' placeholder='JOB-UUID'><button onclick='jobStatus()'>Progress</button>
+<button onclick='jobReview()'>Review proposals</button><button onclick='jobRetry()'>Retry failures</button><button onclick='jobCommit()'>Commit approved</button></div>
+<div class='row'><input id='proposalid' size='42' placeholder='PROP-UUID'><input id='knownid' size='34' placeholder='Optional confirmed ENT-UUID'>
+<button onclick='decide("approve")'>Approve</button><button onclick='decide("reject")'>Reject</button></div>
 <pre id='out'>Ready.</pre><script>
-const out=document.querySelector('#out'); async function call(url,opts){let r=await fetch(url,opts);let j=await r.json();out.textContent=JSON.stringify(j,null,2)}
+const out=document.querySelector('#out'); async function call(url,opts){let r=await fetch(url,opts);let j=await r.json();out.textContent=JSON.stringify(j,null,2);if(j.job_id)jobid.value=j.job_id;return j}
 function search(){call('/api/search?q='+encodeURIComponent(q.value))} function stats(){call('/api/stats')} function review(){call('/api/review')}
 function addEntity(){call('/api/entities',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({entity_type:type.value,name:name.value,aliases:aliases.value.split(',').map(x=>x.trim()).filter(Boolean)})})}
+function extractDoc(){call('/api/extractions',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({document:docpath.value,provider:provider.value,manual_results:manualresults.value||null,allow_cloud:cloud.checked})})}
+function jobStatus(){call('/api/extractions/'+encodeURIComponent(jobid.value))} function jobReview(){call('/api/extractions/'+encodeURIComponent(jobid.value)+'/review')}
+function jobRetry(){call('/api/extractions/'+encodeURIComponent(jobid.value)+'/retry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({provider:provider.value,manual_results:manualresults.value||null,allow_cloud:cloud.checked})})}
+function jobCommit(){call('/api/extractions/'+encodeURIComponent(jobid.value)+'/commit',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})}
+function decide(action){call('/api/extractions/'+encodeURIComponent(jobid.value)+'/proposals/'+encodeURIComponent(proposalid.value),{method:'PATCH',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:action,known_entity_id:knownid.value||null})})}
 </script></body></html>"""
+
+
+def _background_process(db_path: Path, job_id: str, provider, retry: bool = False) -> None:
+    try:
+        with VaultDB(db_path) as db:
+            process_extraction_job(db, job_id, provider, retry_failed=retry)
+    except Exception as exc:
+        with VaultDB(db_path) as db:
+            with db.transaction():
+                db.conn.execute(
+                    "UPDATE extraction_jobs SET status='failed',error=?,updated_at=datetime('now') WHERE id=?",
+                    (str(exc)[:2000], job_id),
+                )
 
 
 def handler_for(db_path: Path):
@@ -184,6 +242,13 @@ def handler_for(db_path: Path):
                     elif parsed.path.startswith("/api/documents/"):
                         result = db.get_document(parsed.path.rsplit("/", 1)[1])
                         if result is None: return self._json({"error": "not found"}, 404)
+                    elif parsed.path.startswith("/api/extractions/"):
+                        parts = parsed.path.strip("/").split("/")
+                        if len(parts) == 4 and parts[3] == "review":
+                            result = extraction_review(db, parts[2])
+                        elif len(parts) == 3:
+                            result = extraction_status(db, parts[2])
+                        else: return self._json({"error": "not found"}, 404)
                     else: return self._json({"error": "not found"}, 404)
                 self._json(result)
             except Exception as exc:
@@ -204,6 +269,32 @@ def handler_for(db_path: Path):
                     elif self.path == "/api/relationships":
                         item = APIRelationship.model_validate(body)
                         result = {"id": db.add_relationship(item.subject_id, item.object_id, item.relationship_type, directed=item.directed, classification=item.classification, historical_start=item.historical_start.model_dump(), historical_end=item.historical_end.model_dump())}
+                    elif self.path == "/api/extractions":
+                        item = APIExtractionStart.model_validate(body)
+                        provider = build_provider(
+                            item.provider, model=item.model, allow_cloud=item.allow_cloud,
+                            manual_results=Path(item.manual_results) if item.manual_results else None,
+                        )
+                        job_id, created = create_extraction_job(
+                            db, Path(item.document), provider,
+                            config=ExtractionConfig(item.chunk_size, item.overlap, item.max_chunks),
+                            allow_cloud=item.allow_cloud,
+                        )
+                        Thread(target=_background_process, args=(db_path, job_id, provider), daemon=True).start()
+                        return self._json({"job_id": job_id, "created": created, "status": "processing"}, 202)
+                    elif self.path.startswith("/api/extractions/"):
+                        parts = self.path.strip("/").split("/")
+                        if len(parts) == 4 and parts[3] == "commit":
+                            result = {"committed": commit_approved(db, parts[2])}
+                        elif len(parts) == 4 and parts[3] == "retry":
+                            item = APIExtractionRetry.model_validate(body)
+                            provider = build_provider(
+                                item.provider, model=item.model, allow_cloud=item.allow_cloud,
+                                manual_results=Path(item.manual_results) if item.manual_results else None,
+                            )
+                            Thread(target=_background_process, args=(db_path, parts[2], provider, True), daemon=True).start()
+                            return self._json({"job_id": parts[2], "status": "processing"}, 202)
+                        else: return self._json({"error": "not found"}, 404)
                     else: return self._json({"error": "not found"}, 404)
                 self._json(result, 201)
             except Exception as exc:
@@ -228,6 +319,13 @@ def handler_for(db_path: Path):
                         unknown = set(body) - {"relationship_type", "directed", "classification", "historical_start", "historical_start_precision", "historical_start_certainty", "historical_end", "historical_end_precision", "historical_end_certainty"}
                         if unknown: raise ValueError(f"unsupported relationship fields: {sorted(unknown)}")
                         db.update_relationship(record_id, **body); result = {"id": record_id, "updated": True}
+                    elif self.path.startswith("/api/extractions/"):
+                        parts = self.path.strip("/").split("/")
+                        if len(parts) != 5 or parts[3] != "proposals":
+                            return self._json({"error": "not found"}, 404)
+                        item = APIProposalDecision.model_validate(body)
+                        decide_proposal(db, parts[2], parts[4], item.action, known_entity_id=item.known_entity_id)
+                        result = {"proposal_id": parts[4], "status": item.action}
                     else: return self._json({"error": "not found"}, 404)
                 self._json(result)
             except Exception as exc:

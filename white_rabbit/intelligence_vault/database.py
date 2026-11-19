@@ -10,7 +10,7 @@ from typing import Any, Iterator
 from uuid import uuid4
 
 
-LATEST_SCHEMA_VERSION = 2
+LATEST_SCHEMA_VERSION = 3
 ENTITY_TYPES = {"person", "organization", "event", "place"}
 
 
@@ -161,6 +161,86 @@ MIGRATIONS = [
       entity_id TEXT NOT NULL REFERENCES entities(id) ON DELETE RESTRICT,
       created_at TEXT NOT NULL,
       PRIMARY KEY(document_id, import_ref)
+    );
+    """),
+    (3, """
+    ALTER TABLE claim_evidence ADD COLUMN attribution TEXT;
+    ALTER TABLE documents ADD COLUMN metadata_json TEXT NOT NULL DEFAULT '{}';
+    CREATE TABLE extraction_jobs (
+      id TEXT PRIMARY KEY,
+      document_id TEXT NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+      revision_id TEXT NOT NULL REFERENCES document_revisions(id) ON DELETE CASCADE,
+      provider TEXT NOT NULL,
+      model TEXT NOT NULL,
+      config_json TEXT NOT NULL,
+      config_hash TEXT NOT NULL,
+      status TEXT NOT NULL,
+      cloud_authorized INTEGER NOT NULL DEFAULT 0,
+      chunk_total INTEGER NOT NULL DEFAULT 0,
+      chunk_completed INTEGER NOT NULL DEFAULT 0,
+      chunk_failed INTEGER NOT NULL DEFAULT 0,
+      estimated_input_tokens INTEGER NOT NULL DEFAULT 0,
+      provider_usage_json TEXT NOT NULL DEFAULT '{}',
+      error TEXT,
+      created_at TEXT NOT NULL,
+      updated_at TEXT NOT NULL,
+      completed_at TEXT,
+      committed_at TEXT,
+      UNIQUE(revision_id, provider, model, config_hash)
+    );
+    CREATE TABLE extraction_chunks (
+      id TEXT NOT NULL,
+      job_id TEXT NOT NULL REFERENCES extraction_jobs(id) ON DELETE CASCADE,
+      ordinal INTEGER NOT NULL,
+      text_hash TEXT NOT NULL,
+      source_start INTEGER NOT NULL,
+      source_end INTEGER NOT NULL,
+      locator_json TEXT NOT NULL,
+      chunk_text TEXT NOT NULL,
+      status TEXT NOT NULL DEFAULT 'pending',
+      attempts INTEGER NOT NULL DEFAULT 0,
+      extraction_json TEXT,
+      provider_meta_json TEXT NOT NULL DEFAULT '{}',
+      error TEXT,
+      updated_at TEXT NOT NULL,
+      PRIMARY KEY(job_id, id),
+      UNIQUE(job_id, ordinal),
+      UNIQUE(job_id, text_hash, source_start, source_end)
+    );
+    CREATE INDEX idx_extraction_chunks_job_status ON extraction_chunks(job_id, status, ordinal);
+    CREATE TABLE extraction_proposals (
+      id TEXT PRIMARY KEY,
+      job_id TEXT NOT NULL REFERENCES extraction_jobs(id) ON DELETE CASCADE,
+      proposal_type TEXT NOT NULL,
+      dedupe_key TEXT NOT NULL,
+      payload_json TEXT NOT NULL,
+      status TEXT NOT NULL DEFAULT 'pending',
+      decision_json TEXT NOT NULL DEFAULT '{}',
+      quality_status TEXT NOT NULL DEFAULT 'clean',
+      committed_id TEXT,
+      created_at TEXT NOT NULL,
+      decided_at TEXT,
+      UNIQUE(job_id, proposal_type, dedupe_key)
+    );
+    CREATE INDEX idx_extraction_proposals_review ON extraction_proposals(job_id, status, proposal_type);
+    CREATE TABLE extraction_quality_issues (
+      id TEXT PRIMARY KEY,
+      job_id TEXT NOT NULL REFERENCES extraction_jobs(id) ON DELETE CASCADE,
+      chunk_id TEXT,
+      proposal_id TEXT REFERENCES extraction_proposals(id) ON DELETE CASCADE,
+      severity TEXT NOT NULL,
+      code TEXT NOT NULL,
+      message TEXT NOT NULL,
+      details_json TEXT NOT NULL DEFAULT '{}',
+      created_at TEXT NOT NULL
+    );
+    CREATE TABLE extraction_approval_history (
+      id TEXT PRIMARY KEY,
+      job_id TEXT NOT NULL REFERENCES extraction_jobs(id) ON DELETE CASCADE,
+      proposal_id TEXT REFERENCES extraction_proposals(id) ON DELETE CASCADE,
+      action TEXT NOT NULL,
+      details_json TEXT NOT NULL DEFAULT '{}',
+      created_at TEXT NOT NULL
     );
     """)
 ]
@@ -548,7 +628,10 @@ class VaultDB:
                     return str(duplicate["document_id"]), str(duplicate["revision_id"]), False
                 document_id, number = _stable_id("DOC"), 1
                 self.conn.execute(
-                    "INSERT INTO documents VALUES (?,?,?,?,?,?,?,?,?,?)",
+                    """INSERT INTO documents(
+                           id,title,author,document_date,source_classification,authority_level,
+                           original_file,original_url,current_revision_id,imported_at
+                       ) VALUES (?,?,?,?,?,?,?,?,?,?)""",
                     (document_id, title, author, document_date, source_classification, authority_level,
                      original_file, original_url, None, now),
                 )
@@ -574,6 +657,7 @@ class VaultDB:
         if not row:
             return None
         result = dict(row)
+        result["metadata"] = json.loads(result.pop("metadata_json", "{}") or "{}")
         result["locations"] = [dict(r) for r in self.conn.execute(
             "SELECT location, location_kind, first_seen FROM document_locations WHERE document_id=? ORDER BY id", (document_id,))]
         result["revisions"] = [dict(r) for r in self.conn.execute(
@@ -633,11 +717,13 @@ class VaultDB:
 
     def add_claim_evidence(self, claim_id: str, revision_id: str, *, locator: str = "",
                            original_wording: str | None = None, independent: bool = True,
-                           dependency_group: str | None = None) -> None:
+                           dependency_group: str | None = None, attribution: str | None = None) -> None:
         with self.transaction():
             self.conn.execute(
-                "INSERT OR IGNORE INTO claim_evidence VALUES (?,?,?,?,?,?)",
-                (claim_id, revision_id, locator, original_wording, int(independent), dependency_group),
+                """INSERT OR IGNORE INTO claim_evidence(
+                       claim_id,revision_id,locator,original_wording,independent,dependency_group,attribution
+                   ) VALUES (?,?,?,?,?,?,?)""",
+                (claim_id, revision_id, locator, original_wording, int(independent), dependency_group, attribution),
             )
 
     def update_claim(self, claim_id: str, **changes: Any) -> None:
@@ -697,6 +783,15 @@ class VaultDB:
                 self.conn.execute("INSERT OR IGNORE INTO relationship_evidence VALUES (?,?,?,?,?)",
                                   (rel_id, revision_id, claim_id, locator, original_wording))
         return rel_id
+
+    def add_relationship_evidence(self, relationship_id: str, revision_id: str, *,
+                                  claim_id: str | None = None, locator: str = "",
+                                  original_wording: str | None = None) -> None:
+        with self.transaction():
+            self.conn.execute(
+                "INSERT OR IGNORE INTO relationship_evidence VALUES (?,?,?,?,?)",
+                (relationship_id, revision_id, claim_id, locator, original_wording),
+            )
 
     def add_conflict(self, claim_a_id: str, claim_b_id: str, *, reason: str = "",
                      requires_author_review: bool = True) -> str:
@@ -779,7 +874,8 @@ class VaultDB:
             "entities", "aliases", "person_details", "organization_details", "event_details", "place_details",
             "investigations", "entity_investigations", "documents", "document_locations", "document_revisions",
             "import_entity_bindings", "claims", "claim_evidence", "claim_entities", "relationships",
-            "relationship_evidence", "conflicts", "merge_suggestions",
+            "relationship_evidence", "conflicts", "merge_suggestions", "extraction_jobs", "extraction_chunks",
+            "extraction_proposals", "extraction_quality_issues", "extraction_approval_history",
         ]
         return {"schema_version": LATEST_SCHEMA_VERSION,
                 "exported_at": _now(),

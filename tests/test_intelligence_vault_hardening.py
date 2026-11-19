@@ -27,13 +27,13 @@ def _write_import(path: Path, source_name: str, entities: list[dict], relationsh
     }), encoding="utf-8")
 
 
-def test_v1_database_migrates_transactionally_to_v2(tmp_path: Path):
+def test_v1_database_migrates_transactionally_to_latest(tmp_path: Path):
     path = tmp_path / "old.db"
     conn = sqlite3.connect(path)
     conn.executescript("BEGIN;" + MIGRATIONS[0][1] + "PRAGMA user_version=1; COMMIT;")
     conn.close()
     with VaultDB(path) as db:
-        assert db.stats()["schema_version"] == 2
+        assert db.stats()["schema_version"] == 3
         columns = {row[1] for row in db.conn.execute("PRAGMA table_info(document_revisions)")}
         assert "archived_path" in columns
 

@@ -7,6 +7,11 @@ from pathlib import Path
 from .database import VaultDB
 from .ingestion import ingest_document, import_structured
 from .backup import create_backup_bundle, restore_backup_bundle
+from .extraction import (
+    ExtractionConfig, bulk_decide, commit_approved, create_extraction_job, decide_proposal,
+    extraction_review, extraction_status, prepare_manual_packet, process_extraction_job,
+)
+from .providers import build_provider
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -38,6 +43,12 @@ def parser() -> argparse.ArgumentParser:
     export = sub.add_parser("export"); export.add_argument("path", type=Path)
     backup = sub.add_parser("backup"); backup.add_argument("directory", type=Path)
     restore = sub.add_parser("restore"); restore.add_argument("directory", type=Path)
+    extract = sub.add_parser("extract"); extract.add_argument("document", type=Path); extract.add_argument("--provider", choices=["gemini", "manual", "mock"], default="manual"); extract.add_argument("--model"); extract.add_argument("--allow-cloud", action="store_true"); extract.add_argument("--manual-results", type=Path); extract.add_argument("--chunk-size", type=int, default=12000); extract.add_argument("--overlap", type=int, default=1000); extract.add_argument("--max-chunks", type=int)
+    prepare = sub.add_parser("extraction-prepare"); prepare.add_argument("document", type=Path); prepare.add_argument("output", type=Path); prepare.add_argument("--chunk-size", type=int, default=12000); prepare.add_argument("--overlap", type=int, default=1000); prepare.add_argument("--max-chunks", type=int)
+    extract_status = sub.add_parser("extraction-status"); extract_status.add_argument("job_id")
+    review = sub.add_parser("extraction-review"); review.add_argument("job_id"); review.add_argument("--approve", action="append", default=[]); review.add_argument("--reject", action="append", default=[]); review.add_argument("--match", action="append", default=[], metavar="PROPOSAL_ID=ENTITY_ID"); review.add_argument("--approve-all", action="store_true"); review.add_argument("--reject-all", action="store_true")
+    commit = sub.add_parser("extraction-commit"); commit.add_argument("job_id")
+    retry = sub.add_parser("extraction-retry"); retry.add_argument("job_id"); retry.add_argument("--provider", choices=["gemini", "manual", "mock"], required=True); retry.add_argument("--model"); retry.add_argument("--allow-cloud", action="store_true"); retry.add_argument("--manual-results", type=Path)
     serve = sub.add_parser("serve"); serve.add_argument("--host", default="127.0.0.1"); serve.add_argument("--port", type=int, default=8765)
     return p
 
@@ -50,6 +61,27 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "restore":
         result = {"restored": str(restore_backup_bundle(args.directory, args.db))}
         print(json.dumps(result, ensure_ascii=False, indent=2)); return 0
+    if args.command == "extract":
+        provider = build_provider(args.provider, model=args.model, allow_cloud=args.allow_cloud, manual_results=args.manual_results)
+        with VaultDB(args.db) as db:
+            job_id, created = create_extraction_job(
+                db, args.document, provider,
+                config=ExtractionConfig(args.chunk_size, args.overlap, args.max_chunks),
+                allow_cloud=args.allow_cloud,
+            )
+            result = process_extraction_job(db, job_id, provider)
+            result["created"] = created
+        print(json.dumps(result, ensure_ascii=False, indent=2, default=str)); return 0
+    if args.command == "extraction-prepare":
+        output = prepare_manual_packet(
+            args.document, args.output, config=ExtractionConfig(args.chunk_size, args.overlap, args.max_chunks)
+        )
+        print(json.dumps({"packet": str(output)}, indent=2)); return 0
+    if args.command == "extraction-retry":
+        provider = build_provider(args.provider, model=args.model, allow_cloud=args.allow_cloud, manual_results=args.manual_results)
+        with VaultDB(args.db) as db:
+            result = process_extraction_job(db, args.job_id, provider, retry_failed=True)
+        print(json.dumps(result, ensure_ascii=False, indent=2, default=str)); return 0
     with VaultDB(args.db) as db:
         if args.command == "init": result = {"database": str(args.db.resolve()), **db.stats()}
         elif args.command == "ingest":
@@ -68,6 +100,18 @@ def main(argv: list[str] | None = None) -> int:
         elif args.command == "export":
             args.path.parent.mkdir(parents=True, exist_ok=True); args.path.write_text(json.dumps(db.export(), ensure_ascii=False, indent=2), encoding="utf-8"); result = {"exported": str(args.path.resolve())}
         elif args.command == "backup": result = {"backup": str(create_backup_bundle(db, args.directory))}
+        elif args.command == "extraction-status": result = extraction_status(db, args.job_id)
+        elif args.command == "extraction-review":
+            for spec in args.match:
+                if "=" not in spec: raise ValueError("--match requires PROPOSAL_ID=ENTITY_ID")
+                proposal_id, entity_id = spec.split("=", 1)
+                decide_proposal(db, args.job_id, proposal_id, "approve", known_entity_id=entity_id)
+            for proposal_id in args.approve: decide_proposal(db, args.job_id, proposal_id, "approve")
+            for proposal_id in args.reject: decide_proposal(db, args.job_id, proposal_id, "reject")
+            if args.approve_all: bulk_decide(db, args.job_id, "approve")
+            if args.reject_all: bulk_decide(db, args.job_id, "reject")
+            result = extraction_review(db, args.job_id)
+        elif args.command == "extraction-commit": result = {"committed": commit_approved(db, args.job_id)}
         else: raise AssertionError(args.command)
     print(json.dumps(result, ensure_ascii=False, indent=2, default=str))
     return 1 if result.get("error") else 0
