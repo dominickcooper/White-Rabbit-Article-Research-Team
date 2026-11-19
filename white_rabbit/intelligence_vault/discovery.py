@@ -33,9 +33,19 @@ class SharedAffiliationProvider:
 
     name = "shared-affiliation-overlap"
 
-    def discover(self, db: VaultDB) -> list[ConnectionCandidate]:
+    def discover(self, db: VaultDB, *, entity_ids: set[str] | None = None,
+                 limit: int = 500) -> list[ConnectionCandidate]:
+        limit = min(max(int(limit), 1), 2000)
+        selected = sorted(entity_ids or set())
+        prefix = ""
+        joins = ""
+        params: list[object] = []
+        if selected:
+            prefix = "WITH selected(id) AS (VALUES " + ",".join("(?)" for _ in selected) + ") "
+            joins = " JOIN selected sa ON sa.id=a.subject_entity_id JOIN selected sb ON sb.id=b.subject_entity_id"
+            params.extend(selected)
         rows = db.conn.execute(
-            """SELECT a.subject_entity_id a_id, b.subject_entity_id b_id,
+            prefix + """SELECT a.subject_entity_id a_id, b.subject_entity_id b_id,
                       a.object_entity_id basis_id, a.historical_start a_start,
                       a.historical_start_precision a_start_precision,
                       a.historical_start_certainty a_start_certainty, a.historical_end a_end,
@@ -47,8 +57,9 @@ class SharedAffiliationProvider:
                FROM relationships a JOIN relationships b
                  ON a.object_entity_id=b.object_entity_id AND a.subject_entity_id < b.subject_entity_id
                 AND a.relationship_type=b.relationship_type
-               JOIN entities o ON o.id=a.object_entity_id
-               WHERE a.relationship_type IN ('member_of','served_in','employed_by','director_of')"""
+               JOIN entities o ON o.id=a.object_entity_id""" + joins +
+            " WHERE a.relationship_type IN ('member_of','served_in','employed_by','director_of') LIMIT ?",
+            (*params, limit),
         ).fetchall()
         candidates = []
         for row in rows:

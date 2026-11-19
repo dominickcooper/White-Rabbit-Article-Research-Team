@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
+import mimetypes
 from pathlib import Path
 import sqlite3
 from threading import Thread
@@ -17,10 +18,15 @@ from .extraction import (
     extraction_review, extraction_status, process_extraction_job,
 )
 from .providers import build_provider
+from .exploration import (
+    connection_paths, entity_profile, graph_data, investigations_data,
+    relationship_detail, timeline_csv, timeline_data,
+)
 
 
 MAX_BODY_BYTES = 256 * 1024
 LOOPBACK_HOSTS = {"127.0.0.1", "localhost", "::1"}
+STATIC_ROOT = Path(__file__).with_name("static")
 
 
 class APIEntity(BaseModel):
@@ -125,35 +131,6 @@ def parse_json_object(raw: bytes) -> dict:
     return value
 
 
-INDEX = """<!doctype html><html><head><meta charset='utf-8'><title>White Rabbit Intelligence Vault</title>
-<style>body{font:16px system-ui;max-width:1050px;margin:2rem auto;padding:0 1rem;background:#111;color:#eee}
-input,select,button{font:inherit;padding:.55rem;margin:.2rem}button{cursor:pointer}a{color:#a9d5ff}
-pre{white-space:pre-wrap;background:#1d1d1d;padding:1rem;border-radius:8px}.row{display:flex;gap:1rem;flex-wrap:wrap}</style></head>
-<body><h1>White Rabbit Intelligence Vault</h1><p>Provenance-first local historical research.</p>
-<div><input id='q' size='45' placeholder='Search entities, claims, documents'><button onclick='search()'>Search</button>
-<button onclick='stats()'>Statistics</button><button onclick='review()'>Review queue</button></div>
-<h2>Add entity</h2><div class='row'><select id='type'><option>person</option><option>organization</option><option>event</option><option>place</option></select>
-<input id='name' placeholder='Canonical name'><input id='aliases' placeholder='Aliases, comma separated'><button onclick='addEntity()'>Add</button></div>
-<h2>Process document</h2><div class='row'><input id='docpath' size='55' placeholder='Absolute local document path'>
-<select id='provider'><option>manual</option><option>gemini</option><option>mock</option></select>
-<input id='manualresults' size='35' placeholder='Manual results JSON path'><label><input id='cloud' type='checkbox'>Allow cloud upload</label>
-<button onclick='extractDoc()'>Start extraction</button></div>
-<div class='row'><input id='jobid' size='42' placeholder='JOB-UUID'><button onclick='jobStatus()'>Progress</button>
-<button onclick='jobReview()'>Review proposals</button><button onclick='jobRetry()'>Retry failures</button><button onclick='jobCommit()'>Commit approved</button></div>
-<div class='row'><input id='proposalid' size='42' placeholder='PROP-UUID'><input id='knownid' size='34' placeholder='Optional confirmed ENT-UUID'>
-<button onclick='decide("approve")'>Approve</button><button onclick='decide("reject")'>Reject</button></div>
-<pre id='out'>Ready.</pre><script>
-const out=document.querySelector('#out'); async function call(url,opts){let r=await fetch(url,opts);let j=await r.json();out.textContent=JSON.stringify(j,null,2);if(j.job_id)jobid.value=j.job_id;return j}
-function search(){call('/api/search?q='+encodeURIComponent(q.value))} function stats(){call('/api/stats')} function review(){call('/api/review')}
-function addEntity(){call('/api/entities',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({entity_type:type.value,name:name.value,aliases:aliases.value.split(',').map(x=>x.trim()).filter(Boolean)})})}
-function extractDoc(){call('/api/extractions',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({document:docpath.value,provider:provider.value,manual_results:manualresults.value||null,allow_cloud:cloud.checked})})}
-function jobStatus(){call('/api/extractions/'+encodeURIComponent(jobid.value))} function jobReview(){call('/api/extractions/'+encodeURIComponent(jobid.value)+'/review')}
-function jobRetry(){call('/api/extractions/'+encodeURIComponent(jobid.value)+'/retry',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({provider:provider.value,manual_results:manualresults.value||null,allow_cloud:cloud.checked})})}
-function jobCommit(){call('/api/extractions/'+encodeURIComponent(jobid.value)+'/commit',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}'})}
-function decide(action){call('/api/extractions/'+encodeURIComponent(jobid.value)+'/proposals/'+encodeURIComponent(proposalid.value),{method:'PATCH',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:action,known_entity_id:knownid.value||null})})}
-</script></body></html>"""
-
-
 def _background_process(db_path: Path, job_id: str, provider, retry: bool = False) -> None:
     try:
         with VaultDB(db_path) as db:
@@ -171,9 +148,10 @@ def handler_for(db_path: Path):
     class Handler(BaseHTTPRequestHandler):
         def _security_headers(self) -> None:
             self.send_header("Cache-Control", "no-store")
-            self.send_header("Content-Security-Policy", "default-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'")
+            self.send_header("Content-Security-Policy", "default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' blob: data:; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'")
             self.send_header("X-Content-Type-Options", "nosniff")
             self.send_header("X-Frame-Options", "DENY")
+            self.send_header("Referrer-Policy", "no-referrer")
 
         def _json(self, value: object, status: int = 200) -> None:
             data = json.dumps(value, ensure_ascii=False, default=str).encode()
@@ -183,6 +161,28 @@ def handler_for(db_path: Path):
             self._security_headers()
             self.end_headers()
             self.wfile.write(data)
+
+        def _bytes(self, data: bytes, content_type: str, status: int = 200,
+                   disposition: str | None = None) -> None:
+            self.send_response(status)
+            self.send_header("Content-Type", content_type)
+            self.send_header("Content-Length", str(len(data)))
+            if disposition:
+                self.send_header("Content-Disposition", disposition)
+            self._security_headers()
+            self.end_headers()
+            self.wfile.write(data)
+
+        def _static(self, request_path: str) -> None:
+            relative = "index.html" if request_path == "/" else request_path.removeprefix("/static/")
+            candidate = (STATIC_ROOT / relative).resolve()
+            if not candidate.is_relative_to(STATIC_ROOT.resolve()) or not candidate.is_file():
+                self._json({"error": "not found"}, 404)
+                return
+            content_type = mimetypes.guess_type(candidate.name)[0] or "application/octet-stream"
+            if candidate.suffix == ".js":
+                content_type = "text/javascript"
+            self._bytes(candidate.read_bytes(), f"{content_type}; charset=utf-8" if content_type.startswith(("text/", "application/javascript")) else content_type)
 
         def _body(self) -> dict:
             size = validated_body_size(
@@ -222,10 +222,9 @@ def handler_for(db_path: Path):
                 return
             parsed = urlparse(self.path)
             if parsed.path == "/":
-                data = INDEX.encode()
-                self.send_response(200); self.send_header("Content-Type", "text/html; charset=utf-8")
-                self.send_header("Content-Length", str(len(data))); self._security_headers()
-                self.end_headers(); self.wfile.write(data); return
+                self._static(parsed.path); return
+            if parsed.path.startswith("/static/"):
+                self._static(parsed.path); return
             try:
                 with VaultDB(db_path) as db:
                     query = parse_qs(parsed.query)
@@ -236,6 +235,56 @@ def handler_for(db_path: Path):
                         if len(term) > 500: raise ValueError("search query is too long")
                         result = db.search(term, query.get("type", [None])[0])
                     elif parsed.path == "/api/events": result = db.events_between(query.get("start", ["0001"])[0], query.get("end", ["9999"])[0])
+                    elif parsed.path == "/api/graph":
+                        result = graph_data(
+                            db, focus_id=query.get("focus", [None])[0],
+                            depth=int(query.get("depth", ["1"])[0]), query=query.get("q", [""])[0],
+                            entity_types=set(filter(None, query.get("types", [""])[0].split(","))),
+                            relationship_types=set(filter(None, query.get("relationships", [""])[0].split(","))),
+                            investigation_ids=set(filter(None, query.get("investigations", [""])[0].split(","))),
+                            start=query.get("start", [None])[0], end=query.get("end", [None])[0],
+                            temporal_mode=query.get("temporal", ["all"])[0],
+                            include_candidates=query.get("candidates", ["0"])[0] == "1",
+                            include_documents=query.get("documents", ["0"])[0] == "1",
+                            limit=int(query.get("limit", ["200"])[0]), cursor=query.get("cursor", [None])[0],
+                        )
+                    elif parsed.path == "/api/timeline":
+                        result = timeline_data(
+                            db, start=query.get("start", ["0001"])[0], end=query.get("end", ["9999"])[0],
+                            entity_id=query.get("entity", [None])[0], event_type=query.get("event_type", [None])[0],
+                            country=query.get("country", [None])[0], source_id=query.get("source", [None])[0],
+                            investigation_ids=set(filter(None, query.get("investigations", [""])[0].split(","))),
+                            limit=int(query.get("limit", ["200"])[0]), cursor=query.get("cursor", [None])[0],
+                        )
+                    elif parsed.path == "/api/paths":
+                        result = connection_paths(
+                            db, query.get("source", [""])[0], query.get("target", [""])[0],
+                            max_depth=int(query.get("depth", ["4"])[0]),
+                            relationship_types=set(filter(None, query.get("relationships", [""])[0].split(","))),
+                            respect_direction=query.get("directed", ["0"])[0] == "1",
+                            max_paths=int(query.get("limit", ["5"])[0]),
+                        )
+                    elif parsed.path == "/api/investigations":
+                        result = investigations_data(
+                            db, set(filter(None, query.get("selected", [""])[0].split(",")))
+                        )
+                    elif parsed.path == "/api/exports/timeline.csv":
+                        payload = timeline_data(
+                            db, start=query.get("start", ["0001"])[0], end=query.get("end", ["9999"])[0],
+                            entity_id=query.get("entity", [None])[0], event_type=query.get("event_type", [None])[0],
+                            country=query.get("country", [None])[0], source_id=query.get("source", [None])[0],
+                            investigation_ids=set(filter(None, query.get("investigations", [""])[0].split(","))),
+                            limit=500,
+                        )
+                        data = timeline_csv(payload).encode("utf-8-sig")
+                        return self._bytes(data, "text/csv; charset=utf-8", disposition='attachment; filename="vault-timeline.csv"')
+                    elif parsed.path.startswith("/api/profiles/"):
+                        result = entity_profile(db, parsed.path.rsplit("/", 1)[1])
+                        if result is None: return self._json({"error": "not found"}, 404)
+                    elif parsed.path.startswith("/api/relationships/") and parsed.path.endswith("/detail"):
+                        relationship_id = parsed.path.strip("/").split("/")[2]
+                        result = relationship_detail(db, relationship_id)
+                        if result is None: return self._json({"error": "not found"}, 404)
                     elif parsed.path.startswith("/api/entities/"):
                         result = db.get_entity(parsed.path.rsplit("/", 1)[1])
                         if result is None: return self._json({"error": "not found"}, 404)

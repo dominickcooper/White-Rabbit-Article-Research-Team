@@ -6,10 +6,12 @@ That local workflow requires no LLM API key. The original Gemini workflow below 
 Multi-part investigations are also available through `python codex_article.py series ...`;
 see [Series workflow](docs/SERIES_WORKFLOW.md) for shared research and continuity.
 
-The additive historical Intelligence Vault, including Phase 2 staged document extraction, is available through
+The additive historical Intelligence Vault, including staged document extraction and the Phase 3
+timeline/Red String Board, is available through
 `python -m white_rabbit vault ...`; see [Intelligence Vault](docs/INTELLIGENCE_VAULT.md).
 It supports offline/manual processing without an AI API key, requires explicit opt-in before
-cloud extraction, and does not automatically import the article archive.
+cloud extraction, and does not automatically import the article archive. The polished local interface
+uses only repository-hosted frontend assets during normal operation.
 
 A research-first article pipeline for **The White Rabbit Report**.
 

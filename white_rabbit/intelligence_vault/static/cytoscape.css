@@ -1,0 +1,5 @@
+#cy { position: relative; }
+.maintenance { margin-top: 1rem; }
+.maintenance summary { cursor: pointer; font: 600 1.05rem Georgia, serif; }
+.maintenance[open] summary { margin-bottom: .9rem; }
+.maintenance pre { max-height: 360px; overflow: auto; white-space: pre-wrap; background: #0e131a; padding: .8rem; }

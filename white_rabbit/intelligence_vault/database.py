@@ -10,7 +10,7 @@ from typing import Any, Iterator
 from uuid import uuid4
 
 
-LATEST_SCHEMA_VERSION = 3
+LATEST_SCHEMA_VERSION = 4
 ENTITY_TYPES = {"person", "organization", "event", "place"}
 
 
@@ -242,6 +242,22 @@ MIGRATIONS = [
       details_json TEXT NOT NULL DEFAULT '{}',
       created_at TEXT NOT NULL
     );
+    """),
+    (4, """
+    CREATE TABLE document_investigations (
+      document_id TEXT NOT NULL REFERENCES documents(id) ON DELETE CASCADE,
+      investigation_id TEXT NOT NULL REFERENCES investigations(id) ON DELETE CASCADE,
+      notes TEXT NOT NULL DEFAULT '', PRIMARY KEY(document_id, investigation_id)
+    );
+    CREATE INDEX idx_relationship_type ON relationships(relationship_type);
+    CREATE INDEX idx_relationship_dates ON relationships(historical_start, historical_end);
+    CREATE INDEX idx_relationship_classification ON relationships(classification);
+    CREATE INDEX idx_entity_investigations_investigation ON entity_investigations(investigation_id, entity_id);
+    CREATE INDEX idx_document_investigations_investigation ON document_investigations(investigation_id, document_id);
+    CREATE INDEX idx_claim_entities_entity ON claim_entities(entity_id, claim_id);
+    CREATE INDEX idx_relationship_evidence_relationship ON relationship_evidence(relationship_id);
+    CREATE INDEX idx_claim_evidence_claim ON claim_evidence(claim_id);
+    CREATE INDEX idx_event_dates ON event_details(start_value, end_value);
     """)
 ]
 
@@ -583,6 +599,15 @@ class VaultDB:
                 (entity_id, investigation_id, notes),
             )
 
+    def attach_document_investigation(self, document_id: str, investigation_id: str,
+                                      notes: str = "") -> None:
+        """Record an explicit source-to-investigation association."""
+        with self.transaction():
+            self.conn.execute(
+                "INSERT OR REPLACE INTO document_investigations VALUES (?,?,?)",
+                (document_id, investigation_id, notes),
+            )
+
     def add_document_revision(self, *, title: str, file_hash: str, extracted_text: str,
                               byte_size: int = 0, original_file: str | None = None,
                               original_url: str | None = None, author: str | None = None,
@@ -872,7 +897,8 @@ class VaultDB:
     def export(self) -> dict[str, Any]:
         tables = [
             "entities", "aliases", "person_details", "organization_details", "event_details", "place_details",
-            "investigations", "entity_investigations", "documents", "document_locations", "document_revisions",
+            "investigations", "entity_investigations", "documents", "document_investigations",
+            "document_locations", "document_revisions",
             "import_entity_bindings", "claims", "claim_evidence", "claim_entities", "relationships",
             "relationship_evidence", "conflicts", "merge_suggestions", "extraction_jobs", "extraction_chunks",
             "extraction_proposals", "extraction_quality_issues", "extraction_approval_history",
