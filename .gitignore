@@ -21,9 +21,12 @@ workspace/*/output/*.html
 # rebuildable / bulky local indexes
 knowledge/*.joblib
 knowledge/*.sqlite3
+knowledge/*.db
 knowledge/*.db-journal
 knowledge/*.db-wal
 knowledge/*.db-shm
+knowledge/intelligence_vault_evidence/
+knowledge/intelligence_vault_backups/
 
 # local research extraction and rendering scratch space
 /tmp/

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>White Rabbit Intelligence Vault</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <link rel="stylesheet" href="/static/cytoscape.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">WR</span><span><strong>Intelligence Vault</strong><small>Historical evidence explorer</small></span></div>
+    <div class="global-search"><input id="global-search" type="search" maxlength="500" placeholder="Search accepted people, organizations, claims, and sources"><button id="global-search-button">Search</button></div>
+    <span class="local-badge">LOCAL</span>
+  </header>
+  <nav class="nav" aria-label="Primary navigation">
+    <button data-view="dashboard" class="active">Dashboard</button>
+    <button data-view="evidence">Evidence Library</button>
+    <button data-view="entities">People &amp; Organizations</button>
+    <button data-view="timeline">Timeline</button>
+    <button data-view="graph">Red String Board</button>
+    <button data-view="investigations">Investigations</button>
+    <button data-view="review">Review Queue</button>
+    <button data-view="import">Import Archive</button>
+  </nav>
+  <main>
+    <section id="view-dashboard" class="view active">
+      <div class="view-heading"><div><p class="eyebrow">Accepted knowledge only</p><h1>Investigation Dashboard</h1><p>Explore the evidence record without changing approved historical data.</p></div><button data-go="graph" class="primary">Open Red String Board</button></div>
+      <div id="stat-grid" class="stat-grid"></div>
+      <div class="two-column"><article class="panel"><h2>Start exploring</h2><div class="action-grid"><button data-go="timeline">Browse the master timeline</button><button data-go="entities">Open an intelligence profile</button><button data-go="investigations">Compare investigations</button><button data-go="review">Inspect unresolved records</button></div></article><article class="panel"><h2>Evidence boundary</h2><p>Solid edges are accepted Vault relationships. Dashed amber overlays are deterministic candidates and remain hypotheses. Graph proximity never proves acquaintance, coordination, or common command.</p></article></div>
+    </section>
+
+    <section id="view-evidence" class="view">
+      <div class="view-heading"><div><p class="eyebrow">Sources &amp; provenance</p><h1>Evidence Library</h1></div></div>
+      <div class="toolbar"><input id="evidence-query" type="search" placeholder="Search document titles or claims"><button id="evidence-search-button">Search</button></div>
+      <div id="evidence-results" class="cards"></div>
+    </section>
+
+    <section id="view-entities" class="view">
+      <div class="view-heading"><div><p class="eyebrow">Global identity registry</p><h1>People &amp; Organizations</h1></div></div>
+      <div class="toolbar"><input id="entity-query" type="search" placeholder="Search names and aliases"><select id="entity-type"><option value="">All types</option><option value="person">People</option><option value="organization">Organizations</option><option value="event">Events</option><option value="place">Places</option></select><button id="entity-search-button">Search</button></div>
+      <div class="split"><div id="entity-results" class="list"></div><aside id="entity-profile" class="panel detail"><p class="empty">Select an identity to open its evidence-backed profile.</p></aside></div>
+      <details class="panel maintenance"><summary>Add a manual identity record</summary><div class="toolbar wrap"><select id="new-entity-type"><option value="person">Person</option><option value="organization">Organization</option><option value="event">Event</option><option value="place">Place</option></select><input id="new-entity-name" placeholder="Canonical name"><input id="new-entity-aliases" placeholder="Aliases, comma separated"><button id="new-entity-add">Add identity</button></div></details>
+    </section>
+
+    <section id="view-timeline" class="view">
+      <div class="view-heading"><div><p class="eyebrow">Ranges retain precision and uncertainty</p><h1>Historical Master Timeline</h1></div><div class="button-row"><button id="timeline-json">Export JSON</button><button id="timeline-csv">Export CSV</button></div></div>
+      <div class="toolbar wrap"><label>From <input id="timeline-start" value="1900" maxlength="10"></label><label>To <input id="timeline-end" value="2000" maxlength="10"></label><label>Person/organization/event <input id="timeline-entity" placeholder="Optional ENT-ID"></label><label>Event type <input id="timeline-event-type" placeholder="Any"></label><label>Country/place <input id="timeline-country" placeholder="Any"></label><label>Investigation IDs <input id="timeline-investigations" placeholder="Comma separated"></label><label>Source <input id="timeline-source" placeholder="DOC-ID"></label><label>Zoom <input id="timeline-zoom" type="range" min="1" max="8" value="2"></label><button id="timeline-load" class="primary">Apply</button></div>
+      <div class="legend"><span><i class="swatch exact"></i>Exact/certain</span><span><i class="swatch possible"></i>Approximate/possible</span><span><i class="swatch undated"></i>Undated/open</span></div>
+      <div id="timeline-scroll" class="timeline-scroll"><div id="timeline-canvas" class="timeline-canvas"></div></div>
+      <aside id="timeline-detail" class="panel detail"><p class="empty">Select a timeline range to inspect dates and source evidence.</p></aside>
+    </section>
+
+    <section id="view-graph" class="view graph-view">
+      <div class="view-heading compact"><div><p class="eyebrow">Accepted edges + optional candidates</p><h1>Red String Board</h1></div><div class="button-row"><button id="graph-fit">Fit</button><select id="graph-layout"><option value="cose">Force layout</option><option value="breadthfirst">Hierarchy</option><option value="circle">Circle</option><option value="grid">Grid</option></select><button id="graph-png">PNG</button><button id="graph-svg">SVG</button><button id="graph-json">JSON</button></div></div>
+      <div class="toolbar wrap graph-controls"><label>Focus/search <input id="graph-focus" placeholder="ENT-ID or name"></label><label>Hops <select id="graph-depth"><option>1</option><option>2</option><option>3</option></select></label><label>Relationship types <input id="graph-relationships" placeholder="Comma separated"></label><label>Investigation IDs <input id="graph-investigations" placeholder="Comma separated"></label><label>From <input id="graph-start" placeholder="1960"></label><label>To <input id="graph-end" placeholder="1965"></label><label>Temporal <select id="graph-temporal"><option value="all">All relationships</option><option value="confirmed">Confirmed overlap</option><option value="possible">Possible overlap</option><option value="undated">Undated</option></select></label><label class="check"><input id="graph-candidates" type="checkbox"> Candidate overlay</label><label class="check"><input id="graph-documents" type="checkbox"> Source documents</label><button id="graph-load" class="primary">Explore</button></div>
+      <div class="graph-workspace"><div id="cy" role="application" aria-label="Interactive relationship network"></div><aside id="graph-detail" class="graph-detail"><h2>Selection</h2><p class="empty">Select a node or edge. Accepted evidence and exploratory candidates are always labelled separately.</p></aside></div>
+      <div class="panel path-panel"><h2>How are these two connected?</h2><div class="toolbar wrap"><input id="path-source" placeholder="Source ENT-ID"><input id="path-target" placeholder="Target ENT-ID"><input id="path-relationships" placeholder="Optional relationship types"><label>Depth <select id="path-depth"><option>2</option><option selected>4</option><option>6</option></select></label><label class="check"><input id="path-direction" type="checkbox"> Respect directed edges</label><button id="path-find">Trace accepted paths</button><button id="path-export">Export report</button></div><div id="path-results"></div></div>
+    </section>
+
+    <section id="view-investigations" class="view">
+      <div class="view-heading"><div><p class="eyebrow">Explicit memberships only</p><h1>Investigations</h1><p>Select two or more investigations to reveal shared stored identities.</p></div></div>
+      <div id="investigation-list" class="cards"></div><div id="investigation-shared" class="panel"></div>
+    </section>
+
+    <section id="view-review" class="view">
+      <div class="view-heading"><div><p class="eyebrow">Human decisions required</p><h1>Review Queue</h1></div></div>
+      <div id="review-results" class="two-column"></div>
+      <details class="panel maintenance" open><summary>Staged document extraction</summary><p class="meta">Model output remains isolated until individual proposals are approved and committed.</p><div class="toolbar wrap"><input id="extract-document" placeholder="Absolute local document path"><select id="extract-provider"><option value="manual">Manual/offline</option><option value="gemini">Gemini</option><option value="mock">Mock</option></select><input id="extract-results" placeholder="Manual results JSON path"><label class="check"><input id="extract-cloud" type="checkbox"> Explicit cloud consent</label><button id="extract-start">Start extraction</button></div><div class="toolbar wrap"><input id="extract-job" placeholder="JOB-ID"><button id="extract-status">Status</button><button id="extract-review">Review proposals</button><button id="extract-retry">Retry failed chunks</button><button id="extract-commit">Commit approved</button></div><div class="toolbar wrap"><input id="extract-proposal" placeholder="PROP-ID"><input id="extract-known" placeholder="Optional confirmed ENT-ID"><button id="extract-approve">Approve</button><button id="extract-reject">Reject</button></div><pre id="extract-output">Ready.</pre></details>
+    </section>
+
+    <section id="view-import" class="view">
+      <div class="view-heading"><div><p class="eyebrow">Offline, resumable, evidence-preserving</p><h1>Import Evidence Archive</h1><p>Preview a local ZIP or folder, then preserve originals and index supported content without sending it to a network service.</p></div></div>
+      <div class="panel">
+        <div class="toolbar wrap"><label>ZIP or folder <input id="archive-source" size="60" placeholder="C:\\path\\to\\archive.zip"></label><label>Investigation <input id="archive-investigation" value="Monarch Legacy Program"></label><label>Existing investigation ID <input id="archive-investigation-id" placeholder="Optional"></label></div>
+        <div class="toolbar wrap"><label class="check"><input id="archive-transcribe" type="checkbox" checked> Transcribe audio/video when local tools exist</label><label class="check"><input id="archive-ocr" type="checkbox"> OCR images when local tools exist</label><label class="check"><input id="archive-thumbnails" type="checkbox" checked> Create thumbnails</label><label>Whisper model <input id="archive-whisper-model" value="small"></label><button id="archive-preview">Preview</button><button id="archive-start" class="primary">Start import</button></div>
+      </div>
+      <div class="panel">
+        <div class="toolbar wrap"><label>Job ID <input id="archive-job" placeholder="AIM-ID"></label><label>Type <input id="archive-filter-type" placeholder="pdf, image, audio..."></label><label>Status <input id="archive-filter-status" placeholder="complete, failed..."></label><label>Folder <input id="archive-filter-folder" placeholder="Path prefix"></label><button id="archive-refresh">Refresh</button><button data-archive-action="pause">Pause</button><button data-archive-action="resume">Resume</button><button data-archive-action="cancel">Cancel</button><button data-archive-action="retry">Retry failures</button></div>
+        <div id="archive-summary"><p class="empty">No import selected.</p></div><div id="archive-reports" class="button-row"></div><div id="archive-files" class="list"></div><pre id="archive-output">Ready.</pre>
+      </div>
+    </section>
+  </main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="/static/vendor/cytoscape.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
