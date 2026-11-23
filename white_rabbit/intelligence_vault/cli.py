@@ -5,6 +5,10 @@ import json
 from pathlib import Path
 
 from .database import VaultDB
+from .archive_importer import (
+    ArchiveImportConfig, create_import_job, import_status, preview_archive,
+    process_import_job, set_job_action,
+)
 from .ingestion import ingest_document, import_structured
 from .backup import create_backup_bundle, restore_backup_bundle
 from .extraction import (
@@ -49,6 +53,10 @@ def parser() -> argparse.ArgumentParser:
     review = sub.add_parser("extraction-review"); review.add_argument("job_id"); review.add_argument("--approve", action="append", default=[]); review.add_argument("--reject", action="append", default=[]); review.add_argument("--match", action="append", default=[], metavar="PROPOSAL_ID=ENTITY_ID"); review.add_argument("--approve-all", action="store_true"); review.add_argument("--reject-all", action="store_true")
     commit = sub.add_parser("extraction-commit"); commit.add_argument("job_id")
     retry = sub.add_parser("extraction-retry"); retry.add_argument("job_id"); retry.add_argument("--provider", choices=["gemini", "manual", "mock"], required=True); retry.add_argument("--model"); retry.add_argument("--allow-cloud", action="store_true"); retry.add_argument("--manual-results", type=Path)
+    archive_preview = sub.add_parser("archive-preview"); archive_preview.add_argument("source", type=Path)
+    archive_import = sub.add_parser("archive-import"); archive_import.add_argument("source", type=Path); archive_import.add_argument("--investigation", default="Monarch Legacy Program"); archive_import.add_argument("--investigation-id"); archive_import.add_argument("--no-transcribe", action="store_true"); archive_import.add_argument("--ocr-images", action="store_true"); archive_import.add_argument("--no-thumbnails", action="store_true"); archive_import.add_argument("--whisper-model", default="small"); archive_import.add_argument("--whisper-device", default="cpu")
+    archive_status = sub.add_parser("archive-status"); archive_status.add_argument("job_id"); archive_status.add_argument("--type"); archive_status.add_argument("--status"); archive_status.add_argument("--folder")
+    archive_action = sub.add_parser("archive-action"); archive_action.add_argument("job_id"); archive_action.add_argument("action", choices=["pause", "resume", "cancel", "retry"])
     serve = sub.add_parser("serve"); serve.add_argument("--host", default="127.0.0.1"); serve.add_argument("--port", type=int, default=8765)
     return p
 
@@ -82,6 +90,26 @@ def main(argv: list[str] | None = None) -> int:
         with VaultDB(args.db) as db:
             result = process_extraction_job(db, args.job_id, provider, retry_failed=True)
         print(json.dumps(result, ensure_ascii=False, indent=2, default=str)); return 0
+    if args.command == "archive-preview":
+        print(json.dumps(preview_archive(args.source), ensure_ascii=False, indent=2, default=str)); return 0
+    if args.command == "archive-import":
+        config = ArchiveImportConfig(
+            transcribe_media=not args.no_transcribe, ocr_images=args.ocr_images,
+            create_thumbnails=not args.no_thumbnails, whisper_model=args.whisper_model,
+            whisper_device=args.whisper_device,
+        )
+        with VaultDB(args.db) as db:
+            job_id, _preview = create_import_job(
+                db, args.source, investigation_name=args.investigation,
+                investigation_id=args.investigation_id, config=config,
+            )
+            result = process_import_job(db, job_id)
+        print(json.dumps(result, ensure_ascii=False, indent=2, default=str)); return 0
+    if args.command == "archive-action":
+        with VaultDB(args.db) as db:
+            result = set_job_action(db, args.job_id, args.action)
+            if args.action in {"resume", "retry"}: result = process_import_job(db, args.job_id)
+        print(json.dumps(result, ensure_ascii=False, indent=2, default=str)); return 0
     with VaultDB(args.db) as db:
         if args.command == "init": result = {"database": str(args.db.resolve()), **db.stats()}
         elif args.command == "ingest":
@@ -101,6 +129,7 @@ def main(argv: list[str] | None = None) -> int:
             args.path.parent.mkdir(parents=True, exist_ok=True); args.path.write_text(json.dumps(db.export(), ensure_ascii=False, indent=2), encoding="utf-8"); result = {"exported": str(args.path.resolve())}
         elif args.command == "backup": result = {"backup": str(create_backup_bundle(db, args.directory))}
         elif args.command == "extraction-status": result = extraction_status(db, args.job_id)
+        elif args.command == "archive-status": result = import_status(db, args.job_id, media_type=args.type, status=args.status, folder=args.folder)
         elif args.command == "extraction-review":
             for spec in args.match:
                 if "=" not in spec: raise ValueError("--match requires PROPOSAL_ID=ENTITY_ID")

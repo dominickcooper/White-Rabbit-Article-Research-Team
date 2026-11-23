@@ -12,9 +12,14 @@ from urllib.parse import parse_qs, urlparse
 from pydantic import BaseModel, ConfigDict, Field
 
 from .database import VaultDB
+from .archive_importer import (
+    ArchiveImportConfig, create_import_job, import_status, preview_archive,
+    process_import_job, report_path, set_job_action,
+)
 from .schema import TemporalValue
 from .extraction import (
-    ExtractionConfig, commit_approved, create_extraction_job, decide_proposal,
+    ExtractionConfig, commit_approved, create_extraction_job,
+    create_extraction_job_from_revision, decide_proposal,
     extraction_review, extraction_status, process_extraction_job,
 )
 from .providers import build_provider
@@ -86,6 +91,34 @@ class APIExtractionRetry(BaseModel):
     manual_results: str | None = Field(default=None, max_length=2000)
 
 
+class APIArchivePreview(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    source: str = Field(min_length=1, max_length=2000)
+
+
+class APIArchiveStart(APIArchivePreview):
+    investigation_name: str = Field(default="Monarch Legacy Program", min_length=1, max_length=500)
+    investigation_id: str | None = Field(default=None, max_length=100)
+    transcribe_media: bool = True
+    ocr_images: bool = False
+    create_thumbnails: bool = True
+    whisper_model: str = Field(default="small", max_length=100)
+    whisper_device: str = Field(default="cpu", max_length=100)
+
+
+class APIArchiveAction(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    action: Literal["pause", "resume", "cancel", "retry"]
+
+
+class APIArchiveExtract(APIExtractionRetry):
+    revision_id: str | None = Field(default=None, max_length=100)
+    file_id: str | None = Field(default=None, max_length=100)
+    chunk_size: int = Field(default=12000, ge=500, le=100000)
+    overlap: int = Field(default=1000, ge=0, le=20000)
+    max_chunks: int | None = Field(default=None, ge=1, le=10000)
+
+
 def is_loopback_host_header(host: str) -> bool:
     try:
         return urlparse(f"//{host}").hostname in LOOPBACK_HOSTS
@@ -144,6 +177,19 @@ def _background_process(db_path: Path, job_id: str, provider, retry: bool = Fals
                 )
 
 
+def _background_import(db_path: Path, job_id: str) -> None:
+    try:
+        with VaultDB(db_path) as db:
+            process_import_job(db, job_id)
+    except Exception as exc:
+        with VaultDB(db_path) as db:
+            with db.transaction():
+                db.conn.execute(
+                    "UPDATE archive_import_jobs SET status='failed',error=?,updated_at=datetime('now') WHERE id=?",
+                    (str(exc)[:2000], job_id),
+                )
+
+
 def handler_for(db_path: Path):
     class Handler(BaseHTTPRequestHandler):
         def _security_headers(self) -> None:
@@ -182,7 +228,10 @@ def handler_for(db_path: Path):
             content_type = mimetypes.guess_type(candidate.name)[0] or "application/octet-stream"
             if candidate.suffix == ".js":
                 content_type = "text/javascript"
-            self._bytes(candidate.read_bytes(), f"{content_type}; charset=utf-8" if content_type.startswith(("text/", "application/javascript")) else content_type)
+            data = candidate.read_bytes()
+            if content_type.startswith(("text/", "application/javascript")):
+                data = data.replace(b"\r\n", b"\n")
+            self._bytes(data, f"{content_type}; charset=utf-8" if content_type.startswith(("text/", "application/javascript")) else content_type)
 
         def _body(self) -> dict:
             size = validated_body_size(
@@ -298,6 +347,21 @@ def handler_for(db_path: Path):
                         elif len(parts) == 3:
                             result = extraction_status(db, parts[2])
                         else: return self._json({"error": "not found"}, 404)
+                    elif parsed.path.startswith("/api/archive-imports/"):
+                        parts = parsed.path.strip("/").split("/")
+                        if len(parts) == 5 and parts[3] == "reports":
+                            name = parts[4]
+                            path = report_path(db, parts[2], name)
+                            content_type = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+                            return self._bytes(path.read_bytes(), content_type, disposition=f'attachment; filename="{path.name}"')
+                        if len(parts) == 3:
+                            result = import_status(
+                                db, parts[2],
+                                media_type=query.get("type", [None])[0],
+                                status=query.get("status", [None])[0],
+                                folder=query.get("folder", [None])[0],
+                            )
+                        else: return self._json({"error": "not found"}, 404)
                     else: return self._json({"error": "not found"}, 404)
                 self._json(result)
             except Exception as exc:
@@ -331,6 +395,55 @@ def handler_for(db_path: Path):
                         )
                         Thread(target=_background_process, args=(db_path, job_id, provider), daemon=True).start()
                         return self._json({"job_id": job_id, "created": created, "status": "processing"}, 202)
+                    elif self.path == "/api/archive-imports/preview":
+                        item = APIArchivePreview.model_validate(body)
+                        result = preview_archive(Path(item.source))
+                    elif self.path == "/api/archive-imports":
+                        item = APIArchiveStart.model_validate(body)
+                        config = ArchiveImportConfig(
+                            transcribe_media=item.transcribe_media,
+                            ocr_images=item.ocr_images,
+                            create_thumbnails=item.create_thumbnails,
+                            whisper_model=item.whisper_model,
+                            whisper_device=item.whisper_device,
+                        )
+                        job_id, preview = create_import_job(
+                            db, Path(item.source), investigation_name=item.investigation_name,
+                            investigation_id=item.investigation_id, config=config,
+                        )
+                        Thread(target=_background_import, args=(db_path, job_id), daemon=True).start()
+                        return self._json({"job_id": job_id, "status": "processing", "preview": preview}, 202)
+                    elif self.path.startswith("/api/archive-imports/"):
+                        parts = self.path.strip("/").split("/")
+                        if len(parts) == 4 and parts[3] == "action":
+                            item = APIArchiveAction.model_validate(body)
+                            result = set_job_action(db, parts[2], item.action)
+                            if item.action in {"resume", "retry"}:
+                                Thread(target=_background_import, args=(db_path, parts[2]), daemon=True).start()
+                            return self._json(result, 202)
+                        if len(parts) == 4 and parts[3] == "extract":
+                            item = APIArchiveExtract.model_validate(body)
+                            revision_id = item.revision_id
+                            if item.file_id:
+                                row = db.conn.execute(
+                                    "SELECT revision_id FROM archive_import_files WHERE job_id=? AND id=?",
+                                    (parts[2], item.file_id),
+                                ).fetchone()
+                                if not row or not row[0]: raise ValueError("imported file has no extracted revision")
+                                revision_id = row[0]
+                            if not revision_id: raise ValueError("revision_id or file_id is required")
+                            provider = build_provider(
+                                item.provider, model=item.model, allow_cloud=item.allow_cloud,
+                                manual_results=Path(item.manual_results) if item.manual_results else None,
+                            )
+                            extraction_id, created = create_extraction_job_from_revision(
+                                db, revision_id, provider,
+                                config=ExtractionConfig(item.chunk_size, item.overlap, item.max_chunks),
+                                allow_cloud=item.allow_cloud,
+                            )
+                            Thread(target=_background_process, args=(db_path, extraction_id, provider), daemon=True).start()
+                            return self._json({"job_id": extraction_id, "created": created, "status": "processing"}, 202)
+                        return self._json({"error": "not found"}, 404)
                     elif self.path.startswith("/api/extractions/"):
                         parts = self.path.strip("/").split("/")
                         if len(parts) == 4 and parts[3] == "commit":

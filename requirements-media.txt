@@ -1,0 +1,5 @@
+# Optional local-only media/OCR tools for the Phase 4 Evidence Archive Importer.
+# FFmpeg/ffprobe and Tesseract are system executables and must be installed separately.
+-r requirements.txt
+faster-whisper>=1.1
+pytesseract>=0.3.13

@@ -15,7 +15,7 @@ from white_rabbit.intelligence_vault.temporal import HistoricalDate, OverlapResu
 def test_initialization_migration_foreign_keys_and_persistence(tmp_path: Path):
     path = tmp_path / "vault.db"
     with VaultDB(path) as db:
-        assert db.stats()["schema_version"] == 4
+        assert db.stats()["schema_version"] == 5
         assert db.conn.execute("PRAGMA foreign_keys").fetchone()[0] == 1
         person = db.add_entity("person", "Ada Example", description="Fictional")
         db.update_entity(person, canonical_name="Ada Historical Example")

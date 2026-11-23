@@ -9,7 +9,7 @@ import re
 from typing import Any
 from uuid import uuid4
 
-from .chunking import DocumentChunk, chunk_source, locate_passage, prepare_source
+from .chunking import DocumentChunk, PreparedSource, SourceSpan, chunk_source, locate_passage, prepare_source
 from .database import VaultDB, normalize_name
 from .extraction_schema import ChunkExtraction
 from .ingestion import ingest_document
@@ -88,9 +88,42 @@ def create_extraction_job(db: VaultDB, source_path: Path, provider: ExtractionPr
     if provider.sends_data_off_device and not allow_cloud:
         raise PermissionError("cloud extraction requires explicit allow_cloud=True")
     document_id, revision_id, _ = ingest_document(db, source_path)
-    revision = db.conn.execute(
-        "SELECT file_hash FROM document_revisions WHERE id=?", (revision_id,)
+    return _create_extraction_job_for_prepared(
+        db, document_id, revision_id, prepare_source(source_path), provider,
+        config=config, allow_cloud=allow_cloud,
+    )
+
+
+def create_extraction_job_from_revision(db: VaultDB, revision_id: str, provider: ExtractionProvider, *,
+                                        config: ExtractionConfig | None = None,
+                                        allow_cloud: bool = False) -> tuple[str, bool]:
+    """Stage AI proposals from an importer's stored derivative without duplicating the source document."""
+    row = db.conn.execute(
+        "SELECT document_id,extracted_text FROM document_revisions WHERE id=?", (revision_id,)
     ).fetchone()
+    if not row:
+        raise KeyError(f"unknown document revision: {revision_id}")
+    text = row["extracted_text"] or ""
+    spans, cursor = [], 0
+    for number, line in enumerate(text.splitlines(keepends=True), start=1):
+        spans.append(SourceSpan(cursor, cursor + len(line), line_start=number, line_end=number))
+        cursor += len(line)
+    prepared = PreparedSource(text, spans, ["source contained no readable text"] if not text.strip() else [])
+    return _create_extraction_job_for_prepared(
+        db, row["document_id"], revision_id, prepared, provider,
+        config=config or ExtractionConfig(), allow_cloud=allow_cloud,
+    )
+
+
+def _create_extraction_job_for_prepared(db: VaultDB, document_id: str, revision_id: str,
+                                        prepared: PreparedSource, provider: ExtractionProvider, *,
+                                        config: ExtractionConfig,
+                                        allow_cloud: bool) -> tuple[str, bool]:
+    if provider.sends_data_off_device and not allow_cloud:
+        raise PermissionError("cloud extraction requires explicit allow_cloud=True")
+    revision = db.conn.execute("SELECT file_hash FROM document_revisions WHERE id=?", (revision_id,)).fetchone()
+    if not revision:
+        raise KeyError(f"unknown document revision: {revision_id}")
     config_data = {**config.normalized(), "provider_fingerprint": provider.fingerprint}
     digest = _config_hash(config_data)
     existing = db.conn.execute(
@@ -101,7 +134,6 @@ def create_extraction_job(db: VaultDB, source_path: Path, provider: ExtractionPr
     if existing:
         return str(existing["id"]), False
 
-    prepared = prepare_source(source_path)
     chunks = chunk_source(
         prepared, revision["file_hash"], chunk_size=config.chunk_size,
         overlap=config.overlap, max_chunks=config.max_chunks,

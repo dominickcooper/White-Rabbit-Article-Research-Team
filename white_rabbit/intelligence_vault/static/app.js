@@ -2,7 +2,7 @@
 
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
-const state = { graph: null, graphPayload: null, timeline: null, paths: null, investigations: new Set() };
+const state = { graph: null, graphPayload: null, timeline: null, paths: null, investigations: new Set(), archive: null };
 
 function el(tag, attrs = {}, children = []) {
   const node = document.createElement(tag);
@@ -32,6 +32,7 @@ function showView(name) {
   if (name === "dashboard") loadDashboard();
   if (name === "investigations") loadInvestigations();
   if (name === "review") loadReview();
+  if (name === "import" && $("#archive-job").value) loadArchiveStatus();
   if (name === "graph" && !state.graphPayload) loadGraph();
   if (name === "timeline" && !state.timeline) loadTimeline();
   history.replaceState(null, "", `#${name}`);
@@ -183,6 +184,22 @@ function showExtraction(value) { $("#extract-output").textContent = JSON.stringi
 async function extractionAction(action) { try { const job = encodeURIComponent($("#extract-job").value); let result; if (action === "start") result = await writeApi("/api/extractions", "POST", { document: $("#extract-document").value, ...extractionPayload() }); else if (action === "status") result = await api(`/api/extractions/${job}`); else if (action === "review") result = await api(`/api/extractions/${job}/review`); else if (action === "retry") result = await writeApi(`/api/extractions/${job}/retry`, "POST", extractionPayload()); else if (action === "commit") result = await writeApi(`/api/extractions/${job}/commit`, "POST", {}); showExtraction(result); } catch (error) { showExtraction({ error: error.message }); } }
 async function decideExtraction(action) { try { const job = encodeURIComponent($("#extract-job").value), proposal = encodeURIComponent($("#extract-proposal").value); const result = await writeApi(`/api/extractions/${job}/proposals/${proposal}`, "PATCH", { action, known_entity_id: $("#extract-known").value || null }); showExtraction(result); } catch (error) { showExtraction({ error: error.message }); } }
 
+function archiveConfig() {
+  return { source: $("#archive-source").value, investigation_name: $("#archive-investigation").value, investigation_id: $("#archive-investigation-id").value || null, transcribe_media: $("#archive-transcribe").checked, ocr_images: $("#archive-ocr").checked, create_thumbnails: $("#archive-thumbnails").checked, whisper_model: $("#archive-whisper-model").value, whisper_device: "cpu" };
+}
+function showArchiveRaw(value) { $("#archive-output").textContent = JSON.stringify(value, null, 2); }
+function renderArchive(value) {
+  state.archive = value; showArchiveRaw(value); const summary = $("#archive-summary"), files = $("#archive-files"), reports = $("#archive-reports"); clear(summary); clear(files); clear(reports);
+  const done = Number(value.completed_files || 0) + Number(value.failed_files || 0), total = Number(value.total_files || 0), percent = total ? Math.round(done / total * 100) : 0;
+  summary.append(el("h2", { text: `${value.status || "preview"} · ${percent}%` }), el("p", { text: `${done} of ${total} files checkpointed · ${value.failed_files || 0} failed · ${value.warning_count || 0} warnings` }), el("progress", { value: done, max: Math.max(total, 1) }));
+  if (value.job_id || value.id) { const job = value.job_id || value.id; (value.reports || []).forEach((name) => reports.append(el("a", { class: "button", href: `/api/archive-imports/${encodeURIComponent(job)}/reports/${encodeURIComponent(name)}`, text: name })))); }
+  (value.files || value.items || []).forEach((item) => files.append(el("article", { class: "card" }, [el("h3", { text: item.relative_path }), el("p", { class: "meta", text: `${item.media_type || "unknown"} · ${item.status || "preview"} · ${item.byte_size || 0} bytes` }), item.warning ? el("p", { text: item.warning }) : null, item.error ? el("p", { class: "danger", text: item.error }) : null])));
+}
+async function archivePreview() { try { renderArchive(await writeApi("/api/archive-imports/preview", "POST", { source: $("#archive-source").value })); } catch (error) { showArchiveRaw({ error: error.message }); } }
+async function archiveStart() { try { const result = await writeApi("/api/archive-imports", "POST", archiveConfig()); $("#archive-job").value = result.job_id; showArchiveRaw(result); setTimeout(loadArchiveStatus, 350); } catch (error) { showArchiveRaw({ error: error.message }); } }
+async function loadArchiveStatus() { try { const job = encodeURIComponent($("#archive-job").value); if (!job) return; const query = qp({ type: $("#archive-filter-type").value, status: $("#archive-filter-status").value, folder: $("#archive-filter-folder").value }); renderArchive(await api(`/api/archive-imports/${job}?${query}`)); } catch (error) { showArchiveRaw({ error: error.message }); } }
+async function archiveAction(action) { try { const job = encodeURIComponent($("#archive-job").value); renderArchive(await writeApi(`/api/archive-imports/${job}/action`, "POST", { action })); if (["resume", "retry"].includes(action)) setTimeout(loadArchiveStatus, 350); } catch (error) { showArchiveRaw({ error: error.message }); } }
+
 $$('.nav button').forEach((button) => button.addEventListener("click", () => showView(button.dataset.view)));
 $$('[data-go]').forEach((button) => button.addEventListener("click", () => showView(button.dataset.go)));
 $("#global-search-button").addEventListener("click", () => { $("#entity-query").value = $("#global-search").value; showView("entities"); runEntitySearch($("#global-search").value); });
@@ -193,4 +210,5 @@ $("#graph-json").addEventListener("click", () => state.graphPayload && download(
 $("#path-find").addEventListener("click", findPaths); $("#path-export").addEventListener("click", () => state.paths && download("relationship-path-report.json", JSON.stringify(state.paths, null, 2), "application/json"));
 $("#timeline-load").addEventListener("click", loadTimeline); $("#timeline-zoom").addEventListener("input", () => state.timeline && renderTimeline()); $("#timeline-json").addEventListener("click", () => state.timeline && download("vault-timeline.json", JSON.stringify(state.timeline, null, 2), "application/json")); $("#timeline-csv").addEventListener("click", () => location.href = `/api/exports/timeline.csv?${qp({ start: $("#timeline-start").value, end: $("#timeline-end").value, entity: $("#timeline-entity").value, event_type: $("#timeline-event-type").value, country: $("#timeline-country").value, investigations: $("#timeline-investigations").value, source: $("#timeline-source").value })}`);
 $("#extract-start").addEventListener("click", () => extractionAction("start")); $("#extract-status").addEventListener("click", () => extractionAction("status")); $("#extract-review").addEventListener("click", () => extractionAction("review")); $("#extract-retry").addEventListener("click", () => extractionAction("retry")); $("#extract-commit").addEventListener("click", () => extractionAction("commit")); $("#extract-approve").addEventListener("click", () => decideExtraction("approve")); $("#extract-reject").addEventListener("click", () => decideExtraction("reject"));
-const initial = location.hash.slice(1); showView(["dashboard", "evidence", "entities", "timeline", "graph", "investigations", "review"].includes(initial) ? initial : "dashboard");
+$("#archive-preview").addEventListener("click", archivePreview); $("#archive-start").addEventListener("click", archiveStart); $("#archive-refresh").addEventListener("click", loadArchiveStatus); $$('[data-archive-action]').forEach((button) => button.addEventListener("click", () => archiveAction(button.dataset.archiveAction)));
+const initial = location.hash.slice(1); showView(["dashboard", "evidence", "entities", "timeline", "graph", "investigations", "review", "import"].includes(initial) ? initial : "dashboard");
