@@ -33,7 +33,7 @@ def test_v1_database_migrates_transactionally_to_latest(tmp_path: Path):
     conn.executescript("BEGIN;" + MIGRATIONS[0][1] + "PRAGMA user_version=1; COMMIT;")
     conn.close()
     with VaultDB(path) as db:
-        assert db.stats()["schema_version"] == 4
+        assert db.stats()["schema_version"] == 5
         columns = {row[1] for row in db.conn.execute("PRAGMA table_info(document_revisions)")}
         assert "archived_path" in columns
 

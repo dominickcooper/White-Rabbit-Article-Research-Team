@@ -380,14 +380,92 @@ Phase 4 can add reviewed multi-hop lead generators and scoring without changing 
 or presenting an unapproved conclusion as accepted history. Any new engine should return
 candidates with their basis and require the existing human promotion boundary.
 
+## Phase 4 — Evidence Archive Importer
+
+Phase 4 adds a resumable, offline-first ZIP/folder intake pipeline to the existing Vault. It
+does not create a second database. Originals enter the existing content-addressed evidence
+archive, extracted text enters `document_revisions`, and documents receive explicit investigation
+membership. Claims, identities, events, and relationships still pass through the existing
+Document → Extract → Validate → Reconcile → Preview → Approve → Commit boundary; importing a
+file never promotes an allegation to accepted knowledge.
+
+Launch the loopback-only application:
+
+```powershell
+.venv\Scripts\python.exe -m white_rabbit vault serve --port 8765
+```
+
+Open `http://127.0.0.1:8765`, select **Import Archive**, enter an absolute local ZIP/folder path,
+preview the inventory, select an existing investigation ID or enter a new investigation name,
+and start the job. The browser sends only the path and options to the local server; it does not
+upload the archive. Per-file checkpoints support pause, resume, cancel, and retry. Completed
+conversions are reused by SHA-256 plus conversion configuration, while every archive path remains
+recorded as provenance.
+
+The equivalent CLI workflow is:
+
+```powershell
+.venv\Scripts\python.exe -m white_rabbit vault archive-preview "C:\path\evidence.zip"
+.venv\Scripts\python.exe -m white_rabbit vault archive-import "C:\path\evidence.zip" --investigation "Investigation Name"
+.venv\Scripts\python.exe -m white_rabbit vault archive-status IMP-ID
+.venv\Scripts\python.exe -m white_rabbit vault archive-action IMP-ID resume
+```
+
+For the real archive, preview first and review its storage estimate. Do not begin costly media
+conversion until local capacity and desired Whisper model have been confirmed:
+
+```powershell
+.venv\Scripts\python.exe -m white_rabbit vault archive-preview "C:\Users\Cody\Downloads\Monarch.zip"
+.venv\Scripts\python.exe -m white_rabbit vault archive-import "C:\Users\Cody\Downloads\Monarch.zip" `
+  --investigation "Monarch Legacy Program" --whisper-model small
+```
+
+The importer prioritizes the named Monarch PDF/PPTX/media sources in
+`prioritized_review_queue.csv`. Every job also produces `inventory.csv`, `manifest.json`,
+`catalog.md`, `folder_tree.txt`, `conversion_status.csv`, and `extraction_errors.csv`; all are
+downloadable from the Import Archive screen.
+
+### Security and conversion boundaries
+
+- ZIP entries are never executed. Absolute/traversal paths, symlinks, normalized path collisions,
+  over-limit entries, excessive expansion ratios, corrupt archives, and unsupported formats are
+  rejected, quarantined, or reported.
+- Extraction is sequential and one member is materialized at a time. Temporary members are removed
+  after each checkpoint. Preview reports expanded bytes, estimated storage, and available storage.
+- SHA-256 controls evidence preservation and deduplication. CRC32 and filenames are inventory data,
+  not identity. Duplicate paths retain exact source-archive and relative-path associations.
+- PDF locators retain pages; PPTX locators retain slides, notes, and tables; spreadsheets retain
+  sheet/row locators; local Whisper transcripts retain timestamps and SRT derivatives; images retain
+  dimensions, thumbnails, and optional OCR warnings/confidence. OCR and transcripts are derivatives,
+  never independent corroborating sources.
+- No cloud service is used by archive intake. Any later cloud extraction still requires explicit
+  consent for that extraction job. Private, sensitive, or potentially illegal material should be
+  paused and handled manually; the importer does not redistribute or publish evidence.
+
+Base conversion dependencies are in `requirements.txt`: PyMuPDF, python-pptx, openpyxl, and Pillow.
+Media/OCR extras are in `requirements-media.txt`. FFmpeg/ffprobe and Tesseract must be installed as
+local system tools. Missing optional tools produce per-file warnings without discarding originals.
+
+### Phase 4 verification
+
+Synthetic tests cover unsafe ZIP members, normalized collisions, symlinks, expansion limits,
+mixed supported/unsupported content, content-hash deduplication across paths, exact byte
+preservation, source metadata and locators, full-text search, report generation, idempotent job
+processing, pause/resume/retry, corrupt PDFs, storage limits, investigation membership, and the
+human-approval boundary. No Monarch media or private archive was processed by the test suite.
+
 ## Known limitations
 
-The Vault uses lexical substring search rather than semantic retrieval, does not OCR image-only
-PDFs, and has no user authentication because the server is enforced as loopback-only. Identity
+The Vault uses lexical substring search rather than semantic retrieval. Image-only PDF pages are
+flagged for review but do not yet run through the image OCR path automatically. The server has no
+user authentication because it is enforced as loopback-only. Identity
 suggestions are deterministic signals, not probabilistic adjudications; a human must confirm
 matches. It does not automatically ingest the archive, invoke an LLM without an explicit
 provider choice (and cloud consent where applicable), rank suspiciousness,
-merge identities, or turn connection candidates into facts. Gemini cost is estimated unless the
+merge identities, or turn connection candidates into facts. Archive intake requires a trusted
+local absolute path rather than a native OS file-picker dialog. Media processing is sequential to
+bound resource use; it does not yet expose a configurable worker pool or generate video contact
+sheets. Gemini cost is estimated unless the
 provider exposes usage metadata. Very large proposal sets currently use JSON/CLI review without
 pagination or a rich side-by-side visual diff. Phase 3 graph and timeline pages are capped at
 500 records; very dense networks will benefit from future server-side aggregation and graph

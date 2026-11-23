@@ -21,6 +21,7 @@
     <button data-view="graph">Red String Board</button>
     <button data-view="investigations">Investigations</button>
     <button data-view="review">Review Queue</button>
+    <button data-view="import">Import Archive</button>
   </nav>
   <main>
     <section id="view-dashboard" class="view active">
@@ -66,6 +67,18 @@
       <div class="view-heading"><div><p class="eyebrow">Human decisions required</p><h1>Review Queue</h1></div></div>
       <div id="review-results" class="two-column"></div>
       <details class="panel maintenance" open><summary>Staged document extraction</summary><p class="meta">Model output remains isolated until individual proposals are approved and committed.</p><div class="toolbar wrap"><input id="extract-document" placeholder="Absolute local document path"><select id="extract-provider"><option value="manual">Manual/offline</option><option value="gemini">Gemini</option><option value="mock">Mock</option></select><input id="extract-results" placeholder="Manual results JSON path"><label class="check"><input id="extract-cloud" type="checkbox"> Explicit cloud consent</label><button id="extract-start">Start extraction</button></div><div class="toolbar wrap"><input id="extract-job" placeholder="JOB-ID"><button id="extract-status">Status</button><button id="extract-review">Review proposals</button><button id="extract-retry">Retry failed chunks</button><button id="extract-commit">Commit approved</button></div><div class="toolbar wrap"><input id="extract-proposal" placeholder="PROP-ID"><input id="extract-known" placeholder="Optional confirmed ENT-ID"><button id="extract-approve">Approve</button><button id="extract-reject">Reject</button></div><pre id="extract-output">Ready.</pre></details>
+    </section>
+
+    <section id="view-import" class="view">
+      <div class="view-heading"><div><p class="eyebrow">Offline, resumable, evidence-preserving</p><h1>Import Evidence Archive</h1><p>Preview a local ZIP or folder, then preserve originals and index supported content without sending it to a network service.</p></div></div>
+      <div class="panel">
+        <div class="toolbar wrap"><label>ZIP or folder <input id="archive-source" size="60" placeholder="C:\\path\\to\\archive.zip"></label><label>Investigation <input id="archive-investigation" value="Monarch Legacy Program"></label><label>Existing investigation ID <input id="archive-investigation-id" placeholder="Optional"></label></div>
+        <div class="toolbar wrap"><label class="check"><input id="archive-transcribe" type="checkbox" checked> Transcribe audio/video when local tools exist</label><label class="check"><input id="archive-ocr" type="checkbox"> OCR images when local tools exist</label><label class="check"><input id="archive-thumbnails" type="checkbox" checked> Create thumbnails</label><label>Whisper model <input id="archive-whisper-model" value="small"></label><button id="archive-preview">Preview</button><button id="archive-start" class="primary">Start import</button></div>
+      </div>
+      <div class="panel">
+        <div class="toolbar wrap"><label>Job ID <input id="archive-job" placeholder="AIM-ID"></label><label>Type <input id="archive-filter-type" placeholder="pdf, image, audio..."></label><label>Status <input id="archive-filter-status" placeholder="complete, failed..."></label><label>Folder <input id="archive-filter-folder" placeholder="Path prefix"></label><button id="archive-refresh">Refresh</button><button data-archive-action="pause">Pause</button><button data-archive-action="resume">Resume</button><button data-archive-action="cancel">Cancel</button><button data-archive-action="retry">Retry failures</button></div>
+        <div id="archive-summary"><p class="empty">No import selected.</p></div><div id="archive-reports" class="button-row"></div><div id="archive-files" class="list"></div><pre id="archive-output">Ready.</pre>
+      </div>
     </section>
   </main>
   <div id="toast" role="status" aria-live="polite"></div>

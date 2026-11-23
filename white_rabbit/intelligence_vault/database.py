@@ -10,7 +10,7 @@ from typing import Any, Iterator
 from uuid import uuid4
 
 
-LATEST_SCHEMA_VERSION = 4
+LATEST_SCHEMA_VERSION = 5
 ENTITY_TYPES = {"person", "organization", "event", "place"}
 
 
@@ -258,6 +258,67 @@ MIGRATIONS = [
     CREATE INDEX idx_relationship_evidence_relationship ON relationship_evidence(relationship_id);
     CREATE INDEX idx_claim_evidence_claim ON claim_evidence(claim_id);
     CREATE INDEX idx_event_dates ON event_details(start_value, end_value);
+    """),
+    (5, """
+    CREATE TABLE archive_import_jobs (
+      id TEXT PRIMARY KEY,
+      source_path TEXT NOT NULL,
+      source_kind TEXT NOT NULL CHECK(source_kind IN ('zip','directory')),
+      source_hash TEXT,
+      investigation_id TEXT NOT NULL REFERENCES investigations(id) ON DELETE RESTRICT,
+      status TEXT NOT NULL,
+      config_json TEXT NOT NULL DEFAULT '{}',
+      total_files INTEGER NOT NULL DEFAULT 0,
+      total_bytes INTEGER NOT NULL DEFAULT 0,
+      completed_files INTEGER NOT NULL DEFAULT 0,
+      failed_files INTEGER NOT NULL DEFAULT 0,
+      warning_count INTEGER NOT NULL DEFAULT 0,
+      error TEXT,
+      report_directory TEXT,
+      created_at TEXT NOT NULL,
+      updated_at TEXT NOT NULL,
+      completed_at TEXT
+    );
+    CREATE TABLE archive_import_files (
+      id TEXT PRIMARY KEY,
+      job_id TEXT NOT NULL REFERENCES archive_import_jobs(id) ON DELETE CASCADE,
+      relative_path TEXT NOT NULL,
+      normalized_path TEXT NOT NULL,
+      filename TEXT NOT NULL,
+      extension TEXT NOT NULL DEFAULT '',
+      media_type TEXT NOT NULL,
+      byte_size INTEGER NOT NULL DEFAULT 0,
+      compressed_size INTEGER,
+      crc32 TEXT,
+      sha256 TEXT,
+      status TEXT NOT NULL DEFAULT 'pending',
+      processing_stage TEXT NOT NULL DEFAULT 'inventory',
+      warning TEXT,
+      error TEXT,
+      document_id TEXT REFERENCES documents(id) ON DELETE SET NULL,
+      revision_id TEXT REFERENCES document_revisions(id) ON DELETE SET NULL,
+      extracted_characters INTEGER NOT NULL DEFAULT 0,
+      locator_count INTEGER NOT NULL DEFAULT 0,
+      conversion_tool TEXT,
+      conversion_version TEXT,
+      conversion_config_hash TEXT,
+      metadata_json TEXT NOT NULL DEFAULT '{}',
+      created_at TEXT NOT NULL,
+      updated_at TEXT NOT NULL
+    );
+    CREATE INDEX idx_archive_import_files_job_status ON archive_import_files(job_id,status,media_type);
+    CREATE INDEX idx_archive_import_files_hash ON archive_import_files(sha256,conversion_config_hash,status);
+    CREATE TABLE archive_derivatives (
+      id TEXT PRIMARY KEY,
+      file_id TEXT NOT NULL REFERENCES archive_import_files(id) ON DELETE CASCADE,
+      derivative_type TEXT NOT NULL,
+      relative_path TEXT,
+      content_hash TEXT,
+      locator_json TEXT NOT NULL DEFAULT '{}',
+      metadata_json TEXT NOT NULL DEFAULT '{}',
+      created_at TEXT NOT NULL,
+      UNIQUE(file_id,derivative_type,relative_path)
+    );
     """)
 ]
 
@@ -870,7 +931,12 @@ class VaultDB:
                WHERE (lower(e.canonical_name) LIKE ? OR lower(COALESCE(a.alias,'')) LIKE ?)""" + type_clause + " LIMIT ?", params
         ).fetchall()
         claims = self.conn.execute("SELECT * FROM claims WHERE lower(statement) LIKE ? LIMIT ?", (like, limit)).fetchall()
-        documents = self.conn.execute("SELECT * FROM documents WHERE lower(title) LIKE ? LIMIT ?", (like, limit)).fetchall()
+        documents = self.conn.execute(
+            """SELECT DISTINCT d.* FROM documents d
+               LEFT JOIN document_revisions dr ON dr.document_id=d.id
+               WHERE lower(d.title) LIKE ? OR lower(COALESCE(dr.extracted_text,'')) LIKE ? LIMIT ?""",
+            (like, like, limit),
+        ).fetchall()
         return {"entities": [dict(r) for r in entities], "claims": [dict(r) for r in claims],
                 "documents": [dict(r) for r in documents]}
 
@@ -892,6 +958,8 @@ class VaultDB:
         for kind in sorted(ENTITY_TYPES):
             result[kind] = int(self.conn.execute("SELECT COUNT(*) FROM entities WHERE entity_type=?", (kind,)).fetchone()[0])
         result["schema_version"] = int(self.conn.execute("PRAGMA user_version").fetchone()[0])
+        result["archive_import_jobs"] = int(self.conn.execute("SELECT COUNT(*) FROM archive_import_jobs").fetchone()[0])
+        result["archive_import_files"] = int(self.conn.execute("SELECT COUNT(*) FROM archive_import_files").fetchone()[0])
         return result
 
     def export(self) -> dict[str, Any]:
@@ -902,6 +970,7 @@ class VaultDB:
             "import_entity_bindings", "claims", "claim_evidence", "claim_entities", "relationships",
             "relationship_evidence", "conflicts", "merge_suggestions", "extraction_jobs", "extraction_chunks",
             "extraction_proposals", "extraction_quality_issues", "extraction_approval_history",
+            "archive_import_jobs", "archive_import_files", "archive_derivatives",
         ]
         return {"schema_version": LATEST_SCHEMA_VERSION,
                 "exported_at": _now(),
